@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+# Hivefleet Leviathan
+hivefleet_leviathan = {
+	name = "Hivefleet Leviathan"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Tyranids"
+	species_plural = "Tyranids"	#we should localize the names!
+	species_adjective = "Tyranid"
+	adjective = "Leviathan"
+	
+	name_list = "TYRANID1"
+	ship_prefix = ""
+	
+	species_class = "ART"
+	trait = "trait_rapid_breeders"
+	trait = "trait_quick_learners"
+	trait = "trait_repugnant"
+	trait = "trait_communal"
+	portrait = "imp_tyranid"
+	
+	planet_name = "Jehet Prime"
+	planet_class = "pc_arid"
+	system_name = Jehet
+	
+	government = "despotic_empire"
+	ethic = "ethic_militarist"
+	ethic = "ethic_fanatic_collectivist"
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"indigo"
+			"white"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Haragma"
+	#	class = ruler
+	#	portrait = "fun13"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		randomized = yes
+	}
+}

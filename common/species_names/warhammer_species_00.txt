@@ -1,0 +1,35 @@
+
+IMP = {
+	mankind = {
+		name = Imperium of Man
+		plural = Humans
+		home_planet = Holy Terra
+		home_system = Sol
+		name_list = "IMPERIUM1"
+	}	
+}
+
+#CHA = {
+#}
+#
+#DEL = {
+#}
+#
+#ELD = {
+#}
+#
+#NEC = {
+#}
+#
+#ORC = {
+#}
+#
+#SLA = {
+#}
+#
+#TER = {
+#}
+#
+#TYR = {
+#}
+  

@@ -1,0 +1,125 @@
+
+@distance = 30
+@base_moon_distance = 10
+
+
+Fenris = {
+    name = "Fenris"
+    class = "pc_b_star"
+
+
+	class = "sc_g"
+	
+	planet = {
+		name = "Wolf's Eye"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 13
+		has_ring = no
+	}
+
+    planet = {
+        name = "Fenris"
+        class = "pc_arctic"
+        orbit_distance = 40
+        orbit_angle = 273
+		has_ring = no
+
+		size = 17
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = Fenrisplanet
+			set_planet_flag = spacemarinehomeworld
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_system_capital
+				
+				
+					##add_building = "building_Space_Wolves_fortress_monastery"
+											
+				
+				
+				
+					
+		}
+		moon = {
+            name = "Valdrmani"
+            class = "pc_barren_cold"
+            orbit_distance = 8
+            orbit_angle = 120
+            size = 10
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        name = "Midgardia"
+        class = "pc_tropical"
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+
+		size = 20
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = Midgardiaplanet
+		
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_capital		
+		}
+    }
+	
+	planet = {
+        name = "Frostheim "
+        class = "pc_arctic"
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+
+		size = 15
+		
+		moon = {
+            name = "Svellgard"
+            class = "pc_arctic"
+            orbit_distance = 8
+            orbit_angle = 120
+            size = 10
+            has_ring = no
+
+        }
+    }
+	
+}

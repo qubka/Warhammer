@@ -1,0 +1,199 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+armageddon2 = {
+    name = "Armageddon"
+    class = "pc_b_star"
+    
+
+	class = "sc_g"
+	
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 13
+		has_ring = no
+	}
+
+    planet = {
+        name = "Kernbright"
+        class = "pc_molten"
+        orbit_distance = 25
+        orbit_angle = 40
+        size = 10
+        has_ring = no
+        size = 10
+    }
+
+    planet = {
+        name = "Verity"
+        class = "pc_molten"
+        orbit_distance = 10
+        orbit_angle = 231
+        has_ring = no
+        size = 11
+    }
+
+    planet = {
+        name = "Gaval"
+        class = "pc_arid"
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+
+		size = 10
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = Gavalplanet
+			set_planet_flag = armageddonwar1planet
+			set_planet_flag = armageddonwar2planet
+			set_planet_flag = armageddonwar3planet
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_capital		
+		}
+    }
+
+    planet = {
+        name = "Armageddon"
+        class = "pc_hive_industrial"
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		size = 25
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = Armageddonplanet
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_system_capital	
+					
+		}
+    }
+
+    planet = {
+        name = "Chosin"
+        class = "pc_arctic"
+        orbit_distance = 10
+        orbit_angle = 130
+        has_ring = no
+        size = 15
+    }
+
+    planet = {
+        name = "St. Jowen's Dock"
+        class = "pc_industrial"
+		 flags = { industrialplanet_planet }
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		size = 15
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = StJowensDockplanet
+			set_planet_flag = armageddonwar1planet
+			set_planet_flag = armageddonwar2planet
+			set_planet_flag = armageddonwar3planet
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_major_capital		
+		}
+    }
+
+    planet = {
+        name = "Namara"
+        class = "pc_gas_giant"
+        orbit_distance = 10
+        orbit_angle = 132
+        has_ring = no
+        size = 24
+    }
+
+    planet = {
+        name = "Gramaul"
+        class = "pc_gas_giant"
+        orbit_distance = 10
+        orbit_angle = 63
+        has_ring = no
+        size = 26
+    }
+
+    planet = {
+        name = "Pelucidar"
+        class = "pc_tropical"
+        orbit_distance = 10
+        orbit_angle = 228
+        has_ring = no
+        size = 18
+    }
+
+    planet = {
+        name = "Iandai"
+        class = "pc_gas_giant"
+        orbit_distance = 10
+        orbit_angle = 234
+        has_ring = yes
+        size = 25
+    }
+
+    planet = {
+        name = "Manngeim"
+        class = random_asteroid
+        orbit_distance = 10
+        orbit_angle = 40
+        has_ring = no
+        size = 3
+    }
+}

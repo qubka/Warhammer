@@ -1,0 +1,94 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+imperiumsecundinitiali = {
+	name = "Gathalamor"
+	class = "sc_g"
+	flags = { Gathalamor_homeworld }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 304
+        has_ring = no
+
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 148
+        has_ring = no
+
+    }
+	
+	planet = {
+		name = "Gathalamor"
+		class = "pc_shrine"
+ 	flags = { shrineplanet_planet }
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 25
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_traitor_star_empire
+				}
+				save_event_target_as = mankind_traitor_star_empire
+			}
+		
+			event_target:mankind_traitor_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_traitor_star_empire
+			
+			add_building = building_system_capital	
+				#add_building = rebels_center
+				
+		}
+		
+		moon = {
+			name = "T'au"
+			count = { min = 1 max = 1 }
+			class = random
+			size = { min = 1 max = 10 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 8 max = 10 }
+			has_ring = no
+		}
+	}
+
+	planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 304
+        has_ring = no
+
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 148
+        has_ring = no
+
+    }
+}

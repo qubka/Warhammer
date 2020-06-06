@@ -1,0 +1,256 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+
+#######################################################################################
+
+
+mankind_homeworld = {
+	name = "Sol"
+	
+	class = "sc_g"
+	
+	#flags = { sol_system sol }
+	
+	#usage = custom_empire
+	
+	planet = {
+		name = "Sol"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Mercury"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Venus"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Terra"
+		class = "pc_hive_medium"
+  		flags = { hiveplanet_planet }                  # added by mvd1984   for setup events
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 25
+		starting_planet = yes
+		has_ring = no
+		#deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			set_planet_flag = Terraplanet
+			set_planet_flag = spacemarinehomeworld
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+				
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			
+			add_building = building_system_capital
+			#add_building = astronomican
+			#add_building = golden_throne
+			#add_building = emperor_shrine_smh
+			##add_building = building_Legio_Custodes_fortress_monastery
+			##add_building = building_Imperial_Fists_fortress_monastery
+			create_pop = { species = owner_main_species }		
+		}
+		
+		moon = {
+			name = "Luna"
+			class = "pc_hive_medium"
+  			flags = { hiveplanet_planet }                  # added by mvd1984   for setup events
+			size = 10
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			deposit_blockers = none    		# changede by mvd1984
+			modifiers = none
+			init_effect = {
+		
+				prevent_anomaly = yes
+				every_country = {
+					limit = {
+						has_country_flag = mankind_star_empire
+					}
+					save_event_target_as = mankind_star_empire
+				}
+			
+				event_target:mankind_star_empire = { 
+
+				}
+				
+				set_owner = event_target:mankind_star_empire
+				set_controller = event_target:mankind_star_empire
+				
+				add_building = building_major_capital
+				
+				create_pop = { species = owner_main_species }
+		}
+		}
+	}
+	
+	planet = {
+		name = "Mars"
+		class = "pc_forge_ring2"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 25
+		has_ring = no
+		deposit_blockers = none			# changede by mvd1984
+		modifiers = none
+		 
+ 		init_effect = {
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			set_planet_flag = Marsplanet
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+					
+			add_building = building_system_capital
+		
+				
+					##add_building = building_emperor_titan_base_1
+					
+				
+					##add_building = building_warlord_titan_base_1
+					
+				
+					##add_building = building_reaver_titan_base_1
+					
+				
+					##add_building = building_warhound_titan_base_1
+					
+			create_pop = { species = owner_main_species }				
+		}
+		
+	}
+	
+	planet = {
+		name = "1 Ceres"
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "2 Pallas"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "3 Juno"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "4 Vesta"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Saturn"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		
+		change_orbit = 7
+		
+		moon = {
+			name = "Titan"
+			class = "pc_arctic"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+			deposit_blockers = none				# Changde by mvd1984
+			modifiers = none
+			deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+				set_planet_flag = Titanplanet
+				set_planet_flag = spacemarinehomeworld
+				prevent_anomaly = yes
+				every_country = {
+					limit = {
+						has_country_flag = mankind_star_empire
+					}
+					save_event_target_as = mankind_star_empire
+				}
+			
+				event_target:mankind_star_empire = { 
+
+				}
+				
+				set_owner = event_target:mankind_star_empire
+				set_controller = event_target:mankind_star_empire
+			
+				add_building = building_system_capital
+				
+				
+					##add_building = "building_Grey_Knights_fortress_monastery"
+				
+				
+				create_pop = { species = owner_main_species }
+						
+			}
+		}
+	}
+	
+	
+	
+	
+	
+}
+
+
+

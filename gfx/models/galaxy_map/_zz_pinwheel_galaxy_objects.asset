@@ -1,0 +1,431 @@
+entity = {
+	name = "default_galaxy_center_entity"
+
+	# position : x/y/z +x goes left, -x goes right, +y goes higher, -y goes lower, +z goes down, -z goes up
+
+	# Quadrant composite
+	#locator = { name = "quadrant" position = { 0.0 -0.2 0.0 } rotation ={ 0 0 0 } }
+	#attach = { quadrant = "ig_astronomical_objects_quadrant_animated_composite_entity" }
+
+	locator = { name = "center" position = { 0 0 0 } rotation ={ 0 0 0 } }
+	# attach = { center = "ig_astronomical_objects_galactic_core_entity" }
+	attach = { center = "ig_astronomical_objects_globular_cloud_big_entity" }
+	attach = { center = "ig_astronomical_objects_globular_cloud_med_entity" }
+
+	locator = { name = "starfield01" position = { 0 0 0 } rotation ={ 0 0 0 } }
+	attach = { starfield01 = "ig_astronomical_objects_star_field_animated_01_entity" }
+	locator = { name = "starfield02" position = { 0 0.2 0 } rotation ={ 0 0 0 } }
+	attach = { starfield02 = "ig_astronomical_objects_star_field_animated_02_entity" }
+	locator = { name = "starfield03" position = { 0 0.9 0 } rotation ={ 0 0 0 } }
+	# attach = { starfield03 = "ig_astronomical_objects_star_field_animated_02_entity" }
+	locator = { name = "starfield04" position = { 0 -0.7 0 } rotation ={ 0 0 0 } }
+	attach = { starfield04 = "ig_astronomical_objects_star_field_animated_03_entity" }
+	locator = { name = "starfield05" position = { 0 1.3 0 } rotation ={ 0 0 0 } }
+	# attach = { starfield05 = "ig_astronomical_objects_star_field_animated_03_entity" }
+	locator = { name = "starfield06" position = { 0 -1.8 0 } rotation ={ 0 0 0 } }
+	attach = { starfield06 = "ig_astronomical_objects_star_field_animated_04_entity" }
+	locator = { name = "starfield07" position = { 0 1.9 0 } rotation ={ 0 0 0 } }
+	# attach = { starfield07 = "ig_astronomical_objects_star_field_animated_04_entity" }
+	locator = { name = "starfield08" position = { 0 -2.6 0 } rotation ={ 0 0 0 } }
+	# attach = { starfield08 = "ig_astronomical_objects_star_field_animated_05_entity" }
+	locator = { name = "starfield09" position = { 0 4.1 0 } rotation ={ 0 0 0 } }
+	# attach = { starfield09 = "ig_astronomical_objects_star_field_animated_05_entity" }
+
+	locator = { name = "starfieldside01" position = { 0 0 0 } rotation ={ 0 90 0 } }
+	attach = { starfieldside01 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside02" position = { 0 0 0 } rotation ={ 180 90 15 } }
+	attach = { starfieldside02 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside03" position = { 0 0 0 } rotation ={ 0 90 30 } }
+	attach = { starfieldside03 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside04" position = { 0 0 0 } rotation ={ 180 90 45 } }
+	attach = { starfieldside04 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside05" position = { 0 0 0 } rotation ={ 0 90 60 } }
+	attach = { starfieldside05 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside06" position = { 0 0 0 } rotation ={ 180 90 75 } }
+	attach = { starfieldside06 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside07" position = { 0 0 0 } rotation ={ 0 90 90 } }
+	attach = { starfieldside07 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside08" position = { 0 0 0 } rotation ={ 180 90 105 } }
+	attach = { starfieldside08 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside09" position = { 0 0 0 } rotation ={ 0 90 120 } }
+	attach = { starfieldside09 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside10" position = { 0 0 0 } rotation ={ 180 90 135 } }
+	attach = { starfieldside10 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside11" position = { 0 0 0 } rotation ={ 0 90 150 } }
+	attach = { starfieldside11 = "ig_astronomical_objects_star_field_side_01_entity" }
+	locator = { name = "starfieldside12" position = { 0 0 0 } rotation ={ 180 90 165 } }
+	attach = { starfieldside12 = "ig_astronomical_objects_star_field_side_01_entity" }
+
+	# Companion galaxies
+	locator = { name = "companiongalaxy01" position = { 72 23 -79 } rotation ={ 31 28 42 } }
+	attach = { companiongalaxy01 = "ig_astronomical_objects_companion_galaxy_animated_01_entity" }
+	attach = { companiongalaxy01 = "ig_astronomical_objects_companion_galaxy_star_field_01_entity" }
+	locator = { name = "companiongalaxy01-nebula01" position = { 70 21 -78 } rotation ={ -20 78 111 } }
+	attach = { companiongalaxy01-nebula01 = "ig_astronomical_objects_nebula_01_blue_big_entity" }
+	locator = { name = "companiongalaxy01-nebula02" position = { 69 26 -73 } rotation ={ -78 59 18 } }
+	attach = { companiongalaxy01-nebula02 = "ig_astronomical_objects_nebula_01_blue_big_entity" }
+	locator = { name = "companiongalaxy01-nebula03" position = { 66 31 -77 } rotation ={ 45 34 -51 } }
+	attach = { companiongalaxy01-nebula03= "ig_astronomical_objects_nebula_01_red_big_entity" }
+	locator = { name = "companiongalaxy01-nebula04" position = { 61 18 -82 } rotation ={ 33 -71 43 } }
+	attach = { companiongalaxy01-nebula04 = "ig_astronomical_objects_nebula_01_red_big_entity" }
+	locator = { name = "companiongalaxy01-nebula05" position = { 70 15 -73 } rotation ={ 33 -71 43 } }
+	attach = { companiongalaxy01-nebula05 = "ig_astronomical_objects_nebula_01_red_big_entity" }
+
+	locator = { name = "companiongalaxy02" position = { -69 -8 17 } rotation ={ 11 37 -41 } }
+	attach = { companiongalaxy02 = "ig_astronomical_objects_companion_galaxy_animated_02_entity" }
+	attach = { companiongalaxy02 = "ig_astronomical_objects_companion_galaxy_star_field_02_entity" }
+
+	locator = { name = "companiongalaxy03" position = { 82 19 34 } rotation ={ 97 17 33 } }
+	attach = { companiongalaxy03 = "ig_astronomical_objects_companion_galaxy_animated_03_entity" }
+	attach = { companiongalaxy03 = "ig_astronomical_objects_companion_galaxy_star_field_03_entity" }
+
+	locator = { name = "companiondwarfgalaxy01" position = { -69 -11 -44 } rotation ={ 0 0 0 } }
+	attach = { companiondwarfgalaxy01 = "ig_astronomical_objects_galactic_core_entity" }
+	attach = { companiondwarfgalaxy01 = "ig_astronomical_objects_companion_dwarf_galaxy_composed_entity" }
+
+	# Ring nebula
+	locator = { name = "nebula01-01" position = { -21 1.2 18 } rotation ={ 4 10 8 } }
+	attach = { nebula01-01 = "ig_astronomical_objects_nebula_01_blue_big_entity" }
+	locator = { name = "nebula01-02" position = { 17 0.7 -13 } rotation ={ 25 -30 44 } }
+	attach = { nebula01-02 = "ig_astronomical_objects_nebula_01_red_big_entity" }
+	locator = { name = "nebula01-03" position = { 9 0.1 -19 } rotation ={ -22 70 -14 } }
+	attach = { nebula01-03 = "ig_astronomical_objects_nebula_01_blue_medium_entity" }
+	locator = { name = "nebula01-04" position = { -6 -0.2 9 } rotation ={ 12 10 -25 } }
+	attach = { nebula01-04 = "ig_astronomical_objects_nebula_01_blue_medium_entity" }
+	locator = { name = "nebula01-05" position = { -9 -1.8 27 } rotation ={ -52 -93 -11 } }
+	attach = { nebula01-05 = "ig_astronomical_objects_nebula_01_red_medium_entity" }
+	locator = { name = "nebula01-06" position = { 1 1.7 13 } rotation ={ -5 -113 51 } }
+	attach = { nebula01-06 = "ig_astronomical_objects_nebula_01_blue_small_entity" }
+	locator = { name = "nebula01-07" position = { -13 -1.1 -16 } rotation ={ 85 41 -11 } }
+	attach = { nebula01-07 = "ig_astronomical_objects_nebula_01_blue_small_entity" }
+	locator = { name = "nebula01-08" position = { 1 0.5 -15 } rotation ={ -5 111 -86 } }
+	attach = { nebula01-08 = "ig_astronomical_objects_nebula_01_blue_small_entity" }
+	locator = { name = "nebula01-09" position = { 18 0.3 2 } rotation ={ 15 34 23 } }
+	attach = { nebula01-09 = "ig_astronomical_objects_nebula_01_blue_small_entity" }
+	locator = { name = "nebula01-10" position = { 25 0.1 23 } rotation ={ -19 -120 88 } }
+	attach = { nebula01-10 = "ig_astronomical_objects_nebula_01_blue_small_entity" }
+	locator = { name = "nebula01-11" position = { 0 0.1 32 } rotation ={ 39 10 -23 } }
+	attach = { nebula01-11 = "ig_astronomical_objects_nebula_01_red_small_entity" }
+	locator = { name = "nebula01-12" position = { 33 -0.3 2 } rotation ={ -19 80 50 } }
+	attach = { nebula01-12 = "ig_astronomical_objects_nebula_01_red_small_entity" }
+	locator = { name = "nebula01-13" position = { -33 0.1 -3 } rotation ={ 59 -82 14 } }
+	attach = { nebula01-13 = "ig_astronomical_objects_nebula_01_red_small_entity" }
+	locator = { name = "nebula01-14" position = { 30 0.1 29 } rotation ={ 119 12 -74 } }
+	attach = { nebula01-14 = "ig_astronomical_objects_nebula_01_red_small_entity" }
+	locator = { name = "nebula01-15" position = { -26 -0.2 3 } rotation ={ -88 77 -5 } }
+	attach = { nebula01-15 = "ig_astronomical_objects_nebula_01_red_small_entity" }
+
+	# Generic color clouds
+	locator = { name = "nebula02-01" position = { -1 0.6 35 } rotation ={ 0 0 0 } }
+	attach = { nebula02-01 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-02" position = { 17 0.1 2 } rotation ={ 0 0 0 } }
+	attach = { nebula02-02 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-03" position = { -8 0.7 -19 } rotation ={ 0 0 0 } }
+	attach = { nebula02-03 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-04" position = { 1 0.3 3 } rotation ={ 0 0 0 } }
+	attach = { nebula02-04 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-05" position = { 13 -1.1 17 } rotation ={ 0 0 0 } }
+	attach = { nebula02-05 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-06" position = { -22 0.1 -2 } rotation ={ 0 0 0 } }
+	attach = { nebula02-06 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-07" position = { 2 -0.7 -2 } rotation ={ 0 0 0 } }
+	attach = { nebula02-07 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-08" position = { -15 0.6 13 } rotation ={ 0 0 0 } }
+	attach = { nebula02-08 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-09" position = { 5 0.5 -22 } rotation ={ 0 0 0 } }
+	attach = { nebula02-09 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-09" position = { 19 0.1 -18 } rotation ={ 0 0 0 } }
+	attach = { nebula02-09 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula02-10" position = { 22 0.2 19 } rotation ={ 0 0 0 } }
+	attach = { nebula02-10 = "ig_astronomical_objects_nebula_02_green_entity" }
+	locator = { name = "nebula02-11" position = { -31 0.1 -9 } rotation ={ 0 0 0 } }
+	attach = { nebula02-11 = "ig_astronomical_objects_nebula_02_green_entity" }
+	locator = { name = "nebula02-12" position = { 13 0.5 -19 } rotation ={ 0 0 0 } }
+	attach = { nebula02-12 = "ig_astronomical_objects_nebula_02_green_entity" }
+	locator = { name = "nebula02-13" position = { 8 0.5 -6 } rotation ={ 0 0 0 } }
+	attach = { nebula02-13 = "ig_astronomical_objects_nebula_02_green_entity" }
+	locator = { name = "nebula02-14" position = { -14 0.5 16 } rotation ={ 0 0 0 } }
+	attach = { nebula02-14 = "ig_astronomical_objects_nebula_02_green_entity" }
+	locator = { name = "nebula02-15" position = { 2 0.5 -35 } rotation ={ 0 0 0 } }
+	attach = { nebula02-15 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula02-16" position = { 0 0.1 -25 } rotation ={ 0 0 0 } }
+	attach = { nebula02-16 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula02-17" position = { 5 0.2 -29 } rotation ={ 0 0 0 } }
+	attach = { nebula02-17 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula02-18" position = { 22 0.1 -25 } rotation ={ 0 0 0 } }
+	attach = { nebula02-18 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula02-19" position = { -22 0.1 25 } rotation ={ 0 0 0 } }
+	attach = { nebula02-19 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula02-20" position = { -33 0.3 0 } rotation ={ 0 0 0 } }
+	attach = { nebula02-20 = "ig_astronomical_objects_nebula_02_purple_entity" }
+	locator = { name = "nebula02-21" position = { -33 0.2 29 } rotation ={ 0 0 0 } }
+	attach = { nebula02-21 = "ig_astronomical_objects_nebula_02_purple_entity" }
+	locator = { name = "nebula02-22" position = { 28 0.2 2 } rotation ={ 0 0 0 } }
+	attach = { nebula02-22 = "ig_astronomical_objects_nebula_02_purple_entity" }
+	locator = { name = "nebula02-23" position = { 22 0.2 9 } rotation ={ 0 0 0 } }
+	attach = { nebula02-23 = "ig_astronomical_objects_nebula_02_purple_entity" }
+	locator = { name = "nebula02-24" position = { -32 0.2 -9 } rotation ={ 0 0 0 } }
+	attach = { nebula02-24 = "ig_astronomical_objects_nebula_02_purple_entity" }
+	locator = { name = "nebula02-25" position = { 0 0.2 41 } rotation ={ 0 0 0 } }
+	attach = { nebula02-25 = "ig_astronomical_objects_nebula_02_purple_entity" }
+
+	# Ejection nebula
+	locator = { name = "nebula03-01" position = { 0 0.2 41 } rotation ={ -111 50 39 } }
+	attach = { nebula03-01 = "ig_astronomical_objects_nebula_03_big_entity" }
+	attach = { nebula03-01 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula03-02" position = { -35 0.1 21 } rotation ={ 94 -78 -6 } }
+	attach = { nebula03-02 = "ig_astronomical_objects_nebula_03_big_entity" }
+	attach = { nebula03-02 = "ig_astronomical_objects_nebula_01_shockwave_entity" }
+	attach = { nebula03-02 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula03-03" position = { -9 0.5 2 } rotation ={ 19 22 47 } }
+	attach = { nebula03-03 = "ig_astronomical_objects_nebula_03_medium_entity" }
+	locator = { name = "nebula03-04" position = { 5 0.5 -4 } rotation ={ -54 -31 -78 } }
+	attach = { nebula03-04 = "ig_astronomical_objects_nebula_03_medium_entity" }
+	locator = { name = "nebula03-05" position = { -26 0.5 -35 } rotation ={ 74 2 -78 } }
+	attach = { nebula03-05 = "ig_astronomical_objects_nebula_03_medium_entity" }
+	attach = { nebula03-05 = "ig_astronomical_objects_nebula_02_shockwave_entity" }
+	attach = { nebula03-05 = "ig_astronomical_objects_nebula_02_red_entity" }
+
+	# Double half sphere
+	locator = { name = "nebula04-01" position = { 2 0.5 2 } rotation ={ -4 85 31 } }
+	attach = { nebula04-01 = "ig_astronomical_objects_nebula_04_big_entity" }
+	attach = { nebula04-01 = "ig_astronomical_objects_nebula_03_shockwave_entity" }
+	attach = { nebula04-01 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula04-02" position = { -5 0.1 33 } rotation ={ 41 -15 89 } }
+	attach = { nebula04-02 = "ig_astronomical_objects_nebula_04_big_entity" }
+	attach = { nebula04-02 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula04-03" position = { 22 -0.5 14 } rotation ={ 91 -41 1 } }
+	attach = { nebula04-03 = "ig_astronomical_objects_nebula_04_medium_entity" }
+	attach = { nebula04-03 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula04-04" position = { -5 -0.1 -19 } rotation ={ 72 99 -76 } }
+	attach = { nebula04-04 = "ig_astronomical_objects_nebula_04_medium_entity" }
+	attach = { nebula04-04 = "ig_astronomical_objects_nebula_02_blue_entity" }
+	locator = { name = "nebula04-05" position = { -15 0.2 33 } rotation ={ -49 32 -10 } }
+	attach = { nebula04-05 = "ig_astronomical_objects_nebula_04_medium_entity" }
+	attach = { nebula04-05 = "ig_astronomical_objects_nebula_02_blue_entity" }
+
+	# Long double half sphere
+	locator = { name = "nebula05-01" position = { -2 -0.2 1 } rotation ={ 78 -104 29 } }
+	attach = { nebula05-01 = "ig_astronomical_objects_nebula_05_big_entity" }
+	attach = { nebula05-01 = "ig_astronomical_objects_nebula_01_shockwave_entity" }
+	attach = { nebula05-01 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula05-02" position = { -22 0.1 8 } rotation ={ 41 24 39 } }
+	attach = { nebula05-02 = "ig_astronomical_objects_nebula_05_big_entity" }
+	attach = { nebula05-02 = "ig_astronomical_objects_nebula_02_shockwave_entity" }
+	attach = { nebula05-02 = "ig_astronomical_objects_nebula_02_red_entity" }
+	locator = { name = "nebula05-03" position = { 8 -0.1 31 } rotation ={ 81 -37 66 } }
+	attach = { nebula05-03 = "ig_astronomical_objects_nebula_05_medium_entity" }
+	locator = { name = "nebula05-04" position = { 15 -0.1 -22 } rotation ={ -19 78 -100 } }
+	attach = { nebula05-04 = "ig_astronomical_objects_nebula_05_medium_entity" }
+	locator = { name = "nebula05-05" position = { -26 -0.1 28 } rotation ={ 46 -42 74 } }
+	attach = { nebula05-05 = "ig_astronomical_objects_nebula_05_medium_entity" }
+
+	# Eight Burst Nebula
+	locator = { name = "nebula06-01" position = { -4 0.2 -3 } rotation ={ 49 71 -28 } }
+	attach = { nebula06-01 = "ig_astronomical_objects_nebula_06_big_entity" }
+	locator = { name = "nebula06-02" position = { -34 0.1 -13 } rotation ={ 5 3 -8 } }
+	attach = { nebula06-02 = "ig_astronomical_objects_nebula_06_medium_entity" }
+	locator = { name = "nebula06-03" position = { 21 -0.1 -28 } rotation ={ 78 2 33 } }
+	attach = { nebula06-03 = "ig_astronomical_objects_nebula_06_medium_entity" }
+
+	# Twin Jet Nebula
+	locator = { name = "nebula07-01" position = { 5 0.2 -2 } rotation ={ 24 -62 42 } }
+	attach = { nebula07-01 = "ig_astronomical_objects_nebula_07_big_entity" }
+	locator = { name = "nebula07-02" position = { -3 0.1 4 } rotation ={ 124 8 -12 } }
+	attach = { nebula07-02 = "ig_astronomical_objects_nebula_07_big_entity" }
+	locator = { name = "nebula07-03" position = { -21 -0.2 6 } rotation ={ 51 22 44 } }
+	attach = { nebula07-03 = "ig_astronomical_objects_nebula_07_medium_entity" }
+	locator = { name = "nebula07-04" position = { -36 -0.2 -3 } rotation ={ 36 -45 -69 } }
+	attach = { nebula07-04 = "ig_astronomical_objects_nebula_07_medium_entity" }
+
+	# Eta Carinea
+	locator = { name = "nebula08-01" position = { 7 2.5 8 } rotation ={ -78 -33 15 } }
+	attach = { nebula08-01 = "ig_astronomical_objects_nebula_08_composite_entity" }
+	locator = { name = "nebula08-02" position = { 32 1.2 28 } rotation ={ 25 -93 -39 } }
+	attach = { nebula08-02 = "ig_astronomical_objects_nebula_08_composite_entity" }
+	locator = { name = "nebula08-03" position = { -41 1 18 } rotation ={ 37 87 -32 } }
+	attach = { nebula08-03 = "ig_astronomical_objects_nebula_08_composite_entity" }
+	locator = { name = "nebula08-04" position = { -35 -1.5 -39 } rotation ={ 52 71 29 } }
+	attach = { nebula08-04 = "ig_astronomical_objects_nebula_08_composite_entity" }
+	locator = { name = "nebula08-05" position = { 39 0.8 -27 } rotation ={ 66 -48 16 } }
+	attach = { nebula08-05 = "ig_astronomical_objects_nebula_08_composite_entity" }
+
+	# Flat real nebulae
+	locator = { name = "nebula09-01" position = { 22 -2.8 35 } rotation ={ 6 -4 1 } }
+	attach = { nebula09-01 = "ig_astronomical_objects_nebula_09_01_entity" }
+	locator = { name = "nebula09-02" position = { -40 -2.1 1 } rotation ={ 13 6 5 } }
+	attach = { nebula09-02 = "ig_astronomical_objects_nebula_09_02_entity" }
+	locator = { name = "nebula09-03" position = { 6 -1.5 -37 } rotation ={ -22 -9 -9 } }
+	attach = { nebula09-03 = "ig_astronomical_objects_nebula_09_03_entity" }
+	locator = { name = "nebula09-04" position = { 40 -0.7 0 } rotation ={ 33 19 8 } }
+	attach = { nebula09-04 = "ig_astronomical_objects_nebula_09_04_entity" }
+	locator = { name = "nebula09-05" position = { 5 -0.6 28 } rotation ={ 56 -6 9 } }
+	attach = { nebula09-05 = "ig_astronomical_objects_nebula_09_05_entity" }
+	locator = { name = "nebula09-06" position = { 28 -0.9 28 } rotation ={ -26 22 9 } }
+	attach = { nebula09-06 = "ig_astronomical_objects_nebula_09_06_entity" }
+	locator = { name = "nebula09-07" position = { -29 -1.2 -11 } rotation ={ 92 31 8 } }
+	attach = { nebula09-07 = "ig_astronomical_objects_nebula_09_07_entity" }
+	locator = { name = "nebula09-08" position = { 2 -2.2 3 } rotation ={ 91 3 -10 } }
+	attach = { nebula09-08 = "ig_astronomical_objects_nebula_09_08_entity" }
+
+	# Flat fantasy nebulae
+	locator = { name = "nebula09-09" position = { 13 1.1 5 } rotation ={ 91 5 6 } }
+	attach = { nebula09-09 = "ig_astronomical_objects_nebula_09_09_entity" }
+	locator = { name = "nebula09-10" position = { 13 0.2 13 } rotation ={ 80 13 5 } }
+	attach = { nebula09-10 = "ig_astronomical_objects_nebula_09_10_entity" }
+	locator = { name = "nebula09-11" position = { 14 0.6 19 } rotation ={ -5 6 -6 } }
+	attach = { nebula09-11 = "ig_astronomical_objects_nebula_09_11_entity" }
+	locator = { name = "nebula09-12" position = { 35 -0.3 20 } rotation ={ 2 9 3 } }
+	attach = { nebula09-12 = "ig_astronomical_objects_nebula_09_12_entity" }
+	locator = { name = "nebula09-13" position = { -25 -2.1 36 } rotation ={ 94 1 19 } }
+	attach = { nebula09-13 = "ig_astronomical_objects_nebula_09_13_entity" }
+	locator = { name = "nebula09-14" position = { -5 -1.3 -30 } rotation ={ -61 5 22 } }
+	attach = { nebula09-14 = "ig_astronomical_objects_nebula_09_14_entity" }
+	locator = { name = "nebula09-15" position = { -28 -0.6 31 } rotation ={ -16 4 -3 } }
+	attach = { nebula09-15 = "ig_astronomical_objects_nebula_09_15_entity" }
+	locator = { name = "nebula09-16" position = { 35 0.8 55 } rotation ={ 97 -3 4 } }
+	attach = { nebula09-16 = "ig_astronomical_objects_nebula_09_16_entity" }
+	locator = { name = "nebula09-17" position = { 15 -1.6 11 } rotation ={ 15 10 5 } }
+	attach = { nebula09-17 = "ig_astronomical_objects_nebula_09_17_entity" }
+	locator = { name = "nebula09-18" position = { -11 -1.2 -45 } rotation ={ 3 -6 19 } }
+	attach = { nebula09-18 = "ig_astronomical_objects_nebula_09_18_entity" }
+	locator = { name = "nebula09-19" position = { 13 -0.9 -37 } rotation ={ 9 1 -13 } }
+	attach = { nebula09-19 = "ig_astronomical_objects_nebula_09_19_entity" }
+	locator = { name = "nebula09-20" position = { -39 0.2 21 } rotation ={ -41 6 8 } }
+	attach = { nebula09-20 = "ig_astronomical_objects_nebula_09_20_entity" }
+	locator = { name = "nebula09-21" position = { -5 -0.2 21 } rotation ={ -22 9 7 } }
+	attach = { nebula09-21 = "ig_astronomical_objects_nebula_09_21_entity" }
+	locator = { name = "nebula09-22" position = { 45 -0.6 -36 } rotation ={ -31 11 -6 } }
+	attach = { nebula09-22 = "ig_astronomical_objects_nebula_09_22_entity" }
+	locator = { name = "nebula09-23" position = { 39 -0.4 -6 } rotation ={ 99 21 -9 } }
+	attach = { nebula09-23 = "ig_astronomical_objects_nebula_09_23_entity" }
+	locator = { name = "nebula09-24" position = { 44 -0.6 -32 } rotation ={ 28 8 8 } }
+	attach = { nebula09-24 = "ig_astronomical_objects_nebula_09_24_entity" }
+	locator = { name = "nebula09-25" position = { 36 -0.6 0 } rotation ={ 82 6 -7 } }
+	attach = { nebula09-25 = "ig_astronomical_objects_nebula_09_25_entity" }
+	locator = { name = "nebula09-26" position = { -33 -0.6 33 } rotation ={ 5 8 1 } }
+	attach = { nebula09-26 = "ig_astronomical_objects_nebula_09_26_entity" }
+	locator = { name = "nebula09-27" position = { 8 0.2 -7 } rotation ={ 56 -5 -22 } }
+	attach = { nebula09-27 = "ig_astronomical_objects_nebula_09_27_entity" }
+	locator = { name = "nebula09-28" position = { -17 -1.6 -9 } rotation ={ 9 -1 -3 } }
+	attach = { nebula09-28 = "ig_astronomical_objects_nebula_09_28_entity" }
+	locator = { name = "nebula09-29" position = { -39 -0.7 29 } rotation ={ 59 8 -13 } }
+	attach = { nebula09-29 = "ig_astronomical_objects_nebula_09_29_entity" }
+	locator = { name = "nebula09-30" position = { -19 -1.1 -3 } rotation ={ 78 4 1 } }
+	attach = { nebula09-30 = "ig_astronomical_objects_nebula_09_30_entity" }
+	locator = { name = "nebula09-31" position = { 8 -1.6 -13 } rotation ={ 31 -4 8 } }
+	attach = { nebula09-31 = "ig_astronomical_objects_nebula_09_31_entity" }
+	locator = { name = "nebula09-32" position = { 41 0.3 36 } rotation ={ 74 1 -3 } }
+	attach = { nebula09-32 = "ig_astronomical_objects_nebula_09_32_entity" }
+	locator = { name = "nebula09-33" position = { 29 0.3 -19 } rotation ={ 33 2 -2 } }
+	attach = { nebula09-33 = "ig_astronomical_objects_nebula_09_33_entity" }
+	locator = { name = "nebula09-34" position = { -37 0.3 22 } rotation ={ -45 -6 6 } }
+	attach = { nebula09-34 = "ig_astronomical_objects_nebula_09_34_entity" }
+	locator = { name = "nebula09-35" position = { 19 0.3 41 } rotation ={ 9 3 -5 } }
+	attach = { nebula09-35 = "ig_astronomical_objects_nebula_09_35_entity" }
+	locator = { name = "nebula09-36" position = { 33 0.3 -8 } rotation ={ 39 -9 9 } }
+	attach = { nebula09-36 = "ig_astronomical_objects_nebula_09_36_entity" }
+	locator = { name = "nebula09-37" position = { 15 0.3 -9 } rotation ={ 88 -11 8 } }
+	attach = { nebula09-37 = "ig_astronomical_objects_nebula_09_37_entity" }
+	locator = { name = "nebula09-38" position = { -29 0.3 3 } rotation ={ -46 13 -6 } }
+	attach = { nebula09-38 = "ig_astronomical_objects_nebula_09_38_entity" }
+	locator = { name = "nebula09-39" position = { 41 0.3 -2 } rotation ={ -2 -9 11 } }
+	attach = { nebula09-39 = "ig_astronomical_objects_nebula_09_39_entity" }
+	locator = { name = "nebula09-40" position = { -37 0.3 3 } rotation ={ 31 -3 3 } }
+	attach = { nebula09-40 = "ig_astronomical_objects_nebula_09_40_entity" }
+	locator = { name = "nebula09-41" position = { -29 0.3 -5 } rotation ={ 5 2 -19 } }
+	attach = { nebula09-41 = "ig_astronomical_objects_nebula_09_41_entity" }
+	locator = { name = "nebula09-42" position = { -9 0.3 34 } rotation ={ 6 -1 -16 } }
+	attach = { nebula09-42 = "ig_astronomical_objects_nebula_09_42_entity" }
+	locator = { name = "nebula09-43" position = { -29 0.3 39 } rotation ={ -9 -11 6 } }
+	attach = { nebula09-43 = "ig_astronomical_objects_nebula_09_43_entity" }
+	locator = { name = "nebula09-44" position = { -1 0.3 41 } rotation ={ -59 8 9 } }
+	attach = { nebula09-44 = "ig_astronomical_objects_nebula_09_43_entity" }
+
+	# Quadrant composite
+	locator = { name = "quadrant" position = { 0.0 -0.2 0.0 } rotation ={ 0 0 0 } }
+	attach = { quadrant = "ig_astronomical_objects_quadrant_animated_composite_entity" }
+
+	# L-cluster
+	locator = { name = "L-Cluster-caption" position = { -55 -0.2 -52 } rotation ={ 0 0 0 } }
+	attach = { L-Cluster-caption = "ig_astronomical_objects_lcluster_caption_01_entity" }
+	locator = { name = "L-Cluster-01" position = { -55 0.2 -55 } rotation ={ 99 5 -22 } }
+	attach = { L-Cluster-01 = "ig_astronomical_objects_lcluster_nebula_01_entity" }
+	attach = { L-Cluster-01 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-01 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-02" position = { -59 0.9 -54 } rotation ={ 11 3 8 } }
+	attach = { L-Cluster-02 = "ig_astronomical_objects_lcluster_nebula_02_entity" }
+	attach = { L-Cluster-02 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-02 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-03" position = { -51 -0.6 -53 } rotation ={ 75 3 15 } }
+	attach = { L-Cluster-03 = "ig_astronomical_objects_lcluster_nebula_03_entity" }
+	attach = { L-Cluster-03 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-03 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-04" position = { -53 -0.1 -51 } rotation ={ 45 -2 0 } }
+	attach = { L-Cluster-04 = "ig_astronomical_objects_lcluster_nebula_04_entity" }
+	attach = { L-Cluster-04 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-04 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-05" position = { -49 1.2 -51 } rotation ={ 35 8 3 } }
+	attach = { L-Cluster-05 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-05 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-06" position = { -52 -0.9 -58 } rotation ={ 55 -7 9 } }
+	attach = { L-Cluster-06 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-06 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-07" position = { -56 -0.9 -59 } rotation ={ 33 9 -15 } }
+	attach = { L-Cluster-07 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-07 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-08" position = { -58 -0.9 -58 } rotation ={ 22 -9 2 } }
+	attach = { L-Cluster-08 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-08 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-09" position = { -61 -2.7 -58 } rotation ={ 30 8 11 } }
+	attach = { L-Cluster-09 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-09 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-10" position = { -58 1.9 -60 } rotation ={ 8 19 12 } }
+	attach = { L-Cluster-10 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-10 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-11" position = { -51 3.6 -58 } rotation ={ 17 33 0 } }
+	attach = { L-Cluster-11 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-11 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-11" position = { -53 1.7 -56 } rotation ={ 18 39 -42 } }
+	attach = { L-Cluster-11 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-11 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-12" position = { -59 0.9 -54 } rotation ={ 33 -72 16 } }
+	attach = { L-Cluster-12 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-12 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-13" position = { -57 2.9 -55 } rotation ={ -34 37 -27 } }
+	attach = { L-Cluster-13 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-13 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-14" position = { -56 1.8 -54 } rotation ={ -71 -31 -70 } }
+	attach = { L-Cluster-14 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-14 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-15" position = { -57 -1.6 -52 } rotation ={ 45 -52 11 } }
+	attach = { L-Cluster-15 = "ig_astronomical_objects_cloud_animated_composite_entity" }
+	attach = { L-Cluster-15 = "ig_astronomical_objects_lcluster_starfield_01_entity" }
+	locator = { name = "L-Cluster-BigDust-01" position = { -54 -1.6 -56 } rotation ={ 18 -3 2 } }
+	attach = { L-Cluster-BigDust-01 = "ig_astronomical_objects_cloud_animated_03_entity" }
+	locator = { name = "L-Cluster-BigDust-02" position = { -53 0.3 -55 } rotation ={ -55 7 -5 } }
+	attach = { L-Cluster-BigDust-02 = "ig_astronomical_objects_cloud_animated_04_entity" }
+	locator = { name = "L-Cluster-BigDust-03" position = { -52 2.1 -55 } rotation ={ 78 3 9 } }
+	attach = { L-Cluster-BigDust-03 = "ig_astronomical_objects_cloud_animated_05_entity" }
+	attach = { L-Cluster-BigDust-03 = "ig_astronomical_objects_cloud_animated_03_entity" }
+	locator = { name = "L-Cluster-BigDust-04" position = { -51 0.3 -54 } rotation ={ 22 -6 2 } }
+	attach = { L-Cluster-BigDust-04 = "ig_astronomical_objects_cloud_animated_05_entity" }
+	locator = { name = "L-Cluster-BigDust-05" position = { -53 0.3 -52 } rotation ={ -34 8 9 } }
+	attach = { L-Cluster-BigDust-05 = "ig_astronomical_objects_cloud_animated_03_entity" }
+
+
+	cull_radius = 1000
+	default_state = "idle"
+	state = {
+		name = "idle" state_time = 30 looping = yes
+		start_event = { time = 0 particle = "pinwheel_particle" trigger_once = yes keep_particle = yes }
+		start_event = { time = 0 particle = "quadrant_particle" trigger_once = yes keep_particle = yes }
+		start_event = { time = 0 particle = "black_hole_particle" trigger_once = yes keep_particle = yes }
+		start_event = { time = 0 particle = "galactic_rings_particle" trigger_once = yes keep_particle = yes }
+		start_event = { time = 0 particle = "grid_particle" trigger_once = yes keep_particle = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_galaxy_map_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_galaxy_map_02" } }
+	}
+	playback_rate = 1
+	scale = 15
+}

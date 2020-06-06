@@ -1,0 +1,280 @@
+﻿### By Panther and with additions from KonradKurze202 list.
+### Imperium_Names_1
+IMPERIUM1 = {	
+
+	category = "Humanoid"
+	### SHIPS
+	ship_names = {
+	
+		generic = { "Godefroy Magnificat" "His Will" Triumph "Duke Helbrecht" "Divine Right" "Dominus Astra" "Indomitable Wrath" "Legatus Stygies" "Lord of Light"
+			Corax "Green Lake" "Justus Dominus" Bloodhawk "Cardinal Boras" "Saint Augusta" "Pride of Fenris"
+			Victory "Hammer of Scaro" "Vae Victus" "Virtue of Helena" Huud "Immortal Emperor" Inflexible  "Legatus Styx" "Justus Dominus" "Vigilanti Eternas" "Leonid" "Atrox Venator" "Efferus Rapturis"
+		   "Vox Caelus"
+		   "Bloodhawk" "Vanguard" "Archangel" "Arbitrator"
+		   "Lion's Roar" "Caliban's Vengeance" "Angel of Darkness" "Angelum Tenebrum"
+		   "Warrior of the Plains" "Khan's Marauder" "Warhawk"
+		   "Pride of Fenris" "Fist of Russ" "Potens Lupus"
+		   "Dorn's Wrath" "Praetorian" "Imperial Fist"
+		   "Baal Fire" "Angelus Extremus" "Purifying Flame" "Blood Knight"
+		   "Ferrum Aeterna" "Medusa's Iron Gaze" "Iron Lord" "Strength of Iron"
+		   "Fist of Macragge" "Behemoth's Bane" "Defender of Ultramar" "Might of Calth"
+		   "Night of Nocturne" "Drake Lord" "Nocte Vigil" "Salamander's Breath"
+		   "Deliverance" "Raven Lord" "Black Winged Angel"
+		   "Holy Light of Tallarn" "Valhallan Fervor" "Orask's Hope" "Knight of Voltoris" "Stygian Vanquisher"
+		   "Remembrance of Acheron" "Victory of Agripinaa" "Saviour of Antax" "Arcadian Legatus" "Aurellian Light"
+		   "Voice of Fortanis" "Coronian Exemplar" "Remembrance of Cybele" "Fire of Kar Duniash"
+		   "Tancredi's Pride" "Anvil of Tancredi" "Trancedi Light" "Revenge of Ur-haven" "Flaming Arrow of Urdesh"
+		   "Urdeshi Pride" "Vostroyan Firstborn"
+		}
+	
+		corvette = { Claymore "Triumph" "Indomitable Wrath" "Fortitude" "Invincible" "Righteous Fury" "Spirit of Defiance"
+		   "Retribution" "Relentless" "Zealous" "Vigilant" "Guardian" "Harrower" "Valiant" "Liberator" "Loyalty"
+		   "Temerity" "Justice" "Courage" "Defiant" "Endurance" "Strength" "Valor Eternal" "Implacable" "Wisdom"
+		   "Final Silence" "Order Absolute" "Indomitable Purpose"
+		   "Vae Victus" "Omnis Arcanum" "Sollicitus" "Industria" "Caritas" "Callidus" "Lux Severitas"
+		   "Honesti Virum" "Virtus Animae" "Ecclesiasticus Potentatum" "Fera Rapax" "Sapientius" "Dignitas"
+		   "Bellator Stoicus" "Auctoritas" "Comitas" "Constantia" "Clementia" "Firmitas" "Gravias" "Justitia"
+		   "Veritas" "Pietas" "Fidelis Defensoris" "Templarii"
+		}
+		
+		destroyer = { Turbulent Falchion Firestorm Sword Tempest Havoc Cobra Viper "Fury Interceptor" "Shark Assault Boat"
+			"Starhawk Bomber" "Tempest" "Blizzard" "Tsunami" "Cyclone" "Thunder" "Storm" "Firestorm"
+		   "Sword Infernus" "Sword of Retribution" "Sword of Orion" "Blade of Drusus" "Sword of Voss"
+		   "Sword of Caliban" "Destiny's Lane"
+		   "Falchion" "Gladius" "Katar" "Kodachi" "Kukri" "Pulwar" "Rapier" "Spatha" "Katana" "Bardiche"
+		   "Morning Star" "Sarissa" "Lance" "Naginata" "Javelin"
+		   "Hammer of Justice" "Hammer of Thrace" "Hammer of Nocturne"
+
+		}
+		
+		cruiser = { Avenger Exorcist Vengeance Armageddon Chalice Mars Overlord Dominion Mercury Ambition
+			Cardinal Dictator Dominator Gothic Lunar Tyrant Dauntless Defender Defiant Endeavor Endurance Enforcer Siluria
+			"Virtue of Helena" "Pallas Imperius" "August" "Hermes" "Jovian Might" "Depths of Neptune" "Fires of Hades"
+		   "Judgement of Juno" "Fires of Mars" "Aenead" "Bellona" "Tiber" "Apollan Light" "Dis Pater" "Nyx" "Virtus"
+		   "Minotaur" "Goliath" "Cerebus" "Gorgon" "Argus the All-Seeing" "Charon" "Erinyes" "Griffon's Strike"
+		   "Shrike" "Lamia" "Calydonian Boar" "Aetos Dios" "Herald of the Dawn" "Helios" "Sun Lord"
+		   "Nemean Lion" "Snake of Hera" "Laconian Drakon" "Pheonix" "Valkyrie's Shield"
+		}
+		
+		battleship = { Apocalypse Emperor "Nemesis Fleet Carrier" Oberon Retribution Victory Vanquisher Invincible "Emperor's Grace" "Fist of the Emperor" "Emperor's Wrath" "Caesar" "His Will" "Imperial Wrath"
+		   "Will of the Emperor" "Emperor's Light" "God-Emperor's Vengeance"
+		   "Basilius Lux" "Raptorus Rex" "Imperator Oculos" "Imperator Gladio" "Lux Imperator" "Anima Imperator"
+		   "Militem Imperetor" "Dei Angelus Mortem" "Caelo Fortitudo Est"
+		   "Triumph of Saint Drusus" "Saint Augusta" "Saint of Scintilla" "Sanctus Legate" "Euphrati Keeler"
+		   "Fist of Agamemnon" "Guns of Macharius" "Flame of Saint Ezra" "Saint Sabbat's Legacy"
+		   "Light of the Saints" "Praxides the Warrior" "Wings of the Angels" "Silvana's Sacrifice"
+
+		}
+		
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = { Carrack Tarask "Lord of Light" "Light of Ascension"
+		   "Luxor" "Quaesitor"
+		   "Omnissiah's Victory" "Ark Mechanicus" "Light of the Omnissiah" "Deus Machina" "Glory of the Omnissiah"
+		}
+		
+		colonizer = { Universe Merchantman "Eternal Faith" "Divine Right" "Righteous Power" "Preceptor" "Divine Crusader" "Destiny's Hand"
+			"Undying Faith" "Light of the Golden Throne" "Imperial Truth"
+		}
+		
+		constructor = { Viper Sloop "Kingmaker" "Eternal Faith" "Vigilance" "Pillars of the Empire"
+			"Ex Cathedra" "Pax Imperium" "Cresco Imperi" "Carpae Fortunae" "Munus Aeternum"
+		}
+		
+		outpost_station = {
+			random_names = {
+				"Guardian of Aquinas" "The Sword Infernus" "Warrior Knight" "Light of Ascension" Kingmaker "Ramilles Class Star Fort"
+				"The Covenanter" "Vigilanti Eternas" "Hammer of Light" "Ex Cathedra" Indomitable
+
+
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		ion_cannon = {
+		}
+	}
+	
+	ship_class_names = {
+		generic = {
+			Il-Koth Daskall Mongath Sipii Narsul Vithar Kermel Saggor Gasna Dirama Bolkoth Erenth Ethill Kushana Joddam Korgas Ismir Centhor Piroc Pulnar Mol-Vikh Ter-Math Ythamm Hessendroc Shoshona Damghalla Salaas Mitgapp Linntyl Yllmassa Illajon Jesslur Gimalbon Konsha Bathun Khaagul
+		}		
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Pax Imperium Fleet" "Imperious Fleet" "Marquis Lex Fleet" "First of Russ Fleet" "Cardinal Xian Fleet" "Jovian Fleet"
+			"Cypra Probatii Fleet" "Flame of Purity Fleet" "Niove Fleet" "Sword of Retribution Fleet" "Righteous Power Fleet"
+			"Battlefleet Agripinaa" "Battlefleet Armageddon" "Battlefleet Bakka" "Battlefleet Cadia"  "Battlefleet Solar" "Battlefleet Scarus"
+		}
+		sequential_name = "%O% Battlefleet"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Imperial Guards"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Space Marines"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Hive Gangers"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Warriors"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Dreadnoughts"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Terminators"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Librarians"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenos Thugs"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Ordos Xenos"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {"Adumbria" "Antax" "Anthos" "Arconar" "Argentor" "Ariyo" "Artemia Majoris" "Arthos" "Asgard" "Ashek"
+         "Avellorn" "Avignor" "Banna" "Boros" "Cyclopia" "Cypra Mundi" "Delaphina" "Deliverance" "Dimmamar"
+         "Donia" "Dorvastor" "Dulan" "Erenon" "Esko" "Eurytion" "Eyrie" "Formal" "Gallilenus" "Garm" "Prism"
+         "Gathalamor" "Gehena" "Harakon" "Hazhim" "Heidrun" "Heletine" "Hermetica" "Hydraphur" "Kai"
+         "Karkariad" "Kathur" "Kiavahr" "Kimmeria" "Kodiak" "Lilia Mundi" "Lodius" "Macharia" "Melchior"
+         "Meridian" "Methuzela" "Minerva" "Mordian" "Nihilas" "Orask" "Orestes" "Oscillia" "Parabulus"
+         "Paraxus" "Persepolis" "Phobian" "Praesidea" "Regulus" "Sabatine" "Sable" "Salem Proctor" "Sanctum"
+         "Sanctus Lys" "Sharlor" "Silence" "St. Guise" "St. Salvus" "Targus" "Temperus" "Trepytos" "Ur-haven"
+         "Urdesh" "Valon Urr" "Vardan" "Veneris" "Verghast" "Xenax"	
+			}
+		}
+		
+		pc_desert = {
+			names = { "Balle Prime" "Calderis" "Drusus" "Gacrux" "Gonoria Prime" "Goru-Prime" "Herod" "Inferria Prime"
+         "Jago" "Kanak" "Lavantia" "Luther Macintyre" "Marfak" "Masali" "Mithron" "Mordant Prime" "Murzim"
+         "Na'jadar" "Necromunda" "Nocturne" "Quatara Prime" "Quintarn" "Rand" "Sarius" "Secunda"
+         "Surealis" "Tallarn" "Tanis" "Tarentus" "Terrax" "Thargorum" "Thoth" "Torhaven" "Tranquility"
+         "Zibal"
+			}
+		}
+		
+		pc_tropical = {
+			names = {  "Askelphion" "Belaeno" "Biegel" "Catachan" "Chiros" "Cretacia" "Dusk" "Elnath" "Fedrid" "Galavan"
+         "Galmor" "Goranado" "Graffias" "Hyades" "Ichovar" "Iocanthos" "Malfi" "Merga" "Miral" "Mordriana"
+         "Naos" "Orbel Quill" "Pythos" "Rana" "Rhorsch" "Taygeta" "Vaxanide" "Veskepine"
+			}
+		}
+		
+		pc_arid = {
+			names = { "Agripinaa" "Armageddon" "Atilla" "Baraspine" "Brycantia" "Cyrus Vulpa" "Galaspar" "Herodor"
+         "Khongkotan" "Minea" "Praetoria" "Quatra" "Scelus" "Stygia" "Thracian Primaris" "Zaebus Minoris"
+			}
+		}
+		
+		pc_continental = {
+			names = {  "Algol" "Aquilon" "Arcadia" "Black Reach" "Boonhaven" "Cadia" "Cassell" "Colcha" "Coronis"
+         "Cyprian's Gate" "Elysia" "Espandor" "Gereon" "Gravalax" "Gudrun" "Hagia" "Hilarion" "Honourum" "Iax"
+         "Jouran" "Kourava" "Macragge" "Mekbuda" "Mundus Planus" "Ophelia" "Orask" "Pavar" "Perlia" "Quaddis"
+         "Sacris" "Sameter" "Sancour" "Scintilla" "Siculi" "Terion" "Voltemand" "Ymnar"
+			}
+		}
+		
+		pc_ocean = {
+			names = { "Archipelaga" "Brun" "Duthovan" "Eswulus" "Fervious" "Gruss" "Ithaka" "Khai-zhan" "Reth" "Samax"
+         "Spectoris" "Tahnel" "Talassar" "Tyrama Secundus" "Voltoris"
+			}
+		}
+		
+		pc_tundra = {
+			names = {    "Baal" "Baalus Trine" "Belacane" "Hubris" "Inwit" "K'otal" "Maccabeus" "Medusa" "Percipre"
+         "Periremunda" "Sepheris Secundus" "Solstice" "Vostroya"
+			}
+		}
+		
+		pc_arctic = {
+			names = {  "Alfrost" "Aurelia" "Belatis" "Betalis" "Carcharias" "Dheneb" "Fenris" "Furund" "Galathas" "Heckla"
+         "Karrik" "Lorn" "Mendona" "Pylar" "Valhalla" "Wezn" "Winterhome" "Yngirheim" "Zoran"
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# Always combined with a second name
+			first_names_male = { Raduriel Marneus Cato Varro Darnath Lysander Vulkan Kayvaan Pedro Azrael Belial Lemartes
+			Osmadiel Galgaliel Bosus Fabriros Varatos Ventameon Merolus Cyro Logan Ragnmar Calgar Avann Kaldor Draigo
+			Henghac Juline Alehor Koridor Soluila Shaikim Perro Cuchar Sharrare Kafziel Omniel
+			Emmanuel Sicatrius Manudon Rhetocius Tarinus Nelesias Sicakus Aegok Lefvil
+			Lodald Grimah Ton Kyurast Calgixx Rohilsa Amerec "Absolom" "Alecto" "Antonius" "Anton" "Ario" "Artor" "Armandus" "Ashok" "Asmodai" "Asterion" "Auros"
+         "Azrael" "Azariah" "Baal" "Beor" "Bronislaw" "Carab" "Coteaz" "Cymar" "Delius" "Drake" "Elias" "Emil"
+         "Ernst" "Ezekiel" "Ferdinand" "Franx" "Franz" "Gaius" "Gerhart" "Geron" "Gideon" "Godwyn" "Gregor"
+         "Harlon" "Ibram" "Isaan" "Isador" "Ishmael" "Jaq" "Jaric" "Joachim" "Jorus" "Jubal" "Julius" "Juri"
+         "Kaldor" "Kardan" "Konstantos" "Konvak" "Logan" "Malachite" "Malakim" "Malas" "Marduk" "Marneus" "Midas"
+         "Mikelus" "Nassir" "Nikolai" "Octus" "Ollanius" "Pavel" "Pyriel" "Scarn" "Shaidan" "Silas" "Solomon"
+         "Suresya" "Titus" "Tylos" "Ulrik" "Uziel" "Verant" "Virgil" "Vladamir" "Xavier" "Zakariah"
+			}
+			first_names_female = {
+				Anna Alicia Dominica Katherine Arabella Silvana Lucia Mina Praxedes Celestine Helena Anais Miriya Yelena Olga Oksana Tatyana Svetlana Nadya Yekaterina Irina Galina Miroslava Anastasia Vera Polina Lyudmila Elena
+				Marina Darya Irma Ksenia Alexandra Nadesja Valentina Arina Alya Galenka Katya Ljuba Radmila Natacha Vlada Nadezhda
+				Tatiana Sonia Mira
+				
+			}
+			
+			# Always combined with a first name
+			second_names = { Shrike Blood Angel Fist Guard Raven Crimson White Scars Wolf Iron Ashhair Knight Iron-Father Wolf-Priest Castellan Absolvus Agmar Alathis Akios Amhrad Andrastia Annellus Aquila Argastes Argolis Armand Astador Astelan
+         Aubrid Bardane Barzano Belarius Bequin Calan Calgar Carax Carnarvon Castivarus Chalan Clausel Coil
+         Cullen Czevak Darke Dhar Draco Draigo Dressen Dyce Enoch Eisenhorn Fischig Flense Furioso Furst Gallius
+         Gaunt Greiss Grey Grimm Grimmaesson Grimnar Hakkon Hand Harkhammer Heldane Horst Hylgar Hyramm Jaegar
+         Jurten Kantor Karan Kessen Kasteen Kalypsia Karamanz Karamazov Killian Kushing Lann Layran Lok Matthias
+         Mendoza Molitor Moloc Mordecai Ortise Ortys Pennet Periphas Phoros Praxus Ravenor Rubio Schaeffer
+         Sharpe Seneca Soth Stainer Stark Stronos Steele Straken Thaddeus Thonius Thrasius Torquemada Tyrus Vail
+         Varnus Valeria Verchen Vilnius Voke White Xavier Zurinev Zerbe
+			}
+			
+			regnal_first_names_male = {
+			Raduriel Osmadiel Galgaliel Bosus Fabriros Varatos Ventameon Merolus Cyro
+			Henghac Juline Alehor Koridor Soluila Shaikim Perro Cuchar Sharrare Kafziel Omniel
+			Emmanuel Sicatrius Manudon Rhetocius TarinusNelesias Sicakus Aegok Lefvil
+			Lodald Grimah Ton Kyurast Calgixx Rohilsa Amerec "Absolom" "Agamemnon" "Alecto" "Antonius" "Aret" "Avitohol" "Azrael" "Azariah" "Constantine" "Corvus" "Crassus"
+         "Delius" "Drusus" "Elias" "Ezekiel" "Ezra" "Ibram" "Illyich" "Ishmael" "Jeremiah" "Jubal" "Konrad"
+         "Konstantos" "Leonis" "Lucius" "Lucretius" "Macharius" "Mikail" "Nikolai" "Ollanius" "Orten" "Pyriel"
+         "Severnius" "Silas" "Solomon" "Titus" "Uther" "Virgil" "Zakariah"
+			}
+			regnal_first_names_female = {
+				Theodora Fatima Miranda Cordelia Svetlana Anastasia Valentina Henrietta Anna Alicia Dominica Katherine Arabella Silvana Lucia Mina Praxedes Celestine Helena Anais Miriya Yelena Olga Oksana Tatyana Svetlana Nadya Yekaterina Irina Galina Miroslava Anastasia Vera Polina Lyudmila Elena
+				Marina Darya Irma Ksenia Alexandra Nadesja Valentina Arina Alya Galenka Katya Ljuba Radmila Natacha Vlada Nadezhda
+				Tatiana Sonia Mira
+			}
+			regnal_second_names = { Shrike Blood Angel Fist Guard Raven Crimson White Scars Wolf Iron Ashhair Knight Iron-Father Wolf-Priest Castellan Absolvus Agustius Alastor Amaros Angelos Angevin Calgar Corvo Cullen Dominica Drake Heldane Hezail
+         Kaljuk Keeler Khan Kyrus Leonid Nox Pius Rex
+         Severax Tigurius Vallkante
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+carriondeep = {
+	name = "Carrion Deep"
+	class = "sc_g"
+	flags = { carriondeep }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Carrion Deep"
+		class = "pc_tomb"
+ 		flags = { tombplanet_planet }
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = necronmaynarkh_empire
+				}
+				save_event_target_as = necronmaynarkh_empire
+			}
+		
+			event_target:necronmaynarkh_empire = { 
+
+			}
+			
+			set_owner = event_target:necronmaynarkh_empire
+			
+			add_building = building_system_capital	
+				
+				
+						
+		}
+		
+		
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}

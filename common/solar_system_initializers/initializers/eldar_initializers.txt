@@ -1,0 +1,354 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+
+ulthwe_homeworld = {
+	name = "Ulthwe Craftworld"
+	class = "sc_g"
+	flags = { ulthwe_homeworld }
+	planet = {
+		name = "Ulthwe Craftworld"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Ulthwe'Craftworld"
+		class = "pc_craftworld"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			set_planet_flag = UlthweCraftworld
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eldar_ulthwe_empire
+				}
+				save_event_target_as = eldar_ulthwe_empire
+			}
+		
+			event_target:eldar_ulthwe_empire = { 
+
+			}
+			
+			set_owner = event_target:eldar_ulthwe_empire
+						
+			#add_building = craftworld_eternity_circuit						
+		
+			add_building = building_system_capital
+					
+									
+							
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+ymeloc_homeworld = {
+	name = "Yme-Loc Craftworld"
+	class = "sc_g"
+	flags = { ymeloc_homeworld }
+	planet = {
+		name = "Yme-Loc Craftworld"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Yme-Loc Craftworld"
+		class = "pc_craftworld"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eldar_ymeloc_empire
+				}
+				save_event_target_as = eldar_ymeloc_empire
+			}
+		
+			event_target:eldar_alaitoc_empire = { 
+
+			}
+			
+			set_owner = event_target:eldar_ymeloc_empire
+			
+					
+			#add_building = craftworld_eternity_circuit					
+		
+			add_building = building_system_capital
+					
+									
+							
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+bieltan_homeworld = {
+	name = "Biel-Tan'Craftworld"
+	class = "sc_g"
+	flags = { bieltan_homeworld }
+	planet = {
+		name = "Biel-Tan Craftworld"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Biel-Tan'Craftworld"
+		class = "pc_craftworld"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eldar_bieltan_empire
+				}
+				save_event_target_as = eldar_bieltan_empire
+			}
+		
+			event_target:eldar_bieltan_empire = { 
+
+			}
+			
+			set_owner = event_target:eldar_bieltan_empire
+			
+			
+			
+			
+			
+			
+			
+			#add_building = craftworld_eternity_circuit						
+		
+			add_building = building_system_capital
+					
+									
+							
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+alaitoc_homeworld = {
+	name = "Alaitoc'Craftworld"
+	class = "sc_g"
+	flags = { alaitoc_homeworld }
+	planet = {
+		name = "Alaitoc Craftworld"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Alaitoc'Craftworld"
+		class = "pc_craftworld"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eldar_alaitoc_empire
+				}
+				save_event_target_as = eldar_alaitoc_empire
+			}
+		
+			event_target:eldar_alaitoc_empire = { 
+
+			}
+			
+			set_owner = event_target:eldar_alaitoc_empire
+		
+ 			add_building = building_system_capital
+					
+									
+							
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+iyanden_homeworld = {
+	name = "Iyanden'Craftworld"
+	class = "sc_g"
+	flags = { iyanden_homeworld }
+	planet = {
+		name = "Iyanden Craftworld"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Iyanden'Craftworld"
+		class = "pc_craftworld"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eldar_iyanden_empire
+				}
+				save_event_target_as = eldar_iyanden_empire
+			}
+		
+			event_target:eldar_iyanden_empire = { 
+
+			}
+			
+			set_owner = event_target:eldar_iyanden_empire
+			
+		
+			add_building = building_system_capital
+					
+									
+							
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}

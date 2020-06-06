@@ -1,0 +1,63 @@
+@distance = 30
+@base_moon_distance = 10
+
+Sotha = {
+    name = "Sotha"
+    class = "pc_b_star"
+    
+
+	class = "sc_g"
+	
+	planet = {
+		name = "Sotha"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+
+	planet = {
+        class = random
+        orbit_distance = 40
+        orbit_angle = 314
+        has_ring = no
+    }
+	
+    planet = {
+        name = "Sotha"
+        class = "pc_continental"
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+
+		size = 25
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = Sothaplanet
+			set_planet_flag = hivefleetbehemoth
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_capital		
+		}
+    }
+	
+	
+	
+	
+}

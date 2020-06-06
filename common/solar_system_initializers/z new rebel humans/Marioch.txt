@@ -1,0 +1,65 @@
+@distance = 30
+@base_moon_distance = 10
+
+Marioch = {
+    name = "Marioch"
+    class = "pc_b_star"
+    
+
+	class = "sc_g"
+	
+	planet = {
+		name = "Marioch"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+
+	planet = {
+        class = random
+        orbit_distance = 40
+        orbit_angle = 314
+        has_ring = no
+    }
+	
+    planet = {
+        name = "Marioch"
+        class = "pc_forgee"
+ 		flags = { forgeeplanet_planet }
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		size = 25
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = Mariochplanet
+		
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = calixis_human_star_empire
+				}
+				save_event_target_as = calixis_human_star_empire
+			}
+		
+			event_target:calixis_human_star_empire = { 
+
+			}
+			
+			set_owner = event_target:calixis_human_star_empire
+			set_controller = event_target:calixis_human_star_empire
+		
+			add_building = building_system_capital		
+		}
+    }
+	
+	
+	
+	
+}

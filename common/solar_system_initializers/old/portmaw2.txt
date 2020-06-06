@@ -1,0 +1,84 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+
+portmaw2 = {
+    name = "Port'Maw"
+	class = "sc_g"
+    
+
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+    planet = {
+        name = "Maw I"
+        class = "pc_barren"
+        orbit_distance = 50
+        orbit_angle = 84
+        size = 25
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Maw II"
+        class = "pc_tropical"
+        orbit_distance = 17
+        orbit_angle = 180
+        size = 20
+        has_ring = no
+    }
+
+    planet = {
+        name = "Port Maw"
+        class = "pc_mega_hive"
+ 		flags = { mega_hiveplanet_planet }
+        orbit_distance = 20
+        orbit_angle = 273
+		has_ring = no
+
+		size = 25
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+		
+			set_planet_flag = PortMawplanet
+			set_planet_flag = twelveblackcrusade66
+			
+			prevent_anomaly = yes
+			every_country = {
+				limit = {
+					has_country_flag = mankind_star_empire
+				}
+				save_event_target_as = mankind_star_empire
+			}
+		
+			event_target:mankind_star_empire = { 
+
+			}
+			
+			set_owner = event_target:mankind_star_empire
+			set_controller = event_target:mankind_star_empire
+		
+			add_building = building_system_capital	
+					
+		}
+    }
+
+    planet = {
+        name = "Maw IV"
+        class = "pc_gas_giant"
+        orbit_distance = 18
+        orbit_angle = 101
+        size = 20
+        has_ring = no
+
+    }
+}

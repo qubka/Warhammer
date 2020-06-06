@@ -1,0 +1,65 @@
+# Empire of Human
+mankind = {
+	name = "Imperium of Man"
+	adjective = "PRESCRIPTED_adjective_mankind"
+	spawn_enabled = always # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_mankind"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_human"
+		name = "PRESCRIPTED_species_name_mankind"
+		plural = "PRESCRIPTED_species_plural_mankind"
+		adjective = "PRESCRIPTED_species_adjective_mankind"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_slaving_despots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	
+	planet_name = "PRESCRIPTED_planet_name_mankind"
+	planet_class = "pc_desert"#"pc_hive_medium"
+	system_name = "PRESCRIPTED_system_name_mankind"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "human"
+			file = "flag_human_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_mankind"
+		gender = male
+		portrait = "emperor1"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+	}	
+}

@@ -1,0 +1,95 @@
+mandragora = {
+    name = "Mandragora"
+    class = "sc_g"
+
+    planet = {
+		name = "Mandragora"
+        class = "pc_g_star"
+        orbit_distance = 0
+		orbit_angle = 1
+        size = 20
+		has_ring = no
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 26
+        orbit_angle = 262
+        has_ring = no
+
+    }
+
+    planet = {
+        name = "Mandragora"
+        class = "pc_tomb"
+ 		flags = { tombplanet_planet }
+        orbit_distance = 29
+        orbit_angle = 251
+        has_ring = no
+		size = 20
+		starting_planet = yes
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = necronsautekh_empire	
+				}
+				save_event_target_as = necronsautekh_empire	
+			}
+		
+			event_target:necronsautekh_empire = { 
+
+			}
+			
+			set_owner = event_target:necronsautekh_empire
+			
+			add_building = building_system_capital			
+		}
+		
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 11
+        orbit_angle = 154
+        has_ring = no
+
+
+        moon = {
+            class = random
+            orbit_distance = 10
+            orbit_angle = 180
+            has_ring = no
+
+        }
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 12
+        orbit_angle = 107
+        has_ring = no
+
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 8
+        orbit_angle = 248
+        has_ring = no
+
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 13
+        orbit_angle = 266
+        has_ring = no
+
+    }
+}

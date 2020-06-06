@@ -1,0 +1,133 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+southchaos_homeworld = {
+	name = "Chaos Deamons"
+	class = "sc_g"
+	flags = { southchaos_homeworld }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Chaos Deamons"
+		class = "pc_daemon"
+		orbit_distance = 60
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = southchaos_empire
+				}
+				save_event_target_as = southchaos_empire
+			}
+		
+			event_target:southchaos_empire = { 
+
+			}
+			
+			set_owner = event_target:southchaos_empire
+			
+			add_building = building_system_capital		
+ ##add_building = chaos_undivided		
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+eastchaos_homeworld = {
+	name = "Chaos Deamons"
+	class = "sc_g"
+	flags = { eastchaos_homeworld }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Chaos Deamons"
+		class = "pc_daemon"
+		orbit_distance = 60
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eastchaos_empire
+				}
+				save_event_target_as = eastchaos_empire
+			}
+		
+			event_target:eastchaos_empire = { 
+
+			}
+			
+			set_owner = event_target:eastchaos_empire
+			
+			add_building = building_system_capital		
+ ##add_building = chaos_undivided		
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}

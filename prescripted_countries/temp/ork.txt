@@ -1,0 +1,632 @@
+# Ghazgkull Orks
+ghazgkull_orks = {
+	name = "Waaagh! Ghazgkull"
+	spawn_enabled=always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Golgoth"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="ghazgkull_homeworld"
+	flags={ 
+		ghazgkull_empire	
+		ork_empire
+		custom_start_screen
+	}
+	
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork_ruler1"
+		experience = 1200.0
+	}
+}
+
+# Dregruk Orks
+dregruk_orks = {
+	name = "Waaagh! Dregruk"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Dregruk"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="dregruk_homeworld"
+	flags={ 
+		dregruk_empire	
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork_ruler2"
+		experience = 1200.0
+	}
+}
+
+# Arch-Killa Orks
+archkilla_orks = {
+	name = "Waaagh! Arch-Killa"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Chrisios"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="archkilla_homeworld"
+	flags={ 
+		archkilla_empire	
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork2"
+		experience = 1200.0
+	}
+}
+
+# Gorbad Orks
+gorbad_orks = {
+	name = "Waaagh! Gorbad"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Gorbad"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="gorbad_homeworld"
+	flags={ 
+		gorbad_empire	
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork4"
+		experience = 1200.0
+	}
+}
+
+# Charadon Orks
+charadon_orks = {
+	name = "Waaagh! Charadon"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Charadon"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="charadon_homeworld"
+	flags={ 
+		charadon_empire	
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork_admiral1"
+		experience = 1200.0
+	}
+}
+
+redsunsystem_orks = {
+	name = "Red Sun Systems Orks"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Red Sun I"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="redsunsystem_homeworld"
+	flags={ 
+		redsunsystem_empire		
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork1"
+		experience = 1200.0
+	}
+}
+
+jagga_orks = {
+	name = "Great tyrant of Jagga"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Jagga"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="jagga_homeworld"
+	flags={ 
+		jagga_empire	
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork_ruler1"
+		experience = 1200.0
+	}
+}
+
+calixis_orks = {
+	name = "Arch-Dictator of Gathrog"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ork"
+	species_plural = "Orks"	#we should localize the names!
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait = "trait_rapid_breeders"
+	trait = "trait_repugnant"
+	trait = "trait_adaptive"
+	trait="ork_power"
+	portrait = "imp_ork"
+	
+	planet_name = "Gathrog"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+	
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_police_state"
+	}	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	#initializer="gathrog_homeworld"
+	flags={ 
+		gathrog_empire	
+		ork_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "orc_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_24.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Ghazghkull Mag Uruk Thraka"
+	#	class = ruler
+	#	portrait = "ork4"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork_ruler1"
+		experience = 1200.0
+	}
+}
+
+
+
+

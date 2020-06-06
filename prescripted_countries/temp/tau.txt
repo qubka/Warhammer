@@ -1,0 +1,79 @@
+# Tau
+tau_empire = {
+	name = "Tau Empire"
+	
+	
+	name_list = "TAU1"
+	ship_prefix = "TIS"
+	
+	species_name = "Tau"
+	species_plural = "Tau"	#we should localize the names!
+	species_adjective = "Tau"
+	species_class = "TAU"
+	trait = "trait_communal"
+	trait = "trait_natural_engineers"
+	trait = "trait_quick_learners"
+	trait = "trait_weak"
+	trait = "tau_commie"
+	portrait = "imp_tau"
+	adjective = "Tau"
+	
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	civics={
+		"civic_free_haven"
+		"civic_shadow_council"
+	}	
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	##########################
+	system_name="T'au"
+	#initializer="tau_homeworld"
+	planet_name = "T'au"
+	planet_class = "pc_advancecity"
+	flags={ 
+		tau_star_empire		
+		tau_empire
+		custom_start_screen
+	}
+	spawn_enabled=always
+	#############################
+	graphical_culture = "tau_01"
+	city_graphical_culture = "molluscoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "spherical"
+			file = "flag_spherical_5.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "stripes.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Sazzeeja"
+	#	class = ruler
+	#	portrait = "rep9"
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Aun'va"
+		gender = male
+		portrait = "tau_ruler1"
+		texture = 0
+		hair = 0
+		clothes = 0
+	}	
+}

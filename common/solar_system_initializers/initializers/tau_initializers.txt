@@ -1,0 +1,93 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+tau_homeworld = {
+	name = "T'au"
+	class = "sc_g"
+	flags = { tau_homeworld }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 304
+        has_ring = no
+
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 148
+        has_ring = no
+
+    }
+	
+	planet = {
+		name = "T'au"
+		class = "pc_advancecity"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = tau_star_empire
+				}
+				save_event_target_as = tau_star_empire
+			}
+		
+			event_target:tau_star_empire = { 
+
+			}
+			
+			set_owner = event_target:tau_star_empire
+			
+			add_building = building_system_capital	
+				#add_building = etheral_caste
+				
+		}
+		
+		moon = {
+			name = "T'au"
+			count = { min = 1 max = 1 }
+			class = random
+			size = { min = 1 max = 10 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 8 max = 10 }
+			has_ring = no
+		}
+	}
+
+	planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 304
+        has_ring = no
+
+    }
+
+    planet = {
+        class = random
+        orbit_distance = 30
+        orbit_angle = 148
+        has_ring = no
+
+    }
+}

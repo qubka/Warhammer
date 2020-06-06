@@ -1,0 +1,19 @@
+﻿l_english:
+
+ IMB:0 "Imperial"
+ IMB_desc:1 "The ships and stations from warhammer40k universe."
+ 
+ NEC:0 "Necron"
+ NEC_desc:1 "The ships and stations from warhammer40k universe."
+ 
+ CHZ:0 "Chaos"
+ CHZ_desc:1 "The ships and stations from warhammer40k universe."
+ 
+ TAU:0 "Tau"
+ TAU_desc:1 "The ships and stations from warhammer40k universe."
+ 
+ ELD:0 "Eldar"
+ ELD_desc:1 "The ships and stations from warhammer40k universe."
+ 
+ ORC:0 "Orc"
+ ORC_desc:1 "The ships and stations from warhammer40k universe."

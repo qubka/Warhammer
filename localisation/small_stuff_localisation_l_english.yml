@@ -1,0 +1,998 @@
+﻿l_english:
+
+
+######### Planets
+ pc_destroyedplanet:0 "Destroyed Planet"
+ destroyedplanet_planet:0 "Destroyed Planet"
+ 
+ pc_orkworld:0 "Ork World"
+ orkworld_planet:0 "Ork World"
+ 
+ pc_advancexenocityyy:0 "Advance Xeno World"
+ advancexenocityyy_planet:0 "Advance Xeno World"
+ 
+ pc_advancexenocityy:0 "Advance Xeno World"
+ advancexenocityy_planet:0 "Advance Xeno World"
+ 
+ pc_advancexenocity:0 "Advance Xeno World"
+ advancexenocity_planet:0 "Advance Xeno World"
+ 
+ pc_eternalcrusader:0 "Eternal Crusader"
+ eternalcrusader_planet:0 "Eternal Crusader"
+ 
+ pc_caliban:0 "Destroyed Planet"
+ caliban_planet:0 "Destroyed Planet"
+ 
+ pc_blackstonefortress:0 "Blackstone Fortress"
+ blackstonefortress_planet:0 "Blackstone Fortress"
+ 
+ pc_spacehulk:0 "Space Hulk"
+ spacehulk_planet:0 "Space Hulk"
+ 
+ pc_webway:0 "Webway"
+ webway_planet:0 "Webway"
+ 
+ pc_armoury_tile:0 "Armoury World"
+ pc_armoury_tile_desc:0 "Armoury World"
+ pc_armoury:0 "Armoury World"
+ pc_armoury_desc:0 "Armoury World"
+ armoury_planet:0 "Armoury World"
+ armoury_planet_desc:0 "Armoury World"
+
+ pc_forge_tile:0 "Forge Terrain"
+ pc_forge_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
+ pc_forge:0 "Forge World"
+ pc_forge_desc:0 "A world covered entirely in a massive factory complexes."
+ forge_planet:0 "Forge World"
+ forge_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
+
+ pc_forgee_tile:0 "Forge Terrain"
+ pc_forgee_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
+ pc_forgee:0 "Forge World"
+ pc_forgee_desc:0 "A world covered entirely in a massive factory complexes."
+ forgee_planet:0 "Forge World"
+ forgee_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
+
+ pc_forgeee_tile:0 "Forge Terrain"
+ pc_forgeee_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
+ pc_forgeee:0 "Forge World"
+ pc_forgeee_desc:0 "A world covered entirely in a massive factory complexes."
+ forgeee_planet:0 "Forge World"
+ forgeee_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
+
+ pc_industrial_tile:0 "Industrial Terrain"
+ pc_industrial_tile_desc:0 "Terrain devoted wholly to manufacturing or heavy mining."
+ pc_industrial:0 "Industrial World"
+ pc_industrial_desc:0 "Industrial Worlds are planets whose surfaces are devoted wholly to manufacturing or heavy mining and refining activities."
+ industrial_planet:0 "Industrial World"
+ industrial_planet_desc:0 "Industrial Worlds are planets whose surfaces are devoted wholly to manufacturing or heavy mining and refining activities."
+
+ pc_agri_tile:0 "Agri Terrain"
+ pc_agri_tile_desc:0 "Terrain devoted to farming."
+ pc_agri:0 "Agri World"
+ pc_agri_desc:0 "Agri planets are given over entirely to the production of food."
+ agri_planet:0 "Agri World"
+ agri_planet_desc:0 "Agri planets are given over entirely to the production of food."
+
+ pc_shrine_tile:0 "Shrine complex"
+ pc_shrine_tile_desc:0 "The surface of shrine world is studded with cathedrals, temples and shrines spread across the globe."
+ pc_shrine:0 "Shrine Worlds"
+ pc_shrine_desc:0 "Shrine world is a world studded with cathedrals, temples and shrines spread across the globe."
+ shrine_planet:0 "Shrine World"
+ shrine_planet_desc:0 "Shrine world is a world studded with cathedrals, temples and shrines spread across the globe."
+
+ pc_hive_tile:0 "Urban Terrain"
+ pc_hive_tile_desc:0 "The surface completely covered in urban terrain.  "
+ pc_hive_medium:0 "Hive World"
+ pc_hive_desc:0 "A city occupying an entire planet."
+ hive_planet:0 "Hive World"
+ hive_planet_desc:0 "A city occupying an entire planet."
+
+ pc_penal_tile:0 "Prison terrain"
+ pc_penal_tile_desc:0 "Here, the criminals labour and toil at various menial tasks while serving out their sentences and only a few parole out."
+ pc_penal:0 "Penal World"
+ pc_penal_desc:0 "A Penal World functions as a world-wide military-prison planet."
+ penal_planet:0 "Penal World"
+ penal_planet_desc:0 "A Penal World functions as a world-wide military-prison planet."
+
+ pc_fortress_tile:0 "Fortress Terrain"
+ pc_fortress_tile_desc:0 "The surface with numerous fortress."
+ pc_fortress:0 "Fortress World"
+ pc_fortress_desc:0 "Fortress world are extremely well-defended planet with numerous fortress on its surface."
+ fortress_planet:0 "Fortress Worlds"
+ fortress_planet_desc:0 "Fortress world are extremely well-defended planet with numerous fortress on its surface."
+ 
+ pc_tomb_tile:0 "Lifeless Terrain"
+ pc_tomb_tile_desc:0 "Many Necron Tomb Worlds are now Dead Worlds, largely lifeless and barren deserts."
+ pc_tomb:0 "Tomb World"
+ pc_tomb_desc:0 "A Tomb World is one of the worlds across the Milky Way Galaxy where the ancient and terrible xenos known as the Necrons chose to go into hibernation over 60 million standard years ago, deep beneath its surface in their specially prepared catacombs and tombs."
+ tomb_planet:0 "Tomb World"
+ tomb_planet_desc:0 "A Tomb World is one of the worlds across the Milky Way Galaxy where the ancient and terrible xenos known as the Necrons chose to go into hibernation over 60 million standard years ago, deep beneath its surface in their specially prepared catacombs and tombs."
+
+ pc_daemon_tile:0 "Warp Terrain"
+ pc_daemon_tile_desc:0 "Daemon Worlds are not bound by the laws of physics, but by the whim of their daemonic rulers and the emotions of their mortals' collective unconsciousness."
+ pc_daemon:0 "Daemon World"
+ pc_daemon_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ daemon_planet:0 "Daemon World"
+ daemon_planet_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ 
+ pc_daemonn_tile:0 "Warp Terrain"
+ pc_daemonn_tile_desc:0 "Daemon Worlds are not bound by the laws of physics, but by the whim of their daemonic rulers and the emotions of their mortals' collective unconsciousness."
+ pc_daemonn:0 "Daemon World"
+ pc_daemonn_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ daemonn_planet:0 "Daemon World"
+ daemonn_planet_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ 
+ pc_daemont_tile:0 "Warp Terrain"
+ pc_daemont_tile_desc:0 "Daemon Worlds are not bound by the laws of physics, but by the whim of their daemonic rulers and the emotions of their mortals' collective unconsciousness."
+ pc_daemont:0 "Daemon World"
+ pc_daemont_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ daemont_planet:0 "Daemon World"
+ daemont_planet_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ 
+ pc_daemons_tile:0 "Warp Terrain"
+ pc_daemons_tile_desc:0 "Daemon Worlds are not bound by the laws of physics, but by the whim of their daemonic rulers and the emotions of their mortals' collective unconsciousness."
+ pc_daemons:0 "Daemon World"
+ pc_daemons_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ daemons_planet:0 "Daemon World"
+ daemons_planet_desc:0 "A Daemon World is a planet twisted and corrupted by the power of Chaos and the Warp after being trapped in a prolonged Warp rift. "
+ 
+ 
+ pc_hive_arid_tile:0 "Urban and contaminated terrain"
+ pc_hive_arid_tile_desc:0 "The surface completely covered in urban terrain and contaminated area.  "
+ pc_hive_arid:0 "Small Hive World"
+ pc_hive_arid_desc:0 "Planet with huge cities."
+ hive_arid_planet:0 "Small Hive World"
+ hive_arid_planet_desc:0 "Planet with huge cities."
+ 
+ pc_hive_continental_01_tile:0 "Urban and contaminated terrain"
+ pc_hive_continental_01_tile_desc:0 "The surface completely covered in urban terrain and contaminated area.  "
+ pc_hive_continental_01:0 "Small Hive World"
+ pc_hive_continental_01_desc:0 "Planet with huge cities."
+ hive_continental_01_planet:0 "Small Hive World"
+ hive_continental_01_planet_desc:0 "Planet with huge cities."
+ 
+ pc_hive_continental_02_tile:0 "Urban and contaminated terrain"
+ pc_hive_continental_02_tile_desc:0 "The surface completely covered in urban terrain and contaminated area.  "
+ pc_hive_continental_02:0 "Small Hive World"
+ pc_hive_continental_02_desc:0 "Planet with huge cities."
+ hive_continental_02_planet:0 "Small Hive World"
+ hive_continental_02_planet_desc:0 "Planet with huge cities."
+ 
+ pc_hive_ocean_tile:0 "Urban and contaminated terrain"
+ pc_hive_ocean_tile_desc:0 "The surface completely covered in urban terrain and contaminated area.  "
+ pc_hive_ocean:0 "Small Hive World"
+ pc_hive_ocean_desc:0 "Planet with huge cities."
+ hive_ocean_planet:0 "Small Hive World"
+ hive_ocean_planet_desc:0 "Planet with huge cities."
+ 
+ pc_hive_tundra_tile:0 "Urban and contaminated terrain"
+ pc_hive_tundra_tile_desc:0 "The surface completely covered in urban terrain and contaminated area.  "
+ pc_hive_tundra:0 "Small Hive World"
+ pc_hive_tundra_desc:0 "Planet with huge cities."
+ hive_tundra_planet:0 "Small Hive World"
+ hive_tundra_planet_desc:0 "Planet with huge cities."
+ 
+ pc_super_hive_tile:0 "Advanced Urban Terrain"
+ pc_super_hive_tile_desc:0 "The surface completely covered in urban terrain and huge buildings rising over clouds."
+ pc_super_hive:0 "Super Hive World"
+ pc_super_hive_desc:0 "Planet with huge cities and buildings rising over clouds."
+ super_hive_planet:0 "Super Hive World"
+ super_hive_planet_desc:0 "Planet with huge cities and buildings rising over clouds."
+ 
+ pc_mega_hive_tile:0 "Advanced Urban Terrain"
+ pc_mega_hive_tile_desc:0 "The surface completely covered in urban terrain and huge buildings rising over clouds."
+ pc_mega_hive:0 "Mega Hive World"
+ pc_mega_hive_desc:0 "World with huge cities and space shipyards around all planet. "
+ mega_hive_planet:0 "Mega Hive World"
+ mega_hive_planet_desc:0 "World with huge cities and space shipyards around all planet."
+
+ pc_forge_ring_tile:0 "Forge Terrain"
+ pc_forge_ring_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
+ pc_forge_ring:0 "Forge World with Iron Ring"
+ pc_forge_ring_desc:0 "A world covered entirely in a massive factory complexes with huge space shipyards"
+ forge_ring_planet:0 "Forge World"
+ forge_ring_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
+
+ pc_forge_ring2_tile:0 "Forge Terrain"
+ pc_forge_ring2_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
+ pc_forge_ring2:0 "Forge World with Iron Ring"
+ pc_forge_ring2_desc:0 "A world covered entirely in a massive factory complexes with huge space shipyards"
+ forge_ring2_planet:0 "Forge World"
+ forge_ring2_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
+
+ pc_forge_ring3_tile:0 "Forge Terrain"
+ pc_forge_ring3_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
+ pc_forge_ring3:0 "Forge World with Iron Ring"
+ pc_forge_ring3_desc:0 "A world covered entirely in a massive factory complexes with huge space shipyards"
+ forge_ring3_planet:0 "Forge World"
+ forge_ring3_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
+
+ pc_advancecity_tile:0 "Urban terrain"
+ pc_advancecity_tile_desc:0 "The surface completely covered in urban terrain."
+ pc_advancecity:0 "Small Hive World"
+ pc_advancecity_desc:0 "Planet with huge cities."
+ advancecity_planet:0 "Small Hive World"
+ advancecity_desc:0 "Planet with huge cities."
+ 
+ pc_hive_industrial_tile:0 "Urban Terrain"
+ pc_hive_industrial_tile_desc:0 "The surface completely covered in urban terrain.  "
+ pc_hive_industrial:0 "Hive World"
+ pc_hive_industrial_desc:0 "A city occupying an entire planet."
+ hive_industrial_planet:0 "Hive World"
+ hive_industrial_planet_desc:0 "A city occupying an entire planet."
+ 
+ pc_craftworld_tile:0 "Urban Terrain"
+ pc_craftworld_tile_desc:0 "Big citys inside huge ship."
+ pc_craftworld:0 "Craftworld"
+ pc_craftworld_desc:0 "Huge spaceship."
+ craftworld_planet:0 "HCraftworld""
+ craftworld_planet_desc:0 "Huge spaceship."
+
+########Buildings
+ 
+ 
+ building_food_export_1:0 "Food export 1"
+ building_food_export_1_desc:1 "Export 5 food."
+ building_food_export_2:0 "Food export 2"
+ building_food_export_2_desc:1 "Export 10 food."
+ building_food_export_3:0 "Food export 3"
+ building_food_export_3_desc:1 "Export 15 food."
+ building_food_export_4:0 "Food export 4"
+ building_food_export_4_desc:1 "Export 20 food."
+ building_food_export_5:0 "Food export 5"
+ building_food_export_5_desc:1 "Export 25 food."
+ building_food_export_6:0 "Food export 3"
+ building_food_export_6_desc:1 "Export 30 food."
+ 
+ building_food_import_1:0 "Import food 1"
+ building_food_import_1_desc:1 "Import 5 food."
+ building_food_import_2:0 "Import food 2"
+ building_food_import_2_desc:1 "Import 10 food."
+ building_food_import_3:0 "Import food 3"
+ building_food_import_3_desc:1 "Import 15 food."
+ building_food_import_4:0 "Import food 4"
+ building_food_import_4_desc:1 "Import 20 food."
+ building_food_import_5:0 "Import food 5"
+ building_food_import_5_desc:1 "Import 25 food."
+ building_food_import_6:0 "Import food 6"
+ building_food_import_6_desc:1 "Import 30 food."
+ 
+ omnissiah_factory_complex:0 "Omnissiah factory complex"
+ omnissiah_factory_complex_desc:1 "Change planet class to forge world. Minerals and research bonus."
+ 
+ omnissiah_temple_complex:0 "Omnissiah temple complex"
+ omnissiah_factory_complex_desc:1 "Change planet class to forge world. Minerals and research bonus."
+ 
+ omnissiah_power_station_complex:0 "Omnissiah power station."
+ omnissiah_power_station_complex_desc:1 "Change planet to forge world. Energy and research bonus."
+ 
+ factory_complex:0 "Factory complex"
+ factory_complex_desc:1 "Change planet to industrial world. Required to make forge worlds."
+ 
+ farm_complex:0 "Farm complex"
+ farm_complex_desc:1 "Change planet to agru world."
+ 
+ shrine_complex:0 "Shrines complex"
+ shrine_complex_desc:1 "Change planet to shrine world."
+ 
+ hive_city:0 "Hive citys"
+ hive_city_desc:1 "Change world to huge hive world."
+ 
+ penal_colony:0 "Penal colony"
+ penal_colony_desc:1 "Change planet to penal colony."
+ 
+ fortress_complex:0 "Fortress complex"
+ fortress_complex_desc:1 "Change planet to fortress world."
+ 
+ building_catachan_base_1:0 "Catachan jungle fighters base"
+ building_catachan_base_1_desc:1 "Allow to reqruit special strong units. Catachan jungle fighters. This units were trained in harsh eveironment and are amaizing while fighting in jungle or forests."
+ 
+ building_tomb_ig_base_1:0 "Imperial tomb guard"
+ building_tomb_ig_base_1_desc:1 "Allow to reqruit special imperial guard troops. The are veterans of fighting necrons and are stronger than most units."
+ 
+ building_small_hive_1:0 "Small hive"
+ building_small_hive_1_desc:1 "Change planet to small hive."
+ 
+ building_small_hive_2:0 "Small hive"
+ building_small_hive_2_desc:1 "Change planet to small hive."
+ 
+ building_small_hive_3:0 "Small hive"
+ building_small_hive_3_desc:1 "Change planet to small hive."
+ 
+ building_small_hive_4:0 "Small hive"
+ building_small_hive_4_desc:1 "Change planet to small hive."
+ 
+ building_small_hive_5:0 "Small hive"
+ building_small_hive_5_desc:1 "Change planet to small hive."
+ 
+ building_forge_ring:0 "Iron Ring"
+ building_forge_ring_desc:1 "Build Iron Ring around planet."
+ 
+ building_forge_ring2:0 "Iron Ring"
+ building_forge_ring2_desc:1 "Build Iron Ring around planet."
+ 
+ building_forge_ring3:0 "Iron Ring"
+ building_forge_ring3_desc:1 "Build Iron Ring around planet."
+ 
+ building_super_hive:0 "Super hive"
+ building_super_hive_desc:1 "Change planet to super hive."
+ 
+ building_mega_hive:0 "Mega hive"
+ building_mega_hive_desc:1 "Change planet to mega hive."
+
+ building_deamon_pit:0 "Deamon Pit"
+ building_deamon_pit_desc:1 "Change planet to Deaom world."
+ 
+ 
+ 
+ 
+ ########################## BUILDINGS ###############################
+ 
+ 
+ XV25_recruitment:0 "XV25 Recruitment"
+ XV25_recruitment_desc:1 "Allow recruitment of XV25 units"
+ 
+ XV88_recruitment:0 "XV88 Recruitment"
+ XV88_recruitment_desc:1 "Allow recruitment of XV88 units"
+ 
+ XV104_recruitment:0 "XV104 recruitment"
+ XV104_recruitment_desc:1 "Allow recruitment of XV104 units"
+ 
+ Hammerhead_recruitment:0 "Hammerhead recruitment"
+ Hammerhead_recruitment_desc:1 "Allow recruitment of Hammerhead units"
+ 
+ Ork_Nobz_recruitment:0 "Ork Nobz recruitment"
+ Ork_Nobz_recruitment_desc:1 "Allow recruitment of Ork Nobz units"
+ 
+ Kommandoz_recruitment:0 "Kommandoz recruitment"
+ Kommandoz_recruitment_desc:1 "Allow recruitment of Kommandoz units"
+ 
+ Gargant_recruitment:0 "Gargant recruitment"
+ Gargant_recruitment_desc:1 "Allow recruitment of Gargantunits"
+ 
+ Stompa_recruitment:0 "Stompa recruitment"
+ Stompa_recruitment_desc:1 "Allow recruitment of Stompa units"
+ 
+ Immortal_recruitment:0 "Immortal recruitment"
+ Immortal_recruitment_desc:1 "Allow recruitment of Immortal units"
+
+ Canoptek_Wraith_recruitment:0 "Canoptek Wraith recruitment"
+ Canoptek_Wraith_recruitment_desc:1 "Allow recruitment of Canoptek Wraith units"
+ 
+ Monolith_recruitment:0 "Monolith recruitment"
+ Monolith_recruitment_desc:1 "Allow recruitment of Monolith units"
+
+ Raider_recruitment:0 "Raider recruitment"
+ Raider_recruitment_desc:1 "Allow recruitment of Raider units"
+
+ Venom_recruitment:0 "SVenom recruitment"
+ Venom_recruitment_desc:1 "Allow recruitment of Venom units"
+ 
+ Phantom_Titan_recruitment:0 "Phantom Titan recruitment"
+ Phantom_Titan_recruitment_desc:1 "Allow recruitment of Phantom Titan units"
+ 
+ Wraithknight_recruitment:0 "Wraithknight recruitment"
+ Wraithknight_recruitment_desc:1 "Allow recruitment of Wraithknight units"
+ 
+ Wraithlord_recruitment:0 "Wraithlord_ recruitment"
+ Wraithlord_recruitment_desc:1 "Allow recruitment of Wraithlord_ units"
+ 
+ Cobra_recruitment:0 "Cobra recruitment"
+ Cobra_recruitment_desc:1 "Allow recruitment of Cobra units"
+ 
+ #####################################
+ 
+ building_imperial_knight_base_1:0 "Imperial Knight recruitment"
+ building_imperial_knight_base_1_desc:1 "Allow recruitment of Imperial Knight units"
+ 
+ building_warhound_titan_base_1:0 "Warhound Titan recruitment"
+ building_warhound_titan_base_1_desc:1 "Allow recruitment of Warhound Titan units"
+ 
+ building_reaver_titan_base_1:0 "Reaver Titan recruitment"
+ building_reaver_titan_base_1_desc:1 "Allow recruitment of Reaver Titan units"
+ 
+ building_warlord_titan_base_1:0 "Warlord Titan recruitment"
+ building_warlord_titan_base_1_desc:1 "Allow recruitment of Warlord Titan units"
+ 
+ building_emperor_titan_base_1:0 "Emperor Titan recruitment"
+ building_emperor_titan_base_1_desc:1 "Allow recruitment of Emperor Titan units"
+ 
+ Defilers_recruitment:0 "Defilers recruitment"
+ Defilers_recruitment_desc:1 "Allow recruitment of Defilers units"
+ 
+ Chaos_Predators_recruitment:0 "Chaos Predators recruitment"
+ Chaos_Predators_recruitment_desc:1 "Allow recruitment of Chaos Predators units"
+ 
+ Greater_Daemons_recruitment:0 "Greater Daemons recruitment"
+ Greater_Daemons_recruitment_desc:1 "Allow recruitment of Greater Daemons units"
+ 
+ chaos_building_imperial_knight_base_1:0 "Chaos Imperial Knight recruitment"
+ chaos_building_imperial_knight_base_1_desc:1 "Allow recruitment of Chaos Imperial Knight units"
+ 
+ chaos_building_warhound_titan_base_1:0 "Chaos Warhound Titan recruitment"
+ chaos_building_warhound_titan_base_1_desc:1 "Allow recruitment of Chaos Warhound Titan units"
+ 
+ chaos_building_reaver_titan_base_1:0 "Chaos Reaver Titan recruitment"
+ chaos_building_reaver_titan_base_1_desc:1 "Allow recruitment of Chaos Reaver Titan units"
+ 
+ chaos_building_warlord_titan_base_1:0 "Chaos Warlord Titan recruitment"
+ chaos_building_warlord_titan_base_1_desc:1 "Allow recruitment of Chaos Warlord Titan units"
+ 
+ chaos_building_emperor_titan_base_1:0 "Chaos Emperor Titan recruitment"
+ chaos_building_emperor_titan_base_1_desc:1 "Allow recruitment of Chaos Emperor Titan units"
+ 
+ building_Emperors_Children_fortress_monastery:0 "Emperors Children Fortress Monastery"
+ building_Emperors_Children_fortress_monastery_desc:1 "Allow recruitment of Emperors Children units"
+ 
+ building_Black_Legion_fortress_monastery:0 "Black Legion Fortress Monastery"
+ building_Black_Legion_fortress_monastery_desc:1 "Allow recruitment of lack Legion units"
+ 
+ building_Word_Bearers_fortress_monastery:0 "Word Bearers Fortress Monastery"
+ building_Word_Bearers_fortress_monastery_desc:1 "Allow recruitment of Word Bearers units"
+ 
+ building_World_Eaters_fortress_monastery:0 "World Eaters Fortress Monastery"
+ building_World_Eaters_fortress_monastery_desc:1 "Allow recruitment of World Eaters units"
+ 
+ building_Death_Guard_fortress_monastery:0 "Death Guard Fortress Monastery"
+ building_Death_Guard_fortress_monastery_desc:1 "Allow recruitment of Death Guard units"
+ 
+ building_Thousand_Sons_fortress_monastery:0 "Thousand Sons Fortress Monastery"
+ building_Thousand_Sons_fortress_monastery_desc:1 "Allow recruitment of Thousand Sons units"
+ 
+ building_ultramarines_fortress_monastery:0 "Ultramarines Fortress Monastery"
+ building_ultramarines_fortress_monastery_desc:1 "Allow recruitment of Ultramarines units"
+ 
+ building_Space_Wolves_fortress_monastery:0 "Space Wolves Fortress Monastery"
+ building_Space_Wolves_fortress_monastery_desc:1 "Allow recruitment of Space Wolves units"
+ 
+ building_Blood_Angels_fortress_monastery:0 "Blood Angels Fortress Monastery"
+ building_Blood_Angels_fortress_monastery_desc:1 "Allow recruitment of Blood Angels units"
+ 
+ building_Grey_Knights_fortress_monastery:0 "Grey Knights Fortress Monastery"
+ building_Grey_Knights_fortress_monastery_desc:1 "Allow recruitment of Grey Knights units"
+ 
+ building_Dark_Angels_fortress_monastery:0 "Dark Angels Fortress Monastery"
+ building_Dark_Angels_fortress_monastery_desc:1 "Allow recruitment of Dark Angels units"
+ 
+ building_Blood_Ravens_fortress_monastery:0 "Blood Ravens Fortress Monastery"
+ building_Blood_Ravens_fortress_monastery_desc:1 "Allow recruitment of Blood Ravens units"
+ 
+ building_Black_Templars_fortress_monastery:0 "Black Templars Fortress Monastery"
+ building_BBlack_Templars_fortress_monastery_desc:1 "Allow recruitment of Black Templars units"
+ 
+ nuke_silo:0 "Nuclear Silos"
+ nuke_silo_desc:1 "Allow use of nuclear wepon. Change planet into tomb world and kill bilions but imedietly create nuclear army that will fight against Emperor enemies. (edict activate it (this edict unlock after you build this building))"
+ 
+ golden_throne:0 "Golden Throne"
+ golden_throne_desc:1 "Emperor rule us from this place."
+ 
+ astronomican:0 "Astronomican"
+ astronomican_desc:1 "To make warp travel easy."
+ 
+ ########################## CHAOS ###############################
+ 
+ Cultists:0 "Cultists"
+ Cultists_plural:0 "Cultists"
+ Cultists_desc:0 "Chaos Cultists"
+ 
+ Traitor_Guardsmen:0 "Traitor Guardsmen"
+ Traitor_Guardsmen_plural:0 "Traitor Guardsmens"
+ Traitor_Guardsmen_desc:0 "Traitor Guardsmen"
+ 
+ Chaos_Spawn:0 "Chaos Spawn"
+ Chaos_Spawn_plural:0 "Chaos Spawns"
+ Chaos_Spawn_desc:0 "Chaos Spawn"
+ 
+ Defilers:0 "Defiler"
+ Defilers_plural:0 "Defilers"
+ Defilers_desc:0 "Defilers"
+ 
+ Chaos_Predators:0 "Chaos Predator"
+ Chaos_Predators_plural:0 "Chaos Predators"
+ Chaos_Predators_desc:0 "Chaos_Predators"
+ 
+ Greater_Daemons:0 "Greater Daemon"
+ Greater_Daemons_plural:0 "Greater Daemons"
+ Greater_Daemons_desc:0 "Greater Daemons"
+ 
+ Emperors_Children:0 "Emperors Children"
+ Emperors_Children_plural:0 "Emperors Childrens"
+ Emperors_Children_desc:0 "Emperors Children"
+ 
+ Black_Legion:0 "Black Legion"
+ Black_Legion_plural:0 "Black Legion"
+ Black_Legion_desc:0 "Black Legion"
+ 
+ Word_Bearers:0 "Word Bearers"
+ Word_Bearers_plural:0 "Word Bearers"
+ Word_Bearers_desc:0 "Word Bearers"
+ 
+ World_Eaters:0 "World Eaters"
+ World_Eaters_plural:0 "World Eaters"
+ World_Eaters_desc:0 "World Eaters"
+ 
+ Death_Guard:0 "Death Guard"
+ Death_Guard_plural:0 "Death Guard"
+ Death_Guard_desc:0 "Death Guard"
+ 
+ Thousand_Sons:0 "Thousand Sons"
+ Thousand_Sons_plural:0 "Thousand Sons"
+ Thousand_Sons_desc:0 "Thousand Sons"
+ 
+ chaos_imperial_knight:0 "Chaos Imperial Knight"
+ chaos_imperial_knight_plural:0 "Chaos Imperial Knights"
+ chaos_imperial_knight_desc:0 "Chaos Imperial Knight"
+ 
+ chaos_warhound_titan:0 "Chaos Warhound Titan"
+ chaos_warhound_titan_plural:0 "Chaos Warhound Titans"
+ chaos_warhound_titan_desc:0 "Chaos Warhound Titan"
+ 
+ chaos_reaver_titan:0 "Chaos Reaver Titan"
+ chaos_reaver_titan_plural:0 "Chaos Reaver Titans"
+ chaos_reaver_titan_desc:0 "Chaos Reaver Titan"
+ 
+ chaos_warlord_titan:0 "Chaos Warlord Titan"
+ chaos_warlord_titan_plural:0 "Chaos Warlord Titans"
+ chaos_warlord_titan_desc:0 "Chaos Warlord Titan"
+ 
+ chaos_emperor_titan:0 "Chaos Emperor Titan"
+ chaos_emperor_titan_plural:0 "Chaos Emperor Titans"
+ chaos_emperor_titan_desc:0 "Chaos Emperor Titan"
+ 
+ #defense troops
+ 
+ Cultists_defense:0 "Cultists"
+ Cultists_defense_plural:0 "Cultists"
+ Cultists_defense_desc:0 "Chaos Cultists"
+ 
+ Greater_Daemons_defense:0 "Daemon Horde"
+ Greater_Daemons_defense_plural:0 "Daemon Horde"
+ Greater_Daemons_defense_desc:0 "Daemon Horde"
+ 
+ 
+ ########################## IMPERIUM ###############################
+ 
+ imperial_knight:0 "Imperial Knight"
+ imperial_knight_plural:0 "Imperial Knights"
+ imperial_knight_desc:0 "Imperial Knight"
+ 
+ warhound_titan:0 "Warhound Titan"
+ warhound_titan_plural:0 "Warhound Titans"
+ warhound_titan_desc:0 "Warhound Titan"
+ 
+ reaver_titan:0 "Reaver Titan"
+ reaver_titan_plural:0 "Reaver Titans"
+ reaver_titan_desc:0 "Reaver Titan"
+ 
+ warlord_titan:0 "Warlord Titan"
+ warlord_titan_plural:0 "Warlord Titans"
+ warlord_titan_desc:0 "Warlord Titan"
+ 
+ emperor_titan:0 "Emperor Titan"
+ emperor_titan_plural:0 "Emperor Titans"
+ emperor_titan_desc:0 "Emperor Titan"
+ 
+ ultramarines:0 "Ultramarines"
+ ultramarines_plural:0 "Ultramarines"
+ ultramarines_desc:0 "Ultramarines"
+ 
+ Space_Wolves:0 "Space Wolves"
+ Space_Wolves_plural:0 "Space Wolves"
+ Space_Wolves_desc:0 "Space Wolves"
+ 
+ Blood_Angels:0 "Blood_Angels"
+ Blood_Angels_plural:0 "Blood_Angels"
+ Blood_Angels_desc:0 "Blood_Angels"
+ 
+ Grey_Knights:0 "Grey Knights"
+ Grey_Knights_plural:0 "Grey Knights"
+ Grey_Knights_desc:0 "Grey Knights"
+ 
+ Dark_Angels:0 "Dark Angels"
+ Dark_Angels_plural:0 "Dark Angels"
+ Dark_Angels_desc:0 "Dark Angels"
+ 
+ Black_Templars:0 "Black Templars"
+ Black_Templars_plural:0 "Black Templars"
+ Black_Templars_desc:0 "Black Templars"
+ 
+ Blood_Ravens:0 "Blood Ravens"
+ Blood_Ravens_plural:0 "Blood Ravens"
+ Blood_Ravens_desc:0 "Blood Ravens"
+ 
+ skittari:0 "Skittari"
+ skittari_plural:0 "Skittari"
+ skittari_desc:0 "Skittari"
+ 
+ penal_legion:0 "Penal Legion"
+ penal_legion_plural:0 "Penal Legion"
+ penal_legion_desc:0 "Penal Legion"
+ 
+ death_korps:0 "Death Korp"
+ death_korps_plural:0 "Death Korps"
+ death_korps_desc:0 "Units rised in harsh nuclear evironment"
+ 
+ death_planet_imperial_guard:0 "Special Units"
+ death_planet_imperial_guard_plural:0 "Special Units"
+ death_planet_imperial_guard_desc:0 "Units rised in harsh evironment"
+ 
+ imperial_guard_big:0 "Imperial Guard Big"
+ imperial_guard_big_plural:0 "Imperial Guard Big"
+ imperial_guard_big_desc:0 "Well equiped big sized IG regiment."
+ 
+ imperial_guard_medium:0 "Imperial Guard Medium"
+ imperial_guard_medium_plural:0 "Imperial Guard Medium"
+ imperial_guard_medium_desc:0 "Medium sized IG regiment."
+ 
+ imperial_guard_small:0 "Imperial Guard Small"
+ imperial_guard_small_plural:0 "Imperial Guard Small"
+ imperial_guard_small_desc:0 "Small sized IG regiment."
+ 
+ conscripts:0 "Conscripts"
+ conscripts_plural:0 "Conscripts"
+ conscripts_desc:0 "Bad equiped tiny sized IG regiment."
+ 
+ Catachan_fighters:0 "Catachan fighters"
+ Catachan_fighters_plural:0 "Catachan fighters"
+ Catachan_fighters_desc:0 "Catachan fighters"
+ 
+ Cadian_Shock_Troops:0 "Cadian Shock Troops"
+ Cadian_Shock_Troops_plural:0 "Cadian Shock Troops"
+ Cadian_Shock_Troops_desc:0 "Cadian Shock Troops"
+ 
+ Armageddon_Steel_Legion:0 "Armageddon Steel Legion"
+ Armageddon_Steel_Legion_plural:0 "Armageddon Steel Legion"
+ Armageddon_Steel_Legion_desc:0 "Armageddon Steel Legion"
+ 
+ Death_Korps_of_Krieg:0 "Death Korps of Krieg"
+ Death_Korps_of_Krieg_plural:0 "Death Korps of Krieg"
+ Death_Korps_of_Krieg_desc:0 "Krieg would either belong to the Emperor of Mankind or to no one at all."
+ 
+ Mordian_Iron_Guard:0 "Mordian Iron Guard"
+ Mordian_Iron_Guard_plural:0 "Mordian Iron Guard"
+ Mordian_Iron_Guard_desc:0 "Mordian Iron Guard"
+ 
+ Scintillan_Fusiliers:0 "Scintillan Fusiliers"
+ Scintillan_Fusiliers_plural:0 "Scintillan Fusiliers"
+ Scintillan_Fusiliers_desc:0 "Scintillan Fusiliers"
+ 
+ Praetorian_Guard:0 "Praetorian Guard"
+ Praetorian_Guard_plural:0 "Praetorian Guard"
+ Praetorian_Guard_desc:0 "Praetorian Guard"
+ 
+ Valhallan_Ice_Warriors:0 "Valhallan Ice Warriors"
+ Valhallan_Ice_Warriors_plural:0 "Valhallan Ice Warriors"
+ Valhallan_Ice_Warriors_desc:0 "Valhallan Ice Warriors"
+ 
+ Tallarn_Desert_Raiders:0 "Tallarn Desert Raider"
+ Tallarn_Desert_Raiders_plural:0 "Tallarn Desert Raiders"
+ Tallarn_Desert_Raiders_desc:0 "Tallarn Desert Raiders"
+ 
+ Vostroyan_Firstborn:0 "Vostroyan Firstborn"
+ Vostroyan_Firstborn_plural:0 "Vostroyan Firstborn"
+ Vostroyan_Firstborn_desc:0 "Vostroyan Firstborn"
+ 
+ # Defense Troops
+ 
+ Catachan_fighters_Defense:0 "Catachan fighters"
+ Catachan_fighters_Defense_plural:0 "Catachan fighters"
+ Catachan_fighters_Defense_desc:0 "Catachan fighters"
+ 
+ Cadian_Defense_Troops:0 "Cadian Defense Troops"
+ Cadian_Defense_Troops_plural:0 "Cadian Defense Troops"
+ Cadian_Defense_Troops_desc:0 "Cadian Defense Troops"
+ 
+ Cadian_Defense_Troops_One_Time:0 "Cadian Defense Troops"
+ Cadian_Defense_Troops_One_Time_plural:0 "Cadian Defense Troops"
+ Cadian_Defense_Troops_One_Time_desc:0 "Cadian Defense Troops"
+  
+ Armageddon_Steel_Legion_defense:0 "Armageddon Steel Legion"
+ Armageddon_Steel_Legion_defense_plural:0 "Armageddon Steel Legion"
+ Armageddon_Steel_Legion_defense_desc:0 "Armageddon Steel Legion"
+ 
+ Death_Korps_of_Krieg_defense:0 "Death Korps of Krieg"
+ Death_Korps_of_Krieg_defense_plural:0 "Death Korps of Krieg"
+ Death_Korps_of_Krieg_defense_desc:0 "Krieg would either belong to the Emperor of Mankind or to no one at all."
+ 
+ Mordian_Iron_Guard_defense:0 "Mordian Iron Guard"
+ Mordian_Iron_Guard_defense_plural:0 "Mordian Iron Guard"
+ Mordian_Iron_Guard_defense_desc:0 "Mordian Iron Guard"
+ 
+ Scintillan_Fusiliers_defense:0 "Scintillan Fusiliers"
+ Scintillan_Fusiliers_defense_plural:0 "Scintillan Fusiliers"
+ Scintillan_Fusiliers_defense_desc:0 "Scintillan Fusiliers"
+ 
+ Praetorian_Guard_defense:0 "Praetorian Guard"
+ Praetorian_Guard_defense_plural:0 "Praetorian Guard"
+ Praetorian_Guard_defense_desc:0 "Praetorian Guard"
+ 
+ Valhallan_Ice_Warriors_defense:0 "Valhallan Ice Warriors"
+ Valhallan_Ice_Warriors_defense_plural:0 "Valhallan Ice Warriors"
+ Valhallan_Ice_Warriors_defense_desc:0 "Valhallan Ice Warriors"
+ 
+ Tallarn_Desert_Raiders_defense:0 "Tallarn Desert Raider"
+ Tallarn_Desert_Raiders_defense_plural:0 "Tallarn Desert Raiders"
+ Tallarn_Desert_Raiders_defense_desc:0 "Tallarn Desert Raiders"
+ 
+ Vostroyan_Firstborn_defense:0 "Vostroyan Firstborn"
+ Vostroyan_Firstborn_defense_plural:0 "Vostroyan Firstborn"
+ Vostroyan_Firstborn_defense_desc:0 "Vostroyan Firstborn"
+ 
+ Scouts_Space_Marine:0 "Scouts Space Marine"
+ Scouts_Space_Marine_plural:0 "Scouts Space Marine"
+ Scouts_Space_Marine_desc:0 "Scouts Space Marine"
+ 
+ Legio_Custodes_defense:0 "Legio Custodes led defense"
+ Legio_Custodes_defense_plural:0 "Legio Custodes led defense"
+ Legio_Custodes_defense_desc:0 "Legio Custodes led defense"
+ 
+ Mars_Collegia_Titanica:0 "Mars Collegia Titanica"
+ Mars_Collegia_Titanica_plural:0 "Mars Collegia Titanica"
+ Mars_Collegia_Titanica_desc:0 "Mars Collegia Titanica"
+ 
+ Garrison_One_Time:0 "Rounded up Local PDF"
+ Garrison_One_Time_plural:0 "Rounded up Local PDF"
+ Garrison_One_Time_desc:0 "Rounded up Local PDF"
+ 
+ skittari_defense:0 "Forge PDF"
+ skittari_defense_plural:0 "Forge PDF"
+ skittari_defense_desc:0 "Forge PDF"
+ 
+ penal_legion_defense:0 "Local Penal PDF"
+ penal_legion_defense_plural:0 "Local Penal PDF"
+ penal_legion_defense_desc:0 "Local Penal PDF"
+ 
+ death_korps_defense:0 "Local Death Korps PDF"
+ death_korps_defense_plural:0 "Local Death Korps PDF"
+ death_korps_defense_desc:0 "Local Death Korps PDF"
+ 
+ death_planet_imperial_guard_defense:0 "Death Planet PDF"
+ death_planet_imperial_guard_defense_plural:0 "Death Planet PDF"
+ death_planet_imperial_guard_defense_desc:0 "Death Planet PDF"
+ 
+ imperial_guard_big_defense:0 "Big Local PDF"
+ imperial_guard_big_defense_plural:0 "Big Local PDF"
+ imperial_guard_big_defense_desc:0 "Big Local PDF"
+ 
+ imperial_guard_medium_defense:0 "Medium Local PDF"
+ imperial_guard_medium_defense_plural:0 "Medium Local PDF"
+ imperial_guard_medium_defense_desc:0 "Medium Local PDF"
+ 
+ imperial_guard_small_defense:0 "Small Local PDF"
+ imperial_guard_small_defense_plural:0 "Small Local PDF"
+ imperial_guard_small_defense_desc:0 "Small Local PDF"
+ 
+ Armoured_Regiment_defense:0 "Local Armoured PDF"
+ Armoured_Regiment_defense_plural:0 "Local Armoured PDF"
+ Armoured_Regiment_defense_desc:0 "Local Armoured PDF"
+   
+ ################################## TAU ##########################
+ 
+ fire_warrior:0 "Fire Warrior"
+ fire_warrior_plural:0 "Fire Warriors"
+ fire_warrior_desc:0 "Fire Warriors"
+ 
+ Vespid:0 "Vespid"
+ Vespid_plural:0 "Vespids"
+ Vespid_desc:0 "Vespid"
+ 
+ Kroot:0 "Kroot"
+ Kroot_plural:0 "Kroots"
+ Kroot_desc:0 "Kroots"
+ 
+ XV8_Crisis_Battlesuits:0 "XV8 Crisis Battlesuits"
+ XV8_Crisis_Battlesuits_plural:0 "XV8 Crisis Battlesuits"
+ XV8_Crisis_Battlesuits_desc:0 "XV8 Crisis Battlesuits"
+ 
+ XV25_Stealthsuit:0 "XV25 Stealthsuit"
+ XV25_Stealthsuit_plural:0 "XV25 Stealthsuits"
+ XV25_Stealthsuit_desc:0 "XV25 Stealthsuit"
+ 
+ XV88_Broadside_Battlesuit:0 "XV88 Broadside Battlesuit"
+ XV88_Broadside_Battlesuit_plural:0 "XV88 Broadside Battlesuits"
+ XV88_Broadside_Battlesuit_desc:0 "XV88 Broadside Battlesuit"
+ 
+ fXV104_Riptide_Battlesuit:0 "XV104 Riptide Battlesuit"
+ XV104_Riptide_Battlesuit_plural:0 "XV104 Riptide Battlesuits"
+ XV104_Riptide_Battlesuit_desc:0 "XV104 Riptide Battlesuit"
+ 
+ Hammerhead_Gunship:0 "Hammerhead Gunship"
+ Hammerhead_Gunship_plural:0 "Hammerhead Gunships"
+ Hammerhead_Gunship_desc:0 "Hammerhead Gunship"
+ 
+ #Defense Troops
+ 
+ fire_warrior_defense:0 "Fire Warrior PDF"
+ fire_warrior_defense_plural:0 "Fire Warriors PDF"
+ fire_warrior_defense_desc:0 "Fire Warriors PDF"
+ 
+ sept_fire_warrior_defense:0 "Sept Fire Warrior PDF"
+ sept_fire_warrior_defense:0 "Sept Fire Warrior PDF"
+ sept_fire_warrior_defense:0 "Sept Fire Warrior PDF"
+ 
+ 
+ ########################### ORK ###############################
+ 
+ Ork_Nobz:0 "Ork Nobz"
+ Ork_Nobz_plural:0 "Ork Nobz"
+ Ork_Nobz_desc:0 "Ork Nobz"
+ 
+ Stormboyz:0 "Stormboyz"
+ Stormboyz_plural:0 "Stormboyz"
+ Stormboyz_desc:0 "Stormboyz"
+ 
+ Ork_Boyz:0 "Ork Boyz"
+ Ork_Boyz_plural:0 "Ork Boyz"
+ Ork_Boyz_desc:0 "Ork Boyz"
+ 
+ Gretchin:0 "Gretchin"
+ Gretchin_plural:0 "Gretchin"
+ Gretchin_desc:0 "Gretchin"
+ 
+ Kommandoz:0 "Kommandoz"
+ Kommandoz_plural:0 "Kommandoz"
+ Kommandoz_desc:0 "Kommandoz"
+ 
+ Gargant:0 "Gargant"
+ Gargant_plural:0 "Gargant"
+ Gargant_desc:0 "Gargant"
+ 
+ Stompa:0 "Stompa"
+ Stompa_plural:0 "Stompa"
+ Stompa_desc:0 "Stompa"
+ 
+ #Defense Troops
+ 
+ Ork_Nobz_defense:0 "Da Strongest Ork"
+ Ork_Nobz_defense_plural:0 "Da Strongest Ork"
+ Ork_Nobz_defense_desc:0 "Da Strongest Ork"
+ 
+ Stormboyz_defense:0 "Strong Ork"
+ Stormboyz_defense_plural:0 "Strong Ork"
+ Stormboyz_defense_desc:0 "Strong Ork"
+  
+ ################## ELDAR ##############################
+ 
+ Phantom_Titan:0 "Phantom Titan"
+ Phantom_Titan_plural:0 "Phantom Titan"
+ Phantom_Titan_desc:0 "Phantom Titan"
+ 
+ Wraithknight:0 "Wraithknight"
+ Wraithknight_plural:0 "Wraithknight"
+ Wraithknight_desc:0 "Wraithknight"
+ 
+ Wraithlord:0 "Wraithlord"
+ Wraithlord_plural:0 "Wraithlord"
+ Wraithlord_desc:0 "Wraithlord"
+ 
+ Cobra:0 "Cobra"
+ Cobra_plural:0 "Cobra"
+ Cobra_desc:0 "Cobra"
+ 
+ Falcon:0 "Falcon"
+ Falcon_plural:0 "Falcon"
+ Falcon_desc:0 "Falcon"
+ 
+ Guardian_Squad:0 "Guardian Squad"
+ Guardian_Squad_plural:0 "Guardian Squad"
+ Guardian_Squad_desc:0 "Guardian Squad"
+ 
+ Ranger_Squad:0 "Ranger Squad"
+ Ranger_Squad_plural:0 "Ranger Squads"
+ Ranger_Squad_desc:0 "Ranger Squad"
+ 
+ Howling_Banshee:0 "Howling Banshee"
+ Howling_Banshee_plural:0 "Howling Banshee"
+ Howling_Banshee_desc:0 "Howling Banshee"
+ 
+ #Defense Troops
+  
+ Guardian_Squad_defense:0 "Guardian of craftworld"
+ Guardian_Squad_defense_plural:0 "Guardian of craftworld"
+ Guardian_Squad_defense_desc:0 "Guardian Squad defending the Craftworld"
+ 
+ Ranger_Squad_defense:0 "Ranger Defender"
+ Ranger_Squad_defense_plural:0 "Ranger Defender"
+ Ranger_Squad_defense_desc:0 "Ranger Squad defending the Eldar colonies"
+ 
+ ################### Dark Eldar #######################
+ 
+ Wyches:0 "Wyches"
+ Wyches_plural:0 "Wyches"
+ Wyches_desc:0 "Wyches"
+ 
+ Kabalite_Warriors:0 "Kabalite Warriors"
+ Kabalite_Warriors_plural:0 "Kabalite Warriors"
+ Kabalite_Warriors_desc:0 "Kabalite Warriors"
+ 
+ Raider:0 "Raider"
+ Raider_plural:0 "Raider"
+ Raider_desc:0 "Raider"
+ 
+ Venom:0 "Venom"
+ Venom_plural:0 "Venom"
+ Venom_desc:0 "Venom"
+ 
+ Scourges:0 "Scourges"
+ Scourges_plural:0 "Scourges"
+ Scourges_desc:0 "Scourges"
+ 
+ Harlequins:0 "Harlequins"
+ Harlequins_plural:0 "Harlequins"
+ Harlequins_desc:0 "Harlequins"
+ 
+ Incubi:0 "Incubi"
+ Incubi_plural:0 "Incubi"
+ Incubi_desc:0 "Incubi"
+ 
+ #Defense Troops
+  
+ Kabalite_Warriors_defense:0 "Kabalite Warriors of Commorragh"
+ Kabalite_Warriors_defense_plural:0 "Kabalite Warriors of Commorragh"
+ Kabalite_Warriors_defense_desc:0 "Kabalite Warriors defenders of Commorragh"
+  
+ Venom_defense:0 "Venom squad"
+ Venom_defense_plural:0 "Venom squad"
+ Venom_defense_desc:0 "Venom with troops defending the Eldar colonies"
+  
+ ######################## Necrons ###############################
+ 
+ Lychguard:0 "Lychguard"
+ Lychguard_plural:0 "Lychguard"
+ Lychguard_desc:0 "Lychguard"
+ 
+ Necron_Warriors:0 "Necron Warriors"
+ Necron_Warriors_plural:0 "Necron Warriors"
+ Necron_Warriors_desc:0 "Necron Warriors"
+ 
+ Destroyer:0 "Destroyer"
+ Destroyer_plural:0 "Destroyers"
+ Destroyer_desc:0 "Destroyer"
+ 
+ Immortal:0 "Immortal"
+ Immortal_plural:0 "Immortals"
+ Immortal_desc:0 "HImmortal"
+ 
+ Canoptek_Wraith:0 "Canoptek Wraith"
+ Canoptek_Wraith_plural:0 "Canoptek Wraith"
+ Canoptek_Wraith_desc:0 "Canoptek Wraith"
+ 
+ Monolith:0 "Monolith"
+ Monolith_plural:0 "Monolith"
+ Monolith_desc:0 "A Monolith is a massive mobile fortress used by the Necrons as their primary planetary assault craft."
+ 
+ #Defense Troops
+  
+ Lychguard_defense:0 "Lychguard of the tomb"
+ Lychguard_defense_plural:0 "Lychguard of the tomb"
+ Lychguard_defense_desc:0 "Lychguard defenders of the tombworld"
+ 
+ Necron_Warriors_defense:0 "Necron defense Warriors"
+ Necron_Warriors_defense_plural:0 "Necron defense Warriors"
+ Necron_Warriors_defense_desc:0 "Necron Warriors defending new colonies"
+ 
+ ############### technology ##################
+ 
+ 
+ tech_basic_army:0 "Basic armies"
+ tech_basic_army_desc:0 "Allow recruitment of basic armies."
+ 
+ tech_medium_army:0 "Medium armies"
+ tech_medium_army_desc:0 "Allow recruitment of Medium armies."
+ 
+ tech_advance_army:0 "Advance armies"
+ tech_advance_army_desc:0 "Allow recruitment of Advance armies."
+ 
+ tech_titans_army:0 "Titans armies"
+ tech_titans_army_desc:0 "Allow recruitment of Titans armies."
+ 
+ tech_basic_planets:0 "Basic Planets"
+ tech_basic_planets_desc:0 "Allow Construction of basic Planets."
+ 
+ tech_advance_planets:0 "Advance Planets"
+ tech_advance_planets_desc:0 "Allow Construction of Advance Planets."
+ 
+ 
+ 
+ 

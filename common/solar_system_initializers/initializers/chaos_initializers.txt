@@ -1,0 +1,277 @@
+@distance = 30
+@base_moon_distance = 10
+
+
+eyechaos_homeworld = {
+	name = "Black Legion"
+	class = "sc_g"
+	flags = { eyechaos_homeworld }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Black Legion"
+		class = "pc_daemon"
+		orbit_distance = 60
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = eyechaos_empire
+				}
+				save_event_target_as = eyechaos_empire
+			}
+		
+			event_target:eyechaos_empire = { 
+
+			}
+			
+			set_owner = event_target:eyechaos_empire
+			set_planet_flag = BlackLegionplanet
+			
+			add_building = building_system_capital	
+				
+			##add_building = "building_Black_Legion_fortress_monastery"
+											
+			
+				
+					
+			##add_building = chaos_undivided		
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+
+maelstormchaos_homeworld = {
+	name = "Astral Claws"
+	class = "sc_g"
+	flags = { maelstormchaos_homeworld }
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Astral Claws"
+		class = "pc_daemonn"
+		orbit_distance = 80
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = maelstormchaos_empire
+				}
+				save_event_target_as = maelstormchaos_empire
+			}
+		
+			event_target:maelstormchaos_empire = { 
+
+			}
+			
+			set_owner = event_target:maelstormchaos_empire
+			
+			add_building = building_system_capital		
+ ##add_building = chaos_undivided		
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+
+sabbathchaos_homeworld = {
+	name = "Khan"
+	class = "sc_g"
+	flags = { sabbathchaos_homeworld }
+	planet = {
+		name = "Khan"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Khan III"
+		class = "pc_daemont"
+		orbit_distance = 80
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = sabbathchaos_empire
+				}
+				save_event_target_as = sabbathchaos_empire
+			}
+		
+			event_target:sabbathchaos_empire = { 
+
+			}
+			
+			set_owner = event_target:sabbathchaos_empire
+			
+			add_building = building_system_capital		
+ ##add_building = chaos_undivided	
+		}
+	}
+
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
+
+Granithor = {
+	name = "Granithor"
+	class = "sc_g"
+	
+	
+	planet = {
+		name = "Sun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Granithor"
+		class = "pc_daemons"
+		orbit_distance = 60
+		orbit_angle = 120
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		deposit_blockers = none				# Changde by mvd1984
+		modifiers = none
+		
+		deposit_blockers = none				# Changde by mvd1984 
+ 		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			every_country = {
+				limit = {
+					has_country_flag = calixis_cheresy_star_empire
+				}
+				save_event_target_as = calixis_cheresy_star_empire
+			}
+		
+			event_target:calixis_cheresy_star_empire = { 
+
+			}
+			
+			set_planet_flag = Granithorplanet
+			
+			set_owner = event_target:calixis_cheresy_star_empire
+			set_controller = event_target:calixis_cheresy_star_empire
+			
+			add_building = building_system_capital		
+ ##add_building = chaos_undivided		
+		}
+	}
+	
+	
+	planet = {
+		count = { min = 2 max = 9 }
+		class = random_non_colonizable
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 25 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random
+			size = { min = 1 max = 15 }
+			orbit_angle = { min = 45 max = 275 }
+			orbit_distance = { min = 3 max = 7 }
+			has_ring = no
+			}
+	}
+}
