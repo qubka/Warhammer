@@ -5,7 +5,6 @@ Adraith = {
     name = "Adraith"
     class = "pc_b_star"
     
-
 	class = "sc_g"
 	
 	planet = {
@@ -57,8 +56,4 @@ Adraith = {
 			##add_building = chaos_undivided
 		}
     }
-	
-	
-	
-	
 }

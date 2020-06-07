@@ -174,7 +174,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Orpheus'Prime"
+        name = "Orpheus Prime"
         id = "18"
         position = {
             x = -367
@@ -295,7 +295,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Neo'Baku"
+        name = "Neo Baku"
         id = "32"
         position = {
             x = -349
@@ -407,7 +407,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "C'Nath"
+        name = "C Nath"
         id = "46"
         position = {
             x = -320
@@ -567,7 +567,7 @@ static_galaxy_scenario = {
     
 
     system = {
-        name = "D'Yanoi"
+        name = "D Yanoi"
         id = "67"
         position = {
             x = -282.9671
@@ -617,7 +617,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Dal'Yth"
+        name = "Dal Yth"
         id = "75"
         position = {
             x = -274.5402
@@ -637,7 +637,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Fal'Shia"
+        name = "Fal Shia"
         id = "78"
         position = {
             x = -264
@@ -647,7 +647,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Ultra'Mundanus"
+        name = "Ultra Mundanus"
         id = "79"
         position = {
             x = -263
@@ -657,7 +657,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Sa'Cea"
+        name = "Sa Cea"
         id = "80"
         position = {
             x = -264.8172
@@ -667,7 +667,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "T'Au"
+        name = "T Au"
         id = "81"
         position = {
             x = -260.496
@@ -687,7 +687,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Bork'An"
+        name = "Bork An"
         id = "84"
         position = {
             x = -247.0992
@@ -697,7 +697,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Vior'La"
+        name = "Vior La"
         id = "85"
         position = {
             x = -253.1484
@@ -727,7 +727,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Talasa'Prime"
+        name = "Talasa Prime"
         id = "88"
         position = {
             x = -248
@@ -767,7 +767,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Haytor's Hole"
+        name = "Haytors Hole"
         id = "95"
         position = {
             x = -220
@@ -809,7 +809,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Kar'Duniash"
+        name = "Kar Duniash"
         id = "103"
         position = {
             x = -209
@@ -931,7 +931,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Quisto'Rol"
+        name = "Quisto Rol"
         id = "118"
         position = {
             x = -152
@@ -1051,7 +1051,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "M'Khan"
+        name = "M Khan"
         id = "137"
         position = {
             x = -107
@@ -1175,7 +1175,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Corohnis'Agathon"
+        name = "Corohnis Agathon"
         id = "155"
         position = {
             x = -63
@@ -1365,7 +1365,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Rynn's World"
+        name = "Rynns World"
         id = "178"
         position = {
             x = -18
@@ -1547,7 +1547,7 @@ static_galaxy_scenario = {
     
 
     system = {
-        name = "Dark'Gates'of'Rhidhol"
+        name = "Dark Gates of Rhidhol"
         id = "205"
         position = {
             x = 65
@@ -1567,7 +1567,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Tesla'Prime"
+        name = "Tesla Prime"
         id = "209"
         position = {
             x = 77
@@ -1961,7 +1961,7 @@ static_galaxy_scenario = {
     
 
     system = {
-        name = "Belis'Corona"
+        name = "Belis Corona"
         id = "271"
         position = {
             x = 175
@@ -2012,7 +2012,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "K'phra"
+        name = "K phra"
         id = "277"
         position = {
             x = 183
@@ -2143,7 +2143,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Port'Maw"
+        name = "Port Maw"
         id = "297"
         position = {
             x = 13.82777
@@ -2165,7 +2165,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Ophellia'VII"
+        name = "Ophellia VII"
         id = "300"
         position = {
             x = 213
@@ -2207,7 +2207,7 @@ static_galaxy_scenario = {
     
 
     system = {
-        name = "Fool's'Paradise"
+        name = "Fools Paradise"
         id = "307"
         position = {
             x = 237
@@ -2281,7 +2281,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Biel'tan"
+        name = "Biel tan"
         id = "322"
         position = {
             x = 258
@@ -2321,7 +2321,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Enceavor'of'Will"
+        name = "Enceavor of Will"
         id = "326"
         position = {
             x = 269.8522
@@ -2372,7 +2372,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Mahr'Duuk"
+        name = "Mahr Duuk"
         id = "339"
         position = {
             x = 289.9585
@@ -2403,7 +2403,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Yme'Loc"
+        name = "Yme Loc"
         id = "343"
         position = {
             x = 296
@@ -2525,7 +2525,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Moon'of'the'Nightmares"
+        name = "Moon of the Nightmares"
         id = "362"
         position = {
             x = 338
@@ -2638,7 +2638,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Formal'Prime"
+        name = "Formal Prime"
         id = "376"
         position = {
             x = 367
@@ -2658,7 +2658,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Khan'III"
+        name = "Khan III"
         id = "378"
         position = {
             x = 372
@@ -3043,7 +3043,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Ambold'Eleven"
+        name = "Ambold Eleven"
         id = "438"
         position = {
             x = 366.7477
@@ -3053,7 +3053,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Fornax'Aleph"
+        name = "Fornax Aleph"
         id = "439"
         position = {
             x = 372.3989
@@ -3187,7 +3187,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "Vash'ya"
+        name = "Vash ya"
         id = "456"
         position = {
             x = -264.8172
@@ -3197,7 +3197,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "T'olku"
+        name = "T olku"
         id = "459"
         position = {
             x = -253.365
@@ -3208,7 +3208,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "Vior'los"
+        name = "Vior los"
         id = "462"
         position = {
             x = -243.3509
@@ -3218,7 +3218,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Ke'lshan"
+        name = "Ke lshan"
         id = "467"
         position = {
             x = -264.8172
@@ -3239,7 +3239,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Ksi'm'yen"
+        name = "Ksi m yen"
         id = "473"
         position = {
             x = -256.3902
@@ -3250,7 +3250,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "Kelsha'var"
+        name = "Kelsha var"
         id = "475"
         position = {
             x = -274.3235
@@ -3556,7 +3556,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Lost'Hope"
+        name = "Lost Hope"
         id = "527"
         position = {
             x = 180.49
@@ -3820,7 +3820,7 @@ static_galaxy_scenario = {
     
 
     system = {
-        name = "Amarah'Prime"
+        name = "Amarah Prime"
         id = "578"
         position = {
             x = 34.56534
@@ -3882,7 +3882,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Harrow'Watch"
+        name = "Harrow Watch"
         id = "593"
         position = {
             x = 38.70269
@@ -3903,7 +3903,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "Saint'Marduk's'Bane"
+        name = "Saint Marduks Bane"
         id = "598"
         position = {
             x = 37.41949
@@ -3923,7 +3923,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "C'syn'ad"
+        name = "C syn ad"
         id = "600"
         position = {
             x = 24.97385
@@ -4377,7 +4377,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Pilgrim's Pause"
+        name = "Pilgrims Pause"
         id = "694"
         position = {
             x = 324.3843
@@ -4398,7 +4398,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Orendel's Tomb"
+        name = "Orendels Tomb"
         id = "697"
         position = {
             x = 330.3728
@@ -4662,7 +4662,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Nemesis'Tessera"
+        name = "Nemesis Tessera"
         id = "762"
         position = {
             x = 229.3022
@@ -4672,7 +4672,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Ovaris'Gulag"
+        name = "Ovaris Gulag"
         id = "763"
         position = {
             x = 229.817
@@ -4693,7 +4693,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "Gehenndra'4-17"
+        name = "Gehenndra 4-17"
         id = "770"
         position = {
             x = 272.6036
@@ -4733,7 +4733,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Subiaco'Diablo"
+        name = "Subiaco Diablo"
         id = "775"
         position = {
             x = 183.1298
@@ -4827,7 +4827,7 @@ static_galaxy_scenario = {
  
 
     system = {
-        name = "Tsua'Malor"
+        name = "Tsua Malor"
         id = "796"
         position = {
             x = -257.8378
@@ -4858,7 +4858,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Krrk'tikit"
+        name = "Krrk tikit"
         id = "801"
         position = {
             x = -256.046
@@ -4962,7 +4962,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Auretian'Technocracy"
+        name = "Auretian Technocracy"
         id = "818"
         position = {
             x = 38.74984
@@ -5056,7 +5056,7 @@ static_galaxy_scenario = {
 
 
     system = {
-        name = "Lucin's Breath"
+        name = "Lucins Breath"
         id = "831"
         position = {
             x = 324.452
@@ -5200,7 +5200,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Kurzon's Tall"
+        name = "Kurzons Tall"
         id = "852"
         position = {
             x = 228.936
@@ -5381,7 +5381,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Typhon'Primaris"
+        name = "Typhon Primaris"
         id = "879"
         position = {
             x = 110.7838
@@ -5523,7 +5523,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Plague'Planet"
+        name = "Plague Planet"
         id = "899"
         position = {
             x = 296.9384
@@ -5543,7 +5543,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "World'of'Immortal'Sorrows"
+        name = "World of Immortal Sorrows"
         id = "901"
         position = {
             x = 292.3195
@@ -5553,7 +5553,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Xana'II"
+        name = "Xana II"
         id = "902"
         position = {
             x = 282.6971
@@ -5685,7 +5685,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Bloody'Bones"
+        name = "Bloody Bones"
         id = "912"
         position = {
             x = 33.7149
@@ -5735,7 +5735,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Hell's'Teeth"
+        name = "Hells Teeth"
         id = "917"
         position = {
             x = 29.76229
@@ -5897,7 +5897,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Helix'Beta"
+        name = "Helix Beta"
         id = "955"
         position = {
             x = 37.65702
@@ -6796,7 +6796,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Carrion'Deep"
+        name = "Carrion Deep"
         id = "1049"
         position = {
             x = 5.746237
@@ -7425,7 +7425,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Red'Sun'System"
+        name = "Red Sun System"
         id = "1110"
         position = {
             x = -239.037
@@ -7435,7 +7435,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Gurki'Mekworld"
+        name = "Gurki Mekworld"
         id = "1111"
         position = {
             x = -242.7622
@@ -7676,7 +7676,7 @@ static_galaxy_scenario = {
     }
 
     system = {
-        name = "Cano'var"
+        name = "Cano var"
         id = "1147"
         position = {
             x = -342.5472
@@ -7910,7 +7910,7 @@ static_galaxy_scenario = {
     }
 	
     nebula = {
-        name = "Eye'Of'Terror"
+        name = "Eye Of Terror"
         position = {
             x = 280.3224
             y = -151.1686
@@ -7928,7 +7928,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "Storm'of'the'Emperor'Wrath"
+        name = "Storm of the Emperor Wrath"
         position = {
             x = -56.08657
             y = -230.3288
@@ -7937,7 +7937,7 @@ static_galaxy_scenario = {
     }
 
     nebula = {
-        name = "Koronus'Expanse"
+        name = "Koronus Expanse"
         position = {
             x = 333.7324
             y = -335.0555
