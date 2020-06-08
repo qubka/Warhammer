@@ -1,175 +1,445 @@
-##############################################################
-###	PORTRAITS SETTINGS
-###
-### Which portraits are used is set in 
-### common\species_classes\*.txt
-###
-###	This file configures how portraits and planet backgrounds are built.
-###	Default position orientation is lower left.
-##############################################################
-
-
 portraits = {
-####HUMANS##########
-	human1 = {     texturefile = "gfx/portraits/human1.dds"}
-	human2 = {     texturefile = "gfx/portraits/human2.dds"}
-	human3 = {     texturefile = "gfx/portraits/human3.dds"}
-	human4 = {     texturefile = "gfx/portraits/human4.dds"}
-	human5 = {     texturefile = "gfx/portraits/human5.dds"}
-	human6 = {     texturefile = "gfx/portraits/human6.dds"}
-	emperor1 = {     texturefile = "gfx/portraits/emperor1.dds"}
-	human_fem_admiral1 = {     texturefile = "gfx/portraits/human_fem_admiral1.dds"}
-	human_fem_admiral2 = {     texturefile = "gfx/portraits/human_fem_admiral2.dds"}
-	human_fem_governor1 = {     texturefile = "gfx/portraits/human_fem_governor1.dds"}
-	human_admiral1 = {     texturefile = "gfx/portraits/human_admiral1.dds"}
-	human_admiral2 = {     texturefile = "gfx/portraits/human_admiral2.dds"}
-	human_admiral3 = {     texturefile = "gfx/portraits/human_admiral3.dds"}
-	human_fem1 = {     texturefile = "gfx/portraits/human_fem1.dds"}
-	human_fem2 = {     texturefile = "gfx/portraits/human_fem2.dds"}
-	human_general1 = {     texturefile = "gfx/portraits/human_general1.dds"}
-	human_general2 = {     texturefile = "gfx/portraits/human_general2.dds"}
-	human_governor1 = {     texturefile = "gfx/portraits/human_governor1.dds"}
-	human_governor2 = {     texturefile = "gfx/portraits/human_governor2.dds"}
-	human_scientist1 = {     texturefile = "gfx/portraits/human_scientist1.dds"}
-####SPACE MARINES###
-	spacemarine1 = {     texturefile = "gfx/portraits/spacemarine1.dds"}
-	spacemarine2 = {     texturefile = "gfx/portraits/spacemarine2.dds"}
-	spacemarine3 = {     texturefile = "gfx/portraits/spacemarine3.dds"}
-	spacemarine4 = {     texturefile = "gfx/portraits/spacemarine4.dds"}
-	spacemarine5 = {     texturefile = "gfx/portraits/spacemarine5.dds"}
-	spacemarine6 = {     texturefile = "gfx/portraits/spacemarine6.dds"}
-	spacemarine7 = {     texturefile = "gfx/portraits/spacemarine7.dds"}
-	spacemarine8 = {     texturefile = "gfx/portraits/spacemarine8.dds"}
-	spacemarinescout1 = {     texturefile = "gfx/portraits/spacemarinescout1.dds"}
-	spacemarinescout2 = {     texturefile = "gfx/portraits/spacemarinescout2.dds"}
-	spacemarinescout3 = {     texturefile = "gfx/portraits/spacemarinescout3.dds"}
-	spacemarinescout4 = {     texturefile = "gfx/portraits/spacemarinescout4.dds"}
-	spacemarinescout5 = {     texturefile = "gfx/portraits/spacemarinescout5.dds"}
-	spacemarine_scientist1 = {     texturefile = "gfx/portraits/spacemarine_scientist1.dds"}
-	spacemarine_scientist2 = {     texturefile = "gfx/portraits/spacemarine_scientist2.dds"}
-	silvercondor1 = {     texturefile = "gfx/portraits/silvercondor1.dds"}
-	spacemarine_ruler1 = {     texturefile = "gfx/portraits/spacemarine_ruler1.dds"}
-	spacemarine_ruler2 = {     texturefile = "gfx/portraits/spacemarine_ruler2.dds"}
-	spacemarine_ruler3 = {     texturefile = "gfx/portraits/spacemarine_ruler3.dds"}
-	spacemarine_ruler4 = {     texturefile = "gfx/portraits/spacemarine_ruler4.dds"}
-	spacemarine_ruler5 = {     texturefile = "gfx/portraits/spacemarine_ruler5.dds"}
-	spacemarine_ruler6 = {     texturefile = "gfx/portraits/spacemarine_ruler6.dds"}
-	spacemarine_ruler7 = {     texturefile = "gfx/portraits/spacemarine_ruler7.dds"}
-	spacemarine_ruler8 = {     texturefile = "gfx/portraits/spacemarine_ruler8.dds"}
-####INQUISITION#####
-	inquisition1 = {     texturefile = "gfx/portraits/inquisition1.dds"}
-	inquisition2 = {     texturefile = "gfx/portraits/inquisition2.dds"}
-	inquisition3 = {     texturefile = "gfx/portraits/inquisition3.dds"}
-	inquisition_fem1 = {     texturefile = "gfx/portraits/inquisition_fem1.dds"}
-	inquisition_admiral1 = {     texturefile = "gfx/portraits/inquisition_admiral1.dds"}
-	inquisition_fem_general1 = {     texturefile = "gfx/portraits/inquisition_fem_general1.dds"}
-	inquisition_general1 = {     texturefile = "gfx/portraits/inquisition_general1.dds"}
-	inquisition_governor1 = {     texturefile = "gfx/portraits/inquisition_governor1.dds"}
-	jokaero1 = {     texturefile = "gfx/portraits/jokaero1.dds"}
-####MECHANICUS######
-	mechanicus1 = {     texturefile = "gfx/portraits/mechanicus1.dds"}
-	mechanicus2 = {     texturefile = "gfx/portraits/mechanicus2.dds"}
-	mechanicus3 = {     texturefile = "gfx/portraits/mechanicus3.dds"}
-	mechanicus4 = {     texturefile = "gfx/portraits/mechanicus4.dds"}
-	mechanicus_ruler1 = {     texturefile = "gfx/portraits/mechanicus_ruler1.dds"}
-	mechanicus_ruler2 = {     texturefile = "gfx/portraits/mechanicus_ruler2.dds"}
-####CHAOS###########
-	chaos1 = {     texturefile = "gfx/portraits/chaos1.dds"}
-	chaos2 = {     texturefile = "gfx/portraits/chaos2.dds"}
-	chaos3 = {     texturefile = "gfx/portraits/chaos3.dds"}
-	chaos_slaanesh1 = {     texturefile = "gfx/portraits/chaos_slaanesh1.dds"}
-	chaos_slaanesh2 = {     texturefile = "gfx/portraits/chaos_slaanesh2.dds"}
-	chaos_tzeentch1 = {     texturefile = "gfx/portraits/chaos_tzeentch1.dds"}
-	chaos_nurgle1 = {     texturefile = "gfx/portraits/chaos_nurgle1.dds"}
-	chaos_khorne1 = {     texturefile = "gfx/portraits/chaos_khorne1.dds"}
-	chaos_khorne2 = {     texturefile = "gfx/portraits/chaos_khorne2.dds"}
-	chaos_fem1 = {     texturefile = "gfx/portraits/chaos_fem1.dds"}
-	chaos_scientist1 = {     texturefile = "gfx/portraits/chaos_scientist1.dds"}
-	chaos_ruler1 = {     texturefile = "gfx/portraits/chaos_ruler1.dds"}
-####ORKS############
-	ork1 = {     texturefile = "gfx/portraits/ork1.dds"}
-	ork2 = {     texturefile = "gfx/portraits/ork2.dds"}
-	ork3 = {     texturefile = "gfx/portraits/ork3.dds"}
-	ork4 = {     texturefile = "gfx/portraits/ork4.dds"}
-	ork5 = {     texturefile = "gfx/portraits/ork5.dds"}
-	ork6 = {     texturefile = "gfx/portraits/ork6.dds"}
-	ork_ruler1 = {     texturefile = "gfx/portraits/ork_ruler1.dds"}
-	ork_ruler2 = {     texturefile = "gfx/portraits/ork_ruler2.dds"}
-	ork_admiral1 = {     texturefile = "gfx/portraits/ork_admiral1.dds"}
-	ork_scientist1 = {     texturefile = "gfx/portraits/ork_scientist1.dds"}
-####ELDAR###########
-	eldar1 = {     texturefile = "gfx/portraits/eldar1.dds"}
-	eldar2 = {     texturefile = "gfx/portraits/eldar2.dds"}
-	eldar3 = {     texturefile = "gfx/portraits/eldar3.dds"}
-	eldar4 = {     texturefile = "gfx/portraits/eldar4.dds"}
-	eldar5 = {     texturefile = "gfx/portraits/eldar5.dds"}
-	eldar_fem_ruler1 = {     texturefile = "gfx/portraits/eldar_fem_ruler1.dds"}
-	eldar_fem_ruler2 = {     texturefile = "gfx/portraits/eldar_fem_ruler2.dds"}
-	eldar_ruler1 = {     texturefile = "gfx/portraits/eldar_ruler1.dds"}
-	eldar_ruler2 = {     texturefile = "gfx/portraits/eldar_ruler2.dds"}
-	eldar_ruler3 = {     texturefile = "gfx/portraits/eldar_ruler3.dds"}
-	eldar_ruler4 = {     texturefile = "gfx/portraits/eldar_ruler4.dds"}
-	eldar_fem_general1 = {     texturefile = "gfx/portraits/eldar_fem_general1.dds"}
-	eldar_governor1 = {     texturefile = "gfx/portraits/eldar_governor1.dds"}
-	eldar_general1 = {     texturefile = "gfx/portraits/eldar_general1.dds"}
-	eldar_general2 = {     texturefile = "gfx/portraits/eldar_general2.dds"}
-	eldar_fem_scientist1 = {     texturefile = "gfx/portraits/eldar_fem_scientist1.dds"}
-####DARK ELDAR######
-	darkeldar1 = {     texturefile = "gfx/portraits/darkeldar1.dds"}
-	darkeldar2 = {     texturefile = "gfx/portraits/darkeldar2.dds"}
-	darkeldar3 = {     texturefile = "gfx/portraits/darkeldar3.dds"}
-	darkeldar4 = {     texturefile = "gfx/portraits/darkeldar4.dds"}
-	darkeldar5 = {     texturefile = "gfx/portraits/darkeldar5.dds"}
-	darkeldar6 = {     texturefile = "gfx/portraits/darkeldar6.dds"}
-	darkeldar7 = {     texturefile = "gfx/portraits/darkeldar7.dds"}
-	darkeldar8 = {     texturefile = "gfx/portraits/darkeldar8.dds"}
-	darkeldar9 = {     texturefile = "gfx/portraits/darkeldar9.dds"}
-	darkeldar10 = {     texturefile = "gfx/portraits/darkeldar10.dds"}
-####TAU AND FRIENDS#
-	tau1 = {     texturefile = "gfx/portraits/tau1.dds"}
-	tau2 = {     texturefile = "gfx/portraits/tau2.dds"}
-	tau3 = {     texturefile = "gfx/portraits/tau3.dds"}
-	tau_admiral1 = {     texturefile = "gfx/portraits/tau_admiral1.dds"}
-	tau_admiral2 = {     texturefile = "gfx/portraits/tau_admiral2.dds"}
-	tau_general1 = {     texturefile = "gfx/portraits/tau_general1.dds"}
-	tau_scientist1 = {     texturefile = "gfx/portraits/tau_scientist1.dds"}
-	tau_ruler1 = {     texturefile = "gfx/portraits/tau_ruler1.dds"}
-	tau_ruler2 = {     texturefile = "gfx/portraits/tau_ruler2.dds"}
-	kroot1 = {     texturefile = "gfx/portraits/kroot1.dds"}
-	nicassar1 = {     texturefile = "gfx/portraits/nicassar1.dds"}
-	tarellian1 = {     texturefile = "gfx/portraits/tarellian1.dds"}
-	tarellian2 = {     texturefile = "gfx/portraits/tarellian2.dds"}
-	tarellian3 = {     texturefile = "gfx/portraits/tarellian3.dds"}
-	tarellian_ruler1 = {     texturefile = "gfx/portraits/tarellian_ruler1.dds"}
-	hrennian1 = {     texturefile = "gfx/portraits/hrennian1.dds"}
-	vespid1 = {     texturefile = "gfx/portraits/vespid1.dds"}
-####NECRON##########
-	necron1 = {     texturefile = "gfx/portraits/necron1.dds"}
-	necron2 = {     texturefile = "gfx/portraits/necron2.dds"}
-	necron3 = {     texturefile = "gfx/portraits/necron3.dds"}
-	necron_scientist1 = {     texturefile = "gfx/portraits/necron_scientist1.dds"}
-	necron_general1 = {     texturefile = "gfx/portraits/necron_general1.dds"}
-	necron_ruler1 = {     texturefile = "gfx/portraits/necron_ruler1.dds"}
-####TYRANID#########
-	tyranid1 = {     texturefile = "gfx/portraits/tyranid1.dds"}
-	tyranid2 = {     texturefile = "gfx/portraits/tyranid2.dds"}
-	tyranid3 = {     texturefile = "gfx/portraits/tyranid3.dds"}
-	tyranid4 = {     texturefile = "gfx/portraits/tyranid4.dds"}
-	tyranid5 = {     texturefile = "gfx/portraits/tyranid5.dds"}
-	tyranid6 = {     texturefile = "gfx/portraits/tyranid6.dds"}
-	tyranid_scientist1 = {     texturefile = "gfx/portraits/tyranid_scientist1.dds"}
-	tyranid_general1 = {     texturefile = "gfx/portraits/tyranid_general1.dds"}
-	tyranid_general2 = {     texturefile = "gfx/portraits/tyranid_general2.dds"}
-	tyranid_general3 = {     texturefile = "gfx/portraits/tyranid_general3.dds"}
-	tyranid_general4 = {     texturefile = "gfx/portraits/tyranid_general4.dds"}
-	tyranid_ruler1 = {     texturefile = "gfx/portraits/tyranid_ruler1.dds"}
-	tyranid_admiral1 = {     texturefile = "gfx/portraits/tyranid_admiral1.dds"}
-####OTHERS##########
-	rakgol1 = {     texturefile = "gfx/portraits/rakgol1.dds"}
-	slaugh_fem1 = {     texturefile = "gfx/portraits/slaugh_fem1.dds"}
-	slaugh1 = {     texturefile = "gfx/portraits/slaugh1.dds"}
-	beast1 = {     texturefile = "gfx/portraits/beast1.dds"}
-	beast2 = {     texturefile = "gfx/portraits/beast2.dds"}
+	####################################
+	# Leaders Arts
+	####################################
+
+	####################################
+	# Battlefleet gothic: Armada 2
+	####################################
+	AEL_COR_EldritchRaiders_01 = { texturefile = "gfx/models/portraits/AEL_COR_EldritchRaiders_01.dds" }
+	AEL_COR_EldritchRaiders_02 = { texturefile = "gfx/models/portraits/AEL_COR_EldritchRaiders_02.dds" }
+	AEL_COR_EldritchRaiders_03 = { texturefile = "gfx/models/portraits/AEL_COR_EldritchRaiders_03.dds" }
+	AEL_COR_EldritchRaiders_04 = { texturefile = "gfx/models/portraits/AEL_COR_EldritchRaiders_04.dds" }
+	AEL_COR_Shadowseer = { texturefile = "gfx/models/portraits/AEL_COR_Shadowseer.dds" }
+	AEL_COR_SkyRaiders_01 = { texturefile = "gfx/models/portraits/AEL_COR_SkyRaiders_01.dds" }
+	AEL_COR_SkyRaiders_02 = { texturefile = "gfx/models/portraits/AEL_COR_SkyRaiders_02.dds" }
+	AEL_COR_SkyRaiders_03 = { texturefile = "gfx/models/portraits/AEL_COR_SkyRaiders_03.dds" }
+	AEL_COR_SkyRaiders_04 = { texturefile = "gfx/models/portraits/AEL_COR_SkyRaiders_04.dds" }
+	AEL_COR_SteeleyeReavers_01 = { texturefile = "gfx/models/portraits/AEL_COR_SteeleyeReavers_01.dds" }
+	AEL_COR_SteeleyeReavers_02 = { texturefile = "gfx/models/portraits/AEL_COR_SteeleyeReavers_02.dds" }
+	AEL_COR_SteeleyeReavers_03 = { texturefile = "gfx/models/portraits/AEL_COR_SteeleyeReavers_03.dds" }
+	AEL_COR_SteeleyeReavers_04 = { texturefile = "gfx/models/portraits/AEL_COR_SteeleyeReavers_04.dds" }
+	AEL_COR_SunBlitz_01 = { texturefile = "gfx/models/portraits/AEL_COR_SunBlitz_01.dds" }
+	AEL_COR_SunBlitz_02 = { texturefile = "gfx/models/portraits/AEL_COR_SunBlitz_02.dds" }
+	AEL_COR_SunBlitz_03 = { texturefile = "gfx/models/portraits/AEL_COR_SunBlitz_03.dds" }
+	AEL_COR_SunBlitz_04 = { texturefile = "gfx/models/portraits/AEL_COR_SunBlitz_04.dds" }
+	AEL_COR_TwilightSwords_01 = { texturefile = "gfx/models/portraits/AEL_COR_TwilightSwords_01.dds" }
+	AEL_COR_TwilightSwords_02 = { texturefile = "gfx/models/portraits/AEL_COR_TwilightSwords_02.dds" }
+	AEL_COR_TwilightSwords_03 = { texturefile = "gfx/models/portraits/AEL_COR_TwilightSwords_03.dds" }
+	AEL_COR_TwilightSwords_04 = { texturefile = "gfx/models/portraits/AEL_COR_TwilightSwords_04.dds" }
+	AEL_COR_VoidDragons_01 = { texturefile = "gfx/models/portraits/AEL_COR_VoidDragons_01.dds" }
+	AEL_COR_VoidDragons_02 = { texturefile = "gfx/models/portraits/AEL_COR_VoidDragons_02.dds" }
+	AEL_COR_VoidDragons_03 = { texturefile = "gfx/models/portraits/AEL_COR_VoidDragons_03.dds" }
+	AEL_COR_VoidDragons_04 = { texturefile = "gfx/models/portraits/AEL_COR_VoidDragons_04.dds" }
+	AEL_COR_Ynnari_01 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_01.dds" }
+	AEL_COR_Ynnari_02 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_02.dds" }
+	AEL_COR_Ynnari_03 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_03.dds" }
+	AEL_COR_Ynnari_04 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_04.dds" }
+	AEL_COR_Ynnari_05 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_05.dds" }
+	AEL_COR_Ynnari_06 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_06.dds" }
+	AEL_COR_Ynnari_07 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_07.dds" }
+	AEL_COR_Ynnari_08 = { texturefile = "gfx/models/portraits/AEL_COR_Ynnari_08.dds" }
+	AEL_CRA_Alaitoc_01 = { texturefile = "gfx/models/portraits/AEL_CRA_Alaitoc_01.dds" }
+	AEL_CRA_Alaitoc_02 = { texturefile = "gfx/models/portraits/AEL_CRA_Alaitoc_02.dds" }
+	AEL_CRA_Alaitoc_03 = { texturefile = "gfx/models/portraits/AEL_CRA_Alaitoc_03.dds" }
+	AEL_CRA_Alaitoc_04 = { texturefile = "gfx/models/portraits/AEL_CRA_Alaitoc_04.dds" }
+	AEL_CRA_BielTan_01 = { texturefile = "gfx/models/portraits/AEL_CRA_BielTan_01.dds" }
+	AEL_CRA_BielTan_02 = { texturefile = "gfx/models/portraits/AEL_CRA_BielTan_02.dds" }
+	AEL_CRA_BielTan_03 = { texturefile = "gfx/models/portraits/AEL_CRA_BielTan_03.dds" }
+	AEL_CRA_BielTan_04 = { texturefile = "gfx/models/portraits/AEL_CRA_BielTan_04.dds" }
+	AEL_CRA_Iyanden_01 = { texturefile = "gfx/models/portraits/AEL_CRA_Iyanden_01.dds" }
+	AEL_CRA_Iyanden_02 = { texturefile = "gfx/models/portraits/AEL_CRA_Iyanden_02.dds" }
+	AEL_CRA_Iyanden_03 = { texturefile = "gfx/models/portraits/AEL_CRA_Iyanden_03.dds" }
+	AEL_CRA_Iyanden_04 = { texturefile = "gfx/models/portraits/AEL_CRA_Iyanden_04.dds" }
+	AEL_CRA_MauganRa = { texturefile = "gfx/models/portraits/AEL_CRA_MauganRa.dds" }
+	AEL_CRA_Ostara_01 = { texturefile = "gfx/models/portraits/AEL_CRA_Ostara_01.dds" }
+	AEL_CRA_Ostara_02 = { texturefile = "gfx/models/portraits/AEL_CRA_Ostara_02.dds" }
+	AEL_CRA_Ostara_03 = { texturefile = "gfx/models/portraits/AEL_CRA_Ostara_03.dds" }
+	AEL_CRA_Ostara_04 = { texturefile = "gfx/models/portraits/AEL_CRA_Ostara_04.dds" }
+	AEL_CRA_SaimHann_01 = { texturefile = "gfx/models/portraits/AEL_CRA_SaimHann_01.dds" }
+	AEL_CRA_SaimHann_02 = { texturefile = "gfx/models/portraits/AEL_CRA_SaimHann_02.dds" }
+	AEL_CRA_SaimHann_03 = { texturefile = "gfx/models/portraits/AEL_CRA_SaimHann_03.dds" }
+	AEL_CRA_SaimHann_04 = { texturefile = "gfx/models/portraits/AEL_CRA_SaimHann_04.dds" }
+	AEL_CRA_Ulthwe_01 = { texturefile = "gfx/models/portraits/AEL_CRA_Ulthwe_01.dds" }
+	AEL_CRA_Ulthwe_02 = { texturefile = "gfx/models/portraits/AEL_CRA_Ulthwe_02.dds" }
+	AEL_CRA_Ulthwe_03 = { texturefile = "gfx/models/portraits/AEL_CRA_Ulthwe_03.dds" }
+	AEL_CRA_Ulthwe_04 = { texturefile = "gfx/models/portraits/AEL_CRA_Ulthwe_04.dds" }
+	AEL_CRA_Ynnari_01 = { texturefile = "gfx/models/portraits/AEL_CRA_Ynnari_01.dds" }
+	AEL_CRA_Ynnari_02 = { texturefile = "gfx/models/portraits/AEL_CRA_Ynnari_02.dds" }
+	AEL_CRA_Ynnari_03 = { texturefile = "gfx/models/portraits/AEL_CRA_Ynnari_03.dds" }
+	AEL_CRA_Ynnari_04 = { texturefile = "gfx/models/portraits/AEL_CRA_Ynnari_04.dds" }
+	AEL_CRA_Ynnari_05 = { texturefile = "gfx/models/portraits/AEL_CRA_Ynnari_05.dds" }
+	AEL_DRU_Azdrubael = { texturefile = "gfx/models/portraits/AEL_DRU_Azdrubael.dds" }
+	AEL_DRU_Blackheart_01 = { texturefile = "gfx/models/portraits/AEL_DRU_Blackheart_01.dds" }
+	AEL_DRU_Blackheart_02 = { texturefile = "gfx/models/portraits/AEL_DRU_Blackheart_02.dds" }
+	AEL_DRU_Blackheart_03 = { texturefile = "gfx/models/portraits/AEL_DRU_Blackheart_03.dds" }
+	AEL_DRU_Blackheart_04 = { texturefile = "gfx/models/portraits/AEL_DRU_Blackheart_04.dds" }
+	AEL_DRU_BrokenSigil_01 = { texturefile = "gfx/models/portraits/AEL_DRU_BrokenSigil_01.dds" }
+	AEL_DRU_BrokenSigil_02 = { texturefile = "gfx/models/portraits/AEL_DRU_BrokenSigil_02.dds" }
+	AEL_DRU_BrokenSigil_03 = { texturefile = "gfx/models/portraits/AEL_DRU_BrokenSigil_03.dds" }
+	AEL_DRU_BrokenSigil_04 = { texturefile = "gfx/models/portraits/AEL_DRU_BrokenSigil_04.dds" }
+	AEL_DRU_DyingSun_01 = { texturefile = "gfx/models/portraits/AEL_DRU_DyingSun_01.dds" }
+	AEL_DRU_DyingSun_02 = { texturefile = "gfx/models/portraits/AEL_DRU_DyingSun_02.dds" }
+	AEL_DRU_DyingSun_03 = { texturefile = "gfx/models/portraits/AEL_DRU_DyingSun_03.dds" }
+	AEL_DRU_DyingSun_04 = { texturefile = "gfx/models/portraits/AEL_DRU_DyingSun_04.dds" }
+	AEL_DRU_FlayedSkull = { texturefile = "gfx/models/portraits/AEL_DRU_FlayedSkull.dds" }
+	AEL_DRU_FlayedSkull_01 = { texturefile = "gfx/models/portraits/AEL_DRU_FlayedSkull_01.dds" }
+	AEL_DRU_FlayedSkull_02 = { texturefile = "gfx/models/portraits/AEL_DRU_FlayedSkull_02.dds" }
+	AEL_DRU_FlayedSkull_03 = { texturefile = "gfx/models/portraits/AEL_DRU_FlayedSkull_03.dds" }
+	AEL_DRU_IronThorn_01 = { texturefile = "gfx/models/portraits/AEL_DRU_IronThorn_01.dds" }
+	AEL_DRU_IronThorn_02 = { texturefile = "gfx/models/portraits/AEL_DRU_IronThorn_02.dds" }
+	AEL_DRU_IronThorn_03 = { texturefile = "gfx/models/portraits/AEL_DRU_IronThorn_03.dds" }
+	AEL_DRU_IronThorn_04 = { texturefile = "gfx/models/portraits/AEL_DRU_IronThorn_04.dds" }
+	AEL_DRU_LastHatred_01 = { texturefile = "gfx/models/portraits/AEL_DRU_LastHatred_01.dds" }
+	AEL_DRU_LastHatred_02 = { texturefile = "gfx/models/portraits/AEL_DRU_LastHatred_02.dds" }
+	AEL_DRU_LastHatred_03 = { texturefile = "gfx/models/portraits/AEL_DRU_LastHatred_03.dds" }
+	AEL_DRU_LastHatred_04 = { texturefile = "gfx/models/portraits/AEL_DRU_LastHatred_04.dds" }
+	AEL_DRU_TheSevered_01 = { texturefile = "gfx/models/portraits/AEL_DRU_TheSevered_01.dds" }
+	AEL_DRU_TheSevered_02 = { texturefile = "gfx/models/portraits/AEL_DRU_TheSevered_02.dds" }
+	AEL_DRU_TheSevered_03 = { texturefile = "gfx/models/portraits/AEL_DRU_TheSevered_03.dds" }
+	AEL_DRU_TheSevered_04 = { texturefile = "gfx/models/portraits/AEL_DRU_TheSevered_04.dds" }
+	AEL_DRU_Ynnari_01 = { texturefile = "gfx/models/portraits/AEL_DRU_Ynnari_01.dds" }
+	AEL_DRU_Ynnari_02 = { texturefile = "gfx/models/portraits/AEL_DRU_Ynnari_02.dds" }
+	AEL_DRU_Ynnari_03 = { texturefile = "gfx/models/portraits/AEL_DRU_Ynnari_03.dds" }
+	AEL_DRU_Ynnari_04 = { texturefile = "gfx/models/portraits/AEL_DRU_Ynnari_04.dds" }
+	AEL_N_AutarchYramarh = { texturefile = "gfx/models/portraits/AEL_N_AutarchYramarh.dds" }
+	AEL_N_EldrathrainVoidstinger = { texturefile = "gfx/models/portraits/AEL_N_EldrathrainVoidstinger.dds" }
+	AEL_N_IdArtharn = { texturefile = "gfx/models/portraits/AEL_N_IdArtharn.dds" }
+	AEL_N_Irusrith = { texturefile = "gfx/models/portraits/AEL_N_Irusrith.dds" }
+	AEL_N_Visarch = { texturefile = "gfx/models/portraits/AEL_N_Visarch.dds" }
+	AEL_N_WarlockYsdain = { texturefile = "gfx/models/portraits/AEL_N_WarlockYsdain.dds" }
+	AEL_N_Yvraine = { texturefile = "gfx/models/portraits/AEL_N_Yvraine.dds" }
+	CHAOS_AlphaLegion_01 = { texturefile = "gfx/models/portraits/CHAOS_AlphaLegion_01.dds" }
+	CHAOS_AlphaLegion_02 = { texturefile = "gfx/models/portraits/CHAOS_AlphaLegion_02.dds" }
+	CHAOS_AlphaLegion_03 = { texturefile = "gfx/models/portraits/CHAOS_AlphaLegion_03.dds" }
+	CHAOS_AlphaLegion_04 = { texturefile = "gfx/models/portraits/CHAOS_AlphaLegion_04.dds" }
+	CHAOS_AlphaLegion_05 = { texturefile = "gfx/models/portraits/CHAOS_AlphaLegion_05.dds" }
+	CHAOS_AlphaLegion_06 = { texturefile = "gfx/models/portraits/CHAOS_AlphaLegion_06.dds" }
+	CHAOS_BlackLegion_01 = { texturefile = "gfx/models/portraits/CHAOS_BlackLegion_01.dds" }
+	CHAOS_BlackLegion_02 = { texturefile = "gfx/models/portraits/CHAOS_BlackLegion_02.dds" }
+	CHAOS_BlackLegion_03 = { texturefile = "gfx/models/portraits/CHAOS_BlackLegion_03.dds" }
+	CHAOS_BlackLegion_04 = { texturefile = "gfx/models/portraits/CHAOS_BlackLegion_04.dds" }
+	CHAOS_DaemonPrince_Khorn_01 = { texturefile = "gfx/models/portraits/CHAOS_DaemonPrince_Khorn_01.dds" }
+	CHAOS_DaemonPrince_Nurgle_01 = { texturefile = "gfx/models/portraits/CHAOS_DaemonPrince_Nurgle_01.dds" }
+	CHAOS_DaemonPrince_Slaanesh_01 = { texturefile = "gfx/models/portraits/CHAOS_DaemonPrince_Slaanesh_01.dds" }
+	CHAOS_DaemonPrince_Tzeentch_01 = { texturefile = "gfx/models/portraits/CHAOS_DaemonPrince_Tzeentch_01.dds" }
+	CHAOS_DaemonPrince_United_01 = { texturefile = "gfx/models/portraits/CHAOS_DaemonPrince_United_01.dds" }
+	CHAOS_DeathGuard_01 = { texturefile = "gfx/models/portraits/CHAOS_DeathGuard_01.dds" }
+	CHAOS_DeathGuard_02 = { texturefile = "gfx/models/portraits/CHAOS_DeathGuard_02.dds" }
+	CHAOS_DeathGuard_03 = { texturefile = "gfx/models/portraits/CHAOS_DeathGuard_03.dds" }
+	CHAOS_DeathGuard_04 = { texturefile = "gfx/models/portraits/CHAOS_DeathGuard_04.dds" }
+	CHAOS_EmperorChildren_01 = { texturefile = "gfx/models/portraits/CHAOS_EmperorChildren_01.dds" }
+	CHAOS_EmperorChildren_02 = { texturefile = "gfx/models/portraits/CHAOS_EmperorChildren_02.dds" }
+	CHAOS_EmperorChildren_03 = { texturefile = "gfx/models/portraits/CHAOS_EmperorChildren_03.dds" }
+	CHAOS_EmperorChildren_04 = { texturefile = "gfx/models/portraits/CHAOS_EmperorChildren_04.dds" }
+	CHAOS_Heretek_01 = { texturefile = "gfx/models/portraits/CHAOS_Heretek_01.dds" }
+	CHAOS_IronWarrior_01 = { texturefile = "gfx/models/portraits/CHAOS_IronWarrior_01.dds" }
+	CHAOS_IronWarrior_02 = { texturefile = "gfx/models/portraits/CHAOS_IronWarrior_02.dds" }
+	CHAOS_IronWarrior_03 = { texturefile = "gfx/models/portraits/CHAOS_IronWarrior_03.dds" }
+	CHAOS_IronWarrior_04 = { texturefile = "gfx/models/portraits/CHAOS_IronWarrior_04.dds" }
+	CHAOS_NightLords_01 = { texturefile = "gfx/models/portraits/CHAOS_NightLords_01.dds" }
+	CHAOS_NightLords_02 = { texturefile = "gfx/models/portraits/CHAOS_NightLords_02.dds" }
+	CHAOS_NightLords_03 = { texturefile = "gfx/models/portraits/CHAOS_NightLords_03.dds" }
+	CHAOS_NightLords_04 = { texturefile = "gfx/models/portraits/CHAOS_NightLords_04.dds" }
+	CHAOS_N_Abaddon = { texturefile = "gfx/models/portraits/CHAOS_N_Abaddon.dds" }
+	CHAOS_N_Arban_Talas = { texturefile = "gfx/models/portraits/CHAOS_N_Arban_Talas.dds" }
+	CHAOS_N_Arkrist_Vane = { texturefile = "gfx/models/portraits/CHAOS_N_Arkrist_Vane.dds" }
+	CHAOS_N_Belakor = { texturefile = "gfx/models/portraits/CHAOS_N_Belakor.dds" }
+	CHAOS_N_Brackthast = { texturefile = "gfx/models/portraits/CHAOS_N_Brackthast.dds" }
+	CHAOS_N_Demaroz = { texturefile = "gfx/models/portraits/CHAOS_N_Demaroz.dds" }
+	CHAOS_N_DevramKordaLordPurgator = { texturefile = "gfx/models/portraits/CHAOS_N_DevramKordaLordPurgator.dds" }
+	CHAOS_N_HuronBlackheart = { texturefile = "gfx/models/portraits/CHAOS_N_HuronBlackheart.dds" }
+	CHAOS_N_Karaz = { texturefile = "gfx/models/portraits/CHAOS_N_Karaz.dds" }
+	CHAOS_N_MagosKalock = { texturefile = "gfx/models/portraits/CHAOS_N_MagosKalock.dds" }
+	CHAOS_N_MalecantorKulag = { texturefile = "gfx/models/portraits/CHAOS_N_MalecantorKulag.dds" }
+	CHAOS_N_Malos_Vrykan = { texturefile = "gfx/models/portraits/CHAOS_N_Malos_Vrykan.dds" }
+	CHAOS_N_Maltrius = { texturefile = "gfx/models/portraits/CHAOS_N_Maltrius.dds" }
+	CHAOS_N_SkyrakSlaughterborn = { texturefile = "gfx/models/portraits/CHAOS_N_SkyrakSlaughterborn.dds" }
+	CHAOS_N_SorcererAntharek = { texturefile = "gfx/models/portraits/CHAOS_N_SorcererAntharek.dds" }
+	CHAOS_N_TheMask = { texturefile = "gfx/models/portraits/CHAOS_N_TheMask.dds" }
+	CHAOS_N_ThrexosHellbreed = { texturefile = "gfx/models/portraits/CHAOS_N_ThrexosHellbreed.dds" }
+	CHAOS_N_Ukani = { texturefile = "gfx/models/portraits/CHAOS_N_Ukani.dds" }
+	CHAOS_N_Vucius = { texturefile = "gfx/models/portraits/CHAOS_N_Vucius.dds" }
+	CHAOS_N_WarlordBrackthast = { texturefile = "gfx/models/portraits/CHAOS_N_WarlordBrackthast.dds" }
+	CHAOS_N_WarlordTsevosk = { texturefile = "gfx/models/portraits/CHAOS_N_WarlordTsevosk.dds" }
+	CHAOS_N_Zagtheanthebroken = { texturefile = "gfx/models/portraits/CHAOS_N_Zagtheanthebroken.dds" }
+	CHAOS_N__Defector_Admiral_Malicor = { texturefile = "gfx/models/portraits/CHAOS_N__Defector_Admiral_Malicor.dds" }
+	CHAOS_N__Jasul_Barass = { texturefile = "gfx/models/portraits/CHAOS_N__Jasul_Barass.dds" }
+	CHAOS_RedCorsairs_01 = { texturefile = "gfx/models/portraits/CHAOS_RedCorsairs_01.dds" }
+	CHAOS_RedCorsairs_02 = { texturefile = "gfx/models/portraits/CHAOS_RedCorsairs_02.dds" }
+	CHAOS_RedCorsairs_03 = { texturefile = "gfx/models/portraits/CHAOS_RedCorsairs_03.dds" }
+	CHAOS_RedCorsairs_04 = { texturefile = "gfx/models/portraits/CHAOS_RedCorsairs_04.dds" }
+	CHAOS_Renegade_01 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_01.dds" }
+	CHAOS_Renegade_02 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_02.dds" }
+	CHAOS_Renegade_03 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_03.dds" }
+	CHAOS_Renegade_04 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_04.dds" }
+	CHAOS_Renegade_05 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_05.dds" }
+	CHAOS_Renegade_06 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_06.dds" }
+	CHAOS_Renegade_07 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_07.dds" }
+	CHAOS_Renegade_08 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_08.dds" }
+	CHAOS_Renegade_09 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_09.dds" }
+	CHAOS_Renegade_10 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_10.dds" }
+	CHAOS_Renegade_Khorn_01 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Khorn_01.dds" }
+	CHAOS_Renegade_Khorn_02 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Khorn_02.dds" }
+	CHAOS_Renegade_Khorn_03 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Khorn_03.dds" }
+	CHAOS_Renegade_Khorn_05 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Khorn_05.dds" }
+	CHAOS_Renegade_Khorn_07 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Khorn_07.dds" }
+	CHAOS_Renegade_Khorn_08 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Khorn_08.dds" }
+	CHAOS_Renegade_Nurgle_01 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Nurgle_01.dds" }
+	CHAOS_Renegade_Nurgle_02 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Nurgle_02.dds" }
+	CHAOS_Renegade_Nurgle_03 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Nurgle_03.dds" }
+	CHAOS_Renegade_Nurgle_05 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Nurgle_05.dds" }
+	CHAOS_Renegade_Nurgle_06 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Nurgle_06.dds" }
+	CHAOS_Renegade_Nurgle_08 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Nurgle_08.dds" }
+	CHAOS_Renegade_Slaanesh_01 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Slaanesh_01.dds" }
+	CHAOS_Renegade_Slaanesh_02 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Slaanesh_02.dds" }
+	CHAOS_Renegade_Slaanesh_05 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Slaanesh_05.dds" }
+	CHAOS_Renegade_Slaanesh_06 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Slaanesh_06.dds" }
+	CHAOS_Renegade_Slaanesh_07 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Slaanesh_07.dds" }
+	CHAOS_Renegade_Slaanesh_08 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Slaanesh_08.dds" }
+	CHAOS_Renegade_Tzeentch_01 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Tzeentch_01.dds" }
+	CHAOS_Renegade_Tzeentch_02 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Tzeentch_02.dds" }
+	CHAOS_Renegade_Tzeentch_03 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Tzeentch_03.dds" }
+	CHAOS_Renegade_Tzeentch_04 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Tzeentch_04.dds" }
+	CHAOS_Renegade_Tzeentch_05 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Tzeentch_05.dds" }
+	CHAOS_Renegade_Tzeentch_07 = { texturefile = "gfx/models/portraits/CHAOS_Renegade_Tzeentch_07.dds" }
+	CHAOS_SonsOfMalice_01 = { texturefile = "gfx/models/portraits/CHAOS_SonsOfMalice_01.dds" }
+	CHAOS_SonsOfMalice_02 = { texturefile = "gfx/models/portraits/CHAOS_SonsOfMalice_02.dds" }
+	CHAOS_ThousandSons_01 = { texturefile = "gfx/models/portraits/CHAOS_ThousandSons_01.dds" }
+	CHAOS_ThousandSons_02 = { texturefile = "gfx/models/portraits/CHAOS_ThousandSons_02.dds" }
+	CHAOS_ThousandSons_03 = { texturefile = "gfx/models/portraits/CHAOS_ThousandSons_03.dds" }
+	CHAOS_ThousandSons_04 = { texturefile = "gfx/models/portraits/CHAOS_ThousandSons_04.dds" }
+	CHAOS_WordBearer_01 = { texturefile = "gfx/models/portraits/CHAOS_WordBearer_01.dds" }
+	CHAOS_WordBearer_02 = { texturefile = "gfx/models/portraits/CHAOS_WordBearer_02.dds" }
+	CHAOS_WordBearer_03 = { texturefile = "gfx/models/portraits/CHAOS_WordBearer_03.dds" }
+	CHAOS_WordBearer_04 = { texturefile = "gfx/models/portraits/CHAOS_WordBearer_04.dds" }
+	CHAOS_WorldEater_01 = { texturefile = "gfx/models/portraits/CHAOS_WorldEater_01.dds" }
+	CHAOS_WorldEater_02 = { texturefile = "gfx/models/portraits/CHAOS_WorldEater_02.dds" }
+	CHAOS_WorldEater_03 = { texturefile = "gfx/models/portraits/CHAOS_WorldEater_03.dds" }
+	CHAOS_WorldEater_04 = { texturefile = "gfx/models/portraits/CHAOS_WorldEater_04.dds" }
+	IMP_ADMEC_01 = { texturefile = "gfx/models/portraits/IMP_ADMEC_01.dds" }
+	IMP_ADMEC_02 = { texturefile = "gfx/models/portraits/IMP_ADMEC_02.dds" }
+	IMP_ADMEC_DelphanGruss = { texturefile = "gfx/models/portraits/IMP_ADMEC_DelphanGruss.dds" }
+	IMP_Commissar_01 = { texturefile = "gfx/models/portraits/IMP_Commissar_01.dds" }
+	IMP_INQ_01 = { texturefile = "gfx/models/portraits/IMP_INQ_01.dds" }
+	IMP_INQ_02 = { texturefile = "gfx/models/portraits/IMP_INQ_02.dds" }
+	IMP_Magos_Mechanicus_01 = { texturefile = "gfx/models/portraits/IMP_Magos_Mechanicus_01.dds" }
+	IMP_NAVY_01 = { texturefile = "gfx/models/portraits/IMP_NAVY_01.dds" }
+	IMP_NAVY_02 = { texturefile = "gfx/models/portraits/IMP_NAVY_02.dds" }
+	IMP_NAVY_03 = { texturefile = "gfx/models/portraits/IMP_NAVY_03.dds" }
+	IMP_NAVY_04 = { texturefile = "gfx/models/portraits/IMP_NAVY_04.dds" }
+	IMP_NAVY_05 = { texturefile = "gfx/models/portraits/IMP_NAVY_05.dds" }
+	IMP_NAVY_06 = { texturefile = "gfx/models/portraits/IMP_NAVY_06.dds" }
+	IMP_NAVY_Celestine = { texturefile = "gfx/models/portraits/IMP_NAVY_Celestine.dds" }
+	IMP_N_AdmiralMalicor = { texturefile = "gfx/models/portraits/IMP_N_AdmiralMalicor.dds" }
+	IMP_N_AdmiralSpire = { texturefile = "gfx/models/portraits/IMP_N_AdmiralSpire.dds" }
+	IMP_N_BelisariusCawl = { texturefile = "gfx/models/portraits/IMP_N_BelisariusCawl.dds" }
+	IMP_N_CaptainAbridal = { texturefile = "gfx/models/portraits/IMP_N_CaptainAbridal.dds" }
+	IMP_N_CaptainDonatosAphael = { texturefile = "gfx/models/portraits/IMP_N_CaptainDonatosAphael.dds" }
+	IMP_N_CaptainMaluan = { texturefile = "gfx/models/portraits/IMP_N_CaptainMaluan.dds" }
+	IMP_N_CaptainSeverin = { texturefile = "gfx/models/portraits/IMP_N_CaptainSeverin.dds" }
+	IMP_N_CaptainSindGrolvolch = { texturefile = "gfx/models/portraits/IMP_N_CaptainSindGrolvolch.dds" }
+	IMP_N_CaptainSvar = { texturefile = "gfx/models/portraits/IMP_N_CaptainSvar.dds" }
+	IMP_N_CaptainThrasyllus = { texturefile = "gfx/models/portraits/IMP_N_CaptainThrasyllus.dds" }
+	IMP_N_CaptainTiberiusSolarian = { texturefile = "gfx/models/portraits/IMP_N_CaptainTiberiusSolarian.dds" }
+	IMP_N_CaptainTorGaradon = { texturefile = "gfx/models/portraits/IMP_N_CaptainTorGaradon.dds" }
+	IMP_N_CaptainTrevius = { texturefile = "gfx/models/portraits/IMP_N_CaptainTrevius.dds" }
+	IMP_N_CaptainVoskamp = { texturefile = "gfx/models/portraits/IMP_N_CaptainVoskamp.dds" }
+	IMP_N_CardinalSternhell = { texturefile = "gfx/models/portraits/IMP_N_CardinalSternhell.dds" }
+	IMP_N_ColonelMaxson = { texturefile = "gfx/models/portraits/IMP_N_ColonelMaxson.dds" }
+	IMP_N_CommissarDuncan = { texturefile = "gfx/models/portraits/IMP_N_CommissarDuncan.dds" }
+	IMP_N_CommodoreCyrane = { texturefile = "gfx/models/portraits/IMP_N_CommodoreCyrane.dds" }
+	IMP_N_CommodoreKage = { texturefile = "gfx/models/portraits/IMP_N_CommodoreKage.dds" }
+	IMP_N_CommodoreLiang = { texturefile = "gfx/models/portraits/IMP_N_CommodoreLiang.dds" }
+	IMP_N_CommodoreTrevaux = { texturefile = "gfx/models/portraits/IMP_N_CommodoreTrevaux.dds" }
+	IMP_N_CommodoreTyralean = { texturefile = "gfx/models/portraits/IMP_N_CommodoreTyralean.dds" }
+	IMP_N_Darkhammer = { texturefile = "gfx/models/portraits/IMP_N_Darkhammer.dds" }
+	IMP_N_EngirKrakendoom = { texturefile = "gfx/models/portraits/IMP_N_EngirKrakendoom.dds" }
+	IMP_N_FabricatorCambrius = { texturefile = "gfx/models/portraits/IMP_N_FabricatorCambrius.dds" }
+	IMP_N_GovernorSorven = { texturefile = "gfx/models/portraits/IMP_N_GovernorSorven.dds" }
+	IMP_N_IronPriestFiremaw = { texturefile = "gfx/models/portraits/IMP_N_IronPriestFiremaw.dds" }
+	IMP_N_LieutenantDrusus = { texturefile = "gfx/models/portraits/IMP_N_LieutenantDrusus.dds" }
+	IMP_N_LordHighAdmiralDrang = { texturefile = "gfx/models/portraits/IMP_N_LordHighAdmiralDrang.dds" }
+	IMP_N_MagosBiblios = { texturefile = "gfx/models/portraits/IMP_N_MagosBiblios.dds" }
+	IMP_N_MagosCrawn = { texturefile = "gfx/models/portraits/IMP_N_MagosCrawn.dds" }
+	IMP_N_MagosCrestin = { texturefile = "gfx/models/portraits/IMP_N_MagosCrestin.dds" }
+	IMP_N_MagosKelen = { texturefile = "gfx/models/portraits/IMP_N_MagosKelen.dds" }
+	IMP_N_MagosKlarn = { texturefile = "gfx/models/portraits/IMP_N_MagosKlarn.dds" }
+	IMP_N_MagosNumerian = { texturefile = "gfx/models/portraits/IMP_N_MagosNumerian.dds" }
+	IMP_N_MagosTellemark = { texturefile = "gfx/models/portraits/IMP_N_MagosTellemark.dds" }
+	IMP_N_MagosVaryn = { texturefile = "gfx/models/portraits/IMP_N_MagosVaryn.dds" }
+	IMP_N_MajorRazim = { texturefile = "gfx/models/portraits/IMP_N_MajorRazim.dds" }
+	IMP_N_MasterofthefleetKorahael = { texturefile = "gfx/models/portraits/IMP_N_MasterofthefleetKorahael.dds" }
+	IMP_N_NavigatorDomitianOfTheHouseBelisarius = { texturefile = "gfx/models/portraits/IMP_N_NavigatorDomitianOfTheHouseBelisarius.dds" }
+	IMP_N_Osmadiel = { texturefile = "gfx/models/portraits/IMP_N_Osmadiel.dds" }
+	IMP_N_PriusTulla = { texturefile = "gfx/models/portraits/IMP_N_PriusTulla.dds" }
+	IMP_N_RobouteGuilliman = { texturefile = "gfx/models/portraits/IMP_N_RobouteGuilliman.dds" }
+	IMP_N_SegleiKhan = { texturefile = "gfx/models/portraits/IMP_N_SegleiKhan.dds" }
+	IMP_N_ShadowCaptainAajzSolari = { texturefile = "gfx/models/portraits/IMP_N_ShadowCaptainAajzSolari.dds" }
+	IMP_N_SvenBloodhowl = { texturefile = "gfx/models/portraits/IMP_N_SvenBloodhowl.dds" }
+	IMP_N_UrsakarCreed = { texturefile = "gfx/models/portraits/IMP_N_UrsakarCreed.dds" }
+	IMP_N_VenescaCatallia = { texturefile = "gfx/models/portraits/IMP_N_VenescaCatallia.dds" }
+	IMP_Officer_01 = { texturefile = "gfx/models/portraits/IMP_Officer_01.dds" }
+	IMP_Pirate_01 = { texturefile = "gfx/models/portraits/IMP_Pirate_01.dds" }
+	IMP_Pirate_02 = { texturefile = "gfx/models/portraits/IMP_Pirate_02.dds" }
+	IMP_SM_Artemis = { texturefile = "gfx/models/portraits/IMP_SM_Artemis.dds" }
+	IMP_SM_BloodAngel_01 = { texturefile = "gfx/models/portraits/IMP_SM_BloodAngel_01.dds" }
+	IMP_SM_BloodAngel_02 = { texturefile = "gfx/models/portraits/IMP_SM_BloodAngel_02.dds" }
+	IMP_SM_BloodAngel_03 = { texturefile = "gfx/models/portraits/IMP_SM_BloodAngel_03.dds" }
+	IMP_SM_BloodAngel_04 = { texturefile = "gfx/models/portraits/IMP_SM_BloodAngel_04.dds" }
+	IMP_SM_DarkAngel_01 = { texturefile = "gfx/models/portraits/IMP_SM_DarkAngel_01.dds" }
+	IMP_SM_DarkAngel_02 = { texturefile = "gfx/models/portraits/IMP_SM_DarkAngel_02.dds" }
+	IMP_SM_DarkAngel_03 = { texturefile = "gfx/models/portraits/IMP_SM_DarkAngel_03.dds" }
+	IMP_SM_DarkAngel_04 = { texturefile = "gfx/models/portraits/IMP_SM_DarkAngel_04.dds" }
+	IMP_SM_ImperialFist_01 = { texturefile = "gfx/models/portraits/IMP_SM_ImperialFist_01.dds" }
+	IMP_SM_ImperialFist_02 = { texturefile = "gfx/models/portraits/IMP_SM_ImperialFist_02.dds" }
+	IMP_SM_ImperialFist_03 = { texturefile = "gfx/models/portraits/IMP_SM_ImperialFist_03.dds" }
+	IMP_SM_ImperialFist_04 = { texturefile = "gfx/models/portraits/IMP_SM_ImperialFist_04.dds" }
+	IMP_SM_IronHand_01 = { texturefile = "gfx/models/portraits/IMP_SM_IronHand_01.dds" }
+	IMP_SM_IronHand_02 = { texturefile = "gfx/models/portraits/IMP_SM_IronHand_02.dds" }
+	IMP_SM_IronHand_03 = { texturefile = "gfx/models/portraits/IMP_SM_IronHand_03.dds" }
+	IMP_SM_IronHand_04 = { texturefile = "gfx/models/portraits/IMP_SM_IronHand_04.dds" }
+	IMP_SM_Ravenguard_01 = { texturefile = "gfx/models/portraits/IMP_SM_Ravenguard_01.dds" }
+	IMP_SM_Ravenguard_02 = { texturefile = "gfx/models/portraits/IMP_SM_Ravenguard_02.dds" }
+	IMP_SM_Ravenguard_03 = { texturefile = "gfx/models/portraits/IMP_SM_Ravenguard_03.dds" }
+	IMP_SM_Ravenguard_04 = { texturefile = "gfx/models/portraits/IMP_SM_Ravenguard_04.dds" }
+	IMP_SM_Salamanders_01 = { texturefile = "gfx/models/portraits/IMP_SM_Salamanders_01.dds" }
+	IMP_SM_Salamanders_02 = { texturefile = "gfx/models/portraits/IMP_SM_Salamanders_02.dds" }
+	IMP_SM_Salamanders_03 = { texturefile = "gfx/models/portraits/IMP_SM_Salamanders_03.dds" }
+	IMP_SM_Salamanders_04 = { texturefile = "gfx/models/portraits/IMP_SM_Salamanders_04.dds" }
+	IMP_SM_SpaceWolves_01 = { texturefile = "gfx/models/portraits/IMP_SM_SpaceWolves_01.dds" }
+	IMP_SM_SpaceWolves_02 = { texturefile = "gfx/models/portraits/IMP_SM_SpaceWolves_02.dds" }
+	IMP_SM_SpaceWolves_03 = { texturefile = "gfx/models/portraits/IMP_SM_SpaceWolves_03.dds" }
+	IMP_SM_SpaceWolves_04 = { texturefile = "gfx/models/portraits/IMP_SM_SpaceWolves_04.dds" }
+	IMP_SM_Ultramarines_01 = { texturefile = "gfx/models/portraits/IMP_SM_Ultramarines_01.dds" }
+	IMP_SM_Ultramarines_02 = { texturefile = "gfx/models/portraits/IMP_SM_Ultramarines_02.dds" }
+	IMP_SM_Ultramarines_03 = { texturefile = "gfx/models/portraits/IMP_SM_Ultramarines_03.dds" }
+	IMP_SM_Ultramarines_04 = { texturefile = "gfx/models/portraits/IMP_SM_Ultramarines_04.dds" }
+	IMP_SM_WhiteScars_01 = { texturefile = "gfx/models/portraits/IMP_SM_WhiteScars_01.dds" }
+	IMP_SM_WhiteScars_02 = { texturefile = "gfx/models/portraits/IMP_SM_WhiteScars_02.dds" }
+	IMP_SM_WhiteScars_03 = { texturefile = "gfx/models/portraits/IMP_SM_WhiteScars_03.dds" }
+	IMP_SM_WhiteScars_04 = { texturefile = "gfx/models/portraits/IMP_SM_WhiteScars_04.dds" }
+	NECRON_Cryptek_01 = { texturefile = "gfx/models/portraits/NECRON_Cryptek_01.dds" }
+	NECRON_Cryptek_02 = { texturefile = "gfx/models/portraits/NECRON_Cryptek_02.dds" }
+	NECRON_Cryptek_03 = { texturefile = "gfx/models/portraits/NECRON_Cryptek_03.dds" }
+	NECRON_Cryptek_04 = { texturefile = "gfx/models/portraits/NECRON_Cryptek_04.dds" }
+	NECRON_N_AmarkhunTheGatherer = { texturefile = "gfx/models/portraits/NECRON_N_AmarkhunTheGatherer.dds" }
+	NECRON_N_AnakalethTheWise = { texturefile = "gfx/models/portraits/NECRON_N_AnakalethTheWise.dds" }
+	NECRON_N_Anrakyr = { texturefile = "gfx/models/portraits/NECRON_N_Anrakyr.dds" }
+	NECRON_N_Cleorekh = { texturefile = "gfx/models/portraits/NECRON_N_Cleorekh.dds" }
+	NECRON_N_KephrekhTheUnbroken = { texturefile = "gfx/models/portraits/NECRON_N_KephrekhTheUnbroken.dds" }
+	NECRON_N_TrazynTheInfinite = { texturefile = "gfx/models/portraits/NECRON_N_TrazynTheInfinite.dds" }
+	NECRON_N_Vorekh = { texturefile = "gfx/models/portraits/NECRON_N_Vorekh.dds" }
+	NECRON_N_ZaaOfTomorrow = { texturefile = "gfx/models/portraits/NECRON_N_ZaaOfTomorrow.dds" }
+	NECRON_Overlord_01 = { texturefile = "gfx/models/portraits/NECRON_Overlord_01.dds" }
+	NECRON_Overlord_02 = { texturefile = "gfx/models/portraits/NECRON_Overlord_02.dds" }
+	NECRON_Overlord_03 = { texturefile = "gfx/models/portraits/NECRON_Overlord_03.dds" }
+	NECRON_Overlord_04 = { texturefile = "gfx/models/portraits/NECRON_Overlord_04.dds" }
+	NECRON_Overlord_05 = { texturefile = "gfx/models/portraits/NECRON_Overlord_05.dds" }
+	NECRON_Overlord_06 = { texturefile = "gfx/models/portraits/NECRON_Overlord_06.dds" }
+	NECRON_Overlord_07 = { texturefile = "gfx/models/portraits/NECRON_Overlord_07.dds" }
+	NECRON_Overlord_08 = { texturefile = "gfx/models/portraits/NECRON_Overlord_08.dds" }
+	NECRON_Overlord_09 = { texturefile = "gfx/models/portraits/NECRON_Overlord_09.dds" }
+	NECRON_Overlord_10 = { texturefile = "gfx/models/portraits/NECRON_Overlord_10.dds" }
+	ORK_BadMoonz_BigBoss_01 = { texturefile = "gfx/models/portraits/ORK_BadMoonz_BigBoss_01.dds" }
+	ORK_BadMoonz_BigBoss_02 = { texturefile = "gfx/models/portraits/ORK_BadMoonz_BigBoss_02.dds" }
+	ORK_BadMoonz_BigBoss_03 = { texturefile = "gfx/models/portraits/ORK_BadMoonz_BigBoss_03.dds" }
+	ORK_BadMoonz_BigBoss_04 = { texturefile = "gfx/models/portraits/ORK_BadMoonz_BigBoss_04.dds" }
+	ORK_BigBoss_01 = { texturefile = "gfx/models/portraits/ORK_BigBoss_01.dds" }
+	ORK_BigBoss_02 = { texturefile = "gfx/models/portraits/ORK_BigBoss_02.dds" }
+	ORK_BigBoss_03 = { texturefile = "gfx/models/portraits/ORK_BigBoss_03.dds" }
+	ORK_BigBoss_04 = { texturefile = "gfx/models/portraits/ORK_BigBoss_04.dds" }
+	ORK_BigMek_01 = { texturefile = "gfx/models/portraits/ORK_BigMek_01.dds" }
+	ORK_BigMek_02 = { texturefile = "gfx/models/portraits/ORK_BigMek_02.dds" }
+	ORK_BigMek_03 = { texturefile = "gfx/models/portraits/ORK_BigMek_03.dds" }
+	ORK_BigMek_04 = { texturefile = "gfx/models/portraits/ORK_BigMek_04.dds" }
+	ORK_BloodAxe_02 = { texturefile = "gfx/models/portraits/ORK_BloodAxe_02.dds" }
+	ORK_BloodAxe_03 = { texturefile = "gfx/models/portraits/ORK_BloodAxe_03.dds" }
+	ORK_BloodAxe_04 = { texturefile = "gfx/models/portraits/ORK_BloodAxe_04.dds" }
+	ORK_BloodAxe_BigBoss_01 = { texturefile = "gfx/models/portraits/ORK_BloodAxe_BigBoss_01.dds" }
+	ORK_DeathSkullz_01 = { texturefile = "gfx/models/portraits/ORK_DeathSkullz_01.dds" }
+	ORK_DeathSkullz_02 = { texturefile = "gfx/models/portraits/ORK_DeathSkullz_02.dds" }
+	ORK_DeathSkullz_03 = { texturefile = "gfx/models/portraits/ORK_DeathSkullz_03.dds" }
+	ORK_DeathSkullz_04 = { texturefile = "gfx/models/portraits/ORK_DeathSkullz_04.dds" }
+	ORK_EvilSunz_BigBoss_01 = { texturefile = "gfx/models/portraits/ORK_EvilSunz_BigBoss_01.dds" }
+	ORK_EvilSunz_BigBoss_02 = { texturefile = "gfx/models/portraits/ORK_EvilSunz_BigBoss_02.dds" }
+	ORK_EvilSunz_BigBoss_03 = { texturefile = "gfx/models/portraits/ORK_EvilSunz_BigBoss_03.dds" }
+	ORK_EvilSunz_BigBoss_04 = { texturefile = "gfx/models/portraits/ORK_EvilSunz_BigBoss_04.dds" }
+	ORK_Goff_BigBoss_01 = { texturefile = "gfx/models/portraits/ORK_Goff_BigBoss_01.dds" }
+	ORK_Goff_BigBoss_02 = { texturefile = "gfx/models/portraits/ORK_Goff_BigBoss_02.dds" }
+	ORK_Goff_BigBoss_03 = { texturefile = "gfx/models/portraits/ORK_Goff_BigBoss_03.dds" }
+	ORK_Goff_BigBoss_04 = { texturefile = "gfx/models/portraits/ORK_Goff_BigBoss_04.dds" }
+	ORK_N_BlitzRippa = { texturefile = "gfx/models/portraits/ORK_N_BlitzRippa.dds" }
+	ORK_N_Firestarta = { texturefile = "gfx/models/portraits/ORK_N_Firestarta.dds" }
+	ORK_N_Gazghull = { texturefile = "gfx/models/portraits/ORK_N_Gazghull.dds" }
+	ORK_N_GoldToof = { texturefile = "gfx/models/portraits/ORK_N_GoldToof.dds" }
+	ORK_N_GoreSpitta = { texturefile = "gfx/models/portraits/ORK_N_GoreSpitta.dds" }
+	ORK_N_KaptainRazgob = { texturefile = "gfx/models/portraits/ORK_N_KaptainRazgob.dds" }
+	ORK_N_MadGrowla = { texturefile = "gfx/models/portraits/ORK_N_MadGrowla.dds" }
+	ORK_N_Wazrok = { texturefile = "gfx/models/portraits/ORK_N_Wazrok.dds" }
+	TAU_Dalyth_Admiral_01 = { texturefile = "gfx/models/portraits/TAU_Dalyth_Admiral_01.dds" }
+	TAU_Dalyth_Admiral_02 = { texturefile = "gfx/models/portraits/TAU_Dalyth_Admiral_02.dds" }
+	TAU_Dalyth_Admiral_03 = { texturefile = "gfx/models/portraits/TAU_Dalyth_Admiral_03.dds" }
+	TAU_Dalyth_Admiral_04 = { texturefile = "gfx/models/portraits/TAU_Dalyth_Admiral_04.dds" }
+	TAU_Dyanoi_Admiral_01 = { texturefile = "gfx/models/portraits/TAU_Dyanoi_Admiral_01.dds" }
+	TAU_Dyanoi_Admiral_02 = { texturefile = "gfx/models/portraits/TAU_Dyanoi_Admiral_02.dds" }
+	TAU_Dyanoi_Admiral_03 = { texturefile = "gfx/models/portraits/TAU_Dyanoi_Admiral_03.dds" }
+	TAU_Dyanoi_Admiral_04 = { texturefile = "gfx/models/portraits/TAU_Dyanoi_Admiral_04.dds" }
+	TAU_Farsight_Admiral_01 = { texturefile = "gfx/models/portraits/TAU_Farsight_Admiral_01.dds" }
+	TAU_Farsight_Admiral_02 = { texturefile = "gfx/models/portraits/TAU_Farsight_Admiral_02.dds" }
+	TAU_Farsight_Admiral_03 = { texturefile = "gfx/models/portraits/TAU_Farsight_Admiral_03.dds" }
+	TAU_Farsight_Admiral_04 = { texturefile = "gfx/models/portraits/TAU_Farsight_Admiral_04.dds" }
+	TAU_M_AunVA = { texturefile = "gfx/models/portraits/TAU_M_AunVA.dds" }
+	TAU_P_Shadowsun = { texturefile = "gfx/models/portraits/TAU_P_Shadowsun.dds" }
+	TAU_Sacea_Admiral_01 = { texturefile = "gfx/models/portraits/TAU_Sacea_Admiral_01.dds" }
+	TAU_Sacea_Admiral_02 = { texturefile = "gfx/models/portraits/TAU_Sacea_Admiral_02.dds" }
+	TAU_Sacea_Admiral_03 = { texturefile = "gfx/models/portraits/TAU_Sacea_Admiral_03.dds" }
+	TAU_Sacea_Admiral_04 = { texturefile = "gfx/models/portraits/TAU_Sacea_Admiral_04.dds" }
+	TAU_Taun_Admiral_01 = { texturefile = "gfx/models/portraits/TAU_Taun_Admiral_01.dds" }
+	TAU_Taun_Admiral_02 = { texturefile = "gfx/models/portraits/TAU_Taun_Admiral_02.dds" }
+	TAU_Taun_Admiral_03 = { texturefile = "gfx/models/portraits/TAU_Taun_Admiral_03.dds" }
+	TAU_Taun_Admiral_04 = { texturefile = "gfx/models/portraits/TAU_Taun_Admiral_04.dds" }
+	TAU_Tau_Admiral_01 = { texturefile = "gfx/models/portraits/TAU_Tau_Admiral_01.dds" }
+	TAU_Tau_Admiral_02 = { texturefile = "gfx/models/portraits/TAU_Tau_Admiral_02.dds" }
+	TAU_Tau_Admiral_03 = { texturefile = "gfx/models/portraits/TAU_Tau_Admiral_03.dds" }
+	TAU_Tau_Admiral_04 = { texturefile = "gfx/models/portraits/TAU_Tau_Admiral_04.dds" }
+	TYR_Behemoth_01 = { texturefile = "gfx/models/portraits/TYR_Behemoth_01.dds" }
+	TYR_Behemoth_02 = { texturefile = "gfx/models/portraits/TYR_Behemoth_02.dds" }
+	TYR_Behemoth_03 = { texturefile = "gfx/models/portraits/TYR_Behemoth_03.dds" }
+	TYR_Behemoth_04 = { texturefile = "gfx/models/portraits/TYR_Behemoth_04.dds" }
+	TYR_Gorgon_01 = { texturefile = "gfx/models/portraits/TYR_Gorgon_01.dds" }
+	TYR_Gorgon_02 = { texturefile = "gfx/models/portraits/TYR_Gorgon_02.dds" }
+	TYR_Gorgon_03 = { texturefile = "gfx/models/portraits/TYR_Gorgon_03.dds" }
+	TYR_Gorgon_04 = { texturefile = "gfx/models/portraits/TYR_Gorgon_04.dds" }
+	TYR_Hydra_01 = { texturefile = "gfx/models/portraits/TYR_Hydra_01.dds" }
+	TYR_Hydra_02 = { texturefile = "gfx/models/portraits/TYR_Hydra_02.dds" }
+	TYR_Hydra_03 = { texturefile = "gfx/models/portraits/TYR_Hydra_03.dds" }
+	TYR_Hydra_04 = { texturefile = "gfx/models/portraits/TYR_Hydra_04.dds" }
+	TYR_Jormungandr_01 = { texturefile = "gfx/models/portraits/TYR_Jormungandr_01.dds" }
+	TYR_Jormungandr_02 = { texturefile = "gfx/models/portraits/TYR_Jormungandr_02.dds" }
+	TYR_Jormungandr_03 = { texturefile = "gfx/models/portraits/TYR_Jormungandr_03.dds" }
+	TYR_Jormungandr_04 = { texturefile = "gfx/models/portraits/TYR_Jormungandr_04.dds" }
+	TYR_Kraken_01 = { texturefile = "gfx/models/portraits/TYR_Kraken_01.dds" }
+	TYR_Kraken_02 = { texturefile = "gfx/models/portraits/TYR_Kraken_02.dds" }
+	TYR_Kraken_03 = { texturefile = "gfx/models/portraits/TYR_Kraken_03.dds" }
+	TYR_Kraken_04 = { texturefile = "gfx/models/portraits/TYR_Kraken_04.dds" }
+	TYR_Leviathan_01 = { texturefile = "gfx/models/portraits/TYR_Leviathan_01.dds" }
+	TYR_Leviathan_02 = { texturefile = "gfx/models/portraits/TYR_Leviathan_02.dds" }
+	TYR_Leviathan_03 = { texturefile = "gfx/models/portraits/TYR_Leviathan_03.dds" }
+	TYR_Leviathan_04 = { texturefile = "gfx/models/portraits/TYR_Leviathan_04.dds" }
+	TYR_Leviathan_05 = { texturefile = "gfx/models/portraits/TYR_Leviathan_05.dds" }
+	TYR_Leviathan_06 = { texturefile = "gfx/models/portraits/TYR_Leviathan_06.dds" }
+	TYR_Leviathan_07 = { texturefile = "gfx/models/portraits/TYR_Leviathan_07.dds" }
+	TYR_Leviathan_08 = { texturefile = "gfx/models/portraits/TYR_Leviathan_08.dds" }
+	TYR_Ouroboris_01 = { texturefile = "gfx/models/portraits/TYR_Ouroboris_01.dds" }
+	TYR_Ouroboris_02 = { texturefile = "gfx/models/portraits/TYR_Ouroboris_02.dds" }
+	TYR_Ouroboris_03 = { texturefile = "gfx/models/portraits/TYR_Ouroboris_03.dds" }
+	TYR_Ouroboris_04 = { texturefile = "gfx/models/portraits/TYR_Ouroboris_04.dds" }
+	TYR_Patriarch = { texturefile = "gfx/models/portraits/TYR_Patriarch.dds" }
+	TYR_Tiamet_01 = { texturefile = "gfx/models/portraits/TYR_Tiamet_01.dds" }
+	TYR_Tiamet_02 = { texturefile = "gfx/models/portraits/TYR_Tiamet_02.dds" }
+	TYR_Tiamet_03 = { texturefile = "gfx/models/portraits/TYR_Tiamet_03.dds" }
+	TYR_Tiamet_04 = { texturefile = "gfx/models/portraits/TYR_Tiamet_04.dds" }
 }
 
 portrait_groups = {
@@ -178,439 +448,29 @@ portrait_groups = {
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					human1
-					human2
-					human3
-					human4
-					human5
-					human6
-					spacemarine1
-					spacemarine2
-					spacemarine3
-					spacemarine4
-					spacemarine5
-					spacemarine6
-					spacemarine7
-					spacemarine8
-					silvercondor1
-					spacemarinescout1
-					spacemarine_scientist1
-					spacemarine_scientist2
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-					human_general1
-					human_general2
-					human_scientist1
-					human_admiral1
-					human_admiral2
-					human_admiral3
-					human_fem_admiral1
-					human_fem_admiral2
-					human_fem_governor1
-					human_fem1
-					human_fem2
-					human_governor1
-					human_governor2
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					human1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					human1
-					human_fem1
-					human_fem2
-					human2
-					human3
-					human4
-					human5
-					human6
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					human_general1
-					human_general2
-					human_scientist1
-					human_admiral1
-					human_admiral2
-					human_admiral3
-					human_governor1
-					human_governor2
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-					human_fem1
-					human_fem_admiral1
-					human_fem_admiral2
-					human_fem_governor1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					human_general1
-					human_general2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					human_scientist1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					human_governor1
-					human_governor2
-					human_fem_governor1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					human_governor1
-					human_governor2
-					human_admiral2
-					human_admiral1
-					human_fem_admiral1
-					human_fem_governor1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					human_admiral1
-					human_admiral2
-					human_admiral3
-					human_fem_admiral1
-					human_fem_admiral2
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					human_governor1
-					human_governor2
-					human_admiral2
-					human_admiral1
-					human_fem_admiral1
-					human_fem_governor1
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_space_marine = {
-		default = spacemarinescout1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					spacemarine1
-					spacemarine2
-					spacemarine3
-					spacemarine4
-					spacemarine5
-					spacemarine6
-					spacemarine7
-					spacemarine8
-					silvercondor1
-					spacemarinescout1
-					spacemarinescout2
-					spacemarinescout3
-					spacemarinescout4
-					spacemarinescout5
-					spacemarine_scientist1
-					spacemarine_scientist2
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					spacemarinescout1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					spacemarinescout1
-					spacemarinescout2
-					spacemarinescout3
-					spacemarinescout4
-					spacemarinescout5
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					spacemarine1
-					spacemarine2
-					spacemarine3
-					spacemarine4
-					spacemarine5
-					spacemarine6
-					spacemarine7
-					spacemarine8
-					silvercondor1
-					spacemarine_scientist1
-					spacemarine_scientist2
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-				}
-			}			
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					spacemarine1
-					spacemarine2
-					spacemarine3
-					spacemarine4
-					spacemarine5
-					spacemarine6
-					spacemarine7
-					spacemarine8
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					spacemarine_scientist1
-					spacemarine_scientist2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					spacemarine1
-					spacemarine2
-					spacemarine3
-					spacemarine4
-					spacemarine5
-					spacemarine6
-					spacemarine7
-					spacemarine8
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					silvercondor1
-					spacemarine_scientist1
-					spacemarine_scientist2
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					spacemarine1
-					spacemarine2
-					spacemarine3
-					spacemarine4
-					spacemarine5
-					spacemarine6
-					spacemarine7
-					spacemarine8
-					spacemarine_ruler1
-					spacemarine_ruler2
-					spacemarine_ruler3
-					spacemarine_ruler4
-					spacemarine_ruler5
-					spacemarine_ruler6
-					spacemarine_ruler7
-					spacemarine_ruler8
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					spacemarine_ruler1
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_inquisition = {
-		default = inquisition1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					inquisition1
-					inquisition2
-					inquisition3
-					inquisition_fem1
-					inquisition_admiral1
-					inquisition_fem_general1
-					inquisition_general1
-					inquisition_governor1
-					jokaero1
-					mechanicus1
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					inquisition1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					mechanicus1
-					inquisition_fem1
 					
 				}
 			}
 		}
 		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
 			set = {
@@ -618,12 +478,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					inquisition_admiral1
-					inquisition_general1
-					inquisition_governor1
-					inquisition1
-					inquisition2
-					inquisition3
+
 				}
 			}
 			
@@ -632,8 +487,7 @@ portrait_groups = {
 					gender = female
 				}
 				portraits = {
-					inquisition_fem_general1
-					inquisition_fem1
+
 				}
 			}
 			
@@ -641,1137 +495,9 @@ portrait_groups = {
 				trigger = {
 					leader_class = general
 				}
-				portraits = {
-					inquisition_general1
-					inquisition_fem_general1
-					inquisition_fem1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					inquisition1
-					inquisition2
-					inquisition3
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					inquisition_governor1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					inquisition_admiral1
-					inquisition_governor1
-					inquisition_general1
-					inquisition_fem_general1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					inquisition_admiral1
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					inquisition_admiral1
-					inquisition_governor1
-					inquisition_general1
-					inquisition_fem_general1
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_mechanicus = {
-		default = mechanicus2
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					mechanicus1
-					mechanicus2
-					mechanicus3
-					mechanicus4
-					mechanicus_ruler1
-					mechanicus_ruler2
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					mechanicus2
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					mechanicus1
-					
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					mechanicus2
-					mechanicus3
-					mechanicus4
-					mechanicus_ruler1
-					mechanicus_ruler2
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					mechanicus2
-					mechanicus3
-					mechanicus4
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					mechanicus_ruler2
-					mechanicus_ruler1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					mechanicus2
-					mechanicus3
-					mechanicus4
-					mechanicus_ruler1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					mechanicus_ruler1
-					mechanicus_ruler2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					mechanicus2
-					mechanicus3
-					mechanicus4
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					mechanicus_ruler1
-					mechanicus_ruler2
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_tau = {
-		default = tau1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					tau1
-					tau2
-					tau3
-					tau_admiral1
-					tau_admiral2
-					tau_scientist1
-					tau_general1
-					tau_ruler1
-					tau_ruler2
-					kroot1
-					nicassar1
-					tarellian1
-					tarellian2
-					tarellian3
-					tarellian_ruler1
-					hrennian1
-					vespid1
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					tau1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					tau1
-					tau2
-					tau3
-					kroot1
-					vespid1
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					tau1
-					tau_ruler1
-					tau_ruler2
-					tau_scientist1
-					tau_admiral1
-					tau_admiral2
-					tau_general1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					tau1
-					tau_general1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					tau1
-					tau_admiral1
-					tau_admiral2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					tau_ruler1
-					tau_scientist1
-					tau_admiral2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					tau_ruler1
-					tau_ruler2
-					tau_scientist1
-					tau_admiral2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					tau_ruler1
-					tau_ruler2
-					tau_admiral2
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					tau_ruler1
-				}
-			}
-		}
-		
-		
-	}
-
-	imp_tarellian = {
-		default = tarellian2
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					tarellian1
-					tarellian2
-					tarellian3
-					tarellian_ruler1
-					beast1
-					beast2
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					tarellian2
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					tarellian2
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					tarellian1
-					tarellian2
-					tarellian3
-					tarellian_ruler1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					tarellian1
-					tarellian2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					tarellian1
-					tarellian3
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					tarellian3
-					tarellian_ruler1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					tarellian_ruler1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					tarellian1
-					tarellian_ruler1
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					tarellian1
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_ork = {
-		default = ork1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					ork1
-					ork2
-					ork3
-					ork4
-					ork5
-					ork6
-					ork_ruler1
-					ork_ruler2
-					ork_admiral1
-					ork_scientist1
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					ork1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					ork1
-					ork2
-					ork3
-					ork4
-					ork6
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					ork1
-					ork2
-					ork3
-					ork4
-					ork5
-					ork6
-					ork_ruler1
-					ork_ruler2
-					ork_scientist1
-					ork_admiral1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					ork1
-					ork2
-					ork3
-					ork4
-					ork5
-					ork6
-					ork_ruler1
-					ork_ruler2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					ork_admiral1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					ork_scientist1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					ork1
-					ork2
-					ork3
-					ork4
-					ork6
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					ork2
-					ork3
-					ork4
-					ork6
-					ork_ruler1
-					ork_ruler2
-					ork_admiral1
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					ork_ruler1
-					ork_ruler2
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_chaos = {
-		default = chaos1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					chaos1
-					chaos2
-					chaos3
-					chaos_fem1
-					chaos_scientist1
-					chaos_ruler1
-					chaos_slaanesh1
-					chaos_slaanesh2
-					chaos_tzeentch1
-					chaos_nurgle1
-					chaos_khorne1
-					chaos_khorne2
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					chaos1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					chaos1
-					chaos2
-					chaos3
-					chaos_fem1
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					chaos1
-					chaos2
-					chaos3
-					chaos_fem1
-					chaos_slaanesh1
-					chaos_slaanesh1
-					chaos_tzeentch1
-					chaos_nurgle1
-					chaos_khorne1
-					chaos_khorne2
-					chaos_scientist1
-					chaos_ruler1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					chaos1
-					chaos2
-					chaos3
-					chaos_fem1
-					chaos_slaanesh1
-					chaos_tzeentch1
-					chaos_nurgle1
-					chaos_khorne1
-					chaos_khorne2
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					chaos1
-					chaos3
-					chaos_fem1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					chaos_scientist1
-					chaos_tzeentch1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					chaos1
-					chaos_fem1
-					chaos_scientist1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					chaos_fem1
-					chaos2
-					chaos3
-					chaos_scientist1
-					chaos_ruler1
-					chaos_slaanesh2
-					chaos_tzeentch1
-					chaos_nurgle1
-					chaos_khorne1
-					chaos_khorne2
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					chaos_fem1
-					chaos2
-					chaos_scientist1
-					chaos_ruler1
-					chaos_slaanesh1
-					chaos_tzeentch1
-					chaos_nurgle1
-					chaos_khorne1
-					chaos_khorne2
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_necron = {
-		default = necron1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					necron1
-					necron2
-					necron3
-					necron_scientist1
-					necron_general1
-					necron_ruler1
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					necron1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					necron1
-					necron2
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					necron3
-					necron_scientist1
-					necron_general1
-					necron_ruler1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					necron_general1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					necron3
-					necron_scientist1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					necron_scientist1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					necron3
-					necron_scientist1
-					necron_general1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					necron_scientist1
-					necron_ruler1
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					necron_general1
-					necron_ruler1
-				}
-			}
-		}
-		
-		
-	}
-	
-	imp_eldar = {
-		default = eldar1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					eldar1
-					eldar2
-					eldar3
-					eldar4
-					eldar5
-					eldar_fem_ruler1
-					eldar_fem_ruler2
-					eldar_fem_scientist1
-					eldar_general1
-					eldar_general2
-					eldar_governor1
-					eldar_ruler1
-					eldar_ruler2
-					eldar_ruler3
-					eldar_ruler4
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					eldar1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					eldar1
-					eldar2
-					eldar3
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					eldar1
-					eldar2
-					eldar3
-					eldar4
-					eldar5
-					eldar_general1
-					eldar_general2
-					eldar_governor1
-					eldar_ruler1
-					eldar_ruler2
-					eldar_ruler3
-					eldar_ruler4
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-					eldar_fem_ruler1
-					eldar_fem_ruler2
-					eldar_fem_general1
-					eldar_fem_scientist1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					eldar1
-					eldar_fem_ruler1
-					eldar_ruler1
-					eldar_general1
-					eldar_general2
-					eldar_fem_general1
-					eldar_ruler4
-					eldar5
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					eldar1
-					eldar5
-					eldar_fem_scientist1
-					eldar_fem_general1
-					eldar_fem_ruler2
-					eldar_general1
-					eldar_general2
-					eldar_ruler2
-					eldar_ruler3
-					eldar_governor1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					eldar_fem_scientist1
-					eldar_fem_ruler2
-					eldar_general1
-					eldar_ruler3
-					eldar_ruler4
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					eldar_fem_ruler1
-					eldar_fem_ruler2
-					eldar_fem_scientist1
-					eldar_ruler1
-					eldar_general1
-					eldar_general2
-					eldar_ruler4
-					eldar_governor1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					eldar_fem_ruler1
-					eldar_fem_ruler2
-					eldar_fem_general1
-					eldar_fem_scientist1
-					eldar_ruler1
-					eldar_ruler2
-					eldar_general1
-					eldar_governor1
-					eldar_ruler3
-					eldar_ruler4
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					eldar_fem_ruler1
-					eldar_fem_scientist1
-					eldar_ruler1
-				}
-			}
-		}
 				
-	}
-	
-	imp_dark_eldar = {
-		default = darkeldar3
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
 				portraits = {
-					darkeldar1
-					darkeldar2
-					darkeldar3
-					darkeldar4
-					darkeldar5
-					darkeldar6
-					darkeldar7
-					darkeldar8
-					darkeldar9
-					darkeldar10
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					darkeldar3
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					darkeldar2
-					darkeldar3
-					darkeldar10
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					darkeldar1
-					darkeldar3
-					darkeldar4
-					darkeldar5
-					darkeldar6
-					darkeldar7
-					darkeldar8
-					darkeldar9
-					darkeldar10
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					darkeldar1
-					darkeldar3
-					darkeldar5
-					darkeldar6
-					darkeldar7
-					darkeldar9
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					darkeldar1
-					darkeldar5
-					darkeldar8
-					darkeldar10
+
 				}
 			}
 			
@@ -1779,8 +505,9 @@ portrait_groups = {
 				trigger = {
 					leader_class = scientist
 				}
+				
 				portraits = {
-					darkeldar4
+
 				}
 			}
 			
@@ -1788,13 +515,9 @@ portrait_groups = {
 				trigger = {
 					leader_class = governor
 				}
+				
 				portraits = {
-					darkeldar1
-					darkeldar4
-					darkeldar5
-					darkeldar6
-					darkeldar7
-					darkeldar10
+
 				}
 			}
 			
@@ -1802,113 +525,9 @@ portrait_groups = {
 				trigger = {
 					leader_class = ruler
 				}
-				portraits = {
-					darkeldar1
-					darkeldar4
-					darkeldar5
-					darkeldar6
-					darkeldar7
-					darkeldar8
-					darkeldar9
-					darkeldar10
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					darkeldar1
-				}
-			}
-		}
 				
-	}
-	
-	imp_tyranid = {
-		default = tyranid2
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
 				portraits = {
-					tyranid_ruler1
-					tyranid1
-					tyranid2
-					tyranid3
-					tyranid4
-					tyranid5
-					tyranid6
-					tyranid_scientist1
-					tyranid_general1
-					tyranid_general2
-					tyranid_general3
-					tyranid_general4
-					tyranid_admiral1
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					tyranid2
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					tyranid2
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					tyranid1
-					tyranid3
-					tyranid4
-					tyranid5
-					tyranid6
-					tyranid_scientist1
-					tyranid_general1
-					tyranid_general2
-					tyranid_general3
-					tyranid_general4
-					tyranid_ruler1
-					tyranid_admiral1
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					tyranid1
-					tyranid3
-					tyranid4
-					tyranid5
-					tyranid6
-					tyranid_general1
-					tyranid_general2
-					tyranid_general3
-					tyranid_general4
-					tyranid_ruler1
+
 				}
 			}
 			
@@ -1916,51 +535,9 @@ portrait_groups = {
 				trigger = {
 					leader_class = admiral
 				}
+				
 				portraits = {
-					tyranid1
-					tyranid3
-					tyranid4
-					tyranid5
-					tyranid_general2
-					tyranid_general3
-					tyranid_ruler1
-					tyranid_admiral1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					tyranid_scientist1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					tyranid1
-					tyranid3
-					tyranid4
-					tyranid5
-					tyranid_general2
-					tyranid_admiral1
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				portraits = {
-					tyranid1
-					tyranid3
-					tyranid_general2
-					tyranid_general3
-					tyranid_ruler1
+
 				}
 			}
 		}
@@ -1969,81 +546,15 @@ portrait_groups = {
 		#leader scope 
 		ruler = {
 			add = {
-				portraits = {
-					tyranid1
-				}
-			}
-		}
-				
-	}
-	
-	imp_slaugh = {
-		default = slaugh1
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					slaugh1
-					slaugh_fem1
-				}
-			}
-			#set = {
-			#	trigger = { ... }
-			#	portraits = { ... }
-			#	#using "set =" instead of "add" will first clear any portraits already added
-			#}
-		}		
-		
-		#species scope
-		species = { #generic portrait for a species
-			set = {
-				portraits = {
-					slaugh1
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					slaugh1
-					slaugh_fem1
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-			set = {
 				trigger = {
 					gender = male
 				}
-				portraits = {
-					slaugh1
-				}
-			}
-		
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-					slaugh_fem1
-				}
-			}
-			
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				portraits = {
-					slaugh1
-					slaugh_fem1
-				}
-			}
-		}
 				
+				portraits = {
+
+				}
+			}
+		}
+		
 	}
 }
