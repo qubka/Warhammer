@@ -1,19 +1,23 @@
 portrait_groups = {
 	imp_white_scars = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_WhiteScars_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -22,38 +26,32 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
 
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_WhiteScars_01
+					IMP_SM_WhiteScars_02
+					IMP_SM_WhiteScars_03
+					IMP_SM_WhiteScars_04
 				}
 			}
 			
@@ -63,7 +61,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -73,27 +78,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_WhiteScars_01
+					IMP_SM_WhiteScars_02
+					IMP_SM_WhiteScars_03
+					IMP_SM_WhiteScars_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -107,27 +119,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_WhiteScars_ruler
 				}
 			}
 		}
 	}
 	
 	imp_ultra_marines = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_Ultramarines_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -136,38 +152,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_Ultramarines_01
+					IMP_SM_Ultramarines_02
+					IMP_SM_Ultramarines_03
+					IMP_SM_Ultramarines_04
 				}
 			}
 			
@@ -177,7 +186,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -187,27 +203,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_Ultramarines_01
+					IMP_SM_Ultramarines_02
+					IMP_SM_Ultramarines_03
+					IMP_SM_Ultramarines_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -221,27 +244,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_Ultramarines_ruler
 				}
 			}
 		}
 	}
 
 	imp_space_wolfes = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_SpaceWolfes_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -250,38 +277,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_SpaceWolves_01
+					IMP_SM_SpaceWolves_02
+					IMP_SM_SpaceWolves_03
+					IMP_SM_SpaceWolves_04
 				}
 			}
 			
@@ -291,7 +311,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -301,27 +328,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_SpaceWolves_01
+					IMP_SM_SpaceWolves_02
+					IMP_SM_SpaceWolves_03
+					IMP_SM_SpaceWolves_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -335,27 +369,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_SpaceWolfes_ruler
 				}
 			}
 		}
 	}
 	
 	imp_salamanders = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_Salamanders_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -364,38 +402,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_Salamanders_01
+					IMP_SM_Salamanders_02
+					IMP_SM_Salamanders_03
+					IMP_SM_Salamanders_04
 				}
 			}
 			
@@ -405,7 +436,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -415,27 +453,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_Salamanders_01
+					IMP_SM_Salamanders_02
+					IMP_SM_Salamanders_03
+					IMP_SM_Salamanders_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -449,27 +494,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_Salamanders_ruler
 				}
 			}
 		}
 	}
 	
 	imp_raven_guard = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_RavenGuard_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -478,38 +527,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_Ravenguard_01
+					IMP_SM_Ravenguard_02
+					IMP_SM_Ravenguard_03
+					IMP_SM_Ravenguard_04
 				}
 			}
 			
@@ -519,7 +561,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -529,27 +578,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_Ravenguard_01
+					IMP_SM_Ravenguard_02
+					IMP_SM_Ravenguard_03
+					IMP_SM_Ravenguard_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -563,27 +619,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_RavenGuard_ruler
 				}
 			}
 		}
 	}
 	
 	imp_iron_hand = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_IronHand_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -592,38 +652,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_IronHand_01
+					IMP_SM_IronHand_02
+					IMP_SM_IronHand_03
+					IMP_SM_IronHand_04
 				}
 			}
 			
@@ -633,7 +686,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -643,27 +703,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_IronHand_01
+					IMP_SM_IronHand_02
+					IMP_SM_IronHand_03
+					IMP_SM_IronHand_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -677,27 +744,33 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_IronHand_ruler
 				}
 			}
 		}
 	}
 	
 	imp_imperial_fist = {
-		default = human1
+		
+		#default = IMP_SM_ImperialFist_01
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_ImperialFist_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -706,38 +779,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_ImperialFist_01
+					IMP_SM_ImperialFist_02
+					IMP_SM_ImperialFist_03
+					IMP_SM_ImperialFist_04
 				}
 			}
 			
@@ -747,7 +813,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -757,27 +830,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_ImperialFist_01
+					IMP_SM_ImperialFist_02
+					IMP_SM_ImperialFist_03
+					IMP_SM_ImperialFist_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -791,27 +871,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_ImperialFist_ruler
 				}
 			}
 		}
 	}
 	
 	imp_dark_angles = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_DarkAngles_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -820,38 +904,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_DarkAngel_01
+					IMP_SM_DarkAngel_02
+					IMP_SM_DarkAngel_03
+					IMP_SM_DarkAngel_04
 				}
 			}
 			
@@ -861,7 +938,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -871,27 +955,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_DarkAngel_01
+					IMP_SM_DarkAngel_02
+					IMP_SM_DarkAngel_03
+					IMP_SM_DarkAngel_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -905,27 +996,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_DarkAngles_ruler
 				}
 			}
 		}
 	}
 	
 	imp_blood_angles = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_BloodAngles_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -934,38 +1029,31 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_SM_BloodAngel_01
+					IMP_SM_BloodAngel_02
+					IMP_SM_BloodAngel_03
+					IMP_SM_BloodAngel_04
 				}
 			}
 			
@@ -975,7 +1063,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_MagosVaryn
+					IMP_N_MagosTellemark
+					IMP_N_MagosNumerian
+					IMP_N_MagosKlarn
+					IMP_N_MagosKelen
+					IMP_N_MagosCrestin
+					IMP_N_MagosCrawn
+					IMP_N_MagosBiblios
 				}
 			}
 			
@@ -985,27 +1080,34 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_SM_BloodAngel_01
+					IMP_SM_BloodAngel_02
+					IMP_SM_BloodAngel_03
+					IMP_SM_BloodAngel_04
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 				}
 			}
 		}
@@ -1019,27 +1121,31 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_BloodAngles_ruler
 				}
 			}
 		}
 	}
 	
 	imp_navy = {
-		default = human1
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				portraits = {
-					
-				}
-			}
+			default = IMP_Navy_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -1048,38 +1154,28 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
 				}
 			}
 		}
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
-				trigger = {
-					gender = female
-				}
-				portraits = {
-
-				}
-			}
-			
-			set = {
+			add = {
 				trigger = {
 					leader_class = general
 				}
 				
 				portraits = {
-
+					IMP_Officer_01
 				}
 			}
 			
@@ -1089,7 +1185,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_BelisariusCawl
+					IMP_N_FabricatorCambrius
+					IMP_Magos_Mechanicus_01
 				}
 			}
 			
@@ -1099,27 +1197,43 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
-				}
-				
-				portraits = {
 
-				}
-			}
-			
 			add = {
 				trigger = {
 					leader_class = admiral
 				}
 				
 				portraits = {
-
+					IMP_N_NavigatorDomitianOfTheHouseBelisarius
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
 				}
 			}
 		}
@@ -1133,7 +1247,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					IMP_Navy_ruler
 				}
 			}
 		}

@@ -1,5 +1,0 @@
-portrait_groups = {
-	cryptek 
-
-	overlord 
-}
