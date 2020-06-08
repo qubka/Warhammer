@@ -1,0 +1,11 @@
+portrait_groups = {
+	dalyth 
+
+	farsight 
+
+	sacea 
+
+	tau 
+
+	taun 
+}

@@ -1,0 +1,1141 @@
+portrait_groups = {
+	imp_white_scars = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_ultra_marines = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+
+	imp_space_wolfes = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_salamanders = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_raven_guard = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_iron_hand = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_imperial_fist = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_dark_angles = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_blood_angles = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+	
+	imp_navy = {
+		default = human1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				
+				portraits = {
+
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+portrait_groups = {
+	ynnari 
+
+	ulthwe 
+
+	saimhann 
+
+	ostara 
+
+	iyanden 
+
+	iyanden 
+
+	bieltan 
+
+	alaitoc 
+}
