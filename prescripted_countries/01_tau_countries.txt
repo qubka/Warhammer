@@ -1,0 +1,17 @@
+#dalyth = {
+#}
+#
+#farsight = {
+#}
+#
+#sacea = {
+#}
+#
+#tau = {
+#}
+#
+#taun = {
+#}
+#
+#dyanoi = {
+#}

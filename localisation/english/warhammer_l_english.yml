@@ -1,7 +1,0 @@
-l_english:
- ####################################
- # Flags
- ####################################
- FLAG_CATEGORY_factions:0 "Factions"
- FLAG_CATEGORY_legions:0 "Legions"
- FLAG_CATEGORY_warhammer:0 "Warhammer"

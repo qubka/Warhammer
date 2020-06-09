@@ -1,8 +1,0 @@
-l_russian:
- ####################################
- # Flags
- ####################################
- FLAG_CATEGORY_factions:0 "Фракции"
- FLAG_CATEGORY_legions:0 "Легионы"
- FLAG_CATEGORY_warhammer:0 "Вархаммер"
- 

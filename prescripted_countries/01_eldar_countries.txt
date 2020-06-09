@@ -1,0 +1,21 @@
+#ynnari = {
+#}
+#
+#ulthwe = {
+#}
+#
+#saimhann = {
+#}
+#
+#ostara = {
+#}
+#
+#iyanden = {
+#}
+#
+#
+#bieltan = {
+#}
+#
+#alaitoc = {
+#}

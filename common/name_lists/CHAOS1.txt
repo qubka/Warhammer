@@ -43,10 +43,7 @@ CHAOS1 = {
 		}
 		
 		military_station_small = {
-			random_names = {
-				"Blackstone Fortress" "Melgator" "Furnace Fabricator" "Warp Abyss" "Mavelous Omega"
-			}
-			sequential_name = "%O% Frontier Outpost"
+			"Blackstone Fortress" "Melgator" "Furnace Fabricator" "Warp Abyss" "Mavelous Omega"
 		}
 		
 		ion_cannon = {

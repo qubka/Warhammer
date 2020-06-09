@@ -41,10 +41,7 @@ TAU1 = {
 		}
 		
 		military_station_small = {
-			random_names = {
-				La'rua Kau'ui Tio've Isla'su Mal'kor
-			}
-			sequential_name = "%O% Frontier Outpost"
+			La'rua Kau'ui Tio've Isla'su Mal'kor
 		}
 		
 		ion_cannon = {

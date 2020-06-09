@@ -20,8 +20,9 @@ IMP = {
 		"imp_imperial_fist"
 		"imp_dark_angles"
 		"imp_blood_angles"
-		"imp_navy"
+		"imp_mankind"
     }   
-    graphical_culture = humanoid_01 #imperial_01
+	
+    graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

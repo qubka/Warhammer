@@ -2,6 +2,8 @@ portraits = {
 	####################################
 	# Leaders Arts
 	####################################
+	
+	# IMP
 	IMP_WhiteScars_ruler = { texturefile = "gfx/portraits/warhammer/IMP_WhiteScars_ruler.dds" }
 	IMP_Ultramarines_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Ultramarines_ruler.dds" }
 	IMP_SpaceWolfes_ruler = { texturefile = "gfx/portraits/warhammer/IMP_SpaceWolfes_ruler.dds" }
@@ -11,7 +13,39 @@ portraits = {
 	IMP_ImperialFist_ruler = { texturefile = "gfx/portraits/warhammer/IMP_ImperialFist_ruler.dds" }
 	IMP_DarkAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_DarkAngles_ruler.dds" }
 	IMP_BloodAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_BloodAngles_ruler.dds" }
-	IMP_Navy_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler.dds" }
+	IMP_Emperor_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Emperor_ruler.dds" }
+	
+	# CHA
+	CHAOS_AlphaLegion_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_AlphaLegion_ruler.dds" }
+	CHAOS_BlackLegion_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_BlackLegion_ruler.dds" }
+	CHAOS_DeathGuard_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_DeathGuard_ruler.dds" }
+	CHAOS_EmperorChildren_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_EmperorChildren_ruler.dds" }
+	CHAOS_IronWarrior_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_IronWarrior_ruler.dds" }
+	CHAOS_NightLords_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_NightLords_ruler.dds" }
+	CHAOS_RedCorsairs_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_RedCorsairs_ruler.dds" }
+	CHAOS_ThousandSons_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_ThousandSons_ruler.dds" }
+	CHAOS_WordBearer_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_WordBearer_ruler.dds" }
+	CHAOS_WorldEater_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_WorldEater_ruler.dds" }
+	
+	# TAU
+	TAU_Dalyth_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Dalyth_ruler.dds" }
+	TAU_Dyanoi_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Dyanoi_ruler.dds" }
+	TAU_Farsight_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Farsight_ruler.dds" }
+	TAU_Sacea_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Sacea_ruler.dds" }
+	TAU_Tau_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Tau_ruler.dds" }
+	TAU_Taun_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Taun_ruler.dds" }
+	
+	# ORK
+	ORK_BigBoss_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigBoss_ruler.dds" }
+	ORK_BigMek_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigMek_ruler.dds" }
+	ORK_BigMoons_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigMoons_ruler.dds" }
+	ORK_BloodAxe_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BloodAxe_ruler.dds" }
+	ORK_EvilSunz_ruler = { texturefile = "gfx/portraits/warhammer/ORK_EvilSunz_ruler.dds" }
+	ORK_Goff_ruler = { texturefile = "gfx/portraits/warhammer/ORK_Goff_ruler.dds" }
+	
+	# NEC
+	NECRON_Cryptek_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Cryptek_ruler.dds" }
+	NECRON_Cryptek_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Cryptek_ruler.dds" }
 	
 	####################################
 	# Battlefleet gothic: Armada 2
@@ -189,6 +223,16 @@ portraits = {
 	CHAOS_Renegade_08 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_08.dds" }
 	CHAOS_Renegade_09 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_09.dds" }
 	CHAOS_Renegade_10 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_10.dds" }
+	CHAOS_Renegade_01_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_01_nobg.dds" }
+	CHAOS_Renegade_02_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_02_nobg.dds" }
+	CHAOS_Renegade_03_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_03_nobg.dds" }
+	CHAOS_Renegade_04_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_04_nobg.dds" }
+	CHAOS_Renegade_05_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_05_nobg.dds" }
+	CHAOS_Renegade_06_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_06_nobg.dds" }
+	CHAOS_Renegade_07_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_07_nobg.dds" }
+	CHAOS_Renegade_08_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_08_nobg.dds" }
+	CHAOS_Renegade_09_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_09_nobg.dds" }
+	CHAOS_Renegade_10_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_10_nobg.dds" }
 	CHAOS_Renegade_Khorn_01 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_Khorn_01.dds" }
 	CHAOS_Renegade_Khorn_02 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_Khorn_02.dds" }
 	CHAOS_Renegade_Khorn_03 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_Khorn_03.dds" }

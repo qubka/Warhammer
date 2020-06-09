@@ -1,0 +1,1347 @@
+portrait_groups = {
+
+	chaos_alpha_legion = {
+		
+		default = CHAOS_N_Arban_Talas
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_AlphaLegion_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_Arban_Talas
+					CHAOS_AlphaLegion_01
+					CHAOS_AlphaLegion_02
+					CHAOS_AlphaLegion_03
+					CHAOS_AlphaLegion_04
+					CHAOS_AlphaLegion_05
+					CHAOS_AlphaLegion_06
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_Arban_Talas
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_Arban_Talas
+					CHAOS_AlphaLegion_01
+					CHAOS_AlphaLegion_02
+					CHAOS_AlphaLegion_03
+					CHAOS_AlphaLegion_04
+					CHAOS_AlphaLegion_05
+					CHAOS_AlphaLegion_06
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_AlphaLegion_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_black_legion = {
+		
+		default = CHAOS_N_Abaddon
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_BlackLegion_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_Abaddon
+					CHAOS_N_SkyrakSlaughterborn
+					CHAOS_N_Brackthast
+					CHAOS_N_DevramKordaLordPurgator
+					CHAOS_N_MalecantorKulag
+					CHAOS_N_ThrexosHellbreed
+					CHAOS_N_WarlordBrackthast
+					CHAOS_N_WarlordTsevosk
+					CHAOS_N_Zagtheanthebroken
+					CHAOS_N_Belakor
+					CHAOS_DaemonPrince_United_01
+					CHAOS_BlackLegion_01
+					CHAOS_BlackLegion_02
+					CHAOS_BlackLegion_03
+					CHAOS_BlackLegion_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_Abaddon
+					CHAOS_N_SkyrakSlaughterborn
+					CHAOS_N_Brackthast
+					CHAOS_N_DevramKordaLordPurgator
+					CHAOS_N_MalecantorKulag
+					CHAOS_N_ThrexosHellbreed
+					CHAOS_N_WarlordBrackthast
+					CHAOS_N_WarlordTsevosk
+					CHAOS_N_Zagtheanthebroken
+					CHAOS_N_Belakor
+					CHAOS_DaemonPrince_United_01
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_Abaddon
+					CHAOS_N_SkyrakSlaughterborn
+					CHAOS_N_Brackthast
+					CHAOS_N_DevramKordaLordPurgator
+					CHAOS_N_MalecantorKulag
+					CHAOS_N_ThrexosHellbreed
+					CHAOS_N_WarlordBrackthast
+					CHAOS_N_WarlordTsevosk
+					CHAOS_N_Zagtheanthebroken
+					CHAOS_N_Belakor
+					CHAOS_DaemonPrince_United_01
+					CHAOS_BlackLegion_01
+					CHAOS_BlackLegion_02
+					CHAOS_BlackLegion_03
+					CHAOS_BlackLegion_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_BlackLegion_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_death_guard = {
+		
+		default = CHAOS_N_Maltrius
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_DeathGuard_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_Maltrius
+					CHAOS_N_Vucius
+					CHAOS_DaemonPrince_Nurgle_01
+					CHAOS_DeathGuard_01
+					CHAOS_DeathGuard_02
+					CHAOS_DeathGuard_03
+					CHAOS_DeathGuard_04
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_Maltrius
+					CHAOS_N_Vucius
+					CHAOS_DaemonPrince_Nurgle_01
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_Maltrius
+					CHAOS_N_Vucius
+					CHAOS_DaemonPrince_Nurgle_01
+					CHAOS_DeathGuard_01
+					CHAOS_DeathGuard_02
+					CHAOS_DeathGuard_03
+					CHAOS_DeathGuard_04
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_DeathGuard_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_emperor_children = {
+		
+		default = CHAOS_N_Demaroz
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_EmperorChildren_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_Demaroz
+					CHAOS_DaemonPrince_Slaanesh_01
+					CHAOS_N_TheMask
+					CHAOS_EmperorChildren_01
+					CHAOS_EmperorChildren_02
+					CHAOS_EmperorChildren_03
+					CHAOS_EmperorChildren_04
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_Demaroz
+					CHAOS_DaemonPrince_Slaanesh_01
+					CHAOS_N_TheMask
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_Demaroz
+					CHAOS_DaemonPrince_Slaanesh_01
+					CHAOS_N_TheMask
+					CHAOS_EmperorChildren_01
+					CHAOS_EmperorChildren_02
+					CHAOS_EmperorChildren_03
+					CHAOS_EmperorChildren_04
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_EmperorChildren_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_iron_warrior = {
+		
+		default = CHAOS_IronWarrior_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_IronWarrior_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_IronWarrior_01
+					CHAOS_IronWarrior_02
+					CHAOS_IronWarrior_03
+					CHAOS_IronWarrior_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_IronWarrior_01
+					CHAOS_IronWarrior_02
+					CHAOS_IronWarrior_03
+					CHAOS_IronWarrior_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_IronWarrior_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_night_lords = {
+		
+		default = CHAOS_NightLords_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_NightLords_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_NightLords_01
+					CHAOS_NightLords_02
+					CHAOS_NightLords_03
+					CHAOS_NightLords_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_NightLords_01
+					CHAOS_NightLords_02
+					CHAOS_NightLords_03
+					CHAOS_NightLords_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_NightLords_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_red_corsairs = {
+		
+		default = CHAOS_N_HuronBlackheart
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_RedCorsairs_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_HuronBlackheart
+					CHAOS_DaemonPrince_Khorn_01
+					CHAOS_RedCorsairs_01
+					CHAOS_RedCorsairs_02
+					CHAOS_RedCorsairs_03
+					CHAOS_RedCorsairs_04
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_HuronBlackheart
+					CHAOS_DaemonPrince_Khorn_01
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_HuronBlackheart
+					CHAOS_DaemonPrince_Khorn_01
+					CHAOS_RedCorsairs_01
+					CHAOS_RedCorsairs_02
+					CHAOS_RedCorsairs_03
+					CHAOS_RedCorsairs_04
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_RedCorsairs_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_thousand_sons = {
+		
+		default = CHAOS_N_SorcererAntharek
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_ThousandSons_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_SorcererAntharek
+					CHAOS_N_Ukani
+					CHAOS_DaemonPrince_Tzeentch_01
+					CHAOS_ThousandSons_01
+					CHAOS_ThousandSons_02
+					CHAOS_ThousandSons_03
+					CHAOS_ThousandSons_04
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_SorcererAntharek
+					CHAOS_N_Ukani
+					CHAOS_DaemonPrince_Tzeentch_01
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_SorcererAntharek
+					CHAOS_N_Ukani
+					CHAOS_DaemonPrince_Tzeentch_01
+					CHAOS_ThousandSons_01
+					CHAOS_ThousandSons_02
+					CHAOS_ThousandSons_03
+					CHAOS_ThousandSons_04
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_ThousandSons_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_word_bearer = {
+		
+		default = CHAOS_N_Arkrist_Vane
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_WordBearer_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N_Arkrist_Vane
+					CHAOS_N_Malos_Vrykan
+					CHAOS_WordBearer_01
+					CHAOS_WordBearer_02
+					CHAOS_WordBearer_03
+					CHAOS_WordBearer_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N_Arkrist_Vane
+					CHAOS_N_Malos_Vrykan
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N_Arkrist_Vane
+					CHAOS_N_Malos_Vrykan
+					CHAOS_WordBearer_01
+					CHAOS_WordBearer_02
+					CHAOS_WordBearer_03
+					CHAOS_WordBearer_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_WordBearer_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_world_eater = {
+		
+		default = CHAOS_N__Jasul_Barass
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHA_WorldEaters_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01_nobg
+					CHAOS_Renegade_02_nobg
+					CHAOS_Renegade_03_nobg
+					CHAOS_Renegade_04_nobg
+					CHAOS_Renegade_05_nobg
+					CHAOS_Renegade_06_nobg
+					CHAOS_Renegade_07_nobg
+					CHAOS_Renegade_08_nobg
+					CHAOS_Renegade_09_nobg
+					CHAOS_Renegade_10_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_N__Jasul_Barass
+					CHAOS_N_Karaz
+					CHAOS_WorldEater_01
+					CHAOS_WorldEater_02
+					CHAOS_WorldEater_03
+					CHAOS_WorldEater_04
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N__Jasul_Barass
+					CHAOS_N_Karaz
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_N__Jasul_Barass
+					CHAOS_N_Karaz
+					CHAOS_WorldEater_01
+					CHAOS_WorldEater_02
+					CHAOS_WorldEater_03
+					CHAOS_WorldEater_04
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHA_WorldEaters_ruler
+				}
+			}
+		}
+	}
+}

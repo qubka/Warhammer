@@ -1,0 +1,20 @@
+#goff = {
+#}
+#
+#evil_sunz = {
+#}
+#
+#death_skullz = {
+#}
+#
+#blood_axe = {
+#}
+#
+#big_mek = {
+#}
+#
+#big_boss = {
+#}
+#
+#bad_moons = {
+#}

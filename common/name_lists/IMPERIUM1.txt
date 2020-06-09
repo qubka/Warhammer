@@ -89,11 +89,8 @@ IMPERIUM1 = {
 		}
 		
 		military_station_small = {
-			random_names = {
-				"Guardian of Aquinas" "The Sword Infernus" "Warrior Knight" "Light of Ascension" Kingmaker "Ramilles Class Star Fort"
-				"The Covenanter" "Vigilanti Eternas" "Hammer of Light" "Ex Cathedra" Indomitable
-			}
-			sequential_name = "%O% Frontier Outpost"
+			"Guardian of Aquinas" "The Sword Infernus" "Warrior Knight" "Light of Ascension" Kingmaker "Ramilles Class Star Fort"
+			"The Covenanter" "Vigilanti Eternas" "Hammer of Light" "Ex Cathedra" Indomitable
 		}
 		
 		ion_cannon = {

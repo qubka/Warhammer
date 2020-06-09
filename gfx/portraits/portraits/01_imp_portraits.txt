@@ -1,5 +1,8 @@
 portrait_groups = {
+
 	imp_white_scars = {
+		
+		default = IMP_N_SegleiKhan
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_WhiteScars_ruler
@@ -9,15 +12,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -26,15 +28,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -48,6 +49,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_SegleiKhan
 					IMP_SM_WhiteScars_01
 					IMP_SM_WhiteScars_02
 					IMP_SM_WhiteScars_03
@@ -78,6 +80,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_SegleiKhan
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -101,6 +104,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_SegleiKhan
 					IMP_SM_WhiteScars_01
 					IMP_SM_WhiteScars_02
 					IMP_SM_WhiteScars_03
@@ -127,6 +131,8 @@ portrait_groups = {
 	
 	imp_ultra_marines = {
 		
+		default = IMP_N_RobouteGuilliman
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_Ultramarines_ruler
 		}
@@ -135,15 +141,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -152,15 +157,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -173,6 +177,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_RobouteGuilliman
+					IMP_N_LieutenantDrusus
 					IMP_SM_Ultramarines_01
 					IMP_SM_Ultramarines_02
 					IMP_SM_Ultramarines_03
@@ -203,6 +209,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_RobouteGuilliman
+					IMP_N_LieutenantDrusus
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -226,6 +234,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_RobouteGuilliman
+					IMP_N_LieutenantDrusus
 					IMP_SM_Ultramarines_01
 					IMP_SM_Ultramarines_02
 					IMP_SM_Ultramarines_03
@@ -252,6 +262,8 @@ portrait_groups = {
 
 	imp_space_wolfes = {
 		
+		default = IMP_N_IronPriestFiremaw
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_SpaceWolfes_ruler
 		}
@@ -260,15 +272,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -277,15 +288,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -298,6 +308,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_SvenBloodhowl
+					IMP_N_EngirKrakendoom
+					IMP_N_IronPriestFiremaw
 					IMP_SM_SpaceWolves_01
 					IMP_SM_SpaceWolves_02
 					IMP_SM_SpaceWolves_03
@@ -328,6 +341,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_SvenBloodhowl
+					IMP_N_EngirKrakendoom
+					IMP_N_IronPriestFiremaw
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -351,6 +367,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_SvenBloodhowl
+					IMP_N_EngirKrakendoom
+					IMP_N_IronPriestFiremaw
 					IMP_SM_SpaceWolves_01
 					IMP_SM_SpaceWolves_02
 					IMP_SM_SpaceWolves_03
@@ -377,6 +396,8 @@ portrait_groups = {
 	
 	imp_salamanders = {
 		
+		default = IMP_SM_Salamanders_01
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_Salamanders_ruler
 		}
@@ -385,15 +406,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_05		
+					human_female_05
 				}
 			}
 		}		
@@ -401,16 +415,9 @@ portrait_groups = {
 		#pop scope
 		pop = { #for a specific pop
 			add = {
-				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+				portraits = {	
+					human_male_05		
+					human_female_05
 				}
 			}
 		}
@@ -502,6 +509,8 @@ portrait_groups = {
 	
 	imp_raven_guard = {
 		
+		default = IMP_N_ShadowCaptainAajzSolari
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_RavenGuard_ruler
 		}
@@ -510,15 +519,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -527,15 +535,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -548,6 +555,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_ShadowCaptainAajzSolari
+					IMP_N_Osmadiel
 					IMP_SM_Ravenguard_01
 					IMP_SM_Ravenguard_02
 					IMP_SM_Ravenguard_03
@@ -578,6 +587,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_ShadowCaptainAajzSolari
+					IMP_N_Osmadiel
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -601,6 +612,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_ShadowCaptainAajzSolari
+					IMP_N_Osmadiel
 					IMP_SM_Ravenguard_01
 					IMP_SM_Ravenguard_02
 					IMP_SM_Ravenguard_03
@@ -627,6 +640,8 @@ portrait_groups = {
 	
 	imp_iron_hand = {
 		
+		default = IMP_N_CaptainSindGrolvolch
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_IronHand_ruler
 		}
@@ -635,15 +650,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -652,15 +666,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -673,6 +686,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainSindGrolvolch
+					IMP_N_PriusTulla
 					IMP_SM_IronHand_01
 					IMP_SM_IronHand_02
 					IMP_SM_IronHand_03
@@ -703,6 +718,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainSindGrolvolch
+					IMP_N_PriusTulla
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -726,6 +743,8 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainSindGrolvolch
+					IMP_N_PriusTulla
 					IMP_SM_IronHand_01
 					IMP_SM_IronHand_02
 					IMP_SM_IronHand_03
@@ -752,7 +771,7 @@ portrait_groups = {
 	
 	imp_imperial_fist = {
 		
-		#default = IMP_SM_ImperialFist_01
+		default = IMP_N_CaptainTiberiusSolarian
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_ImperialFist_ruler
@@ -762,15 +781,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -779,15 +797,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -800,6 +817,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainTiberiusSolarian
+					IMP_N_CaptainTorGaradon
+					IMP_N_CaptainMaluan
 					IMP_SM_ImperialFist_01
 					IMP_SM_ImperialFist_02
 					IMP_SM_ImperialFist_03
@@ -830,6 +850,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainTiberiusSolarian
+					IMP_N_CaptainTorGaradon
+					IMP_N_CaptainMaluan
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -853,6 +876,9 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainTiberiusSolarian
+					IMP_N_CaptainTorGaradon
+					IMP_N_CaptainMaluan
 					IMP_SM_ImperialFist_01
 					IMP_SM_ImperialFist_02
 					IMP_SM_ImperialFist_03
@@ -879,6 +905,8 @@ portrait_groups = {
 	
 	imp_dark_angles = {
 		
+		default = IMP_N_MasterofthefleetKorahael
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_DarkAngles_ruler
 		}
@@ -887,15 +915,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -904,15 +931,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -925,6 +951,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_MasterofthefleetKorahael
 					IMP_SM_DarkAngel_01
 					IMP_SM_DarkAngel_02
 					IMP_SM_DarkAngel_03
@@ -955,6 +982,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_MasterofthefleetKorahael
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -978,6 +1006,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_MasterofthefleetKorahael
 					IMP_SM_DarkAngel_01
 					IMP_SM_DarkAngel_02
 					IMP_SM_DarkAngel_03
@@ -1004,6 +1033,8 @@ portrait_groups = {
 	
 	imp_blood_angles = {
 		
+		default = IMP_N_CaptainDonatosAphael
+		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_BloodAngles_ruler
 		}
@@ -1012,15 +1043,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -1029,15 +1059,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -1050,6 +1079,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainDonatosAphael
 					IMP_SM_BloodAngel_01
 					IMP_SM_BloodAngel_02
 					IMP_SM_BloodAngel_03
@@ -1080,6 +1110,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainDonatosAphael
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -1103,6 +1134,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainDonatosAphael
 					IMP_SM_BloodAngel_01
 					IMP_SM_BloodAngel_02
 					IMP_SM_BloodAngel_03
@@ -1127,7 +1159,9 @@ portrait_groups = {
 		}
 	}
 	
-	imp_navy = {
+	imp_mankind = {
+		
+		default = IMP_Officer_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = IMP_Navy_ruler
@@ -1137,15 +1171,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}		
@@ -1154,15 +1187,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					IMP_NAVY_01
-					IMP_NAVY_02
-					IMP_NAVY_03
-					IMP_NAVY_04
-					IMP_NAVY_05
-					IMP_NAVY_06
-					IMP_N_VenescaCatallia
-					IMP_NAVY_Celestine
-					IMP_INQ_02
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
 				}
 			}
 		}
@@ -1175,7 +1207,22 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_Officer_01
+					IMP_N_CaptainSvar
+					IMP_N_CaptainThrasyllus
+					IMP_N_CardinalSternhell
+					IMP_N_Darkhammer
+					IMP_N_LordHighAdmiralDrang
+					IMP_N_UrsakarCreed
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_VenescaCatallia
+					IMP_NAVY_Celestine
+					IMP_INQ_02
+					
 				}
 			}
 			
@@ -1197,6 +1244,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainSvar
+					IMP_N_CaptainThrasyllus
+					IMP_N_CardinalSternhell
+					IMP_N_Darkhammer
+					IMP_N_LordHighAdmiralDrang
+					IMP_N_UrsakarCreed
 					IMP_N_GovernorSorven
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor
@@ -1220,6 +1273,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					IMP_N_CaptainSvar
+					IMP_N_CaptainThrasyllus
+					IMP_N_CardinalSternhell
+					IMP_N_Darkhammer
+					IMP_N_LordHighAdmiralDrang
+					IMP_N_UrsakarCreed
 					IMP_N_NavigatorDomitianOfTheHouseBelisarius
 					IMP_N_AdmiralSpire
 					IMP_N_AdmiralMalicor

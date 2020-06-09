@@ -46,10 +46,7 @@ TYRANID1 = {
 		}
 
 		military_station_small = {
-			random_names = {
-				"Tendriled Lurker" "Pyro-acid Battery" "Lurking Deep" "Awakened Kraken" "Rending Claw"
-			}
-			sequential_name = "%O% Frontier Outpost"
+			"Tendriled Lurker" "Pyro-acid Battery" "Lurking Deep" "Awakened Kraken" "Rending Claw"
 		}
 		
 		ion_cannon = {

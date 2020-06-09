@@ -1,0 +1,32 @@
+@robot_trait_points = 0
+@robot_max_traits = 3
+@machine_trait_points = 1
+@machine_max_traits = 4
+@species_trait_points = 2
+@species_max_traits = 5
+
+ELD = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+    portraits = {
+		"eldar_ynnari"
+		"eldar_ulthwe"
+		"eldar_saim_hann"
+		"eldar_ostara"
+		"eldar_iyanden"
+		"eldar_biel_tan"
+		"eldar_alaitoc"
+		# PIRATES FOR FUTURE
+		#"eldar_void_gragons"
+		#"eldar_twilight_swords"
+		#"eldar_sun_blitz"
+		#"eldar_steeleye_reavers"
+		#"eldar_sky_raders"
+		#"eldar_eldritch_raider"
+    }   
+	
+    graphical_culture = reptilian_01
+
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

@@ -1,0 +1,26 @@
+@robot_trait_points = 0
+@robot_max_traits = 3
+@machine_trait_points = 1
+@machine_max_traits = 4
+@species_trait_points = 2
+@species_max_traits = 5
+
+DEL = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+    portraits = {
+		"darkeldar_ynnari"
+		"darkeldar_the_severed"
+		"darkeldar_last_hatred"
+		"darkeldar_iron_thorn"
+		"darkeldar_flayed_skull"
+		"darkeldar_dying_sun"
+		"darkeldar_broken_sigil"
+		"darkeldar_black_heart"
+    }   
+	
+    graphical_culture = reptilian_01
+
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

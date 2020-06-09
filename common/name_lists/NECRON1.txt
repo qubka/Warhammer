@@ -50,10 +50,7 @@ NECRON1 = {
 		}
 
 		military_station_small = {
-			random_names = {
-				"World Engine" "Forsaken Bastion" "Well of Souls" "Unyielding Steel"
-			}
-			sequential_name = "%O% Frontier Outpost"
+			"World Engine" "Forsaken Bastion" "Well of Souls" "Unyielding Steel"
 		}
 
 		ion_cannon = {

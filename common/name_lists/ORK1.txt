@@ -46,10 +46,7 @@ ORK1 = {
 		}
 		
 		military_station_small = {
-			random_names = {
-				"Listena" "Boss Hut" "Eadcrumpa" "Oil-Guzzler" "Dakkapoint" "Bonecleava" "Mean Stoppa" "Da Orky Voidtower" "Gunhut Rokclaw" "Mektown" "Fort Mork" "Grabskabdur" "Gargates"
-			}
-			sequential_name = "%O% Frontier Outpost"
+			"Listena" "Boss Hut" "Eadcrumpa" "Oil-Guzzler" "Dakkapoint" "Bonecleava" "Mean Stoppa" "Da Orky Voidtower" "Gunhut Rokclaw" "Mektown" "Fort Mork" "Grabskabdur" "Gargates"
 		}
 		
 		ion_cannon = {

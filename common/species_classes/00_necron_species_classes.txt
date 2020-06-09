@@ -1,0 +1,19 @@
+@robot_trait_points = 0
+@robot_max_traits = 3
+@machine_trait_points = 1
+@machine_max_traits = 4
+@species_trait_points = 2
+@species_max_traits = 5
+
+NEC = {
+	archetype = MACHINE
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+	
+    portraits = {
+        "necron_cryptek"
+    }   
+	
+    graphical_culture = arthropoid_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

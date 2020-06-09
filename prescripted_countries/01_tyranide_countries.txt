@@ -1,0 +1,23 @@
+#behemoth = {
+#}
+#
+#gorgon = {
+#}
+#
+#hydra = {
+#}
+#
+#jormungandr = {
+#}
+#
+#kraken = {
+#}
+#
+#leviathan = {
+#}
+#
+#ouroboris = {
+#}
+#
+#tiamet = {
+#}
