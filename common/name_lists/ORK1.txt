@@ -1,5 +1,5 @@
 ﻿### Ork_Names_1
-ORK1 = {	
+ORK1 = {
 	
 	category = "Plantoid"
 

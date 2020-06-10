@@ -1,17 +1,395 @@
-#dalyth = {
-#}
-#
-#farsight = {
-#}
-#
-#sacea = {
-#}
-#
-#tau = {
-#}
-#
-#taun = {
-#}
-#
-#dyanoi = {
-#}
+dalyth = {
+	name = "Dalyth"
+	adjective = "PRESCRIPTED_adjective_dalyth"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_dalyth"
+
+	species = {
+		class = "TAU"
+		portrait = "tau_dalyth"
+		name = "PRESCRIPTED_species_name_dalyth"
+		plural = "PRESCRIPTED_species_plural_dalyth"
+		adjective = "PRESCRIPTED_species_adjective_dalyth"
+		name_list = "TAU1"
+		trait = "trait_communal"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_shadow_council" }
+	government = "gov_executive_committee"
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	flags = { the_dalyth }
+	planet_name = "PRESCRIPTED_planet_name_dalyth"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_dalyth"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tau"
+			file = "40k-dalyth.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dalyth"
+		gender = female
+		portrait = "TAU_Dalyth_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_dalyth"
+	}
+}
+
+farsight = {
+	name = "Farsight"
+	adjective = "PRESCRIPTED_adjective_farsight"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_farsight"
+
+	species = {
+		class = "TAU"
+		portrait = "tau_farsight"
+		name = "PRESCRIPTED_species_name_farsight"
+		plural = "PRESCRIPTED_species_plural_farsight"
+		adjective = "PRESCRIPTED_species_adjective_farsight"
+		name_list = "TAU1"
+		trait = "trait_communal"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_shadow_council" }
+	government = "gov_executive_committee"
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	flags = { the_farsight }
+	planet_name = "PRESCRIPTED_planet_name_farsight"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_farsight"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tau"
+			file = "40k-farsight.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_farsight"
+		gender = male
+		portrait = "TAU_Farsight_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_farsight"
+	}
+}
+
+sacea = {
+	name = "Sacea"
+	adjective = "PRESCRIPTED_adjective_sacea"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_sacea"
+
+	species = {
+		class = "TAU"
+		portrait = "tau_sacea"
+		name = "PRESCRIPTED_species_name_sacea"
+		plural = "PRESCRIPTED_species_plural_sacea"
+		adjective = "PRESCRIPTED_species_adjective_sacea"
+		name_list = "TAU1"
+		trait = "trait_communal"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_shadow_council" }
+	government = "gov_executive_committee"
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	flags = { the_sacea }
+	planet_name = "PRESCRIPTED_planet_name_sacea"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_sacea"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tau"
+			file = "40k-sacea.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sacea"
+		gender = male
+		portrait = "TAU_Sacea_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_sacea"
+	}
+}
+
+tau = {
+	name = "Tau"
+	adjective = "PRESCRIPTED_adjective_tau"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_tau"
+
+	species = {
+		class = "TAU"
+		portrait = "tau_tau"
+		name = "PRESCRIPTED_species_name_tau"
+		plural = "PRESCRIPTED_species_plural_tau"
+		adjective = "PRESCRIPTED_species_adjective_tau"
+		name_list = "TAU1"
+		trait = "trait_communal"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_shadow_council" }
+	government = "gov_executive_committee"
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	flags = { the_tau }
+	planet_name = "PRESCRIPTED_planet_name_tau"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_tau"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tau"
+			file = "40k-tau.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_tau"
+		gender = female
+		portrait = "TAU_Tau_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_tau"
+	}
+}
+
+taun = {
+	name = "Taun"
+	adjective = "PRESCRIPTED_adjective_taun"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_taun"
+
+	species = {
+		class = "TAU"
+		portrait = "tau_taun"
+		name = "PRESCRIPTED_species_name_taun"
+		plural = "PRESCRIPTED_species_plural_taun"
+		adjective = "PRESCRIPTED_species_adjective_taun"
+		name_list = "TAU1"
+		trait = "trait_communal"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_shadow_council" }
+	government = "gov_executive_committee"
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	flags = { the_taun }
+	planet_name = "PRESCRIPTED_planet_name_taun"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_taun"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tau"
+			file = "40k-taun.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_taun"
+		gender = male
+		portrait = "TAU_Taun_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_taun"
+	}
+}
+
+dyanoi = {
+	name = "Dyanoi"
+	adjective = "PRESCRIPTED_adjective_dyanoi"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_dyanoi"
+
+	species = {
+		class = "TAU"
+		portrait = "tau_dyanoi"
+		name = "PRESCRIPTED_species_name_dyanoi"
+		plural = "PRESCRIPTED_species_plural_dyanoi"
+		adjective = "PRESCRIPTED_species_adjective_dyanoi"
+		name_list = "TAU1"
+		trait = "trait_communal"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_free_haven" "civic_shadow_council" }
+	government = "gov_executive_committee"
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	flags = { the_dyanoi }
+	planet_name = "PRESCRIPTED_planet_name_dyanoi"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_dyanoi"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tau"
+			file = "40k-dyanoi.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dyanoi"
+		gender = male
+		portrait = "TAU_Dyanoi_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_dyanoi"
+	}
+}

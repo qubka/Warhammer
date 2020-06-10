@@ -1,3 +1,4 @@
+# Static
 portraits = {
 	####################################
 	# Leaders Arts
@@ -38,20 +39,20 @@ portraits = {
 	# ORK
 	ORK_BigBoss_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigBoss_ruler.dds" }
 	ORK_BigMek_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigMek_ruler.dds" }
-	ORK_BigMoons_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigMoons_ruler.dds" }
+	ORK_BadMoons_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BadMoons_ruler.dds" }
 	ORK_BloodAxe_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BloodAxe_ruler.dds" }
 	ORK_DeathSkullz_ruler = { texturefile = "gfx/portraits/warhammer/ORK_DeathSkullz_ruler.dds" }
 	ORK_EvilSunz_ruler = { texturefile = "gfx/portraits/warhammer/ORK_EvilSunz_ruler.dds" }
 	ORK_Goff_ruler = { texturefile = "gfx/portraits/warhammer/ORK_Goff_ruler.dds" }
 	
 	# ELD
-	AEL_COR_Ynnari_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Ynnari_ruler.dds" }
-	AEL_COR_Ulthwe_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Ulthwe_ruler.dds" }
-	AEL_COR_SaimHann_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_SaimHann_ruler.dds" }
-	AEL_COR_Ostara_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Ostara_ruler.dds" }
-	AEL_COR_Iyanden_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Iyanden_ruler.dds" }
-	AEL_COR_BielTan_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_BielTan_ruler.dds" }
-	AEL_COR_Alaitoc_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Alaitoc_ruler.dds" }
+	AEL_CRA_Ynnari_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Ynnari_ruler.dds" }
+	AEL_CRA_Ulthwe_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Ulthwe_ruler.dds" }
+	AEL_CRA_SaimHann_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_SaimHann_ruler.dds" }
+	AEL_CRA_Ostara_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Ostara_ruler.dds" }
+	AEL_CRA_Iyanden_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Iyanden_ruler.dds" }
+	AEL_CRA_BielTan_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_BielTan_ruler.dds" }
+	AEL_CRA_Alaitoc_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Alaitoc_ruler.dds" }
 	
 	# DEL
 	AEL_DRU_Ynnari_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_Ynnari_ruler.dds" }
@@ -165,10 +166,10 @@ portraits = {
 	AEL_DRU_DyingSun_02 = { texturefile = "gfx/portraits/armada/AEL_DRU_DyingSun_02.dds" }
 	AEL_DRU_DyingSun_03 = { texturefile = "gfx/portraits/armada/AEL_DRU_DyingSun_03.dds" }
 	AEL_DRU_DyingSun_04 = { texturefile = "gfx/portraits/armada/AEL_DRU_DyingSun_04.dds" }
-	AEL_DRU_FlayedSkull = { texturefile = "gfx/portraits/armada/AEL_DRU_FlayedSkull.dds" }
 	AEL_DRU_FlayedSkull_01 = { texturefile = "gfx/portraits/armada/AEL_DRU_FlayedSkull_01.dds" }
 	AEL_DRU_FlayedSkull_02 = { texturefile = "gfx/portraits/armada/AEL_DRU_FlayedSkull_02.dds" }
 	AEL_DRU_FlayedSkull_03 = { texturefile = "gfx/portraits/armada/AEL_DRU_FlayedSkull_03.dds" }
+	AEL_DRU_FlayedSkull_04 = { texturefile = "gfx/portraits/armada/AEL_DRU_FlayedSkull_04.dds" }
 	AEL_DRU_IronThorn_01 = { texturefile = "gfx/portraits/armada/AEL_DRU_IronThorn_01.dds" }
 	AEL_DRU_IronThorn_02 = { texturefile = "gfx/portraits/armada/AEL_DRU_IronThorn_02.dds" }
 	AEL_DRU_IronThorn_03 = { texturefile = "gfx/portraits/armada/AEL_DRU_IronThorn_03.dds" }
@@ -539,4 +540,44 @@ portraits = {
 	TYR_Tiamet_02 = { texturefile = "gfx/portraits/armada/TYR_Tiamet_02.dds" }
 	TYR_Tiamet_03 = { texturefile = "gfx/portraits/armada/TYR_Tiamet_03.dds" }
 	TYR_Tiamet_04 = { texturefile = "gfx/portraits/armada/TYR_Tiamet_04.dds" }
+}
+
+# Selectors
+portraits = {
+	eldar_female_01 = {	entity = "portrait_eldar_female_01_entity"	clothes_selector = "eldar_female_clothes_01"	hair_selector = "eldar_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/eldar/eldar_female_body_01a.dds" 
+			"gfx/models/portraits/eldar/eldar_female_body_01b.dds"
+		}
+	}
+	eldar_female_02 = {	entity = "portrait_eldar_female_02_entity"	clothes_selector = "eldar_female_clothes_01"	hair_selector = "eldar_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = { 
+			"gfx/models/portraits/eldar/eldar_female_body_02a.dds"
+			"gfx/models/portraits/eldar/eldar_female_body_02b.dds" 
+		}
+	}
+	eldar_female_03 = {	entity = "portrait_eldar_female_02_entity"	clothes_selector = "eldar_female_clothes_01"	hair_selector = "eldar_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = { 
+			"gfx/models/portraits/eldar/eldar_female_body_03a.dds"
+			"gfx/models/portraits/eldar/eldar_female_body_03b.dds" 
+		}
+	}	
+	eldar_male_01 = {	entity = "portrait_eldar_male_01_entity"	clothes_selector = "eldar_male_clothes_01"	hair_selector = "eldar_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+		character_textures = { 
+			"gfx/models/portraits/eldar/eldar_male_body_01a.dds" 
+			"gfx/models/portraits/eldar/eldar_male_body_01b.dds"
+		}
+	}			
+	eldar_male_02 = {	entity = "portrait_eldar_male_02_entity"	clothes_selector = "eldar_male_clothes_01"	hair_selector = "eldar_male_hair_01"	greeting_sound = "human_male_greetings_01" 
+		character_textures = { 
+			"gfx/models/portraits/eldar/eldar_male_body_02a.dds" 
+			"gfx/models/portraits/eldar/eldar_male_body_02b.dds"
+		}
+	} 
+	eldar_male_03 = {	entity = "portrait_eldar_male_02_entity"	clothes_selector = "eldar_male_clothes_01"	hair_selector = "eldar_male_hair_01"	greeting_sound = "human_male_greetings_01" 
+		character_textures = { 
+			"gfx/models/portraits/eldar/eldar_male_body_03a.dds" 
+			"gfx/models/portraits/eldar/eldar_male_body_03b.dds"
+		}
+	} 	
 }

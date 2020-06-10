@@ -5,10 +5,11 @@
 @species_trait_points = 2
 @species_max_traits = 5
 
-ORC = {
+ORK = {
 	archetype = BIOLOGICAL
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
-
+	gender = no
+	
     portraits = {
 		"ork_goff"
 		"ork_evil_sunz"

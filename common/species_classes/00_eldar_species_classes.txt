@@ -17,13 +17,6 @@ ELD = {
 		"eldar_iyanden"
 		"eldar_biel_tan"
 		"eldar_alaitoc"
-		# PIRATES FOR FUTURE
-		#"eldar_void_gragons"
-		#"eldar_twilight_swords"
-		#"eldar_sun_blitz"
-		#"eldar_steeleye_reavers"
-		#"eldar_sky_raders"
-		#"eldar_eldritch_raider"
     }   
 	
     graphical_culture = reptilian_01

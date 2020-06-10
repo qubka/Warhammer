@@ -1,24 +1,528 @@
-#
-#ynnari = {
-#}
-#
-#the_severed = {
-#}
-#
-#last_hatred = {
-#}
-#
-#iron_thorn = {
-#}
-#
-#flayed_skull = {
-#}
-#
-#dying_sun = {
-#}
-#
-#broken_sigil = {
-#}
-#
-#black_heart = {
-#}
+dark_ynnari = {
+	name = "Dark Ynnari"
+	adjective = "PRESCRIPTED_adjective_dark_ynnari"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_dark_ynnari"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_dark_ynnari"
+		name = "PRESCRIPTED_species_name_dark_ynnari"
+		plural = "PRESCRIPTED_species_plural_dark_ynnari"
+		adjective = "PRESCRIPTED_species_adjective_dark_ynnari"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_ynnari2 }
+	planet_name = "PRESCRIPTED_planet_name_dark_ynnari"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_dark_ynnari"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-ynnari.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dark_ynnari"
+		gender = male
+		portrait = "AEL_DRU_Ynnari_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_dark_ynnari"
+	}
+}
+
+the_severed = {
+	name = "The Severed"
+	adjective = "PRESCRIPTED_adjective_the_severed"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_the_severed"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_the_severed"
+		name = "PRESCRIPTED_species_name_the_severed"
+		plural = "PRESCRIPTED_species_plural_the_severed"
+		adjective = "PRESCRIPTED_species_adjective_the_severed"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_the_severed }
+	planet_name = "PRESCRIPTED_planet_name_the_severed"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_the_severed"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-the-severed.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_the_severed"
+		gender = male
+		portrait = "AEL_DRU_TheSevered_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_the_severed"
+	}
+}
+
+last_hatred = {
+	name = "Last Hatred"
+	adjective = "PRESCRIPTED_adjective_last_hatred"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_last_hatred"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_last_hatred"
+		name = "PRESCRIPTED_species_name_last_hatred"
+		plural = "PRESCRIPTED_species_plural_last_hatred"
+		adjective = "PRESCRIPTED_species_adjective_last_hatred"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_last_hatred }
+	planet_name = "PRESCRIPTED_planet_name_last_hatred"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_last_hatred"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-last-hatred.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_last_hatred"
+		gender = male
+		portrait = "AEL_DRU_LastHatred_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_last_hatred"
+	}
+}
+
+iron_thorn = {
+	name = "Iron Thorn"
+	adjective = "PRESCRIPTED_adjective_iron_thorn"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_iron_thorn"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_iron_thorn"
+		name = "PRESCRIPTED_species_name_iron_thorn"
+		plural = "PRESCRIPTED_species_plural_iron_thorn"
+		adjective = "PRESCRIPTED_species_adjective_iron_thorn"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_iron_thorn }
+	planet_name = "PRESCRIPTED_planet_name_iron_thorn"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_iron_thorn"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-iron-thorn.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_iron_thorn"
+		gender = male
+		portrait = "AEL_DRU_IronThorn_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_iron_thorn"
+	}
+}
+
+flayed_skull = {
+	name = "Flayed Skull"
+	adjective = "PRESCRIPTED_adjective_flayed_skull"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_flayed_skull"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_flayed_skull"
+		name = "PRESCRIPTED_species_name_flayed_skull"
+		plural = "PRESCRIPTED_species_plural_flayed_skull"
+		adjective = "PRESCRIPTED_species_adjective_flayed_skull"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_flayed_skull }
+	planet_name = "PRESCRIPTED_planet_name_flayed_skull"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_flayed_skull"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-flayed-skull.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_flayed_skull"
+		gender = male
+		portrait = "AEL_DRU_FlayedSkull_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_flayed_skull"
+	}
+}
+
+dying_sun = {
+	name = "Dying Sun"
+	adjective = "PRESCRIPTED_adjective_dying_sun"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_dying_sun"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_dying_sun"
+		name = "PRESCRIPTED_species_name_dying_sun"
+		plural = "PRESCRIPTED_species_plural_dying_sun"
+		adjective = "PRESCRIPTED_species_adjective_dying_sun"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_dying_sun }
+	planet_name = "PRESCRIPTED_planet_name_dying_sun"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_dying_sun"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-dying-sun.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"pink"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dying_sun"
+		gender = male
+		portrait = "AEL_DRU_DyingSun_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_dying_sun"
+	}
+}
+
+broken_sigil = {
+	name = "Broken Sigil"
+	adjective = "PRESCRIPTED_adjective_broken_sigil"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_broken_sigil"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_broken_sigil"
+		name = "PRESCRIPTED_species_name_broken_sigil"
+		plural = "PRESCRIPTED_species_plural_broken_sigil"
+		adjective = "PRESCRIPTED_species_adjective_broken_sigil"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_broken_sigil }
+	planet_name = "PRESCRIPTED_planet_name_broken_sigil"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_broken_sigil"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-broken-sigil.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_broken_sigil"
+		gender = male
+		portrait = "AEL_DRU_BrokenSigil_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_broken_sigil"
+	}
+}
+
+black_heart = {
+	name = "Black Heart"
+	adjective = "PRESCRIPTED_adjective_black_heart"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_black_heart"
+
+	species = {
+		class = "DEL"
+		portrait = "darkeldar_black_heart"
+		name = "PRESCRIPTED_species_name_black_heart"
+		plural = "PRESCRIPTED_species_plural_black_heart"
+		adjective = "PRESCRIPTED_species_adjective_black_heart"
+		name_list = "DARKELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_charismatic"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_black_heart }
+	planet_name = "PRESCRIPTED_planet_name_black_heart"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_black_heart"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "darkeldar"
+			file = "40k-black-heart.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_black_heart"
+		gender = female
+		portrait = "AEL_DRU_BlackHeart_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_black_heart"
+	}
+}
+

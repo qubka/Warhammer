@@ -1,2 +1,64 @@
-#cryptek = {
-#}
+cryptek = {
+	name = "Cryptek"
+	adjective = "PRESCRIPTED_adjective_cryptek"
+	spawn_enabled = always # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_cryptek"
+	
+	species = {
+		class = "NEC"
+		portrait = "necron_cryptek"
+		name = "PRESCRIPTED_species_name_cryptek"
+		plural = "PRESCRIPTED_species_plural_cryptek"
+		adjective = "PRESCRIPTED_species_adjective_cryptek"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+	
+	room = "personality_slaving_despots_room"
+	
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_cryptek }
+	planet_name = "PRESCRIPTED_planet_name_cryptek"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_cryptek"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "misc"
+			file = "40k-necron1.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_cryptek"
+		gender = male
+		portrait = "NECRON_Cryptek_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_cryptek"
+	}
+}

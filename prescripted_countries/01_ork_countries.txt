@@ -1,20 +1,447 @@
-#goff = {
-#}
-#
-#evil_sunz = {
-#}
-#
-#death_skullz = {
-#}
-#
-#blood_axe = {
-#}
-#
-#big_mek = {
-#}
-#
-#big_boss = {
-#}
-#
-#bad_moons = {
-#}
+goff = {
+	name = "Goff"
+	adjective = "PRESCRIPTED_adjective_goff"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_goff"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_goff"
+		name = "PRESCRIPTED_species_name_goff"
+		plural = "PRESCRIPTED_species_plural_goff"
+		adjective = "PRESCRIPTED_species_adjective_goff"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_goff }
+	planet_name = "PRESCRIPTED_planet_name_goff"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_goff"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-goff.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_goff"
+		gender = male
+		portrait = "ORK_Goff_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_goff"
+	}
+}
+
+evil_sunz = {
+	name = "Evil Sunz"
+	adjective = "PRESCRIPTED_adjective_evil_sunz"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_evil_sunz"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_evil_sunz"
+		name = "PRESCRIPTED_species_name_evil_sunz"
+		plural = "PRESCRIPTED_species_plural_evil_sunz"
+		adjective = "PRESCRIPTED_species_adjective_evil_sunz"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_evil_sunz }
+	planet_name = "PRESCRIPTED_planet_name_evil_sunz"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_evil_sunz"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-evil-sunz.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_evil_sunz"
+		gender = male
+		portrait = "ORK_EvilSunz_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_evil_sunz"
+	}
+}
+
+death_skullz = {
+	name = "Death Skullz"
+	adjective = "PRESCRIPTED_adjective_death_skullz"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_death_skullz"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_death_skullz"
+		name = "PRESCRIPTED_species_name_death_skullz"
+		plural = "PRESCRIPTED_species_plural_death_skullz"
+		adjective = "PRESCRIPTED_species_adjective_death_skullz"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_death_skullz }
+	planet_name = "PRESCRIPTED_planet_name_death_skullz"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_death_skullz"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-death-skullz.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_death_skullz"
+		gender = male
+		portrait = "ORK_DeathSkullz_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_death_skullz"
+	}
+}
+
+blood_axe = {
+	name = "Blood Axe"
+	adjective = "PRESCRIPTED_adjective_blood_axe"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_blood_axe"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_blood_axe"
+		name = "PRESCRIPTED_species_name_blood_axe"
+		plural = "PRESCRIPTED_species_plural_blood_axe"
+		adjective = "PRESCRIPTED_species_adjective_blood_axe"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_blood_axe }
+	planet_name = "PRESCRIPTED_planet_name_blood_axe"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_blood_axe"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-blood-axe.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_blood_axe"
+		gender = male
+		portrait = "ORK_BloodAxe_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_blood_axe"
+	}
+}
+
+big_mek = {
+	name = "Big Mek"
+	adjective = "PRESCRIPTED_adjective_big_mek"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_big_mek"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_big_mek"
+		name = "PRESCRIPTED_species_name_big_mek"
+		plural = "PRESCRIPTED_species_plural_big_mek"
+		adjective = "PRESCRIPTED_species_adjective_big_mek"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_big_mek }
+	planet_name = "PRESCRIPTED_planet_name_big_mek"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_big_mek"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-big-mek.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_big_mek"
+		gender = male
+		portrait = "ORK_BigMek_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_big_mek"
+	}
+}
+
+big_boss = {
+	name = "Big Boss"
+	adjective = "PRESCRIPTED_adjective_big_boss"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_big_boss"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_big_boss"
+		name = "PRESCRIPTED_species_name_big_boss"
+		plural = "PRESCRIPTED_species_plural_big_boss"
+		adjective = "PRESCRIPTED_species_adjective_big_boss"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_big_boss }
+	planet_name = "PRESCRIPTED_planet_name_big_boss"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_big_boss"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-big-boss.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_big_boss"
+		gender = male
+		portrait = "ORK_BigBoss_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_big_boss"
+	}
+}
+
+bad_moons = {
+	name = "Bad Moons"
+	adjective = "PRESCRIPTED_adjective_bad_moons"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_bad_moons"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_bad_moons"
+		name = "PRESCRIPTED_species_name_bad_moons"
+		plural = "PRESCRIPTED_species_plural_bad_moons"
+		adjective = "PRESCRIPTED_species_adjective_bad_moons"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_warrior_culture" "civic_police_state" }
+	government = "gov_martial_dictatorship"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { the_bad_moons }
+	planet_name = "PRESCRIPTED_planet_name_bad_moons"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_bad_moons"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ork"
+			file = "40k-bad-moons.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_bad_moons"
+		gender = male
+		portrait = "ORK_BadMoons_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_bad_moons"
+	}
+}

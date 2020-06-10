@@ -1,23 +1,511 @@
-#behemoth = {
-#}
-#
-#gorgon = {
-#}
-#
-#hydra = {
-#}
-#
-#jormungandr = {
-#}
-#
-#kraken = {
-#}
-#
-#leviathan = {
-#}
-#
-#ouroboris = {
-#}
-#
-#tiamet = {
-#}
+behemoth = {
+	name = "Behemoth"
+	adjective = "PRESCRIPTED_adjective_behemoth"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_behemoth"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_behemoth"
+		name = "PRESCRIPTED_species_name_behemoth"
+		plural = "PRESCRIPTED_species_plural_behemoth"
+		adjective = "PRESCRIPTED_species_adjective_behemoth"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_behemoth }
+	planet_name = "PRESCRIPTED_planet_name_behemoth"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_behemoth"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-behemoth.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_behemoth"
+		gender = male
+		portrait = "TYR_Behemoth_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_behemoth"
+	}
+}
+
+gorgon = {
+	name = "Gorgon"
+	adjective = "PRESCRIPTED_adjective_gorgon"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_gorgon"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_gorgon"
+		name = "PRESCRIPTED_species_name_gorgon"
+		plural = "PRESCRIPTED_species_plural_gorgon"
+		adjective = "PRESCRIPTED_species_adjective_gorgon"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_gorgon }
+	planet_name = "PRESCRIPTED_planet_name_gorgon"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_gorgon"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-gorgon.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_gorgon"
+		gender = male
+		portrait = "TYR_Gorgon_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_gorgon"
+	}
+}
+
+hydra = {
+	name = "Hydra"
+	adjective = "PRESCRIPTED_adjective_hydra"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_hydra"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_hydra"
+		name = "PRESCRIPTED_species_name_hydra"
+		plural = "PRESCRIPTED_species_plural_hydra"
+		adjective = "PRESCRIPTED_species_adjective_hydra"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_hydra }
+	planet_name = "PRESCRIPTED_planet_name_hydra"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_hydra"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-hydra.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_hydra"
+		gender = male
+		portrait = "TYR_Hydra_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_hydra"
+	}
+}
+
+jormungandr = {
+	name = "Jormungandr"
+	adjective = "PRESCRIPTED_adjective_jormungandr"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_jormungandr"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_jormungandr"
+		name = "PRESCRIPTED_species_name_jormungandr"
+		plural = "PRESCRIPTED_species_plural_jormungandr"
+		adjective = "PRESCRIPTED_species_adjective_jormungandr"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_jormungandr }
+	planet_name = "PRESCRIPTED_planet_name_jormungandr"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_jormungandr"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-jormungandr.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_jormungandr"
+		gender = male
+		portrait = "TYR_Jormungandr_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_jormungandr"
+	}
+}
+
+kraken = {
+	name = "Kraken"
+	adjective = "PRESCRIPTED_adjective_kraken"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_kraken"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_kraken"
+		name = "PRESCRIPTED_species_name_kraken"
+		plural = "PRESCRIPTED_species_plural_kraken"
+		adjective = "PRESCRIPTED_species_adjective_kraken"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_kraken }
+	planet_name = "PRESCRIPTED_planet_name_kraken"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_kraken"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-kraken.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_kraken"
+		gender = male
+		portrait = "TYR_Kraken_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_kraken"
+	}
+}
+
+leviathan = {
+	name = "Leviathan"
+	adjective = "PRESCRIPTED_adjective_leviathan"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_leviathan"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_leviathan"
+		name = "PRESCRIPTED_species_name_leviathan"
+		plural = "PRESCRIPTED_species_plural_leviathan"
+		adjective = "PRESCRIPTED_species_adjective_leviathan"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_leviathan }
+	planet_name = "PRESCRIPTED_planet_name_leviathan"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_leviathan"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-leviathan.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_leviathan"
+		gender = male
+		portrait = "TYR_Leviathan_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_leviathan"
+	}
+}
+
+ouroboris = {
+	name = "Ouroboris"
+	adjective = "PRESCRIPTED_adjective_ouroboris"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_ouroboris"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_ouroboris"
+		name = "PRESCRIPTED_species_name_ouroboris"
+		plural = "PRESCRIPTED_species_plural_ouroboris"
+		adjective = "PRESCRIPTED_species_adjective_ouroboris"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_ouroboris }
+	planet_name = "PRESCRIPTED_planet_name_ouroboris"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_ouroboris"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-ouroboris.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_ouroboris"
+		gender = male
+		portrait = "TYR_Ouroboris_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_ouroboris"
+	}
+}
+
+tiamet = {
+	name = "Tiamet"
+	adjective = "PRESCRIPTED_adjective_tiamet"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_tiamet"
+
+	species = {
+		class = "TYR"
+		portrait = "tyranid_tiamet"
+		name = "PRESCRIPTED_species_name_tiamet"
+		plural = "PRESCRIPTED_species_plural_tiamet"
+		adjective = "PRESCRIPTED_species_adjective_tiamet"
+		name_list = "TYRANID1"
+		trait = "trait_hive_mind"
+		trait = "trait_rapid_breeders"
+		trait = "trait_strong"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	government = "gov_hive_mind"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_tiamet }
+	planet_name = "PRESCRIPTED_planet_name_tiamet"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_tiamet"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "tyranid"
+			file = "40k-tiamet.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_tiamet"
+		gender = male
+		portrait = "TYR_Tiamet_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_tiamet"
+	}
+}

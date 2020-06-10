@@ -1,17 +1,22 @@
 portrait_groups = {
-	ynnari = {
+	darkeldar_dark_ynnari = {
 		
-		default = 
+		default = AEL_DRU_Ynnari_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_DRU_Ynnari_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -20,7 +25,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -34,7 +44,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_Ynnari_01
+					AEL_DRU_Ynnari_02
+					AEL_DRU_Ynnari_03
+					AEL_DRU_Ynnari_04
+					AEL_N_Visarch
 				}
 			}
 			
@@ -44,7 +58,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_EldrathrainVoidstinger
 				}
 			}
 			
@@ -54,7 +68,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_IdArtharn
 				}
 			}
 
@@ -64,7 +78,217 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					AEL_DRU_Ynnari_01
+					AEL_DRU_Ynnari_02
+					AEL_DRU_Ynnari_03
+					AEL_DRU_Ynnari_04
+					AEL_N_Visarch
+				}
+			}
+		}
 
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					AEL_DRU_Ynnari_ruler
+				}
+			}
+		}
+	}
+
+	darkeldar_the_severed = {
+		
+		default = AEL_DRU_TheSevered_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = AEL_DRU_TheSevered_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					AEL_DRU_TheSevered_01
+					AEL_DRU_TheSevered_02
+					AEL_DRU_TheSevered_03
+					AEL_DRU_TheSevered_04
+					AEL_N_Visarch
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					AEL_N_EldrathrainVoidstinger
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					AEL_N_IdArtharn
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					AEL_DRU_TheSevered_01
+					AEL_DRU_TheSevered_02
+					AEL_DRU_TheSevered_03
+					AEL_DRU_TheSevered_04
+					AEL_N_Visarch
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					AEL_DRU_TheSevered_ruler
+				}
+			}
+		}
+	}
+
+	darkeldar_last_hatred = {
+		
+		default = AEL_DRU_LastHatred_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = AEL_DRU_LastHatred_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					AEL_DRU_LastHatred_01
+					AEL_DRU_LastHatred_02
+					AEL_DRU_LastHatred_03
+					AEL_DRU_LastHatred_04
+					AEL_N_Visarch
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					AEL_N_EldrathrainVoidstinger
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					AEL_N_IdArtharn
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					AEL_DRU_LastHatred_01
+					AEL_DRU_LastHatred_02
+					AEL_DRU_LastHatred_03
+					AEL_DRU_LastHatred_04
+					AEL_N_Visarch
 				}
 			}
 		}
@@ -84,9 +308,9 @@ portrait_groups = {
 		}
 	}
 
-	the_severed = {
+	darkeldar_iron_thorn = {
 		
-		default = 
+		default = AEL_DRU_IronThorn_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = 
@@ -96,7 +320,12 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -105,7 +334,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -119,7 +353,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_IronThorn_01
+					AEL_DRU_IronThorn_02
+					AEL_DRU_IronThorn_03
+					AEL_DRU_IronThorn_04
+					AEL_N_Visarch
 				}
 			}
 			
@@ -129,7 +367,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_EldrathrainVoidstinger
 				}
 			}
 			
@@ -139,7 +377,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_IdArtharn
 				}
 			}
 
@@ -149,7 +387,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_IronThorn_01
+					AEL_DRU_IronThorn_02
+					AEL_DRU_IronThorn_03
+					AEL_DRU_IronThorn_04
+					AEL_N_Visarch
 				}
 			}
 		}
@@ -163,25 +405,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_LastHatred_ruler
 				}
 			}
 		}
 	}
 
-	last_hatred = {
+	darkeldar_flayed_skull = {
 		
-		default = 
+		default = AEL_DRU_FlayedSkull_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_DRU_FlayedSkull_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -190,7 +437,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -204,7 +456,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_FlayedSkull_01
+					AEL_DRU_FlayedSkull_02
+					AEL_DRU_FlayedSkull_03
+					AEL_DRU_FlayedSkull_04
+					AEL_N_Visarch
 				}
 			}
 			
@@ -214,7 +470,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_EldrathrainVoidstinger
 				}
 			}
 			
@@ -224,7 +480,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_IdArtharn
 				}
 			}
 
@@ -234,7 +490,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_FlayedSkull_01
+					AEL_DRU_FlayedSkull_02
+					AEL_DRU_FlayedSkull_03
+					AEL_DRU_FlayedSkull_04
+					AEL_N_Visarch
 				}
 			}
 		}
@@ -248,25 +508,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_FlayedSkull_ruler
 				}
 			}
 		}
 	}
 
-	iron_thorn = {
+	darkeldar_dying_sun = {
 		
-		default = 
+		default = AEL_DRU_DyingSun_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_DRU_DyingSun_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -275,7 +540,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -289,7 +559,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_DyingSun_01
+					AEL_DRU_DyingSun_02
+					AEL_DRU_DyingSun_03
+					AEL_DRU_DyingSun_04
+					AEL_N_Visarch
 				}
 			}
 			
@@ -299,7 +573,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_EldrathrainVoidstinger
 				}
 			}
 			
@@ -309,7 +583,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_IdArtharn
 				}
 			}
 
@@ -319,7 +593,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_DyingSun_01
+					AEL_DRU_DyingSun_02
+					AEL_DRU_DyingSun_03
+					AEL_DRU_DyingSun_04
+					AEL_N_Visarch
 				}
 			}
 		}
@@ -333,25 +611,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_DyingSun_ruler
 				}
 			}
 		}
 	}
 
-	flayed_skull = {
+	darkeldar_broken_sigil = {
 		
-		default = 
+		default = AEL_DRU_BrokenSigil_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_DRU_BrokenSigil_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -360,7 +643,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -374,7 +662,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_BrokenSigil_01
+					AEL_DRU_BrokenSigil_02
+					AEL_DRU_BrokenSigil_03
+					AEL_DRU_BrokenSigil_04
+					AEL_N_Visarch
 				}
 			}
 			
@@ -384,7 +676,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_EldrathrainVoidstinger
 				}
 			}
 			
@@ -394,7 +686,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_IdArtharn
 				}
 			}
 
@@ -404,7 +696,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_BrokenSigil_01
+					AEL_DRU_BrokenSigil_02
+					AEL_DRU_BrokenSigil_03
+					AEL_DRU_BrokenSigil_04
+					AEL_N_Visarch
 				}
 			}
 		}
@@ -418,25 +714,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_BrokenSigil_ruler
 				}
 			}
 		}
 	}
 
-	dying_sun = {
+	darkeldar_black_heart = {
 		
-		default = 
+		default = AEL_DRU_Blackheart_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_DRU_BlackHeart_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -445,7 +746,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -459,7 +765,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_Blackheart_01
+					AEL_DRU_Blackheart_02
+					AEL_DRU_Blackheart_03
+					AEL_DRU_Blackheart_04
+					AEL_N_Visarch
 				}
 			}
 			
@@ -469,7 +779,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_EldrathrainVoidstinger
 				}
 			}
 			
@@ -479,7 +789,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_IdArtharn
 				}
 			}
 
@@ -489,7 +799,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_DRU_Blackheart_01
+					AEL_DRU_Blackheart_02
+					AEL_DRU_Blackheart_03
+					AEL_DRU_Blackheart_04
+					AEL_N_Visarch
 				}
 			}
 		}
@@ -499,181 +813,11 @@ portrait_groups = {
 		ruler = {
 			add = {
 				trigger = {
-					gender = male
+					gender = female
 				}
 				
 				portraits = {
-
-				}
-			}
-		}
-	}
-
-	broken_sigil = {
-		
-		default = 
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
-			add = {
-				trigger = {
-					leader_class = general
-				}
-				
-				portraits = {
-
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
-				portraits = {
-
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-
-				}
-			}
-		}
-	}
-
-	black_heart = {
-		
-		default = 
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
-			add = {
-				trigger = {
-					leader_class = general
-				}
-				
-				portraits = {
-
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
-				portraits = {
-
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-
-				}
-			}
-		}
-
-			
-		#leader scope 
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-
+					AEL_DRU_BlackHeart_ruler
 				}
 			}
 		}

@@ -8,16 +8,17 @@
 TYR = {
 	archetype = BIOLOGICAL
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	gender = no
 
     portraits = {
-		"tyranide_behemoth"
-		"tyranide_gorgon"
-		"tyranide_hydra"
-		"tyranide_jormungandr"
-		"tyranide_kraken"
-		"tyranide_leviathan"
-		"tyranide_ouroboris"
-		"tyranide_alaitoc"
+		"tyranid_behemoth"
+		"tyranid_gorgon"
+		"tyranid_hydra"
+		"tyranid_jormungandr"
+		"tyranid_kraken"
+		"tyranid_leviathan"
+		"tyranid_ouroboris"
+		"tyranid_tiamet"
     }   
 	
     graphical_culture = arthropoid_01

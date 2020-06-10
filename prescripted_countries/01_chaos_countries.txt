@@ -403,7 +403,7 @@ red_corsair = {
 	
 	species = {
 		class = "CHA"
-		portrait = "chaos_red_corsair"
+		portrait = "chaos_red_corsairs"
 		name = "PRESCRIPTED_species_name_red_corsair"
 		plural = "PRESCRIPTED_species_plural_red_corsair"
 		adjective = "PRESCRIPTED_species_adjective_red_corsair"
@@ -640,7 +640,7 @@ world_eater = {
 			file = "00_solid.dds"
 		}
 		colors = {
-			"burgungy"
+			"burgundy"
 			"black"
 			"null"
 			"null"

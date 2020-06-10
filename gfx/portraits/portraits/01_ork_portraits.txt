@@ -1,5 +1,5 @@
 portrait_groups = {
-	goff = {
+	ork_goff = {
 		
 		default = ORK_N_Gazghull
 		
@@ -11,7 +11,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -20,7 +20,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -94,7 +94,7 @@ portrait_groups = {
 		}
 	}
 
-	evil_sunz = {
+	ork_evil_sunz = {
 		
 		default = ORK_EvilSunz_BigBoss_01
 		
@@ -106,7 +106,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -115,7 +115,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -187,7 +187,7 @@ portrait_groups = {
 		}
 	}
 
-	death_skullz = {
+	ork_death_skullz = {
 		
 		default = ORK_DeathSkullz_01
 		
@@ -199,7 +199,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -208,7 +208,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -280,9 +280,9 @@ portrait_groups = {
 		}
 	}
 
-	blood_axe = {
+	ork_blood_axe = {
 		
-		default = ORK_BloodAxe_01
+		default = ORK_BloodAxe_03
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = ORK_BloodAxe_ruler
@@ -292,7 +292,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -301,7 +301,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -373,7 +373,7 @@ portrait_groups = {
 		}
 	}
 
-	big_mek = {
+	ork_big_mek = {
 		
 		default = ORK_N_Firestarta
 		
@@ -385,7 +385,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -394,7 +394,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -468,7 +468,7 @@ portrait_groups = {
 		}
 	}
 
-	big_boss = {
+	ork_big_boss = {
 		
 		default = ORK_N_GoreSpitta
 		
@@ -480,7 +480,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -489,7 +489,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -563,19 +563,19 @@ portrait_groups = {
 		}
 	}
 
-	bad_moons = {
+	ork_bad_moons = {
 		
 		default = ORK_N_GoldToof
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = ORK_BigMoons_ruler
+			default = ORK_BadMoons_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}		
@@ -584,7 +584,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_hp_12
 				}
 			}
 		}
@@ -652,7 +652,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					ORK_BigMoons_ruler
+					ORK_BadMoons_ruler
 				}
 			}
 		}

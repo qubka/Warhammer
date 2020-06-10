@@ -1,21 +1,461 @@
-#ynnari = {
-#}
-#
-#ulthwe = {
-#}
-#
-#saimhann = {
-#}
-#
-#ostara = {
-#}
-#
-#iyanden = {
-#}
-#
-#
-#bieltan = {
-#}
-#
-#alaitoc = {
-#}
+ynnari = {
+	name = "Ynnari"
+	adjective = "PRESCRIPTED_adjective_ynnari"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_ynnari"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_ynnari"
+		name = "PRESCRIPTED_species_name_ynnari"
+		plural = "PRESCRIPTED_species_plural_ynnari"
+		adjective = "PRESCRIPTED_species_adjective_ynnari"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_ynnari }
+	planet_name = "PRESCRIPTED_planet_name_ynnari"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_ynnari"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40k-ynnari.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_ynnari"
+		gender = male
+		portrait = "AEL_CRA_Ynnari_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_ynnari"
+	}
+}
+
+ulthwe = {
+	name = "Ulthwe"
+	adjective = "PRESCRIPTED_adjective_ulthwe"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_ulthwe"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_ulthwe"
+		name = "PRESCRIPTED_species_name_ulthwe"
+		plural = "PRESCRIPTED_species_plural_ulthwe"
+		adjective = "PRESCRIPTED_species_adjective_ulthwe"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_ulthwe }
+	planet_name = "PRESCRIPTED_planet_name_ulthwe"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_ulthwe"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40K-ulthwe.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_ulthwe"
+		gender = female
+		portrait = "AEL_CRA_Ulthwe_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_ulthwe"
+	}
+}
+
+saim_hann = {
+	name = "Saim Hann"
+	adjective = "PRESCRIPTED_adjective_saim_hann"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_saim_hann"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_saim_hann"
+		name = "PRESCRIPTED_species_name_saim_hann"
+		plural = "PRESCRIPTED_species_plural_saim_hann"
+		adjective = "PRESCRIPTED_species_adjective_saim_hann"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_saim_hann }
+	planet_name = "PRESCRIPTED_planet_name_saim_hann"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_saim_hann"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40k-saim-hann.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_saim_hann"
+		gender = female
+		portrait = "AEL_CRA_SaimHann_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_saim_hann"
+	}
+}
+
+ostara = {
+	name = "Ostara"
+	adjective = "PRESCRIPTED_adjective_ostara"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_ostara"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_ostara"
+		name = "PRESCRIPTED_species_name_ostara"
+		plural = "PRESCRIPTED_species_plural_ostara"
+		adjective = "PRESCRIPTED_species_adjective_ostara"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_ostara }
+	planet_name = "PRESCRIPTED_planet_name_ostara"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_ostara"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40k-ostara.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_ostara"
+		gender = female
+		portrait = "AEL_CRA_Ostara_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_ostara"
+	}
+}
+
+iyanden = {
+	name = "Iyanden"
+	adjective = "PRESCRIPTED_adjective_iyanden"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_iyanden"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_iyanden"
+		name = "PRESCRIPTED_species_name_iyanden"
+		plural = "PRESCRIPTED_species_plural_iyanden"
+		adjective = "PRESCRIPTED_species_adjective_iyanden"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_iyanden }
+	planet_name = "PRESCRIPTED_planet_name_iyanden"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_iyanden"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40k-iyanden.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_iyanden"
+		gender = male
+		portrait = "AEL_CRA_Iyanden_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_iyanden"
+	}
+}
+
+biel_tan = {
+	name = "Biel Tan"
+	adjective = "PRESCRIPTED_adjective_biel_tan"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_biel_tan"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_biel_tan"
+		name = "PRESCRIPTED_species_name_biel_tan"
+		plural = "PRESCRIPTED_species_plural_biel_tan"
+		adjective = "PRESCRIPTED_species_adjective_biel_tan"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_biel_tan }
+	planet_name = "PRESCRIPTED_planet_name_biel_tan"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_biel_tan"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40k-biel-tan.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_biel_tan"
+		gender = male
+		portrait = "AEL_CRA_BielTan_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_biel_tan"
+	}
+}
+
+alaitoc = {
+	name = "Alaitoc"
+	adjective = "PRESCRIPTED_adjective_alaitoc"
+	spawn_enabled = always # yes / no / always
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_alaitoc"
+
+	species = {
+		class = "ELD"
+		portrait = "eldar_alaitoc"
+		name = "PRESCRIPTED_species_name_alaitoc"
+		plural = "PRESCRIPTED_species_plural_alaitoc"
+		adjective = "PRESCRIPTED_species_adjective_alaitoc"
+		name_list = "ELDAR1"
+		trait = "trait_solitary"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_slaving_despots_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
+	government = "gov_military_junta"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { the_alaitoc }
+	planet_name = "PRESCRIPTED_planet_name_alaitoc"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_alaitoc"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "eldar"
+			file = "40k-alaitoc.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_alaitoc"
+		gender = male
+		portrait = "AEL_CRA_Alaitoc_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_alaitoc"
+	}
+}

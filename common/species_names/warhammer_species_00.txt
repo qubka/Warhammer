@@ -327,8 +327,8 @@ TYR = {
 		name_list = "TYRANID1"
 	}
 	
-	alaitoc = {
-		name = "Alaitoc"
+	tiamet = {
+		name = "Tiamet"
 		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
@@ -441,11 +441,10 @@ ELD = {
 #		home_system = Sol
 #		name_list = "ELDAR1"
 #	}
-	
 }
 
 DEL = {
-	ynnari = {
+	dark_ynnari = {
 		name = "Dark Ynnari"
 		plural = "Drukhari"
 		home_planet = Terra

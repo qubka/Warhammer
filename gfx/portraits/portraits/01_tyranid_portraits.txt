@@ -1,5 +1,5 @@
 portrait_groups = {
-	behemoth = {
+	tyranid_behemoth = {
 		
 		default = TYR_Behemoth_01
 		
@@ -11,7 +11,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}		
@@ -20,7 +20,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -34,6 +34,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Behemoth_01
 					TYR_Behemoth_02
 					TYR_Behemoth_03
@@ -73,6 +74,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Behemoth_01
 					TYR_Behemoth_02
 					TYR_Behemoth_03
@@ -96,20 +98,20 @@ portrait_groups = {
 		}
 	}
 
-	gorgon = {
+	tyranid_gorgon = {
 		
 		default = TYR_Gorgon_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Gordon_ruler
+			default = TYR_Gorgon_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
-				}
+					art14
+				}	
 			}
 		}		
 		
@@ -117,7 +119,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -131,6 +133,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Gorgon_01
 					TYR_Gorgon_02
 					TYR_Gorgon_03
@@ -170,6 +173,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Gorgon_01
 					TYR_Gorgon_02
 					TYR_Gorgon_03
@@ -193,7 +197,7 @@ portrait_groups = {
 		}
 	}
 
-	hydra = {
+	tyranid_hydra = {
 		
 		default = TYR_Hydra_01
 		
@@ -205,7 +209,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}		
@@ -214,7 +218,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -228,6 +232,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Hydra_01
 					TYR_Hydra_02
 					TYR_Hydra_03
@@ -267,6 +272,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Hydra_01
 					TYR_Hydra_02
 					TYR_Hydra_03
@@ -290,7 +296,7 @@ portrait_groups = {
 		}
 	}
 
-	jormungandr = {
+	tyranid_jormungandr = {
 		
 		default = TYR_Jormungandr_01
 		
@@ -302,7 +308,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}		
@@ -311,7 +317,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -325,6 +331,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Jormungandr_01
 					TYR_Jormungandr_02
 					TYR_Jormungandr_03
@@ -364,6 +371,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Jormungandr_01
 					TYR_Jormungandr_02
 					TYR_Jormungandr_03
@@ -387,19 +395,19 @@ portrait_groups = {
 		}
 	}
 
-	kraken = {
+	tyranid_kraken = {
 		
 		default = TYR_Kraken_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = TYR_Kraken_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					TYR_Kraken_ruler
+					art14
 				}
 			}
 		}		
@@ -408,7 +416,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -422,6 +430,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Kraken_01
 					TYR_Kraken_02
 					TYR_Kraken_03
@@ -461,6 +470,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Kraken_01
 					TYR_Kraken_02
 					TYR_Kraken_03
@@ -484,7 +494,7 @@ portrait_groups = {
 		}
 	}
 
-	leviathan = {
+	tyranid_leviathan = {
 		
 		default = TYR_Leviathan_01
 		
@@ -496,7 +506,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}		
@@ -505,7 +515,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -519,6 +529,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Leviathan_01
 					TYR_Leviathan_02
 					TYR_Leviathan_03
@@ -570,6 +581,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Leviathan_01
 					TYR_Leviathan_02
 					TYR_Leviathan_03
@@ -597,7 +609,7 @@ portrait_groups = {
 		}
 	}
 
-	ouroboris = {
+	tyranid_ouroboris = {
 		
 		default = TYR_Ouroboris_01
 		
@@ -609,7 +621,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}		
@@ -618,7 +630,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -632,6 +644,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Ouroboris_01
 					TYR_Ouroboris_02
 					TYR_Ouroboris_03
@@ -671,6 +684,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Ouroboris_01
 					TYR_Ouroboris_02
 					TYR_Ouroboris_03
@@ -694,7 +708,7 @@ portrait_groups = {
 		}
 	}
 	
-	tiamet = {
+	tyranid_tiamet = {
 		
 		default = TYR_Tiamet_01
 		
@@ -706,7 +720,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}		
@@ -715,7 +729,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					art14
 				}
 			}
 		}
@@ -729,6 +743,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Tiamet_01
 					TYR_Tiamet_02
 					TYR_Tiamet_03
@@ -768,6 +783,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					TYR_Patriarch
 					TYR_Tiamet_01
 					TYR_Tiamet_02
 					TYR_Tiamet_03

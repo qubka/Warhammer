@@ -1,17 +1,22 @@
 portrait_groups = {
-	ynnari = {
+	eldar_ynnari = {
 		
-		default = 
+		default = AEL_CRA_Ynnari_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_Ynnari_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -20,7 +25,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -34,7 +44,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ynnari_01
+					AEL_CRA_Ynnari_02
+					AEL_CRA_Ynnari_03
+					AEL_CRA_Ynnari_04
+					AEL_CRA_Ynnari_05
 				}
 			}
 			
@@ -44,7 +58,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -54,7 +68,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -64,7 +78,11 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ynnari_01
+					AEL_CRA_Ynnari_02
+					AEL_CRA_Ynnari_03
+					AEL_CRA_Ynnari_04
+					AEL_CRA_Ynnari_05
 				}
 			}
 		}
@@ -78,25 +96,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ynnari_ruler
 				}
 			}
 		}
 	}
 
-	ulthwe = {
+	eldar_ulthwe = {
 		
-		default = 
+		default = AEL_CRA_Ulthwe_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_Ulthwe_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -105,7 +128,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -119,7 +147,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ulthwe_01
+					AEL_CRA_Ulthwe_02
+					AEL_CRA_Ulthwe_03
+					AEL_CRA_Ulthwe_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 			
@@ -129,7 +162,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -139,7 +172,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -149,7 +182,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ulthwe_01
+					AEL_CRA_Ulthwe_02
+					AEL_CRA_Ulthwe_03
+					AEL_CRA_Ulthwe_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 		}
@@ -159,29 +197,34 @@ portrait_groups = {
 		ruler = {
 			add = {
 				trigger = {
-					gender = male
+					gender = female
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ulthwe_ruler
 				}
 			}
 		}
 	} 
 
-	saimhann = {
+	eldar_saim_hann = {
 		
-		default = 
+		default = AEL_CRA_SaimHann_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_SaimHann_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -190,7 +233,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -204,7 +252,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_SaimHann_01
+					AEL_CRA_SaimHann_02
+					AEL_CRA_SaimHann_03
+					AEL_CRA_SaimHann_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 			
@@ -214,7 +267,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -224,7 +277,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -234,7 +287,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_SaimHann_01
+					AEL_CRA_SaimHann_02
+					AEL_CRA_SaimHann_03
+					AEL_CRA_SaimHann_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 		}
@@ -244,29 +302,34 @@ portrait_groups = {
 		ruler = {
 			add = {
 				trigger = {
-					gender = male
+					gender = female
 				}
 				
 				portraits = {
-
+					AEL_CRA_SaimHann_ruler
 				}
 			}
 		}
 	}
 
-	ostara = {
+	eldar_ostara = {
 		
-		default = 
+		default = AEL_CRA_Ostara_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_Ostara_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -275,7 +338,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -289,7 +357,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ostara_01
+					AEL_CRA_Ostara_02
+					AEL_CRA_Ostara_03
+					AEL_CRA_Ostara_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 			
@@ -299,7 +372,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -309,7 +382,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -319,7 +392,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ostara_01
+					AEL_CRA_Ostara_02
+					AEL_CRA_Ostara_03
+					AEL_CRA_Ostara_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 		}
@@ -329,29 +407,34 @@ portrait_groups = {
 		ruler = {
 			add = {
 				trigger = {
-					gender = male
+					gender = female
 				}
 				
 				portraits = {
-
+					AEL_CRA_Ostara_ruler
 				}
 			}
 		}
 	}
 
-	iyanden = {
+	eldar_iyanden = {
 		
-		default = 
+		default = AEL_CRA_Iyanden_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_Iyanden_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -360,7 +443,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -374,7 +462,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Iyanden_01
+					AEL_CRA_Iyanden_02
+					AEL_CRA_Iyanden_03
+					AEL_CRA_Iyanden_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 			
@@ -384,7 +477,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -394,7 +487,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -404,7 +497,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Iyanden_01
+					AEL_CRA_Iyanden_02
+					AEL_CRA_Iyanden_03
+					AEL_CRA_Iyanden_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 		}
@@ -418,25 +516,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Iyanden_ruler
 				}
 			}
 		}
 	}
 
-	bieltan = {
+	eldar_biel_tan = {
 		
-		default = 
+		default = AEL_CRA_BielTan_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_BielTan_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -445,7 +548,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -459,7 +567,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_BielTan_01
+					AEL_CRA_BielTan_02
+					AEL_CRA_BielTan_03
+					AEL_CRA_BielTan_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 			
@@ -469,7 +582,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -479,7 +592,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -489,7 +602,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_BielTan_01
+					AEL_CRA_BielTan_02
+					AEL_CRA_BielTan_03
+					AEL_CRA_BielTan_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 		}
@@ -503,25 +621,30 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_BielTan_ruler
 				}
 			}
 		}
 	}
 
-	alaitoc = {
+	eldar_alaitoc = {
 		
-		default = 
+		default = AEL_CRA_Alaitoc_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = 
+			default = AEL_CRA_Alaitoc_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -530,7 +653,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -544,7 +672,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Alaitoc_01
+					AEL_CRA_Alaitoc_02
+					AEL_CRA_Alaitoc_03
+					AEL_CRA_Alaitoc_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 			
@@ -554,7 +687,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_WarlockYsdain
 				}
 			}
 			
@@ -564,7 +697,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_N_Yvraine
 				}
 			}
 
@@ -574,7 +707,12 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Alaitoc_01
+					AEL_CRA_Alaitoc_02
+					AEL_CRA_Alaitoc_03
+					AEL_CRA_Alaitoc_04
+					AEL_N_AutarchYramarh
+					AEL_N_Irusrith
 				}
 			}
 		}
@@ -588,7 +726,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-
+					AEL_CRA_Alaitoc_ruler
 				}
 			}
 		}

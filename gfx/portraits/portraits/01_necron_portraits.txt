@@ -1,7 +1,7 @@
 portrait_groups = {
-	cryptek = {
+	necron_cryptek = {
 		
-		default = 
+		default = NECRON_N_Vorekh
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = NECRON_Cryptek_ruler

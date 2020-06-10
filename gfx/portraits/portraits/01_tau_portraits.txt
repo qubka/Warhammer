@@ -1,7 +1,7 @@
 portrait_groups = {
-	dalyth = {
+	tau_dalyth = {
 		
-		default = 
+		default = TAU_M_AunVA
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = TAU_Dalyth_ruler
@@ -11,7 +11,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}		
@@ -20,7 +21,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}
@@ -96,9 +98,9 @@ portrait_groups = {
 		}
 	}
 
-	farsight = {
+	tau_farsight = {
 		
-		default = 
+		default = TAU_M_AunVA
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = TAU_Farsight_ruler
@@ -108,7 +110,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}		
@@ -117,7 +120,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}
@@ -193,9 +197,9 @@ portrait_groups = {
 		}
 	}
 
-	sacea = {
+	tau_sacea = {
 		
-		default = 
+		default = TAU_M_AunVA
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = TAU_Sacea_ruler
@@ -205,7 +209,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}		
@@ -214,7 +219,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}
@@ -290,9 +296,9 @@ portrait_groups = {
 		}
 	}
 
-	tau = {
+	tau_tau = {
 		
-		default = 
+		default = TAU_P_Shadowsun
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = TAU_Tau_ruler
@@ -302,7 +308,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}		
@@ -311,7 +318,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}
@@ -377,7 +385,7 @@ portrait_groups = {
 		ruler = {
 			add = {
 				trigger = {
-					gender = male
+					gender = female
 				}
 				
 				portraits = {
@@ -387,9 +395,9 @@ portrait_groups = {
 		}
 	}
 
-	taun = {
+	tau_taun = {
 		
-		default = 
+		default = TAU_M_AunVA
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = TAU_Taun_ruler
@@ -399,7 +407,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}		
@@ -408,7 +417,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}
@@ -484,9 +494,9 @@ portrait_groups = {
 		}
 	}
 	
-	dyanoi =  = {
+	tau_dyanoi = {
 		
-		default = 
+		default = TAU_M_AunVA
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = TAU_Dyanoi_ruler
@@ -496,7 +506,8 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}		
@@ -505,7 +516,8 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-
+					humanoid_03_female_01
+					humanoid_03_male_01
 				}
 			}
 		}
