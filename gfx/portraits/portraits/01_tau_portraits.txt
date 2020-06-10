@@ -1,0 +1,583 @@
+portrait_groups = {
+	dalyth = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TAU_Dalyth_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TAU_Dalyth_Admiral_01
+					TAU_Dalyth_Admiral_02
+					TAU_Dalyth_Admiral_03
+					TAU_Dalyth_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TAU_Dalyth_Admiral_01
+					TAU_Dalyth_Admiral_02
+					TAU_Dalyth_Admiral_03
+					TAU_Dalyth_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TAU_Dalyth_Admiral_01
+					TAU_Dalyth_Admiral_02
+					TAU_Dalyth_Admiral_03
+					TAU_Dalyth_Admiral_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TAU_Dalyth_Admiral_01
+					TAU_Dalyth_Admiral_02
+					TAU_Dalyth_Admiral_03
+					TAU_Dalyth_Admiral_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TAU_Dalyth_ruler
+				}
+			}
+		}
+	}
+
+	farsight = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TAU_Farsight_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TAU_Farsight_Admiral_01
+					TAU_Farsight_Admiral_02
+					TAU_Farsight_Admiral_03
+					TAU_Farsight_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TAU_Farsight_Admiral_01
+					TAU_Farsight_Admiral_02
+					TAU_Farsight_Admiral_03
+					TAU_Farsight_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TAU_Farsight_Admiral_01
+					TAU_Farsight_Admiral_02
+					TAU_Farsight_Admiral_03
+					TAU_Farsight_Admiral_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TAU_Farsight_Admiral_01
+					TAU_Farsight_Admiral_02
+					TAU_Farsight_Admiral_03
+					TAU_Farsight_Admiral_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TAU_Farsight_ruler
+				}
+			}
+		}
+	}
+
+	sacea = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TAU_Sacea_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TAU_Sacea_Admiral_01
+					TAU_Sacea_Admiral_02
+					TAU_Sacea_Admiral_03
+					TAU_Sacea_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TAU_Sacea_Admiral_01
+					TAU_Sacea_Admiral_02
+					TAU_Sacea_Admiral_03
+					TAU_Sacea_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TAU_Sacea_Admiral_01
+					TAU_Sacea_Admiral_02
+					TAU_Sacea_Admiral_03
+					TAU_Sacea_Admiral_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TAU_Sacea_Admiral_01
+					TAU_Sacea_Admiral_02
+					TAU_Sacea_Admiral_03
+					TAU_Sacea_Admiral_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TAU_Sacea_ruler
+				}
+			}
+		}
+	}
+
+	tau = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TAU_Tau_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TAU_Tau_Admiral_01
+					TAU_Tau_Admiral_02
+					TAU_Tau_Admiral_03
+					TAU_Tau_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TAU_Tau_Admiral_01
+					TAU_Tau_Admiral_02
+					TAU_Tau_Admiral_03
+					TAU_Tau_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TAU_Tau_Admiral_01
+					TAU_Tau_Admiral_02
+					TAU_Tau_Admiral_03
+					TAU_Tau_Admiral_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TAU_Tau_Admiral_01
+					TAU_Tau_Admiral_02
+					TAU_Tau_Admiral_03
+					TAU_Tau_Admiral_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TAU_Tau_ruler
+				}
+			}
+		}
+	}
+
+	taun = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TAU_Taun_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TAU_Taun_Admiral_01
+					TAU_Taun_Admiral_02
+					TAU_Taun_Admiral_03
+					TAU_Taun_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TAU_Taun_Admiral_01
+					TAU_Taun_Admiral_02
+					TAU_Taun_Admiral_03
+					TAU_Taun_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TAU_Taun_Admiral_01
+					TAU_Taun_Admiral_02
+					TAU_Taun_Admiral_03
+					TAU_Taun_Admiral_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TAU_Taun_Admiral_01
+					TAU_Taun_Admiral_02
+					TAU_Taun_Admiral_03
+					TAU_Taun_Admiral_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TAU_Taun_ruler
+				}
+			}
+		}
+	}
+	
+	dyanoi =  = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TAU_Dyanoi_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TAU_Dyanoi_Admiral_01
+					TAU_Dyanoi_Admiral_02
+					TAU_Dyanoi_Admiral_03
+					TAU_Dyanoi_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TAU_Dyanoi_Admiral_01
+					TAU_Dyanoi_Admiral_02
+					TAU_Dyanoi_Admiral_03
+					TAU_Dyanoi_Admiral_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TAU_Dyanoi_Admiral_01
+					TAU_Dyanoi_Admiral_02
+					TAU_Dyanoi_Admiral_03
+					TAU_Dyanoi_Admiral_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TAU_Dyanoi_Admiral_01
+					TAU_Dyanoi_Admiral_02
+					TAU_Dyanoi_Admiral_03
+					TAU_Dyanoi_Admiral_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TAU_Dyanoi_ruler
+				}
+			}
+		}
+	}
+}

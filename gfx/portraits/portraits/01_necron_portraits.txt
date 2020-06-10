@@ -1,0 +1,150 @@
+portrait_groups = {
+	cryptek = {
+		
+		default = 
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = NECRON_Cryptek_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					NECRON_Overlord_01_nobg
+					NECRON_Overlord_02_nobg
+					NECRON_Overlord_03_nobg
+					NECRON_Overlord_05_nobg
+					NECRON_Overlord_08_nobg
+					NECRON_Overlord_09_nobg
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					NECRON_Overlord_01_nobg
+					NECRON_Overlord_02_nobg
+					NECRON_Overlord_03_nobg
+					NECRON_Overlord_05_nobg
+					NECRON_Overlord_08_nobg
+					NECRON_Overlord_09_nobg
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					NECRON_N_Vorekh
+					NECRON_N_ZaaOfTomorrow
+					NECRON_N_AmarkhunTheGatherer
+					NECRON_N_AnakalethTheWise
+					NECRON_N_Anrakyr
+					NECRON_N_Cleorekh
+					NECRON_N_KephrekhTheUnbroken
+					NECRON_N_TrazynTheInfinite
+					NECRON_Overlord_01
+					NECRON_Overlord_02
+					NECRON_Overlord_03
+					NECRON_Overlord_04
+					NECRON_Overlord_05
+					NECRON_Overlord_06
+					NECRON_Overlord_07
+					NECRON_Overlord_08
+					NECRON_Overlord_09
+					NECRON_Overlord_10
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					NECRON_Cryptek_01
+					NECRON_Cryptek_02
+					NECRON_Cryptek_03
+					NECRON_Cryptek_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					NECRON_N_Vorekh
+					NECRON_N_ZaaOfTomorrow
+					NECRON_N_AmarkhunTheGatherer
+					NECRON_N_AnakalethTheWise
+					NECRON_N_Anrakyr
+					NECRON_N_Cleorekh
+					NECRON_N_KephrekhTheUnbroken
+					NECRON_N_TrazynTheInfinite
+					NECRON_Overlord_01
+					NECRON_Overlord_02
+					NECRON_Overlord_03
+					NECRON_Overlord_04
+					NECRON_Overlord_05
+					NECRON_Overlord_06
+					NECRON_Overlord_07
+					NECRON_Overlord_08
+					NECRON_Overlord_09
+					NECRON_Overlord_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					NECRON_N_Vorekh
+					NECRON_N_ZaaOfTomorrow
+					NECRON_N_AmarkhunTheGatherer
+					NECRON_N_AnakalethTheWise
+					NECRON_N_Anrakyr
+					NECRON_N_Cleorekh
+					NECRON_N_KephrekhTheUnbroken
+					NECRON_N_TrazynTheInfinite
+					NECRON_Overlord_01
+					NECRON_Overlord_02
+					NECRON_Overlord_03
+					NECRON_Overlord_04
+					NECRON_Overlord_05
+					NECRON_Overlord_06
+					NECRON_Overlord_07
+					NECRON_Overlord_08
+					NECRON_Overlord_09
+					NECRON_Overlord_10
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					NECRON_Cryptek_ruler
+				}
+			}
+		}
+	}
+}

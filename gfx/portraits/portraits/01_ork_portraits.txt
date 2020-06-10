@@ -1,0 +1,660 @@
+portrait_groups = {
+	goff = {
+		
+		default = ORK_N_Gazghull
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_Goff_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_N_Gazghull
+					ORK_Goff_BigBoss_01
+					ORK_Goff_BigBoss_02
+					ORK_Goff_BigBoss_03
+					ORK_Goff_BigBoss_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_N_Gazghull
+					ORK_Goff_BigBoss_01
+					ORK_Goff_BigBoss_02
+					ORK_Goff_BigBoss_03
+					ORK_Goff_BigBoss_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_Goff_ruler
+				}
+			}
+		}
+	}
+
+	evil_sunz = {
+		
+		default = ORK_EvilSunz_BigBoss_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_EvilSunz_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_EvilSunz_BigBoss_01
+					ORK_EvilSunz_BigBoss_02
+					ORK_EvilSunz_BigBoss_03
+					ORK_EvilSunz_BigBoss_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_EvilSunz_BigBoss_01
+					ORK_EvilSunz_BigBoss_02
+					ORK_EvilSunz_BigBoss_03
+					ORK_EvilSunz_BigBoss_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_EvilSunz_ruler
+				}
+			}
+		}
+	}
+
+	death_skullz = {
+		
+		default = ORK_DeathSkullz_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_DeathSkullz_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_DeathSkullz_01
+					ORK_DeathSkullz_02
+					ORK_DeathSkullz_03
+					ORK_DeathSkullz_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_DeathSkullz_01
+					ORK_DeathSkullz_02
+					ORK_DeathSkullz_03
+					ORK_DeathSkullz_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_DeathSkullz_ruler
+				}
+			}
+		}
+	}
+
+	blood_axe = {
+		
+		default = ORK_BloodAxe_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_BloodAxe_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_BloodAxe_01
+					ORK_BloodAxe_02
+					ORK_BloodAxe_03
+					ORK_BloodAxe_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_BloodAxe_01
+					ORK_BloodAxe_02
+					ORK_BloodAxe_03
+					ORK_BloodAxe_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_BloodAxe_ruler
+				}
+			}
+		}
+	}
+
+	big_mek = {
+		
+		default = ORK_N_Firestarta
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_BigMek_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_N_Firestarta
+					ORK_BigMek_01
+					ORK_BigMek_02
+					ORK_BigMek_03
+					ORK_BigMek_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_N_Firestarta
+					ORK_BigMek_01
+					ORK_BigMek_02
+					ORK_BigMek_03
+					ORK_BigMek_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_BigMek_ruler
+				}
+			}
+		}
+	}
+
+	big_boss = {
+		
+		default = ORK_N_GoreSpitta
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_BigBoss_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_N_GoreSpitta
+					ORK_BigBoss_01
+					ORK_BigBoss_02
+					ORK_BigBoss_03
+					ORK_BigBoss_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_N_GoreSpitta
+					ORK_BigBoss_01
+					ORK_BigBoss_02
+					ORK_BigBoss_03
+					ORK_BigBoss_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_BigBoss_ruler
+				}
+			}
+		}
+	}
+
+	bad_moons = {
+		
+		default = ORK_N_GoldToof
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = ORK_BigMoons_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					ORK_N_GoldToof
+					ORK_BadMoonz_BigBoss_01
+					ORK_BadMoonz_BigBoss_02
+					ORK_BadMoonz_BigBoss_03
+					ORK_BadMoonz_BigBoss_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					ORK_N_Wazrok
+					ORK_N_BlitzRippa
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					ORK_N_KaptainRazgob
+					ORK_N_MadGrowla
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					ORK_N_GoldToof
+					ORK_BadMoonz_BigBoss_01
+					ORK_BadMoonz_BigBoss_02
+					ORK_BadMoonz_BigBoss_03
+					ORK_BadMoonz_BigBoss_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					ORK_BigMoons_ruler
+				}
+			}
+		}
+	}
+}

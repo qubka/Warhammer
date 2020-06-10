@@ -40,15 +40,54 @@ portraits = {
 	ORK_BigMek_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigMek_ruler.dds" }
 	ORK_BigMoons_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BigMoons_ruler.dds" }
 	ORK_BloodAxe_ruler = { texturefile = "gfx/portraits/warhammer/ORK_BloodAxe_ruler.dds" }
+	ORK_DeathSkullz_ruler = { texturefile = "gfx/portraits/warhammer/ORK_DeathSkullz_ruler.dds" }
 	ORK_EvilSunz_ruler = { texturefile = "gfx/portraits/warhammer/ORK_EvilSunz_ruler.dds" }
 	ORK_Goff_ruler = { texturefile = "gfx/portraits/warhammer/ORK_Goff_ruler.dds" }
 	
+	# ELD
+	AEL_COR_Ynnari_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Ynnari_ruler.dds" }
+	AEL_COR_Ulthwe_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Ulthwe_ruler.dds" }
+	AEL_COR_SaimHann_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_SaimHann_ruler.dds" }
+	AEL_COR_Ostara_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Ostara_ruler.dds" }
+	AEL_COR_Iyanden_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Iyanden_ruler.dds" }
+	AEL_COR_BielTan_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_BielTan_ruler.dds" }
+	AEL_COR_Alaitoc_ruler = { texturefile = "gfx/portraits/warhammer/AEL_COR_Alaitoc_ruler.dds" }
+	
+	# DEL
+	AEL_DRU_Ynnari_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_Ynnari_ruler.dds" }
+	AEL_DRU_TheSevered_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_TheSevered_ruler.dds" }
+	AEL_DRU_LastHatred_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_LastHatred_ruler.dds" }
+	AEL_DRU_IronThorn_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_IronThorn_ruler.dds" }
+	AEL_DRU_FlayedSkull_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_FlayedSkull_ruler.dds" }
+	AEL_DRU_DyingSun_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_DyingSun_ruler.dds" }
+	AEL_DRU_BrokenSigil_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_BrokenSigil_ruler.dds" }
+	AEL_DRU_BlackHeart_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_BlackHeart_ruler.dds" }
+	
+	# TYR
+	TYR_Behemoth_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Behemoth_ruler.dds" }
+	TYR_Gorgon_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Gorgon_ruler.dds" }
+	TYR_Hydra_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Hydra_ruler.dds" }
+	TYR_Jormungandr_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Jormungandr_ruler.dds" }
+	TYR_Kraken_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Kraken_ruler.dds" }
+	TYR_Leviathan_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Leviathan_ruler.dds" }
+	TYR_Ouroboris_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Ouroboris_ruler.dds" }
+	TYR_Tiamet_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Tiamet_ruler.dds" }
+	
 	# NEC
-	NECRON_Cryptek_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Cryptek_ruler.dds" }
 	NECRON_Cryptek_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Cryptek_ruler.dds" }
 	
 	####################################
-	# Battlefleet gothic: Armada 2
+	# Pop Arts
+	####################################
+	
+	# ORK
+	#ORC_Pop1 = { texturefile = "gfx/portraits/warhammer/pop/ork1.dds" }
+	#ORC_Pop2 = { texturefile = "gfx/portraits/warhammer/pop/ork2.dds" }
+	#ORC_Pop3 = { texturefile = "gfx/portraits/warhammer/pop/ork3.dds" }
+	#ORC_Pop4 = { texturefile = "gfx/portraits/warhammer/pop/ork4.dds" }
+	
+	####################################
+	# Battlefleet gothic: Armada 2 Arts
 	####################################
 	AEL_COR_EldritchRaiders_01 = { texturefile = "gfx/portraits/armada/AEL_COR_EldritchRaiders_01.dds" }
 	AEL_COR_EldritchRaiders_02 = { texturefile = "gfx/portraits/armada/AEL_COR_EldritchRaiders_02.dds" }
@@ -395,6 +434,12 @@ portraits = {
 	NECRON_Overlord_08 = { texturefile = "gfx/portraits/armada/NECRON_Overlord_08.dds" }
 	NECRON_Overlord_09 = { texturefile = "gfx/portraits/armada/NECRON_Overlord_09.dds" }
 	NECRON_Overlord_10 = { texturefile = "gfx/portraits/armada/NECRON_Overlord_10.dds" }
+	NECRON_Overlord_01_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_01_nobg.dds" }
+	NECRON_Overlord_02_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_02_nobg.dds" }
+	NECRON_Overlord_03_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_03_nobg.dds" }
+	NECRON_Overlord_05_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_05_nobg.dds" }
+	NECRON_Overlord_08_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_08_nobg.dds" }
+	NECRON_Overlord_09_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_09_nobg.dds" }
 	ORK_BadMoonz_BigBoss_01 = { texturefile = "gfx/portraits/armada/ORK_BadMoonz_BigBoss_01.dds" }
 	ORK_BadMoonz_BigBoss_02 = { texturefile = "gfx/portraits/armada/ORK_BadMoonz_BigBoss_02.dds" }
 	ORK_BadMoonz_BigBoss_03 = { texturefile = "gfx/portraits/armada/ORK_BadMoonz_BigBoss_03.dds" }

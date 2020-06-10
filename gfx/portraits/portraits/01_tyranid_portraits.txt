@@ -1,0 +1,793 @@
+portrait_groups = {
+	behemoth = {
+		
+		default = TYR_Behemoth_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Behemoth_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Behemoth_01
+					TYR_Behemoth_02
+					TYR_Behemoth_03
+					TYR_Behemoth_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Behemoth_01
+					TYR_Behemoth_02
+					TYR_Behemoth_03
+					TYR_Behemoth_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Behemoth_01
+					TYR_Behemoth_02
+					TYR_Behemoth_03
+					TYR_Behemoth_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Behemoth_01
+					TYR_Behemoth_02
+					TYR_Behemoth_03
+					TYR_Behemoth_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Behemoth_ruler
+				}
+			}
+		}
+	}
+
+	gorgon = {
+		
+		default = TYR_Gorgon_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Gordon_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Gorgon_01
+					TYR_Gorgon_02
+					TYR_Gorgon_03
+					TYR_Gorgon_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Gorgon_01
+					TYR_Gorgon_02
+					TYR_Gorgon_03
+					TYR_Gorgon_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Gorgon_01
+					TYR_Gorgon_02
+					TYR_Gorgon_03
+					TYR_Gorgon_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Gorgon_01
+					TYR_Gorgon_02
+					TYR_Gorgon_03
+					TYR_Gorgon_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Gordon_ruler
+				}
+			}
+		}
+	}
+
+	hydra = {
+		
+		default = TYR_Hydra_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Hydra_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Hydra_01
+					TYR_Hydra_02
+					TYR_Hydra_03
+					TYR_Hydra_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Hydra_01
+					TYR_Hydra_02
+					TYR_Hydra_03
+					TYR_Hydra_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Hydra_01
+					TYR_Hydra_02
+					TYR_Hydra_03
+					TYR_Hydra_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Hydra_01
+					TYR_Hydra_02
+					TYR_Hydra_03
+					TYR_Hydra_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Hydra_ruler
+				}
+			}
+		}
+	}
+
+	jormungandr = {
+		
+		default = TYR_Jormungandr_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Jormungandr_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Jormungandr_01
+					TYR_Jormungandr_02
+					TYR_Jormungandr_03
+					TYR_Jormungandr_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Jormungandr_01
+					TYR_Jormungandr_02
+					TYR_Jormungandr_03
+					TYR_Jormungandr_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Jormungandr_01
+					TYR_Jormungandr_02
+					TYR_Jormungandr_03
+					TYR_Jormungandr_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Jormungandr_01
+					TYR_Jormungandr_02
+					TYR_Jormungandr_03
+					TYR_Jormungandr_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Jormungandr_ruler
+				}
+			}
+		}
+	}
+
+	kraken = {
+		
+		default = TYR_Kraken_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = 
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					TYR_Kraken_ruler
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Kraken_01
+					TYR_Kraken_02
+					TYR_Kraken_03
+					TYR_Kraken_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Kraken_01
+					TYR_Kraken_02
+					TYR_Kraken_03
+					TYR_Kraken_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Kraken_01
+					TYR_Kraken_02
+					TYR_Kraken_03
+					TYR_Kraken_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Kraken_01
+					TYR_Kraken_02
+					TYR_Kraken_03
+					TYR_Kraken_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Kraken_ruler
+				}
+			}
+		}
+	}
+
+	leviathan = {
+		
+		default = TYR_Leviathan_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Leviathan_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Leviathan_01
+					TYR_Leviathan_02
+					TYR_Leviathan_03
+					TYR_Leviathan_04
+					TYR_Leviathan_05
+					TYR_Leviathan_06
+					TYR_Leviathan_07
+					TYR_Leviathan_08
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Leviathan_01
+					TYR_Leviathan_02
+					TYR_Leviathan_03
+					TYR_Leviathan_04
+					TYR_Leviathan_05
+					TYR_Leviathan_06
+					TYR_Leviathan_07
+					TYR_Leviathan_08
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Leviathan_01
+					TYR_Leviathan_02
+					TYR_Leviathan_03
+					TYR_Leviathan_04
+					TYR_Leviathan_05
+					TYR_Leviathan_06
+					TYR_Leviathan_07
+					TYR_Leviathan_08
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Leviathan_01
+					TYR_Leviathan_02
+					TYR_Leviathan_03
+					TYR_Leviathan_04
+					TYR_Leviathan_05
+					TYR_Leviathan_06
+					TYR_Leviathan_07
+					TYR_Leviathan_08
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Leviathan_ruler
+				}
+			}
+		}
+	}
+
+	ouroboris = {
+		
+		default = TYR_Ouroboris_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Ouroboris_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Ouroboris_01
+					TYR_Ouroboris_02
+					TYR_Ouroboris_03
+					TYR_Ouroboris_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Ouroboris_01
+					TYR_Ouroboris_02
+					TYR_Ouroboris_03
+					TYR_Ouroboris_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Ouroboris_01
+					TYR_Ouroboris_02
+					TYR_Ouroboris_03
+					TYR_Ouroboris_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Ouroboris_01
+					TYR_Ouroboris_02
+					TYR_Ouroboris_03
+					TYR_Ouroboris_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Ouroboris_ruler
+				}
+			}
+		}
+	}
+	
+	tiamet = {
+		
+		default = TYR_Tiamet_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = TYR_Tiamet_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					TYR_Tiamet_01
+					TYR_Tiamet_02
+					TYR_Tiamet_03
+					TYR_Tiamet_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					TYR_Tiamet_01
+					TYR_Tiamet_02
+					TYR_Tiamet_03
+					TYR_Tiamet_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					TYR_Tiamet_01
+					TYR_Tiamet_02
+					TYR_Tiamet_03
+					TYR_Tiamet_04
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					TYR_Tiamet_01
+					TYR_Tiamet_02
+					TYR_Tiamet_03
+					TYR_Tiamet_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					TYR_Tiamet_ruler
+				}
+			}
+		}
+	}
+}
