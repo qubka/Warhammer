@@ -273,7 +273,7 @@ ORK = {
 TYR = {
 	behemoth = {
 		name = "Behemoth"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -281,7 +281,7 @@ TYR = {
 	
 	gorgon = {
 		name = "Gorgon"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -289,7 +289,7 @@ TYR = {
 	
 	hydra = {
 		name = "Hydra"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -297,7 +297,7 @@ TYR = {
 	
 	jormungandr = {
 		name = "Jormungandr"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -305,7 +305,7 @@ TYR = {
 	
 	kraken = {
 		name = "Kraken"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -313,7 +313,7 @@ TYR = {
 	
 	leviathan = {
 		name = "Leviathan"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -321,7 +321,7 @@ TYR = {
 	
 	ouroboris = {
 		name = "Ouroboris"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"
@@ -329,7 +329,7 @@ TYR = {
 	
 	alaitoc = {
 		name = "Alaitoc"
-		plural = "Tyranides"
+		plural = "Tyranids"
 		home_planet = Terra
 		home_system = Sol
 		name_list = "TYRANID1"

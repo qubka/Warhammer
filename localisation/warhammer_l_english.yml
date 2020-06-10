@@ -39,7 +39,12 @@ l_english:
  ####################################
  FLAG_CATEGORY_factions:0 "Factions"
  FLAG_CATEGORY_legions:0 "Legions"
- FLAG_CATEGORY_misc:0 "40l Miscellaneous"
+ FLAG_CATEGORY_tyranid:0 "Tyranid"
+ FLAG_CATEGORY_darkeldar:0 "Dark Eldar"
+ FLAG_CATEGORY_eldar:0 "Eldar"
+ FLAG_CATEGORY_ork:0 "Ork"
+ FLAG_CATEGORY_tau:0 "Tau"
+ FLAG_CATEGORY_misc:0 "40k"
  
  ####################################
  # Countries
