@@ -1,0 +1,58 @@
+#############
+# Warhammer buildings
+#############
+
+building_daemon_pit = { 
+	base_buildtime = @b1_time
+
+	category = unity
+
+	potential = {
+		exists = owner
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+
+	planet_modifier = {
+		job_priest_add = @b3_jobs
+		pop_ethic_spiritualist_attraction_mult = 0.15
+	}
+
+	resources = {
+		category = planet_buildings
+
+		cost = {
+			minerals = @b1_minerals
+		}
+		produces = {
+			unity = 10
+			energy = 20
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			#OR = {
+			#	is_planet_class = pc_habitat
+			#	is_planet_class = pc_habitat
+			#	is_planet_class = pc_habitat
+			#}
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 10
+				}
+			}
+		}
+	}
+}

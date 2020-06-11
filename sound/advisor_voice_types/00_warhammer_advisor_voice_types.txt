@@ -1,0 +1,42 @@
+# The name of the advisor VO type must match the VO sound group.
+# The type with the highest weight that is larger than 0 fulfills the possible trigger will be chosen.
+# If there are ties, the first one scripted in this file wins.
+# The order of the voice types in this file also defines the order of the voice types in the selection UI.
+#
+# soundgroup = {		# much match the name of a sound group
+#	name = "KEY"			# localization key for display name. default: key of this advisor voice type
+#	icon = "icon.dds"		# path to displayed icon, no icon if empty. default: empty
+#
+#	playable = {}			# trigger to make voice type available, no scope. default: { always = yes }
+#
+#	weight = {}				# scripted weight, supporting add and factor, trigger scope this=country. default: { base = 0 }
+# }
+
+l_ork = {
+	name = "ethic_ork"
+    icon = "gfx/interface/icons/ethics/ethic_ork.dds"
+
+	weight = {
+		base = 0
+		modifier = {
+			add = 9999
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+l_imp = {
+	name = "ethic_imp"
+	icon = "gfx/interface/icons/ethics/ethic_imp.dds"
+
+	weight = {
+		base = 0
+		modifier = {
+			add = 9999
+			OR = { 
+				has_country_flag = human_empire
+				has_country_flag = chaos_empire
+			}
+		}
+	}
+}

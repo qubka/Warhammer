@@ -26,7 +26,7 @@ behemoth = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_behemoth }
+	flags = { tyranid_empire the_behemoth }
 	planet_name = "PRESCRIPTED_planet_name_behemoth"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_behemoth"
@@ -90,7 +90,7 @@ gorgon = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_gorgon }
+	flags = { tyranid_empire the_gorgon }
 	planet_name = "PRESCRIPTED_planet_name_gorgon"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_gorgon"
@@ -154,7 +154,7 @@ hydra = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_hydra }
+	flags = { tyranid_empire the_hydra }
 	planet_name = "PRESCRIPTED_planet_name_hydra"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_hydra"
@@ -218,7 +218,7 @@ jormungandr = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_jormungandr }
+	flags = { tyranid_empire the_jormungandr }
 	planet_name = "PRESCRIPTED_planet_name_jormungandr"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_jormungandr"
@@ -282,7 +282,7 @@ kraken = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_kraken }
+	flags = { tyranid_empire the_kraken }
 	planet_name = "PRESCRIPTED_planet_name_kraken"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_kraken"
@@ -346,7 +346,7 @@ leviathan = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_leviathan }
+	flags = { tyranid_empire the_leviathan }
 	planet_name = "PRESCRIPTED_planet_name_leviathan"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_leviathan"
@@ -410,7 +410,7 @@ ouroboris = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_ouroboris }
+	flags = { tyranid_empire the_ouroboris }
 	planet_name = "PRESCRIPTED_planet_name_ouroboris"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_ouroboris"
@@ -474,7 +474,7 @@ tiamet = {
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_tiamet }
+	flags = { tyranid_empire the_tiamet }
 	planet_name = "PRESCRIPTED_planet_name_tiamet"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_tiamet"
