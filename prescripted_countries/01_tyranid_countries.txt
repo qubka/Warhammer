@@ -18,7 +18,7 @@ behemoth = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -32,7 +32,7 @@ behemoth = {
 	system_name = "PRESCRIPTED_system_name_behemoth"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -82,7 +82,7 @@ gorgon = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -96,7 +96,7 @@ gorgon = {
 	system_name = "PRESCRIPTED_system_name_gorgon"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -146,7 +146,7 @@ hydra = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -160,7 +160,7 @@ hydra = {
 	system_name = "PRESCRIPTED_system_name_hydra"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -210,7 +210,7 @@ jormungandr = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -224,7 +224,7 @@ jormungandr = {
 	system_name = "PRESCRIPTED_system_name_jormungandr"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -274,7 +274,7 @@ kraken = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -288,7 +288,7 @@ kraken = {
 	system_name = "PRESCRIPTED_system_name_kraken"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -338,7 +338,7 @@ leviathan = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -352,7 +352,7 @@ leviathan = {
 	system_name = "PRESCRIPTED_system_name_leviathan"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -402,7 +402,7 @@ ouroboris = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -416,7 +416,7 @@ ouroboris = {
 	system_name = "PRESCRIPTED_system_name_ouroboris"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {
@@ -466,7 +466,7 @@ tiamet = {
 		trait = "trait_fleeting"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "swarm_room"
 
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
@@ -480,7 +480,7 @@ tiamet = {
 	system_name = "PRESCRIPTED_system_name_tiamet"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
 		icon = {

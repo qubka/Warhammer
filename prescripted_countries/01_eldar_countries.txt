@@ -18,7 +18,7 @@ ynnari = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -34,7 +34,7 @@ ynnari = {
 	system_name = "PRESCRIPTED_system_name_ynnari"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {
@@ -84,7 +84,7 @@ ulthwe = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -100,7 +100,7 @@ ulthwe = {
 	system_name = "PRESCRIPTED_system_name_ulthwe"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {
@@ -150,7 +150,7 @@ saim_hann = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -166,7 +166,7 @@ saim_hann = {
 	system_name = "PRESCRIPTED_system_name_saim_hann"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {
@@ -216,7 +216,7 @@ ostara = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -232,7 +232,7 @@ ostara = {
 	system_name = "PRESCRIPTED_system_name_ostara"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {
@@ -282,7 +282,7 @@ iyanden = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -298,7 +298,7 @@ iyanden = {
 	system_name = "PRESCRIPTED_system_name_iyanden"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {
@@ -348,7 +348,7 @@ biel_tan = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -364,7 +364,7 @@ biel_tan = {
 	system_name = "PRESCRIPTED_system_name_biel_tan"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {
@@ -414,7 +414,7 @@ alaitoc = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_cyan_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -430,7 +430,7 @@ alaitoc = {
 	system_name = "PRESCRIPTED_system_name_alaitoc"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
 		icon = {

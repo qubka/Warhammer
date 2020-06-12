@@ -17,7 +17,7 @@ goff = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -32,7 +32,7 @@ goff = {
 	system_name = "PRESCRIPTED_system_name_goff"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {
@@ -81,7 +81,7 @@ evil_sunz = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -96,7 +96,7 @@ evil_sunz = {
 	system_name = "PRESCRIPTED_system_name_evil_sunz"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {
@@ -145,7 +145,7 @@ death_skullz = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -160,7 +160,7 @@ death_skullz = {
 	system_name = "PRESCRIPTED_system_name_death_skullz"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {
@@ -209,7 +209,7 @@ blood_axe = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -224,7 +224,7 @@ blood_axe = {
 	system_name = "PRESCRIPTED_system_name_blood_axe"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {
@@ -273,7 +273,7 @@ big_mek = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -288,7 +288,7 @@ big_mek = {
 	system_name = "PRESCRIPTED_system_name_big_mek"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {
@@ -337,7 +337,7 @@ big_boss = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -352,7 +352,7 @@ big_boss = {
 	system_name = "PRESCRIPTED_system_name_big_boss"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {
@@ -401,7 +401,7 @@ bad_moons = {
 		trait = "trait_adaptive"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_green_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_warrior_culture" "civic_police_state" }
@@ -416,7 +416,7 @@ bad_moons = {
 	system_name = "PRESCRIPTED_system_name_bad_moons"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
 		icon = {

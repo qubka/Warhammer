@@ -19,7 +19,7 @@ cryptek = {
 		trait = "trait_robot_bulky"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_machine_room"
 	
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
@@ -33,7 +33,7 @@ cryptek = {
 	system_name = "PRESCRIPTED_system_name_cryptek"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
 	
 	empire_flag = {
 		icon = {

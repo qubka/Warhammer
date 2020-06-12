@@ -18,7 +18,7 @@ alpha_legion = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -34,7 +34,7 @@ alpha_legion = {
 	system_name = "PRESCRIPTED_system_name_alpha_legion"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -84,7 +84,7 @@ black_legion = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -100,7 +100,7 @@ black_legion = {
 	system_name = "PRESCRIPTED_system_name_black_legion"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -150,7 +150,7 @@ death_guard = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -166,7 +166,7 @@ death_guard = {
 	system_name = "PRESCRIPTED_system_name_death_guard"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -216,7 +216,7 @@ emperor_children = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -232,7 +232,7 @@ emperor_children = {
 	system_name = "PRESCRIPTED_system_name_emperor_children"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -282,7 +282,7 @@ iron_warrior = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -298,7 +298,7 @@ iron_warrior = {
 	system_name = "PRESCRIPTED_system_name_iron_warrior"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -348,7 +348,7 @@ night_lords = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -364,7 +364,7 @@ night_lords = {
 	system_name = "PRESCRIPTED_system_name_night_lords"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -414,7 +414,7 @@ red_corsair = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -430,7 +430,7 @@ red_corsair = {
 	system_name = "PRESCRIPTED_system_name_red_corsair"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -480,7 +480,7 @@ thousand_sons = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -496,7 +496,7 @@ thousand_sons = {
 	system_name = "PRESCRIPTED_system_name_thousand_sons"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -546,7 +546,7 @@ word_bearer = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -562,7 +562,7 @@ word_bearer = {
 	system_name = "PRESCRIPTED_system_name_word_bearer"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {
@@ -612,7 +612,7 @@ world_eater = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "extradimensional_orange_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_philosopher_king" "civic_warrior_culture" }
@@ -628,7 +628,7 @@ world_eater = {
 	system_name = "PRESCRIPTED_system_name_world_eater"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_04"
 	
 	empire_flag = {
 		icon = {

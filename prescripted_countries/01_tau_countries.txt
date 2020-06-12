@@ -18,7 +18,7 @@ dalyth = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_blue_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -34,7 +34,7 @@ dalyth = {
 	system_name = "PRESCRIPTED_system_name_dalyth"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_03"
 
 	empire_flag = {
 		icon = {
@@ -84,7 +84,7 @@ farsight = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_blue_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -100,7 +100,7 @@ farsight = {
 	system_name = "PRESCRIPTED_system_name_farsight"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_03"
 
 	empire_flag = {
 		icon = {
@@ -150,7 +150,7 @@ sacea = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_blue_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -166,7 +166,7 @@ sacea = {
 	system_name = "PRESCRIPTED_system_name_sacea"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_03"
 
 	empire_flag = {
 		icon = {
@@ -216,7 +216,7 @@ tau = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_blue_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -232,7 +232,7 @@ tau = {
 	system_name = "PRESCRIPTED_system_name_tau"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_03"
 
 	empire_flag = {
 		icon = {
@@ -282,7 +282,7 @@ taun = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_blue_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -298,7 +298,7 @@ taun = {
 	system_name = "PRESCRIPTED_system_name_taun"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_03"
 
 	empire_flag = {
 		icon = {
@@ -348,7 +348,7 @@ dyanoi = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_blue_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -364,7 +364,7 @@ dyanoi = {
 	system_name = "PRESCRIPTED_system_name_dyanoi"
 
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_empire_03"
 
 	empire_flag = {
 		icon = {

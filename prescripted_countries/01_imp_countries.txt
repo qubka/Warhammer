@@ -18,7 +18,7 @@ white_scars = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -84,7 +84,7 @@ ultra_marines = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -150,7 +150,7 @@ space_wolfes = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -216,7 +216,7 @@ salamanders = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -282,7 +282,7 @@ raven_guard = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -348,7 +348,7 @@ iron_hand = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -414,7 +414,7 @@ imperial_fist = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -480,7 +480,7 @@ dark_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -546,7 +546,7 @@ blood_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -612,7 +612,7 @@ mankind = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_slaving_despots_room"
+	room = "personality_fallen_empire_teal_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
