@@ -104,7 +104,7 @@ black_legion = {
 	
 	empire_flag = {
 		icon = {
-			category = "misc"
+			category = "legions"
 			file = "40k-black-legion.dds"
 		}
 		background = {

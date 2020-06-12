@@ -39,7 +39,7 @@ dark_ynnari = {
 	empire_flag = {
 		icon = {
 			category = "darkeldar"
-			file = "40k-ynnari.dds"
+			file = "40k-dark-ynnari.dds"
 		}
 		background = {
 			category = "backgrounds"
