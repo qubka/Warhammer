@@ -73,7 +73,7 @@
  ###
  PRESCRIPTED_adjective_dark_angles:0 "Human"
  PRESCRIPTED_ship_prefix_dark_angles:0 "DA"
- PRESCRIPTED_species_name_dark_angles:0 "Dark Angle"
+ PRESCRIPTED_species_name_blood_angles:0 "Dark Angel"
  PRESCRIPTED_species_plural_dark_angles:0 "Dark Angles"
  PRESCRIPTED_species_adjective_dark_angles:0 "Human"
  PRESCRIPTED_planet_name_dark_angles:0 "The Rock"
@@ -81,15 +81,7 @@
  PRESCRIPTED_ruler_name_dark_angles:0 "Lion El'Jonson"
  PRESCRIPTED_ruler_title_dark_angles:0 "Primarch"
  ###
- PRESCRIPTED_adjective_blood_angles:0 "Human"
- PRESCRIPTED_ship_prefix_blood_angles:0 "BA"
- PRESCRIPTED_species_name_blood_angles:0 "Blood Angle"
- PRESCRIPTED_species_plural_blood_angles:0 "Blood Angles"
- PRESCRIPTED_species_adjective_blood_angles:0 "Human"
- PRESCRIPTED_planet_name_blood_angles:0 "Ball"
- PRESCRIPTED_system_name_blood_angles:0 "Baal System"
- PRESCRIPTED_ruler_name_blood_angles:0 "Sanguinius"
- PRESCRIPTED_ruler_title_blood_angles:0 "Primarch"
+
  ###
  PRESCRIPTED_adjective_mankind:0 "Human"
  PRESCRIPTED_ship_prefix_mankind:0 "IM"
@@ -99,14 +91,14 @@
  PRESCRIPTED_planet_name_mankind:0 "Terra"
  PRESCRIPTED_system_name_mankind:0 "Sol System"
  PRESCRIPTED_ruler_name_mankind:0 "God-Emperor"
- PRESCRIPTED_ruler_title_mankind:0 "Emperor of Mankind"
+ PRESCRIPTED_ruler_title_mankind:0 "Master of Mankind"
  
  # CHA
  ###
  PRESCRIPTED_adjective_alpha_legion:0 "Alpha Legion"
  PRESCRIPTED_ship_prefix_alpha_legion:0 "AL"
- PRESCRIPTED_species_name_alpha_legion:0 "Alpha traitor"
- PRESCRIPTED_species_plural_alpha_legion:0 "Alpha traitors"
+ PRESCRIPTED_species_name_alpha_legion:0 "Chaos marine"
+ PRESCRIPTED_species_plural_alpha_legion:0 "Chaos marines"
  PRESCRIPTED_species_adjective_alpha_legion:0 "Alpha traitor"
  PRESCRIPTED_planet_name_alpha_legion:0 "Alpha"
  PRESCRIPTED_system_name_alpha_legion:0 "Anarchy's Heart"
@@ -115,8 +107,8 @@
  ###
  PRESCRIPTED_adjective_black_legion:0 "Black Legion"
  PRESCRIPTED_ship_prefix_black_legion:0 "BL"
- PRESCRIPTED_species_name_black_legion:0 "Black Legion traitor"
- PRESCRIPTED_species_plural_black_legion:0 "Black Legion traitors"
+ PRESCRIPTED_species_name_black_legion:0 "Chaos marine"
+ PRESCRIPTED_species_plural_black_legion:0 "Chaos marines"
  PRESCRIPTED_species_adjective_black_legion:0 "Black Legion traitor"
  PRESCRIPTED_planet_name_black_legion:0 "Cthonia"
  PRESCRIPTED_system_name_black_legion:0 "Cthonia System"
@@ -125,8 +117,8 @@
  ###
  PRESCRIPTED_adjective_death_guard:0 "Death Guard"
  PRESCRIPTED_ship_prefix_death_guard:0 "DG"
- PRESCRIPTED_species_name_death_guard:0 "Death Guard traitor"
- PRESCRIPTED_species_plural_death_guard:0 "Death Guard traitors"
+ PRESCRIPTED_species_name_death_guard:0 "Chaos marine"
+ PRESCRIPTED_species_plural_death_guard:0 "Chaos marines"
  PRESCRIPTED_species_adjective_death_guard:0 "Death Guard traitor"
  PRESCRIPTED_planet_name_death_guard:0 "Plague Planet"
  PRESCRIPTED_system_name_death_guard:0 "Plague System"
@@ -135,8 +127,8 @@
  ###
  PRESCRIPTED_adjective_alpha_emperor_children:0 "Emperor's Children"
  PRESCRIPTED_ship_prefix_alpha_emperor_children:0 "EC"
- PRESCRIPTED_species_name_alpha_emperor_children:0 "Emperor's Children traitor"
- PRESCRIPTED_species_plural_alpha_emperor_children:0 "Emperor's Children traitors"
+ PRESCRIPTED_species_name_alpha_emperor_children:0 "Chaos marine"
+ PRESCRIPTED_species_plural_alpha_emperor_children:0 "Chaos marines"
  PRESCRIPTED_species_adjective_alpha_emperor_children:0 "Emperor's Children traitor"
  PRESCRIPTED_planet_name_alpha_emperor_children:0 "Eye of Terror"
  PRESCRIPTED_system_name_alpha_emperor_children:0 "Eye of Terror"
@@ -145,8 +137,8 @@
  ###
  PRESCRIPTED_adjective_iron_warrior:0 "Iron Warrior"
  PRESCRIPTED_ship_prefix_iron_warrior:0 "IW"
- PRESCRIPTED_species_name_iron_warrior:0 "Iron Warrior traitor"
- PRESCRIPTED_species_plural_iron_warrior:0 "Iron Warrior traitors"
+ PRESCRIPTED_species_name_iron_warrior:0 "Chaos marine"
+ PRESCRIPTED_species_plural_iron_warrior:0 "Chaos marines"
  PRESCRIPTED_species_adjective_iron_warrior:0 "Iron Warrior traitor"
  PRESCRIPTED_planet_name_iron_warrior:0 "Medrengard"
  PRESCRIPTED_system_name_iron_warrior:0 "Medrengard System"
@@ -155,8 +147,8 @@
  ###
  PRESCRIPTED_adjective_night_lords:0 "Night Lords"
  PRESCRIPTED_ship_prefix_night_lords:0 "NL"
- PRESCRIPTED_species_name_night_lords:0 "Night Lords traitor"
- PRESCRIPTED_species_plural_night_lords:0 "Night Lords traitors"
+ PRESCRIPTED_species_name_night_lords:0 "Chaos marine"
+ PRESCRIPTED_species_plural_night_lords:0 "Chaos marine"
  PRESCRIPTED_species_adjective_night_lords:0 "Night Lords traitor"
  PRESCRIPTED_planet_name_night_lords:0 "Tsagualsa"
  PRESCRIPTED_system_name_night_lords:0 "Tsagualsa System"
@@ -165,8 +157,8 @@
  ###
  PRESCRIPTED_adjective_red_corsair:0 "Red Corsairs"
  PRESCRIPTED_ship_prefix_red_corsair:0 "RC"
- PRESCRIPTED_species_name_red_corsair:0 "Red Corsairs traitor"
- PRESCRIPTED_species_plural_red_corsair:0 "Red Corsairs traitors"
+ PRESCRIPTED_species_name_red_corsair:0 "Chaos marine"
+ PRESCRIPTED_species_plural_red_corsair:0 "Chaos marines"
  PRESCRIPTED_species_adjective_red_corsair:0 "Red Corsairs traitor"
  PRESCRIPTED_planet_name_red_corsair:0 "New Badab"
  PRESCRIPTED_system_name_red_corsair:0 "New Badab System"
@@ -175,8 +167,8 @@
  ###
  PRESCRIPTED_adjective_thousand_sons:0 "Thousand Sons"
  PRESCRIPTED_ship_prefix_thousand_sons:0 "TS"
- PRESCRIPTED_species_name_thousand_sons:0 "Thousand Sons traitor"
- PRESCRIPTED_species_plural_thousand_sons:0 "Thousand Sons traitors"
+ PRESCRIPTED_species_name_thousand_sons:0 "Chaos marine"
+ PRESCRIPTED_species_plural_thousand_sons:0 "Chaos marines"
  PRESCRIPTED_species_adjective_thousand_sons:0 "Thousand Sons traitor"
  PRESCRIPTED_planet_name_thousand_sons:0 "Sortiarius"
  PRESCRIPTED_system_name_thousand_sons:0 "Prospero System"
@@ -185,8 +177,8 @@
  ###
  PRESCRIPTED_adjective_word_bearer:0 "World Bearer"
  PRESCRIPTED_ship_prefix_word_bearer:0 "WB"
- PRESCRIPTED_species_name_word_bearer:0 "World Bearer traitor"
- PRESCRIPTED_species_plural_word_bearer:0 "World Bearer traitors"
+ PRESCRIPTED_species_name_word_bearer:0 "Chaos marine"
+ PRESCRIPTED_species_plural_word_bearer:0 "Chaos marines"
  PRESCRIPTED_species_adjective_word_bearer:0 "World Bearer traitor"
  PRESCRIPTED_planet_name_word_bearer:0 "Sicarus"
  PRESCRIPTED_system_name_word_bearer:0 "Sicarus System"
