@@ -1,7 +1,7 @@
 ynnari = {
 	name = "Ynnari"
 	adjective = "PRESCRIPTED_adjective_ynnari"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ynnari"
 
@@ -18,7 +18,7 @@ ynnari = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -30,7 +30,7 @@ ynnari = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_ynnari"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ynnari"
 
 	graphical_culture = "humanoid_01"
@@ -67,7 +67,7 @@ ynnari = {
 ulthwe = {
 	name = "Ulthwe"
 	adjective = "PRESCRIPTED_adjective_ulthwe"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ulthwe"
 
@@ -84,7 +84,7 @@ ulthwe = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -96,7 +96,7 @@ ulthwe = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_ulthwe }
 	planet_name = "PRESCRIPTED_planet_name_ulthwe"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ulthwe"
 
 	graphical_culture = "humanoid_01"
@@ -133,7 +133,7 @@ ulthwe = {
 saim_hann = {
 	name = "Saim Hann"
 	adjective = "PRESCRIPTED_adjective_saim_hann"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_saim_hann"
 
@@ -150,7 +150,7 @@ saim_hann = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -162,7 +162,7 @@ saim_hann = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_saim_hann }
 	planet_name = "PRESCRIPTED_planet_name_saim_hann"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_saim_hann"
 
 	graphical_culture = "humanoid_01"
@@ -199,7 +199,7 @@ saim_hann = {
 ostara = {
 	name = "Ostara"
 	adjective = "PRESCRIPTED_adjective_ostara"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ostara"
 
@@ -216,7 +216,7 @@ ostara = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -228,7 +228,7 @@ ostara = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_ostara }
 	planet_name = "PRESCRIPTED_planet_name_ostara"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ostara"
 
 	graphical_culture = "humanoid_01"
@@ -265,7 +265,7 @@ ostara = {
 iyanden = {
 	name = "Iyanden"
 	adjective = "PRESCRIPTED_adjective_iyanden"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_iyanden"
 
@@ -282,7 +282,7 @@ iyanden = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -294,7 +294,7 @@ iyanden = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_iyanden }
 	planet_name = "PRESCRIPTED_planet_name_iyanden"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_iyanden"
 
 	graphical_culture = "humanoid_01"
@@ -331,7 +331,7 @@ iyanden = {
 biel_tan = {
 	name = "Biel Tan"
 	adjective = "PRESCRIPTED_adjective_biel_tan"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_biel_tan"
 
@@ -348,7 +348,7 @@ biel_tan = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -360,7 +360,7 @@ biel_tan = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_biel_tan }
 	planet_name = "PRESCRIPTED_planet_name_biel_tan"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_biel_tan"
 
 	graphical_culture = "humanoid_01"
@@ -397,7 +397,7 @@ biel_tan = {
 alaitoc = {
 	name = "Alaitoc"
 	adjective = "PRESCRIPTED_adjective_alaitoc"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_alaitoc"
 
@@ -414,7 +414,7 @@ alaitoc = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_fallen_empire_cyan_room"
+	room = "personality_spiritual_seekers_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
@@ -426,7 +426,7 @@ alaitoc = {
 	ethic = "ethic_spiritualist"
 	flags = { eldar_empire the_alaitoc }
 	planet_name = "PRESCRIPTED_planet_name_alaitoc"
-	planet_class = "pc_continental"
+	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_alaitoc"
 
 	graphical_culture = "humanoid_01"

@@ -1,7 +1,7 @@
 behemoth = {
 	name = "Behemoth"
 	adjective = "PRESCRIPTED_adjective_behemoth"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_behemoth"
 
@@ -28,7 +28,7 @@ behemoth = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_behemoth }
 	planet_name = "PRESCRIPTED_planet_name_behemoth"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_behemoth"
 
 	graphical_culture = "humanoid_01"
@@ -65,7 +65,7 @@ behemoth = {
 gorgon = {
 	name = "Gorgon"
 	adjective = "PRESCRIPTED_adjective_gorgon"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_gorgon"
 
@@ -92,7 +92,7 @@ gorgon = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_gorgon }
 	planet_name = "PRESCRIPTED_planet_name_gorgon"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_gorgon"
 
 	graphical_culture = "humanoid_01"
@@ -129,7 +129,7 @@ gorgon = {
 hydra = {
 	name = "Hydra"
 	adjective = "PRESCRIPTED_adjective_hydra"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_hydra"
 
@@ -156,7 +156,7 @@ hydra = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_hydra }
 	planet_name = "PRESCRIPTED_planet_name_hydra"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_hydra"
 
 	graphical_culture = "humanoid_01"
@@ -193,7 +193,7 @@ hydra = {
 jormungandr = {
 	name = "Jormungandr"
 	adjective = "PRESCRIPTED_adjective_jormungandr"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_jormungandr"
 
@@ -220,7 +220,7 @@ jormungandr = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_jormungandr }
 	planet_name = "PRESCRIPTED_planet_name_jormungandr"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_jormungandr"
 
 	graphical_culture = "humanoid_01"
@@ -257,7 +257,7 @@ jormungandr = {
 kraken = {
 	name = "Kraken"
 	adjective = "PRESCRIPTED_adjective_kraken"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_kraken"
 
@@ -284,7 +284,7 @@ kraken = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_kraken }
 	planet_name = "PRESCRIPTED_planet_name_kraken"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_kraken"
 
 	graphical_culture = "humanoid_01"
@@ -321,7 +321,7 @@ kraken = {
 leviathan = {
 	name = "Leviathan"
 	adjective = "PRESCRIPTED_adjective_leviathan"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_leviathan"
 
@@ -348,7 +348,7 @@ leviathan = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_leviathan }
 	planet_name = "PRESCRIPTED_planet_name_leviathan"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_leviathan"
 
 	graphical_culture = "humanoid_01"
@@ -385,7 +385,7 @@ leviathan = {
 ouroboris = {
 	name = "Ouroboris"
 	adjective = "PRESCRIPTED_adjective_ouroboris"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ouroboris"
 
@@ -412,7 +412,7 @@ ouroboris = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_ouroboris }
 	planet_name = "PRESCRIPTED_planet_name_ouroboris"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_ouroboris"
 
 	graphical_culture = "humanoid_01"
@@ -449,7 +449,7 @@ ouroboris = {
 tiamet = {
 	name = "Tiamet"
 	adjective = "PRESCRIPTED_adjective_tiamet"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_tiamet"
 
@@ -476,7 +476,7 @@ tiamet = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_tiamet }
 	planet_name = "PRESCRIPTED_planet_name_tiamet"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancecity"
 	system_name = "PRESCRIPTED_system_name_tiamet"
 
 	graphical_culture = "humanoid_01"

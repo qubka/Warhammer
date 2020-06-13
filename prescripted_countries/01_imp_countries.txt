@@ -1,7 +1,7 @@
 white_scars = {
 	name = "White Scars"
 	adjective = "PRESCRIPTED_adjective_white_scars"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_white_scars"
 	
@@ -18,7 +18,7 @@ white_scars = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -30,7 +30,7 @@ white_scars = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_white_scars }
 	planet_name = "PRESCRIPTED_planet_name_white_scars"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_white_scars"
 	
 	graphical_culture = "humanoid_01"
@@ -67,7 +67,7 @@ white_scars = {
 ultra_marines = {
 	name = "Ultra Marines"
 	adjective = "PRESCRIPTED_adjective_ultra_marines"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_ultra_marines"
 	
@@ -84,7 +84,7 @@ ultra_marines = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -96,7 +96,7 @@ ultra_marines = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_ultra_marines }
 	planet_name = "PRESCRIPTED_planet_name_ultra_marines"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_ultra_marines"
 	
 	graphical_culture = "humanoid_01"
@@ -133,7 +133,7 @@ ultra_marines = {
 space_wolfes = {
 	name = "Space Wolfes"
 	adjective = "PRESCRIPTED_adjective_space_wolfes"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_space_wolfes"
 	
@@ -150,7 +150,7 @@ space_wolfes = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -162,7 +162,7 @@ space_wolfes = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_space_wolfes }
 	planet_name = "PRESCRIPTED_planet_name_space_wolfes"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_space_wolfes"
 	
 	graphical_culture = "humanoid_01"
@@ -199,7 +199,7 @@ space_wolfes = {
 salamanders = {
 	name = "Salamanders"
 	adjective = "PRESCRIPTED_adjective_salamanders"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_salamanders"
 	
@@ -216,7 +216,7 @@ salamanders = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -228,7 +228,7 @@ salamanders = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_salamanders }
 	planet_name = "PRESCRIPTED_planet_name_salamanders"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_salamanders"
 	
 	graphical_culture = "humanoid_01"
@@ -265,7 +265,7 @@ salamanders = {
 raven_guard = {
 	name = "Raven Guard"
 	adjective = "PRESCRIPTED_adjective_raven_guard"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_raven_guard"
 	
@@ -282,7 +282,7 @@ raven_guard = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -294,7 +294,7 @@ raven_guard = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_raven_guard }
 	planet_name = "PRESCRIPTED_planet_name_raven_guard"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_raven_guard"
 	
 	graphical_culture = "humanoid_01"
@@ -331,7 +331,7 @@ raven_guard = {
 iron_hand = {
 	name = "Iron Hand"
 	adjective = "PRESCRIPTED_adjective_iron_hand"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_hand"
 	
@@ -348,7 +348,7 @@ iron_hand = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -360,7 +360,7 @@ iron_hand = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_iron_hand }
 	planet_name = "PRESCRIPTED_planet_name_iron_hand"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_iron_hand"
 	
 	graphical_culture = "humanoid_01"
@@ -397,7 +397,7 @@ iron_hand = {
 imperial_fist = {
 	name = "Imperial Fist"
 	adjective = "PRESCRIPTED_adjective_imperial_fist"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_imperial_fist"
 	
@@ -414,7 +414,7 @@ imperial_fist = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -426,7 +426,7 @@ imperial_fist = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_imperial_fist }
 	planet_name = "PRESCRIPTED_planet_name_imperial_fist"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_imperial_fist"
 	
 	graphical_culture = "humanoid_01"
@@ -463,7 +463,7 @@ imperial_fist = {
 dark_angles = {
 	name = "Dark Angles"
 	adjective = "PRESCRIPTED_adjective_dark_angles"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_dark_angles"
 	
@@ -480,7 +480,7 @@ dark_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -492,7 +492,7 @@ dark_angles = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_dark_angles }
 	planet_name = "PRESCRIPTED_planet_name_dark_angles"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_dark_angles"
 	
 	graphical_culture = "humanoid_01"
@@ -529,7 +529,7 @@ dark_angles = {
 blood_angles = {
 	name = "Blood Angles"
 	adjective = "PRESCRIPTED_adjective_blood_angles"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_blood_angles"
 	
@@ -546,7 +546,7 @@ blood_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -558,7 +558,7 @@ blood_angles = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_blood_angles }
 	planet_name = "PRESCRIPTED_planet_name_blood_angles"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_blood_angles"
 	
 	graphical_culture = "humanoid_01"
@@ -595,7 +595,7 @@ blood_angles = {
 mankind = {
 	name = "Imperium of Man"
 	adjective = "PRESCRIPTED_adjective_mankind"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_mankind"
 	
@@ -612,7 +612,7 @@ mankind = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_fallen_empire_teal_room"
+	room = "personality_evangelizing_zealots_room"
 	
 	authority = "auth_imperial"
 	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
@@ -624,7 +624,7 @@ mankind = {
 	ethic = "ethic_spiritualist"
 	flags = { human_empire the_mankind }
 	planet_name = "PRESCRIPTED_planet_name_mankind"
-	planet_class = "pc_continental"
+	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_mankind"
 	
 	graphical_culture = "humanoid_01"
