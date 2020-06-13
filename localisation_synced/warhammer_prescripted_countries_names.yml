@@ -71,15 +71,23 @@
  PRESCRIPTED_ruler_name_imperial_fist:0 "Rogal Dorn"
  PRESCRIPTED_ruler_title_imperial_fist:0 "Primarch"
  ###
- PRESCRIPTED_adjective_dark_angles:0 "Human"
- PRESCRIPTED_ship_prefix_dark_angles:0 "DA"
  PRESCRIPTED_species_name_blood_angles:0 "Dark Angel"
- PRESCRIPTED_species_plural_dark_angles:0 "Dark Angles"
+ PRESCRIPTED_species_plural_dark_angles:0 "Dark Angels"
  PRESCRIPTED_species_adjective_dark_angles:0 "Human"
  PRESCRIPTED_planet_name_dark_angles:0 "The Rock"
  PRESCRIPTED_system_name_dark_angles:0 "Caliban System"
  PRESCRIPTED_ruler_name_dark_angles:0 "Lion El'Jonson"
  PRESCRIPTED_ruler_title_dark_angles:0 "Primarch"
+ ###
+ PRESCRIPTED_adjective_blood_angles:0 "Human"
+ PRESCRIPTED_ship_prefix_blood_angles:0 "BA"
+ PRESCRIPTED_species_name_blood_angles:0 "Blood Angels"
+ PRESCRIPTED_species_plural_blood_angles:0 "Blood Angels"
+ PRESCRIPTED_species_adjective_blood_angles:0 "Human"
+ PRESCRIPTED_planet_name_blood_angles:0 "Ball"
+ PRESCRIPTED_system_name_blood_angles:0 "Baal System"
+ PRESCRIPTED_ruler_name_blood_angles:0 "Sanguinius"
+ PRESCRIPTED_ruler_title_blood_angles:0 "Primarch"
  ###
 
  ###
