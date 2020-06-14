@@ -27,6 +27,7 @@ pc_forge = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_forgee = {
@@ -58,6 +59,7 @@ pc_forgee = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_forgeee = {
@@ -89,6 +91,7 @@ pc_forgeee = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_industrial = {
@@ -120,6 +123,7 @@ pc_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_agri = {
@@ -151,6 +155,7 @@ pc_agri = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_shrine = {
@@ -182,6 +187,7 @@ pc_shrine = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_hive_medium = {
@@ -211,6 +217,7 @@ pc_hive_medium = {
 	
 	colonizable = yes
 	ideal = yes
+	district_set = hive_world
 	starting_planet = no
 	show_city = no
 }
@@ -244,6 +251,7 @@ pc_penal= {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_fortress = {
@@ -275,6 +283,7 @@ pc_fortress = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_tomb = {
@@ -306,6 +315,7 @@ pc_tomb = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = machine_world
 }
 
 pc_hive_arid = {
@@ -337,6 +347,7 @@ pc_hive_arid = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_hive_continental_01 = {
@@ -368,6 +379,7 @@ pc_hive_continental_01 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_hive_continental_02 = {
@@ -399,6 +411,7 @@ pc_hive_continental_02 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_hive_ocean = {
@@ -430,6 +443,7 @@ pc_hive_ocean = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_hive_tundra = {
@@ -461,6 +475,7 @@ pc_hive_tundra = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_super_hive = {
@@ -492,6 +507,7 @@ pc_super_hive = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_mega_hive = {
@@ -523,6 +539,7 @@ pc_mega_hive = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_forge_ring = {
@@ -554,6 +571,7 @@ pc_forge_ring = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = ring_world
 }
 
 pc_forge_ring2 = {
@@ -585,6 +603,7 @@ pc_forge_ring2 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = ring_world
 }
 
 pc_forge_ring3 = {
@@ -616,6 +635,7 @@ pc_forge_ring3 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = ring_world
 }
 
 pc_craftworld = {
@@ -647,6 +667,7 @@ pc_craftworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_hive_industrial = {
@@ -678,6 +699,7 @@ pc_hive_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_advancecity = {
@@ -709,6 +731,7 @@ pc_advancecity = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_webway = {
@@ -740,6 +763,7 @@ pc_webway = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_spacehulk = {
@@ -771,6 +795,7 @@ pc_spacehulk = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_blackstonefortress = {
@@ -803,7 +828,7 @@ pc_blackstonefortress = {
 	starting_planet = no
 	show_city = no
 	orbit_lines = no
-	can_support_spaceport = no
+	district_set = habitat
 }
 
 pc_caliban = {
@@ -835,6 +860,7 @@ pc_caliban = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_eternalcrusader = {
@@ -866,6 +892,7 @@ pc_eternalcrusader = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_daemon = {
@@ -896,6 +923,7 @@ pc_daemon = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_daemonn = {
@@ -926,6 +954,7 @@ pc_daemonn = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_daemont = {
@@ -956,6 +985,7 @@ pc_daemont = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_daemons = {
@@ -986,6 +1016,7 @@ pc_daemons = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_advancexenocity = {
@@ -1017,6 +1048,7 @@ pc_advancexenocity = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_advancexenocityy = {
@@ -1048,6 +1080,7 @@ pc_advancexenocityy = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_advancexenocityyy = {
@@ -1079,6 +1112,7 @@ pc_advancexenocityyy = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_orkworld = {
@@ -1110,6 +1144,7 @@ pc_orkworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_armoury = {
@@ -1141,6 +1176,7 @@ pc_armoury = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_destroyedplanet = {
@@ -1172,4 +1208,5 @@ pc_destroyedplanet = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }

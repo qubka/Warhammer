@@ -14,19 +14,14 @@ mankind_homeworld = {
 		radius = 290
 	}
 	
-	flags = {  empire_home_system sol_system sol }
+	flags = { empire_home_system sol_system sol }
 	
 	usage = custom_empire
 	
-	#init_effect = {
-	#	every_neighbor_system = {
-	#		set_star_flag = empire_cluster
-	#		every_neighbor_system = {
-	#			set_star_flag = empire_cluster
-	#		}
-	#	}
-	#	generate_home_system_resources = yes
-	#}
+	init_effect = {
+		root = { set_country_flag = the_mankind }
+		generate_home_system_resources = yes
+	}
 	
 	planet = {
 		name = "NAME_Sol"
@@ -53,6 +48,10 @@ mankind_homeworld = {
 		orbit_angle = 125
 		size = 20
 		has_ring = no
+		
+		init_effect = {
+			add_modifier = { modifier = "terraforming_candidate" days = -1 }
+		}	
 	}
 	
 	planet = {
@@ -69,21 +68,61 @@ mankind_homeworld = {
 		
  		init_effect = {
 			set_planet_flag = terraplanet
-			set_planet_flag = spacemarinehomeworld
 			
 			prevent_anomaly = yes
+			set_owner = root
+			set_controller = root
 			set_capital = yes
 
-			#set_owner = event_target:the_mankind
-			#set_controller = event_target:the_mankind
-
-			add_building = building_system_capital
-			#add_building = astronomican
-			#add_building = golden_throne
-			#add_building = emperor_shrine_smh
-			##add_building = building_Legio_Custodes_fortress_monastery
-			##add_building = building_Imperial_Fists_fortress_monastery
-			create_pop = { species = owner_main_species }		
+			add_building = building_ancient_palace
+			add_building = building_fe_dome
+			add_building = building_fe_dome
+			add_building = building_fe_dome
+			add_building = building_fe_dome
+			add_building = building_fe_dome
+			add_building = building_fe_dome
+			add_building = building_fe_dome
+			add_building = building_fe_stronghold
+			add_building = building_fe_stronghold
+			add_building = building_dimensional_fabricator			
+			add_building = building_class_4_singularity
+			add_building = building_class_4_singularity
+			add_building = building_nano_forge
+			add_building = building_nano_forge	
+			add_building = building_nano_forge
+			while = {
+				count = 14
+				add_district = district_city
+			}
+			while = {
+				count = 8 
+				add_district_and_planet_size_if_needed_effect = {
+					district = district_mining
+				}
+			}
+			while = {
+				count = 8
+				add_district_and_planet_size_if_needed_effect = {
+					district = district_farming
+				}
+			}
+			while = {
+				count = 115
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			while = {
+				count = 20
+				create_army = {
+					name = random
+					owner = root
+					species = root
+					type = "psionic_army"
+				}
+			}
+			add_modifier = { modifier = "hive_planet" days = -1 }
 		}
 		
 		moon = {
@@ -97,14 +136,44 @@ mankind_homeworld = {
 			deposit_blockers = none    		
 			modifiers = none
 			init_effect = {
+				set_planet_flag = lunaplanet
+				
 				prevent_anomaly = yes
-
-				#set_owner = event_target:the_mankind
-				#set_controller = event_target:the_mankind
+				set_owner = root
+				set_controller = root	
 				
-				#add_building = building_major_capital
-				
-				#create_pop = { species = owner_main_species }
+				add_building = building_ancient_palace
+				add_building = building_master_archive
+				add_building = building_fe_stronghold
+				add_building = building_fe_dome
+				add_building = building_fe_dome
+				add_building = building_class_4_singularity
+				add_building = building_class_4_singularity
+				add_building = building_affluence_center
+				add_building = building_affluence_center
+				add_building = building_nourishment_center
+				add_building = building_nourishment_center
+				add_building = building_dimensional_fabricator
+				add_building = building_dimensional_fabricator			
+				add_building = building_nano_forge
+				add_building = building_nano_forge			
+				while = {
+					count = 5
+					add_deposit = d_arcane_generator
+					#add_deposit = d_arcane_replicator
+				}
+				while = {
+					count = 15
+					add_district = district_city
+				}
+				while = {
+					count = 35
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+				}
+				add_modifier = { modifier = "hive_planet" days = -1 }
 			}
 		}
 	}
@@ -112,6 +181,7 @@ mankind_homeworld = {
 	planet = {
 		name = "NAME_Mars"
 		class = "pc_forge_ring2"
+		flags = { forge_ring2_planet }                
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
@@ -120,17 +190,41 @@ mankind_homeworld = {
 		modifiers = none
 		
  		init_effect = {
-			prevent_anomaly = yes
-        
 			set_planet_flag = marsplanet
 			set_planet_flag = mechanicushomeworld
-			
-			#set_owner = event_target:the_mankind
-			#set_controller = event_target:the_mankind
-			
-			#add_building = building_system_capital
-			
-			#create_pop = { species = owner_main_species }				
+
+			prevent_anomaly = yes
+			set_owner = root
+			set_controller = root			
+		
+			add_building = building_ancient_palace
+			add_building = building_fe_stronghold
+			add_building = building_fe_stronghold
+			add_building = building_affluence_center
+			add_building = building_affluence_center
+			add_building = building_nourishment_center
+			add_building = building_nourishment_center
+			add_building = building_class_4_singularity
+			add_building = building_class_4_singularity
+			add_building = building_class_4_singularity
+			add_building = building_dimensional_fabricator
+			add_building = building_dimensional_fabricator
+			add_building = building_dimensional_fabricator
+			add_building = building_nano_forge
+			add_building = building_nano_forge
+			add_building = building_nano_forge
+			while = {
+				count = 20
+				add_district = district_rw_generator
+			}
+			while = {
+				count = 94
+				create_pop = {
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+			add_modifier = { modifier = "forge_ring2_planet" days = -1 }
 		}
 	}
 	
@@ -195,6 +289,10 @@ mankind_homeworld = {
 			orbit_distance = 2.5
 			orbit_angle = 10
 			has_ring = no
+			
+			init_effect = {
+				add_modifier = { modifier = "terraforming_candidate" days = -1 }
+			}
 		}
 		moon = {
 			name = "NAME_Ganymede"
@@ -236,17 +334,50 @@ mankind_homeworld = {
 			deposit_blockers = none 
 			
 			init_effect = {
-				prevent_anomaly = yes
-			
 				set_planet_flag = titanplanet
 				set_planet_flag = spacemarinehomeworld
-
-				#set_owner = event_target:the_mankind
-				#set_controller = event_target:the_mankind
 			
-				#add_building = building_system_capital
-            
-				#create_pop = { species = owner_main_species }
+				prevent_anomaly = yes
+				set_owner = root
+				set_controller = root
+
+				add_building = building_ancient_palace
+				add_building = building_empyrean_shrine
+				add_building = building_fe_dome
+				add_building = building_fe_dome
+				add_building = building_fe_dome
+				add_building = building_fe_dome
+				add_building = building_fe_dome
+				add_building = building_nano_forge
+				add_building = building_fe_stronghold
+				add_building = building_fe_stronghold
+				add_building = building_class_4_singularity
+				add_building = building_class_4_singularity	
+				add_building = building_nano_forge
+				add_building = building_nano_forge
+				while = {
+					count = 12
+					add_district = district_city
+				}
+				while = {
+					count = 5
+					add_district_and_planet_size_if_needed_effect = {
+						district = district_mining
+					}
+				}
+				while = {
+					count = 5
+					add_district_and_planet_size_if_needed_effect = {
+						district = district_farming
+					}
+				}			
+				while = {
+					count = 68
+					create_pop = {
+						species = owner_main_species
+						ethos = owner
+					}
+				}
 			}
 		}
 	}

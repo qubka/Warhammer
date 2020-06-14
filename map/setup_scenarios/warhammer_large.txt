@@ -20,7 +20,6 @@ static_galaxy_scenario = {
             x = -390
             y = -224
         }
-        # #initializer = sys_0_init
     }
 
     system = {
@@ -30,7 +29,6 @@ static_galaxy_scenario = {
             x = -402.6863
             y = 51.69938
         }
-        #initializer = EqHai
     }
 
     system = {
@@ -40,7 +38,6 @@ static_galaxy_scenario = {
             x = -398.4317
             y = 95.3082
         }
-        #initializer = EsThea
     }
 
     system = {
@@ -50,7 +47,6 @@ static_galaxy_scenario = {
             x = -390
             y = 125
         }
-        #initializer = Constantimium
     }
 
     system = {
@@ -60,7 +56,6 @@ static_galaxy_scenario = {
             x = -390
             y = 193
         }
-        #initializer = Mirienh
     }
 
     system = {
@@ -70,7 +65,6 @@ static_galaxy_scenario = {
             x = -399.4954
             y = 108.0716
         }
-        #initializer = Dreadhaven
     }
 
     system = {
@@ -80,7 +74,6 @@ static_galaxy_scenario = {
             x = -388
             y = -130
         }
-        #initializer = Rianoen
     }
 
     system = {
@@ -90,7 +83,6 @@ static_galaxy_scenario = {
             x = -388
             y = -28
         }
-        #initializer = Areadnnil
     }
 
     system = {
@@ -100,7 +92,6 @@ static_galaxy_scenario = {
             x = -397.3682
             y = 9.15428
         }
-        #initializer = Crenax
     }
 
     system = {
@@ -110,7 +101,6 @@ static_galaxy_scenario = {
             x = -388
             y = 281
         }
-        #initializer = Myrandias
     }
 
     system = {
@@ -120,7 +110,6 @@ static_galaxy_scenario = {
             x = -386
             y = -188
         }
-        #initializer = Desperation
     }
 
     system = {
@@ -130,7 +119,6 @@ static_galaxy_scenario = {
             x = -385
             y = -205
         }
-        #initializer = ShadowHive
     }
 
     system = {
@@ -140,7 +128,6 @@ static_galaxy_scenario = {
             x = -381
             y = -268
         }
-        #initializer = Rhidhol
     }
 
     system = {
@@ -150,7 +137,6 @@ static_galaxy_scenario = {
             x = -378
             y = 159
         }
-        #initializer = Sternac
     }
 
     system = {
@@ -160,7 +146,6 @@ static_galaxy_scenario = {
             x = -372
             y = -41
         }
-        #initializer = Coralax
     }
 
     system = {
@@ -170,7 +155,6 @@ static_galaxy_scenario = {
             x = -371
             y = -75
         }
-        #initializer = Jondl
     }
 
     system = {
@@ -180,7 +164,6 @@ static_galaxy_scenario = {
             x = -371
             y = 207
         }
-        #initializer = HadexAnomaly
     }
 
     system = {
@@ -190,7 +173,6 @@ static_galaxy_scenario = {
             x = -370
             y = 222
         }
-        #initializer = OmegaMarines
     }
 
     system = {
@@ -200,7 +182,6 @@ static_galaxy_scenario = {
             x = -367
             y = 88
         }
-        #initializer = OrpheusPrime
     }
 
     system = {
@@ -210,7 +191,6 @@ static_galaxy_scenario = {
             x = -366
             y = -168
         }
-        #initializer = Dacia
     }
 
     system = {
@@ -220,7 +200,6 @@ static_galaxy_scenario = {
             x = -334
             y = 408
         }
-        #initializer = Repentance
     }
 
     system = {
@@ -230,7 +209,6 @@ static_galaxy_scenario = {
             x = -359
             y = 187
         }
-        #initializer = Veridian
     }
 
     system = {
@@ -240,7 +218,6 @@ static_galaxy_scenario = {
             x = -359
             y = 287
         }
-        #initializer = Valos
     }
 
     system = {
@@ -250,12 +227,10 @@ static_galaxy_scenario = {
             x = -358
             y = 120
         }
-        #initializer = Kimmeria
     }
 
     system = {
         name = "Formundo"
-		#initializer = Formundo
         id = "24"
         position = {
             x = -357
@@ -270,7 +245,6 @@ static_galaxy_scenario = {
             x = -357
             y = 168
         }
-        #initializer = Devlan
     }
 
     system = {
@@ -280,7 +254,6 @@ static_galaxy_scenario = {
             x = -355
             y = 133
         }
-        #initializer = TriplexPhall
     }
 
     system = {
@@ -290,7 +263,6 @@ static_galaxy_scenario = {
             x = -353
             y = 154
         }
-        #initializer = Lamarno
     }
 
     system = {
@@ -300,7 +272,6 @@ static_galaxy_scenario = {
             x = -352
             y = -246
         }
-        #initializer = Occludus
     }
 
     system = {
@@ -310,7 +281,6 @@ static_galaxy_scenario = {
             x = -352
             y = -147
         }
-        #initializer = NeoKhartoum
     }
 
     system = {
@@ -320,7 +290,6 @@ static_galaxy_scenario = {
             x = -352
             y = 270
         }
-        #initializer = Tyran
     }
 
     system = {
@@ -330,7 +299,6 @@ static_galaxy_scenario = {
             x = -350
             y = 33
         }
-        #initializer = Loxar
     }
 
     system = {
@@ -340,7 +308,6 @@ static_galaxy_scenario = {
             x = -349
             y = -128
         }
-        #initializer = NeoBaku
     }
 
     system = {
@@ -350,7 +317,6 @@ static_galaxy_scenario = {
             x = -345
             y = -298
         }
-        #initializer = Cegorachi
     }
 
     system = {
@@ -360,7 +326,6 @@ static_galaxy_scenario = {
             x = -337
             y = -140
         }
-        #initializer = Vintor
     }
 
     system = {
@@ -370,7 +335,6 @@ static_galaxy_scenario = {
             x = -337
             y = 136
         }
-        #initializer = Moloch
     }
 
     system = {
@@ -380,7 +344,6 @@ static_galaxy_scenario = {
             x = 270
             y = 126
         }
-        #initializer = Graia
     }
 
     system = {
@@ -390,7 +353,6 @@ static_galaxy_scenario = {
             x = -335
             y = 253
         }
-        #initializer = Thandros
     }
 
     system = {
@@ -400,7 +362,6 @@ static_galaxy_scenario = {
             x = -329
             y = 289
         }
-        #initializer = Oliel
     }
 
     system = {
@@ -410,7 +371,6 @@ static_galaxy_scenario = {
             x = -326
             y = 69
         }
-        #initializer = Folax
     }
 
     system = {
@@ -420,7 +380,6 @@ static_galaxy_scenario = {
             x = -325
             y = 102
         }
-        #initializer = DeltaTao
     }
 
     system = {
@@ -430,7 +389,6 @@ static_galaxy_scenario = {
             x = -324
             y = 184
         }
-        #initializer = Espandor
     }
 
     system = {
@@ -440,7 +398,6 @@ static_galaxy_scenario = {
             x = -322
             y = -132
         }
-        #initializer = Asylus
     }
 
     system = {
@@ -450,7 +407,6 @@ static_galaxy_scenario = {
             x = -322
             y = 3
         }
-        #initializer = Archona
     }
 
     system = {
@@ -460,7 +416,6 @@ static_galaxy_scenario = {
             x = -321
             y = 150
         }
-        #initializer = Miral
     }
 
     system = {
@@ -470,7 +425,6 @@ static_galaxy_scenario = {
             x = -320
             y = -241
         }
-        #initializer = CNath
     }
 
     system = {
@@ -480,7 +434,6 @@ static_galaxy_scenario = {
             x = -320
             y = 41
         }
-        #initializer = Armato
     }
 
     system = {
@@ -490,7 +443,6 @@ static_galaxy_scenario = {
             x = -319
             y = 135
         }
-        #initializer = Telleran
     }
 
     system = {
@@ -500,7 +452,6 @@ static_galaxy_scenario = {
             x = -318
             y = 260
         }
-        #initializer = Prandium
     }
 
     system = {
@@ -510,7 +461,6 @@ static_galaxy_scenario = {
             x = -313
             y = 202
         }
-        #initializer = Iax
     }
 
     system = {
@@ -520,7 +470,6 @@ static_galaxy_scenario = {
             x = -310
             y = -143
         }
-        #initializer = Vorl
     }
 
     system = {
@@ -530,7 +479,6 @@ static_galaxy_scenario = {
             x = -310
             y = 86
         }
-        #initializer = Okassis
     }
 
     system = {
@@ -540,7 +488,6 @@ static_galaxy_scenario = {
             x = -310
             y = 171
         }
-        #initializer = Sotha
     }
 
     system = {
@@ -550,7 +497,6 @@ static_galaxy_scenario = {
             x = -309
             y = -209
         }
-        #initializer = Bellephon
     }
 
     system = {
@@ -560,7 +506,6 @@ static_galaxy_scenario = {
             x = -309
             y = 119
         }
-        #initializer = Radnar
     }
 
     system = {
@@ -570,7 +515,6 @@ static_galaxy_scenario = {
             x = -309
             y = 137
         }
-        #initializer = Ichar
     }
 
     system = {
@@ -580,7 +524,6 @@ static_galaxy_scenario = {
             x = -304
             y = 186
         }
-        #initializer = Calth
     }
 
     system = {
@@ -590,7 +533,6 @@ static_galaxy_scenario = {
             x = -301
             y = 144
         }
-        #initializer = Nimbosa
     }
 
     system = {
@@ -600,7 +542,6 @@ static_galaxy_scenario = {
             x = -298
             y = -233
         }
-        # #initializer = sys_60_init
     }
 
     system = {
@@ -610,7 +551,6 @@ static_galaxy_scenario = {
             x = -298
             y = -42
         }
-        #initializer = Prism
     }
 
     system = {
@@ -620,7 +560,6 @@ static_galaxy_scenario = {
             x = -298
             y = 154
         }
-        # #initializer = sys_64_init
     }
 
     system = {
@@ -630,7 +569,6 @@ static_galaxy_scenario = {
             x = -293
             y = 200
         }
-        #initializer = Konor
     }
 
     system = {
@@ -640,7 +578,6 @@ static_galaxy_scenario = {
             x = -291
             y = 271
         }
-        #initializer = Koralkal
     }
 
     system = {
@@ -650,7 +587,6 @@ static_galaxy_scenario = {
             x = -292.0415
             y = 104.1712
         }
-        # #initializer = sys_67_init
     }
 
     system = {
@@ -660,7 +596,6 @@ static_galaxy_scenario = {
             x = -290
             y = 221
         }
-        #initializer = macragge2
     }
 
     system = {
@@ -670,7 +605,6 @@ static_galaxy_scenario = {
             x = -285
             y = 78
         }
-        # #initializer = sys_69_init
     }
 
     system = {
@@ -680,7 +614,6 @@ static_galaxy_scenario = {
             x = -282.9671
             y = 150.6264
         }
-        #initializer = DYanoi
     }
 
     system = {
@@ -690,7 +623,6 @@ static_galaxy_scenario = {
             x = -285
             y = 171
         }
-        #initializer = Cytheria
     }
 
     system = {
@@ -700,7 +632,6 @@ static_galaxy_scenario = {
             x = -285
             y = 181
         }
-        # #initializer = sys_72_init
     }
 
     system = {
@@ -710,7 +641,6 @@ static_galaxy_scenario = {
             x = -278
             y = 55
         }
-        #initializer = Obsidia
     }
 
     system = {
@@ -720,7 +650,6 @@ static_galaxy_scenario = {
             x = -276
             y = 310
         }
-        #initializer = Salem
     }
 
     system = {
@@ -730,7 +659,6 @@ static_galaxy_scenario = {
             x = -275
             y = 238
         }
-        #initializer = Paramenio
     }
 
     system = {
@@ -740,7 +668,6 @@ static_galaxy_scenario = {
             x = -274
             y = -184
         }
-        #initializer = Komarl
     }
 
     system = {
@@ -750,7 +677,6 @@ static_galaxy_scenario = {
             x = -274
             y = 206
         }
-        #initializer = Quintarn
     }
 
     system = {
@@ -760,7 +686,6 @@ static_galaxy_scenario = {
             x = -274.5402
             y = 108.4924
         }
-        #initializer = DalYth
     }
 
     system = {
@@ -770,7 +695,6 @@ static_galaxy_scenario = {
             x = -268
             y = -216
         }
-        #initializer = Elusia
     }
 
     system = {
@@ -780,7 +704,6 @@ static_galaxy_scenario = {
             x = -269.787
             y = 121.4566
         }
-        #initializer = taun
     }
 
     system = {
@@ -790,7 +713,6 @@ static_galaxy_scenario = {
             x = -264
             y = 159
         }
-        #initializer = FalShia
     }
 
     system = {
@@ -800,7 +722,6 @@ static_galaxy_scenario = {
             x = -263
             y = -1
         }
-        #initializer = UltraMundanus
     }
 
     system = {
@@ -810,7 +731,6 @@ static_galaxy_scenario = {
             x = -264.8172
             y = 130.3156
         }
-        #initializer = SaCea
     }
 
     system = {
@@ -820,7 +740,6 @@ static_galaxy_scenario = {
             x = -260.496
             y = 124.9138
         }
-        #initializer = tau_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = tau_star_empire } }
     }
 
     system = {
@@ -830,7 +749,6 @@ static_galaxy_scenario = {
             x = -258
             y = 187
         }
-        #initializer = Terentus
     }
 
     system = {
@@ -840,7 +758,6 @@ static_galaxy_scenario = {
             x = -258
             y = 219
         }
-        #initializer = Talassar
     }
 
     system = {
@@ -850,7 +767,6 @@ static_galaxy_scenario = {
             x = -247.0992
             y = 161.862
         }
-        #initializer = BorkAn
     }
 
     system = {
@@ -860,7 +776,6 @@ static_galaxy_scenario = {
             x = -253.1484
             y = 127.7227
         }
-        #initializer = ViorLa
     }
 
     system = {
@@ -870,7 +785,6 @@ static_galaxy_scenario = {
             x = -253
             y = -233
         }
-        #initializer = terellian_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = terellian_star_empire } }
     }
 
     system = {
@@ -880,7 +794,6 @@ static_galaxy_scenario = {
             x = -251
             y = 260
         }
-        #initializer = Blackreach
     }
 
     system = {
@@ -890,7 +803,6 @@ static_galaxy_scenario = {
             x = -248
             y = 236
         }
-        #initializer = TalasaPrime
     }
 
     system = {
@@ -900,7 +812,6 @@ static_galaxy_scenario = {
             x = -247
             y = -379
         }
-        #initializer = Quilan
     }
 
     system = {
@@ -910,7 +821,6 @@ static_galaxy_scenario = {
             x = -241
             y = 222
         }
-        #initializer = Masali
     }
 
     system = {
@@ -920,7 +830,6 @@ static_galaxy_scenario = {
             x = -237
             y = 95
         }
-        #initializer = YmgaMonolith
     }
 
     system = {
@@ -930,7 +839,6 @@ static_galaxy_scenario = {
             x = -226
             y = -212
         }
-        #initializer = ShrineofElronhir
     }
 
     system = {
@@ -940,7 +848,6 @@ static_galaxy_scenario = {
             x = -226
             y = 249
         }
-        #initializer = iyanden_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eldar_iyanden_empire } }
     }
 
     system = {
@@ -950,7 +857,6 @@ static_galaxy_scenario = {
             x = -224
             y = -266
         }
-        #initializer = Bork
     }
 
     system = {
@@ -960,7 +866,6 @@ static_galaxy_scenario = {
             x = -220
             y = -251
         }
-        #initializer = HaytorsHole
     }
 
     system = {
@@ -970,7 +875,6 @@ static_galaxy_scenario = {
             x = -220
             y = 330
         }
-        #initializer = UrsidheKa
     }
 
     system = {
@@ -980,7 +884,6 @@ static_galaxy_scenario = {
             x = -219
             y = 176
         }
-        #initializer = Pavonis
     }
 
     system = {
@@ -990,7 +893,6 @@ static_galaxy_scenario = {
             x = -216
             y = 293
         }
-        # #initializer = sys_101_init
     }
 
     system = {
@@ -1000,7 +902,6 @@ static_galaxy_scenario = {
             x = -204.7005
             y = 120.4512
         }
-        #initializer = Prassium
     }
 
     system = {
@@ -1010,7 +911,6 @@ static_galaxy_scenario = {
             x = -202.873
             y = 106.349
         }
-        #initializer = Eldritch
     }
 
     system = {
@@ -1020,7 +920,6 @@ static_galaxy_scenario = {
             x = -210
             y = -365
         }
-        # #initializer = sys_104_init
     }
 
     system = {
@@ -1030,7 +929,6 @@ static_galaxy_scenario = {
             x = -210
             y = -197
         }
-        #initializer = Bellephon
     }
 
     system = {
@@ -1040,7 +938,6 @@ static_galaxy_scenario = {
             x = -209
             y = 20
         }
-        #initializer = KarDuniash
     }
 
     system = {
@@ -1050,7 +947,6 @@ static_galaxy_scenario = {
             x = -196.3433
             y = 130.6357
         }
-        #initializer = Alsanta
     }
 
     system = {
@@ -1060,7 +956,6 @@ static_galaxy_scenario = {
             x = -203
             y = -13
         }
-        #initializer = Firestorm
     }
 
     system = {
@@ -1070,7 +965,6 @@ static_galaxy_scenario = {
             x = -201
             y = -288
         }
-        #initializer = Lunaphage
     }
 
     system = {
@@ -1080,7 +974,6 @@ static_galaxy_scenario = {
             x = -200
             y = -271
         }
-        #initializer = Drask
     }
 
     system = {
@@ -1090,7 +983,6 @@ static_galaxy_scenario = {
             x = -198
             y = -241
         }
-        #initializer = IronC
     }
 
     system = {
@@ -1100,7 +992,6 @@ static_galaxy_scenario = {
             x = -195
             y = 302
         }
-        #initializer = Moltova
     }
 
     system = {
@@ -1110,7 +1001,6 @@ static_galaxy_scenario = {
             x = -192
             y = -50
         }
-        #initializer = Formund
     }
 
     system = {
@@ -1120,7 +1010,6 @@ static_galaxy_scenario = {
             x = -181
             y = 35
         }
-        #initializer = Corinthe
     }
 
     system = {
@@ -1130,7 +1019,6 @@ static_galaxy_scenario = {
             x = -173
             y = -42
         }
-        #initializer = Emrah
     }
 
     system = {
@@ -1140,7 +1028,6 @@ static_galaxy_scenario = {
             x = -171
             y = -26
         }
-        #initializer = Hexos
     }
 
     system = {
@@ -1150,7 +1037,6 @@ static_galaxy_scenario = {
             x = -170
             y = 56
         }
-        #initializer = Cantaix
     }
 
     system = {
@@ -1160,7 +1046,6 @@ static_galaxy_scenario = {
             x = -170
             y = 292
         }
-        #initializer = Perdus
     }
 
     system = {
@@ -1170,7 +1055,6 @@ static_galaxy_scenario = {
             x = -163
             y = 301
         }
-        # #initializer = sys_119_init
     }
 
     system = {
@@ -1180,7 +1064,6 @@ static_galaxy_scenario = {
             x = -158
             y = 374
         }
-        #initializer = Zodiac
     }
 
     system = {
@@ -1190,7 +1073,6 @@ static_galaxy_scenario = {
             x = -152
             y = -268
         }
-        #initializer = QuistoRol
     }
 
     system = {
@@ -1200,7 +1082,6 @@ static_galaxy_scenario = {
             x = -150
             y = 311
         }
-        #initializer = MundusPyra
     }
 
     system = {
@@ -1210,7 +1091,6 @@ static_galaxy_scenario = {
             x = -147
             y = -91
         }
-        #initializer = Juron
     }
 
     system = {
@@ -1220,7 +1100,6 @@ static_galaxy_scenario = {
             x = -146
             y = -416
         }
-        #initializer = Ectosa
     }
 
     system = {
@@ -1230,7 +1109,6 @@ static_galaxy_scenario = {
             x = -146
             y = 4
         }
-        #initializer = EternalCrusader
     }
 
     system = {
@@ -1240,7 +1118,6 @@ static_galaxy_scenario = {
             x = -141
             y = 282
         }
-        # #initializer = sys_126_init
     }
 
     system = {
@@ -1250,7 +1127,6 @@ static_galaxy_scenario = {
             x = -140
             y = 141
         }
-        # #initializer = sys_127_init
     }
 
     system = {
@@ -1260,7 +1136,6 @@ static_galaxy_scenario = {
             x = -139
             y = -376
         }
-        #initializer = Syph
     }
 	
 	system = {
@@ -1270,7 +1145,6 @@ static_galaxy_scenario = {
             x = -119
             y = -366
         }
-        #initializer = commorragh_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eldar_dark_com_empire } }
     }
 
     system = {
@@ -1280,7 +1154,6 @@ static_galaxy_scenario = {
             x = -139
             y = 104
         }
-        #initializer = Schidelgheist
     }
 
     system = {
@@ -1290,7 +1163,6 @@ static_galaxy_scenario = {
             x = -138
             y = 199
         }
-        #initializer = Espandorr
     }
 
     system = {
@@ -1300,7 +1172,6 @@ static_galaxy_scenario = {
             x = -137
             y = -149
         }
-        #initializer = Honorum
     }
 
     system = {
@@ -1310,7 +1181,6 @@ static_galaxy_scenario = {
             x = -131
             y = -66
         }
-        #initializer = Kotrax
     }
 
     system = {
@@ -1320,7 +1190,6 @@ static_galaxy_scenario = {
             x = -130
             y = 373
         }
-        #initializer = Ishariel
     }
 
     system = {
@@ -1330,7 +1199,6 @@ static_galaxy_scenario = {
             x = -122
             y = 260
         }
-        #initializer = alaitoc_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eldar_alaitoc_empire } }
     }
 
     system = {
@@ -1340,7 +1208,6 @@ static_galaxy_scenario = {
             x = -118
             y = 216
         }
-        #initializer = Perdus
     }
 
     system = {
@@ -1350,7 +1217,6 @@ static_galaxy_scenario = {
             x = -116
             y = -230
         }
-        #initializer = Moloche
     }
 
     system = {
@@ -1360,7 +1226,6 @@ static_galaxy_scenario = {
             x = -114
             y = -107
         }
-        #initializer = Vidar
     }
 
     system = {
@@ -1370,7 +1235,6 @@ static_galaxy_scenario = {
             x = -112
             y = -301
         }
-        #initializer = Jollov
     }
 
     system = {
@@ -1380,7 +1244,6 @@ static_galaxy_scenario = {
             x = -112
             y = 133
         }
-        #initializer = Balcarhsa
     }
 
     system = {
@@ -1390,7 +1253,6 @@ static_galaxy_scenario = {
             x = -107
             y = -254
         }
-        #initializer = MKhan
     }
 
     system = {
@@ -1400,7 +1262,6 @@ static_galaxy_scenario = {
             x = -257
             y = -50
         }
-        #initializer = Jagga spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = jagga_empire } }
     }
 
     system = {
@@ -1410,7 +1271,6 @@ static_galaxy_scenario = {
             x = -103
             y = -68
         }
-        #initializer = Sable
     }
 
     system = {
@@ -1420,7 +1280,6 @@ static_galaxy_scenario = {
             x = -95
             y = -228
         }
-        #initializer = Vacuna
     }
 
     system = {
@@ -1430,7 +1289,6 @@ static_galaxy_scenario = {
             x = -94
             y = 164
         }
-        #initializer = charadon_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = charadon_empire } }
     }
 
     system = {
@@ -1440,7 +1298,6 @@ static_galaxy_scenario = {
             x = -93
             y = 383
         }
-        #initializer = Rigantt
     }
 
     system = {
@@ -1450,7 +1307,6 @@ static_galaxy_scenario = {
             x = -91
             y = 265
         }
-        #initializer = GhonisUltra
     }
 
     system = {
@@ -1460,7 +1316,6 @@ static_galaxy_scenario = {
             x = -90
             y = 121
         }
-        # #initializer = sys_147_init
     }
 
     system = {
@@ -1470,7 +1325,6 @@ static_galaxy_scenario = {
             x = -90
             y = 311
         }
-        #initializer = Gellephera
     }
 
     system = {
@@ -1480,7 +1334,6 @@ static_galaxy_scenario = {
             x = -87
             y = -106
         }
-        #initializer = Boucherin
     }
 
     system = {
@@ -1490,7 +1343,6 @@ static_galaxy_scenario = {
             x = -82
             y = -17
         }
-        #initializer = Bellicas
     }
 
     system = {
@@ -1500,7 +1352,6 @@ static_galaxy_scenario = {
             x = -77
             y = -215
         }
-        #initializer = AspenII
     }
 
     system = {
@@ -1510,7 +1361,6 @@ static_galaxy_scenario = {
             x = -77
             y = 108
         }
-        # #initializer = sys_152_init
     }
 
     system = {
@@ -1520,7 +1370,6 @@ static_galaxy_scenario = {
             x = -77
             y = 127
         }
-        #initializer = Chogros
     }
 
     system = {
@@ -1530,7 +1379,6 @@ static_galaxy_scenario = {
             x = -76
             y = 63
         }
-        #initializer = Cirillo
     }
 
     system = {
@@ -1540,7 +1388,6 @@ static_galaxy_scenario = {
             x = -75
             y = -117
         }
-        #initializer = Hammefront
     }
 
     system = {
@@ -1550,7 +1397,6 @@ static_galaxy_scenario = {
             x = -73
             y = 227
         }
-        #initializer = SanLeor
     }
 
     system = {
@@ -1560,7 +1406,6 @@ static_galaxy_scenario = {
             x = -72
             y = 183
         }
-        #initializer = Dreer
     }
 
     system = {
@@ -1570,7 +1415,6 @@ static_galaxy_scenario = {
             x = -63
             y = -335
         }
-        #initializer = CorohnisAgathon
     }
 
     system = {
@@ -1580,7 +1424,6 @@ static_galaxy_scenario = {
             x = -62
             y = -251
         }
-        #initializer = Krandor
     }
 
     system = {
@@ -1590,7 +1433,6 @@ static_galaxy_scenario = {
             x = -62
             y = -65
         }
-        #initializer = Drisinta
     }
 
     system = {
@@ -1600,7 +1442,6 @@ static_galaxy_scenario = {
             x = -62
             y = 233
         }
-        # #initializer = sys_161_init
     }
 
     system = {
@@ -1610,7 +1451,6 @@ static_galaxy_scenario = {
             x = -60
             y = 211
         }
-        #initializer = Endragiga
     }
 
     system = {
@@ -1620,7 +1460,6 @@ static_galaxy_scenario = {
             x = -58
             y = -190
         }
-        #initializer = GildarRift
     }
 
     system = {
@@ -1630,7 +1469,6 @@ static_galaxy_scenario = {
             x = -57
             y = -78
         }
-        #initializer = Baal
     }
 
     system = {
@@ -1640,7 +1478,6 @@ static_galaxy_scenario = {
             x = -57
             y = 215
         }
-        #initializer = Talon
     }
 
     system = {
@@ -1650,7 +1487,6 @@ static_galaxy_scenario = {
             x = -49
             y = -208
         }
-        #initializer = QuistoRol
     }
 
     system = {
@@ -1660,7 +1496,6 @@ static_galaxy_scenario = {
             x = -48
             y = 302
         }
-        #initializer = Necris
     }
 
     system = {
@@ -1670,7 +1505,6 @@ static_galaxy_scenario = {
             x = -47
             y = 125
         }
-        #initializer = Gheist
     }
 
     system = {
@@ -1680,7 +1514,6 @@ static_galaxy_scenario = {
             x = -44
             y = -315
         }
-        #initializer = Naogeddon
     }
 
     system = {
@@ -1690,7 +1523,6 @@ static_galaxy_scenario = {
             x = -41
             y = -129
         }
-        #initializer = Passrum
     }
 
     system = {
@@ -1700,7 +1532,6 @@ static_galaxy_scenario = {
             x = -41
             y = 223
         }
-        #initializer = Agrax
     }
 
     system = {
@@ -1710,7 +1541,6 @@ static_galaxy_scenario = {
             x = -41
             y = 372
         }
-        #initializer = Birmingham
     }
 
     system = {
@@ -1720,7 +1550,6 @@ static_galaxy_scenario = {
             x = -38
             y = -51
         }
-        #initializer = Preyspire
     }
 
     system = {
@@ -1730,7 +1559,6 @@ static_galaxy_scenario = {
             x = -38
             y = 115
         }
-        #initializer = Octarius
     }
 
 	system = {
@@ -1740,7 +1568,6 @@ static_galaxy_scenario = {
             x = -43
             y = 120
         }
-        #initializer = Orrok
     }
 	
 	system = {
@@ -1750,7 +1577,6 @@ static_galaxy_scenario = {
             x = -60
             y = 125
         }
-        #initializer = Ghorala
     }
 	
 	system = {
@@ -1760,7 +1586,6 @@ static_galaxy_scenario = {
             x = -32
             y = 110
         }
-        #initializer = Derragon
     }
 	
 	system = {
@@ -1770,7 +1595,6 @@ static_galaxy_scenario = {
             x = -28
             y = 105
         }
-        #initializer = Keltor
     }
 	
     system = {
@@ -1780,7 +1604,6 @@ static_galaxy_scenario = {
             x = -36
             y = 355
         }
-        # #initializer = sys_175_init
     }
 
     system = {
@@ -1790,7 +1613,6 @@ static_galaxy_scenario = {
             x = -32
             y = 146
         }
-        #initializer = Balur
     }
 
     system = {
@@ -1800,7 +1622,6 @@ static_galaxy_scenario = {
             x = -31
             y = -160
         }
-        #initializer = PaxArgentus
     }
 
     system = {
@@ -1810,7 +1631,6 @@ static_galaxy_scenario = {
             x = -25
             y = -183
         }
-        #initializer = Varsavia
     }
 
     system = {
@@ -1820,7 +1640,6 @@ static_galaxy_scenario = {
             x = -22
             y = 255
         }
-        #initializer = Esko
     }
 
     system = {
@@ -1830,7 +1649,6 @@ static_galaxy_scenario = {
             x = -19
             y = 268
         }
-        #initializer = Antagonis
     }
 
     system = {
@@ -1840,7 +1658,6 @@ static_galaxy_scenario = {
             x = -18
             y = 242
         }
-        #initializer = RynnsWorld
     }
 
     system = {
@@ -1850,7 +1667,6 @@ static_galaxy_scenario = {
             x = -17
             y = 92
         }
-        # #initializer = sys_182_init
     }
 
     system = {
@@ -1860,7 +1676,6 @@ static_galaxy_scenario = {
             x = -7
             y = 129
         }
-        #initializer = Talonn
     }
 
     system = {
@@ -1870,7 +1685,6 @@ static_galaxy_scenario = {
             x = -6
             y = -149
         }
-        #initializer = Valhallaa
     }
 
     system = {
@@ -1880,7 +1694,6 @@ static_galaxy_scenario = {
             x = -4
             y = 54
         }
-        #initializer = IceFang
     }
 
     system = {
@@ -1890,7 +1703,6 @@ static_galaxy_scenario = {
             x = 4
             y = -108
         }
-        #initializer = Jjojos
     }
 
     system = {
@@ -1900,7 +1712,6 @@ static_galaxy_scenario = {
             x = 4
             y = 234
         }
-        #initializer = Mortant
     }
 
     system = {
@@ -1910,7 +1721,6 @@ static_galaxy_scenario = {
             x = 7
             y = -288
         }
-        #initializer = Dimmamar
     }
 
     system = {
@@ -1920,7 +1730,6 @@ static_galaxy_scenario = {
             x = 10
             y = 138
         }
-        #initializer = BorasMinor
     }
 
     system = {
@@ -1930,7 +1739,6 @@ static_galaxy_scenario = {
             x = 12
             y = -84
         }
-        #initializer = jhanna
     }
 
     system = {
@@ -1940,7 +1748,6 @@ static_galaxy_scenario = {
             x = 2.781153
             y = 4.941238
         }
-        #initializer = Dynathi
     }
 
     system = {
@@ -1950,7 +1757,6 @@ static_galaxy_scenario = {
             x = 16
             y = -54
         }
-        #initializer = Arandra
     }
 
     system = {
@@ -1960,7 +1766,6 @@ static_galaxy_scenario = {
             x = 18.07619
             y = -25.13324
         }
-        #initializer = Lastratii
     }
 
     system = {
@@ -1970,7 +1775,6 @@ static_galaxy_scenario = {
             x = 24
             y = 91
         }
-        #initializer = Nocturne
     }
 
     system = {
@@ -1980,7 +1784,6 @@ static_galaxy_scenario = {
             x = 27
             y = 187
         }
-        #initializer = Dreska
     }
 
     system = {
@@ -1990,7 +1793,6 @@ static_galaxy_scenario = {
             x = 28
             y = 72
         }
-        # #initializer = sys_197_init
     }
 
     system = {
@@ -2000,7 +1802,6 @@ static_galaxy_scenario = {
             x = 38
             y = -59
         }
-        # #initializer = sys_199_init
     }
 
     system = {
@@ -2010,7 +1811,6 @@ static_galaxy_scenario = {
             x = 40
             y = -108
         }
-        #initializer = Fortress
     }
 
     system = {
@@ -2020,7 +1820,6 @@ static_galaxy_scenario = {
             x = 41
             y = -153
         }
-        #initializer = Olana
     }
 
     system = {
@@ -2030,7 +1829,6 @@ static_galaxy_scenario = {
             x = 43
             y = 142
         }
-        #initializer = Oxatan
     }
 
     system = {
@@ -2040,7 +1838,6 @@ static_galaxy_scenario = {
             x = 46
             y = 53
         }
-        #initializer = Chogoris
     }
 
     system = {
@@ -2050,7 +1847,6 @@ static_galaxy_scenario = {
             x = 48
             y = 181
         }
-        #initializer = Carpathia
     }
 
     system = {
@@ -2060,7 +1856,6 @@ static_galaxy_scenario = {
             x = 49.52549
             y = 25.21996
         }
-        #initializer = Badab
     }
 
     system = {
@@ -2070,7 +1865,6 @@ static_galaxy_scenario = {
             x = 56.57154
             y = -9.666443
         }
-        #initializer = Golgotha
     }
 
     system = {
@@ -2080,7 +1874,6 @@ static_galaxy_scenario = {
             x = 55
             y = -125
         }
-        #initializer = Molov
     }
 
     system = {
@@ -2090,7 +1883,6 @@ static_galaxy_scenario = {
             x = 63.49446
             y = -211.9091
         }
-        #initializer = CoronisAgathon
     }
 
     system = {
@@ -2100,7 +1892,6 @@ static_galaxy_scenario = {
             x = 71.65298
             y = -263.3427
         }
-        # #initializer = sys_209_init
     }
 
     system = {
@@ -2110,7 +1901,6 @@ static_galaxy_scenario = {
             x = 65
             y = -62
         }
-        #initializer = DarkGatesofRhidhol
     }
 
     system = {
@@ -2120,7 +1910,6 @@ static_galaxy_scenario = {
             x = 66
             y = 190
         }
-        #initializer = Pranagar
     }
 
     system = {
@@ -2130,7 +1919,6 @@ static_galaxy_scenario = {
             x = 75
             y = -417
         }
-        #initializer = Appollonia
     }
 
     system = {
@@ -2140,7 +1928,6 @@ static_galaxy_scenario = {
             x = 76
             y = 227
         }
-        #initializer = Somonorr
     }
 
     system = {
@@ -2150,7 +1937,6 @@ static_galaxy_scenario = {
             x = 77
             y = 52
         }
-        #initializer = TeslaPrime
     }
 
     system = {
@@ -2160,7 +1946,6 @@ static_galaxy_scenario = {
             x = 77
             y = 368
         }
-        #initializer = Svehlin
     }
 
     system = {
@@ -2170,7 +1955,6 @@ static_galaxy_scenario = {
             x = 78
             y = -81
         }
-        #initializer = Lastrati
     }
 
     system = {
@@ -2180,7 +1964,6 @@ static_galaxy_scenario = {
             x = 78
             y = 255
         }
-        #initializer = bakka2
     }
 
     system = {
@@ -2190,7 +1973,6 @@ static_galaxy_scenario = {
             x = 84
             y = 98
         }
-        #initializer = Tirathain
     }
 
     system = {
@@ -2200,7 +1982,6 @@ static_galaxy_scenario = {
             x = 86
             y = 315
         }
-        #initializer = Lyriax
     }
 
     system = {
@@ -2210,7 +1991,6 @@ static_galaxy_scenario = {
             x = 87
             y = 68
         }
-        #initializer = Felis
     }
 
     system = {
@@ -2220,7 +2000,6 @@ static_galaxy_scenario = {
             x = 92
             y = 279
         }
-        #initializer = Calderia
     }
 
     system = {
@@ -2230,7 +2009,6 @@ static_galaxy_scenario = {
             x = 93
             y = -206
         }
-        #initializer = Zhoros
     }
 
     system = {
@@ -2240,7 +2018,6 @@ static_galaxy_scenario = {
             x = 97
             y = 54
         }
-        #initializer = Rigant
     }
 
     system = {
@@ -2250,7 +2027,6 @@ static_galaxy_scenario = {
             x = 97
             y = 298
         }
-        # #initializer = sys_225_init
     }
 
     system = {
@@ -2260,7 +2036,6 @@ static_galaxy_scenario = {
             x = 98
             y = 106
         }
-        #initializer = Daciaa
     }
 
     system = {
@@ -2270,7 +2045,6 @@ static_galaxy_scenario = {
             x = 99
             y = -21
         }
-        # #initializer = sys_228_init
     }
 
     system = {
@@ -2280,7 +2054,6 @@ static_galaxy_scenario = {
             x = 106
             y = -246
         }
-        #initializer = Kanak
     }
 
     system = {
@@ -2290,7 +2063,6 @@ static_galaxy_scenario = {
             x = 107
             y = -157
         }
-        #initializer = Lugganath
     }
 
     system = {
@@ -2300,7 +2072,6 @@ static_galaxy_scenario = {
             x = 110
             y = 3
         }
-        #initializer = Catachan
     }
 
     system = {
@@ -2310,7 +2081,6 @@ static_galaxy_scenario = {
             x = 110
             y = 34
         }
-        #initializer = Kato
     }
 
     system = {
@@ -2320,7 +2090,6 @@ static_galaxy_scenario = {
             x = 110
             y = 124
         }
-        # #initializer = sys_233_init
     }
 
     system = {
@@ -2330,7 +2099,6 @@ static_galaxy_scenario = {
             x = 110
             y = 210
         }
-        #initializer = Jurnn
     }
 
     system = {
@@ -2340,7 +2108,6 @@ static_galaxy_scenario = {
             x = 111
             y = -412
         }
-        #initializer = Kronite
     }
 
     system = {
@@ -2350,7 +2117,6 @@ static_galaxy_scenario = {
             x = 111
             y = 77
         }
-        # #initializer = sys_236_init
     }
 
     system = {
@@ -2360,7 +2126,6 @@ static_galaxy_scenario = {
             x = 112
             y = 244
         }
-        #initializer = Phobian
     }
 
     system = {
@@ -2370,7 +2135,6 @@ static_galaxy_scenario = {
             x = 113
             y = -130
         }
-        #initializer = Ornsworld
     }
 
     system = {
@@ -2380,7 +2144,6 @@ static_galaxy_scenario = {
             x = 113
             y = -82
         }
-        #initializer = Elysia
     }
 
     system = {
@@ -2390,7 +2153,6 @@ static_galaxy_scenario = {
             x = 113
             y = 219
         }
-        #initializer = Aleusis
     }
 
     system = {
@@ -2400,7 +2162,6 @@ static_galaxy_scenario = {
             x = 114
             y = 92
         }
-        #initializer = EpsionOctarius
     }
 
     system = {
@@ -2410,7 +2171,6 @@ static_galaxy_scenario = {
             x = 116
             y = 110
         }
-        #initializer = Valedor
     }
 
     system = {
@@ -2420,7 +2180,6 @@ static_galaxy_scenario = {
             x = 116
             y = 144
         }
-        #initializer = Tallarn
     }
 
     system = {
@@ -2430,7 +2189,6 @@ static_galaxy_scenario = {
             x = 119
             y = -125
         }
-        #initializer = Talus
     }
 
     system = {
@@ -2440,7 +2198,6 @@ static_galaxy_scenario = {
             x = 122
             y = -228
         }
-        #initializer = Outrenacht
     }
 
     system = {
@@ -2450,7 +2207,6 @@ static_galaxy_scenario = {
             x = 122
             y = -187
         }
-        #initializer = Zephyr
     }
 
     system = {
@@ -2460,7 +2216,6 @@ static_galaxy_scenario = {
             x = 123
             y = -216
         }
-        # #initializer = sys_247_init
     }
 
     system = {
@@ -2470,7 +2225,6 @@ static_galaxy_scenario = {
             x = 129
             y = -16
         }
-        #initializer = Keletros
     }
 
     system = {
@@ -2480,7 +2234,6 @@ static_galaxy_scenario = {
             x = 130
             y = -152
         }
-        #initializer = Bray
     }
 
     system = {
@@ -2490,7 +2243,6 @@ static_galaxy_scenario = {
             x = 130
             y = -116
         }
-        #initializer = Paramar
     }
 
     system = {
@@ -2500,7 +2252,6 @@ static_galaxy_scenario = {
             x = 133
             y = -45
         }
-        #initializer = Dentorr
     }
 
     system = {
@@ -2510,7 +2261,6 @@ static_galaxy_scenario = {
             x = 134
             y = 312
         }
-        #initializer = Myr
     }
 
     system = {
@@ -2520,7 +2270,6 @@ static_galaxy_scenario = {
             x = 135
             y = -282
         }
-        #initializer = CypraMundi
     }
 
     system = {
@@ -2530,7 +2279,6 @@ static_galaxy_scenario = {
             x = 138
             y = -200
         }
-        #initializer = Mordian
     }
 	
 	system = {
@@ -2540,7 +2288,6 @@ static_galaxy_scenario = {
             x = 142
             y = -203
         }
-        #initializer = Dhobash
     }
 	
 	system = {
@@ -2550,7 +2297,6 @@ static_galaxy_scenario = {
             x = 130
             y = -202
         }
-        #initializer = Khravos
     }
 	
 	system = {
@@ -2560,7 +2306,6 @@ static_galaxy_scenario = {
             x = 145
             y = -195
         }
-        #initializer = Prismata
     }
 	
 	system = {
@@ -2570,7 +2315,6 @@ static_galaxy_scenario = {
             x = 145
             y = -210
         }
-        #initializer = Salamar
     }
 	
 	system = {
@@ -2580,7 +2324,6 @@ static_galaxy_scenario = {
             x = 150
             y = -202
         }
-        #initializer = Urtek
     }
 
     system = {
@@ -2590,7 +2333,6 @@ static_galaxy_scenario = {
             x = 140
             y = 31
         }
-        #initializer = Banna
     }
 
     system = {
@@ -2600,7 +2342,6 @@ static_galaxy_scenario = {
             x = 142
             y = -43
         }
-        #initializer = Harkon
     }
 
     system = {
@@ -2610,7 +2351,6 @@ static_galaxy_scenario = {
             x = 136.5908
             y = 273.7457
         }
-        #initializer = GryphonneIV
     }
 
     system = {
@@ -2620,7 +2360,6 @@ static_galaxy_scenario = {
             x = 144
             y = 89
         }
-        #initializer = Carpathea
     }
 
     system = {
@@ -2630,7 +2369,6 @@ static_galaxy_scenario = {
             x = 144
             y = 106
         }
-        #initializer = Posul
     }
 
     system = {
@@ -2640,7 +2378,6 @@ static_galaxy_scenario = {
             x = 145
             y = 5
         }
-        #initializer = Ryza
     }
 
     system = {
@@ -2650,7 +2387,6 @@ static_galaxy_scenario = {
             x = 145
             y = 197
         }
-        #initializer = VRun
     }
 
     system = {
@@ -2660,7 +2396,6 @@ static_galaxy_scenario = {
             x = 147
             y = -101
         }
-        #initializer = Vanaheim
     }
 
     system = {
@@ -2670,7 +2405,6 @@ static_galaxy_scenario = {
             x = 148
             y = 242
         }
-        #initializer = Skaroth
     }
 
     system = {
@@ -2680,7 +2414,6 @@ static_galaxy_scenario = {
             x = 150
             y = 130
         }
-        # #initializer = sys_264_init
     }
 
     system = {
@@ -2690,7 +2423,6 @@ static_galaxy_scenario = {
             x = 156
             y = 76
         }
-        #initializer = Rassios
     }
 
     system = {
@@ -2700,7 +2432,6 @@ static_galaxy_scenario = {
             x = 157
             y = 182
         }
-        #initializer = Forgefane
     }
 
     system = {
@@ -2710,7 +2441,6 @@ static_galaxy_scenario = {
             x = 157
             y = 274
         }
-        #initializer = Deliverance
     }
 
     system = {
@@ -2720,7 +2450,6 @@ static_galaxy_scenario = {
             x = 161
             y = -112
         }
-        #initializer = Fenris
     }
 
     system = {
@@ -2730,7 +2459,6 @@ static_galaxy_scenario = {
             x = 161
             y = -63
         }
-        #initializer = Minervaa
     }
 
     system = {
@@ -2740,7 +2468,6 @@ static_galaxy_scenario = {
             x = 163
             y = -49
         }
-        # #initializer = sys_270_init
     }
 
     system = {
@@ -2750,7 +2477,6 @@ static_galaxy_scenario = {
             x = 163
             y = -17
         }
-        #initializer = Barac
     }
 
     system = {
@@ -2760,7 +2486,6 @@ static_galaxy_scenario = {
             x = 163
             y = 22
         }
-        # #initializer = sys_272_init
     }
 
     system = {
@@ -2770,7 +2495,6 @@ static_galaxy_scenario = {
             x = 163
             y = 147
         }
-        #initializer = RutherMcintyre
     }
 
     system = {
@@ -2780,7 +2504,6 @@ static_galaxy_scenario = {
             x = 166
             y = 2
         }
-        #initializer = Ulani
     }
 
     system = {
@@ -2790,7 +2513,6 @@ static_galaxy_scenario = {
             x = 166
             y = 323
         }
-        #initializer = southchaos_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = southchaos_empire } }
     }
 
     system = {
@@ -2800,7 +2522,6 @@ static_galaxy_scenario = {
             x = 169
             y = -123
         }
-        # #initializer = sys_276_init
     }
 
     system = {
@@ -2810,7 +2531,6 @@ static_galaxy_scenario = {
             x = 174
             y = -283
         }
-        # #initializer = sys_277_init
     }
 
     system = {
@@ -2820,7 +2540,6 @@ static_galaxy_scenario = {
             x = 175
             y = -144
         }
-        #initializer = BelisCorona
     }
 
     system = {
@@ -2830,7 +2549,6 @@ static_galaxy_scenario = {
             x = 179
             y = -31
         }
-        # #initializer = sys_279_init
     }
 
     system = {
@@ -2840,7 +2558,6 @@ static_galaxy_scenario = {
             x = 179
             y = 39
         }
-        #initializer = Sulairn
     }
 
     system = {
@@ -2850,7 +2567,6 @@ static_galaxy_scenario = {
             x = 180
             y = -235
         }
-        #initializer = dregruk_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = dregruk_empire } }
     }
 
 	system = {
@@ -2860,7 +2576,6 @@ static_galaxy_scenario = {
             x = 185
             y = -240
         }
-        #initializer = DaForktress
     }
 	
 	system = {
@@ -2870,7 +2585,6 @@ static_galaxy_scenario = {
             x = 190
             y = -245
         }
-        #initializer = Absteron
     }
 	
 	system = {
@@ -2880,7 +2594,6 @@ static_galaxy_scenario = {
             x = 175
             y = -230
         }
-        #initializer = Corva
     }
 	
 	system = {
@@ -2890,7 +2603,6 @@ static_galaxy_scenario = {
             x = 170
             y = -225
         }
-        #initializer = Marlisanct
     }
 	
     system = {
@@ -2900,7 +2612,6 @@ static_galaxy_scenario = {
             x = 180
             y = -150
         }
-        #initializer = Purgatory
     }
 
     system = {
@@ -2910,7 +2621,6 @@ static_galaxy_scenario = {
             x = 181
             y = 354
         }
-        #initializer = Tremert
     }
 
     system = {
@@ -2920,7 +2630,6 @@ static_galaxy_scenario = {
             x = 183
             y = -390
         }
-        #initializer = slaugth_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = slaugth_star_empire } }
     }
 
     system = {
@@ -2930,7 +2639,6 @@ static_galaxy_scenario = {
             x = 184.7743
             y = -1.703213
         }
-        #initializer = Xenax
     }
 
     system = {
@@ -2940,7 +2648,6 @@ static_galaxy_scenario = {
             x = 184.163
             y = -67.90369
         }
-        # #initializer = sys_286_init
     }
 
     system = {
@@ -2950,7 +2657,6 @@ static_galaxy_scenario = {
             x = 186
             y = 86
         }
-        # #initializer = sys_287_init
     }
 
     system = {
@@ -2960,7 +2666,6 @@ static_galaxy_scenario = {
             x = 189
             y = -132
         }
-        # #initializer = sys_288_init
     }
 
     system = {
@@ -2970,7 +2675,6 @@ static_galaxy_scenario = {
             x = 191
             y = -320
         }
-        #initializer = Cilix
     }
 
     system = {
@@ -2980,7 +2684,6 @@ static_galaxy_scenario = {
             x = 192
             y = -199
         }
-        #initializer = Vostroya
     }
 
     system = {
@@ -2990,7 +2693,6 @@ static_galaxy_scenario = {
             x = 193
             y = 324
         }
-        #initializer = Pleuric
     }
 
     system = {
@@ -3000,7 +2702,6 @@ static_galaxy_scenario = {
             x = 195.3979
             y = -85.18843
         }
-        #initializer = armageddon2
     }
 
     system = {
@@ -3010,7 +2711,6 @@ static_galaxy_scenario = {
             x = 196
             y = -49
         }
-        #initializer = Avellorn
     }
 
     system = {
@@ -3020,7 +2720,6 @@ static_galaxy_scenario = {
             x = 196
             y = 130
         }
-        #initializer = Pintax
     }
 
     system = {
@@ -3030,7 +2729,6 @@ static_galaxy_scenario = {
             x = 197
             y = 111
         }
-        #initializer = Yarant
     }
 
     system = {
@@ -3040,7 +2738,6 @@ static_galaxy_scenario = {
             x = 201
             y = 146
         }
-        #initializer = Stormvald
     }
 
     system = {
@@ -3050,7 +2747,6 @@ static_galaxy_scenario = {
             x = 201
             y = 284
         }
-        #initializer = Targus
     }
 
     system = {
@@ -3060,7 +2756,6 @@ static_galaxy_scenario = {
             x = 202
             y = 360
         }
-        #initializer = MortariusVault
     }
 
     system = {
@@ -3070,7 +2765,7 @@ static_galaxy_scenario = {
             x = 204
             y = -6
         }
-        initializer = mankind_homeworld spawn_weight = { base = 0 modifier = { add = 10 has_country_flag = the_mankind } }
+		initializer = mankind_homeworld spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_mankind } }
     }
 
     system = {
@@ -3080,7 +2775,6 @@ static_galaxy_scenario = {
             x = 207
             y = 38
         }
-        #initializer = Paragon
     }
 
     system = {
@@ -3090,7 +2784,6 @@ static_galaxy_scenario = {
             x = 208
             y = -158
         }
-        #initializer = Antorro
     }
 
     system = {
@@ -3100,7 +2793,6 @@ static_galaxy_scenario = {
             x = 210
             y = 181
         }
-        #initializer = Raikan
     }
 
     system = {
@@ -3110,7 +2802,6 @@ static_galaxy_scenario = {
             x = 212
             y = -133
         }
-        #initializer = Uralan
     }
 
     system = {
@@ -3120,7 +2811,6 @@ static_galaxy_scenario = {
             x = 13.82777
             y = -243.1794
         }
-        #initializer = portmaw2
     }
 
     system = {
@@ -3130,7 +2820,6 @@ static_galaxy_scenario = {
             x = 213
             y = -101
         }
-        # #initializer = sys_305_init
     }
 
     system = {
@@ -3140,7 +2829,6 @@ static_galaxy_scenario = {
             x = 213
             y = 77
         }
-        #initializer = Necromunda
     }
 
     system = {
@@ -3150,7 +2838,6 @@ static_galaxy_scenario = {
             x = 213
             y = 158
         }
-        #initializer = OphelliaVII
     }
 
     system = {
@@ -3160,7 +2847,6 @@ static_galaxy_scenario = {
             x = 215
             y = -151
         }
-        #initializer = Piscina
     }
 
     system = {
@@ -3170,7 +2856,6 @@ static_galaxy_scenario = {
             x = 228
             y = 289
         }
-        #initializer = Illustris
     }
 
     system = {
@@ -3180,7 +2865,6 @@ static_galaxy_scenario = {
             x = 230
             y = 372
         }
-        #initializer = Sternmost
     }
 
     system = {
@@ -3190,7 +2874,6 @@ static_galaxy_scenario = {
             x = 231
             y = -130
         }
-        #initializer = ulthwe_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eldar_ulthwe_empire } }
     }
 
     system = {
@@ -3200,7 +2883,6 @@ static_galaxy_scenario = {
             x = 231
             y = -69
         }
-        #initializer = ElPhanor
     }
 
     system = {
@@ -3210,7 +2892,6 @@ static_galaxy_scenario = {
             x = 231
             y = 106
         }
-        # #initializer = sys_313_init
     }
 
     system = {
@@ -3220,7 +2901,6 @@ static_galaxy_scenario = {
             x = 237
             y = -144
         }
-        #initializer = FoolsParadise
     }
 
     system = {
@@ -3230,7 +2910,6 @@ static_galaxy_scenario = {
             x = 238
             y = -61
         }
-        # #initializer = sys_315_init
     }
 
     system = {
@@ -3240,7 +2919,6 @@ static_galaxy_scenario = {
             x = 240
             y = 233
         }
-        #initializer = Solstice
     }
 
     system = {
@@ -3250,7 +2928,6 @@ static_galaxy_scenario = {
             x = 243
             y = -314
         }
-        #initializer = Brycantia
     }
 
     system = {
@@ -3260,7 +2937,6 @@ static_galaxy_scenario = {
             x = 246
             y = -240
         }
-        # #initializer = sys_318_init
     }
 
     system = {
@@ -3270,7 +2946,6 @@ static_galaxy_scenario = {
             x = 246
             y = -183
         }
-        # #initializer = sys_319_init
     }
 
     system = {
@@ -3280,7 +2955,6 @@ static_galaxy_scenario = {
             x = 249
             y = 34
         }
-        #initializer = Gathalamorr
     }
 
     system = {
@@ -3290,7 +2964,6 @@ static_galaxy_scenario = {
             x = 250
             y = 262
         }
-        #initializer = StCaspalen
     }
 
     system = {
@@ -3300,7 +2973,6 @@ static_galaxy_scenario = {
             x = 251
             y = -170
         }
-        #initializer = Arx
     }
 
     system = {
@@ -3310,7 +2982,6 @@ static_galaxy_scenario = {
             x = 251
             y = -161
         }
-        #initializer = eyechaos_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eyechaos_empire } }
     }
 
     system = {
@@ -3320,7 +2991,6 @@ static_galaxy_scenario = {
             x = 270.5031
             y = -132.0547
         }
-        #initializer = cadia2
     }
 
     system = {
@@ -3330,7 +3000,6 @@ static_galaxy_scenario = {
             x = 252
             y = 329
         }
-        #initializer = Naiatoc
     }
 
     system = {
@@ -3340,7 +3009,6 @@ static_galaxy_scenario = {
             x = 253
             y = -278
         }
-        #initializer = Treconandal
     }
 
     system = {
@@ -3350,7 +3018,6 @@ static_galaxy_scenario = {
             x = 255
             y = -329
         }
-        #initializer = Kanzuz
     }
 
     system = {
@@ -3360,7 +3027,6 @@ static_galaxy_scenario = {
             x = 255
             y = -56
         }
-        #initializer = Ingiga
     }
 
     system = {
@@ -3370,7 +3036,6 @@ static_galaxy_scenario = {
             x = 258
             y = 201
         }
-        #initializer = bieltan_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eldar_bieltan_empire } }
     }
 
     system = {
@@ -3380,7 +3045,6 @@ static_galaxy_scenario = {
             x = 260
             y = 113
         }
-        #initializer = Krieg
     }
 
     system = {
@@ -3390,7 +3054,6 @@ static_galaxy_scenario = {
             x = 262
             y = 69
         }
-        #initializer = Eyrie
     }
 
     system = {
@@ -3400,7 +3063,6 @@ static_galaxy_scenario = {
             x = 264
             y = -217
         }
-        #initializer = Caliban
     }
 
     system = {
@@ -3410,7 +3072,6 @@ static_galaxy_scenario = {
             x = 269.8522
             y = -123.918
         }
-        #initializer = EnceavorofWill
     }
 
     system = {
@@ -3420,7 +3081,6 @@ static_galaxy_scenario = {
             x = 267
             y = -89
         }
-        # #initializer = sys_335_init
     }
 
     system = {
@@ -3430,7 +3090,6 @@ static_galaxy_scenario = {
             x = 268
             y = -200
         }
-        # #initializer = sys_336_init
     }
 
     system = {
@@ -3440,7 +3099,6 @@ static_galaxy_scenario = {
             x = 268
             y = -13
         }
-        #initializer = Sanctum
     }
 
     system = {
@@ -3450,7 +3108,6 @@ static_galaxy_scenario = {
             x = 269
             y = 187
         }
-        #initializer = Ghorstangrad
     }
 
     system = {
@@ -3460,7 +3117,6 @@ static_galaxy_scenario = {
             x = 270
             y = -233
         }
-        #initializer = Galthrog
     }
 
     system = {
@@ -3470,7 +3126,6 @@ static_galaxy_scenario = {
             x = 270
             y = 80
         }
-        #initializer = Calverna
     }
 
     system = {
@@ -3480,7 +3135,6 @@ static_galaxy_scenario = {
             x = 272
             y = -30
         }
-        # #initializer = sys_341_init
     }
 
     system = {
@@ -3490,7 +3144,6 @@ static_galaxy_scenario = {
             x = 282.5692
             y = -100.8193
         }
-        # #initializer = sys_342_init
     }
 
     system = {
@@ -3500,7 +3153,6 @@ static_galaxy_scenario = {
             x = 277
             y = 226
         }
-        # #initializer = sys_343_init
     }
 
     system = {
@@ -3510,7 +3162,6 @@ static_galaxy_scenario = {
             x = 278
             y = -182
         }
-        # #initializer = sys_344_init
     }
 
     system = {
@@ -3520,7 +3171,6 @@ static_galaxy_scenario = {
             x = 282
             y = -326
         }
-        #initializer = Lanorra
     }
 
     system = {
@@ -3530,7 +3180,6 @@ static_galaxy_scenario = {
             x = 290.3029
             y = -102.1625
         }
-        #initializer = IlKaithe
     }
 
     system = {
@@ -3540,7 +3189,6 @@ static_galaxy_scenario = {
             x = 289.9585
             y = -95.9933
         }
-        #initializer = MahrDuuk
     }
 
     system = {
@@ -3550,7 +3198,6 @@ static_galaxy_scenario = {
             x = 287
             y = 176
         }
-        #initializer = Prosul
     }
 
     system = {
@@ -3560,7 +3207,6 @@ static_galaxy_scenario = {
             x = 290
             y = -16
         }
-        #initializer = Rhanna
     }
 
     system = {
@@ -3570,7 +3216,6 @@ static_galaxy_scenario = {
             x = 294
             y = 28
         }
-        #initializer = Drondii
     }
 
     system = {
@@ -3580,7 +3225,6 @@ static_galaxy_scenario = {
             x = 296
             y = -196
         }
-        #initializer = ymeloc_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eldar_ymeloc_empire } }
     }
 
     system = {
@@ -3590,7 +3234,6 @@ static_galaxy_scenario = {
             x = 298
             y = -400
         }
-        # #initializer = sys_353_init
     }
 
     system = {
@@ -3600,7 +3243,6 @@ static_galaxy_scenario = {
             x = 300
             y = -249
         }
-        #initializer = Avignor
     }
 
     system = {
@@ -3610,7 +3252,6 @@ static_galaxy_scenario = {
             x = 302
             y = -230
         }
-        #initializer = KhaiZahn
     }
 
     system = {
@@ -3620,7 +3261,6 @@ static_galaxy_scenario = {
             x = 304
             y = 264
         }
-        #initializer = LalintaPrime
     }
 
     system = {
@@ -3630,7 +3270,6 @@ static_galaxy_scenario = {
             x = 312
             y = -61
         }
-        #initializer = Banish
     }
 
     system = {
@@ -3640,7 +3279,6 @@ static_galaxy_scenario = {
             x = 313
             y = 18
         }
-        #initializer = Methalor
     }
 
     system = {
@@ -3650,7 +3288,6 @@ static_galaxy_scenario = {
             x = 319
             y = -162
         }
-        #initializer = Draconith
     }
 
     system = {
@@ -3660,7 +3297,6 @@ static_galaxy_scenario = {
             x = 320
             y = -45
         }
-        #initializer = Sabatine
     }
 
     system = {
@@ -3670,7 +3306,6 @@ static_galaxy_scenario = {
             x = 320
             y = 1
         }
-        #initializer = Colcha
     }
 
     system = {
@@ -3680,7 +3315,6 @@ static_galaxy_scenario = {
             x = 320
             y = 223
         }
-        #initializer = Cretacia
     }
 
     system = {
@@ -3690,7 +3324,6 @@ static_galaxy_scenario = {
             x = 335.581
             y = -107.827
         }
-        #initializer = Darkhold
     }
 
     system = {
@@ -3700,7 +3333,6 @@ static_galaxy_scenario = {
             x = 322
             y = 47
         }
-        #initializer = Guryan
     }
 
     system = {
@@ -3710,7 +3342,6 @@ static_galaxy_scenario = {
             x = 323
             y = 259
         }
-        #initializer = Athelaqq
     }
 
     system = {
@@ -3720,7 +3351,6 @@ static_galaxy_scenario = {
             x = 324
             y = 145
         }
-        #initializer = Loriar
     }
 
     system = {
@@ -3730,7 +3360,6 @@ static_galaxy_scenario = {
             x = 327
             y = 7
         }
-        #initializer = SaimHann
     }
 
     system = {
@@ -3740,7 +3369,6 @@ static_galaxy_scenario = {
             x = 331
             y = -82
         }
-        #initializer = Hydraphur
     }
 
     system = {
@@ -3750,7 +3378,6 @@ static_galaxy_scenario = {
             x = 336
             y = -58
         }
-        #initializer = Excovar
     }
 
     system = {
@@ -3760,7 +3387,6 @@ static_galaxy_scenario = {
             x = 336
             y = 14
         }
-        #initializer = Cabulis
     }
 
     system = {
@@ -3770,7 +3396,6 @@ static_galaxy_scenario = {
             x = 338
             y = 56
         }
-        #initializer = MoonoftheNightmares
     }
 
     system = {
@@ -3780,7 +3405,6 @@ static_galaxy_scenario = {
             x = 342
             y = 33
         }
-        #initializer = Macharia
     }
 
     system = {
@@ -3790,7 +3414,6 @@ static_galaxy_scenario = {
             x = 345
             y = 107
         }
-        #initializer = Tanith
     }
 
     system = {
@@ -3800,7 +3423,6 @@ static_galaxy_scenario = {
             x = 353
             y = 63
         }
-        #initializer = Chiros
     }
 
     system = {
@@ -3810,7 +3432,6 @@ static_galaxy_scenario = {
             x = 356
             y = -341
         }
-        #initializer = Kaledon
     }
 
     system = {
@@ -3820,7 +3441,6 @@ static_galaxy_scenario = {
             x = 356
             y = 109
         }
-        #initializer = Sapiencia
     }
 
     system = {
@@ -3830,7 +3450,6 @@ static_galaxy_scenario = {
             x = 357
             y = -197
         }
-        # #initializer = sys_385_init
     }
 
     system = {
@@ -3840,7 +3459,6 @@ static_galaxy_scenario = {
             x = 361.8199
             y = -146.4317
         }
-        #initializer = OgrisMajor
     }
 
     system = {
@@ -3850,7 +3468,6 @@ static_galaxy_scenario = {
             x = 359
             y = 119
         }
-        #initializer = Grimoyr
     }
 
     system = {
@@ -3860,7 +3477,6 @@ static_galaxy_scenario = {
             x = 360
             y = 130
         }
-        #initializer = Cociaminus
     }
 
     system = {
@@ -3870,7 +3486,6 @@ static_galaxy_scenario = {
             x = 361
             y = 96
         }
-        #initializer = Oscillia
     }
 
     system = {
@@ -3880,7 +3495,6 @@ static_galaxy_scenario = {
             x = 363
             y = 90
         }
-        #initializer = Tunusk
     }
 
     system = {
@@ -3890,7 +3504,6 @@ static_galaxy_scenario = {
             x = 367
             y = 82
         }
-        #initializer = Jago
     }
 
     system = {
@@ -3900,7 +3513,6 @@ static_galaxy_scenario = {
             x = 367
             y = 106
         }
-        #initializer = Verghast
     }
 
     system = {
@@ -3910,7 +3522,6 @@ static_galaxy_scenario = {
             x = 367
             y = 139
         }
-        #initializer = FormalPrime
     }
 
     system = {
@@ -3920,7 +3531,6 @@ static_galaxy_scenario = {
             x = 371
             y = 142
         }
-        #initializer = Ashek
     }
 
     system = {
@@ -3930,7 +3540,6 @@ static_galaxy_scenario = {
             x = 372
             y = 96
         }
-        #initializer = sabbathchaos_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = sabbathchaos_empire } }
     }
 
     system = {
@@ -3940,7 +3549,6 @@ static_galaxy_scenario = {
             x = 372
             y = 118
         }
-        #initializer = Phantine
     }
 
     system = {
@@ -3950,7 +3558,6 @@ static_galaxy_scenario = {
             x = 377
             y = 85
         }
-        #initializer = Venthal
     }
 
     system = {
@@ -3960,7 +3567,6 @@ static_galaxy_scenario = {
             x = 380
             y = 80
         }
-        #initializer = Tarnagua
     }
 
     system = {
@@ -3970,7 +3576,6 @@ static_galaxy_scenario = {
             x = 384
             y = 73
         }
-        #initializer = Morlond
     }
 
     system = {
@@ -3980,7 +3585,6 @@ static_galaxy_scenario = {
             x = 385
             y = 96
         }
-        #initializer = Urdesh
     }
 
     system = {
@@ -3990,7 +3594,6 @@ static_galaxy_scenario = {
             x = 385
             y = 137
         }
-        # #initializer = sys_402_init
     }
 
     system = {
@@ -4000,7 +3603,6 @@ static_galaxy_scenario = {
             x = 386
             y = 24
         }
-        #initializer = Kallastin
     }
 
     system = {
@@ -4010,7 +3612,6 @@ static_galaxy_scenario = {
             x = 398
             y = 49
         }
-        #initializer = Thoth
     }
 
     system = {
@@ -4020,7 +3621,6 @@ static_galaxy_scenario = {
             x = 402
             y = 7
         }
-        #initializer = Jakart
     }
 
     system = {
@@ -4030,7 +3630,6 @@ static_galaxy_scenario = {
             x = 417
             y = 58
         }
-        #initializer = Jucha
     }
 
     system = {
@@ -4040,7 +3639,6 @@ static_galaxy_scenario = {
             x = 430
             y = 24
         }
-        #initializer = Adrantis
     }
 
     system = {
@@ -4050,7 +3648,6 @@ static_galaxy_scenario = {
             x = 443
             y = 16
         }
-        #initializer = UltimaMacharia
     }
 
     system = {
@@ -4060,7 +3657,6 @@ static_galaxy_scenario = {
             x = 19.87742
             y = -247.5009
         }
-        #initializer = Bretz
     }
 
     system = {
@@ -4070,7 +3666,6 @@ static_galaxy_scenario = {
             x = 20.95772
             y = -240.371
         }
-        #initializer = Lethe
     }
 
     system = {
@@ -4080,7 +3675,6 @@ static_galaxy_scenario = {
             x = 11.45112
             y = -249.6614
         }
-        #initializer = Electris
     }
 
     system = {
@@ -4090,7 +3684,6 @@ static_galaxy_scenario = {
             x = 18.58106
             y = -234.7529
         }
-        #initializer = Ortho
     }
 
     system = {
@@ -4100,7 +3693,6 @@ static_galaxy_scenario = {
             x = 7.346003
             y = -242.964
         }
-        #initializer = Walpurgis
     }
 
     system = {
@@ -4110,7 +3702,6 @@ static_galaxy_scenario = {
             x = 12.31536
             y = -237.346
         }
-        #initializer = Aeolus
     }
 
     system = {
@@ -4120,7 +3711,6 @@ static_galaxy_scenario = {
             x = 23.33436
             y = -262.8408
         }
-        #initializer = Vindalex
     }
 
     system = {
@@ -4130,7 +3720,6 @@ static_galaxy_scenario = {
             x = 28.95189
             y = -261.1123
         }
-        #initializer = Schindlegeist
     }
 
     system = {
@@ -4140,7 +3729,6 @@ static_galaxy_scenario = {
             x = 32.6249
             y = -254.8469
         }
-        #initializer = Bladen
     }
 
     system = {
@@ -4150,7 +3738,6 @@ static_galaxy_scenario = {
             x = 25.71101
             y = -256.3594
         }
-        #initializer = Coimbra
     }
 
     system = {
@@ -4160,7 +3747,6 @@ static_galaxy_scenario = {
             x = 25.27889
             y = -267.8103
         }
-        #initializer = Tarantis
     }
 
     system = {
@@ -4170,7 +3756,6 @@ static_galaxy_scenario = {
             x = 33.48914
             y = -263.922
         }
-        #initializer = Skagerrak
     }
 
     system = {
@@ -4180,7 +3765,6 @@ static_galaxy_scenario = {
             x = 32.13493
             y = -234.4683
         }
-        #initializer = Stranivar
     }
 
     system = {
@@ -4190,7 +3774,6 @@ static_galaxy_scenario = {
             x = 46.39803
             y = -245.2943
         }
-        #initializer = Krool
     }
 
     system = {
@@ -4200,7 +3783,6 @@ static_galaxy_scenario = {
             x = 50.12567
             y = -240.371
         }
-        #initializer = Kharlos
     }
 
     system = {
@@ -4210,7 +3792,6 @@ static_galaxy_scenario = {
             x = 41.05119
             y = -241.4509
         }
-        #initializer = BheinMorr
     }
 
     system = {
@@ -4220,7 +3801,6 @@ static_galaxy_scenario = {
             x = 31.97672
             y = -242.0995
         }
-        #initializer = Balaam
     }
 
     system = {
@@ -4230,7 +3810,6 @@ static_galaxy_scenario = {
             x = 36.08184
             y = -238.8585
         }
-        #initializer = Elysium
     }
 
     system = {
@@ -4240,7 +3819,6 @@ static_galaxy_scenario = {
             x = 43.21178
             y = -264.7859
         }
-        #initializer = Slade
     }
 
     system = {
@@ -4250,7 +3828,6 @@ static_galaxy_scenario = {
             x = 51.63808
             y = -263.7054
         }
-        #initializer = Moab
     }
 
     system = {
@@ -4260,7 +3837,6 @@ static_galaxy_scenario = {
             x = 54.23079
             y = -257.6553
         }
-        #initializer = Misere
     }
 
     system = {
@@ -4270,7 +3846,6 @@ static_galaxy_scenario = {
             x = 50.55779
             y = -252.0385
         }
-        #initializer = Platea
     }
 
     system = {
@@ -4280,7 +3855,6 @@ static_galaxy_scenario = {
             x = 47.96508
             y = -258.0879
         }
-        #initializer = Mezoa
     }
 
     system = {
@@ -4290,7 +3864,6 @@ static_galaxy_scenario = {
             x = 43.6439
             y = -254.1983
         }
-        #initializer = Halemnet
     }
 
     system = {
@@ -4300,7 +3873,6 @@ static_galaxy_scenario = {
             x = 47.53296
             y = -228.4881
         }
-        #initializer = Gethsemane
     }
 
     system = {
@@ -4310,7 +3882,6 @@ static_galaxy_scenario = {
             x = 53.15049
             y = -228.0561
         }
-        #initializer = Erebus
     }
 
     system = {
@@ -4320,7 +3891,6 @@ static_galaxy_scenario = {
             x = 49.69355
             y = -222.87
         }
-        #initializer = Zpandex
     }
 
     system = {
@@ -4330,7 +3900,6 @@ static_galaxy_scenario = {
             x = 42.13149
             y = -223.3026
         }
-        #initializer = Cherys
     }
 
     system = {
@@ -4340,7 +3909,6 @@ static_galaxy_scenario = {
             x = 43.85996
             y = -233.2416
         }
-        #initializer = Lashattau
     }
 
     system = {
@@ -4350,7 +3918,6 @@ static_galaxy_scenario = {
             x = 39.53878
             y = -229.352
         }
-        #initializer = Gath
     }
 
     system = {
@@ -4360,7 +3927,6 @@ static_galaxy_scenario = {
             x = 33.70519
             y = -217.9011
         }
-        #initializer = Helwurld
     }
 
     system = {
@@ -4370,7 +3936,6 @@ static_galaxy_scenario = {
             x = 27.22342
             y = -216.6046
         }
-        #initializer = Orar
     }
 
     system = {
@@ -4380,7 +3945,6 @@ static_galaxy_scenario = {
             x = 34.56942
             y = -210.7706
         }
-        #initializer = Anvil206
     }
 
     system = {
@@ -4390,7 +3954,6 @@ static_galaxy_scenario = {
             x = 27.22342
             y = -210.5552
         }
-        #initializer = Picus
     }
 
     system = {
@@ -4400,7 +3963,6 @@ static_galaxy_scenario = {
             x = 20.30954
             y = -213.7962
         }
-        #initializer = AG106GSN
     }
 
     system = {
@@ -4410,7 +3972,6 @@ static_galaxy_scenario = {
             x = 22.03801
             y = -219.8456
         }
-        #initializer = Bligh
     }
 
     system = {
@@ -4420,7 +3981,6 @@ static_galaxy_scenario = {
             x = 58.59899
             y = -244.2629
         }
-        #initializer = Melos
     }
 
     system = {
@@ -4430,7 +3990,6 @@ static_galaxy_scenario = {
             x = 59.63005
             y = -238.9366
         }
-        #initializer = Thera
     }
 
     system = {
@@ -4440,7 +3999,6 @@ static_galaxy_scenario = {
             x = 65.47277
             y = -242.5451
         }
-        #initializer = Corilia
     }
 
     system = {
@@ -4450,7 +4008,6 @@ static_galaxy_scenario = {
             x = 68.39413
             y = -237.3898
         }
-        #initializer = Brigia
     }
 
     system = {
@@ -4460,7 +4017,6 @@ static_galaxy_scenario = {
             x = 71.31548
             y = -243.0605
         }
-        #initializer = Savaven
     }
 
     system = {
@@ -4470,7 +4026,6 @@ static_galaxy_scenario = {
             x = 5.401474
             y = -219.413
         }
-        # #initializer = sys_458_init
     }
 
     system = {
@@ -4480,7 +4035,6 @@ static_galaxy_scenario = {
             x = 348.5816
             y = 94.13455
         }
-        #initializer = Balhaut
     }
 
     system = {
@@ -4490,7 +4044,6 @@ static_galaxy_scenario = {
             x = 368.7656
             y = 133.6959
         }
-        #initializer = Onscard
     }
 
     system = {
@@ -4500,7 +4053,6 @@ static_galaxy_scenario = {
             x = 375.2251
             y = 136.5215
         }
-        #initializer = Hagia
     }
 
     system = {
@@ -4510,7 +4062,6 @@ static_galaxy_scenario = {
             x = 359.481
             y = 136.5215
         }
-        #initializer = LongHalent
     }
 
     system = {
@@ -4520,7 +4071,6 @@ static_galaxy_scenario = {
             x = 374.8215
             y = 131.2738
         }
-        #initializer = Sverren
     }
 
     system = {
@@ -4530,7 +4080,6 @@ static_galaxy_scenario = {
             x = 366.7477
             y = 128.0441
         }
-        #initializer = AmboldEleven
     }
 
     system = {
@@ -4540,7 +4089,6 @@ static_galaxy_scenario = {
             x = 372.3989
             y = 125.6226
         }
-        #initializer = FornaxAleph
     }
 
     system = {
@@ -4550,7 +4098,6 @@ static_galaxy_scenario = {
             x = 353.4257
             y = 100.5935
         }
-        #initializer = Fabia
     }
 
     system = {
@@ -4560,7 +4107,6 @@ static_galaxy_scenario = {
             x = 354.0731
             y = 130.9176
         }
-        #initializer = Gotthrone
     }
 
     system = {
@@ -4570,7 +4116,6 @@ static_galaxy_scenario = {
             x = 380.4307
             y = 124.5557
         }
-        #initializer = Hesketh
     }
 
     system = {
@@ -4580,7 +4125,6 @@ static_galaxy_scenario = {
             x = 366.343
             y = 120.9194
         }
-        #initializer = FortisBinary
     }
 
     system = {
@@ -4590,7 +4134,6 @@ static_galaxy_scenario = {
             x = 354.5263
             y = 125.9191
         }
-        #initializer = Melsar
     }
 
     system = {
@@ -4600,7 +4143,6 @@ static_galaxy_scenario = {
             x = 378.6134
             y = 117.2837
         }
-        #initializer = Taliscant
     }
 
     system = {
@@ -4610,7 +4152,6 @@ static_galaxy_scenario = {
             x = 325.4425
             y = 115.9209
         }
-        #initializer = Orestes
     }
 
     system = {
@@ -4620,7 +4161,6 @@ static_galaxy_scenario = {
             x = 371.7959
             y = 89.10824
         }
-        #initializer = Parthenope
     }
 
     system = {
@@ -4630,7 +4170,6 @@ static_galaxy_scenario = {
             x = 366.343
             y = 98.65136
         }
-        #initializer = Presarius
     }
 
     system = {
@@ -4640,7 +4179,6 @@ static_galaxy_scenario = {
             x = 6.837231
             y = -237.3705
         }
-        #initializer = Acre
     }
 
     system = {
@@ -4650,7 +4188,6 @@ static_galaxy_scenario = {
             x = 16.2376
             y = -218.3091
         }
-        #initializer = Skargul
     }
 
     system = {
@@ -4660,7 +4197,6 @@ static_galaxy_scenario = {
             x = 27.20468
             y = -231.1043
         }
-        #initializer = Oechalia
     }
 
     system = {
@@ -4670,7 +4206,6 @@ static_galaxy_scenario = {
             x = 58.53921
             y = -230.0593
         }
-        #initializer = ToyaTama
     }
 
     system = {
@@ -4680,7 +4215,6 @@ static_galaxy_scenario = {
             x = 64.28398
             y = -247.816
         }
-        #initializer = Naxos
     }
 
     system = {
@@ -4690,7 +4224,6 @@ static_galaxy_scenario = {
             x = 55.14455
             y = -267.9224
         }
-        #initializer = Denarair
     }
 
     system = {
@@ -4700,7 +4233,6 @@ static_galaxy_scenario = {
             x = 32.42698
             y = -270.7945
         }
-        #initializer = Sicyon
     }
 
     system = {
@@ -4710,7 +4242,6 @@ static_galaxy_scenario = {
             x = -264.8172
             y = 135.5013
         }
-        #initializer = Vashya
     }
 
     system = {
@@ -4720,7 +4251,6 @@ static_galaxy_scenario = {
             x = -260.064
             y = 140.0388
         }
-        #initializer = Elsyeir
     }
 
     system = {
@@ -4730,7 +4260,6 @@ static_galaxy_scenario = {
             x = -249.2604
             y = 136.3653
         }
-        #initializer = Ndras
     }
 
     system = {
@@ -4740,7 +4269,6 @@ static_galaxy_scenario = {
             x = -253.365
             y = 140.6868
         }
-        #initializer = Tolku
     }
 
     system = {
@@ -4750,7 +4278,6 @@ static_galaxy_scenario = {
             x = -244.5061
             y = 129.4513
         }
-        #initializer = Q15
     }
 
     system = {
@@ -4760,7 +4287,6 @@ static_galaxy_scenario = {
             x = -233.2705
             y = 128.3707
         }
-        #initializer = Krath
     }
 
     system = {
@@ -4770,7 +4296,6 @@ static_galaxy_scenario = {
             x = -243.3509
             y = 106.61
         }
-        #initializer = Viorlos
     }
 
     system = {
@@ -4780,7 +4305,6 @@ static_galaxy_scenario = {
             x = -241.4821
             y = 112.3816
         }
-        #initializer = Lubgrahl
     }
 
     system = {
@@ -4790,7 +4314,6 @@ static_galaxy_scenario = {
             x = -245.7014
             y = 101.1256
         }
-        #initializer = Salashhei
     }
 
     system = {
@@ -4800,7 +4323,6 @@ static_galaxy_scenario = {
             x = -237.0839
             y = 105.3045
         }
-        #initializer = Tinekla
     }
 
     system = {
@@ -4810,7 +4332,6 @@ static_galaxy_scenario = {
             x = -248.6118
             y = 115.4068
         }
-        #initializer = ArthasMoloch
     }
 
     system = {
@@ -4820,7 +4341,6 @@ static_galaxy_scenario = {
             x = -264.8172
             y = 117.7837
         }
-        #initializer = Kelshan
     }
 
     system = {
@@ -4830,7 +4350,6 @@ static_galaxy_scenario = {
             x = -275.8362
             y = 119.9443
         }
-        #initializer = Autaal
     }
 
     system = {
@@ -4840,7 +4359,6 @@ static_galaxy_scenario = {
             x = -274.1082
             y = 102.8747
         }
-        #initializer = SkyrrelMinoris
     }
 
     system = {
@@ -4850,7 +4368,6 @@ static_galaxy_scenario = {
             x = -267.1938
             y = 101.7941
         }
-        #initializer = Yleth
     }
 
     system = {
@@ -4860,7 +4377,6 @@ static_galaxy_scenario = {
             x = -258.7668
             y = 112.8139
         }
-        #initializer = Arkunasha
     }
 
     system = {
@@ -4870,7 +4386,6 @@ static_galaxy_scenario = {
             x = -262.4394
             y = 108.4924
         }
-        #initializer = Keltyr
     }
 
     system = {
@@ -4880,7 +4395,6 @@ static_galaxy_scenario = {
             x = -256.3902
             y = 107.8441
         }
-        #initializer = Ksimyen
     }
 
     system = {
@@ -4890,7 +4404,6 @@ static_galaxy_scenario = {
             x = -255.0942
             y = 102.4427
         }
-        #initializer = Firios
     }
 
     system = {
@@ -4900,7 +4413,6 @@ static_galaxy_scenario = {
             x = -274.3235
             y = 139.3905
         }
-        #initializer = Kelshavar
     }
 
     system = {
@@ -4910,7 +4422,6 @@ static_galaxy_scenario = {
             x = -279.9419
             y = 133.3405
         }
-        #initializer = Pech
     }
 
     system = {
@@ -4920,7 +4431,6 @@ static_galaxy_scenario = {
             x = -274.5402
             y = 147.3852
         }
-        #initializer = Tashvar
     }
 
     system = {
@@ -4930,7 +4440,6 @@ static_galaxy_scenario = {
             x = -272.5956
             y = 152.355
         }
-        #initializer = Voranoth
     }
 
     system = {
@@ -4940,7 +4449,6 @@ static_galaxy_scenario = {
             x = -277.7807
             y = 154.7316
         }
-        #initializer = Vespid
     }
 
     system = {
@@ -4950,7 +4458,6 @@ static_galaxy_scenario = {
             x = -285.3437
             y = 157.9728
         }
-        #initializer = KraSylth
     }
 
     system = {
@@ -4960,7 +4467,6 @@ static_galaxy_scenario = {
             x = -290.0969
             y = 155.3799
         }
-        #initializer = Landfall
     }
 
     system = {
@@ -4970,7 +4476,6 @@ static_galaxy_scenario = {
             x = -260.064
             y = 170.7209
         }
-        # #initializer = sys_496_init
     }
 
     system = {
@@ -4980,7 +4485,6 @@ static_galaxy_scenario = {
             x = -236.2957
             y = 156.6762
         }
-        #initializer = Praetonis
     }
 
     system = {
@@ -4990,7 +4494,6 @@ static_galaxy_scenario = {
             x = -230.8939
             y = 154.7316
         }
-        #initializer = Augura
     }
 
     system = {
@@ -5000,7 +4503,6 @@ static_galaxy_scenario = {
             x = -231.6786
             y = 119.278
         }
-        #initializer = Prefectia
     }
 
     system = {
@@ -5010,7 +4512,6 @@ static_galaxy_scenario = {
             x = -221.8834
             y = 111.5445
         }
-        #initializer = Dovaris
     }
 
     system = {
@@ -5020,7 +4521,6 @@ static_galaxy_scenario = {
             x = -220.5081
             y = 117.044
         }
-        #initializer = Auria
     }
 
     system = {
@@ -5030,7 +4530,6 @@ static_galaxy_scenario = {
             x = -225.6637
             y = 116.0131
         }
-        #initializer = Geldine
     }
 
     system = {
@@ -5040,7 +4539,6 @@ static_galaxy_scenario = {
             x = -227.3835
             y = 110.5134
         }
-        #initializer = Ungilt
     }
 
     system = {
@@ -5050,7 +4548,6 @@ static_galaxy_scenario = {
             x = -217.7587
             y = 107.9359
         }
-        #initializer = Glory
     }
 
     system = {
@@ -5060,7 +4557,6 @@ static_galaxy_scenario = {
             x = -218.2807
             y = 124.8904
         }
-        # #initializer = sys_505_init
     }
 
     system = {
@@ -5070,7 +4566,6 @@ static_galaxy_scenario = {
             x = -223.5037
             y = 128.0245
         }
-        # #initializer = sys_506_init
     }
 
     system = {
@@ -5080,7 +4575,6 @@ static_galaxy_scenario = {
             x = -222.4586
             y = 136.3813
         }
-        #initializer = Delinquence
     }
 
     system = {
@@ -5090,7 +4584,6 @@ static_galaxy_scenario = {
             x = -221.9367
             y = 141.6041
         }
-        #initializer = Jodran
     }
 
     system = {
@@ -5100,7 +4593,6 @@ static_galaxy_scenario = {
             x = -220.8916
             y = 147.3497
         }
-        #initializer = Belfurnance
     }
 
     system = {
@@ -5110,7 +4602,6 @@ static_galaxy_scenario = {
             x = -228.9884
             y = 141.6041
         }
-        #initializer = Therion
     }
 
     system = {
@@ -5120,7 +4611,6 @@ static_galaxy_scenario = {
             x = -231.8609
             y = 136.3813
         }
-        #initializer = Jorax
     }
 
     system = {
@@ -5130,7 +4620,6 @@ static_galaxy_scenario = {
             x = -240.1008
             y = 120.653
         }
-        #initializer = MuGulathBay
     }
 
     system = {
@@ -5140,7 +4629,6 @@ static_galaxy_scenario = {
             x = -235.9761
             y = 115.4971
         }
-        #initializer = Voltoris
     }
 
     system = {
@@ -5150,7 +4638,6 @@ static_galaxy_scenario = {
             x = 211.5077
             y = -2.932347
         }
-        #initializer = Sirius
     }
 
     system = {
@@ -5160,7 +4647,6 @@ static_galaxy_scenario = {
             x = 209.9709
             y = -14.60909
         }
-        # #initializer = sys_513_init
     }
 
     system = {
@@ -5170,7 +4656,6 @@ static_galaxy_scenario = {
             x = 198.6022
             y = -11.84355
         }
-        # #initializer = sys_514_init
     }
 
     system = {
@@ -5180,7 +4665,6 @@ static_galaxy_scenario = {
             x = 197.9232
             y = 0.4477901
         }
-        # #initializer = sys_515_init
     }
 
     system = {
@@ -5190,7 +4674,6 @@ static_galaxy_scenario = {
             x = 208.7418
             y = 5.364329
         }
-        #initializer = EpsilonEridani
     }
 
     system = {
@@ -5200,7 +4683,6 @@ static_galaxy_scenario = {
             x = 224.1066
             y = 1.984191
         }
-        #initializer = 61Cygni
     }
 
     system = {
@@ -5210,7 +4692,6 @@ static_galaxy_scenario = {
             x = 224.7208
             y = -11.22899
         }
-        #initializer = Procon
     }
 
     system = {
@@ -5220,7 +4701,6 @@ static_galaxy_scenario = {
             x = 223.1846
             y = -22.5985
         }
-        # #initializer = sys_519_init
     }
 
     system = {
@@ -5230,7 +4710,6 @@ static_galaxy_scenario = {
             x = 209.9709
             y = -26.90043
         }
-        # #initializer = sys_520_init
     }
 
     system = {
@@ -5240,7 +4719,6 @@ static_galaxy_scenario = {
             x = 201.9817
             y = -21.06207
         }
-        # #initializer = sys_521_init
     }
 
     system = {
@@ -5250,7 +4728,6 @@ static_galaxy_scenario = {
             x = 239.1636
             y = -3.239612
         }
-        #initializer = Groombridge
     }
 
     system = {
@@ -5260,7 +4737,6 @@ static_galaxy_scenario = {
             x = 238.8565
             y = -16.76009
         }
-        #initializer = ADLeonis
     }
 
     system = {
@@ -5270,7 +4746,6 @@ static_galaxy_scenario = {
             x = 197.9904
             y = -89.07751
         }
-        #initializer = Semtexia
     }
 
     system = {
@@ -5280,7 +4755,6 @@ static_galaxy_scenario = {
             x = 201.2314
             y = -92.10234
         }
-        #initializer = ArphistaPenitens
     }
 
     system = {
@@ -5290,7 +4764,6 @@ static_galaxy_scenario = {
             x = 192.883
             y = -89.90799
         }
-        #initializer = Minerva
     }
 
     system = {
@@ -5300,7 +4773,6 @@ static_galaxy_scenario = {
             x = 192.622
             y = -94.08621
         }
-        #initializer = Umbridge144
     }
 
     system = {
@@ -5310,7 +4782,6 @@ static_galaxy_scenario = {
             x = 187.3987
             y = -94.60851
         }
-        #initializer = Pan
     }
 
     system = {
@@ -5320,7 +4791,6 @@ static_galaxy_scenario = {
             x = 187.3987
             y = -89.64688
         }
-        #initializer = Granica
     }
 
     system = {
@@ -5330,7 +4800,6 @@ static_galaxy_scenario = {
             x = 185.8915
             y = -84.32418
         }
-        #initializer = Basquit
     }
 
     system = {
@@ -5340,7 +4809,6 @@ static_galaxy_scenario = {
             x = 198.8549
             y = -79.57089
         }
-        #initializer = Ruis
     }
 
     system = {
@@ -5350,7 +4818,6 @@ static_galaxy_scenario = {
             x = 202.0959
             y = -83.67599
         }
-        #initializer = Jopali
     }
 
     system = {
@@ -5360,7 +4827,6 @@ static_galaxy_scenario = {
             x = 204.4312
             y = -72.61692
         }
-        # #initializer = sys_533_init
     }
 
     system = {
@@ -5370,7 +4836,6 @@ static_galaxy_scenario = {
             x = 193.9274
             y = -80.76822
         }
-        #initializer = Noctan
     }
 
     system = {
@@ -5380,7 +4845,6 @@ static_galaxy_scenario = {
             x = 188.9165
             y = -79.13877
         }
-        #initializer = Pyran
     }
 
     system = {
@@ -5390,7 +4854,6 @@ static_galaxy_scenario = {
             x = 192.6402
             y = -75.56571
         }
-        #initializer = Monglor
     }
 
     system = {
@@ -5400,7 +4863,6 @@ static_galaxy_scenario = {
             x = 187.8657
             y = -72.92284
         }
-        #initializer = Krourk
     }
 
     system = {
@@ -5410,7 +4872,6 @@ static_galaxy_scenario = {
             x = 180.274
             y = -88.42932
         }
-        #initializer = Eln
     }
 
     system = {
@@ -5420,7 +4881,6 @@ static_galaxy_scenario = {
             x = 180.49
             y = -83.67599
         }
-        #initializer = LostHope
     }
 
     system = {
@@ -5430,7 +4890,6 @@ static_galaxy_scenario = {
             x = 180.49
             y = -78.49059
         }
-        #initializer = IW237AS93
     }
 
     system = {
@@ -5440,7 +4899,6 @@ static_galaxy_scenario = {
             x = 180.274
             y = -73.52123
         }
-        #initializer = Meloch
     }
 
     system = {
@@ -5450,7 +4908,6 @@ static_galaxy_scenario = {
             x = 175.7365
             y = -76.33
         }
-        # #initializer = sys_542_init
     }
 
     system = {
@@ -5460,7 +4917,6 @@ static_galaxy_scenario = {
             x = 175.5205
             y = -81.51541
         }
-        #initializer = Demiral
     }
 
     system = {
@@ -5470,7 +4926,6 @@ static_galaxy_scenario = {
             x = 175.7365
             y = -86.05268
         }
-        #initializer = Golgan
     }
 
     system = {
@@ -5480,7 +4935,6 @@ static_galaxy_scenario = {
             x = 174.8726
             y = -91.022
         }
-        #initializer = ghazgkull_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = ghazgkull_empire } }
     }
 
     system = {
@@ -5490,7 +4944,6 @@ static_galaxy_scenario = {
             x = 170.335
             y = -87.13295
         }
-        #initializer = Demios
     }
 
     system = {
@@ -5500,7 +4953,6 @@ static_galaxy_scenario = {
             x = 170.335
             y = -81.94754
         }
-        #initializer = Golgarus
     }
 
     system = {
@@ -5510,7 +4962,6 @@ static_galaxy_scenario = {
             x = 198.1052
             y = -97.48103
         }
-        #initializer = Dal
     }
 
     system = {
@@ -5520,7 +4971,6 @@ static_galaxy_scenario = {
             x = 192.622
             y = -99.83124
         }
-        #initializer = Corun
     }
 
     system = {
@@ -5530,7 +4980,6 @@ static_galaxy_scenario = {
             x = 188.4437
             y = -100.3535
         }
-        #initializer = Sacrifice
     }
 
     system = {
@@ -5540,7 +4989,6 @@ static_galaxy_scenario = {
             x = 188.7053
             y = -105.8374
         }
-        #initializer = Calenth
     }
 
     system = {
@@ -5550,7 +4998,6 @@ static_galaxy_scenario = {
             x = 194.6073
             y = -104.3359
         }
-        #initializer = Duvri
     }
 
     system = {
@@ -5560,7 +5007,6 @@ static_galaxy_scenario = {
             x = 199.2159
             y = -102.185
         }
-        #initializer = Nepulet
     }
 
     system = {
@@ -5570,7 +5016,6 @@ static_galaxy_scenario = {
             x = 203.2108
             y = -98.80481
         }
-        #initializer = Rogan
     }
 
     system = {
@@ -5580,7 +5025,6 @@ static_galaxy_scenario = {
             x = 199.8313
             y = -106.4869
         }
-        #initializer = Justicar
     }
 
     system = {
@@ -5590,7 +5034,6 @@ static_galaxy_scenario = {
             x = 194.6073
             y = -109.5597
         }
-        # #initializer = sys_556_init
     }
 
     system = {
@@ -5600,7 +5043,6 @@ static_galaxy_scenario = {
             x = 207.5063
             y = -92.78056
         }
-        #initializer = Dessos
     }
 
     system = {
@@ -5610,7 +5052,6 @@ static_galaxy_scenario = {
             x = 207.5063
             y = -88.08009
         }
-        #initializer = Eyueow
     }
 
     system = {
@@ -5620,7 +5061,6 @@ static_galaxy_scenario = {
             x = 208.8123
             y = -83.64075
         }
-        #initializer = Falchis
     }
 
     system = {
@@ -5630,7 +5070,6 @@ static_galaxy_scenario = {
             x = 209.0738
             y = -78.15684
         }
-        #initializer = Yarrs
     }
 
     system = {
@@ -5640,7 +5079,6 @@ static_galaxy_scenario = {
             x = 214.035
             y = -78.15684
         }
-        #initializer = Voss
     }
 
     system = {
@@ -5650,7 +5088,6 @@ static_galaxy_scenario = {
             x = 214.035
             y = -83.11842
         }
-        #initializer = Pseuvoss
     }
 
     system = {
@@ -5660,7 +5097,6 @@ static_galaxy_scenario = {
             x = 213.2516
             y = -88.60233
         }
-        # #initializer = sys_563_init
     }
 
     system = {
@@ -5670,7 +5106,6 @@ static_galaxy_scenario = {
             x = 213.7735
             y = -93.56396
         }
-        #initializer = Molnar
     }
 
     system = {
@@ -5680,7 +5115,6 @@ static_galaxy_scenario = {
             x = 218.4749
             y = -89.90799
         }
-        #initializer = Praevoss
     }
 
     system = {
@@ -5690,7 +5124,6 @@ static_galaxy_scenario = {
             x = 218.2134
             y = -82.33502
         }
-        # #initializer = sys_566_init
     }
 
     system = {
@@ -5700,7 +5133,6 @@ static_galaxy_scenario = {
             x = 214.2258
             y = -71.75775
         }
-        #initializer = Horkins
     }
 
     system = {
@@ -5710,7 +5142,6 @@ static_galaxy_scenario = {
             x = 208.7265
             y = -69.69594
         }
-        #initializer = Desedna
     }
 
     system = {
@@ -5720,7 +5151,6 @@ static_galaxy_scenario = {
             x = 197.8408
             y = -74.37223
         }
-        #initializer = MemphisE
     }
 
     system = {
@@ -5730,7 +5160,6 @@ static_galaxy_scenario = {
             x = 202.1975
             y = -67.63382
         }
-        #initializer = Konaeger
     }
 
     system = {
@@ -5740,7 +5169,6 @@ static_galaxy_scenario = {
             x = 196.5266
             y = -65.05633
         }
-        #initializer = Leyap
     }
 
     system = {
@@ -5750,7 +5178,6 @@ static_galaxy_scenario = {
             x = 201.51
             y = -61.61967
         }
-        #initializer = Paleoth
     }
 
     system = {
@@ -5760,7 +5187,6 @@ static_galaxy_scenario = {
             x = 207.0087
             y = -64.54065
         }
-        #initializer = Remembered
     }
 
     system = {
@@ -5770,7 +5196,6 @@ static_galaxy_scenario = {
             x = 213.5377
             y = -66.25928
         }
-        #initializer = UX237DCS37
     }
 
     system = {
@@ -5780,7 +5205,6 @@ static_galaxy_scenario = {
             x = 213.5377
             y = -60.41702
         }
-        #initializer = UW237DCS76
     }
 
     system = {
@@ -5790,7 +5214,6 @@ static_galaxy_scenario = {
             x = 207.3519
             y = -59.21407
         }
-        #initializer = Stricken
     }
 
     system = {
@@ -5800,7 +5223,6 @@ static_galaxy_scenario = {
             x = 81.30988
             y = 258.968
         }
-        #initializer = Nexus
     }
 
     system = {
@@ -5810,7 +5232,6 @@ static_galaxy_scenario = {
             x = 76.79839
             y = 261.8747
         }
-        #initializer = Verdantia
     }
 
     system = {
@@ -5820,7 +5241,6 @@ static_galaxy_scenario = {
             x = 91.46384
             y = 265.2855
         }
-        #initializer = Lochan
     }
 
     system = {
@@ -5830,7 +5250,6 @@ static_galaxy_scenario = {
             x = 86.34802
             y = 262.3007
         }
-        #initializer = 38487BSSW541
     }
 
     system = {
@@ -5840,7 +5259,6 @@ static_galaxy_scenario = {
             x = 84.89839
             y = 252.9227
         }
-        #initializer = Hades
     }
 
     system = {
@@ -5850,7 +5268,6 @@ static_galaxy_scenario = {
             x = 83.70469
             y = 247.1236
         }
-        #initializer = Wightan
     }
 
     system = {
@@ -5860,7 +5277,6 @@ static_galaxy_scenario = {
             x = 78.4183
             y = 244.7365
         }
-        # #initializer = sys_583_init
     }
 
     system = {
@@ -5870,7 +5286,6 @@ static_galaxy_scenario = {
             x = 71.25623
             y = 245.9306
         }
-        #initializer = Ironika
     }
 
     system = {
@@ -5880,7 +5295,6 @@ static_galaxy_scenario = {
             x = 70.57394
             y = 255.1382
         }
-        #initializer = DeltaPrime
     }
 
     system = {
@@ -5890,7 +5304,6 @@ static_galaxy_scenario = {
             x = 63.15594
             y = 255.395
         }
-        #initializer = Iometa
     }
 
     system = {
@@ -5900,7 +5313,6 @@ static_galaxy_scenario = {
             x = 65.62871
             y = 259.7432
         }
-        #initializer = Chakka
     }
 
     system = {
@@ -5910,7 +5322,6 @@ static_galaxy_scenario = {
             x = 60.68332
             y = 259.8284
         }
-        #initializer = Seraka
     }
 
     system = {
@@ -5920,7 +5331,6 @@ static_galaxy_scenario = {
             x = -10.43932
             y = 245.9247
         }
-        # #initializer = sys_589_init
     }
 
     system = {
@@ -5930,7 +5340,6 @@ static_galaxy_scenario = {
             x = 34.56534
             y = 273.3214
         }
-        #initializer = AmarahPrime
     }
 
     system = {
@@ -5940,7 +5349,6 @@ static_galaxy_scenario = {
             x = 29.84941
             y = 270.6621
         }
-        #initializer = Amraphel
     }
 
     system = {
@@ -5950,7 +5358,6 @@ static_galaxy_scenario = {
             x = 27.41155
             y = 275.7949
         }
-        #initializer = Apollyon
     }
 
     system = {
@@ -5960,7 +5367,6 @@ static_galaxy_scenario = {
             x = 33.05712
             y = 278.7454
         }
-        #initializer = Ayrith
     }
 
     system = {
@@ -5970,7 +5376,6 @@ static_galaxy_scenario = {
             x = 38.32664
             y = 277.4956
         }
-        #initializer = Libethra
     }
 
     system = {
@@ -5980,7 +5385,6 @@ static_galaxy_scenario = {
             x = 41.1404
             y = 272.5877
         }
-        #initializer = Khesd
     }
 
     system = {
@@ -5990,7 +5394,6 @@ static_galaxy_scenario = {
             x = 38.06568
             y = 267.572
         }
-        #initializer = GorgonQuintus
     }
 
     system = {
@@ -6000,7 +5403,6 @@ static_galaxy_scenario = {
             x = 33.69872
             y = 263.8629
         }
-        #initializer = Epirus
     }
 
     system = {
@@ -6010,7 +5412,6 @@ static_galaxy_scenario = {
             x = 28.05315
             y = 264.3754
         }
-        #initializer = DrucillaMajoris
     }
 
     system = {
@@ -6020,7 +5421,6 @@ static_galaxy_scenario = {
             x = 24.74765
             y = 269.1389
         }
-        #initializer = Decapolis
     }
 
     system = {
@@ -6030,7 +5430,6 @@ static_galaxy_scenario = {
             x = 21.63801
             y = 274.1274
         }
-        #initializer = Chemarium
     }
 
     system = {
@@ -6040,7 +5439,6 @@ static_galaxy_scenario = {
             x = 16.76231
             y = 273.7416
         }
-        #initializer = Tlaloc
     }
 
     system = {
@@ -6050,7 +5448,6 @@ static_galaxy_scenario = {
             x = 16.12085
             y = 266.8134
         }
-        #initializer = Morros
     }
 
     system = {
@@ -6060,7 +5457,6 @@ static_galaxy_scenario = {
             x = 21.89468
             y = 263.9908
         }
-        #initializer = Midwinter
     }
 
     system = {
@@ -6070,7 +5466,6 @@ static_galaxy_scenario = {
             x = 25.26987
             y = 258.1703
         }
-        #initializer = Patara
     }
 
     system = {
@@ -6080,7 +5475,6 @@ static_galaxy_scenario = {
             x = 38.70269
             y = 261.5527
         }
-        #initializer = HarrowWatch
     }
 
     system = {
@@ -6090,7 +5484,6 @@ static_galaxy_scenario = {
             x = 44.7329
             y = 268.8668
         }
-        #initializer = Hydroghast
     }
 
     system = {
@@ -6100,7 +5493,6 @@ static_galaxy_scenario = {
             x = 46.14437
             y = 275.1523
         }
-        #initializer = Lysmarchus
     }
 
     system = {
@@ -6110,7 +5502,6 @@ static_galaxy_scenario = {
             x = 42.50497
             y = 280.6283
         }
-        #initializer = Myre
     }
 
     system = {
@@ -6120,7 +5511,6 @@ static_galaxy_scenario = {
             x = 45.37761
             y = 285.5895
         }
-        #initializer = Selakhar
     }
 
     system = {
@@ -6130,7 +5520,6 @@ static_galaxy_scenario = {
             x = 37.41949
             y = 286.0594
         }
-        #initializer = SaintMarduksBane
     }
 
     system = {
@@ -6140,7 +5529,6 @@ static_galaxy_scenario = {
             x = 30.74768
             y = 283.6214
         }
-        #initializer = Arcantis
     }
 
     system = {
@@ -6150,7 +5538,6 @@ static_galaxy_scenario = {
             x = 24.97385
             y = 280.2851
         }
-        #initializer = Csynad
     }
 
     system = {
@@ -6160,7 +5547,6 @@ static_galaxy_scenario = {
             x = 11.50182
             y = 270.6621
         }
-        #initializer = Thamyris
     }
 
     system = {
@@ -6170,7 +5556,6 @@ static_galaxy_scenario = {
             x = 15.99244
             y = 260.5255
         }
-        #initializer = Ribasu
     }
 
     system = {
@@ -6180,7 +5565,6 @@ static_galaxy_scenario = {
             x = 19.58509
             y = 255.7796
         }
-        #initializer = Pallasite
     }
 
     system = {
@@ -6190,7 +5574,6 @@ static_galaxy_scenario = {
             x = 296.5186
             y = -301.6167
         }
-        #initializer = Ophidia
     }
 
     system = {
@@ -6200,7 +5583,6 @@ static_galaxy_scenario = {
             x = 309.2014
             y = -280.8171
         }
-        #initializer = Vraks
     }
 
     system = {
@@ -6210,7 +5592,6 @@ static_galaxy_scenario = {
             x = 297.5328
             y = -308.7187
         }
-        # #initializer = sys_649_init
     }
 
     system = {
@@ -6220,7 +5601,6 @@ static_galaxy_scenario = {
             x = 336.3103
             y = -239.8936
         }
-        #initializer = Scoth
     }
 
     system = {
@@ -6230,7 +5610,6 @@ static_galaxy_scenario = {
             x = 317.6226
             y = -298.9211
         }
-        #initializer = EustisMajoris
     }
 
     system = {
@@ -6240,7 +5619,6 @@ static_galaxy_scenario = {
             x = 315.935
             y = -290.4816
         }
-        #initializer = Thracian
     }
 
     system = {
@@ -6250,7 +5628,6 @@ static_galaxy_scenario = {
             x = 305.6499
             y = -309.7335
         }
-        #initializer = Respa
     }
 
     system = {
@@ -6260,7 +5637,6 @@ static_galaxy_scenario = {
             x = 314.2747
             y = -309.7335
         }
-        #initializer = Messina
     }
 
     system = {
@@ -6270,7 +5646,6 @@ static_galaxy_scenario = {
             x = 322.3918
             y = -303.1385
         }
-        #initializer = Mariam
     }
 
     system = {
@@ -6280,7 +5655,6 @@ static_galaxy_scenario = {
             x = 292.4606
             y = -297.0507
         }
-        #initializer = Hubris
     }
 
     system = {
@@ -6290,7 +5664,6 @@ static_galaxy_scenario = {
             x = 302.0984
             y = -289.441
         }
-        #initializer = Gudrun
     }
 
     system = {
@@ -6300,7 +5673,6 @@ static_galaxy_scenario = {
             x = 301.0842
             y = -304.153
         }
-        #initializer = AnemaeGulfward
     }
 
     system = {
@@ -6310,7 +5682,6 @@ static_galaxy_scenario = {
             x = 308.6203
             y = -291.044
         }
-        #initializer = MordaxParn
     }
 
     system = {
@@ -6320,7 +5691,6 @@ static_galaxy_scenario = {
             x = 312.5587
             y = -302.2971
         }
-        #initializer = Hexen
     }
 
     system = {
@@ -6330,7 +5700,6 @@ static_galaxy_scenario = {
             x = 305.1434
             y = -285.3831
         }
-        #initializer = Ulant
     }
 
     system = {
@@ -6340,7 +5709,6 @@ static_galaxy_scenario = {
             x = 311.7374
             y = -285.8902
         }
-        #initializer = NysaStromlo
     }
 
     system = {
@@ -6350,7 +5718,6 @@ static_galaxy_scenario = {
             x = 303.5564
             y = -296.1078
         }
-        #initializer = Harvest
     }
 
     system = {
@@ -6360,7 +5727,6 @@ static_galaxy_scenario = {
             x = 320.4953
             y = -309.1434
         }
-        #initializer = Skyren
     }
 
     system = {
@@ -6370,7 +5736,6 @@ static_galaxy_scenario = {
             x = 296.5186
             y = -292.9925
         }
-        # #initializer = sys_665_init
     }
 
     system = {
@@ -6380,7 +5745,6 @@ static_galaxy_scenario = {
             x = 320.3622
             y = -295.5289
         }
-        # #initializer = sys_666_init
     }
 
     system = {
@@ -6390,7 +5754,6 @@ static_galaxy_scenario = {
             x = 311.4333
             y = -296.6703
         }
-        # #initializer = sys_667_init
     }
 
     system = {
@@ -6400,7 +5763,6 @@ static_galaxy_scenario = {
             x = 306.9327
             y = -302.8596
         }
-        # #initializer = sys_668_init
     }
 
     system = {
@@ -6410,7 +5772,6 @@ static_galaxy_scenario = {
             x = 371.2697
             y = -310.4387
         }
-        #initializer = Fedrid
     }
 
     system = {
@@ -6420,7 +5781,6 @@ static_galaxy_scenario = {
             x = 372.5656
             y = -302.8768
         }
-        # #initializer = sys_670_init
     }
 
     system = {
@@ -6430,7 +5790,6 @@ static_galaxy_scenario = {
             x = 382.72
             y = -302.6608
         }
-        # #initializer = sys_671_init
     }
 
     system = {
@@ -6440,7 +5799,6 @@ static_galaxy_scenario = {
             x = 352.5408
             y = -285.1859
         }
-        #initializer = Skorgulian
     }
 
     system = {
@@ -6450,7 +5808,6 @@ static_galaxy_scenario = {
             x = 355.7126
             y = -280.1909
         }
-        #initializer = Luggnum
     }
 
     system = {
@@ -6460,7 +5817,6 @@ static_galaxy_scenario = {
             x = 361.978
             y = -268.308
         }
-        #initializer = Archaos
     }
 
     system = {
@@ -6470,7 +5826,6 @@ static_galaxy_scenario = {
             x = 358.5222
             y = -273.2775
         }
-        #initializer = Monrass
     }
 
     system = {
@@ -6480,7 +5835,6 @@ static_galaxy_scenario = {
             x = 340.3733
             y = -267.8755
         }
-        #initializer = Omnicron71DX
     }
 
     system = {
@@ -6490,7 +5844,6 @@ static_galaxy_scenario = {
             x = 356.1446
             y = -265.2824
         }
-        #initializer = Jorgalleg spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = jorgalleg_star_empire } }
     }
 
     system = {
@@ -6500,7 +5853,6 @@ static_galaxy_scenario = {
             x = 364.1391
             y = -263.1226
         }
-        #initializer = Veneris
     }
 
     system = {
@@ -6510,7 +5862,6 @@ static_galaxy_scenario = {
             x = 358.953
             y = -257.0731
         }
-        #initializer = Laskin
     }
 
     system = {
@@ -6520,7 +5871,6 @@ static_galaxy_scenario = {
             x = 350.5277
             y = -261.394
         }
-        #initializer = Lo
     }
 
     system = {
@@ -6530,7 +5880,6 @@ static_galaxy_scenario = {
             x = 345.3416
             y = -265.067
         }
-        #initializer = Askelphion
     }
 
     system = {
@@ -6540,7 +5889,6 @@ static_galaxy_scenario = {
             x = 349.4472
             y = -278.6784
         }
-        #initializer = Mortressa
     }
 
     system = {
@@ -6550,7 +5898,6 @@ static_galaxy_scenario = {
             x = 359.5862
             y = -286.3889
         }
-        #initializer = scintilla2
     }
 
     system = {
@@ -6560,7 +5907,6 @@ static_galaxy_scenario = {
             x = 361.5461
             y = -292.0744
         }
-        #initializer = ValonUrr
     }
 
     system = {
@@ -6570,7 +5916,6 @@ static_galaxy_scenario = {
             x = 361.7626
             y = -306.3338
         }
-        #initializer = GanfMagna
     }
 
     system = {
@@ -6580,7 +5925,6 @@ static_galaxy_scenario = {
             x = 367.8127
             y = -299.4198
         }
-        #initializer = Synford
     }
 
     system = {
@@ -6590,7 +5934,6 @@ static_galaxy_scenario = {
             x = 387.2575
             y = -286.6724
         }
-        #initializer = Facrast
     }
 
     system = {
@@ -6600,7 +5943,6 @@ static_galaxy_scenario = {
             x = 376.67
             y = -300.0684
         }
-        # #initializer = sys_688_init
     }
 
     system = {
@@ -6610,7 +5952,6 @@ static_galaxy_scenario = {
             x = 372.9976
             y = -275.006
         }
-        #initializer = Strank
     }
 
     system = {
@@ -6620,7 +5961,6 @@ static_galaxy_scenario = {
             x = 381.856
             y = -269.8206
         }
-        #initializer = Malfi
     }
 
     system = {
@@ -6630,7 +5970,6 @@ static_galaxy_scenario = {
             x = 368.2435
             y = -269.8206
         }
-        #initializer = Thical
     }
 
     system = {
@@ -6640,7 +5979,6 @@ static_galaxy_scenario = {
             x = 372.5656
             y = -285.1604
         }
-        #initializer = ZweihnasWorld
     }
 
     system = {
@@ -6650,7 +5988,6 @@ static_galaxy_scenario = {
             x = 360.2501
             y = -297.6913
         }
-        #initializer = Sysk
     }
 
     system = {
@@ -6660,7 +5997,6 @@ static_galaxy_scenario = {
             x = 376.67
             y = -306.1178
         }
-        #initializer = JXMA18Z
     }
 
     system = {
@@ -6670,7 +6006,6 @@ static_galaxy_scenario = {
             x = 355.6333
             y = -291.0288
         }
-        #initializer = Granithor spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = calixis_cheresy_star_empire } }
     }
 
     system = {
@@ -6680,7 +6015,6 @@ static_galaxy_scenario = {
             x = 367.8127
             y = -305.9018
         }
-        #initializer = Sleef
     }
 
     system = {
@@ -6690,7 +6024,6 @@ static_galaxy_scenario = {
             x = 355.9292
             y = -302.6608
         }
-        #initializer = Cyclopea
     }
 
     system = {
@@ -6700,7 +6033,6 @@ static_galaxy_scenario = {
             x = 367.3795
             y = -292.7218
         }
-        #initializer = PortWrath
     }
 
     system = {
@@ -6710,7 +6042,6 @@ static_galaxy_scenario = {
             x = 366.0836
             y = -284.9438
         }
-        #initializer = CyrusVulpa
     }
 
     system = {
@@ -6720,7 +6051,6 @@ static_galaxy_scenario = {
             x = 352.4722
             y = -273.4935
         }
-        #initializer = Tranch
     }
 
     system = {
@@ -6730,7 +6060,6 @@ static_galaxy_scenario = {
             x = 351.3917
             y = -267.6595
         }
-        #initializer = Pietyh
     }
 
     system = {
@@ -6740,7 +6069,6 @@ static_galaxy_scenario = {
             x = 343.3972
             y = -271.765
         }
-        # #initializer = sys_704_init
     }
 
     system = {
@@ -6750,7 +6078,6 @@ static_galaxy_scenario = {
             x = 340.3733
             y = -277.3819
         }
-        #initializer = Morven
     }
 
     system = {
@@ -6760,7 +6087,6 @@ static_galaxy_scenario = {
             x = 336.2678
             y = -273.4935
         }
-        #initializer = Perinetus
     }
 
     system = {
@@ -6770,7 +6096,6 @@ static_galaxy_scenario = {
             x = 361.5461
             y = -279.1104
         }
-        #initializer = Settlement228
     }
 
     system = {
@@ -6780,7 +6105,6 @@ static_galaxy_scenario = {
             x = 378.399
             y = -280.6229
         }
-        #initializer = Aryus
     }
 
     system = {
@@ -6790,7 +6114,6 @@ static_galaxy_scenario = {
             x = 374.5101
             y = -290.7779
         }
-        #initializer = Festus
     }
 
     system = {
@@ -6800,7 +6123,6 @@ static_galaxy_scenario = {
             x = 381.6395
             y = -294.2349
         }
-        #initializer = Kinog
     }
 
     system = {
@@ -6810,7 +6132,6 @@ static_galaxy_scenario = {
             x = 385.9604
             y = -278.463
         }
-        #initializer = Dusk
     }
 
     system = {
@@ -6820,7 +6141,6 @@ static_galaxy_scenario = {
             x = 381.6395
             y = -285.8084
         }
-        #initializer = OrbellQuill
     }
 
     system = {
@@ -6830,7 +6150,6 @@ static_galaxy_scenario = {
             x = 368.892
             y = -279.759
         }
-        #initializer = Lathes
     }
 
     system = {
@@ -6840,7 +6159,6 @@ static_galaxy_scenario = {
             x = 374.7255
             y = -266.7955
         }
-        #initializer = Fydae
     }
 
     system = {
@@ -6850,7 +6168,6 @@ static_galaxy_scenario = {
             x = 373.213
             y = -259.449
         }
-        #initializer = Tygress
     }
 
     system = {
@@ -6860,7 +6177,6 @@ static_galaxy_scenario = {
             x = 366.5156
             y = -257.7205
         }
-        #initializer = Drusus
     }
 
     system = {
@@ -6870,7 +6186,6 @@ static_galaxy_scenario = {
             x = 369.5406
             y = -252.1036
         }
-        #initializer = Maccabeus
     }
 
     system = {
@@ -6880,7 +6195,6 @@ static_galaxy_scenario = {
             x = 364.7865
             y = -273.9249
         }
-        #initializer = OpusMacharius
     }
 
     system = {
@@ -6890,7 +6204,6 @@ static_galaxy_scenario = {
             x = 344.8079
             y = -309.76
         }
-        # #initializer = sys_720_init
     }
 
     system = {
@@ -6900,7 +6213,6 @@ static_galaxy_scenario = {
             x = 349.7904
             y = -307.1823
         }
-        #initializer = SirensDen
     }
 
     system = {
@@ -6910,7 +6222,6 @@ static_galaxy_scenario = {
             x = 346.8541
             y = -300.9323
         }
-        #initializer = Balecaster
     }
 
     system = {
@@ -6920,7 +6231,6 @@ static_galaxy_scenario = {
             x = 342.745
             y = -305.1195
         }
-        #initializer = Ryboth
     }
 
     system = {
@@ -6930,7 +6240,6 @@ static_galaxy_scenario = {
             x = 338.4489
             y = -308.728
         }
-        # #initializer = sys_724_init
     }
 
     system = {
@@ -6940,7 +6249,6 @@ static_galaxy_scenario = {
             x = 338.6205
             y = -300.9956
         }
-        # #initializer = sys_725_init
     }
 
     system = {
@@ -6950,7 +6258,6 @@ static_galaxy_scenario = {
             x = 344.8079
             y = -295.8403
         }
-        #initializer = Belacane
     }
 
     system = {
@@ -6960,7 +6267,6 @@ static_galaxy_scenario = {
             x = 349.7904
             y = -292.0596
         }
-        #initializer = Munsk spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = calixis_human_star_empire } }
     }
 
     system = {
@@ -6970,7 +6276,6 @@ static_galaxy_scenario = {
             x = 354.4167
             y = -297.4759
         }
-        #initializer = Turanshush
     }
 
     system = {
@@ -6980,7 +6285,6 @@ static_galaxy_scenario = {
             x = 332.9492
             y = -296.0119
         }
-        #initializer = ProlIX
     }
 
     system = {
@@ -6990,7 +6294,6 @@ static_galaxy_scenario = {
             x = 341.8858
             y = -289.6536
         }
-        #initializer = ZillmansDomain
     }
 
     system = {
@@ -7000,7 +6303,6 @@ static_galaxy_scenario = {
             x = 345.3227
             y = -284.8421
         }
-        #initializer = AbandonedHope
     }
 
     system = {
@@ -7010,7 +6312,6 @@ static_galaxy_scenario = {
             x = 339.3082
             y = -283.8112
         }
-        #initializer = Tsade
     }
 
     system = {
@@ -7020,7 +6321,6 @@ static_galaxy_scenario = {
             x = 337.933
             y = -293.7787
         }
-        # #initializer = sys_733_init
     }
 
     system = {
@@ -7030,7 +6330,6 @@ static_galaxy_scenario = {
             x = 335.1837
             y = -287.9352
         }
-        # #initializer = sys_734_init
     }
 
     system = {
@@ -7040,7 +6339,6 @@ static_galaxy_scenario = {
             x = 325.7323
             y = -288.9666
         }
-        # #initializer = sys_735_init
     }
 
     system = {
@@ -7050,7 +6348,6 @@ static_galaxy_scenario = {
             x = 328.1383
             y = -283.8112
         }
-        #initializer = Gunpoint
     }
 
     system = {
@@ -7060,7 +6357,6 @@ static_galaxy_scenario = {
             x = 321.2646
             y = -280.0306
         }
-        #initializer = Stygian
     }
 
     system = {
@@ -7070,7 +6366,6 @@ static_galaxy_scenario = {
             x = 324.5287
             y = -273.6722
         }
-        #initializer = Singurd
     }
 
     system = {
@@ -7080,7 +6375,6 @@ static_galaxy_scenario = {
             x = 318.1709
             y = -275.2191
         }
-        #initializer = PietyofSeth
     }
 
     system = {
@@ -7090,7 +6384,6 @@ static_galaxy_scenario = {
             x = 324.3843
             y = -262.474
         }
-        #initializer = PilgrimsPause
     }
 
     system = {
@@ -7100,7 +6393,6 @@ static_galaxy_scenario = {
             x = 330.6497
             y = -261.826
         }
-        #initializer = Heterodyne
     }
 
     system = {
@@ -7110,7 +6402,6 @@ static_galaxy_scenario = {
             x = 327.6223
             y = -268.5169
         }
-        #initializer = Marioch
     }
 
     system = {
@@ -7120,7 +6411,6 @@ static_galaxy_scenario = {
             x = 330.3728
             y = -272.9846
         }
-        #initializer = OrendelsTomb
     }
 
     system = {
@@ -7130,7 +6420,6 @@ static_galaxy_scenario = {
             x = 327.9667
             y = -278.6559
         }
-        #initializer = Hredrin
     }
 
     system = {
@@ -7140,7 +6429,6 @@ static_galaxy_scenario = {
             x = 333.2936
             y = -280.2028
         }
-        #initializer = Woe
     }
 
     system = {
@@ -7150,7 +6438,6 @@ static_galaxy_scenario = {
             x = 322.6398
             y = -284.8421
         }
-        # #initializer = sys_746_init
     }
 
     system = {
@@ -7160,7 +6447,6 @@ static_galaxy_scenario = {
             x = 318.9828
             y = -265.2824
         }
-        # #initializer = sys_747_init
     }
 
     system = {
@@ -7170,7 +6456,6 @@ static_galaxy_scenario = {
             x = 322.1238
             y = -269.5478
         }
-        #initializer = Coseflame
     }
 
     system = {
@@ -7180,7 +6465,6 @@ static_galaxy_scenario = {
             x = 333.6368
             y = -267.6577
         }
-        #initializer = Reshia
     }
 
     system = {
@@ -7190,7 +6474,6 @@ static_galaxy_scenario = {
             x = 315.3092
             y = -270.2519
         }
-        # #initializer = sys_750_init
     }
 
     system = {
@@ -7200,7 +6483,6 @@ static_galaxy_scenario = {
             x = 312.9328
             y = -266.147
         }
-        # #initializer = sys_751_init
     }
 
     system = {
@@ -7210,7 +6492,6 @@ static_galaxy_scenario = {
             x = 315.4217
             y = -262.3302
         }
-        # #initializer = sys_752_init
     }
 
     system = {
@@ -7220,7 +6501,6 @@ static_galaxy_scenario = {
             x = 310.5563
             y = -259.0176
         }
-        # #initializer = sys_753_init
     }
 
     system = {
@@ -7230,7 +6510,6 @@ static_galaxy_scenario = {
             x = 307.9644
             y = -264.2025
         }
-        # #initializer = sys_754_init
     }
 
     system = {
@@ -7240,7 +6519,6 @@ static_galaxy_scenario = {
             x = 309.0438
             y = -271.3325
         }
-        # #initializer = sys_755_init
     }
 
     system = {
@@ -7250,7 +6528,6 @@ static_galaxy_scenario = {
             x = 319.0302
             y = -258.5495
         }
-        #initializer = Bloodfall
     }
 
     system = {
@@ -7260,7 +6537,6 @@ static_galaxy_scenario = {
             x = 340.2632
             y = -245.9081
         }
-        #initializer = Janus
     }
 
     system = {
@@ -7270,7 +6546,6 @@ static_galaxy_scenario = {
             x = 346.4493
             y = -243.1577
         }
-        #initializer = gathrog_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = gathrog_empire } }
     }
 
     system = {
@@ -7280,7 +6555,6 @@ static_galaxy_scenario = {
             x = 349.3714
             y = -233.5347
         }
-        #initializer = Nachtholii
     }
 
     system = {
@@ -7290,7 +6564,6 @@ static_galaxy_scenario = {
             x = 342.8408
             y = -232.1594
         }
-        #initializer = Aggilus
     }
 
     system = {
@@ -7300,7 +6573,6 @@ static_galaxy_scenario = {
             x = 335.4511
             y = -222.0204
         }
-        #initializer = Massilia
     }
 
     system = {
@@ -7310,7 +6582,6 @@ static_galaxy_scenario = {
             x = 328.0625
             y = -231.3014
         }
-        #initializer = Akhaten
     }
 
     system = {
@@ -7320,7 +6591,6 @@ static_galaxy_scenario = {
             x = 321.3604
             y = -242.9861
         }
-        # #initializer = sys_719_init
     }
 
     system = {
@@ -7330,7 +6600,6 @@ static_galaxy_scenario = {
             x = 328.2341
             y = -252.0943
         }
-        #initializer = Heian
     }
 
     system = {
@@ -7340,7 +6609,6 @@ static_galaxy_scenario = {
             x = 337.6855
             y = -255.0163
         }
-        #initializer = Oronzio
     }
 
     system = {
@@ -7350,7 +6618,6 @@ static_galaxy_scenario = {
             x = 357.1043
             y = -249.345
         }
-        #initializer = Marienkaefer
     }
 
     system = {
@@ -7360,7 +6627,6 @@ static_galaxy_scenario = {
             x = 362.2585
             y = -235.9407
         }
-        #initializer = Enetho
     }
 
     system = {
@@ -7370,7 +6636,6 @@ static_galaxy_scenario = {
             x = 355.7291
             y = -223.7401
         }
-        #initializer = Ziniger
     }
 
     system = {
@@ -7380,7 +6645,6 @@ static_galaxy_scenario = {
             x = 342.326
             y = -213.7726
         }
-        #initializer = Saulius
     }
 
     system = {
@@ -7390,7 +6654,6 @@ static_galaxy_scenario = {
             x = 329.265
             y = -216.6947
         }
-        #initializer = Damira
     }
 
     system = {
@@ -7400,7 +6663,6 @@ static_galaxy_scenario = {
             x = 345.2469
             y = -219.6156
         }
-        #initializer = Grace
     }
 
     system = {
@@ -7410,7 +6672,6 @@ static_galaxy_scenario = {
             x = 348.3405
             y = -225.9733
         }
-        #initializer = Leveh
     }
 
     system = {
@@ -7420,7 +6681,6 @@ static_galaxy_scenario = {
             x = 336.8263
             y = -230.957
         }
-        #initializer = Sulpicius
     }
 
     system = {
@@ -7430,7 +6690,6 @@ static_galaxy_scenario = {
             x = 328.0625
             y = -246.4241
         }
-        #initializer = Thorne
     }
 
     system = {
@@ -7440,7 +6699,6 @@ static_galaxy_scenario = {
             x = 328.2341
             y = -239.3776
         }
-        # #initializer = sys_731_init
     }
 
     system = {
@@ -7450,7 +6708,6 @@ static_galaxy_scenario = {
             x = 320.158
             y = -229.4102
         }
-        # #initializer = sys_732_init
     }
 
     system = {
@@ -7460,7 +6717,6 @@ static_galaxy_scenario = {
             x = 342.326
             y = -225.1141
         }
-        #initializer = Corvadonga
     }
 
     system = {
@@ -7470,7 +6726,6 @@ static_galaxy_scenario = {
             x = 354.0107
             y = -239.2048
         }
-        #initializer = Ranaruii
     }
 
     system = {
@@ -7480,7 +6735,6 @@ static_galaxy_scenario = {
             x = 342.8408
             y = -239.5492
         }
-        # #initializer = sys_735_init
     }
 
     system = {
@@ -7490,7 +6744,6 @@ static_galaxy_scenario = {
             x = 357.2747
             y = -232.5038
         }
-        # #initializer = sys_736_init
     }
 
     system = {
@@ -7500,7 +6753,6 @@ static_galaxy_scenario = {
             x = 352.2922
             y = -217.8971
         }
-        # #initializer = sys_737_init
     }
 
     system = {
@@ -7510,7 +6762,6 @@ static_galaxy_scenario = {
             x = 253.0002
             y = -125.4305
         }
-        #initializer = Kantrael
     }
 
     system = {
@@ -7520,7 +6771,6 @@ static_galaxy_scenario = {
             x = 258.4014
             y = -127.1594
         }
-        #initializer = Fremas
     }
 
     system = {
@@ -7530,7 +6780,6 @@ static_galaxy_scenario = {
             x = 261.8889
             y = -123.1754
         }
-        #initializer = VorgaTorq
     }
 
     system = {
@@ -7540,7 +6789,6 @@ static_galaxy_scenario = {
             x = 255.8085
             y = -120.8938
         }
-        #initializer = Xersia
     }
 
     system = {
@@ -7550,7 +6798,6 @@ static_galaxy_scenario = {
             x = 250.5979
             y = -131.002
         }
-        # #initializer = sys_742_init
     }
 
     system = {
@@ -7560,7 +6807,6 @@ static_galaxy_scenario = {
             x = 255.3458
             y = -131.2582
         }
-        #initializer = Helotas
     }
 
     system = {
@@ -7570,7 +6816,6 @@ static_galaxy_scenario = {
             x = 259.9647
             y = -117.6589
         }
-        # #initializer = sys_744_init
     }
 
     system = {
@@ -7580,7 +6825,6 @@ static_galaxy_scenario = {
             x = 248.1612
             y = -135.8771
         }
-        #initializer = ExeltraMinor
     }
 
     system = {
@@ -7590,7 +6834,6 @@ static_galaxy_scenario = {
             x = 244.953
             y = -130.7452
         }
-        #initializer = Ingolstadt
     }
 
     system = {
@@ -7600,7 +6843,6 @@ static_galaxy_scenario = {
             x = 247.3908
             y = -125.9985
         }
-        #initializer = Belisar
     }
 
     system = {
@@ -7610,7 +6852,6 @@ static_galaxy_scenario = {
             x = 245.4666
             y = -120.4814
         }
-        #initializer = DemiosBinary
     }
 
     system = {
@@ -7620,7 +6861,6 @@ static_galaxy_scenario = {
             x = 250.9837
             y = -119.7116
         }
-        #initializer = Barisa
     }
 
     system = {
@@ -7630,7 +6870,6 @@ static_galaxy_scenario = {
             x = 251.8121
             y = -112.585
         }
-        #initializer = MalinsReach
     }
 
     system = {
@@ -7640,7 +6879,6 @@ static_galaxy_scenario = {
             x = 258.341
             y = -112.7572
         }
-        #initializer = Amistel
     }
 
     system = {
@@ -7650,7 +6888,6 @@ static_galaxy_scenario = {
             x = 260.7469
             y = -107.6016
         }
-        #initializer = Dentor
     }
 
     system = {
@@ -7660,7 +6897,6 @@ static_galaxy_scenario = {
             x = 257.6546
             y = -103.3058
         }
-        #initializer = Agripinaa
     }
 
     system = {
@@ -7670,7 +6906,6 @@ static_galaxy_scenario = {
             x = 255.5919
             y = -107.7738
         }
-        #initializer = Albitern
     }
 
     system = {
@@ -7680,7 +6915,6 @@ static_galaxy_scenario = {
             x = 248.7186
             y = -108.6329
         }
-        #initializer = Sarlax
     }
 
     system = {
@@ -7690,7 +6924,6 @@ static_galaxy_scenario = {
             x = 248.8914
             y = -102.7904
         }
-        #initializer = Tabir
     }
 
     system = {
@@ -7700,7 +6933,6 @@ static_galaxy_scenario = {
             x = 254.2168
             y = -99.52533
         }
-        #initializer = Ulthor
     }
 
     system = {
@@ -7710,7 +6942,6 @@ static_galaxy_scenario = {
             x = 258.6854
             y = -95.22951
         }
-        #initializer = Yayor
     }
 
     system = {
@@ -7720,7 +6951,6 @@ static_galaxy_scenario = {
             x = 265.5587
             y = -104.3371
         }
-        #initializer = Finreht
     }
 
     system = {
@@ -7730,7 +6960,6 @@ static_galaxy_scenario = {
             x = 265.386
             y = -110.8667
         }
-        #initializer = Barel
     }
 
     system = {
@@ -7740,7 +6969,6 @@ static_galaxy_scenario = {
             x = 261.0913
             y = -99.18214
         }
-        #initializer = Lelithar
     }
 
     system = {
@@ -7750,7 +6978,6 @@ static_galaxy_scenario = {
             x = 237.3779
             y = -124.4417
         }
-        #initializer = Tituba
     }
 
     system = {
@@ -7760,7 +6987,6 @@ static_galaxy_scenario = {
             x = 233.9412
             y = -119.4583
         }
-        #initializer = ChimaLomas
     }
 
     system = {
@@ -7770,7 +6996,6 @@ static_galaxy_scenario = {
             x = 229.3022
             y = -121.8642
         }
-        #initializer = NemesisTessera
     }
 
     system = {
@@ -7780,7 +7005,6 @@ static_galaxy_scenario = {
             x = 229.817
             y = -114.4749
         }
-        #initializer = OvarisGulag
     }
 
     system = {
@@ -7790,7 +7014,6 @@ static_galaxy_scenario = {
             x = 238.5802
             y = -118.5992
         }
-        #initializer = Arch
     }
 
     system = {
@@ -7800,7 +7023,6 @@ static_galaxy_scenario = {
             x = 239.4394
             y = -113.2726
         }
-        #initializer = LiHet
     }
 
     system = {
@@ -7810,7 +7032,6 @@ static_galaxy_scenario = {
             x = 233.9412
             y = -111.0388
         }
-        #initializer = UV626
     }
 
     system = {
@@ -7820,7 +7041,6 @@ static_galaxy_scenario = {
             x = 233.4252
             y = -103.9933
         }
-        #initializer = Pyrrus
     }
 
     system = {
@@ -7830,7 +7050,6 @@ static_galaxy_scenario = {
             x = 228.9578
             y = -108.117
         }
-        #initializer = Strigoi
     }
 
     system = {
@@ -7840,7 +7059,6 @@ static_galaxy_scenario = {
             x = 225.5212
             y = -116.1933
         }
-        #initializer = Trionoras
     }
 
     system = {
@@ -7850,7 +7068,6 @@ static_galaxy_scenario = {
             x = 272.6036
             y = -116.8808
         }
-        #initializer = Gehenndra417
     }
 
     system = {
@@ -7860,7 +7077,6 @@ static_galaxy_scenario = {
             x = 274.1504
             y = -111.5542
         }
-        #initializer = Zyracuse
     }
 
     system = {
@@ -7870,7 +7086,6 @@ static_galaxy_scenario = {
             x = 272.2604
             y = -101.9312
         }
-        #initializer = Phibos
     }
 
     system = {
@@ -7880,7 +7095,6 @@ static_galaxy_scenario = {
             x = 274.838
             y = -106.3987
         }
-        #initializer = Marriar
     }
 
     system = {
@@ -7890,7 +7104,6 @@ static_galaxy_scenario = {
             x = 276.2131
             y = -101.0721
         }
-        #initializer = Koryban
     }
 
     system = {
@@ -7900,7 +7113,6 @@ static_galaxy_scenario = {
             x = 183.1298
             y = -145.3741
         }
-        #initializer = SubiacoDiablo
     }
 
     system = {
@@ -7910,7 +7122,6 @@ static_galaxy_scenario = {
             x = 183.3913
             y = -138.8463
         }
-        #initializer = Acaris
     }
 
     system = {
@@ -7920,7 +7131,6 @@ static_galaxy_scenario = {
             x = 167.724
             y = -140.9357
         }
-        # #initializer = sys_780_init
     }
 
     system = {
@@ -7930,7 +7140,6 @@ static_galaxy_scenario = {
             x = 260.8628
             y = -310.5254
         }
-        #initializer = Hrax
     }
 
     system = {
@@ -7940,7 +7149,6 @@ static_galaxy_scenario = {
             x = 267.6628
             y = -309.3715
         }
-        # #initializer = sys_782_init
     }
 
     system = {
@@ -7950,7 +7158,6 @@ static_galaxy_scenario = {
             x = 268.561
             y = -300.7751
         }
-        #initializer = Hulee
     }
 
     system = {
@@ -7960,7 +7167,6 @@ static_galaxy_scenario = {
             x = 266.7646
             y = -293.2059
         }
-        #initializer = Rhodin
     }
 
     system = {
@@ -7970,7 +7176,6 @@ static_galaxy_scenario = {
             x = 256.3729
             y = -295.7704
         }
-        # #initializer = sys_785_init
     }
 
     system = {
@@ -7980,7 +7185,6 @@ static_galaxy_scenario = {
             x = 262.7882
             y = -303.4698
         }
-        #initializer = Juno
     }
 
     system = {
@@ -7990,7 +7194,6 @@ static_galaxy_scenario = {
             x = 273.8213
             y = -312.9632
         }
-        #initializer = Ossuar
     }
 
     system = {
@@ -8000,7 +7203,6 @@ static_galaxy_scenario = {
             x = 274.7195
             y = -303.3408
         }
-        #initializer = PortLokhar
     }
 
     system = {
@@ -8010,7 +7212,6 @@ static_galaxy_scenario = {
             x = 278.8249
             y = -291.2805
         }
-        #initializer = Ferrom
     }
 
     system = {
@@ -8020,7 +7221,6 @@ static_galaxy_scenario = {
             x = 251.2735
             y = -297.7751
         }
-        #initializer = CerixMagnus
     }
 
     system = {
@@ -8030,7 +7230,6 @@ static_galaxy_scenario = {
             x = 254.064
             y = -306.1633
         }
-        #initializer = Pellenne
     }
 
     system = {
@@ -8040,7 +7239,6 @@ static_galaxy_scenario = {
             x = -245.739
             y = 68.05681
         }
-        # #initializer = sys_794_init
     }
 
     system = {
@@ -8050,7 +7248,6 @@ static_galaxy_scenario = {
             x = -244.6584
             y = 72.81089
         }
-        #initializer = Alphos
     }
 
     system = {
@@ -8060,7 +7257,6 @@ static_galaxy_scenario = {
             x = -243.5779
             y = 77.56378
         }
-        #initializer = Pyrathas
     }
 
     system = {
@@ -8070,7 +7266,6 @@ static_galaxy_scenario = {
             x = -244.6584
             y = 81.66872
         }
-        #initializer = Karlak
     }
 
     system = {
@@ -8080,7 +7275,6 @@ static_galaxy_scenario = {
             x = -245.9543
             y = 87.93471
         }
-        # #initializer = sys_798_init
     }
 
     system = {
@@ -8090,7 +7284,6 @@ static_galaxy_scenario = {
             x = -247.6822
             y = 92.03964
         }
-        # #initializer = sys_799_init
     }
 
     system = {
@@ -8100,7 +7293,6 @@ static_galaxy_scenario = {
             x = -252.2647
             y = 93.25568
         }
-        # #initializer = sys_800_init
     }
 
     system = {
@@ -8110,7 +7302,6 @@ static_galaxy_scenario = {
             x = -257.8378
             y = 94.2001
         }
-        #initializer = TsuaMalor
     }
 
     system = {
@@ -8120,7 +7311,6 @@ static_galaxy_scenario = {
             x = -263.6712
             y = 94.63267
         }
-        #initializer = Iphigenia
     }
 
     system = {
@@ -8130,7 +7320,6 @@ static_galaxy_scenario = {
             x = -272.5296
             y = 93.98412
         }
-        # #initializer = sys_803_init
     }
 
     system = {
@@ -8140,7 +7329,6 @@ static_galaxy_scenario = {
             x = -267.3436
             y = 89.23063
         }
-        # #initializer = sys_804_init
     }
 
     system = {
@@ -8150,7 +7338,6 @@ static_galaxy_scenario = {
             x = -262.5907
             y = 89.23063
         }
-        #initializer = Zurcon
     }
 
     system = {
@@ -8160,7 +7347,6 @@ static_galaxy_scenario = {
             x = -256.046
             y = 88.4442
         }
-        #initializer = Krrktikit
     }
 
     system = {
@@ -8170,7 +7356,6 @@ static_galaxy_scenario = {
             x = -251.3558
             y = 84.69373
         }
-        #initializer = Spite
     }
 
     system = {
@@ -8180,7 +7365,6 @@ static_galaxy_scenario = {
             x = -250.2753
             y = 77.34779
         }
-        #initializer = Calisi
     }
 
     system = {
@@ -8190,7 +7374,6 @@ static_galaxy_scenario = {
             x = -252.4363
             y = 68.92135
         }
-        #initializer = Hethgard
     }
 
     system = {
@@ -8200,7 +7383,6 @@ static_galaxy_scenario = {
             x = -258.2697
             y = 67.62483
         }
-        # #initializer = sys_810_init
     }
 
     system = {
@@ -8210,7 +7392,6 @@ static_galaxy_scenario = {
             x = -257.8378
             y = 76.05128
         }
-        #initializer = Aurum
     }
 
     system = {
@@ -8220,7 +7401,6 @@ static_galaxy_scenario = {
             x = -256.9738
             y = 81.66872
         }
-        #initializer = Vanity
     }
 
     system = {
@@ -8230,7 +7410,6 @@ static_galaxy_scenario = {
             x = -265.8322
             y = 84.26115
         }
-        #initializer = Samech
     }
 
     system = {
@@ -8240,7 +7419,6 @@ static_galaxy_scenario = {
             x = -267.7767
             y = 80.37221
         }
-        #initializer = Vanir
     }
 
     system = {
@@ -8250,7 +7428,6 @@ static_galaxy_scenario = {
             x = -263.6712
             y = 70.00188
         }
-        #initializer = Castolel
     }
 
     system = {
@@ -8260,7 +7437,6 @@ static_galaxy_scenario = {
             x = -274.0421
             y = 73.24286
         }
-        # #initializer = sys_816_init
     }
 
     system = {
@@ -8270,7 +7446,6 @@ static_galaxy_scenario = {
             x = -274.4741
             y = 81.45273
         }
-        # #initializer = sys_817_init
     }
 
     system = {
@@ -8280,7 +7455,6 @@ static_galaxy_scenario = {
             x = 75.1808
             y = -40.86217
         }
-        #initializer = szesctrzyosiemnascie
     }
 
     system = {
@@ -8290,7 +7464,6 @@ static_galaxy_scenario = {
             x = 65.5575
             y = -45.15827
         }
-        #initializer = Davin spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = rebelchaos_empire } }
     }
 
     system = {
@@ -8300,7 +7473,6 @@ static_galaxy_scenario = {
             x = 67.10403
             y = -35.87862
         }
-        #initializer = Murder
     }
 
     system = {
@@ -8310,7 +7482,6 @@ static_galaxy_scenario = {
             x = 60.746
             y = -39.14374
         }
-        #initializer = szesctrzydziewietnascie
     }
 
     system = {
@@ -8320,7 +7491,6 @@ static_galaxy_scenario = {
             x = 52.32542
             y = -37.4253
         }
-        #initializer = Interex
     }
 
     system = {
@@ -8330,7 +7500,6 @@ static_galaxy_scenario = {
             x = 38.74984
             y = -45.15827
         }
-        #initializer = AuretianTechnocracy
     }
 
     system = {
@@ -8340,7 +7509,6 @@ static_galaxy_scenario = {
             x = 47.68583
             y = -44.98651
         }
-        #initializer = Ariggata
     }
 
     system = {
@@ -8350,7 +7518,6 @@ static_galaxy_scenario = {
             x = 65.38589
             y = -29.8641
         }
-        #initializer = szesctrzysiedemnascie
     }
 
     system = {
@@ -8360,7 +7527,6 @@ static_galaxy_scenario = {
             x = 75.0092
             y = -32.44175
         }
-        #initializer = Istvaan
     }
 
     system = {
@@ -8370,7 +7536,6 @@ static_galaxy_scenario = {
             x = 330.9821
             y = -350.8648
         }
-        #initializer = rakgol_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = rakgol_star_empire } }
     }
 
     system = {
@@ -8380,7 +7545,6 @@ static_galaxy_scenario = {
             x = 339.7466
             y = -349.1465
         }
-        #initializer = Theserpents
     }
 
     system = {
@@ -8390,7 +7554,6 @@ static_galaxy_scenario = {
             x = 341.6353
             y = -341.0696
         }
-        #initializer = Agusia
     }
 
     system = {
@@ -8400,7 +7563,6 @@ static_galaxy_scenario = {
             x = 341.9797
             y = -326.9797
         }
-        #initializer = Ntharis
     }
 
     system = {
@@ -8410,7 +7572,6 @@ static_galaxy_scenario = {
             x = 337.3407
             y = -319.5904
         }
-        #initializer = Yamakor
     }
 
     system = {
@@ -8420,7 +7581,6 @@ static_galaxy_scenario = {
             x = 336.9963
             y = -333.3371
         }
-        #initializer = UndreedTeef
     }
 
     system = {
@@ -8430,7 +7590,6 @@ static_galaxy_scenario = {
             x = 332.7005
             y = -340.2104
         }
-        #initializer = SolaceEncarmine
     }
 
     system = {
@@ -8440,7 +7599,6 @@ static_galaxy_scenario = {
             x = 322.0473
             y = -353.2708
         }
-        #initializer = Redemption
     }
 
     system = {
@@ -8450,7 +7608,6 @@ static_galaxy_scenario = {
             x = 319.4698
             y = -344.1631
         }
-        #initializer = Meleziel
     }
 
     system = {
@@ -8460,7 +7617,6 @@ static_galaxy_scenario = {
             x = 324.452
             y = -335.0555
         }
-        #initializer = LucinsBreath
     }
 
     system = {
@@ -8470,7 +7626,6 @@ static_galaxy_scenario = {
             x = 332.3573
             y = -327.6661
         }
-        #initializer = Bastion
     }
 
     system = {
@@ -8480,7 +7635,6 @@ static_galaxy_scenario = {
             x = 319.1254
             y = -323.0271
         }
-        #initializer = PortWander
     }
 
     system = {
@@ -8490,7 +7644,6 @@ static_galaxy_scenario = {
             x = 350.0554
             y = -321.4804
         }
-        #initializer = Concanid
     }
 
     system = {
@@ -8500,7 +7653,6 @@ static_galaxy_scenario = {
             x = 271.7804
             y = 140.1205
         }
-        #initializer = RaasBisor
     }
 
     system = {
@@ -8510,7 +7662,6 @@ static_galaxy_scenario = {
             x = 249.511
             y = 120.647
         }
-        # #initializer = sys_850_init
     }
 
     system = {
@@ -8520,7 +7671,6 @@ static_galaxy_scenario = {
             x = 296.3807
             y = 231.3439
         }
-        #initializer = ArnexisMinoris
     }
 
     system = {
@@ -8530,7 +7680,6 @@ static_galaxy_scenario = {
             x = 266.8396
             y = 209.9839
         }
-        #initializer = Barnis
     }
 
     system = {
@@ -8540,7 +7689,6 @@ static_galaxy_scenario = {
             x = 249.5696
             y = 174.5344
         }
-        #initializer = DeltaIX
     }
 
     system = {
@@ -8550,7 +7698,6 @@ static_galaxy_scenario = {
             x = 245.9337
             y = 153.6282
         }
-        #initializer = Huporis
     }
 
     system = {
@@ -8560,7 +7707,6 @@ static_galaxy_scenario = {
             x = 215.483
             y = 135.449
         }
-        #initializer = DioscisTheta
     }
 
     system = {
@@ -8570,7 +7716,6 @@ static_galaxy_scenario = {
             x = 229.5721
             y = 128.6317
         }
-        #initializer = Drachus
     }
 
     system = {
@@ -8580,7 +7725,6 @@ static_galaxy_scenario = {
             x = 246.6723
             y = 134.8365
         }
-        #initializer = KarisEphalon
     }
 
     system = {
@@ -8590,7 +7734,6 @@ static_galaxy_scenario = {
             x = 233.6625
             y = 141.3573
         }
-        #initializer = AlenaMora
     }
 
     system = {
@@ -8600,7 +7743,6 @@ static_galaxy_scenario = {
             x = 205.5233
             y = 118.8735
         }
-        #initializer = TarsisUltra
     }
 
     system = {
@@ -8610,7 +7752,6 @@ static_galaxy_scenario = {
             x = 243.8347
             y = 126.3228
         }
-        # #initializer = sys_862_init
     }
 
     system = {
@@ -8620,7 +7761,6 @@ static_galaxy_scenario = {
             x = 251.6397
             y = 127.3871
         }
-        #initializer = Asumptes
     }
 
     system = {
@@ -8630,7 +7770,6 @@ static_galaxy_scenario = {
             x = 225.0344
             y = 169.9557
         }
-        #initializer = Augustus
     }
 
     system = {
@@ -8640,7 +7779,6 @@ static_galaxy_scenario = {
             x = 231.7736
             y = 178.4694
         }
-        #initializer = Equinox
     }
 
     system = {
@@ -8650,7 +7788,6 @@ static_galaxy_scenario = {
             x = 230.7095
             y = 156.8303
         }
-        #initializer = Cirian
     }
 
     system = {
@@ -8660,7 +7797,6 @@ static_galaxy_scenario = {
             x = 224.6787
             y = 179.5334
         }
-        #initializer = SanctusPrima
     }
 
     system = {
@@ -8670,7 +7806,6 @@ static_galaxy_scenario = {
             x = 228.936
             y = 186.2735
         }
-        #initializer = KurzonsTall
     }
 
     system = {
@@ -8680,7 +7815,6 @@ static_galaxy_scenario = {
             x = 235.6758
             y = 189.1114
         }
-        #initializer = Jurn
     }
 
     system = {
@@ -8690,7 +7824,6 @@ static_galaxy_scenario = {
             x = 229.9994
             y = 215.3652
         }
-        #initializer = Solsticee
     }
 
     system = {
@@ -8700,7 +7833,6 @@ static_galaxy_scenario = {
             x = 232.8258
             y = 200.8317
         }
-        #initializer = Stratix
     }
 
     system = {
@@ -8710,7 +7842,6 @@ static_galaxy_scenario = {
             x = 239.2845
             y = 209.3095
         }
-        #initializer = Banelund
     }
 
     system = {
@@ -8720,7 +7851,6 @@ static_galaxy_scenario = {
             x = 245.7444
             y = 221.4206
         }
-        #initializer = Ephesus
     }
 
     system = {
@@ -8730,7 +7860,6 @@ static_galaxy_scenario = {
             x = 252.6072
             y = 219.8062
         }
-        # #initializer = sys_875_init
     }
 
     system = {
@@ -8740,7 +7869,6 @@ static_galaxy_scenario = {
             x = 251.3959
             y = 213.7505
         }
-        #initializer = eastchaos_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = eastchaos_empire } }
     }
 
     system = {
@@ -8750,7 +7878,6 @@ static_galaxy_scenario = {
             x = 245.7444
             y = 201.6394
         }
-        # #initializer = sys_877_init
     }
 
     system = {
@@ -8760,7 +7887,6 @@ static_galaxy_scenario = {
             x = 252.203
             y = 188.317
         }
-        # #initializer = sys_878_init
     }
 
     system = {
@@ -8770,7 +7896,6 @@ static_galaxy_scenario = {
             x = 258.1345
             y = 227.6035
         }
-        #initializer = Ariel
     }
 
     system = {
@@ -8780,7 +7905,6 @@ static_galaxy_scenario = {
             x = 252.5072
             y = 232.1052
         }
-        #initializer = Persephone
     }
 
     system = {
@@ -8790,7 +7914,6 @@ static_galaxy_scenario = {
             x = 263.7623
             y = 234.3564
         }
-        #initializer = Athelaq
     }
 
     system = {
@@ -8800,7 +7923,6 @@ static_galaxy_scenario = {
             x = 259.26
             y = 241.1086
         }
-        #initializer = Lalinta
     }
 
     system = {
@@ -8810,7 +7932,6 @@ static_galaxy_scenario = {
             x = 241.2533
             y = 275.4337
         }
-        #initializer = Danubis
     }
 
     system = {
@@ -8820,7 +7941,6 @@ static_galaxy_scenario = {
             x = 227.1855
             y = 266.9928
         }
-        #initializer = Bradur
     }
 
     system = {
@@ -8830,7 +7950,6 @@ static_galaxy_scenario = {
             x = 224.3728
             y = 250.6747
         }
-        #initializer = Prenau
     }
 
     system = {
@@ -8840,7 +7959,6 @@ static_galaxy_scenario = {
             x = 163.0376
             y = 268.6809
         }
-        # #initializer = sys_886_init
     }
 
     system = {
@@ -8850,7 +7968,6 @@ static_galaxy_scenario = {
             x = 170.9159
             y = 279.3726
         }
-        #initializer = Sondheimm
     }
 
     system = {
@@ -8860,7 +7977,6 @@ static_galaxy_scenario = {
             x = 165.2887
             y = 294.5657
         }
-        #initializer = MechanicusRet
     }
 
     system = {
@@ -8870,7 +7986,6 @@ static_galaxy_scenario = {
             x = 186.6709
             y = 209.0343
         }
-        #initializer = Gorang
     }
 
     system = {
@@ -8880,7 +7995,6 @@ static_galaxy_scenario = {
             x = 193.986
             y = 232.1052
         }
-        #initializer = Phobiann
     }
 
     system = {
@@ -8890,7 +8004,6 @@ static_galaxy_scenario = {
             x = 264.6674
             y = 14.34602
         }
-        #initializer = Betaliss
     }
 
     system = {
@@ -8900,7 +8013,6 @@ static_galaxy_scenario = {
             x = -291.8083
             y = 126.7598
         }
-        #initializer = kaurava_initializer
     }
 
     system = {
@@ -8910,7 +8022,6 @@ static_galaxy_scenario = {
             x = 106.2824
             y = 163.6053
         }
-        #initializer = Meridian
     }
 
     system = {
@@ -8920,7 +8031,6 @@ static_galaxy_scenario = {
             x = 115.2852
             y = 169.7944
         }
-        #initializer = Aurelia
     }
 
     system = {
@@ -8930,7 +8040,6 @@ static_galaxy_scenario = {
             x = 118.6612
             y = 179.3594
         }
-        #initializer = Calderis
     }
 
     system = {
@@ -8940,7 +8049,6 @@ static_galaxy_scenario = {
             x = 110.7838
             y = 181.6098
         }
-        #initializer = TyphonPrimaris
     }
 
     system = {
@@ -8950,7 +8058,6 @@ static_galaxy_scenario = {
             x = 106.2824
             y = 172.0448
         }
-        #initializer = Cyrene
     }
 
     system = {
@@ -8960,7 +8067,6 @@ static_galaxy_scenario = {
             x = 268.4901
             y = -164.7782
         }
-        #initializer = Belial
     }
 
     system = {
@@ -8970,7 +8076,6 @@ static_galaxy_scenario = {
             x = 293.6852
             y = -165.0853
         }
-        #initializer = Altanasar
     }
 
     system = {
@@ -8980,7 +8085,6 @@ static_galaxy_scenario = {
             x = 302.2899
             y = -151.8729
         }
-        #initializer = Medrengard
     }
 
     system = {
@@ -8990,7 +8094,6 @@ static_galaxy_scenario = {
             x = 297.9881
             y = -141.2026
         }
-        #initializer = Eidolon
     }
 
     system = {
@@ -9000,7 +8103,6 @@ static_galaxy_scenario = {
             x = 290.9988
             y = -141.0571
         }
-        #initializer = Chinchare
     }
 
     system = {
@@ -9010,7 +8112,6 @@ static_galaxy_scenario = {
             x = 273.4001
             y = -139.3535
         }
-        #initializer = Adraith
     }
 
     system = {
@@ -9020,7 +8121,6 @@ static_galaxy_scenario = {
             x = 267.2606
             y = -148.8008
         }
-        #initializer = Aktosha
     }
 
     system = {
@@ -9030,7 +8130,6 @@ static_galaxy_scenario = {
             x = 310.8922
             y = -144.8061
         }
-        #initializer = Medusa
     }
 
     system = {
@@ -9040,7 +8139,6 @@ static_galaxy_scenario = {
             x = 282.1847
             y = -164.229
         }
-        #initializer = Brigannion
     }
 
     system = {
@@ -9050,7 +8148,6 @@ static_galaxy_scenario = {
             x = 287.9574
             y = -156.0179
         }
-        #initializer = Harmony
     }
 
     system = {
@@ -9060,7 +8157,6 @@ static_galaxy_scenario = {
             x = 291.1645
             y = -148.5765
         }
-        #initializer = Drakaasi
     }
 
     system = {
@@ -9070,7 +8166,6 @@ static_galaxy_scenario = {
             x = 277.9504
             y = -159.0965
         }
-        #initializer = Anathrax
     }
 
     system = {
@@ -9080,7 +8175,6 @@ static_galaxy_scenario = {
             x = 288.8557
             y = -173.2101
         }
-        #initializer = Bubonicus
     }
 
     system = {
@@ -9090,7 +8184,6 @@ static_galaxy_scenario = {
             x = 278.0782
             y = -169.1042
         }
-        #initializer = Maeleum
     }
 
     system = {
@@ -9100,7 +8193,6 @@ static_galaxy_scenario = {
             x = 273.2037
             y = -160.7652
         }
-        #initializer = Oliensis
     }
 
     system = {
@@ -9110,7 +8202,6 @@ static_galaxy_scenario = {
             x = 272.3055
             y = -151.9126
         }
-        #initializer = Sortiarius
     }
 
     system = {
@@ -9120,7 +8211,6 @@ static_galaxy_scenario = {
             x = 286.29
             y = -143.8298
         }
-        #initializer = Sicarus
     }
 
     system = {
@@ -9130,7 +8220,6 @@ static_galaxy_scenario = {
             x = 296.9384
             y = -153.7084
         }
-        #initializer = PlaguePlanet
     }
 
     system = {
@@ -9140,7 +8229,6 @@ static_galaxy_scenario = {
             x = 288.342
             y = -161.7912
         }
-        #initializer = Temporia
     }
 
     system = {
@@ -9150,7 +8238,6 @@ static_galaxy_scenario = {
             x = 292.3195
             y = -158.1989
         }
-        #initializer = WorldofImmortalSorrows
     }
 
     system = {
@@ -9160,7 +8247,6 @@ static_galaxy_scenario = {
             x = 282.6971
             y = -158.4557
         }
-        #initializer = xanaii
     }
 
     system = {
@@ -9170,7 +8256,6 @@ static_galaxy_scenario = {
             x = 298.1635
             y = -62.29053
         }
-        #initializer = Wazdakka
     }
 
     system = {
@@ -9180,7 +8265,6 @@ static_galaxy_scenario = {
             x = 299.0724
             y = 2.692398
         }
-        #initializer = Caluerna
     }
 
     system = {
@@ -9190,7 +8274,6 @@ static_galaxy_scenario = {
             x = 108.21
             y = -48.85573
         }
-        #initializer = Urgok
     }
 
     system = {
@@ -9200,7 +8283,6 @@ static_galaxy_scenario = {
             x = 85.70482
             y = -113.5594
         }
-        #initializer = Nazdreg
     }
 
     system = {
@@ -9210,7 +8292,6 @@ static_galaxy_scenario = {
             x = 81.76578
             y = -196.8297
         }
-        # #initializer = sys_913_init
     }
 
     system = {
@@ -9220,7 +8301,6 @@ static_galaxy_scenario = {
             x = -59.14814
             y = -287.977
         }
-        #initializer = archkilla_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = archkilla_empire } }
     }
 	
 	system = {
@@ -9230,7 +8310,6 @@ static_galaxy_scenario = {
             x = -65.14814
             y = -293.977
         }
-        #initializer = Pseudopol
     }
 	
 	system = {
@@ -9240,7 +8319,6 @@ static_galaxy_scenario = {
             x = -70.14814
             y = -298.977
         }
-        #initializer = Periliac
     }
 	
 	system = {
@@ -9250,7 +8328,6 @@ static_galaxy_scenario = {
             x = -54.14814
             y = -282.977
         }
-        #initializer = Obetrus
     }
 	
 	system = {
@@ -9260,7 +8337,6 @@ static_galaxy_scenario = {
             x = -48.14814
             y = -277.977
         }
-        #initializer = Morloq
     }
 
     system = {
@@ -9270,7 +8346,6 @@ static_galaxy_scenario = {
             x = -129.0233
             y = 55.34711
         }
-        #initializer = Chrax
     }
 
     system = {
@@ -9280,7 +8355,6 @@ static_galaxy_scenario = {
             x = -157.4083
             y = 233.5293
         }
-        #initializer = gorbad_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = gorbad_empire } }
     }
 
     system = {
@@ -9290,7 +8364,6 @@ static_galaxy_scenario = {
             x = -205.862
             y = 137.9873
         }
-        #initializer = Grog
     }
 
     system = {
@@ -9300,7 +8373,6 @@ static_galaxy_scenario = {
             x = 33.7149
             y = 1.847851
         }
-        #initializer = BloodyBones
     }
 
     system = {
@@ -9310,7 +8382,6 @@ static_galaxy_scenario = {
             x = 38.01128
             y = 5.45668
         }
-        #initializer = Piety
     }
 
     system = {
@@ -9320,7 +8391,6 @@ static_galaxy_scenario = {
             x = 44.25949
             y = 9.332407
         }
-        #initializer = Galen
     }
 
     system = {
@@ -9330,7 +8400,6 @@ static_galaxy_scenario = {
             x = 34.74605
             y = 12.15905
         }
-        #initializer = maelstormchaos_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = maelstormchaos_empire } }
     }
 
     system = {
@@ -9340,7 +8409,6 @@ static_galaxy_scenario = {
             x = 29.50349
             y = 10.74395
         }
-        #initializer = Calah
     }
 
     system = {
@@ -9350,7 +8418,6 @@ static_galaxy_scenario = {
             x = 29.76229
             y = 6.487862
         }
-        #initializer = HellsTeeth
     }
 
     system = {
@@ -9360,7 +8427,6 @@ static_galaxy_scenario = {
             x = 38.74201
             y = 9.460823
         }
-        #initializer = Lamtan
     }
 	
 	system = {
@@ -9370,7 +8436,6 @@ static_galaxy_scenario = {
             x = 34.74201
             y = 9.460823
         }
-        #initializer = Ghalmek
     }
 
     system = {
@@ -9380,7 +8445,6 @@ static_galaxy_scenario = {
             x = 42.30765
             y = 0.6447563
         }
-        #initializer = Khirab
     }
 
     system = {
@@ -9390,7 +8454,6 @@ static_galaxy_scenario = {
             x = 50.04108
             y = 12.84641
         }
-        #initializer = Khymara
     }
 
     system = {
@@ -9400,7 +8463,6 @@ static_galaxy_scenario = {
             x = 40.41724
             y = 13.87758
         }
-        #initializer = Angstrom
     }
 
     system = {
@@ -9410,7 +8472,6 @@ static_galaxy_scenario = {
             x = 35.08972
             y = 17.14289
         }
-        #initializer = Sungraad
     }
 
     system = {
@@ -9420,7 +8481,6 @@ static_galaxy_scenario = {
             x = 52.10333
             y = 18.00215
         }
-        #initializer = Vaniah
     }
 
     system = {
@@ -9430,7 +8490,6 @@ static_galaxy_scenario = {
             x = 57.25893
             y = 14.90876
         }
-        #initializer = Gargathea
     }
 
     system = {
@@ -9440,7 +8499,6 @@ static_galaxy_scenario = {
             x = 47.63512
             y = 5.628593
         }
-        #initializer = Endymion
     }
 
     system = {
@@ -9450,7 +8508,6 @@ static_galaxy_scenario = {
             x = 53.30631
             y = -2.620396
         }
-        #initializer = Cygnax
     }
 
     system = {
@@ -9460,7 +8517,6 @@ static_galaxy_scenario = {
             x = 55.5404
             y = 2.363293
         }
-        #initializer = Bale
     }
 
     system = {
@@ -9470,7 +8526,6 @@ static_galaxy_scenario = {
             x = 55.5404
             y = 8.550072
         }
-        #initializer = Sagan
     }
 
     system = {
@@ -9480,7 +8535,6 @@ static_galaxy_scenario = {
             x = 52.27517
             y = 5.113003
         }
-        # #initializer = sys_940_init
     }
 
     system = {
@@ -9490,7 +8544,6 @@ static_galaxy_scenario = {
             x = 47.11957
             y = 21.26731
         }
-        #initializer = Eshunna
     }
 
     system = {
@@ -9500,7 +8553,6 @@ static_galaxy_scenario = {
             x = 54.16554
             y = 22.29849
         }
-        #initializer = Isin
     }
 
     system = {
@@ -9510,7 +8562,6 @@ static_galaxy_scenario = {
             x = 42.8232
             y = 26.59482
         }
-        #initializer = Archea
     }
 
     system = {
@@ -9688,7 +8739,6 @@ static_galaxy_scenario = {
             x = 37.65702
             y = -3.637375
         }
-        #initializer = HelixBeta
     }
 
     system = {
@@ -9698,7 +8748,6 @@ static_galaxy_scenario = {
             x = 29.66719
             y = -3.022659
         }
-        #initializer = GreatLesion
     }
 
     system = {
@@ -9708,7 +8757,6 @@ static_galaxy_scenario = {
             x = 22.90657
             y = 4.659847
         }
-        #initializer = Hellsiris
     }
 
     system = {
@@ -9718,7 +8766,6 @@ static_galaxy_scenario = {
             x = 24.13577
             y = 15.10805
         }
-        #initializer = NullBastion
     }
 
     system = {
@@ -9728,7 +8775,6 @@ static_galaxy_scenario = {
             x = 26.2869
             y = -0.8715363
         }
-        # #initializer = sys_970_init
     }
 
     system = {
@@ -9738,7 +8784,6 @@ static_galaxy_scenario = {
             x = 351.1218
             y = 147.2126
         }
-		#initializer = tret676
     }
 
     system = {
@@ -9784,7 +8829,6 @@ static_galaxy_scenario = {
             x = 321.8828
             y = 234.9299
         }
-		#initializer = sets76
     }
 
     system = {
@@ -9794,7 +8838,6 @@ static_galaxy_scenario = {
             x = 247.8106
             y = 347.0127
         }
-        #initializer = Vorketh
     }
 
     system = {
@@ -9804,7 +8847,6 @@ static_galaxy_scenario = {
             x = 294.593
             y = 309.9767
         }
-		#initializer = Veltan
     }
 
     system = {
@@ -9814,7 +8856,6 @@ static_galaxy_scenario = {
             x = 338.4515
             y = 245.6507
         }
-		#initializer = ffd76
     }
 
     system = {
@@ -9833,7 +8874,6 @@ static_galaxy_scenario = {
             x = 390.9804
             y = -257.3507
         }
-		#initializer = Andalezja
     }
 
     system = {
@@ -9843,7 +8883,6 @@ static_galaxy_scenario = {
             x = 410.7263
             y = -246.8969
         }
-		#initializer = Serses
     }
 
     system = {
@@ -9853,7 +8892,6 @@ static_galaxy_scenario = {
             x = 401.4341
             y = -227.151
         }
-		#initializer = rwa65
     }
 
     system = {
@@ -9863,7 +8901,6 @@ static_galaxy_scenario = {
             x = 436.2798
             y = -216.6974
         }
-		#initializer = Worenta
     }
 
     system = {
@@ -9873,12 +8910,10 @@ static_galaxy_scenario = {
             x = 458.3488
             y = -195.7899
         }
-		#initializer = Efgoin
     }
 
     system = {
 	name = "Wormgyre"
-	#initializer = Wormgyre spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = hellgrammite_star_empire } }
         id = "975"
         position = {
             x = 472.2871
@@ -9893,7 +8928,6 @@ static_galaxy_scenario = {
             x = 371.2345
             y = -97.06044
         }
-		#initializer = esr65
     }
 
     system = {
@@ -9903,12 +8937,10 @@ static_galaxy_scenario = {
             x = 421.18
             y = -58.73001
         }
-        #initializer = Nervkor
     }
 
     system = {
 		name = "Nudreght"
-		#initializer = Nudreght
         id = "978"
         position = {
             x = -24.804
@@ -9923,7 +8955,6 @@ static_galaxy_scenario = {
             x = -45.27742
             y = 46.14151
         }
-        #initializer = Dhol
     }
 
     system = {
@@ -9933,12 +8964,10 @@ static_galaxy_scenario = {
             x = -67.11568
             y = 17.47872
         }
-        #initializer = draven spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = necronnovokh_empire } }
     }
 
     system = {
 	name = "Caspadene"
-	#initializer = Caspadene
         id = "981"
         position = {
             x = -77.35237
@@ -9948,7 +8977,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Suter"
-	#initializer = Suter
         id = "982"
         position = {
             x = -297.3873
@@ -9958,7 +8986,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Unith"
-	#initializer = Unith
         id = "983"
         position = {
             x = -270.7966
@@ -9968,7 +8995,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Wulterro"
-		#initializer = Wulterro
         id = "984"
         position = {
             x = -247.3969
@@ -9978,7 +9004,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "hjondafa"
-	#initializer = hjondafa
         id = "985"
         position = {
             x = -189.961
@@ -9988,7 +9013,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Targettoe"
-		#initializer = Targettoe
         id = "986"
         position = {
             x = -146.3523
@@ -10003,7 +9027,6 @@ static_galaxy_scenario = {
             x = -36.79886
             y = -363.115
         }
-		#initializer = Taban
     }
 
     system = {
@@ -10013,7 +9036,6 @@ static_galaxy_scenario = {
             x = -22.9717
             y = -352.4788
         }
-		#initializer = Gewond
     }
 
     system = {
@@ -10023,7 +9045,6 @@ static_galaxy_scenario = {
             x = -1.699189
             y = -374.8149
         }
-		#initializer = cexene
     }
 
     system = {
@@ -10033,7 +9054,6 @@ static_galaxy_scenario = {
             x = 6.809816
             y = -359.9241
         }
-		#initializer = folgretia
     }
 
     system = {
@@ -10043,7 +9063,6 @@ static_galaxy_scenario = {
             x = 38.71861
             y = -359.9241
         }
-		#initializer = wendefgal
     }
 
     system = {
@@ -10053,7 +9072,6 @@ static_galaxy_scenario = {
             x = 46.16399
             y = -383.3239
         }
-		#initializer = zadawan
     }
 
     system = {
@@ -10063,12 +9081,10 @@ static_galaxy_scenario = {
             x = 71.69101
             y = -365.2423
         }
-		#initializer = welret
     }
 
     system = {
 	name = "Slotha"
-	#initializer = Slotha
         id = "994"
         position = {
             x = 99.3453
@@ -10083,7 +9099,6 @@ static_galaxy_scenario = {
             x = 119.5542
             y = -378.0058
         }
-		#initializer = Hohenga
     }
 
     system = {
@@ -10093,7 +9108,6 @@ static_galaxy_scenario = {
             x = 134.445
             y = -363.115
         }
-		#initializer = Searte
     }
 
     system = {
@@ -10103,12 +9117,10 @@ static_galaxy_scenario = {
             x = 163.1629
             y = -358.8606
         }
-        #initializer = Sarkon
     }
 
     system = {
 	name = "Grumium"
-	#initializer = Grumium
         id = "998"
         position = {
             x = 189.7535
@@ -10123,12 +9135,10 @@ static_galaxy_scenario = {
             x = 214.217
             y = -342.9062
         }
-		#initializer = Rurius
     }
 
     system = {
 	name = "Gegenor"
-	#initializer = Gegenor
         id = "1000"
         position = {
             x = 239.744
@@ -10138,7 +9148,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Pestendbo"
-	#initializer = Pestendbo
         id = "1001"
         position = {
             x = -98.4892
@@ -10148,7 +9157,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Derkagimz"
-	#initializer = Derkagimz
         id = "1002"
         position = {
             x = -131.4616
@@ -10158,7 +9166,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "DakaForka"
-	#initializer = DakaForka
         id = "1003"
         position = {
             x = -160.1795
@@ -10168,7 +9175,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Morriger"
-	#initializer = Morriger
         id = "1004"
         position = {
             x = -194.2155
@@ -10178,7 +9184,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Hjordengez"
-	#initializer = Hjordengez
         id = "1005"
         position = {
             x = -188.8974
@@ -10188,7 +9193,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Doomender"
-	#initializer = Doomender
         id = "1006"
         position = {
             x = -170.8158
@@ -10198,7 +9202,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Anfenga"
-	#initializer = Anfenga
         id = "1007"
         position = {
             x = -121.8889
@@ -10208,7 +9211,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Poenanbo"
-	#initializer = Poenanbo
         id = "1008"
         position = {
             x = -58.07137
@@ -10223,12 +9225,10 @@ static_galaxy_scenario = {
             x = 59.99122
             y = 409.0778
         }
-        #initializer = Morrigor
     }
 
     system = {
 	name = "Geulea"
-	#initializer = Geulea
         id = "1010"
         position = {
             x = -230.3787
@@ -10243,7 +9243,6 @@ static_galaxy_scenario = {
             x = -291.2144
             y = 405.8871
         }
-        #initializer = Nagathar spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = necronkardenath_empire } }
     }
 
     system = {
@@ -10253,7 +9252,6 @@ static_galaxy_scenario = {
             x = 320.5797
             y = 281.4426
         }
-		#initializer = 8715c
     }
 
     system = {
@@ -10263,7 +9261,6 @@ static_galaxy_scenario = {
             x = 271.6528
             y = 349.5147
         }
-		#initializer = Torrom
     }
 
     system = {
@@ -10273,7 +9270,6 @@ static_galaxy_scenario = {
             x = 195.0717
             y = 385.678
         }
-		#initializer = Myrum
     }
 
     system = {
@@ -10283,7 +9279,6 @@ static_galaxy_scenario = {
             x = 142.9541
             y = 401.6325
         }
-		#initializer = Ullus
     }
 
     system = {
@@ -10293,12 +9288,10 @@ static_galaxy_scenario = {
             x = 105.7271
             y = 409.0778
         }
-		#initializer = Chox
     }
 
     system = {
 	name = "Uroxde"
-	#initializer = Uroxde
         id = "1017"
         position = {
             x = -314.4053
@@ -10308,7 +9301,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Swearkilke"
-	#initializer = Swearkilke
         id = "1018"
         position = {
             x = -397.3681
@@ -10318,7 +9310,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Sawomia"
-	#initializer = Sawomia
         id = "1019"
         position = {
             x = -111.2526
@@ -10328,7 +9319,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ekoecromia"
-	#initializer = Ekoecromia
         id = "1020"
         position = {
             x = -215.488
@@ -10338,7 +9328,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Beyu"
-	#initializer = Beyu
         id = "1021"
         position = {
             x = -249.7329
@@ -10348,7 +9337,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Faenov"
-	#initializer = Faenov
         id = "1022"
         position = {
             x = 21.70067
@@ -10358,7 +9346,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ehsmyke"
-	#initializer = Ehsmyke
         id = "1023"
         position = {
             x = 77.00922
@@ -10373,7 +9360,6 @@ static_galaxy_scenario = {
             x = 138.6995
             y = 384.6143
         }
-        #initializer = Maedrax
     }
 
     system = {
@@ -10383,12 +9369,10 @@ static_galaxy_scenario = {
             x = 174.8628
             y = 397.378
         }
-		#initializer = Hensedon
     }
 
     system = {
 	name = "Gongelhanne"
-	#initializer = Gongelhanne
         id = "1026"
         position = {
             x = -182.0853
@@ -10398,7 +9382,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Helgranntor"
-	#initializer = Helgranntor
         id = "1027"
         position = {
             x = -225.2349
@@ -10408,7 +9391,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Uinphidia"
-	#initializer = Uinphidia
         id = "1028"
         position = {
             x = -262.8168
@@ -10418,7 +9400,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Trouni"
-	#initializer = Trouni
         id = "1029"
         position = {
             x = -315.7098
@@ -10428,7 +9409,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Edfonbernt"
-	#initializer = Edfonbernt
         id = "1030"
         position = {
             x = -283.6956
@@ -10438,7 +9418,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ordefon"
-	#initializer = Ordefon
         id = "1031"
         position = {
             x = -299.0067
@@ -10453,12 +9432,10 @@ static_galaxy_scenario = {
             x = -339.3725
             y = -281.5345
         }
-        #initializer = Drazak spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = necronbone_empire } }
     }
 
     system = {
 	name = "Terelzan"
-	#initializer = Terelzan
         id = "1033"
         position = {
             x = -371.3867
@@ -10468,7 +9445,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Necagahana"
-	#initializer = Necagahana
         id = "1034"
         position = {
             x = -242.705
@@ -10478,7 +9454,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Mondaze"
-	#initializer = Mondaze
         id = "1035"
         position = {
             x = -223.8952
@@ -10488,7 +9463,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Denezanre"
-	#initializer = Denezanre
 	id = "1036"
         position = {
             x = -207.5389
@@ -10503,12 +9477,10 @@ static_galaxy_scenario = {
             x = -198.543
             y = 41.6351
         }
-        #initializer = thanatos spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = necronoruscar_empire } }
     }
 
     system = {
 	name = "Tyonanwe"
-	#initializer = Tyonanwe
         id = "1038"
         position = {
             x = -186.2758
@@ -10518,7 +9490,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ophilizis"
-	#initializer = Ophilizis
         id = "1039"
         position = {
             x = -172.3729
@@ -10528,7 +9499,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Fenranze"
-	#initializer = Fenranze
         id = "1040"
         position = {
             x = -151.9275
@@ -10543,12 +9513,10 @@ static_galaxy_scenario = {
             x = -131.4821
             y = 80.07234
         }
-        #initializer = Moebius
     }
 
     system = {
 	name = "Unwerter"
-	#initializer = Unwerter
         id = "1042"
         position = {
             x = -89.77357
@@ -10558,7 +9526,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Fenulnu"
-	#initializer = Fenulnu
         id = "1043"
         position = {
             x = -62.78569
@@ -10568,7 +9535,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Alvanzar"
-	#initializer = Alvanzar
         id = "1044"
         position = {
             x = -38.25124
@@ -10578,7 +9544,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ultunus"
-	#initializer = Ultunus
         id = "1045"
         position = {
             x = -269.6929
@@ -10588,7 +9553,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Opoesda"
-	#initializer = Opoesda
         id = "1046"
         position = {
             x = -290.1382
@@ -10598,7 +9562,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Jagae"
-	#initializer = Jagae
         id = "1047"
         position = {
             x = -258.2435
@@ -10608,7 +9571,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Teranze"
-	#initializer = Teranze
         id = "1048"
         position = {
             x = -295.0451
@@ -10623,7 +9585,6 @@ static_galaxy_scenario = {
             x = 5.746237
             y = 292.0789
         }
-        #initializer = carriondeep spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = necronmaynarkh_empire } }
     }
 
     system = {
@@ -10633,7 +9594,6 @@ static_galaxy_scenario = {
             x = -26.16255
             y = 300.588
         }
-		#initializer = Genhamul
     }
 
     system = {
@@ -10643,12 +9603,10 @@ static_galaxy_scenario = {
             x = 396.5783
             y = -71.41278
         }
-        #initializer = Zapennec
     }
 
     system = {
 	name = "Drenhon"
-	#initializer = Drenhon
         id = "1052"
         position = {
             x = 369.5685
@@ -10658,7 +9616,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Karkadan"
-	#initializer = Karkadan
         id = "1053"
         position = {
             x = -407.8861
@@ -10668,7 +9625,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Cogahen"
-		#initializer = Cogahen
         id = "1054"
         position = {
             x = -418.0475
@@ -10678,7 +9634,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Coggan"
-	#initializer = Coggan
         id = "1055"
         position = {
             x = -429.479
@@ -10688,7 +9643,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Dangal"
-        #initializer = Dangal
         id = "1056"
         position = {
             x = -391.374
@@ -10698,7 +9652,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Rimmock"
-		#initializer = Rimmock
         id = "1057"
         position = {
             x = -155.1987
@@ -10708,7 +9661,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Avior"
-	#initializer = Avior
         id = "1058"
         position = {
             x = -106.9477
@@ -10718,7 +9670,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Algol"
-	#initializer = Algol
         id = "1059"
         position = {
             x = -48.06497
@@ -10728,7 +9679,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Dorensworld"
-	#initializer = Dorensworld
         id = "1060"
         position = {
             x = -5.53863
@@ -10738,7 +9688,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Sedfont"
-	#initializer = Sedfont
         id = "1061"
         position = {
             x = -69.32819
@@ -10748,7 +9697,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "34bret"
-	#initializer = 34bret
         id = "1062"
         position = {
             x = -119.2149
@@ -10758,7 +9706,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Oglkapus"
-	#initializer = Oglkapus
         id = "1063"
         position = {
             x = -184.6401
@@ -10773,7 +9720,6 @@ static_galaxy_scenario = {
             x = 145.9071
             y = 327.0608
         }
-		#initializer = Tiom
     }
 
     system = {
@@ -10783,7 +9729,6 @@ static_galaxy_scenario = {
             x = 143.3667
             y = 343.573
         }
-        #initializer = Tyr
     }
 
     system = {
@@ -10793,7 +9738,6 @@ static_galaxy_scenario = {
             x = 109.0722
             y = 338.4922
         }
-		#initializer = Vumm
     }
 
     system = {
@@ -10803,7 +9747,6 @@ static_galaxy_scenario = {
             x = 92.55998
             y = 352.4642
         }
-		#initializer = Withrilli
     }
 
     system = {
@@ -10813,7 +9756,6 @@ static_galaxy_scenario = {
             x = 54.45496
             y = 348.6537
         }
-		#initializer = Whaskar
     }
 
     system = {
@@ -10823,12 +9765,10 @@ static_galaxy_scenario = {
             x = 13.80963
             y = 352.4642
         }
-        #initializer = Trantis
     }
 
     system = {
 	name = "Sieagawa"
-	#initializer = Sieagawa
         id = "1070"
         position = {
             x = -9.05344
@@ -10838,7 +9778,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Kehines"
-	#initializer = Kehines
         id = "1071"
         position = {
             x = -56.04961
@@ -10848,7 +9787,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ebucrosie"
-	#initializer = Ebucrosie
         id = "1072"
         position = {
             x = -175.4454
@@ -10858,7 +9796,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Cestoder"
-	#initializer = Cestoder
         id = "1073"
         position = {
             x = -240.224
@@ -10868,7 +9805,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Tworeghern"
-	#initializer = Tworeghern
         id = "1074"
         position = {
             x = -291.0307
@@ -10878,7 +9814,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Deusdex"
-	#initializer = Deusdex
         id = "1075"
         position = {
             x = -373.5916
@@ -10888,7 +9823,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Wiyter"
-	#initializer = Wiyter
         id = "1076"
         position = {
             x = -155.1227
@@ -10898,7 +9832,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Aiplade"
-	#initializer = Aiplade
         id = "1077"
         position = {
             x = -94.15466
@@ -10908,7 +9841,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Arnesotho"
-	#initializer = Arnesotho
         id = "1078"
         position = {
             x = -48.42867
@@ -10918,7 +9850,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Kajam"
-	#initializer = Kajam
         id = "1079"
         position = {
             x = 6.188519
@@ -10928,7 +9859,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Hoedus"
-	#initializer = Hoedus
         id = "1080"
         position = {
             x = 70.96707
@@ -10938,7 +9868,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Hydrobius"
-	#initializer = Hydrobius
         id = "1081"
         position = {
             x = 148.4473
@@ -10948,7 +9877,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Jabbah"
-	#initializer = Jabbah
         id = "1082"
         position = {
             x = 209.4154
@@ -10963,7 +9891,6 @@ static_galaxy_scenario = {
             x = 253.8713
             y = -358.8301
         }
-        #initializer = Kinbriar
     }
 
     system = {
@@ -10973,7 +9900,6 @@ static_galaxy_scenario = {
             x = 283.0851
             y = -344.8581
         }
-		#initializer = Pesch
     }
 
 	system = {
@@ -10983,7 +9909,6 @@ static_galaxy_scenario = {
             x = 280.0851
             y = -340.8581
         }
-		#initializer = Zastdrea
     }
 	
 	system = {
@@ -10993,12 +9918,10 @@ static_galaxy_scenario = {
             x = 290.0851
             y = -350.8581
         }
-		#initializer = Estaradeu
     }
 	
     system = {
 	name = "Ofoilis"
-	#initializer = Ofoilis
         id = "1085"
         position = {
             x = 211.9558
@@ -11008,7 +9931,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Arkaboyze"
-	#initializer = Arkaboyze
         id = "1086"
         position = {
             x = 173.8507
@@ -11018,7 +9940,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Kinbernal"
-	#initializer = Kinbernal
         id = "1087"
         position = {
             x = 93.83014
@@ -11028,7 +9949,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Elosi"
-	#initializer = Elosi
         id = "1088"
         position = {
             x = 116.6932
@@ -11038,7 +9958,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Machenicos"
-	#initializer = Machenicos
         id = "1089"
         position = {
             x = 98.91082
@@ -11053,7 +9972,6 @@ static_galaxy_scenario = {
             x = 145.907
             y = -283.89
         }
-        #initializer = Morrigar
     }
 
     system = {
@@ -11072,12 +9990,10 @@ static_galaxy_scenario = {
             x = 171.3104
             y = -276.269
         }
-		#initializer = Fevallion
     }
 
     system = {
 	name = "Terrogen"
-	#initializer = Terrogen
         id = "1093"
         position = {
             x = 137.0158
@@ -11092,7 +10008,6 @@ static_galaxy_scenario = {
             x = 153.528
             y = -211.4904
         }
-		#initializer = Polgara
     }
 
 	system = {
@@ -11102,12 +10017,10 @@ static_galaxy_scenario = {
             x = 150.528
             y = -205.4904
         }
-		#initializer = Palage
     }
 	
     system = {
 	name = "Polenkes"
-	#initializer = Polenkes
         id = "1095"
         position = {
             x = 186.5524
@@ -11117,7 +10030,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Vordengoi"
-	#initializer = Vordengoi
         id = "1096"
         position = {
             x = 159.8789
@@ -11127,7 +10039,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Verdangan"
-	#initializer = Verdangan
         id = "1097"
         position = {
             x = -16.67448
@@ -11137,7 +10048,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Eitgofen"
-	#initializer = Eitgofen
         id = "1098"
         position = {
             x = 29.05159
@@ -11147,7 +10057,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Virenjan"
-	#initializer = Virenjan
         id = "1099"
         position = {
             x = 59.53563
@@ -11162,12 +10071,10 @@ static_galaxy_scenario = {
             x = 119.184
             y = 419.8176
         }
-		#initializer = Vinjim
     }
 
     system = {
 	name = "Teydialara"
-	#initializer = Teydialara
         id = "1101"
         position = {
             x = 5.354663
@@ -11177,7 +10084,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Fouahiri"
-	#initializer = Fouahiri
         id = "1102"
         position = {
             x = -41.10625
@@ -11187,7 +10093,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Tuayama"
-	#initializer = Tuayama
         id = "1103"
         position = {
             x = -173.5199
@@ -11197,7 +10102,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Ceyecarro"
-	#initializer = Ceyecarro
         id = "1104"
         position = {
             x = -99.1824
@@ -11207,7 +10111,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Uiafladus"
-	#initializer = Uiafladus
         id = "1105"
         position = {
             x = -139.8358
@@ -11217,7 +10120,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Nostea"
-	#initializer = Nostea
         id = "1106"
         position = {
             x = -67.8213
@@ -11227,7 +10129,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Damia"
-	#initializer = Damia
         id = "1107"
         position = {
             x = -10.90664
@@ -11242,7 +10143,6 @@ static_galaxy_scenario = {
             x = -240.2787
             y = 140.3179
         }
-        #initializer = Ironrok
     }
 
     system = {
@@ -11252,7 +10152,6 @@ static_galaxy_scenario = {
             x = -245.8666
             y = 144.0431
         }
-        #initializer = RedSunSystems
     }
 
     system = {
@@ -11262,7 +10161,6 @@ static_galaxy_scenario = {
             x = -239.037
             y = 144.664
         }
-        #initializer = redsunsystem_homeworld spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = redsunsystem_empire } }
     }
 
     system = {
@@ -11272,12 +10170,10 @@ static_galaxy_scenario = {
             x = -242.7622
             y = 147.1475
         }
-        #initializer = GurkiMekworld
     }
 
     system = {
 		name = "Orrak"
-		#initializer = Orrak
         id = "1112"
         position = {
             x = -135.7416
@@ -11287,7 +10183,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Tarazed"
-		#initializer = Tarazed
         id = "1113"
         position = {
             x = -146.458
@@ -11302,12 +10197,10 @@ static_galaxy_scenario = {
             x = -144.672
             y = 243.7992
         }
-        #initializer = Orrak
     }
 
     system = {
 	name = "Veldoon"
-	#initializer = Veldoon
         id = "1115"
         position = {
             x = -151.8163
@@ -11317,7 +10210,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Krakaum"
-	#initializer = Krakaum
         id = "1116"
         position = {
             x = -160.7466
@@ -11327,7 +10219,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Romston"
-	#initializer = Romston
         id = "1117"
         position = {
             x = -172.3561
@@ -11337,7 +10228,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Cardorth"
-	#initializer = Cardorth
         id = "1118"
         position = {
             x = -161.6397
@@ -11347,7 +10237,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Uxfiri"
-	#initializer = Uxfiri
         id = "1119"
         position = {
             x = -148.2441
@@ -11357,7 +10246,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Manthall"
-	#initializer = Manthall
         id = "1120"
         position = {
             x = -169.677
@@ -11367,7 +10255,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Leesak"
-	#initializer = Leesak
         id = "1121"
         position = {
             x = -176.8213
@@ -11377,7 +10264,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Cirban"
-	#initializer = Cirban
         id = "1122"
         position = {
             x = -192.0029
@@ -11387,7 +10273,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Virdamon"
-	#initializer = Virdamon
         id = "1123"
         position = {
             x = -190.2168
@@ -11397,7 +10282,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Stratal"
-	#initializer = Stratal
         id = "1124"
         position = {
             x = -171.9987
@@ -11407,7 +10291,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Qeffoth"
-	#initializer = Qeffoth
         id = "1125"
         position = {
             x = -169.677
@@ -11417,7 +10300,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Masqal"
-	#initializer = Masqal
         id = "1126"
         position = {
             x = -178.6074
@@ -11427,7 +10309,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Hixar"
-	#initializer = Hixar
         id = "1127"
         position = {
             x = -209.8636
@@ -11437,7 +10318,6 @@ static_galaxy_scenario = {
 
     system = {
 		name = "Scheat"
-		#initializer = Scheat
         id = "1128"
         position = {
             x = -130.3834
@@ -11447,7 +10327,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Nekkar"
-	#initializer = Nekkar
         id = "1129"
         position = {
             x = -109.8435
@@ -11457,7 +10336,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Hanneri"
-	#initializer = Hanneri
         id = "1130"
         position = {
             x = -102.6992
@@ -11467,7 +10345,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Binami"
-	#initializer = Binami
         id = "1131"
         position = {
             x = -100.9132
@@ -11477,7 +10354,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Torell"
-	#initializer = Torell
         id = "1132"
         position = {
             x = -143.7789
@@ -11487,7 +10363,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Iswyria"
-	#initializer = Iswyria
         id = "1133"
         position = {
             x = -146.458
@@ -11503,7 +10378,6 @@ static_galaxy_scenario = {
         }
 		
 		name = "Ranction"
-        #initializer = Ranction
     }
 
     system = {
@@ -11513,12 +10387,10 @@ static_galaxy_scenario = {
             y = 181.2866
         }
 		name = "Fujeau"
-        #initializer = Fujeau
     }
 
     system = {
 	name = "Jundius"
-	#initializer = Jundius
         id = "1136"
         position = {
             x = -101.8062
@@ -11528,7 +10400,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Himpra"
-	#initializer = Himpra
         id = "1137"
         position = {
             x = -100.0201
@@ -11538,7 +10409,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Boggor"
-	#initializer = Boggor
         id = "1138"
         position = {
             x = -118.7739
@@ -11548,7 +10418,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Seidon"
-	#initializer = Seidon
         id = "1139"
         position = {
             x = -125.0251
@@ -11572,12 +10441,10 @@ static_galaxy_scenario = {
             x = -157.1745
             y = 207.1847
         }
-        #initializer = Seidon
     }
 
     system = {
 	name = "Jasmak"
-	#initializer = Jasmak
         id = "1142"
         position = {
             x = -175.9283
@@ -11587,7 +10454,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Bera"
-	#initializer = Bera
         id = "1143"
         position = {
             x = -189.3238
@@ -11597,7 +10463,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Yunak"
-	#initializer = Yunak
         id = "1144"
         position = {
             x = -185.7517
@@ -11607,7 +10472,6 @@ static_galaxy_scenario = {
 
     system = {
 	name = "Kongath"
-	#initializer = Kongath
         id = "1145"
         position = {
             x = -168.784
@@ -11622,7 +10486,6 @@ static_galaxy_scenario = {
             x = -339.5039
             y = 156.8118
         }
-        #initializer = Gidrim
     }
 
     system = {
@@ -11632,7 +10495,6 @@ static_galaxy_scenario = {
             x = -342.5472
             y = 172.0315
         }
-        #initializer = Canovar
     }
 
     system = {
@@ -11642,7 +10504,6 @@ static_galaxy_scenario = {
             x = -346.0989
             y = 163.9145
         }
-        #initializer = Hypnoth
     }
 
     system = {
@@ -11652,7 +10513,6 @@ static_galaxy_scenario = {
             x = -348.6357
             y = 181.1639
         }
-        #initializer = Rithcarin
     }
 
     system = {
@@ -11662,7 +10522,6 @@ static_galaxy_scenario = {
             x = -336.4594
             y = 183.7001
         }
-        #initializer = Schrodinger
     }
 
     system = {
@@ -11672,7 +10531,6 @@ static_galaxy_scenario = {
             x = -337.4742
             y = 164.9287
         }
-        #initializer = mandragora spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = necronsautekh_empire } }
     }
 
     system = {
@@ -11682,7 +10540,6 @@ static_galaxy_scenario = {
             x = -330.3721
             y = 160.3628
         }
-        #initializer = Somonor
     }
 
     system = {
@@ -11692,7 +10549,6 @@ static_galaxy_scenario = {
             x = -334.938
             y = 173.0463
         }
-        #initializer = Davatas
     }
 
     system = {
@@ -11702,7 +10558,6 @@ static_galaxy_scenario = {
             x = -340.917
             y = 178.8744
         }
-        #initializer = MedusaN
     }
 
     system = {
@@ -11712,7 +10567,6 @@ static_galaxy_scenario = {
             x = 47.31908
             y = -54.57928
         }
-        #initializer = Aryand
     }
 
     system = {
@@ -11722,7 +10576,6 @@ static_galaxy_scenario = {
             x = 167.7053
             y = 227.6032
         }
-        #initializer = Akator
     }
 
     system = {
@@ -11732,7 +10585,6 @@ static_galaxy_scenario = {
             x = -349.9122
             y = 174.2239
         }
-        #initializer = Bardic
     }
 
     system = {
@@ -11742,7 +10594,6 @@ static_galaxy_scenario = {
             x = 91.68895
             y = 1.373547
         }
-        #initializer = brogrod
     }
 
     system = {
@@ -11752,7 +10603,6 @@ static_galaxy_scenario = {
             x = 163.6464
             y = 261.2228
         }
-        #initializer = Forsarr
     }
 
     system = {
@@ -11762,7 +10612,6 @@ static_galaxy_scenario = {
             x = 170.3769
             y = 261.2228
         }
-        #initializer = Viridos
     }
 
     system = {
@@ -11772,7 +10621,6 @@ static_galaxy_scenario = {
             x = 171.8723
             y = 270.196
         }
-        #initializer = KastorelNovem
     }
 
     system = {
@@ -11782,7 +10630,6 @@ static_galaxy_scenario = {
             x = 158.4113
             y = 264.9615
         }
-        #initializer = Magdelene
     }
 
     system = {
@@ -11792,7 +10639,6 @@ static_galaxy_scenario = {
             x = 157.6639
             y = 253.7443
         }
-        #initializer = Fordris
     }
 
     system = {
@@ -11802,7 +10648,6 @@ static_galaxy_scenario = {
             x = 182.342
             y = 259.7269
         }
-        #initializer = Tallarax
     }
 
     system = {
@@ -11812,7 +10657,6 @@ static_galaxy_scenario = {
             x = 136.5631
             y = 6.366913
         }
-        # #initializer = sys_1173_init
     }
 
     system = {
@@ -11822,7 +10666,6 @@ static_galaxy_scenario = {
             x = 118.8055
             y = 17.02164
         }
-        #initializer = gheden
     }
 
     system = {
@@ -11832,7 +10675,6 @@ static_galaxy_scenario = {
             x = 364.6472
             y = -23.77134
         }
-        #initializer = Meghoshta
     }
 
     system = {
@@ -11842,7 +10684,6 @@ static_galaxy_scenario = {
             x = -342.6297
             y = 185.2547
         }
-        #initializer = Sarlok
     }
 
     system = {
@@ -11852,7 +10693,6 @@ static_galaxy_scenario = {
             x = -336.6709
             y = 206.3061
         }
-        #initializer = Solemnace
     }
 
     system = {
@@ -11862,7 +10702,6 @@ static_galaxy_scenario = {
             x = 402.029
             y = 59.08176
         }
-        #initializer = Tamar
     }
 
 	system = {
@@ -11872,7 +10711,6 @@ static_galaxy_scenario = {
             x = 85
             y = 265
         }
-        #initializer = Praetoria
     }
 	
 	system = {
@@ -11882,7 +10720,6 @@ static_galaxy_scenario = {
             x = 55.69355
             y = -225.87
         }
-        #initializer = Fier
     }
 	
 	system = {
@@ -11892,7 +10729,6 @@ static_galaxy_scenario = {
             x = 46.6439
             y = -260.1983
         }
-        #initializer = Rebo
     }
 	
 	system = {
@@ -11902,7 +10738,6 @@ static_galaxy_scenario = {
             x = 50.39803
             y = -250.2943
         }
-        #initializer = Fularis
     }
 	
     nebula = {
