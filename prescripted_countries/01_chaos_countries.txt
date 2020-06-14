@@ -1,7 +1,7 @@
 alpha_legion = {
 	name = "Alpha Legion"
 	adjective = "PRESCRIPTED_adjective_alpha_legion"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_alpha_legion"
 	
@@ -67,7 +67,7 @@ alpha_legion = {
 black_legion = {
 	name = "Black Legion"
 	adjective = "PRESCRIPTED_adjective_black_legion"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_black_legion"
 	
@@ -96,7 +96,7 @@ black_legion = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_black_legion }
 	planet_name = "PRESCRIPTED_planet_name_black_legion"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_black_legion"
 	
 	graphical_culture = "humanoid_01"
@@ -133,7 +133,7 @@ black_legion = {
 death_guard = {
 	name = "Death Guard"
 	adjective = "PRESCRIPTED_adjective_death_guard"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_death_guard"
 	
@@ -162,7 +162,7 @@ death_guard = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_death_guard }
 	planet_name = "PRESCRIPTED_planet_name_death_guard"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemonn"
 	system_name = "PRESCRIPTED_system_name_death_guard"
 	
 	graphical_culture = "humanoid_01"
@@ -199,7 +199,7 @@ death_guard = {
 emperor_children = {
 	name = "Emperor Children"
 	adjective = "PRESCRIPTED_adjective_emperor_children"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_emperor_children"
 	
@@ -228,7 +228,7 @@ emperor_children = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_emperor_children }
 	planet_name = "PRESCRIPTED_planet_name_emperor_children"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemont"
 	system_name = "PRESCRIPTED_system_name_emperor_children"
 	
 	graphical_culture = "humanoid_01"
@@ -265,7 +265,7 @@ emperor_children = {
 iron_warrior = {
 	name = "Iron Warrior"
 	adjective = "PRESCRIPTED_adjective_iron_warrior"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_warrior"
 	
@@ -294,7 +294,7 @@ iron_warrior = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_iron_warrior }
 	planet_name = "PRESCRIPTED_planet_name_iron_warrior"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemons"
 	system_name = "PRESCRIPTED_system_name_iron_warrior"
 	
 	graphical_culture = "humanoid_01"
@@ -331,7 +331,7 @@ iron_warrior = {
 night_lords = {
 	name = "Night Lords"
 	adjective = "PRESCRIPTED_adjective_night_lords"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_night_lords"
 	
@@ -360,7 +360,7 @@ night_lords = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_night_lords }
 	planet_name = "PRESCRIPTED_planet_name_night_lords"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemont"
 	system_name = "PRESCRIPTED_system_name_night_lords"
 	
 	graphical_culture = "humanoid_01"
@@ -397,7 +397,7 @@ night_lords = {
 red_corsair = {
 	name = "Red Corsair"
 	adjective = "PRESCRIPTED_adjective_red_corsair"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_red_corsair"
 	
@@ -426,7 +426,7 @@ red_corsair = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_red_corsair }
 	planet_name = "PRESCRIPTED_planet_name_red_corsair"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemonn"
 	system_name = "PRESCRIPTED_system_name_red_corsair"
 	
 	graphical_culture = "humanoid_01"
@@ -463,7 +463,7 @@ red_corsair = {
 thousand_sons = {
 	name = "Thousand Sons"
 	adjective = "PRESCRIPTED_adjective_thousand_sons"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_thousand_sons"
 	
@@ -492,7 +492,7 @@ thousand_sons = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_thousand_sons }
 	planet_name = "PRESCRIPTED_planet_name_thousand_sons"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemonn"
 	system_name = "PRESCRIPTED_system_name_thousand_sons"
 	
 	graphical_culture = "humanoid_01"
@@ -529,7 +529,7 @@ thousand_sons = {
 word_bearer = {
 	name = "Word Bearer"
 	adjective = "PRESCRIPTED_adjective_word_bearer"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_word_bearer"
 	
@@ -558,7 +558,7 @@ word_bearer = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_word_bearer }
 	planet_name = "PRESCRIPTED_planet_name_word_bearer"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemons"
 	system_name = "PRESCRIPTED_system_name_word_bearer"
 	
 	graphical_culture = "humanoid_01"
@@ -595,7 +595,7 @@ word_bearer = {
 world_eater = {
 	name = "World Eater"
 	adjective = "PRESCRIPTED_adjective_world_eater"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_world_eater"
 	
@@ -624,7 +624,7 @@ world_eater = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_world_eater }
 	planet_name = "PRESCRIPTED_planet_name_world_eater"
-	planet_class = "pc_continental"
+	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_world_eater"
 	
 	graphical_culture = "humanoid_01"

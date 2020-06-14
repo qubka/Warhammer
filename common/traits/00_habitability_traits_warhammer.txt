@@ -1,0 +1,424 @@
+trait_pc_daemon_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.80	
+		pc_tropical_habitability = 0.80
+		pc_ocean_habitability = 0.80
+		
+		pc_desert_habitability = 0.80
+		pc_arid_habitability = 0.80
+		pc_tundra_habitability = 0.80
+		pc_arctic_habitability = 0.80	
+		pc_alpine_habitability = 0.80
+		pc_savannah_habitability = 0.80
+		pc_asteroid_habitability = 0.80
+		pc_barren_habitability = 0.80
+		pc_barren_cold_habitability = 0.80
+		pc_toxic_habitability = 0.80
+		pc_frozen_habitability = 0.80
+		pc_nuked_habitability = 0.80
+	}
+}
+
+trait_pc_daemonn_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.80	
+		pc_tropical_habitability = 0.80
+		pc_ocean_habitability = 0.80
+		
+		pc_desert_habitability = 0.80
+		pc_arid_habitability = 0.80
+		pc_tundra_habitability = 0.80
+		pc_arctic_habitability = 0.80	
+		pc_alpine_habitability = 0.80
+		pc_savannah_habitability = 0.80
+		pc_asteroid_habitability = 0.80
+		pc_barren_habitability = 0.80
+		pc_barren_cold_habitability = 0.80
+		pc_toxic_habitability = 0.80
+		pc_frozen_habitability = 0.80
+		pc_nuked_habitability = 0.80
+	}
+}
+
+trait_pc_daemont_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.80	
+		pc_tropical_habitability = 0.80
+		pc_ocean_habitability = 0.80
+		
+		pc_desert_habitability = 0.80
+		pc_arid_habitability = 0.80
+		pc_tundra_habitability = 0.80
+		pc_arctic_habitability = 0.80	
+		pc_alpine_habitability = 0.80
+		pc_savannah_habitability = 0.80
+		pc_asteroid_habitability = 0.80
+		pc_barren_habitability = 0.80
+		pc_barren_cold_habitability = 0.80
+		pc_toxic_habitability = 0.80
+		pc_frozen_habitability = 0.80
+		pc_nuked_habitability = 0.80
+	}
+}
+
+trait_pc_daemons_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.80	
+		pc_tropical_habitability = 0.80
+		pc_ocean_habitability = 0.80
+		
+		pc_desert_habitability = 0.80
+		pc_arid_habitability = 0.80
+		pc_tundra_habitability = 0.80
+		pc_arctic_habitability = 0.80	
+		pc_alpine_habitability = 0.80
+		pc_savannah_habitability = 0.80
+		pc_asteroid_habitability = 0.80
+		pc_barren_habitability = 0.80
+		pc_barren_cold_habitability = 0.80
+		pc_toxic_habitability = 0.80
+		pc_frozen_habitability = 0.80
+		pc_nuked_habitability = 0.80
+	}
+}
+
+trait_pc_hive_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.70
+		pc_ocean_habitability = 0.70
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.40
+		pc_barren_habitability = 0.40
+		pc_barren_cold_habitability = 0.40
+		pc_toxic_habitability = 0.40
+		pc_frozen_habitability = 0.40
+		pc_molten_habitability = 0.40 
+		pc_nuked_habitability = 0.40
+	}
+}
+
+trait_pc_tomb_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_tomb_habitability = 1.00
+		pc_continental_habitability = 1.00	
+		pc_tropical_habitability = 1.00
+		pc_ocean_habitability = 1.00
+		
+		pc_desert_habitability = 1.00
+		pc_arid_habitability = 1.00
+		pc_tundra_habitability = 1.00
+		pc_arctic_habitability = 1.00	
+		pc_alpine_habitability = 1.00
+		pc_savannah_habitability = 1.00
+		pc_asteroid_habitability = 1.00
+		pc_barren_habitability = 1.00
+		pc_barren_cold_habitability = 1.00
+		pc_toxic_habitability = 1.00
+		pc_frozen_habitability = 1.00
+		pc_nuked_habitability = 1.00
+	}
+}
+
+trait_pc_craftworld_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_craftworld_habitability = 1.00
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.90
+		pc_ocean_habitability = 0.90
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.60
+		pc_barren_habitability = 0.60
+		pc_barren_cold_habitability = 0.60
+		pc_toxic_habitability = 0.60
+		pc_frozen_habitability = 0.60
+		pc_nuked_habitability = 0.60
+	}
+}
+
+trait_pc_hive_industrial_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.70
+		pc_ocean_habitability = 0.70
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.40
+		pc_barren_habitability = 0.40
+		pc_barren_cold_habitability = 0.40
+		pc_toxic_habitability = 0.40
+		pc_frozen_habitability = 0.40
+		pc_nuked_habitability = 0.40
+	}
+}
+
+trait_pc_fortress_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.70
+		pc_ocean_habitability = 0.70
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.40
+		pc_barren_habitability = 0.40
+		pc_barren_cold_habitability = 0.40
+		pc_toxic_habitability = 0.40
+		pc_frozen_habitability = 0.40
+		pc_nuked_habitability = 0.40
+	}
+}
+
+trait_pc_mega_hive_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.70
+		pc_ocean_habitability = 0.70
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.40
+		pc_barren_habitability = 0.40
+		pc_barren_cold_habitability = 0.40
+		pc_toxic_habitability = 0.40
+		pc_frozen_habitability = 0.40
+		pc_nuked_habitability = 0.40
+	}
+}
+
+trait_pc_forge_ring3_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.70
+		pc_ocean_habitability = 0.70
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.40
+		pc_barren_habitability = 0.40
+		pc_barren_cold_habitability = 0.40
+		pc_toxic_habitability = 0.40
+		pc_frozen_habitability = 0.40
+		pc_nuked_habitability = 0.40
+	}
+}
+
+trait_pc_arid_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_arid_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.70
+		pc_ocean_habitability = 0.70
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.40
+		pc_barren_habitability = 0.40
+		pc_barren_cold_habitability = 0.40
+		pc_toxic_habitability = 0.40
+		pc_frozen_habitability = 0.40
+		pc_nuked_habitability = 0.40
+	}
+}
+
+trait_pc_webway_preference = {	
+	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_craftworld_habitability = 1.00
+		pc_continental_habitability = 0.90	
+		pc_tropical_habitability = 0.90
+		pc_ocean_habitability = 0.90
+		
+		pc_desert_habitability = 0.60
+		pc_arid_habitability = 0.60
+		pc_tundra_habitability = 0.60
+		pc_arctic_habitability = 0.60	
+		pc_alpine_habitability = 0.60
+		pc_savannah_habitability = 0.60
+		pc_asteroid_habitability = 0.60
+		pc_barren_habitability = 0.60
+		pc_barren_cold_habitability = 0.60
+		pc_toxic_habitability = 0.60
+		pc_frozen_habitability = 0.60
+		pc_nuked_habitability = 0.60
+	}
+}
+
+trait_pc_advancecity_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_arid_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_arid_habitability = 0.80
+		pc_desert_habitability = 0.70
+		pc_savannah_habitability = 0.70
+		
+		pc_tropical_habitability = 0.50
+		pc_continental_habitability = 0.50
+		pc_tundra_habitability = 0.50
+		pc_arctic_habitability = 0.50
+		pc_ocean_habitability = 0.50
+		pc_alpine_habitability = 0.50
+		pc_asteroid_habitability = 0.20
+		pc_barren_habitability = 0.20
+		pc_barren_cold_habitability = 0.20
+		pc_toxic_habitability = 0.20
+		pc_frozen_habitability = 0.20
+	}
+}
+
+trait_pc_advancexenocity_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_arid_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_arid_habitability = 0.80
+		pc_desert_habitability = 0.70
+		pc_savannah_habitability = 0.70
+		
+		pc_tropical_habitability = 0.50
+		pc_continental_habitability = 0.50
+		pc_tundra_habitability = 0.50
+		pc_arctic_habitability = 0.50
+		pc_ocean_habitability = 0.50
+		pc_alpine_habitability = 0.50
+		pc_asteroid_habitability = 0.20
+		pc_barren_habitability = 0.20
+		pc_barren_cold_habitability = 0.20
+		pc_toxic_habitability = 0.20
+		pc_frozen_habitability = 0.20
+	}
+}
+
+trait_pc_advancexenocityy_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_arid_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_arid_habitability = 0.80
+		pc_desert_habitability = 0.70
+		pc_savannah_habitability = 0.70
+		
+		pc_tropical_habitability = 0.50
+		pc_continental_habitability = 0.50
+		pc_tundra_habitability = 0.50
+		pc_arctic_habitability = 0.50
+		pc_ocean_habitability = 0.50
+		pc_alpine_habitability = 0.50
+		pc_asteroid_habitability = 0.20
+		pc_barren_habitability = 0.20
+		pc_barren_cold_habitability = 0.20
+		pc_toxic_habitability = 0.20
+		pc_frozen_habitability = 0.20
+	}
+}
+
+trait_pc_advancexenocityyy_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_arid_preference.dds"
+	modification = no
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT }
+	sorting_priority = 30
+	modifier = {
+		pc_arid_habitability = 0.80
+		pc_desert_habitability = 0.70
+		pc_savannah_habitability = 0.70
+		
+		pc_tropical_habitability = 0.50
+		pc_continental_habitability = 0.50
+		pc_tundra_habitability = 0.50
+		pc_arctic_habitability = 0.50
+		pc_ocean_habitability = 0.50
+		pc_alpine_habitability = 0.50
+		pc_asteroid_habitability = 0.20
+		pc_barren_habitability = 0.20
+		pc_barren_cold_habitability = 0.20
+		pc_toxic_habitability = 0.20
+		pc_frozen_habitability = 0.20
+	}
+}

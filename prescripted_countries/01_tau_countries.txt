@@ -1,7 +1,7 @@
 dalyth = {
 	name = "Dalyth"
 	adjective = "PRESCRIPTED_adjective_dalyth"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dalyth"
 
@@ -18,7 +18,7 @@ dalyth = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_fallen_empire_blue_room"
+	room = "personality_migrating_flock_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -30,7 +30,7 @@ dalyth = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_dalyth }
 	planet_name = "PRESCRIPTED_planet_name_dalyth"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_dalyth"
 
 	graphical_culture = "humanoid_01"
@@ -67,7 +67,7 @@ dalyth = {
 farsight = {
 	name = "Farsight"
 	adjective = "PRESCRIPTED_adjective_farsight"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_farsight"
 
@@ -84,7 +84,7 @@ farsight = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_fallen_empire_blue_room"
+	room = "personality_migrating_flock_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -96,7 +96,7 @@ farsight = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_farsight }
 	planet_name = "PRESCRIPTED_planet_name_farsight"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_farsight"
 
 	graphical_culture = "humanoid_01"
@@ -133,7 +133,7 @@ farsight = {
 sacea = {
 	name = "Sacea"
 	adjective = "PRESCRIPTED_adjective_sacea"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_sacea"
 
@@ -150,7 +150,7 @@ sacea = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_fallen_empire_blue_room"
+	room = "personality_migrating_flock_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -162,7 +162,7 @@ sacea = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_sacea }
 	planet_name = "PRESCRIPTED_planet_name_sacea"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_sacea"
 
 	graphical_culture = "humanoid_01"
@@ -199,7 +199,7 @@ sacea = {
 tau = {
 	name = "Tau"
 	adjective = "PRESCRIPTED_adjective_tau"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_tau"
 
@@ -216,7 +216,7 @@ tau = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_fallen_empire_blue_room"
+	room = "personality_migrating_flock_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -228,7 +228,7 @@ tau = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_tau }
 	planet_name = "PRESCRIPTED_planet_name_tau"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_tau"
 
 	graphical_culture = "humanoid_01"
@@ -265,7 +265,7 @@ tau = {
 taun = {
 	name = "Taun"
 	adjective = "PRESCRIPTED_adjective_taun"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_taun"
 
@@ -282,7 +282,7 @@ taun = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_fallen_empire_blue_room"
+	room = "personality_migrating_flock_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -294,7 +294,7 @@ taun = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_taun }
 	planet_name = "PRESCRIPTED_planet_name_taun"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_taun"
 
 	graphical_culture = "humanoid_01"
@@ -331,7 +331,7 @@ taun = {
 dyanoi = {
 	name = "Dyanoi"
 	adjective = "PRESCRIPTED_adjective_dyanoi"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dyanoi"
 
@@ -348,7 +348,7 @@ dyanoi = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_fallen_empire_blue_room"
+	room = "personality_migrating_flock_room"
 
 	authority = "auth_oligarchic"
 	civics = { "civic_free_haven" "civic_shadow_council" }
@@ -360,7 +360,7 @@ dyanoi = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_dyanoi }
 	planet_name = "PRESCRIPTED_planet_name_dyanoi"
-	planet_class = "pc_continental"
+	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_dyanoi"
 
 	graphical_culture = "humanoid_01"

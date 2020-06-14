@@ -1,7 +1,7 @@
 cryptek = {
 	name = "Cryptek"
 	adjective = "PRESCRIPTED_adjective_cryptek"
-	spawn_enabled = always # yes / no / always
+	spawn_enabled = yes # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_cryptek"
 	
@@ -19,7 +19,7 @@ cryptek = {
 		trait = "trait_robot_bulky"
 	}
 	
-	room = "personality_fallen_empire_machine_room"
+	room = "machine_room"
 	
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
@@ -29,7 +29,7 @@ cryptek = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { necron_empire the_cryptek }
 	planet_name = "PRESCRIPTED_planet_name_cryptek"
-	planet_class = "pc_continental"
+	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_cryptek"
 	
 	graphical_culture = "humanoid_01"
