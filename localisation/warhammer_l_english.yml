@@ -415,3 +415,9 @@
  pc_craftworld_desc:0 "Huge spaceship."
  craftworld_planet:0 "HCraftworld"
  craftworld_planet_desc:0 "Huge spaceship."
+ 
+ spacemarine_planet:0 "Spacemarine Base"
+ spacemarine_planet_desc:0 "Planet has a Adeptus Astartes base."
+ 
+ mechanicus_planet:0 "Mechanicus Forge"
+ mechanicus_planet_desc:0 "Planet of Adeptus Mechanicus control."

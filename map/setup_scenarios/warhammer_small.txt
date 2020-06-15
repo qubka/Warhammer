@@ -7174,6 +7174,124 @@ static_galaxy_scenario = {
         }
         radius = 30
     }
+	
+	nebula = {
+        name = "Hadex Anomaly"
+        position = {
+            x = -391.9908
+            y = 213.6155
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Celtor's Flux"
+        position = {
+            x = -76.8878
+            y = 242.4484
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "The Dark Maw"
+        position = {
+            x = -167.5057
+            y = 119.9084
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Gates of Fire"
+        position = {
+            x = 283.5240
+            y = 2.5171 
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Heart of Darkness"
+        position = {
+            x = -214.8741
+            y = 75.6292
+        }
+        radius = 15
+    }
+
+	nebula = {
+        name = "Inferno Reach"
+        position = {
+            x = -124.2562
+            y = 156.9793
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Malfactus"
+        position = {
+            x = -279.7482
+            y = -277.5743
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Perfidian Gap"
+        position = {
+            x = -174.7139
+            y = -177.6888
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Siren's Storm"
+        position = {
+            x = 7.55151
+            y = 95.1944
+        }
+        radius = 15
+    }
+
+	nebula = {
+        name = "Storms of Judgement"
+        position = {
+            x = 265.2
+            y = 161.5789
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "The Storm of Magnus"
+        position = {
+            x = 120.8237
+            y = -34.5538 
+        }
+        radius = 15
+    }
+	
+	nebula = {
+        name = "Von Grothe's Rapidity"
+        position = {
+            x = -268.4210
+            y = 177.5743
+        }
+        radius = 10
+    }
+	
+	nebula = {
+        name = "Vortex of Despair"
+        position = {
+            x = 47.8876
+            y = 163.9056
+        }
+        radius = 15
+    }
+	
 	add_hyperlane = { from = "2000" to = "2002"}
 	add_hyperlane = { from = "2000" to = "2001"}
 }
