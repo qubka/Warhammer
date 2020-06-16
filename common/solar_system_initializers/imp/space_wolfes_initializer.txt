@@ -6,7 +6,7 @@ space_wolfes_homeworld = {
 
 	flags = { empire_home_system }
 	
-	usage = empire_init
+	usage = misc_system_init
 	
 	init_effect = {
 		root = { set_country_flag = the_space_wolfes }
@@ -47,11 +47,11 @@ space_wolfes_homeworld = {
 
 		init_effect = {
 			set_capital = yes
-			set_owner = root
-			set_controller = root
 			set_planet_flag = spacemarinehomeworld
 
 			generate_empire_home_planet = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
 
@@ -95,6 +95,8 @@ space_wolfes_homeworld = {
 			set_owner = event_target:the_space_wolfes
 			set_controller = event_target:the_space_wolfes
 
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
 

@@ -1,7 +1,7 @@
 behemoth = {
 	name = "Behemoth"
 	adjective = "PRESCRIPTED_adjective_behemoth"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_behemoth"
 
@@ -65,7 +65,7 @@ behemoth = {
 gorgon = {
 	name = "Gorgon"
 	adjective = "PRESCRIPTED_adjective_gorgon"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_gorgon"
 
@@ -129,7 +129,7 @@ gorgon = {
 hydra = {
 	name = "Hydra"
 	adjective = "PRESCRIPTED_adjective_hydra"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_hydra"
 
@@ -193,7 +193,7 @@ hydra = {
 jormungandr = {
 	name = "Jormungandr"
 	adjective = "PRESCRIPTED_adjective_jormungandr"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_jormungandr"
 
@@ -257,7 +257,7 @@ jormungandr = {
 kraken = {
 	name = "Kraken"
 	adjective = "PRESCRIPTED_adjective_kraken"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_kraken"
 
@@ -321,7 +321,7 @@ kraken = {
 leviathan = {
 	name = "Leviathan"
 	adjective = "PRESCRIPTED_adjective_leviathan"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_leviathan"
 
@@ -385,7 +385,7 @@ leviathan = {
 ouroboris = {
 	name = "Ouroboris"
 	adjective = "PRESCRIPTED_adjective_ouroboris"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ouroboris"
 
@@ -449,7 +449,7 @@ ouroboris = {
 tiamet = {
 	name = "Tiamet"
 	adjective = "PRESCRIPTED_adjective_tiamet"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_tiamet"
 

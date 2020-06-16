@@ -6,7 +6,7 @@ dark_angles_homeworld = {
 
 	flags = { empire_home_system }
 	
-	usage = empire_init
+	usage = misc_system_init
 	
 	init_effect = {
 		root = { set_country_flag = the_dark_angles }
@@ -29,13 +29,23 @@ dark_angles_homeworld = {
 		orbit_angle = 60
 		size = 30
 		has_ring = no
+	}
+	
+	planet = {
+		count = { min = 2 max = 4 }
+		orbit_distance = 20
+		class = random_non_colonizable
+		flags = { ignore_startup_effect habitat_2_planet has_megastructure }
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = @base_moon_distance
 
 		moon = {
 			name = "The Rock"
 			class = "pc_habitat"			 
 			orbit_distance = 15
 			orbit_angle = 60
-			size = 30
+			size = 6
 			has_ring = no
 			home_planet = yes
 			starting_planet = yes
@@ -44,29 +54,13 @@ dark_angles_homeworld = {
 			
 			init_effect = {
 				set_capital = yes
-				set_owner = root
-				set_controller = root
 				set_planet_flag = spacemarinehomeworld
 
 				generate_empire_home_planet = yes	
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
 				prevent_anomaly = yes
 			}
-		}
-	}
-	
-	planet = {
-		count = { min = 2 max = 4 }
-		orbit_distance = 20
-		class = random_non_colonizable
-		orbit_angle = { min = 90 max = 270 }
-		
-		change_orbit = @base_moon_distance
-
-		moon = {
-			count = { min = 0 max = 1 }
-			class = random_non_colonizable
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
 		}
 	}
 	

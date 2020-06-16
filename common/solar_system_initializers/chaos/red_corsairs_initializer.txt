@@ -6,7 +6,7 @@ red_corsairs_homeworld = {
 
 	flags = { empire_home_system }
 	
-	usage = empire_init
+	usage = misc_system_init
 	
 	init_effect = {
 		root = { set_country_flag = the_red_corsairs }
@@ -26,6 +26,15 @@ red_corsairs_homeworld = {
 		orbit_angle = 0
 		size = { min = 30 max = 35 }
 		has_ring = no
+		
+		init_effect = {
+			# Create Ambient Object 2
+			create_ambient_object = {
+				type = "nebula_L8_entity"
+				entity_offset_height = -5 # Set to spawn far below the planets
+				location = this
+			}
+		}
 	}
 
 	planet = {
@@ -50,10 +59,10 @@ red_corsairs_homeworld = {
 	
 		init_effect = {
 			set_capital = yes
-			set_owner = root
-			set_controller = root
 
-			generate_empire_home_planet = yes			
+			generate_empire_home_planet = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
 	}
@@ -76,12 +85,13 @@ red_corsairs_homeworld = {
 		class = pc_barren_cold
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
+		flags = { ignore_startup_effect habitat_2_planet has_megastructure }
 		size = { min = 16 max = 20 }
 		has_ring = no
 
 		moon = {
 			name = "Badab Habitat"
-			class = pc_habitat
+			class = "pc_habitat"
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 			size = 6
@@ -100,6 +110,8 @@ red_corsairs_homeworld = {
 				set_owner = event_target:the_red_corsairs
 				set_controller = event_target:the_red_corsairs
 
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
 				prevent_anomaly = yes
 			}
 		}

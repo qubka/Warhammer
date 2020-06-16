@@ -4,7 +4,7 @@
 night_lords_homeworld = {
 	class = "rl_binary_starting_stars"
 	
-	usage = empire_init
+	usage = misc_system_init
 	
 	flags = { empire_home_system }
 
@@ -21,14 +21,15 @@ night_lords_homeworld = {
         orbit_angle = 0
         size = { min = 30 max = 35 }
         has_ring = no
-    }
-
-    planet = {
-        count = 1
-        class = star
-        orbit_distance = 0
-        size = { min = 15 max = 25 }
-        has_ring = no
+		
+		init_effect = {
+			# Create Ambient Object 2
+			create_ambient_object = {
+				type = "nebula_L8_entity"
+				entity_offset_height = -5 # Set to spawn far below the planets
+				location = this
+			}
+		}
     }
 	
 	change_orbit = 35
@@ -53,12 +54,12 @@ night_lords_homeworld = {
 		
 		init_effect = {
 			set_capital = yes
-			set_owner = root
-			set_controller = root
 			set_planet_flag = spacemarinehomeworld
 			set_planet_flag = mechanicushomeworld
 		
-			generate_empire_home_planet = yes			
+			generate_empire_home_planet = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
 

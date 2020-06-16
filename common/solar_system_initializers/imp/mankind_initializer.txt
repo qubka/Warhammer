@@ -14,7 +14,7 @@ mankind_homeworld = {
 	
 	flags = { empire_home_system sol_system sol }
 	
-	usage = empire_init
+	usage = misc_system_init
 	
 	init_effect = {
 		root = { set_country_flag = the_mankind }
@@ -61,7 +61,7 @@ mankind_homeworld = {
 	
 	planet = {
 		name = "Terra"
-		class = "pc_hive_continental_01"
+		class = "pc_hive_medium"
   		flags = { hiveplanet_planet }	
 		orbit_distance = 20
 		orbit_angle = 120
@@ -74,16 +74,16 @@ mankind_homeworld = {
 		
  		init_effect = {
 			set_capital = yes
-			set_owner = root
-			set_controller = root
 
 			generate_empire_home_planet = yes	
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
 		
 		moon = {
 			name = "NAME_Luna"
-			class = "pc_hive_medium"				
+			class = "pc_hive_tundra"
 			size = 10
 			orbit_distance = 12
 			orbit_angle = 40
@@ -102,6 +102,8 @@ mankind_homeworld = {
 				set_owner = event_target:the_mankind
 				set_controller = event_target:the_mankind
 				
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
 				prevent_anomaly = yes
 			}
 		}
@@ -129,6 +131,8 @@ mankind_homeworld = {
 			set_controller = event_target:the_mankind
 			set_planet_flag = mechanicushomeworld
 
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
 	}
@@ -253,6 +257,8 @@ mankind_homeworld = {
 				set_controller = event_target:the_mankind
 				set_planet_flag = spacemarinehomeworld
 			
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
 				prevent_anomaly = yes
 			}
 		}
