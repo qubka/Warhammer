@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_empty_turret_mesh"
+		file = "gfx\models\ships\imperiall_01\st_empty_turret.mesh"
+		scale = 1.0
+	}
+}

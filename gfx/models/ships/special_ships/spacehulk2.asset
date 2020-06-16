@@ -1,0 +1,131 @@
+#####    Planets    ######
+
+
+########################    Forge with ring   ##############################################
+entity = {
+	name = "spacehulk_eldar_entity1"
+	cull_radius = 0
+	pdxmesh = "spacehulk_eldar_ship_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 1.0
+
+}
+
+entity = {
+	name = "spacehulk_cruiser_entity1"
+	cull_radius = 0
+	pdxmesh = "spacehulk_cruiser_ship_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 1.0
+
+}
+
+entity = {
+	name = "spacehulk_battleship_entity1"
+	cull_radius = 0
+	pdxmesh = "spacehulk_battleship_ship_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 1.0
+
+}
+
+entity = {
+	name = "spacehulk_asteroid_entity1"
+	cull_radius = 0
+	pdxmesh = "spacehulk_asteroid_ship_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 1.0
+
+}
+
+entity = {
+	name = "spacehulk_tau_entity1"
+	cull_radius = 0
+	pdxmesh = "spacehulk_tau_ship_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 1.0
+
+}
+
+entity = {
+	name = "spacehulk_ork_entity1"
+	cull_radius = 0
+	pdxmesh = "spacehulk_ork_ship_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 1.0
+
+}
+
+
+
+
+
+########################################################################
+
+
+
+entity = {
+	name = "spacehulk_connected_entity1"
+	cull_radius = 0	
+	
+	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 }}
+	locator = { name = "loc1012" position = { 0 0 0 } rotation = { 0 0 0 }}
+	locator = { name = "loc1013" position = { 0 0 0 } rotation = { 0 0 0 }}
+	locator = { name = "loc1014" position = { 0 0 0 } rotation = { 0 0 0 }}
+	locator = { name = "loc1015" position = { 0 0 0 } rotation = { 0 0 0 }}
+	locator = { name = "loc1016" position = { 0 0 0 } rotation = { 0 0 0 }}
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" }
+
+	attach = { "loc101" = "spacehulk_eldar_entity1"}
+	attach = { "loc1012" = "spacehulk_cruiser_entity1"}
+	attach = { "loc1013" = "spacehulk_battleship_entity1"}
+	attach = { "loc1014" = "spacehulk_asteroid_entity1"}
+	attach = { "loc1015" = "spacehulk_tau_entity1"}
+	attach = { "loc1016" = "spacehulk_ork_entity1"}
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "spacehulk_ship_01_entity1"
+
+	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 90 0 }}
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" }
+	attach = { "loc1" = "spacehulk_connected_entity"}
+	
+	scale = 0.7
+}

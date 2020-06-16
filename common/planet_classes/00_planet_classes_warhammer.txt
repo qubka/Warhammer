@@ -1,7 +1,7 @@
 pc_forge = {
 	entity = "forge_planet"
 	picture = pc_forge 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -33,7 +33,7 @@ pc_forge = {
 pc_forgee = {
 	entity = "forgee_planet"
 	picture = pc_forgee 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -65,7 +65,7 @@ pc_forgee = {
 pc_forgeee = {
 	entity = "forgeee_planet"
 	picture = pc_forgee 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -97,7 +97,7 @@ pc_forgeee = {
 pc_industrial = {
 	entity = "industrial_planet"
 	picture = pc_industrial # there's no unique gaia_planet picture
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -129,7 +129,7 @@ pc_industrial = {
 pc_agri = {
 	entity = "agri_planet"
 	picture = pc_agri
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -161,7 +161,7 @@ pc_agri = {
 pc_shrine = {
 	entity = "shrine_planet"
 	picture = pc_shrine
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -193,7 +193,7 @@ pc_shrine = {
 pc_hive_medium = {
 	entity = "hive_planet"
 	picture = pc_hive_medium
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -225,7 +225,7 @@ pc_hive_medium = {
 pc_penal= {
 	entity = "penal_planet"
 	picture = pc_penal
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -257,7 +257,7 @@ pc_penal= {
 pc_fortress = {
 	entity = "fortress_planet"
 	picture = pc_fortress
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -289,7 +289,7 @@ pc_fortress = {
 pc_tomb = {
 	entity = "tomb_planet"
 	picture = pc_tomb
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -321,7 +321,7 @@ pc_tomb = {
 pc_hive_arid = {
 	entity = "hive_arid"
 	picture = pc_hive_arid
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -353,7 +353,7 @@ pc_hive_arid = {
 pc_hive_continental_01 = {
 	entity = "hive_continental_01"
 	picture = pc_hive_continental_01
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -385,7 +385,7 @@ pc_hive_continental_01 = {
 pc_hive_continental_02 = {
 	entity = "hive_continental_02"
 	picture = pc_hive_continental_02
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -449,7 +449,7 @@ pc_hive_ocean = {
 pc_hive_tundra = {
 	entity = "hive_tundra"
 	picture = pc_hive_tundra
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -481,7 +481,7 @@ pc_hive_tundra = {
 pc_super_hive = {
 	entity = "super_hive"
 	picture = pc_super_hive 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -513,7 +513,7 @@ pc_super_hive = {
 pc_mega_hive = {
 	entity = "mega_hive"
 	picture = pc_mega_hive 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -545,7 +545,7 @@ pc_mega_hive = {
 pc_forge_ring = {
 	entity = "forge_ring"
 	picture = pc_forge
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -577,7 +577,7 @@ pc_forge_ring = {
 pc_forge_ring2 = {
 	entity = "forge_ring2"
 	picture = pc_forgee
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -609,7 +609,7 @@ pc_forge_ring2 = {
 pc_forge_ring3 = {
 	entity = "forge_ring3"
 	picture = pc_forgee
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -641,7 +641,7 @@ pc_forge_ring3 = {
 pc_craftworld = {
 	entity = "craftworld"
 	picture = pc_craftworld
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -673,7 +673,7 @@ pc_craftworld = {
 pc_hive_industrial = {
 	entity = "hive_industrial"
 	picture = pc_hive_arid
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -705,7 +705,7 @@ pc_hive_industrial = {
 pc_advancecity = {
 	entity = "advancecity_planet"
 	picture = pc_advancecity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -737,7 +737,7 @@ pc_advancecity = {
 pc_webway = {
 	entity = "webway_planet"
 	picture = pc_webway 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -769,7 +769,7 @@ pc_webway = {
 pc_spacehulk = {
 	entity = "spacehulk_planet"
 	picture = pc_spacehulk 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -801,7 +801,7 @@ pc_spacehulk = {
 pc_blackstonefortress = {
 	entity = "blackstonefortress_planet"
 	picture = pc_blackstonefortress 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -834,7 +834,7 @@ pc_blackstonefortress = {
 pc_caliban = {
 	entity = "caliban_planet"
 	picture = pc_caliban 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -866,7 +866,7 @@ pc_caliban = {
 pc_eternalcrusader = {
 	entity = "eternalcrusader_planet"
 	picture = pc_eternalcrusader 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -898,7 +898,7 @@ pc_eternalcrusader = {
 pc_daemon = {
 	entity = "daemon_planet"
 	picture = pc_daemon
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -930,7 +930,7 @@ pc_daemon = {
 pc_daemonn = {
 	entity = "daemonn_planet"
 	picture = pc_daemon
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -962,7 +962,7 @@ pc_daemonn = {
 pc_daemont = {
 	entity = "daemont_planet"
 	picture = pc_daemon
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -994,7 +994,7 @@ pc_daemont = {
 pc_daemons = {
 	entity = "daemons_planet"
 	picture = pc_daemon
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -1026,7 +1026,7 @@ pc_daemons = {
 pc_advancexenocity = {
 	entity = "advancexenocity_planet"
 	picture = pc_advancexenocity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1058,7 +1058,7 @@ pc_advancexenocity = {
 pc_advancexenocityy = {
 	entity = "advancexenocityy_planet"
 	picture = pc_advancexenocity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1090,7 +1090,7 @@ pc_advancexenocityy = {
 pc_advancexenocityyy = {
 	entity = "advancexenocityyy_planet"
 	picture = pc_advancexenocity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1122,7 +1122,7 @@ pc_advancexenocityyy = {
 pc_orkworld = {
 	entity = "orkworld_planet"
 	picture = pc_orkworld
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1154,7 +1154,7 @@ pc_orkworld = {
 pc_armoury = {
 	entity = "armoury_planet"
 	picture = pc_armoury 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1186,7 +1186,7 @@ pc_armoury = {
 pc_destroyedplanet = {
 	entity = "caliban_planet"
 	picture = pc_destroyedplanet 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1213,4 +1213,14 @@ pc_destroyedplanet = {
 	starting_planet = no
 	show_city = no
 	district_set = default
+}
+
+random_list = {
+	name = "rl_chaos_planets"
+	planets = {
+		"pc_daemon"
+		"pc_daemonn"
+		"pc_daemons"
+		"pc_daemont"
+	}
 }

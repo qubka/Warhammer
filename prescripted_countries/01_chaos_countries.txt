@@ -34,7 +34,7 @@ alpha_legion = {
 	system_name = "PRESCRIPTED_system_name_alpha_legion"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -96,11 +96,11 @@ black_legion = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_black_legion }
 	planet_name = "PRESCRIPTED_planet_name_black_legion"
-	planet_class = "pc_daemon"
+	planet_class = "pc_eternalcrusader"
 	system_name = "PRESCRIPTED_system_name_black_legion"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -166,7 +166,7 @@ death_guard = {
 	system_name = "PRESCRIPTED_system_name_death_guard"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -228,11 +228,11 @@ emperor_children = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_emperor_children }
 	planet_name = "PRESCRIPTED_planet_name_emperor_children"
-	planet_class = "pc_daemont"
+	planet_class = "pc_daemons"
 	system_name = "PRESCRIPTED_system_name_emperor_children"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -263,7 +263,7 @@ emperor_children = {
 }
 
 iron_warrior = {
-	name = "Iron Warrior"
+	name = "Iron Warriors"
 	adjective = "PRESCRIPTED_adjective_iron_warrior"
 	spawn_enabled = yes # yes / no / always
 	
@@ -294,11 +294,11 @@ iron_warrior = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_iron_warrior }
 	planet_name = "PRESCRIPTED_planet_name_iron_warrior"
-	planet_class = "pc_daemons"
+	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_iron_warrior"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -360,11 +360,11 @@ night_lords = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_night_lords }
 	planet_name = "PRESCRIPTED_planet_name_night_lords"
-	planet_class = "pc_daemont"
+	planet_class = "pc_forge_ring3"
 	system_name = "PRESCRIPTED_system_name_night_lords"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -394,19 +394,19 @@ night_lords = {
 	}
 }
 
-red_corsair = {
-	name = "Red Corsair"
-	adjective = "PRESCRIPTED_adjective_red_corsair"
+red_corsairs = {
+	name = "Red Corsairs"
+	adjective = "PRESCRIPTED_adjective_red_corsairs"
 	spawn_enabled = yes # yes / no / always
 	
-	ship_prefix = "PRESCRIPTED_ship_prefix_red_corsair"
+	ship_prefix = "PRESCRIPTED_ship_prefix_red_corsairs"
 	
 	species = {
 		class = "CHA"
 		portrait = "chaos_red_corsairs"
-		name = "PRESCRIPTED_species_name_red_corsair"
-		plural = "PRESCRIPTED_species_plural_red_corsair"
-		adjective = "PRESCRIPTED_species_adjective_red_corsair"
+		name = "PRESCRIPTED_species_name_red_corsairs"
+		plural = "PRESCRIPTED_species_plural_red_corsairs"
+		adjective = "PRESCRIPTED_species_adjective_red_corsairs"
 		name_list = "CHAOS1"
 		trait = "trait_solitary"
 		trait = "trait_intelligent"
@@ -424,13 +424,13 @@ red_corsair = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_red_corsair }
-	planet_name = "PRESCRIPTED_planet_name_red_corsair"
-	planet_class = "pc_daemonn"
-	system_name = "PRESCRIPTED_system_name_red_corsair"
+	flags = { chaos_empire the_red_corsairs }
+	planet_name = "PRESCRIPTED_planet_name_red_corsairs"
+	planet_class = "pc_daemon"
+	system_name = "PRESCRIPTED_system_name_red_corsairs"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -450,13 +450,13 @@ red_corsair = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_red_corsair"
+		name = "PRESCRIPTED_ruler_name_red_corsairs"
 		gender = male
 		portrait = "CHAOS_RedCorsairs_ruler"
 		texture = 0
 		clothes = 0
 		leader_class = ruler
-		ruler_title = "PRESCRIPTED_ruler_title_red_corsair"
+		ruler_title = "PRESCRIPTED_ruler_title_red_corsairs"
 	}
 }
 
@@ -492,11 +492,11 @@ thousand_sons = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_thousand_sons }
 	planet_name = "PRESCRIPTED_planet_name_thousand_sons"
-	planet_class = "pc_daemonn"
+	planet_class = "pc_daemont"
 	system_name = "PRESCRIPTED_system_name_thousand_sons"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -527,7 +527,7 @@ thousand_sons = {
 }
 
 word_bearer = {
-	name = "Word Bearer"
+	name = "Word Bearers"
 	adjective = "PRESCRIPTED_adjective_word_bearer"
 	spawn_enabled = yes # yes / no / always
 	
@@ -562,7 +562,7 @@ word_bearer = {
 	system_name = "PRESCRIPTED_system_name_word_bearer"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
@@ -593,7 +593,7 @@ word_bearer = {
 }
 
 world_eater = {
-	name = "World Eater"
+	name = "World Eaters"
 	adjective = "PRESCRIPTED_adjective_world_eater"
 	spawn_enabled = yes # yes / no / always
 	
@@ -624,11 +624,11 @@ world_eater = {
 	ethic = "ethic_spiritualist"
 	flags = { chaos_empire the_world_eater }
 	planet_name = "PRESCRIPTED_planet_name_world_eater"
-	planet_class = "pc_daemon"
+	planet_class = "pc_forge_ring3"
 	system_name = "PRESCRIPTED_system_name_world_eater"
 	
 	graphical_culture = "humanoid_01"
-	city_graphical_culture = "fallen_empire_04"
+	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {

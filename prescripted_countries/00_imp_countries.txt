@@ -1,0 +1,659 @@
+mankind = {
+	name = "Imperium of Man"
+	adjective = "PRESCRIPTED_adjective_mankind"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_mankind"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mankind"
+		name = "PRESCRIPTED_species_name_mankind"
+		plural = "PRESCRIPTED_species_plural_mankind"
+		adjective = "PRESCRIPTED_species_adjective_mankind"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_mankind }
+	planet_name = "PRESCRIPTED_planet_name_mankind"
+	planet_class = "pc_hive_medium"
+	system_name = "PRESCRIPTED_system_name_mankind"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "misc"
+			file = "40k-aquila.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_mankind"
+		gender = male
+		portrait = "IMP_Emperor_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_mankind"
+	}
+}
+
+white_scars = {
+	name = "White Scars"
+	adjective = "PRESCRIPTED_adjective_white_scars"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_white_scars"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_white_scars"
+		name = "PRESCRIPTED_species_name_white_scars"
+		plural = "PRESCRIPTED_species_plural_white_scars"
+		adjective = "PRESCRIPTED_species_adjective_white_scars"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_white_scars }
+	planet_name = "PRESCRIPTED_planet_name_white_scars"
+	planet_class = "pc_arid"
+	system_name = "PRESCRIPTED_system_name_white_scars"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-white-scars.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_white_scars"
+		gender = male
+		portrait = "IMP_WhiteScars_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_white_scars"
+	}
+}
+
+ultra_marines = {
+	name = "Ultra Marines"
+	adjective = "PRESCRIPTED_adjective_ultra_marines"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_ultra_marines"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_ultra_marines"
+		name = "PRESCRIPTED_species_name_ultra_marines"
+		plural = "PRESCRIPTED_species_plural_ultra_marines"
+		adjective = "PRESCRIPTED_species_adjective_ultra_marines"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_ultra_marines }
+	planet_name = "PRESCRIPTED_planet_name_ultra_marines"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_ultra_marines"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-ultramarines.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_mankind"
+		gender = male
+		portrait = "IMP_Ultramarines_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_mankind"
+	}
+}
+
+space_wolfes = {
+	name = "Space Wolfes"
+	adjective = "PRESCRIPTED_adjective_space_wolfes"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_space_wolfes"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_space_wolfes"
+		name = "PRESCRIPTED_species_name_space_wolfes"
+		plural = "PRESCRIPTED_species_plural_space_wolfes"
+		adjective = "PRESCRIPTED_species_adjective_space_wolfes"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_space_wolfes }
+	planet_name = "PRESCRIPTED_planet_name_space_wolfes"
+	planet_class = "pc_arctic"
+	system_name = "PRESCRIPTED_system_name_space_wolfes"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-space-wolfs.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_space_wolfes"
+		gender = male
+		portrait = "IMP_SpaceWolfes_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_space_wolfes"
+	}
+}
+
+salamanders = {
+	name = "Salamanders"
+	adjective = "PRESCRIPTED_adjective_salamanders"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_salamanders"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_salamanders"
+		name = "PRESCRIPTED_species_name_salamanders"
+		plural = "PRESCRIPTED_species_plural_salamanders"
+		adjective = "PRESCRIPTED_species_adjective_salamanders"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_salamanders }
+	planet_name = "PRESCRIPTED_planet_name_salamanders"
+	planet_class = "pc_desert"
+	system_name = "PRESCRIPTED_system_name_salamanders"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-salamanders.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_salamanders"
+		gender = male
+		portrait = "IMP_Salamanders_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_salamanders"
+	}
+}
+
+raven_guard = {
+	name = "Raven Guard"
+	adjective = "PRESCRIPTED_adjective_raven_guard"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_raven_guard"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_raven_guard"
+		name = "PRESCRIPTED_species_name_raven_guard"
+		plural = "PRESCRIPTED_species_plural_raven_guard"
+		adjective = "PRESCRIPTED_species_adjective_raven_guard"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_raven_guard }
+	planet_name = "PRESCRIPTED_planet_name_raven_guard"
+	planet_class = "pc_fortress"
+	system_name = "PRESCRIPTED_system_name_raven_guard"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-raven-guard.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_raven_guard"
+		gender = male
+		portrait = "IMP_RavenGuard_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_raven_guard"
+	}
+}
+
+iron_hand = {
+	name = "Iron Hand"
+	adjective = "PRESCRIPTED_adjective_iron_hand"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_iron_hand"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_iron_hand"
+		name = "PRESCRIPTED_species_name_iron_hand"
+		plural = "PRESCRIPTED_species_plural_iron_hand"
+		adjective = "PRESCRIPTED_species_adjective_iron_hand"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_iron_hand }
+	planet_name = "PRESCRIPTED_planet_name_iron_hand"
+	planet_class = "pc_forge_ring"
+	system_name = "PRESCRIPTED_system_name_iron_hand"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-iron-hands.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_iron_hand"
+		gender = male
+		portrait = "IMP_IronHand_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_iron_hand"
+	}
+}
+
+imperial_fist = {
+	name = "Imperial Fist"
+	adjective = "PRESCRIPTED_adjective_imperial_fist"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_imperial_fist"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_imperial_fist"
+		name = "PRESCRIPTED_species_name_imperial_fist"
+		plural = "PRESCRIPTED_species_plural_imperial_fist"
+		adjective = "PRESCRIPTED_species_adjective_imperial_fist"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_imperial_fist }
+	planet_name = "PRESCRIPTED_planet_name_imperial_fist"
+	planet_class = "pc_habitat"
+	system_name = "PRESCRIPTED_system_name_imperial_fist"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-imperial-fists.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_imperial_fist"
+		gender = male
+		portrait = "IMP_ImperialFist_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_imperial_fist"
+	}
+}
+
+dark_angles = {
+	name = "Dark Angles"
+	adjective = "PRESCRIPTED_adjective_dark_angles"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_dark_angles"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_dark_angles"
+		name = "PRESCRIPTED_species_name_dark_angles"
+		plural = "PRESCRIPTED_species_plural_dark_angles"
+		adjective = "PRESCRIPTED_species_adjective_dark_angles"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_dark_angles }
+	planet_name = "PRESCRIPTED_planet_name_dark_angles"
+	planet_class = "pc_habitat"
+	system_name = "PRESCRIPTED_system_name_dark_angles"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-dark-angels.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_dark_angles"
+		gender = male
+		portrait = "IMP_DarkAngles_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_dark_angles"
+	}
+}
+
+blood_angles = {
+	name = "Blood Angles"
+	adjective = "PRESCRIPTED_adjective_blood_angles"
+	spawn_enabled = yes # yes / no / always
+	
+	ship_prefix = "PRESCRIPTED_ship_prefix_blood_angles"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_blood_angles"
+		name = "PRESCRIPTED_species_name_blood_angles"
+		plural = "PRESCRIPTED_species_plural_blood_angles"
+		adjective = "PRESCRIPTED_species_adjective_blood_angles"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_fleeting"
+	}
+	
+	room = "personality_evangelizing_zealots_room"
+	
+	authority = "auth_imperial"
+	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { human_empire the_blood_angles }
+	planet_name = "PRESCRIPTED_planet_name_blood_angles"
+	planet_class = "pc_fortress"
+	system_name = "PRESCRIPTED_system_name_blood_angles"
+	
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "legions"
+			file = "40k-blood-dragons1.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_blood_angles"
+		gender = male
+		portrait = "IMP_BloodAngles_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_blood_angles"
+	}
+}

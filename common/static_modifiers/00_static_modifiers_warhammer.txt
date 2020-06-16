@@ -168,8 +168,8 @@ shrine_planet = {
 }
 
 craftworld_planet = {
-    planet_jobs_energy_produces_mult = 2
-	planet_jobs_minerals_produces_mult = 2
+    planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_minerals_produces_mult = 0.5
 	planet_jobs_unity_produces_mult = 1
 	army_defense_morale_mult = 8
 	army_defense_health_mult = 10
@@ -184,9 +184,9 @@ craftworld_planet = {
 }
 
 advancecity_planet = {
-    planet_jobs_energy_produces_mult = 1.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = -0.3
+	planet_jobs_food_produces_mult = 2.0
 	planet_jobs_physics_research_produces_mult = 0.5
 	planet_jobs_society_research_produces_mult = 0.5
 	planet_jobs_engineering_research_produces_mult = 0.5
@@ -245,9 +245,9 @@ daemons_planet = {
 }
 
 advancexenocity_planet = {
-    planet_jobs_energy_produces_mult = 1.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_food_produces_mult = 0.2
 	army_defense_morale_mult = 3
 	army_defense_health_mult = 3
 	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
@@ -255,9 +255,9 @@ advancexenocity_planet = {
 }
 
 advancexenocityy_planet = {
-    planet_jobs_energy_produces_mult = 1.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 0.4
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.1
 	army_defense_morale_mult = 3
 	army_defense_health_mult = 3
 	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
@@ -265,9 +265,9 @@ advancexenocityy_planet = {
 }
 
 advancexenocityyy_planet = {
-    planet_jobs_energy_produces_mult = 1.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 0.3
+	planet_jobs_minerals_produces_mult = 0.2
+	planet_jobs_food_produces_mult = 0.1
 	army_defense_morale_mult = 3
 	army_defense_health_mult = 3
 	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
@@ -275,9 +275,9 @@ advancexenocityyy_planet = {
 }
 
 orkworld_planet = {
-    planet_jobs_energy_produces_mult = 1.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = -0.1
+	planet_jobs_minerals_produces_mult = -0.1
+	planet_jobs_food_produces_mult = -0.1
 	army_defense_morale_mult = 8
 	army_defense_health_mult = 10
 	icon = "gfx/interface/icons/planet_modifiers/pm_ork.dds"
@@ -287,7 +287,7 @@ orkworld_planet = {
 nuked_planet = {
     planet_jobs_energy_produces_mult = 0.5
 	planet_jobs_minerals_produces_mult = 2.0
-	planet_jobs_food_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.1
 	army_defense_morale_mult = 0.5
 	army_defense_health_mult = 0.5
 	icon = "gfx/interface/icons/planet_modifiers/pm_irradiated.dds"
@@ -297,7 +297,7 @@ nuked_planet = {
 destroyed_planet = {
     planet_jobs_energy_produces_mult = 0.5
 	planet_jobs_minerals_produces_mult = 2.0
-	planet_jobs_food_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.1
 	army_defense_morale_mult = 0.5
 	army_defense_health_mult = 0.5
 	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_impacts.dds"
@@ -305,9 +305,9 @@ destroyed_planet = {
 }
 
 armoury_planet = {
-    planet_jobs_energy_produces_mult = 1.5
-	planet_jobs_minerals_produces_mult = 2.0
-	planet_jobs_alloys_produces_mult = 1.3
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = 0.4
+	planet_jobs_alloys_produces_mult = 0.3
 	army_defense_morale_mult = 4
 	army_defense_health_mult = 3
 	icon = "gfx/interface/icons/planet_modifiers/pm_armoury.dds"
@@ -315,8 +315,8 @@ armoury_planet = {
 }
 
 eternalcrusader_planet = {
-    planet_jobs_energy_produces_mult = 1.2
-	planet_jobs_minerals_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_minerals_produces_mult = 0.3
 	planet_jobs_food_produces_mult = 0.5
 	army_defense_morale_mult = 8
 	army_defense_health_mult = 10
@@ -325,9 +325,9 @@ eternalcrusader_planet = {
 }
 
 caliban_planet = {
-    planet_jobs_energy_produces_mult = 1.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 1.5
+    planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_minerals_produces_mult = 0.3
+	planet_jobs_food_produces_mult = 0.5
 	pop_happiness = 15
 	army_defense_morale_mult = 20
 	army_defense_health_mult = 15
@@ -336,9 +336,9 @@ caliban_planet = {
 }
 
 blackstonefortress_planet = {
-    planet_jobs_energy_produces_mult = 1.3
-	planet_jobs_minerals_produces_mult = 1.1
-	planet_jobs_food_produces_mult = 0.5
+    planet_jobs_energy_produces_mult = 0.3
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.1
 	army_defense_morale_mult = 8
 	army_defense_health_mult = 10
 	icon = "gfx/interface/icons/planet_modifiers/pm_blackstonefortress.dds"
@@ -346,8 +346,8 @@ blackstonefortress_planet = {
 }
 
 spacehulk_planet = {
-    planet_jobs_energy_produces_mult = 1.1
-	planet_jobs_minerals_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_minerals_produces_mult = -0.1
 	planet_jobs_food_produces_mult = 0.5
 	army_defense_morale_mult = 4
 	army_defense_health_mult = 5
@@ -356,9 +356,9 @@ spacehulk_planet = {
 }
 
 webway_planet = {
-    planet_jobs_energy_produces_mult = 2.0
-	planet_jobs_minerals_produces_mult = 1.0
-	planet_jobs_food_produces_mult = 0.5
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = 0.3
+	planet_jobs_food_produces_mult = -0.5
 	pop_growth_speed = 2.0
 	army_defense_morale_mult = 3
 	army_defense_health_mult = 4
@@ -380,9 +380,9 @@ spacemarine_planet = {
 
 mechanicus_planet = {
 	planet_jobs_minerals_produces_mult = 1.5
-	planet_jobs_energy_produces_mult = 2.0
-	planet_jobs_alloys_produces_mult = 1.2
-	planet_jobs_food_produces_mult = -2.0
+	planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_alloys_produces_mult = 0.5
+	planet_jobs_food_produces_mult = -0.5
 	icon = "gfx/interface/icons/planet_modifiers/pm_mechanicus.dds"
 	icon_frame = 2
 }

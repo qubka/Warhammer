@@ -1,0 +1,129 @@
+objectTypes = {
+	pdxmesh = {
+		name = "spacehulk_eldar_ship_01_mesh"
+		file = "gfx/models/planets/spaceHulkEldarPart.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "spacehulkeldarpart_diffuse.dds"
+			texture_normal = "spacehulkeldarpart_normal.dds"
+			texture_specular = "spacehulkeldarpart_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "spacehulk_cruiser_ship_01_mesh"
+		file = "gfx/models/planets/spaceHulkImperiumCruiserPart.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "spacehulkcruiserpart_diffuse.dds"
+			texture_normal = "spacehulkcruiserpart_normal.dds"
+			texture_specular = "spacehulkcruiserpart_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "spacehulk_battleship_ship_01_mesh"
+		file = "gfx/models/planets/spaceHulkImperiumBattleshipPart.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "spacehulkbattleshippart_diffuse.dds"
+			texture_normal = "spacehulkbattleshippart_normal.dds"
+			texture_specular = "spacehulkbattleshippart_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "spacehulk_asteroid_ship_01_mesh"
+		file = "gfx/models/planets/spaceHulkAsteroidPart.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "spacehulkasteroidpart_diffuse.dds"
+			texture_normal = "spacehulkasteroidpart_normal.dds"
+			texture_specular = "spacehulkasteroidpart_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "spacehulk_tau_ship_01_mesh"
+		file = "gfx/models/planets/spaceHulkTauPart.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "spacehulktaupart_diffuse.dds"
+			texture_normal = "spacehulktaupart_normal.dds"
+			texture_specular = "spacehulktaupart_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "spacehulk_ork_ship_01_mesh"
+		file = "gfx/models/planets/spaceHulkOrkPart.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "spacehulkorkpart_diffuse.dds"
+			texture_normal = "spacehulkorkpart_normal.dds"
+			texture_specular = "spacehulkorkpart_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "eternalcrusaderplanetmesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_M1S2SHB.mesh"
+		
+		scale = 1
+		
+		meshsettings = {
+			shader = "PdxMeshPlanet"
+			index = 0
+			texture_diffuse = "imperiall_04_battleship_diffuse.dds"
+            texture_normal = "imperiall_04_battleship_normal.dds"
+            texture_specular = "imperiall_04_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "planetkiller_01_mesh"
+		file = "gfx/models/ships/special_ships/planet_killer.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "planetkiller_01_diffuse.dds"
+			texture_normal = "planetkiller_01_normal.dds"
+			texture_specular = "planetkiller_01_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "planetkillerr_01_mesh"
+		file = "gfx/models/ships/special_ships/planet_killer.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshPlanet"
+			index = 0
+			texture_diffuse = "planetkiller_01_diffuse.dds"
+			texture_normal = "planetkiller_01_normal.dds"
+			texture_specular = "planetkiller_01_specular.dds"
+		}
+	}
+}
