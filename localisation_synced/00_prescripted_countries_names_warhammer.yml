@@ -348,10 +348,10 @@
  PRESCRIPTED_species_name_dark_ynnari:0 "Druchi"
  PRESCRIPTED_species_plural_dark_ynnari:0 "Druchis"
  PRESCRIPTED_species_adjective_dark_ynnari:0 "Druchi"
- PRESCRIPTED_planet_name_dark_ynnari:0 "Soul Flayer"
  #Known secret base at Imperium of Man's space
- PRESCRIPTED_system_name_dark_ynnari:0 "Bukehall"
- PRESCRIPTED_ruler_name_dark_ynnari:0 "Teramus System"
+ PRESCRIPTED_planet_name_dark_ynnari:0 "Bukehall"
+ PRESCRIPTED_system_name_dark_ynnari:0 "Teramus System"
+ PRESCRIPTED_ruler_name_dark_ynnari:0 "Gharax"
  PRESCRIPTED_ruler_title_dark_ynnari:0 "Archon"
  ###
  PRESCRIPTED_adjective_the_severed:0 "Druchi"
