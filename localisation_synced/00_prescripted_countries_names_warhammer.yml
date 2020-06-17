@@ -342,15 +342,16 @@
  
 # DEL
  ###
- #NO Dark Ynnary faction/Kabal at lore, I'm using Kabal of the Emasculators
+ #NO Dark Ynnary faction/Kabal at lore, I'm using Kabal of the Crimson Blossom
  PRESCRIPTED_adjective_dark_ynnari:0 "Druchi"
  PRESCRIPTED_ship_prefix_dark_ynnari:0 "DY"
  PRESCRIPTED_species_name_dark_ynnari:0 "Druchi"
  PRESCRIPTED_species_plural_dark_ynnari:0 "Druchis"
  PRESCRIPTED_species_adjective_dark_ynnari:0 "Druchi"
- PRESCRIPTED_planet_name_dark_ynnari:0 "Broken Sigil"
- PRESCRIPTED_system_name_dark_ynnari:0 "Shattering of Harmony"
- PRESCRIPTED_ruler_name_dark_ynnari:0 "Lord Xerathis"
+ PRESCRIPTED_planet_name_dark_ynnari:0 "Soul Flayer"
+ #Known secret base at Imperium of Man's space
+ PRESCRIPTED_system_name_dark_ynnari:0 "Bukehall"
+ PRESCRIPTED_ruler_name_dark_ynnari:0 "Teramus System"
  PRESCRIPTED_ruler_title_dark_ynnari:0 "Archon"
  ###
  PRESCRIPTED_adjective_the_severed:0 "Druchi"
@@ -358,7 +359,6 @@
  PRESCRIPTED_species_name_the_severed:0 "Druchi"
  PRESCRIPTED_species_plural_the_severed:0 "Druchis"
  PRESCRIPTED_species_adjective_the_severed:0 "Druchi"
- #They live in space, I'm using flagship's name
  PRESCRIPTED_planet_name_the_severed:0 "Severed Hand"
  PRESCRIPTED_system_name_the_severed:0 "The severed One"
  PRESCRIPTED_ruler_name_the_severed:0 "S'aronai Ariensis"
@@ -374,7 +374,6 @@
  PRESCRIPTED_ruler_name_last_hatred:0 "Thyndrak"
  PRESCRIPTED_ruler_title_last_hatred:0 "Archon"
  ###
- #Iron Thorn not found
  PRESCRIPTED_adjective_iron_thorn:0 "Druchi"
  PRESCRIPTED_ship_prefix_iron_thorn:0 "IT"
  PRESCRIPTED_species_name_iron_thorn:0 "Druchi"
