@@ -3,10 +3,6 @@ chaos_init_01 = {
     class = "rl_binary_stars"
     
     usage = misc_system_init
-    usage_odds = 4
-
-    #inner_radius_offset = 200
-	#outer_radius_offset = 220
 
     planet = {
         count = 1
@@ -82,10 +78,6 @@ chaos_init_02 = {
     class = "rl_trinary_stars"
     
     usage = misc_system_init
-    usage_odds = 3
-
-    #inner_radius_offset = 200
-	#outer_radius_offset = 220
 
     planet = {
         count = 1
@@ -207,8 +199,7 @@ chaos_init_03 = {
 	}
 	
 	usage = misc_system_init
-	usage_odds = 2
-	
+
 	planet = {
 		count = 1
 		class = star

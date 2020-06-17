@@ -639,3 +639,13 @@
  PRESCRIPTED_system_name_dyanoi:0 "?"
  PRESCRIPTED_ruler_name_dyanoi:0 "?"
  PRESCRIPTED_ruler_title_dyanoi:0 "Leader"
+ 
+# ELD COR
+ ###
+ PRESCRIPTED_adjective_cor_ynnari:0 "Ynnari Corsairs"
+ PRESCRIPTED_adjective_cor_twilight_swords:0 "Twilight Swords"
+ PRESCRIPTED_adjective_cor_void_dragons:0 "Void Dragons"
+ PRESCRIPTED_adjective_cor_sky_raiders:0 "Sky Raiders"
+ PRESCRIPTED_adjective_cor_steeleye_reavers:0 "Steeleye Reavers"
+ PRESCRIPTED_adjective_cor_sun_blitz:0 "Sun Blitz"
+ PRESCRIPTED_adjective_cor_eldritch_raiders:0 "Eldritch Raiders"

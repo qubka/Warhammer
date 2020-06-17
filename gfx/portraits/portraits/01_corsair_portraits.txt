@@ -1,17 +1,23 @@
 portrait_groups = {
-	tyranid_behemoth = {
+
+	eldar_cor_ynnari = {
 		
-		default = TYR_Behemoth_01
+		default = AEL_COR_Ynnari_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Behemoth_ruler
+			default = AEL_COR_Shadowseer
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -20,7 +26,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -34,11 +45,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Patriarch
-					TYR_Behemoth_01
-					TYR_Behemoth_02
-					TYR_Behemoth_03
-					TYR_Behemoth_04
+					AEL_CRA_Ynnari_01
+					AEL_CRA_Ynnari_02
+					AEL_CRA_Ynnari_03
+					AEL_CRA_Ynnari_04
+					AEL_CRA_Ynnari_05
+					AEL_CRA_Ynnari_06
+					AEL_CRA_Ynnari_07
+					AEL_CRA_Ynnari_08
 				}
 			}
 			
@@ -48,10 +62,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Behemoth_01
-					TYR_Behemoth_02
-					TYR_Behemoth_03
-					TYR_Behemoth_04
+					AEL_COR_Shadowseer
 				}
 			}
 			
@@ -61,10 +72,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Behemoth_01
-					TYR_Behemoth_02
-					TYR_Behemoth_03
-					TYR_Behemoth_04
+					AEL_COR_Shadowseer
 				}
 			}
 
@@ -74,16 +82,19 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Patriarch
-					TYR_Behemoth_01
-					TYR_Behemoth_02
-					TYR_Behemoth_03
-					TYR_Behemoth_04
+					AEL_CRA_Ynnari_01
+					AEL_CRA_Ynnari_02
+					AEL_CRA_Ynnari_03
+					AEL_CRA_Ynnari_04
+					AEL_CRA_Ynnari_05
+					AEL_CRA_Ynnari_06
+					AEL_CRA_Ynnari_07
+					AEL_CRA_Ynnari_08
 				}
 			}
 		}
 
-		#leader scope
+		#leader scope 
 		ruler = {
 			add = {
 				trigger = {
@@ -91,26 +102,44 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Behemoth_ruler
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+			
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
 				}
 			}
 		}
 	}
 
-	tyranid_gorgon = {
+	eldar_cor_twilight_swords = {
 		
-		default = TYR_Gorgon_01
+		default = AEL_COR_TwilightSwords_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Gorgon_ruler
+			default = AEL_COR_Shadowseer
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
-				}	
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
 			}
 		}		
 		
@@ -118,7 +147,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -132,11 +166,10 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Patriarch
-					TYR_Gorgon_01
-					TYR_Gorgon_02
-					TYR_Gorgon_03
-					TYR_Gorgon_04
+					AEL_COR_TwilightSwords_01
+					AEL_COR_TwilightSwords_02
+					AEL_COR_TwilightSwords_03
+					AEL_COR_TwilightSwords_04
 				}
 			}
 			
@@ -146,10 +179,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Gorgon_01
-					TYR_Gorgon_02
-					TYR_Gorgon_03
-					TYR_Gorgon_04
+					AEL_COR_Shadowseer
 				}
 			}
 			
@@ -159,10 +189,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Gorgon_01
-					TYR_Gorgon_02
-					TYR_Gorgon_03
-					TYR_Gorgon_04
+					AEL_COR_Shadowseer
 				}
 			}
 
@@ -172,16 +199,15 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Patriarch
-					TYR_Gorgon_01
-					TYR_Gorgon_02
-					TYR_Gorgon_03
-					TYR_Gorgon_04
+					AEL_COR_TwilightSwords_01
+					AEL_COR_TwilightSwords_02
+					AEL_COR_TwilightSwords_03
+					AEL_COR_TwilightSwords_04
 				}
 			}
 		}
 
-		#leader scope
+		#leader scope 
 		ruler = {
 			add = {
 				trigger = {
@@ -189,531 +215,43 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Gordon_ruler
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
-		}
-	}
-
-	tyranid_hydra = {
-		
-		default = TYR_Hydra_01
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Hydra_ruler
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
 			add = {
 				trigger = {
-					leader_class = general
+					gender = female
 				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Hydra_01
-					TYR_Hydra_02
-					TYR_Hydra_03
-					TYR_Hydra_04
-				}
-			}
 			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
 				portraits = {
-					TYR_Hydra_01
-					TYR_Hydra_02
-					TYR_Hydra_03
-					TYR_Hydra_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-					TYR_Hydra_01
-					TYR_Hydra_02
-					TYR_Hydra_03
-					TYR_Hydra_04
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Hydra_01
-					TYR_Hydra_02
-					TYR_Hydra_03
-					TYR_Hydra_04
-				}
-			}
-		}
-
-		#leader scope
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-					TYR_Hydra_ruler
-				}
-			}
-		}
-	}
-
-	tyranid_jormungandr = {
-		
-		default = TYR_Jormungandr_01
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Jormungandr_ruler
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
-			add = {
-				trigger = {
-					leader_class = general
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Jormungandr_01
-					TYR_Jormungandr_02
-					TYR_Jormungandr_03
-					TYR_Jormungandr_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
-				portraits = {
-					TYR_Jormungandr_01
-					TYR_Jormungandr_02
-					TYR_Jormungandr_03
-					TYR_Jormungandr_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-					TYR_Jormungandr_01
-					TYR_Jormungandr_02
-					TYR_Jormungandr_03
-					TYR_Jormungandr_04
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Jormungandr_01
-					TYR_Jormungandr_02
-					TYR_Jormungandr_03
-					TYR_Jormungandr_04
-				}
-			}
-		}
-
-		#leader scope
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-					TYR_Jormungandr_ruler
-				}
-			}
-		}
-	}
-
-	tyranid_kraken = {
-		
-		default = TYR_Kraken_01
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Kraken_ruler
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
-			add = {
-				trigger = {
-					leader_class = general
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Kraken_01
-					TYR_Kraken_02
-					TYR_Kraken_03
-					TYR_Kraken_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
-				portraits = {
-					TYR_Kraken_01
-					TYR_Kraken_02
-					TYR_Kraken_03
-					TYR_Kraken_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-					TYR_Kraken_01
-					TYR_Kraken_02
-					TYR_Kraken_03
-					TYR_Kraken_04
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Kraken_01
-					TYR_Kraken_02
-					TYR_Kraken_03
-					TYR_Kraken_04
-				}
-			}
-		}
-
-		#leader scope
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-					TYR_Kraken_ruler
-				}
-			}
-		}
-	}
-
-	tyranid_leviathan = {
-		
-		default = TYR_Leviathan_01
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Leviathan_ruler
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
-			add = {
-				trigger = {
-					leader_class = general
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Leviathan_01
-					TYR_Leviathan_02
-					TYR_Leviathan_03
-					TYR_Leviathan_04
-					TYR_Leviathan_05
-					TYR_Leviathan_06
-					TYR_Leviathan_07
-					TYR_Leviathan_08
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
-				portraits = {
-					TYR_Leviathan_01
-					TYR_Leviathan_02
-					TYR_Leviathan_03
-					TYR_Leviathan_04
-					TYR_Leviathan_05
-					TYR_Leviathan_06
-					TYR_Leviathan_07
-					TYR_Leviathan_08
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-					TYR_Leviathan_01
-					TYR_Leviathan_02
-					TYR_Leviathan_03
-					TYR_Leviathan_04
-					TYR_Leviathan_05
-					TYR_Leviathan_06
-					TYR_Leviathan_07
-					TYR_Leviathan_08
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Leviathan_01
-					TYR_Leviathan_02
-					TYR_Leviathan_03
-					TYR_Leviathan_04
-					TYR_Leviathan_05
-					TYR_Leviathan_06
-					TYR_Leviathan_07
-					TYR_Leviathan_08
-				}
-			}
-		}
-
-		#leader scope
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-					TYR_Leviathan_ruler
-				}
-			}
-		}
-	}
-
-	tyranid_ouroboris = {
-		
-		default = TYR_Ouroboris_01
-		
-		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Ouroboris_ruler
-		}
-		
-		#species scope
-		species = { #generic portrait for a species
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}		
-		
-		#pop scope
-		pop = { #for a specific pop
-			add = {
-				portraits = {
-					art14
-				}
-			}
-		}
-		
-		#leader scope
-		leader = { #scientists, generals, admirals, governor
-
-			add = {
-				trigger = {
-					leader_class = general
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Ouroboris_01
-					TYR_Ouroboris_02
-					TYR_Ouroboris_03
-					TYR_Ouroboris_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				
-				portraits = {
-					TYR_Ouroboris_01
-					TYR_Ouroboris_02
-					TYR_Ouroboris_03
-					TYR_Ouroboris_04
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				
-				portraits = {
-					TYR_Ouroboris_01
-					TYR_Ouroboris_02
-					TYR_Ouroboris_03
-					TYR_Ouroboris_04
-				}
-			}
-
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				
-				portraits = {
-					TYR_Patriarch
-					TYR_Ouroboris_01
-					TYR_Ouroboris_02
-					TYR_Ouroboris_03
-					TYR_Ouroboris_04
-				}
-			}
-		}
-
-		#leader scope
-		ruler = {
-			add = {
-				trigger = {
-					gender = male
-				}
-				
-				portraits = {
-					TYR_Ouroboris_ruler
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
 				}
 			}
 		}
 	}
 	
-	tyranid_tiamet = {
+	eldar_cor_void_dragons = {
 		
-		default = TYR_Tiamet_01
+		default = AEL_COR_VoidDragons_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = TYR_Tiamet_ruler
+			default = AEL_COR_Shadowseer
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}		
@@ -722,7 +260,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
 				}
 			}
 		}
@@ -736,11 +279,10 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Patriarch
-					TYR_Tiamet_01
-					TYR_Tiamet_02
-					TYR_Tiamet_03
-					TYR_Tiamet_04
+					AEL_COR_VoidDragons_01
+					AEL_COR_VoidDragons_02
+					AEL_COR_VoidDragons_03
+					AEL_COR_VoidDragons_04
 				}
 			}
 			
@@ -750,10 +292,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Tiamet_01
-					TYR_Tiamet_02
-					TYR_Tiamet_03
-					TYR_Tiamet_04
+					AEL_COR_Shadowseer
 				}
 			}
 			
@@ -763,10 +302,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Tiamet_01
-					TYR_Tiamet_02
-					TYR_Tiamet_03
-					TYR_Tiamet_04
+					AEL_COR_Shadowseer
 				}
 			}
 
@@ -776,16 +312,15 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Patriarch
-					TYR_Tiamet_01
-					TYR_Tiamet_02
-					TYR_Tiamet_03
-					TYR_Tiamet_04
+					AEL_COR_VoidDragons_01
+					AEL_COR_VoidDragons_02
+					AEL_COR_VoidDragons_03
+					AEL_COR_VoidDragons_04
 				}
 			}
 		}
 
-		#leader scope
+		#leader scope 
 		ruler = {
 			add = {
 				trigger = {
@@ -793,7 +328,472 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					TYR_Tiamet_ruler
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+			
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+				}
+			}
+		}
+	}
+	
+	eldar_cor_sky_raiders = {
+		
+		default = AEL_COR_SkyRaiders_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = AEL_COR_Shadowseer
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					AEL_COR_SkyRaiders_01
+					AEL_COR_SkyRaiders_02
+					AEL_COR_SkyRaiders_03
+					AEL_COR_SkyRaiders_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					AEL_COR_SkyRaiders_01
+					AEL_COR_SkyRaiders_02
+					AEL_COR_SkyRaiders_03
+					AEL_COR_SkyRaiders_04
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+			
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+				}
+			}
+		}
+	}
+	
+	eldar_cor_steeleye_reavers = {
+		
+		default = AEL_COR_SteeleyeReavers_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = AEL_COR_Shadowseer
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					AEL_COR_SteeleyeReavers_01
+					AEL_COR_SteeleyeReavers_02
+					AEL_COR_SteeleyeReavers_03
+					AEL_COR_SteeleyeReavers_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					AEL_COR_SteeleyeReavers_01
+					AEL_COR_SteeleyeReavers_02
+					AEL_COR_SteeleyeReavers_03
+					AEL_COR_SteeleyeReavers_04
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+			
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+				}
+			}
+		}
+	}
+	
+	eldar_cor_sun_blitz = {
+		
+		default = AEL_COR_SunBlitz_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = AEL_COR_Shadowseer
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					AEL_COR_SunBlitz_01
+					AEL_COR_SunBlitz_02
+					AEL_COR_SunBlitz_03
+					AEL_COR_SunBlitz_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					AEL_COR_SunBlitz_01
+					AEL_COR_SunBlitz_02
+					AEL_COR_SunBlitz_03
+					AEL_COR_SunBlitz_04
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+			
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+				}
+			}
+		}
+	}
+
+	eldar_cor_eldritch_raiders = {
+		
+		default = AEL_COR_EldritchRaiders_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = AEL_COR_Shadowseer
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					AEL_COR_EldritchRaiders_01
+					AEL_COR_EldritchRaiders_02
+					AEL_COR_EldritchRaiders_03
+					AEL_COR_EldritchRaiders_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					AEL_COR_Shadowseer
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					AEL_COR_EldritchRaiders_01
+					AEL_COR_EldritchRaiders_02
+					AEL_COR_EldritchRaiders_03
+					AEL_COR_EldritchRaiders_04
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					eldar_male_01				
+					eldar_male_02			
+					eldar_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+			
+				portraits = {
+					eldar_female_01			
+					eldar_female_02		
+					eldar_female_03
 				}
 			}
 		}

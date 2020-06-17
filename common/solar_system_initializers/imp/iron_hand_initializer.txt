@@ -13,6 +13,13 @@ iron_hand_homeworld = {
 	usage = misc_system_init
 	
 	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
 		root = { set_country_flag = the_iron_hand }
 		generate_home_system_resources = yes
 		create_fe_citadel = yes
@@ -39,12 +46,20 @@ iron_hand_homeworld = {
 		modifiers = none
 
 		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_iron_hand
+				}
+				save_event_target_as = the_iron_hand
+			}
+
+			set_owner = event_target:the_iron_hand
+			set_controller = event_target:the_iron_hand
 			set_capital = yes
 			set_planet_flag = spacemarinehomeworld
 
 			add_modifier = { modifier = "unstable_tectonics" days = -1 }
-			
-			generate_empire_home_planet = yes
+
 			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes

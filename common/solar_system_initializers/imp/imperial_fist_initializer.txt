@@ -9,6 +9,13 @@ imperial_fist_homeworld = {
 	usage = misc_system_init
 	
 	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
 		root = { set_country_flag = the_imperial_fist }
 		generate_home_system_resources = yes
 		create_fe_citadel = yes
@@ -69,10 +76,18 @@ imperial_fist_homeworld = {
 			modifiers = none
 
 			init_effect = {
+				every_country = {
+					limit = {
+						has_country_flag = the_imperial_fist
+					}
+					save_event_target_as = the_imperial_fist
+				}
+
+				set_owner = event_target:the_imperial_fist
+				set_controller = event_target:the_imperial_fist
 				set_capital = yes
 				set_planet_flag = spacemarinehomeworld
-				
-				generate_empire_home_planet = yes
+
 				generate_start_buildings_and_districts = yes
 				generate_start_pops = yes
 				prevent_anomaly = yes

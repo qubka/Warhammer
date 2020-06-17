@@ -133,8 +133,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
