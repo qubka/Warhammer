@@ -1,0 +1,97 @@
+@distance = 30
+@base_moon_distance = 10
+
+raven_guard_homeworld = {
+	class = "rl_standard_stars"
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 100
+	}
+
+	flags = { empire_home_system }
+	
+	usage = misc_system_init
+	
+	init_effect = {
+		root = { set_country_flag = the_raven_guard }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+	}
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 30 max = 35 }
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Kiavahr"
+		class = "pc_hive_continental_02" 
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no			
+		deposit_blockers = none	
+		modifiers = none
+
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_raven_guard
+				}
+				save_event_target_as = the_raven_guard
+			}
+
+			set_owner = event_target:the_raven_guard
+			set_controller = event_target:the_raven_guard
+
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+
+		moon = {
+			name = "Deliverance"
+			class = "pc_fortress"
+			orbit_distance = 8
+			orbit_angle = { min = 90 max = 270 }
+			size = 15
+			has_ring = no
+			home_planet = yes
+			starting_planet = yes
+			deposit_blockers = none			
+			modifiers = none
+			
+			init_effect = {
+				set_capital = yes
+				set_planet_flag = spacemarinehomeworld
+
+				generate_empire_home_planet = yes
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
+				prevent_anomaly = yes
+			}
+		}
+	}
+	
+	change_orbit = 50
+	
+	planet = {
+        count = { min = 2 max = 3 }
+		class = rl_unhabitable_planets
+        orbit_distance = 15
+        orbit_angle = { min = 90 max = 270 }
+        
+        change_orbit = @base_moon_distance
+        
+        moon = {
+            count = { min = 0 max = 1 }
+			class = rl_habitable_normal
+            orbit_angle = { min = 90 max = 270 }
+            orbit_distance = 3
+        }
+    }
+}

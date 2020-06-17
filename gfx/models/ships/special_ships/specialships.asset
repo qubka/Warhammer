@@ -1,0 +1,371 @@
+
+entity = {
+	name = "eternal_cruseder_ship_01_entity"
+	cull_radius = 0
+	pdxmesh = "imperiall_01_battleship_bow_M1S2SHB_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 0.8
+}
+
+entity = {
+	name = "eternal_cruseder_planet_01_entity"
+	cull_radius = 0
+	pdxmesh = "eternalcrusaderplanetmesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 0.8
+}
+
+
+		entity = {
+			name = "phalanx_ship_01_entity"
+			pdxmesh = "imperiall_01_orbital_station_mesh"
+				default_state = "idle"
+				locator = { name = "part1" 		position = { 0 0 0 } }
+				locator = { name = "part2" 		position = { 0 0 0 } }
+				locator = { name = "part3" 		position = { 0 0 0 } }
+				locator = { name = "part4" 		position = { 0 0 0 } }
+				locator = { name = "part5" 		position = { 0 0 0 } }
+				locator = { name = "part6" 		position = { 0 0 0 } }
+				locator = { name = "part7" 		position = { 0 0 0 } }
+				locator = { name = "part8" 		position = { 0 0 0 } }
+				locator = { name = "small_gun_01"	position = { 0 0 0 } }
+				locator = { name = "small_gun_02"	position = { 0 0 0 } }
+				locator = { name = "small_gun_03"	position = { 0 0 0 } }
+				locator = { name = "small_gun_04"	position = { 0 0 0 } }
+				locator = { name = "small_gun_05"	position = { 0 0 0 } }
+				locator = { name = "small_gun_06"	position = { 0 0 0 } }
+				locator = { name = "small_gun_07"	position = { 0 0 0 } }
+				locator = { name = "small_gun_08"	position = { 0 0 0 } }
+				locator = { name = "small_gun_09"	position = { 0 0 0 } }
+				locator = { name = "small_gun_10"	position = { 0 0 0 } }
+				locator = { name = "small_gun_11"	position = { 0 0 0 } }
+				locator = { name = "small_gun_12"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_03"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_04"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_05"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_06"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_07"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_08"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_09"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_10"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_11"	position = { 0 0 0 } }
+				locator = { name = "medium_gun_12"	position = { 0 0 0 } }
+				locator = { name = "large_gun_01"	position = { 0 0 0 } }
+				locator = { name = "large_gun_02"	position = { 0 0 0 } }
+				locator = { name = "large_gun_03"	position = { 0 0 0 } }
+				locator = { name = "large_gun_04"	position = { 0 0 0 } }
+				locator = { name = "large_gun_05"	position = { 0 0 0 } }
+				locator = { name = "large_gun_06"	position = { 0 0 0 } }
+				locator = { name = "large_gun_07"	position = { 0 0 0 } }
+				locator = { name = "large_gun_08"	position = { 0 0 0 } }
+				locator = { name = "large_gun_09"	position = { 0 0 0 } }
+				locator = { name = "large_gun_10"	position = { 0 0 0 } }
+				locator = { name = "large_gun_11"	position = { 0 0 0 } }
+				locator = { name = "large_gun_12"	position = { 0 0 0 } }	
+
+				locator = {
+					name = "root"
+					rotation = { 0 0 0 }
+				}	
+				locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 }}
+				locator = { name = "loc102" position = { 0 0 0 } rotation = { 0 0 0 }}
+				attach = { "loc101" = "imperiall_01_02_orbital_station_entity"}
+				attach = { "loc102" = "imperiall_01_03_orbital_station_entity"}
+				state = { 
+					name = "idle" animation = "idle"
+					start_event = { trigger_once = yes sound = { soundeffect = "spaceport_hum_idle" } }
+					event = { time = 0.0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+					event = { time = 0.0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+					event = { time = 0.0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+					event = { time = 0.0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+					event = { time = 0.0 node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+				}
+				state = { 
+					name = "death" animation = "death" looping = no	
+					event = { time = 0.0 node = "explosion_1" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+					event = { time = 0.5 node = "explosion_2" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+					event = { time = 1.5 node = "explosion_3" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+					event = { time = 2.0 node = "explosion_4" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+					event = { time = 3.0 node = "explosion_5" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+					event = { time = 4.0 node = "explosion_2" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+				}
+			locator = { name = "large_gun_01" position = { 0 0 0 } }
+			scale = 0.3
+		}
+
+entity = {
+	name = "craftworld_ship_01_entity"
+	cull_radius = 0
+	pdxmesh = "craftworld_01_mesh"
+	locator = { name = "part1" 		position = { 0 0 0 } }
+	locator = { name = "part2" 		position = { 0 0 0 } }
+	locator = { name = "part3" 		position = { 0 0 0 } }
+	locator = { name = "part4" 		position = { 0 0 0 } }
+	locator = { name = "part5" 		position = { 0 0 0 } }
+	locator = { name = "part6" 		position = { 0 0 0 } }
+	locator = { name = "part7" 		position = { 0 0 0 } }
+	locator = { name = "part8" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+	locator = { name = "small_gun_05"	position = { 0 0 0 } }
+	locator = { name = "small_gun_06"	position = { 0 0 0 } }
+	locator = { name = "small_gun_07"	position = { 0 0 0 } }
+	locator = { name = "small_gun_08"	position = { 0 0 0 } }
+	locator = { name = "small_gun_09"	position = { 0 0 0 } }
+	locator = { name = "small_gun_10"	position = { 0 0 0 } }
+	locator = { name = "small_gun_11"	position = { 0 0 0 } }
+	locator = { name = "small_gun_12"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_03"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_04"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_05"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_06"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_07"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_08"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_09"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_10"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_11"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_12"	position = { 0 0 0 } }
+	locator = { name = "large_gun_01"	position = { 0 0 0 } }
+	locator = { name = "large_gun_02"	position = { 0 0 0 } }
+	locator = { name = "large_gun_03"	position = { 0 0 0 } }
+	locator = { name = "large_gun_04"	position = { 0 0 0 } }
+	locator = { name = "large_gun_05"	position = { 0 0 0 } }
+	locator = { name = "large_gun_06"	position = { 0 0 0 } }
+	locator = { name = "large_gun_07"	position = { 0 0 0 } }
+	locator = { name = "large_gun_08"	position = { 0 0 0 } }
+	locator = { name = "large_gun_09"	position = { 0 0 0 } }
+	locator = { name = "large_gun_10"	position = { 0 0 0 } }
+	locator = { name = "large_gun_11"	position = { 0 0 0 } }
+	locator = { name = "large_gun_12"	position = { 0 0 0 } }	
+
+	locator = {
+		name = "root"
+		rotation = { 0 0 0 }
+	}		
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 2.0
+}
+
+entity = {
+	name = "blackstonefotress_01_entity"
+	cull_radius = 0
+	pdxmesh = "blackstone_fotress_01_mesh"
+	locator = { name = "part1" 		position = { 0 0 0 } }
+	locator = { name = "part2" 		position = { 0 0 0 } }
+	locator = { name = "part3" 		position = { 0 0 0 } }
+	locator = { name = "part4" 		position = { 0 0 0 } }
+	locator = { name = "part5" 		position = { 0 0 0 } }
+	locator = { name = "part6" 		position = { 0 0 0 } }
+	locator = { name = "part7" 		position = { 0 0 0 } }
+	locator = { name = "part8" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+	locator = { name = "small_gun_05"	position = { 0 0 0 } }
+	locator = { name = "small_gun_06"	position = { 0 0 0 } }
+	locator = { name = "small_gun_07"	position = { 0 0 0 } }
+	locator = { name = "small_gun_08"	position = { 0 0 0 } }
+	locator = { name = "small_gun_09"	position = { 0 0 0 } }
+	locator = { name = "small_gun_10"	position = { 0 0 0 } }
+	locator = { name = "small_gun_11"	position = { 0 0 0 } }
+	locator = { name = "small_gun_12"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_03"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_04"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_05"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_06"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_07"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_08"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_09"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_10"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_11"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_12"	position = { 0 0 0 } }
+	locator = { name = "large_gun_01"	position = { 0 0 0 } }
+	locator = { name = "large_gun_02"	position = { 0 0 0 } }
+	locator = { name = "large_gun_03"	position = { 0 0 0 } }
+	locator = { name = "large_gun_04"	position = { 0 0 0 } }
+	locator = { name = "large_gun_05"	position = { 0 0 0 } }
+	locator = { name = "large_gun_06"	position = { 0 0 0 } }
+	locator = { name = "large_gun_07"	position = { 0 0 0 } }
+	locator = { name = "large_gun_08"	position = { 0 0 0 } }
+	locator = { name = "large_gun_09"	position = { 0 0 0 } }
+	locator = { name = "large_gun_10"	position = { 0 0 0 } }
+	locator = { name = "large_gun_11"	position = { 0 0 0 } }
+	locator = { name = "large_gun_12"	position = { 0 0 0 } }	
+
+	locator = {
+		name = "root"
+		rotation = { 0 0 0 }
+	}		
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 2.0
+}
+
+
+entity = {
+	name = "planetkillerm_01_entity"
+	cull_radius = 0
+	pdxmesh = "planetkiller_01_mesh"
+	locator = { name = "part1" 		position = { 0 0 0 } }
+	locator = { name = "part2" 		position = { 0 0 0 } }
+	locator = { name = "part3" 		position = { 0 0 0 } }
+	locator = { name = "part4" 		position = { 0 0 0 } }
+	locator = { name = "part5" 		position = { 0 0 0 } }
+	locator = { name = "part6" 		position = { 0 0 0 } }
+	locator = { name = "part7" 		position = { 0 0 0 } }
+	locator = { name = "part8" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+	locator = { name = "small_gun_05"	position = { 0 0 0 } }
+	locator = { name = "small_gun_06"	position = { 0 0 0 } }
+	locator = { name = "small_gun_07"	position = { 0 0 0 } }
+	locator = { name = "small_gun_08"	position = { 0 0 0 } }
+	locator = { name = "small_gun_09"	position = { 0 0 0 } }
+	locator = { name = "small_gun_10"	position = { 0 0 0 } }
+	locator = { name = "small_gun_11"	position = { 0 0 0 } }
+	locator = { name = "small_gun_12"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_03"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_04"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_05"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_06"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_07"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_08"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_09"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_10"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_11"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_12"	position = { 0 0 0 } }
+	locator = { name = "large_gun_01"	position = { 0 0 0 } }
+	locator = { name = "large_gun_02"	position = { 0 0 0 } }
+	locator = { name = "large_gun_03"	position = { 0 0 0 } }
+	locator = { name = "large_gun_04"	position = { 0 0 0 } }
+	locator = { name = "large_gun_05"	position = { 0 0 0 } }
+	locator = { name = "large_gun_06"	position = { 0 0 0 } }
+	locator = { name = "large_gun_07"	position = { 0 0 0 } }
+	locator = { name = "large_gun_08"	position = { 0 0 0 } }
+	locator = { name = "large_gun_09"	position = { 0 0 0 } }
+	locator = { name = "large_gun_10"	position = { 0 0 0 } }
+	locator = { name = "large_gun_11"	position = { 0 0 0 } }
+	locator = { name = "large_gun_12"	position = { 0 0 0 } }	
+
+	locator = {
+		name = "root"
+		rotation = { 0 0 0 }
+	}		
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	scale = 3.5
+}
+
+entity = {
+	name = "blackstonefotresss_01_entity_dwa"
+	cull_radius = 0	
+	
+	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 }}
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 10 looping = no
+		event = { time = 0.0 particle = "planet_blackstone_laser_dwa" keep_particle = yes trigger_once = yes sound = { soundeffect = "effect_longinus_fire" } }
+	}
+
+	attach = { "loc101" = "blackstonefotress_01_entity"}
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "planetkiller_01_entity"
+	cull_radius = 0	
+	locator = { name = "part1" 		position = { 0 0 0 } }
+	locator = { name = "part2" 		position = { 0 0 0 } }
+	locator = { name = "part3" 		position = { 0 0 0 } }
+	locator = { name = "part4" 		position = { 0 0 0 } }
+	locator = { name = "part5" 		position = { 0 0 0 } }
+	locator = { name = "part6" 		position = { 0 0 0 } }
+	locator = { name = "part7" 		position = { 0 0 0 } }
+	locator = { name = "part8" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+	locator = { name = "small_gun_05"	position = { 0 0 0 } }
+	locator = { name = "small_gun_06"	position = { 0 0 0 } }
+	locator = { name = "small_gun_07"	position = { 0 0 0 } }
+	locator = { name = "small_gun_08"	position = { 0 0 0 } }
+	locator = { name = "small_gun_09"	position = { 0 0 0 } }
+	locator = { name = "small_gun_10"	position = { 0 0 0 } }
+	locator = { name = "small_gun_11"	position = { 0 0 0 } }
+	locator = { name = "small_gun_12"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_03"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_04"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_05"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_06"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_07"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_08"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_09"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_10"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_11"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_12"	position = { 0 0 0 } }
+	locator = { name = "large_gun_01"	position = { 0 0 0 } }
+	locator = { name = "large_gun_02"	position = { 0 0 0 } }
+	locator = { name = "large_gun_03"	position = { 0 0 0 } }
+	locator = { name = "large_gun_04"	position = { 0 0 0 } }
+	locator = { name = "large_gun_05"	position = { 0 0 0 } }
+	locator = { name = "large_gun_06"	position = { 0 0 0 } }
+	locator = { name = "large_gun_07"	position = { 0 0 0 } }
+	locator = { name = "large_gun_08"	position = { 0 0 0 } }
+	locator = { name = "large_gun_09"	position = { 0 0 0 } }
+	locator = { name = "large_gun_10"	position = { 0 0 0 } }
+	locator = { name = "large_gun_11"	position = { 0 0 0 } }
+	locator = { name = "large_gun_12"	position = { 0 0 0 } }	
+
+	locator = {
+		name = "root"
+		rotation = { 0 0 0 }
+	}		
+	locator = { name = "loc101" position = { 0 -128 400 } rotation = { 0 0 0 }}
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 10 looping = no
+		event = { time = 0.0 particle = "planet_blackstone_laser" keep_particle = yes trigger_once = yes sound = { soundeffect = "effect_longinus_fire" } }
+	}
+
+	attach = { "loc101" = "planetkillerm_01_entity"}
+	
+	scale = 1.0
+}
+

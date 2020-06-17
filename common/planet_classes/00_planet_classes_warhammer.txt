@@ -1,7 +1,7 @@
 pc_forge = {
 	entity = "forge_planet"
 	picture = pc_forge 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -27,12 +27,13 @@ pc_forge = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_forgee = {
 	entity = "forgee_planet"
 	picture = pc_forgee 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -58,12 +59,13 @@ pc_forgee = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_forgeee = {
 	entity = "forgeee_planet"
 	picture = pc_forgee 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -89,12 +91,13 @@ pc_forgeee = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_industrial = {
 	entity = "industrial_planet"
 	picture = pc_industrial # there's no unique gaia_planet picture
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -120,12 +123,13 @@ pc_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_agri = {
 	entity = "agri_planet"
 	picture = pc_agri
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -151,12 +155,13 @@ pc_agri = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_shrine = {
 	entity = "shrine_planet"
 	picture = pc_shrine
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -182,12 +187,13 @@ pc_shrine = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_hive_medium = {
 	entity = "hive_planet"
 	picture = pc_hive_medium
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -211,6 +217,7 @@ pc_hive_medium = {
 	
 	colonizable = yes
 	ideal = yes
+	district_set = city_world
 	starting_planet = no
 	show_city = no
 }
@@ -218,7 +225,7 @@ pc_hive_medium = {
 pc_penal= {
 	entity = "penal_planet"
 	picture = pc_penal
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -244,12 +251,13 @@ pc_penal= {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_fortress = {
 	entity = "fortress_planet"
 	picture = pc_fortress
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -275,12 +283,13 @@ pc_fortress = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = standard
 }
 
 pc_tomb = {
 	entity = "tomb_planet"
 	picture = pc_tomb
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -306,12 +315,13 @@ pc_tomb = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = machine_world
 }
 
 pc_hive_arid = {
 	entity = "hive_arid"
 	picture = pc_hive_arid
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -337,12 +347,13 @@ pc_hive_arid = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_hive_continental_01 = {
 	entity = "hive_continental_01"
 	picture = pc_hive_continental_01
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -368,12 +379,13 @@ pc_hive_continental_01 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_hive_continental_02 = {
 	entity = "hive_continental_02"
 	picture = pc_hive_continental_02
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -399,6 +411,7 @@ pc_hive_continental_02 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_hive_ocean = {
@@ -430,12 +443,13 @@ pc_hive_ocean = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_hive_tundra = {
 	entity = "hive_tundra"
 	picture = pc_hive_tundra
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -461,12 +475,13 @@ pc_hive_tundra = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_super_hive = {
 	entity = "super_hive"
 	picture = pc_super_hive 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -492,12 +507,13 @@ pc_super_hive = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_mega_hive = {
 	entity = "mega_hive"
 	picture = pc_mega_hive 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -523,12 +539,13 @@ pc_mega_hive = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_forge_ring = {
 	entity = "forge_ring"
 	picture = pc_forge
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -554,12 +571,13 @@ pc_forge_ring = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = ring_world
 }
 
 pc_forge_ring2 = {
 	entity = "forge_ring2"
 	picture = pc_forgee
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -585,12 +603,13 @@ pc_forge_ring2 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = ring_world
 }
 
 pc_forge_ring3 = {
 	entity = "forge_ring3"
 	picture = pc_forgee
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -616,12 +635,13 @@ pc_forge_ring3 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = ring_world
 }
 
 pc_craftworld = {
 	entity = "craftworld"
 	picture = pc_craftworld
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -647,12 +667,13 @@ pc_craftworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_hive_industrial = {
 	entity = "hive_industrial"
 	picture = pc_hive_arid
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -678,12 +699,13 @@ pc_hive_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = city_world
 }
 
 pc_advancecity = {
 	entity = "advancecity_planet"
 	picture = pc_advancecity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -709,12 +731,13 @@ pc_advancecity = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = hive_world
 }
 
 pc_webway = {
 	entity = "webway_planet"
 	picture = pc_webway 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -740,12 +763,13 @@ pc_webway = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_spacehulk = {
 	entity = "spacehulk_planet"
 	picture = pc_spacehulk 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -771,12 +795,13 @@ pc_spacehulk = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_blackstonefortress = {
 	entity = "blackstonefortress_planet"
 	picture = pc_blackstonefortress 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -803,13 +828,13 @@ pc_blackstonefortress = {
 	starting_planet = no
 	show_city = no
 	orbit_lines = no
-	can_support_spaceport = no
+	district_set = habitat
 }
 
 pc_caliban = {
 	entity = "caliban_planet"
 	picture = pc_caliban 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -835,12 +860,13 @@ pc_caliban = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_eternalcrusader = {
 	entity = "eternalcrusader_planet"
 	picture = pc_eternalcrusader 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -866,11 +892,13 @@ pc_eternalcrusader = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = habitat
 }
 
 pc_daemon = {
 	entity = "daemon_planet"
 	picture = pc_daemon
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -896,11 +924,13 @@ pc_daemon = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_daemonn = {
 	entity = "daemonn_planet"
 	picture = pc_daemon
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -926,11 +956,13 @@ pc_daemonn = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_daemont = {
 	entity = "daemont_planet"
 	picture = pc_daemon
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -956,11 +988,13 @@ pc_daemont = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_daemons = {
 	entity = "daemons_planet"
 	picture = pc_daemon
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
@@ -986,12 +1020,13 @@ pc_daemons = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
+	district_set = default
 }
 
 pc_advancexenocity = {
 	entity = "advancexenocity_planet"
 	picture = pc_advancexenocity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1017,12 +1052,13 @@ pc_advancexenocity = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_advancexenocityy = {
 	entity = "advancexenocityy_planet"
 	picture = pc_advancexenocity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1048,12 +1084,13 @@ pc_advancexenocityy = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_advancexenocityyy = {
 	entity = "advancexenocityyy_planet"
 	picture = pc_advancexenocity
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1079,12 +1116,13 @@ pc_advancexenocityyy = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_orkworld = {
 	entity = "orkworld_planet"
 	picture = pc_orkworld
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1110,12 +1148,13 @@ pc_orkworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_armoury = {
 	entity = "armoury_planet"
 	picture = pc_armoury 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1141,12 +1180,13 @@ pc_armoury = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
 }
 
 pc_destroyedplanet = {
 	entity = "caliban_planet"
 	picture = pc_destroyedplanet 
-	tile_set = pc_tundra
+	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
@@ -1172,4 +1212,15 @@ pc_destroyedplanet = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
+	district_set = default
+}
+
+random_list = {
+	name = "rl_chaos_planets"
+	planets = {
+		"pc_daemon"
+		"pc_daemonn"
+		"pc_daemons"
+		"pc_daemont"
+	}
 }

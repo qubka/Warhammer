@@ -1,7 +1,7 @@
 goff = {
 	name = "Goff"
 	adjective = "PRESCRIPTED_adjective_goff"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_goff"
 
@@ -65,7 +65,7 @@ goff = {
 evil_sunz = {
 	name = "Evil Sunz"
 	adjective = "PRESCRIPTED_adjective_evil_sunz"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_evil_sunz"
 
@@ -129,7 +129,7 @@ evil_sunz = {
 death_skullz = {
 	name = "Death Skullz"
 	adjective = "PRESCRIPTED_adjective_death_skullz"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_death_skullz"
 
@@ -193,7 +193,7 @@ death_skullz = {
 blood_axe = {
 	name = "Blood Axe"
 	adjective = "PRESCRIPTED_adjective_blood_axe"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_blood_axe"
 
@@ -257,7 +257,7 @@ blood_axe = {
 big_mek = {
 	name = "Big Mek"
 	adjective = "PRESCRIPTED_adjective_big_mek"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_big_mek"
 
@@ -321,7 +321,7 @@ big_mek = {
 big_boss = {
 	name = "Big Boss"
 	adjective = "PRESCRIPTED_adjective_big_boss"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_big_boss"
 
@@ -385,7 +385,7 @@ big_boss = {
 bad_moons = {
 	name = "Bad Moons"
 	adjective = "PRESCRIPTED_adjective_bad_moons"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_bad_moons"
 

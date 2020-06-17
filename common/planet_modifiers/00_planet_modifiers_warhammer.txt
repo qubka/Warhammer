@@ -124,7 +124,6 @@ pm_hivec_small_planet = {
 		modifier = {
 			add = 100
 			is_planet_class = "pc_hive_continental_01"
-			
 		}
 	}
 	
@@ -185,7 +184,6 @@ pm_forge_ring2_planet = {
 	}
 	
 	modifier = "forge_ring2_planet"
-
 }
 
 pm_super_hive_planet = {

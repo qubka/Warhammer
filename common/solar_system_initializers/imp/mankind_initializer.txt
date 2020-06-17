@@ -1,0 +1,332 @@
+@distance = 30
+@base_moon_distance = 10
+
+mankind_homeworld = {
+	class = "sc_g"
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 145
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 290
+	}
+	
+	flags = { empire_home_system sol_system sol }
+	
+	usage = misc_system_init
+	
+	init_effect = {
+		root = { set_country_flag = the_mankind }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+		
+		spawn_megastructure = {
+			name = "Imperial Dock"
+			type = "mega_shipyard_ruined"
+			location = event_target:shipyard_location
+		}
+	}
+	
+	planet = {
+		name = "NAME_Sol"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Mercury"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Venus"
+		class = "pc_toxic"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		
+		init_effect = {
+			add_modifier = { modifier = "terraforming_candidate" days = -1 }
+		}	
+	}
+	
+	planet = {
+		name = "Terra"
+		class = "pc_hive_medium"
+  		flags = { hiveplanet_planet }	
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 25
+		home_planet = yes
+		starting_planet = yes
+		has_ring = no			
+		deposit_blockers = none	
+		modifiers = none
+		
+ 		init_effect = {
+			set_capital = yes
+
+			generate_empire_home_planet = yes	
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "NAME_Luna"
+			class = "pc_hive_tundra"
+			size = 10
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			deposit_blockers = none			
+			modifiers = none
+			
+			init_effect = {
+				every_country = {
+					limit = {
+						has_country_flag = the_mankind
+					}
+					save_event_target_as = the_mankind
+				}
+
+				set_owner = event_target:the_mankind
+				set_controller = event_target:the_mankind
+				
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
+				prevent_anomaly = yes
+			}
+		}
+	}
+	
+	planet = {
+		name = "NAME_Mars"
+		class = "pc_forge_ring2"			 
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 25
+		has_ring = no
+		deposit_blockers = none			
+		modifiers = none
+		
+ 		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mankind
+				}
+				save_event_target_as = the_mankind
+			}
+
+			set_owner = event_target:the_mankind
+			set_controller = event_target:the_mankind
+			set_planet_flag = mechanicushomeworld
+
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "NAME_1_Ceres"
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_2_Pallas"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_3_Juno"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_4_Vesta"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_Jupiter"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+		change_orbit = 6
+		
+		init_effect = {
+			save_event_target_as = shipyard_location
+		}
+		
+		moon = {
+			name = "NAME_Io"
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Europa"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+			
+			init_effect = {
+				add_modifier = { modifier = "terraforming_candidate" days = -1 }
+			}
+		}
+		moon = {
+			name = "NAME_Ganymede"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_Callisto"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+
+	planet = {
+		name = "NAME_Saturn"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		change_orbit = 7
+		
+		moon = {
+			name = "NAME_Titan"
+			class = "pc_fortress"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+			deposit_blockers = none
+			modifiers = none
+			
+			init_effect = {
+				every_country = {
+				limit = {
+						has_country_flag = the_mankind
+					}
+					save_event_target_as = the_mankind
+				}
+
+				set_owner = event_target:the_mankind
+				set_controller = event_target:the_mankind
+				set_planet_flag = spacemarinehomeworld
+			
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
+				prevent_anomaly = yes
+			}
+		}
+	}
+
+	planet = {
+		name = "NAME_Uranus"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		name = "NAME_Neptune"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		change_orbit = 4
+		
+		moon = {
+			name = "NAME_Triton"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+
+	planet = {
+		name = "NAME_134340_Pluto"
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_136472_Makemake"
+		class = "pc_ice_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_136108_Haumea"
+		class = "pc_ice_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_20000_Varuna"
+		class = "pc_ice_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+}

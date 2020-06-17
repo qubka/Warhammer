@@ -1,0 +1,48 @@
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		#planets_and_stuf_setup.1
+		#planets_and_stuf_setup.2
+		#planets_and_stuf_setup.3
+		#planets_and_stuf_setup.4
+		#planets_and_stuf_setup.5
+		#planets_and_stuf_setup.6
+		#planets_and_stuf_setup.7
+		#planets_and_stuf_setup.8
+		#planets_and_stuf_setup.9
+		#planets_and_stuf_setup.10
+		#planets_and_stuf_setup.11
+		#planets_and_stuf_setup.12
+		#planets_and_stuf_setup.13
+		#planets_and_stuf_setup.14
+		#planets_and_stuf_setup.15
+		#planets_and_stuf_setup.16
+		#planets_and_stuf_setup.17
+		#planets_and_stuf_setup.18
+		#planets_and_stuf_setup.19
+		#planets_and_stuf_setup.20
+		#planets_and_stuf_setup.21
+		#planets_and_stuf_setup.22
+		#planets_and_stuf_setup.23
+		#planets_and_stuf_setup.24
+		#planets_and_stuf_setup.25
+		#planets_and_stuf_setup.26
+		#planets_and_stuf_setup.27
+		#planets_and_stuf_setup.28
+		#planets_and_stuf_setup.29
+		#planets_and_stuf_setup.30
+		#planets_and_stuf_setup.31
+		#planets_and_stuf_setup.32
+		#planets_and_stuf_setup.33
+		#planets_and_stuf_setup.34
+		#planets_and_stuf_setup.35
+		#planets_and_stuf_setup.36
+		#planets_and_stuf_setup.37
+		#planets_and_stuf_setup.38
+		#planets_and_stuf_setup.39
+		#planets_and_stuf_setup.40
+		#planets_and_stuf_setup.41
+		#planets_and_stuf_setup.42
+		#planets_and_stuf_setup.43
+	}
+}

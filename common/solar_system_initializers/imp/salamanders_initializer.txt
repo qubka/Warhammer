@@ -1,0 +1,150 @@
+@distance = 30
+@base_moon_distance = 10
+
+salamanders_homeworld = {
+	class = "rl_standard_stars"
+
+	flags = { empire_home_system }
+	
+	usage = misc_system_init
+	
+	init_effect = {
+		root = { set_country_flag = the_salamanders }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+		
+		spawn_megastructure = {
+			name = "Gherash"
+			type = "strategic_coordination_center_ruined"
+			location = event_target:coordination_location
+		}
+	}
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 30 max = 35 }
+		has_ring = no
+		
+		init_effect = {
+			save_event_target_as = coordination_location
+		}
+	}
+	
+	planet = {
+		name = "The Dragons Goitre I"
+		class = "pc_molten"
+		orbit_distance = 50
+		size = 15
+		orbit_angle = { min = 90 max = 270 }
+		has_ring = no
+	}
+	
+	planet = {
+		name = "The Dragons Goitre II"
+		class = "pc_molten"
+		orbit_distance = 25
+		size = 15
+		orbit_angle = { min = 90 max = 270 }
+		has_ring = no
+	}
+	
+	planet = {
+		name = "The Dragons Goitre III"
+		class = "pc_molten"
+		orbit_distance = 25
+		size = 15
+		orbit_angle = { min = 90 max = 270 }
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Nocturne"
+		class = "pc_desert" 
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		home_planet = yes
+		starting_planet = yes
+		has_ring = no			
+		deposit_blockers = none	
+		modifiers = none
+
+		init_effect = {
+			set_capital = yes
+			set_planet_flag = spacemarinehomeworld
+
+			add_modifier = { modifier = "unstable_tectonics" days = -1 }
+			
+			generate_empire_home_planet = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+
+		moon = {
+			name = "Prometheus"
+			class = "pc_fortress"
+			orbit_distance = 8
+			orbit_angle = { min = 90 max = 270 }
+			size = 10
+			has_ring = no
+			deposit_blockers = none			
+			modifiers = none
+			
+			init_effect = {
+				every_country = {
+					limit = {
+						has_country_flag = the_salamanders
+					}
+					save_event_target_as = the_salamanders
+				}
+
+				set_owner = event_target:the_salamanders
+				set_controller = event_target:the_salamanders
+				
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
+				prevent_anomaly = yes
+			}
+		}
+	}
+
+	planet = {
+		name = "Fenzar"
+		class = "pc_barren"
+		orbit_distance = 30
+		size = 15
+		orbit_angle = { min = 90 max = 270 }
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Chor'va"
+		class = "pc_savannah"
+		orbit_distance = 30
+		size = 20
+		orbit_angle = { min = 90 max = 270 }
+		has_ring = no
+		deposit_blockers = none			
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_salamanders
+				}
+				save_event_target_as = the_salamanders
+			}
+
+			set_owner = event_target:the_salamanders
+			set_controller = event_target:the_salamanders
+			
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+}

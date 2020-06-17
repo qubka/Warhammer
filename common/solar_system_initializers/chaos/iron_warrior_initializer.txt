@@ -1,0 +1,141 @@
+@distance = 30
+@base_moon_distance = 10
+
+iron_warrior_homeworld = {
+	class = "rl_trinary_stars"
+	
+	usage = misc_system_init
+	
+	flags = { empire_home_system }
+
+	init_effect = {
+		root = { set_country_flag = the_iron_warrior }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+	}
+		
+	planet = {
+        count = 1
+        class = star
+        orbit_distance = 0
+        orbit_angle = 0
+        size = { min = 30 max = 35 }
+        has_ring = no
+		
+		init_effect = {
+			# Create Ambient Object 2
+			create_ambient_object = {
+				type = "nebula_L8_entity"
+				entity_offset_height = -5 # Set to spawn far below the planets
+				location = this
+			}
+		}
+    }
+
+    planet = {
+        count = 1
+        class = star
+        orbit_distance = 230
+      	orbit_angle = { min = 90 max = 270 }
+        size = { min = 20 max = 30 }
+        has_ring = no
+        satellite_naming_policy = upper_case_roman_numerals
+
+        change_orbit = 30
+
+		planet = {
+			count = { min = 2 max = 3 }
+			orbit_angle = { min = 90 max = 270 }
+			class = random_non_colonizable
+			orbit_distance = 25
+			satellite_naming_policy = lower_case_latin_letters
+
+			change_orbit = @base_moon_distance
+
+			moon = {
+				count = { min = 0 max = 1 }
+				class = random_non_colonizable
+				orbit_angle = { min = 90 max = 270 }
+				orbit_distance = 5
+			}
+		}
+    }
+
+    planet = {
+        count = 1
+        class = star
+        orbit_distance = 0
+        orbit_angle = { min = 90 max = 270 }
+        size = { min = 15 max = 30 }
+        has_ring = no
+        satellite_naming_policy = upper_case_roman_numerals
+
+        change_orbit = 30
+
+		planet = {
+			count = { min = 2 max = 4 }
+			orbit_angle = { min = 90 max = 270 }
+			class = random_non_colonizable
+			orbit_distance = 25
+			satellite_naming_policy = lower_case_latin_letters
+
+			change_orbit = @base_moon_distance
+		}
+    }
+
+    change_orbit = -210
+
+    planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = 15
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		name = "Medrengard"
+		class = "pc_daemon"
+		orbit_distance = 15
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 16 max = 20 }
+		home_planet = yes
+		starting_planet = yes
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_capital = yes
+			set_planet_flag = spacemarinehomeworld
+		
+			generate_empire_home_planet = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 1 }
+			class = rl_chaos_planets
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = 15
+		class = pc_gas_giant
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 1 max = 2 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+}

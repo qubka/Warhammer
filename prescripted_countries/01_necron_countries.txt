@@ -1,7 +1,7 @@
 cryptek = {
 	name = "Cryptek"
 	adjective = "PRESCRIPTED_adjective_cryptek"
-	spawn_enabled = yes # yes / no / always
+	spawn_enabled = always # yes / no / always
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_cryptek"
 	

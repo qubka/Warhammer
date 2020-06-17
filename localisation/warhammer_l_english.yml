@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  ####################################
  # Misc
  ####################################
@@ -10,7 +10,7 @@
  name_list_TYRANID1:0 "Tyranid"
  name_list_NECRON1:0 "Necron"
  name_list_CHAOS1:0 "Chaos"
-
+ 
  ####################################
  # Species Classes
  ####################################
@@ -28,7 +28,7 @@
  ####################################
  ethic_imp:0 "Astartes"
  ethic_ork:0 "WAAAGH"
-  
+ 
  ####################################
  # Flags
  ####################################
@@ -40,7 +40,7 @@
  FLAG_CATEGORY_ork:0 "Ork"
  FLAG_CATEGORY_tau:0 "Tau"
  FLAG_CATEGORY_misc:0 "40k"
-
+ 
  ####################################
  # Species Classes
  ####################################
@@ -226,63 +226,63 @@
  pc_armoury_desc:0 "Armoury World"
  armoury_planet:0 "Armoury World"
  armoury_planet_desc:0 "Armoury World"
-
+ 
  pc_forge_tile:0 "Forge Terrain"
  pc_forge_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
  pc_forge:0 "Forge World"
  pc_forge_desc:0 "A world covered entirely in a massive factory complexes."
  forge_planet:0 "Forge World"
  forge_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
-
+ 
  pc_forgee_tile:0 "Forge Terrain"
  pc_forgee_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
  pc_forgee:0 "Forge World"
  pc_forgee_desc:0 "A world covered entirely in a massive factory complexes."
  forgee_planet:0 "Forge World"
  forgee_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
-
+ 
  pc_forgeee_tile:0 "Forge Terrain"
  pc_forgeee_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
  pc_forgeee:0 "Forge World"
  pc_forgeee_desc:0 "A world covered entirely in a massive factory complexes."
  forgeee_planet:0 "Forge World"
  forgeee_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
-
+ 
  pc_industrial_tile:0 "Industrial Terrain"
  pc_industrial_tile_desc:0 "Terrain devoted wholly to manufacturing or heavy mining."
  pc_industrial:0 "Industrial World"
  pc_industrial_desc:0 "Industrial Worlds are planets whose surfaces are devoted wholly to manufacturing or heavy mining and refining activities."
  industrial_planet:0 "Industrial World"
  industrial_planet_desc:0 "Industrial Worlds are planets whose surfaces are devoted wholly to manufacturing or heavy mining and refining activities."
-
+ 
  pc_agri_tile:0 "Agri Terrain"
  pc_agri_tile_desc:0 "Terrain devoted to farming."
  pc_agri:0 "Agri World"
  pc_agri_desc:0 "Agri planets are given over entirely to the production of food."
  agri_planet:0 "Agri World"
  agri_planet_desc:0 "Agri planets are given over entirely to the production of food."
-
+ 
  pc_shrine_tile:0 "Shrine complex"
  pc_shrine_tile_desc:0 "The surface of shrine world is studded with cathedrals, temples and shrines spread across the globe."
  pc_shrine:0 "Shrine Worlds"
  pc_shrine_desc:0 "Shrine world is a world studded with cathedrals, temples and shrines spread across the globe."
  shrine_planet:0 "Shrine World"
  shrine_planet_desc:0 "Shrine world is a world studded with cathedrals, temples and shrines spread across the globe."
-
+ 
  pc_hive_tile:0 "Urban Terrain"
  pc_hive_tile_desc:0 "The surface completely covered in urban terrain.  "
  pc_hive_medium:0 "Hive World"
  pc_hive_desc:0 "A city occupying an entire planet."
  hive_planet:0 "Hive World"
  hive_planet_desc:0 "A city occupying an entire planet."
-
+ 
  pc_penal_tile:0 "Prison terrain"
  pc_penal_tile_desc:0 "Here, the criminals labour and toil at various menial tasks while serving out their sentences and only a few parole out."
  pc_penal:0 "Penal World"
  pc_penal_desc:0 "A Penal World functions as a world-wide military-prison planet."
  penal_planet:0 "Penal World"
  penal_planet_desc:0 "A Penal World functions as a world-wide military-prison planet."
-
+ 
  pc_fortress_tile:0 "Fortress Terrain"
  pc_fortress_tile_desc:0 "The surface with numerous fortress."
  pc_fortress:0 "Fortress World"
@@ -296,7 +296,7 @@
  pc_tomb_desc:0 "A Tomb World is one of the worlds across the Milky Way Galaxy where the ancient and terrible xenos known as the Necrons chose to go into hibernation over 60 million standard years ago, deep beneath its surface in their specially prepared catacombs and tombs."
  tomb_planet:0 "Tomb World"
  tomb_planet_desc:0 "A Tomb World is one of the worlds across the Milky Way Galaxy where the ancient and terrible xenos known as the Necrons chose to go into hibernation over 60 million standard years ago, deep beneath its surface in their specially prepared catacombs and tombs."
-
+ 
  pc_daemon_tile:0 "Warp Terrain"
  pc_daemon_tile_desc:0 "Daemon Worlds are not bound by the laws of physics, but by the whim of their daemonic rulers and the emotions of their mortals' collective unconsciousness."
  pc_daemon:0 "Daemon World"
@@ -373,28 +373,28 @@
  pc_mega_hive_desc:0 "World with huge cities and space shipyards around all planet. "
  mega_hive_planet:0 "Mega Hive World"
  mega_hive_planet_desc:0 "World with huge cities and space shipyards around all planet."
-
+ 
  pc_forge_ring_tile:0 "Forge Terrain"
  pc_forge_ring_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
  pc_forge_ring:0 "Forge World with Iron Ring"
  pc_forge_ring_desc:0 "A world covered entirely in a massive factory complexes with huge space shipyards"
  forge_ring_planet:0 "Forge World"
  forge_ring_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
-
+ 
  pc_forge_ring2_tile:0 "Forge Terrain"
  pc_forge_ring2_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
  pc_forge_ring2:0 "Forge World with Iron Ring"
  pc_forge_ring2_desc:0 "A world covered entirely in a massive factory complexes with huge space shipyards"
  forge_ring2_planet:0 "Forge World"
  forge_ring2_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
-
+ 
  pc_forge_ring3_tile:0 "Forge Terrain"
  pc_forge_ring3_tile_desc:0 "The surface of a Forge World is completely covered in massive factory complexes that stretch across the horizon. Its ecosystem has been completely destroyed. The air is saturated with toxic gases and rivers flow with toxic runoff from the multitude of manufactoria."
  pc_forge_ring3:0 "Forge World with Iron Ring"
  pc_forge_ring3_desc:0 "A world covered entirely in a massive factory complexes with huge space shipyards"
  forge_ring3_planet:0 "Forge World"
  forge_ring3_planet_desc:0 "Forge World is like an immense factory, with industrial complexes soaring into the sky and mine workings burrowing deep into the planetary crust."
-
+ 
  pc_advancecity_tile:0 "Urban terrain"
  pc_advancecity_tile_desc:0 "The surface completely covered in urban terrain."
  pc_advancecity:0 "Small Hive World"
@@ -415,3 +415,9 @@
  pc_craftworld_desc:0 "Huge spaceship."
  craftworld_planet:0 "HCraftworld"
  craftworld_planet_desc:0 "Huge spaceship."
+ 
+ spacemarine_planet:0 "Spacemarine Base"
+ spacemarine_planet_desc:0 "Planet has a Adeptus Astartes base."
+ 
+ mechanicus_planet:0 "Mechanicus Forge"
+ mechanicus_planet_desc:0 "Planet of Adeptus Mechanicus control."

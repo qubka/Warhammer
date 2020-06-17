@@ -1,0 +1,64 @@
+@distance = 30
+@base_moon_distance = 10
+
+iron_hand_homeworld = {
+	class = "sc_k"
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 290
+	}
+	
+	flags = { empire_home_system }
+	
+	usage = misc_system_init
+	
+	init_effect = {
+		root = { set_country_flag = the_iron_hand }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+	}
+	
+	planet = {
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 35 max = 40 }
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Medusa"
+		class = "pc_forge_ring" 
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		home_planet = yes
+		starting_planet = yes
+		has_ring = no			
+		deposit_blockers = none	
+		modifiers = none
+
+		init_effect = {
+			set_capital = yes
+			set_planet_flag = spacemarinehomeworld
+
+			add_modifier = { modifier = "unstable_tectonics" days = -1 }
+			
+			generate_empire_home_planet = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 10
+	
+	planet = {
+        count = { min = 2 max = 4 }
+		class = rl_all_planets
+        orbit_distance = 20
+        orbit_angle = { min = 90 max = 270 }
+        
+        change_orbit = @base_moon_distance
+    }
+}
