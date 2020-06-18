@@ -31,7 +31,7 @@ imperial_fist_homeworld = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 0
-		size = { min = 30 max = 35 }
+		size = { min = 25 max = 30 }
 		has_ring = no
 		
 		init_effect = {
@@ -60,12 +60,11 @@ imperial_fist_homeworld = {
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 16 max = 20 }
-		flags = { ignore_startup_effect habitat_2_planet has_megastructure }
 		has_ring = yes
 
 		moon = {
 			name = "Phalanx"
-			class = pc_habitat
+			class = "pc_habitat"
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 			size = 6

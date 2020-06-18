@@ -1,0 +1,14 @@
+namespace = leader_trait
+
+country_event = {
+    id = leader_trait.1
+	hide_window = yes
+    fire_only_once = yes
+
+	immediate = {
+		every_owned_leader = {
+			limit = { leader_class = ruler }
+			add_trait = leader_trait_ruler_chosen
+		}
+	}
+}

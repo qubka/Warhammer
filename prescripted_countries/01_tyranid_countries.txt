@@ -2,6 +2,7 @@ behemoth = {
 	name = "Behemoth"
 	adjective = "PRESCRIPTED_adjective_behemoth"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_behemoth"
 
@@ -66,6 +67,7 @@ gorgon = {
 	name = "Gorgon"
 	adjective = "PRESCRIPTED_adjective_gorgon"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_gorgon"
 
@@ -130,6 +132,7 @@ hydra = {
 	name = "Hydra"
 	adjective = "PRESCRIPTED_adjective_hydra"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_hydra"
 
@@ -194,6 +197,7 @@ jormungandr = {
 	name = "Jormungandr"
 	adjective = "PRESCRIPTED_adjective_jormungandr"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_jormungandr"
 
@@ -258,6 +262,7 @@ kraken = {
 	name = "Kraken"
 	adjective = "PRESCRIPTED_adjective_kraken"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_kraken"
 
@@ -322,6 +327,7 @@ leviathan = {
 	name = "Leviathan"
 	adjective = "PRESCRIPTED_adjective_leviathan"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_leviathan"
 
@@ -386,6 +392,7 @@ ouroboris = {
 	name = "Ouroboris"
 	adjective = "PRESCRIPTED_adjective_ouroboris"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ouroboris"
 
@@ -450,6 +457,7 @@ tiamet = {
 	name = "Tiamet"
 	adjective = "PRESCRIPTED_adjective_tiamet"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_tiamet"
 

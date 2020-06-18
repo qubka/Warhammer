@@ -42,7 +42,6 @@ dark_angles_homeworld = {
 		count = { min = 2 max = 4 }
 		orbit_distance = 20
 		class = random_non_colonizable
-		flags = { ignore_startup_effect habitat_2_planet has_megastructure }
 		orbit_angle = { min = 90 max = 270 }
 		
 		change_orbit = @base_moon_distance

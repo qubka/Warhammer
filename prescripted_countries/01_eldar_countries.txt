@@ -2,6 +2,7 @@ ynnari = {
 	name = "Ynnari"
 	adjective = "PRESCRIPTED_adjective_ynnari"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ynnari"
 
@@ -68,6 +69,7 @@ ulthwe = {
 	name = "Ulthwe"
 	adjective = "PRESCRIPTED_adjective_ulthwe"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ulthwe"
 
@@ -134,6 +136,7 @@ saim_hann = {
 	name = "Saim Hann"
 	adjective = "PRESCRIPTED_adjective_saim_hann"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_saim_hann"
 
@@ -200,6 +203,7 @@ ostara = {
 	name = "Ostara"
 	adjective = "PRESCRIPTED_adjective_ostara"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ostara"
 
@@ -266,6 +270,7 @@ iyanden = {
 	name = "Iyanden"
 	adjective = "PRESCRIPTED_adjective_iyanden"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_iyanden"
 
@@ -332,6 +337,7 @@ biel_tan = {
 	name = "Biel Tan"
 	adjective = "PRESCRIPTED_adjective_biel_tan"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_biel_tan"
 
@@ -398,6 +404,7 @@ alaitoc = {
 	name = "Alaitoc"
 	adjective = "PRESCRIPTED_adjective_alaitoc"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_alaitoc"
 

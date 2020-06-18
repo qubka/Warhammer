@@ -2,6 +2,7 @@ alpha_legion = {
 	name = "Alpha Legion"
 	adjective = "PRESCRIPTED_adjective_alpha_legion"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_alpha_legion"
 	
@@ -68,6 +69,7 @@ black_legion = {
 	name = "Black Legion"
 	adjective = "PRESCRIPTED_adjective_black_legion"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_black_legion"
 	
@@ -134,6 +136,7 @@ death_guard = {
 	name = "Death Guard"
 	adjective = "PRESCRIPTED_adjective_death_guard"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_death_guard"
 	
@@ -200,6 +203,7 @@ emperor_children = {
 	name = "Emperor Children"
 	adjective = "PRESCRIPTED_adjective_emperor_children"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_emperor_children"
 	
@@ -266,6 +270,7 @@ iron_warrior = {
 	name = "Iron Warriors"
 	adjective = "PRESCRIPTED_adjective_iron_warrior"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_warrior"
 	
@@ -332,6 +337,7 @@ night_lords = {
 	name = "Night Lords"
 	adjective = "PRESCRIPTED_adjective_night_lords"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_night_lords"
 	
@@ -398,6 +404,7 @@ red_corsairs = {
 	name = "Red Corsairs"
 	adjective = "PRESCRIPTED_adjective_red_corsairs"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_red_corsairs"
 	
@@ -464,6 +471,7 @@ thousand_sons = {
 	name = "Thousand Sons"
 	adjective = "PRESCRIPTED_adjective_thousand_sons"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_thousand_sons"
 	
@@ -530,6 +538,7 @@ word_bearer = {
 	name = "Word Bearers"
 	adjective = "PRESCRIPTED_adjective_word_bearer"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_word_bearer"
 	
@@ -596,6 +605,7 @@ world_eater = {
 	name = "World Eaters"
 	adjective = "PRESCRIPTED_adjective_world_eater"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_world_eater"
 	

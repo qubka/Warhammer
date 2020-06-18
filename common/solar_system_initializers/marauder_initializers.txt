@@ -38,7 +38,6 @@ marauder_1_1 = {
 
 		init_effect = {
 			create_species = {
-				class = "ELD"
 				random_list = {
 					30 = { 
 						name = "PRESCRIPTED_adjective_cor_ynnari"
@@ -69,6 +68,7 @@ marauder_1_1 = {
 						portrait = "eldar_cor_eldritch_raiders"
 					}
 				}
+				class = "ELD"
 				traits = {
 					trait = "trait_pc_habitat_preference"
 					trait = "trait_extremely_adaptive"
@@ -1127,7 +1127,6 @@ marauder_2_1 = {
 
 		init_effect = {
 			create_species = {
-				class = "ELD"
 				random_list = {
 					30 = { 
 						name = "PRESCRIPTED_adjective_cor_ynnari"
@@ -1158,6 +1157,7 @@ marauder_2_1 = {
 						portrait = "eldar_cor_eldritch_raiders"
 					}
 				}
+				class = "ELD"
 				traits = {
 					trait = "trait_pc_habitat_preference"
 					trait = "trait_extremely_adaptive"
@@ -2154,7 +2154,6 @@ marauder_3_1 = {
 
 		init_effect = {
 			create_species = {
-				class = "ELD"
 				random_list = {
 					30 = { 
 						name = "PRESCRIPTED_adjective_cor_ynnari"
@@ -2185,6 +2184,7 @@ marauder_3_1 = {
 						portrait = "eldar_cor_eldritch_raiders"
 					}
 				}
+				class = "ELD"
 				traits = {
 					trait = "trait_pc_habitat_preference"
 					trait = "trait_extremely_adaptive"

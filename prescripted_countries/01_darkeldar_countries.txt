@@ -2,6 +2,7 @@ dark_ynnari = {
 	name = "Dark Ynnari"
 	adjective = "PRESCRIPTED_adjective_dark_ynnari"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dark_ynnari"
 
@@ -28,7 +29,7 @@ dark_ynnari = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_ynnari2 }
+	flags = { darkeldar_empire the_dark_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_dark_ynnari"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dark_ynnari"
@@ -68,6 +69,7 @@ the_severed = {
 	name = "The Severed"
 	adjective = "PRESCRIPTED_adjective_the_severed"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_severed"
 
@@ -94,7 +96,7 @@ the_severed = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_the_severed }
+	flags = { darkeldar_empire the_severed }
 	planet_name = "PRESCRIPTED_planet_name_the_severed"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_the_severed"
@@ -134,6 +136,7 @@ last_hatred = {
 	name = "Last Hatred"
 	adjective = "PRESCRIPTED_adjective_last_hatred"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_last_hatred"
 
@@ -200,6 +203,7 @@ iron_thorn = {
 	name = "Iron Thorn"
 	adjective = "PRESCRIPTED_adjective_iron_thorn"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_thorn"
 
@@ -266,6 +270,7 @@ flayed_skull = {
 	name = "Flayed Skull"
 	adjective = "PRESCRIPTED_adjective_flayed_skull"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_flayed_skull"
 
@@ -332,6 +337,7 @@ dying_sun = {
 	name = "Dying Sun"
 	adjective = "PRESCRIPTED_adjective_dying_sun"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dying_sun"
 
@@ -398,6 +404,7 @@ broken_sigil = {
 	name = "Broken Sigil"
 	adjective = "PRESCRIPTED_adjective_broken_sigil"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_broken_sigil"
 
@@ -464,6 +471,7 @@ black_heart = {
 	name = "Black Heart"
 	adjective = "PRESCRIPTED_adjective_black_heart"
 	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_black_heart"
 

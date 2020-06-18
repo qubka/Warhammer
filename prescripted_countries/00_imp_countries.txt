@@ -2,6 +2,7 @@ mankind = {
 	name = "Imperium of Man"
 	adjective = "PRESCRIPTED_adjective_mankind"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_mankind"
 	
@@ -68,6 +69,7 @@ white_scars = {
 	name = "White Scars"
 	adjective = "PRESCRIPTED_adjective_white_scars"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_white_scars"
 	
@@ -134,6 +136,7 @@ ultra_marines = {
 	name = "Ultra Marines"
 	adjective = "PRESCRIPTED_adjective_ultra_marines"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_ultra_marines"
 	
@@ -200,6 +203,7 @@ space_wolfes = {
 	name = "Space Wolfes"
 	adjective = "PRESCRIPTED_adjective_space_wolfes"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_space_wolfes"
 	
@@ -266,6 +270,7 @@ salamanders = {
 	name = "Salamanders"
 	adjective = "PRESCRIPTED_adjective_salamanders"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_salamanders"
 	
@@ -332,6 +337,7 @@ raven_guard = {
 	name = "Raven Guard"
 	adjective = "PRESCRIPTED_adjective_raven_guard"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_raven_guard"
 	
@@ -398,6 +404,7 @@ iron_hand = {
 	name = "Iron Hand"
 	adjective = "PRESCRIPTED_adjective_iron_hand"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_hand"
 	
@@ -464,6 +471,7 @@ imperial_fist = {
 	name = "Imperial Fist"
 	adjective = "PRESCRIPTED_adjective_imperial_fist"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_imperial_fist"
 	
@@ -530,6 +538,7 @@ dark_angles = {
 	name = "Dark Angles"
 	adjective = "PRESCRIPTED_adjective_dark_angles"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_dark_angles"
 	
@@ -596,6 +605,7 @@ blood_angles = {
 	name = "Blood Angles"
 	adjective = "PRESCRIPTED_adjective_blood_angles"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_blood_angles"
 	

@@ -100,7 +100,6 @@ red_corsairs_homeworld = {
 		class = pc_barren_cold
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
-		flags = { ignore_startup_effect habitat_2_planet has_megastructure }
 		size = { min = 16 max = 20 }
 		has_ring = no
 

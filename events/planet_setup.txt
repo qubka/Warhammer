@@ -1,10 +1,10 @@
-namespace = planets_and_stuf_setup
+namespace = planet_setup
 
 #pc_hive_medium
 #class = "pc_hive_medium"
 #flags = { hiveplanet_planet }
 event = {
-    id = planets_and_stuf_setup.1
+    id = planet_setup.1
     hide_window = yes
     fire_only_once = yes
     
@@ -54,7 +54,7 @@ event = {
 #class = "pc_forge"		
 #flags = { forgeplanet_planet }
 event = {
-    id = planets_and_stuf_setup.2
+    id = planet_setup.2
     hide_window = yes
     fire_only_once = yes
     
@@ -98,7 +98,7 @@ event = {
 #class = "pc_forgee"		
 #flags = { forgeeplanet_planet }
 event = {
-    id = planets_and_stuf_setup.3
+    id = planet_setup.3
     hide_window = yes
     fire_only_once = yes
     
@@ -142,7 +142,7 @@ event = {
 #class = "pc_forgeee"		
 #flags = { forgeeeplanet_planet }
 event = {
-    id = planets_and_stuf_setup.4
+    id = planet_setup.4
     hide_window = yes
     fire_only_once = yes
     
@@ -187,7 +187,7 @@ event = {
 #class = "pc_industrial"
 #flags = { industrialplanet_planet }
 event = {
-    id = planets_and_stuf_setup.5
+    id = planet_setup.5
     hide_window = yes
     fire_only_once = yes
     
@@ -232,7 +232,7 @@ event = {
 #class = "pc_agri"
 #flags = { agriplanet_planet }
 event = {
-    id = planets_and_stuf_setup.6
+    id = planet_setup.6
     hide_window = yes
     fire_only_once = yes
     
@@ -261,7 +261,7 @@ event = {
 #class = "pc_shrine"
 #flags = { shrineplanet_planet }
 event = {
-    id = planets_and_stuf_setup.7
+    id = planet_setup.7
     hide_window = yes
     fire_only_once = yes
     
@@ -305,7 +305,7 @@ event = {
 #class = "pc_penal"
 #flags = { penalplanet_planet }
 event = {
-    id = planets_and_stuf_setup.8
+    id = planet_setup.8
     hide_window = yes
     fire_only_once = yes
     
@@ -346,7 +346,7 @@ event = {
 #class = "pc_fortress"
 #flags = { fortressplanet_planet }
 event = {
-    id = planets_and_stuf_setup.9
+    id = planet_setup.9
     hide_window = yes
     fire_only_once = yes
     
@@ -391,7 +391,7 @@ event = {
 #class = "pc_tomb"
 #flags = { tombplanet_planet }
 event = {
-    id = planets_and_stuf_setup.10
+    id = planet_setup.10
     hide_window = yes
     fire_only_once = yes
     
@@ -442,7 +442,7 @@ event = {
 #class = "pc_hive_arid"
 #flags = { hive_aridplanet_planet }
 event = {
-    id = planets_and_stuf_setup.11
+    id = planet_setup.11
     hide_window = yes
     fire_only_once = yes
     
@@ -487,7 +487,7 @@ event = {
 #class = "pc_hive_continental_01"
 #flags = { hive_continental_01planet_planet }
 event = {
-    id = planets_and_stuf_setup.12
+    id = planet_setup.12
     hide_window = yes
     fire_only_once = yes
     
@@ -536,7 +536,7 @@ event = {
 #class = "pc_hive_continental_02"
 #flags = { hive_continental_02planet_planet }
 event = {
-    id = planets_and_stuf_setup.13
+    id = planet_setup.13
     hide_window = yes
     fire_only_once = yes
     
@@ -583,7 +583,7 @@ event = {
 #class = "pc_hive_ocean"
 #flags = { hive_oceanplanet_planet }
 event = {
-    id = planets_and_stuf_setup.14
+    id = planet_setup.14
     hide_window = yes
     fire_only_once = yes
     
@@ -630,7 +630,7 @@ event = {
 #class = "pc_hive_tundra"
 #flags = { hive_tundraplanet_planet }
 event = {
-    id = planets_and_stuf_setup.15
+    id = planet_setup.15
     hide_window = yes
     fire_only_once = yes
     
@@ -675,7 +675,7 @@ event = {
 #class = "pc_super_hive"
 #flags = { super_hiveplanet_planet }
 event = {
-    id = planets_and_stuf_setup.16
+    id = planet_setup.16
     hide_window = yes
     fire_only_once = yes
     
@@ -723,7 +723,7 @@ event = {
 #class = "pc_mega_hive"
 #flags = { mega_hiveplanet_planet }
 event = {
-    id = planets_and_stuf_setup.17
+    id = planet_setup.17
     hide_window = yes
     fire_only_once = yes
     
@@ -770,7 +770,7 @@ event = {
 #class = "pc_forge_ring"
 #flags = { forge_ringplanet_planet }
 event = {
-    id = planets_and_stuf_setup.18
+    id = planet_setup.18
     hide_window = yes
     fire_only_once = yes
     
@@ -818,7 +818,7 @@ event = {
 #class = "pc_forge_ring2"
 
 event = {
-    id = planets_and_stuf_setup.19
+    id = planet_setup.19
     hide_window = yes
     fire_only_once = yes
     
@@ -866,7 +866,7 @@ event = {
 #class = "pc_forge_ring3"
 
 event = {
-    id = planets_and_stuf_setup.20
+    id = planet_setup.20
     hide_window = yes
     fire_only_once = yes
     
@@ -911,7 +911,7 @@ event = {
 #class = "pc_craftworld"
 
 event = {
-    id = planets_and_stuf_setup.21
+    id = planet_setup.21
     hide_window = yes
     fire_only_once = yes
     
@@ -966,7 +966,7 @@ event = {
 #class = "pc_hive_industrial"
 
 event = {
-    id = planets_and_stuf_setup.22
+    id = planet_setup.22
     hide_window = yes
     fire_only_once = yes
     
@@ -1011,7 +1011,7 @@ event = {
 #class = "pc_advancecity"
 
 event = {
-    id = planets_and_stuf_setup.23
+    id = planet_setup.23
     hide_window = yes
     fire_only_once = yes
     
@@ -1058,7 +1058,7 @@ event = {
 #class = "pc_webway"
 
 event = {
-    id = planets_and_stuf_setup.24
+    id = planet_setup.24
     hide_window = yes
     fire_only_once = yes
     
@@ -1103,7 +1103,7 @@ event = {
 #class = "pc_spacehulk"
 #flags = { hiveplanet_planet }
 event = {
-    id = planets_and_stuf_setup.25
+    id = planet_setup.25
     hide_window = yes
     fire_only_once = yes
     
@@ -1156,7 +1156,7 @@ event = {
 #class = "pc_blackstonefortress"
 #flags = { hiveplanet_planet }
 event = {
-    id = planets_and_stuf_setup.26
+    id = planet_setup.26
     hide_window = yes
     fire_only_once = yes
     
@@ -1198,7 +1198,7 @@ event = {
 #class = "pc_caliban"
 
 event = {
-    id = planets_and_stuf_setup.27
+    id = planet_setup.27
     hide_window = yes
     fire_only_once = yes
     
@@ -1240,7 +1240,7 @@ event = {
 #class = "pc_eternalcrusader"
 
 event = {
-    id = planets_and_stuf_setup.28
+    id = planet_setup.28
     hide_window = yes
     fire_only_once = yes
     
@@ -1282,7 +1282,7 @@ event = {
 #class = "pc_daemon"
 
 event = {
-    id = planets_and_stuf_setup.29
+    id = planet_setup.29
     hide_window = yes
     fire_only_once = yes
     
@@ -1335,7 +1335,7 @@ event = {
 #class = "pc_daemonn"
 
 event = {
-    id = planets_and_stuf_setup.30
+    id = planet_setup.30
     hide_window = yes
     fire_only_once = yes
     
@@ -1389,7 +1389,7 @@ event = {
 #class = "pc_daemont"
 
 event = {
-    id = planets_and_stuf_setup.31
+    id = planet_setup.31
     hide_window = yes
     fire_only_once = yes
     
@@ -1443,7 +1443,7 @@ event = {
 #class = "pc_daemons"
 
 event = {
-    id = planets_and_stuf_setup.32
+    id = planet_setup.32
     hide_window = yes
     fire_only_once = yes
     
@@ -1496,7 +1496,7 @@ event = {
 #class = "pc_advancexenocity"
 
 event = {
-    id = planets_and_stuf_setup.33
+    id = planet_setup.33
     hide_window = yes
     fire_only_once = yes
     
@@ -1550,7 +1550,7 @@ event = {
 #class = "pc_advancexenocityy"
 
 event = {
-    id = planets_and_stuf_setup.34
+    id = planet_setup.34
     hide_window = yes
     fire_only_once = yes
     
@@ -1604,7 +1604,7 @@ event = {
 #class = "pc_advancexenocityyy"
 
 event = {
-    id = planets_and_stuf_setup.35
+    id = planet_setup.35
     hide_window = yes
     fire_only_once = yes
     
@@ -1658,7 +1658,7 @@ event = {
 #class = "pc_orkworld"
 
 event = {
-    id = planets_and_stuf_setup.36
+    id = planet_setup.36
     hide_window = yes
     fire_only_once = yes
     
@@ -1719,7 +1719,7 @@ event = {
 #class = "pc_armoury"
 
 event = {
-    id = planets_and_stuf_setup.37
+    id = planet_setup.37
     hide_window = yes
     fire_only_once = yes
     
@@ -1762,7 +1762,7 @@ event = {
 #class = "pc_destroyedplanet"
 
 event = {
-    id = planets_and_stuf_setup.38
+    id = planet_setup.38
     hide_window = yes
     fire_only_once = yes
     
@@ -1817,7 +1817,7 @@ event = {
 #class = "pc_savannah"
 
 event = {
-    id = planets_and_stuf_setup.39
+    id = planet_setup.39
     hide_window = yes
     fire_only_once = yes
     
@@ -1875,7 +1875,7 @@ event = {
 #class = "pc_nuked"
 
 event = {
-    id = planets_and_stuf_setup.40
+    id = planet_setup.40
     hide_window = yes
     fire_only_once = yes
     
@@ -1917,7 +1917,7 @@ event = {
 #class = "pc_gaia"
 
 event = {
-    id = planets_and_stuf_setup.41
+    id = planet_setup.41
     hide_window = yes
     fire_only_once = yes
     
@@ -1963,7 +1963,7 @@ event = {
 #spacemarinehomeworld
 
 event = {
-    id = planets_and_stuf_setup.42
+    id = planet_setup.42
     hide_window = yes
     fire_only_once = yes
     
@@ -1979,7 +1979,7 @@ event = {
 #mechanicushomeworld
 
 event = {
-    id = planets_and_stuf_setup.43
+    id = planet_setup.43
     hide_window = yes
     fire_only_once = yes
     
