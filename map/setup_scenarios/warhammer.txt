@@ -3,7 +3,7 @@ static_galaxy_scenario = {
 	priority = 0
 	default = yes
 	colonizable_planet_odds = 1.0
-	num_empires = { min = 25 max = 57 }
+	num_empires = { min = 25 max = 65 }
 	num_empire_default = 34
 	advanced_empire_default = 0
 	fallen_empire_default = 0
@@ -2916,10 +2916,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Fools Paradise"
 		id = "307"
+		initializer = ulthwe_homeworld
 		position = {
 			x = 237
 			y = -144
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_ulthwe } }
 	}
 
 	system = {
@@ -3314,10 +3316,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Sabatine"
 		id = "351"
+		initializer = saim_hann_homeworld
 		position = {
 			x = 320
 			y = -45
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_saim_hann } }
 	}
 
 	system = {
@@ -7845,10 +7849,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Solsticee"
 		id = "854"
+		initializer = biel_tan_homeworld
 		position = {
 			x = 229.9994
 			y = 215.3652
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_biel_tan } }
 	}
 
 	system = {
@@ -8025,10 +8031,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Betalis"
 		id = "874"
+		initializer = alaitoc_homeworld
 		position = {
 			x = 264.6674
 			y = 14.34602
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_alaitoc } }
 	}
 
 	system = {
@@ -8896,7 +8904,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "arwwr76"
+	system = {
+		name = "arwwr76"
 		id = "964"
 		position = {
 			x = 331.6291
@@ -8994,7 +9003,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Wormgyre"
+	system = {
+		name = "Wormgyre"
 		id = "975"
 		position = {
 			x = 472.2871
@@ -9047,7 +9057,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Caspadene"
+	system = {
+		name = "Caspadene"
 		id = "981"
 		position = {
 			x = -77.35237
@@ -9163,7 +9174,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Slotha"
+	system = {
+		name = "Slotha"
 		id = "994"
 		position = {
 			x = 99.3453
@@ -9198,7 +9210,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Grumium"
+	system = {
+		name = "Grumium"
 		id = "998"
 		position = {
 			x = 189.7535
@@ -9215,7 +9228,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Gegenor"
+	system = {
+		name = "Gegenor"
 		id = "1000"
 		position = {
 			x = 239.744
@@ -9223,7 +9237,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Pestendbo"
+	system = {
+		name = "Pestendbo"
 		id = "1001"
 		position = {
 			x = -98.4892
@@ -9231,7 +9246,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Derkagimz"
+	system = {
+		name = "Derkagimz"
 		id = "1002"
 		position = {
 			x = -131.4616
@@ -9239,7 +9255,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "DakaForka"
+	system = {
+		name = "DakaForka"
 		id = "1003"
 		position = {
 			x = -160.1795
@@ -9247,7 +9264,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Morriger"
+	system = {
+		name = "Morriger"
 		id = "1004"
 		position = {
 			x = -194.2155
@@ -9255,7 +9273,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Hjordengez"
+	system = {
+		name = "Hjordengez"
 		id = "1005"
 		position = {
 			x = -188.8974
@@ -9263,7 +9282,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Doomender"
+	system = {
+		name = "Doomender"
 		id = "1006"
 		position = {
 			x = -170.8158
@@ -9271,7 +9291,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Anfenga"
+	system = {
+		name = "Anfenga"
 		id = "1007"
 		position = {
 			x = -121.8889
@@ -9279,7 +9300,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Poenanbo"
+	system = {
+		name = "Poenanbo"
 		id = "1008"
 		position = {
 			x = -58.07137
@@ -9296,7 +9318,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Geulea"
+	system = {
+		name = "Geulea"
 		id = "1010"
 		position = {
 			x = -230.3787
@@ -9313,7 +9336,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "87-15c"
+	system = {
+		name = "87-15c"
 		id = "1012"
 		position = {
 			x = 320.5797
@@ -9321,7 +9345,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Torrom"
+	system = {
+		name = "Torrom"
 		id = "1013"
 		position = {
 			x = 271.6528
@@ -9329,7 +9354,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Myrum"
+	system = {
+		name = "Myrum"
 		id = "1014"
 		position = {
 			x = 195.0717
@@ -9337,7 +9363,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ullus"
+	system = {
+		name = "Ullus"
 		id = "1015"
 		position = {
 			x = 142.9541
@@ -9345,7 +9372,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Chox"
+	system = {
+		name = "Chox"
 		id = "1016"
 		position = {
 			x = 105.7271
@@ -9353,7 +9381,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Uroxde"
+	system = {
+		name = "Uroxde"
 		id = "1017"
 		position = {
 			x = -314.4053
@@ -9361,7 +9390,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Swearkilke"
+	system = {
+		name = "Swearkilke"
 		id = "1018"
 		position = {
 			x = -397.3681
@@ -9369,7 +9399,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Sawomia"
+	system = {
+		name = "Sawomia"
 		id = "1019"
 		position = {
 			x = -111.2526
@@ -9377,7 +9408,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ekoecromia"
+	system = {
+		name = "Ekoecromia"
 		id = "1020"
 		position = {
 			x = -215.488
@@ -9385,7 +9417,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Beyu"
+	system = {
+		name = "Beyu"
 		id = "1021"
 		position = {
 			x = -249.7329
@@ -9393,7 +9426,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Faenov"
+	system = {
+		name = "Faenov"
 		id = "1022"
 		position = {
 			x = 21.70067
@@ -9401,7 +9435,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ehsmyke"
+	system = {
+		name = "Ehsmyke"
 		id = "1023"
 		position = {
 			x = 77.00922
@@ -9418,7 +9453,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Hensedon"
+	system = {
+		name = "Hensedon"
 		id = "1025"
 		position = {
 			x = 174.8628
@@ -9426,7 +9462,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Gongelhanne"
+	system = {
+		name = "Gongelhanne"
 		id = "1026"
 		position = {
 			x = -182.0853
@@ -9434,7 +9471,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Helgranntor"
+	system = {
+		name = "Helgranntor"
 		id = "1027"
 		position = {
 			x = -225.2349
@@ -9442,7 +9480,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Uinphidia"
+	system = {
+		name = "Uinphidia"
 		id = "1028"
 		position = {
 			x = -262.8168
@@ -9450,7 +9489,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Trouni"
+	system = {
+		name = "Trouni"
 		id = "1029"
 		position = {
 			x = -315.7098
@@ -9458,7 +9498,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Edfonbernt"
+	system = {
+		name = "Edfonbernt"
 		id = "1030"
 		position = {
 			x = -283.6956
@@ -9466,7 +9507,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ordefon"
+	system = {
+		name = "Ordefon"
 		id = "1031"
 		position = {
 			x = -299.0067
@@ -9483,7 +9525,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Terelzan"
+	system = {
+		name = "Terelzan"
 		id = "1033"
 		position = {
 			x = -371.3867
@@ -9491,7 +9534,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Necagahana"
+	system = {
+		name = "Necagahana"
 		id = "1034"
 		position = {
 			x = -242.705
@@ -9499,7 +9543,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Mondaze"
+	system = {
+		name = "Mondaze"
 		id = "1035"
 		position = {
 			x = -223.8952
@@ -9507,7 +9552,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Denezanre"
+	system = {
+		name = "Denezanre"
 	id = "1036"
 		position = {
 			x = -207.5389
@@ -9524,7 +9570,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Tyonanwe"
+	system = {
+		name = "Tyonanwe"
 		id = "1038"
 		position = {
 			x = -186.2758
@@ -9532,7 +9579,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ophilizis"
+	system = {
+		name = "Ophilizis"
 		id = "1039"
 		position = {
 			x = -172.3729
@@ -9540,7 +9588,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Fenranze"
+	system = {
+		name = "Fenranze"
 		id = "1040"
 		position = {
 			x = -151.9275
@@ -9557,7 +9606,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Unwerter"
+	system = {
+		name = "Unwerter"
 		id = "1042"
 		position = {
 			x = -89.77357
@@ -9565,7 +9615,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Fenulnu"
+	system = {
+		name = "Fenulnu"
 		id = "1043"
 		position = {
 			x = -62.78569
@@ -9573,7 +9624,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Alvanzar"
+	system = {
+		name = "Alvanzar"
 		id = "1044"
 		position = {
 			x = -38.25124
@@ -9581,7 +9633,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ultunus"
+	system = {
+		name = "Ultunus"
 		id = "1045"
 		position = {
 			x = -269.6929
@@ -9589,7 +9642,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Opoesda"
+	system = {
+		name = "Opoesda"
 		id = "1046"
 		position = {
 			x = -290.1382
@@ -9597,7 +9651,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Jagae"
+	system = {
+		name = "Jagae"
 		id = "1047"
 		position = {
 			x = -258.2435
@@ -9605,7 +9660,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Teranze"
+	system = {
+		name = "Teranze"
 		id = "1048"
 		position = {
 			x = -295.0451
@@ -9622,7 +9678,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Genhamul"
+	system = {
+		name = "Genhamul"
 		id = "1050"
 		position = {
 			x = -26.16255
@@ -9639,7 +9696,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Drenhon"
+	system = {
+		name = "Drenhon"
 		id = "1052"
 		position = {
 			x = 369.5685
@@ -9647,7 +9705,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Karkadan"
+	system = {
+		name = "Karkadan"
 		id = "1053"
 		position = {
 			x = -407.8861
@@ -9664,7 +9723,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Coggan"
+	system = {
+		name = "Coggan"
 		id = "1055"
 		position = {
 			x = -429.479
@@ -9684,13 +9744,16 @@ static_galaxy_scenario = {
 	system = {
 		name = "Rimmock"
 		id = "1057"
+		initializer = iyanden_homeworld
 		position = {
 			x = -155.1987
 			y = 149.5867
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_iyanden } }
 	}
 
-	system{		name = "Avior"
+	system = {
+		name = "Avior"
 		id = "1058"
 		position = {
 			x = -106.9477
@@ -9698,7 +9761,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Algol"
+	system = {
+		name = "Algol"
 		id = "1059"
 		position = {
 			x = -48.06497
@@ -9706,7 +9770,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Dorensworld"
+	system = {
+		name = "Dorensworld"
 		id = "1060"
 		position = {
 			x = -5.53863
@@ -9714,7 +9779,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Sedfont"
+	system = {
+		name = "Sedfont"
 		id = "1061"
 		position = {
 			x = -69.32819
@@ -9722,7 +9788,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "34bret"
+	system = {
+		name = "34bret"
 		id = "1062"
 		position = {
 			x = -119.2149
@@ -9730,7 +9797,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Oglkapus"
+	system = {
+		name = "Oglkapus"
 		id = "1063"
 		position = {
 			x = -184.6401
@@ -9738,7 +9806,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Tiom"
+	system = {
+		name = "Tiom"
 		id = "1064"
 		position = {
 			x = 145.9071
@@ -9755,7 +9824,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Vumm"
+	system = {
+		name = "Vumm"
 		id = "1066"
 		position = {
 			x = 109.0722
@@ -9763,7 +9833,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Withrilli"
+	system = {
+		name = "Withrilli"
 		id = "1067"
 		position = {
 			x = 92.55998
@@ -9771,7 +9842,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Whaskar"
+	system = {
+		name = "Whaskar"
 		id = "1068"
 		position = {
 			x = 54.45496
@@ -9788,7 +9860,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Sieagawa"
+	system = {
+		name = "Sieagawa"
 		id = "1070"
 		position = {
 			x = -9.05344
@@ -9796,7 +9869,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Kehines"
+	system = {
+		name = "Kehines"
 		id = "1071"
 		position = {
 			x = -56.04961
@@ -9804,7 +9878,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ebucrosie"
+	system = {
+		name = "Ebucrosie"
 		id = "1072"
 		position = {
 			x = -175.4454
@@ -9812,7 +9887,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Cestoder"
+	system = {
+		name = "Cestoder"
 		id = "1073"
 		position = {
 			x = -240.224
@@ -9820,7 +9896,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Tworeghern"
+	system = {
+		name = "Tworeghern"
 		id = "1074"
 		position = {
 			x = -291.0307
@@ -9828,7 +9905,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Deusdex"
+	system = {
+		name = "Deusdex"
 		id = "1075"
 		position = {
 			x = -373.5916
@@ -9836,7 +9914,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Wiyter"
+	system = {
+		name = "Wiyter"
 		id = "1076"
 		position = {
 			x = -155.1227
@@ -9844,7 +9923,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Aiplade"
+	system = {
+		name = "Aiplade"
 		id = "1077"
 		position = {
 			x = -94.15466
@@ -9852,7 +9932,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Arnesotho"
+	system = {
+		name = "Arnesotho"
 		id = "1078"
 		position = {
 			x = -48.42867
@@ -9860,7 +9941,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Kajam"
+	system = {
+		name = "Kajam"
 		id = "1079"
 		position = {
 			x = 6.188519
@@ -9868,7 +9950,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Hoedus"
+	system = {
+		name = "Hoedus"
 		id = "1080"
 		position = {
 			x = 70.96707
@@ -9876,7 +9959,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Hydrobius"
+	system = {
+		name = "Hydrobius"
 		id = "1081"
 		position = {
 			x = 148.4473
@@ -9884,7 +9968,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Jabbah"
+	system = {
+		name = "Jabbah"
 		id = "1082"
 		position = {
 			x = 209.4154
@@ -9928,7 +10013,8 @@ static_galaxy_scenario = {
 		}
 	}
 	
-	system{		name = "Ofoilis"
+	system = {
+		name = "Ofoilis"
 		id = "1085"
 		position = {
 			x = 211.9558
@@ -9936,7 +10022,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Arkaboyze"
+	system = {
+		name = "Arkaboyze"
 		id = "1086"
 		position = {
 			x = 173.8507
@@ -9944,7 +10031,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Kinbernal"
+	system = {
+		name = "Kinbernal"
 		id = "1087"
 		position = {
 			x = 93.83014
@@ -9952,7 +10040,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Elosi"
+	system = {
+		name = "Elosi"
 		id = "1088"
 		position = {
 			x = 116.6932
@@ -9960,7 +10049,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Machenicos"
+	system = {
+		name = "Machenicos"
 		id = "1089"
 		position = {
 			x = 98.91082
@@ -9977,7 +10067,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "1241414bnmnh"
+	system = {
+		name = "1241414bnmnh"
 		id = "1091"
 		position = {
 			x = 182.7419
@@ -9994,7 +10085,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Terrogen"
+	system = {
+		name = "Terrogen"
 		id = "1093"
 		position = {
 			x = 137.0158
@@ -10020,7 +10112,8 @@ static_galaxy_scenario = {
 		}
 	}
 	
-	system{		name = "Polenkes"
+	system = {
+		name = "Polenkes"
 		id = "1095"
 		position = {
 			x = 186.5524
@@ -10028,7 +10121,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Vordengoi"
+	system = {
+		name = "Vordengoi"
 		id = "1096"
 		position = {
 			x = 159.8789
@@ -10036,7 +10130,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Verdangan"
+	system = {
+		name = "Verdangan"
 		id = "1097"
 		position = {
 			x = -16.67448
@@ -10044,7 +10139,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Eitgofen"
+	system = {
+		name = "Eitgofen"
 		id = "1098"
 		position = {
 			x = 29.05159
@@ -10052,7 +10148,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Virenjan"
+	system = {
+		name = "Virenjan"
 		id = "1099"
 		position = {
 			x = 59.53563
@@ -10060,7 +10157,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Vinjim"
+	system = {
+		name = "Vinjim"
 		id = "1100"
 		position = {
 			x = 119.184
@@ -10068,7 +10166,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Teydialara"
+	system = {
+		name = "Teydialara"
 		id = "1101"
 		position = {
 			x = 5.354663
@@ -10076,7 +10175,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Fouahiri"
+	system = {
+		name = "Fouahiri"
 		id = "1102"
 		position = {
 			x = -41.10625
@@ -10084,7 +10184,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Tuayama"
+	system = {
+		name = "Tuayama"
 		id = "1103"
 		position = {
 			x = -173.5199
@@ -10092,7 +10193,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Ceyecarro"
+	system = {
+		name = "Ceyecarro"
 		id = "1104"
 		position = {
 			x = -99.1824
@@ -10100,7 +10202,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Uiafladus"
+	system = {
+		name = "Uiafladus"
 		id = "1105"
 		position = {
 			x = -139.8358
@@ -10108,7 +10211,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Nostea"
+	system = {
+		name = "Nostea"
 		id = "1106"
 		position = {
 			x = -67.8213
@@ -10116,7 +10220,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Damia"
+	system = {
+		name = "Damia"
 		id = "1107"
 		position = {
 			x = -10.90664
@@ -10187,7 +10292,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Veldoon"
+	system = {
+		name = "Veldoon"
 		id = "1115"
 		position = {
 			x = -151.8163
@@ -10195,7 +10301,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Krakaum"
+	system = {
+		name = "Krakaum"
 		id = "1116"
 		position = {
 			x = -160.7466
@@ -10203,7 +10310,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Romston"
+	system = {
+		name = "Romston"
 		id = "1117"
 		position = {
 			x = -172.3561
@@ -10211,7 +10319,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Cardorth"
+	system = {
+		name = "Cardorth"
 		id = "1118"
 		position = {
 			x = -161.6397
@@ -10219,7 +10328,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Uxfiri"
+	system = {
+		name = "Uxfiri"
 		id = "1119"
 		position = {
 			x = -148.2441
@@ -10227,7 +10337,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Manthall"
+	system = {
+		name = "Manthall"
 		id = "1120"
 		position = {
 			x = -169.677
@@ -10235,7 +10346,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Leesak"
+	system = {
+		name = "Leesak"
 		id = "1121"
 		position = {
 			x = -176.8213
@@ -10243,7 +10355,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Cirban"
+	system = {
+		name = "Cirban"
 		id = "1122"
 		position = {
 			x = -192.0029
@@ -10251,7 +10364,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Virdamon"
+	system = {
+		name = "Virdamon"
 		id = "1123"
 		position = {
 			x = -190.2168
@@ -10259,7 +10373,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Stratal"
+	system = {
+		name = "Stratal"
 		id = "1124"
 		position = {
 			x = -171.9987
@@ -10267,7 +10382,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Qeffoth"
+	system = {
+		name = "Qeffoth"
 		id = "1125"
 		position = {
 			x = -169.677
@@ -10275,7 +10391,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Masqal"
+	system = {
+		name = "Masqal"
 		id = "1126"
 		position = {
 			x = -178.6074
@@ -10283,7 +10400,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Hixar"
+	system = {
+		name = "Hixar"
 		id = "1127"
 		position = {
 			x = -209.8636
@@ -10300,7 +10418,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Nekkar"
+	system = {
+		name = "Nekkar"
 		id = "1129"
 		position = {
 			x = -109.8435
@@ -10308,7 +10427,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Hanneri"
+	system = {
+		name = "Hanneri"
 		id = "1130"
 		position = {
 			x = -102.6992
@@ -10316,7 +10436,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Binami"
+	system = {
+		name = "Binami"
 		id = "1131"
 		position = {
 			x = -100.9132
@@ -10324,7 +10445,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Torell"
+	system = {
+		name = "Torell"
 		id = "1132"
 		position = {
 			x = -143.7789
@@ -10332,7 +10454,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Iswyria"
+	system = {
+		name = "Iswyria"
 		id = "1133"
 		position = {
 			x = -146.458
@@ -10359,7 +10482,8 @@ static_galaxy_scenario = {
 		name = "Fujeau"
 	}
 
-	system{		name = "Jundius"
+	system = {
+		name = "Jundius"
 		id = "1136"
 		position = {
 			x = -101.8062
@@ -10367,7 +10491,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Himpra"
+	system = {
+		name = "Himpra"
 		id = "1137"
 		position = {
 			x = -100.0201
@@ -10375,7 +10500,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Boggor"
+	system = {
+		name = "Boggor"
 		id = "1138"
 		position = {
 			x = -118.7739
@@ -10383,7 +10509,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Seidon"
+	system = {
+		name = "Seidon"
 		id = "1139"
 		position = {
 			x = -125.0251
@@ -10391,7 +10518,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "4"
+	system = {
+		name = "4"
 		id = "1140"
 		position = {
 			x = -121.453
@@ -10408,7 +10536,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Jasmak"
+	system = {
+		name = "Jasmak"
 		id = "1142"
 		position = {
 			x = -175.9283
@@ -10416,7 +10545,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Bera"
+	system = {
+		name = "Bera"
 		id = "1143"
 		position = {
 			x = -189.3238
@@ -10424,7 +10554,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Yunak"
+	system = {
+		name = "Yunak"
 		id = "1144"
 		position = {
 			x = -185.7517
@@ -10432,7 +10563,8 @@ static_galaxy_scenario = {
 		}
 	}
 
-	system{		name = "Kongath"
+	system = {
+		name = "Kongath"
 		id = "1145"
 		position = {
 			x = -168.784

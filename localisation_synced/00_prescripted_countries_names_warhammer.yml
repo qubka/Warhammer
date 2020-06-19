@@ -212,8 +212,7 @@
  PRESCRIPTED_species_plural_ynnari:0 "Eldars"
  PRESCRIPTED_species_adjective_ynnari:0 "Eldar"
  PRESCRIPTED_planet_name_ynnari:0 "Arach-Cyn"
- #The Eldar Homeworld is unknown, but Arach-Cyn was their first colony (or Crone-World)
- PRESCRIPTED_system_name_ynnari:0 " Gehennabyss System"
+ PRESCRIPTED_system_name_ynnari:0 "Bubonicus System"
  PRESCRIPTED_ruler_name_ynnari:0 "Asurmen"
  PRESCRIPTED_ruler_title_ynnari:0 "Phoenix Lord"
  ###
@@ -223,8 +222,7 @@
  PRESCRIPTED_species_plural_ulthwe:0 "Eldars"
  PRESCRIPTED_species_adjective_ulthwe:0 "Eldar"
  PRESCRIPTED_planet_name_ulthwe:0 "Ulthanash Shelwé"
- PRESCRIPTED_system_name_ulthwe:0 "The Eye of Isha"
- #It's a mobile craftsworld, no system exsists, but the name is lore-related to the ship.
+ PRESCRIPTED_system_name_ulthwe:0 "Paradise System"
  PRESCRIPTED_ruler_name_ulthwe:0 "Eldrad Ulthran"
  PRESCRIPTED_ruler_title_ulthwe:0 "High Farseer"
  ###
@@ -234,20 +232,17 @@
  PRESCRIPTED_species_plural_saim_hann:0 "Eldars"
  PRESCRIPTED_species_adjective_saim_hann:0 "Eldar"
  PRESCRIPTED_planet_name_saim_hann:0 "Saim-Hann"
- #Just the name of the Craft-World
- PRESCRIPTED_system_name_saim_hann:0 "Aeldari's Serpent "
- #it moves, so again choose a lore-related name to the ship
+ PRESCRIPTED_system_name_saim_hann:0 "Sabatine System"
  PRESCRIPTED_ruler_name_saim_hann:0 "Eliac Zephyrblade"
  PRESCRIPTED_ruler_title_saim_hann:0 "Autarch"
  ###
- #No lore known about Os'tara, will add generic eldar content based on Altansar Craftworld (maybe change faction's name?)
  PRESCRIPTED_adjective_ostara:0 "Eldar"
  PRESCRIPTED_ship_prefix_ostara:0 "OT"
  PRESCRIPTED_species_name_ostara:0 "Eldar"
  PRESCRIPTED_species_plural_ostara:0 "Eldars"
  PRESCRIPTED_species_adjective_ostara:0 "Eldar"
  PRESCRIPTED_planet_name_ostara:0 "Os'tara"
- PRESCRIPTED_system_name_ostara:0 "Dark Reapers' Shrine "
+ PRESCRIPTED_system_name_ostara:0 "?"
  PRESCRIPTED_ruler_name_ostara:0 "Maugan Ra"
  PRESCRIPTED_ruler_title_ostara:0 "Exarch"
  ###
@@ -257,8 +252,7 @@
  PRESCRIPTED_species_plural_iyanden:0 "Eldars"
  PRESCRIPTED_species_adjective_iyanden:0 "Eldar"
  PRESCRIPTED_planet_name_iyanden:0 "Iyanden"
- PRESCRIPTED_system_name_iyanden:0 "Shrine of Asuryan"
- #it moves, so again choose a lore-related name to the ship
+ PRESCRIPTED_system_name_iyanden:0 "Rimmock System"
  PRESCRIPTED_ruler_name_iyanden:0 "Kelmon Firesight"
  PRESCRIPTED_ruler_title_iyanden:0 "High Farseer"
  ###
@@ -268,8 +262,7 @@
  PRESCRIPTED_species_plural_biel_tan:0 "Eldars"
  PRESCRIPTED_species_adjective_biel_tan:0 "Eldar"
  PRESCRIPTED_planet_name_biel_tan:0 "Biel-Tan"
- PRESCRIPTED_system_name_biel_tan:0 "Bahzhakhain"
- #it moves, so again choose a lore-related name to the ship
+ PRESCRIPTED_system_name_biel_tan:0 "Solstice System"
  PRESCRIPTED_ruler_name_biel_tan:0 "Meliniel"
  PRESCRIPTED_ruler_title_biel_tan:0 "Autarch"
  ###
@@ -280,66 +273,9 @@
  PRESCRIPTED_species_adjective_alaitoc:0 "Eldar"
  PRESCRIPTED_planet_name_alaitoc:0 "Alaitoc"
  PRESCRIPTED_system_name_alaitoc:0 "Betalis System"
- #it moves, so again choose a lore-related name to the ship
  PRESCRIPTED_ruler_name_alaitoc:0 "Arhathain "
  PRESCRIPTED_ruler_title_alaitoc:0 "Autarch"
- ###
- #Corsairs
- PRESCRIPTED_adjective_twilight_swords:0 "Eldar corsair"
- PRESCRIPTED_ship_prefix_twilight_swords:0 "TS"
- PRESCRIPTED_species_name_twilight_swords:0 "Eldar corsair"
- PRESCRIPTED_species_plural_twilight_swords:0 "Eldar corsairs"
- PRESCRIPTED_species_adjective_twilight_swords:0 "Eldar corsair"
- PRESCRIPTED_planet_name_twilight_swords:0 "Kaelor"
- PRESCRIPTED_system_name_twilight_swords:0 "Koronus System"
- PRESCRIPTED_ruler_name_twilight_swords:0 "Galadhar the Grey"
- PRESCRIPTED_ruler_title_twilight_swords:0 "Corsair Prince"
- ###
- #Corsairs
- PRESCRIPTED_adjective_sun_blitz:0 "Eldar corsair"
- PRESCRIPTED_ship_prefix_sun_blitz:0 "SB"
- PRESCRIPTED_species_name_sun_blitz:0 "Eldar corsair"
- PRESCRIPTED_species_plural_sun_blitz:0 "Eldar corsairs"
- PRESCRIPTED_species_adjective_sun_blitz:0 "Eldar corsair"
- PRESCRIPTED_planet_name_sun_blitz:0 "Lugganath"
- PRESCRIPTED_system_name_sun_blitz:0 "Cathox System"
- PRESCRIPTED_ruler_name_sun_blitz:0 "Alanthrasil Swiftblade"
- PRESCRIPTED_ruler_title_sun_blitz:0 "Corsair Prince"
- ###
- #Corsairs, no lore found, I'm using  Baelstorm Avengers lore (maybe change faction's name?)
- PRESCRIPTED_adjective_steeleye_reavers:0 "Eldar corsair"
- PRESCRIPTED_ship_prefix_steeleye_reavers:0 "SR"
- PRESCRIPTED_species_name_steeleye_reavers:0 "Eldar corsair"
- PRESCRIPTED_species_plural_steeleye_reavers:0 "Eldar corsairs"
- PRESCRIPTED_species_adjective_steeleye_reavers:0 "Eldar corsair"
- PRESCRIPTED_planet_name_steeleye_reavers:0 "Kaelor"
- PRESCRIPTED_system_name_steeleye_reavers:0 "Slinnar System"
- PRESCRIPTED_ruler_name_steeleye_reavers:0 "Ebahn Lauma"
- PRESCRIPTED_ruler_title_steeleye_reavers:0 "Corsair Prince"
- ###
- #Corsairs, no lore found unless paint schemes. Using famous corsair Ferianwyr Greensteel to fill gaps
- PRESCRIPTED_adjective_sky_raders:0 "Eldar corsair"
- PRESCRIPTED_ship_prefix_sky_raders:0 "SR"
- PRESCRIPTED_species_name_sky_raders:0 "Eldar corsair"
- PRESCRIPTED_species_plural_sky_raders:0 "Eldar corsairs"
- PRESCRIPTED_species_adjective_sky_raders:0 "Eldar corsair"
- PRESCRIPTED_planet_name_sky_raders:0 "Voidmire"
- PRESCRIPTED_system_name_sky_raders:0 "Gilead System"
- PRESCRIPTED_ruler_name_sky_raders:0 "Ferianwyr Greensteel"
- PRESCRIPTED_ruler_title_sky_raders:0 "Corsair Princess"
- ###
- 
- PRESCRIPTED_adjective_eldritch_raider:0 "Eldar corsair"
- PRESCRIPTED_ship_prefix_eldritch_raider:0 "ER"
- PRESCRIPTED_species_name_eldritch_raider:0 "Eldar corsair"
- PRESCRIPTED_species_plural_eldritch_raider:0 "Eldar corsairs"
- PRESCRIPTED_species_adjective_eldritch_raider:0 "Eldar corsair"
- #Home "planet" is craftworld  Iyanden, can't repeat the planet, so I'll use their flagship as homeworld
- PRESCRIPTED_planet_name_eldritch_raider:0 "Flame of Asuryan"
- PRESCRIPTED_system_name_eldritch_raider:0 "Eldritch  System"
- PRESCRIPTED_ruler_name_eldritch_raider:0 "Yriel"
- PRESCRIPTED_ruler_title_eldritch_raider:0 "Corsair Prince"
- 
+
 # DEL
  ###
  PRESCRIPTED_adjective_dark_ynnari:0 "Druchi"
@@ -568,15 +504,95 @@
  
 # NEC
  ###
- PRESCRIPTED_adjective_cryptek:0 "Necron"
- PRESCRIPTED_ship_prefix_cryptek:0 "CR"
- PRESCRIPTED_species_name_cryptek:0 "Necron"
- PRESCRIPTED_species_plural_cryptek:0 "Necrons"
- PRESCRIPTED_species_adjective_cryptek:0 "Necron"
- PRESCRIPTED_planet_name_cryptek:0 "?"
- PRESCRIPTED_system_name_cryptek:0 "?"
- PRESCRIPTED_ruler_name_cryptek:0 "Ozkan"
- PRESCRIPTED_ruler_title_cryptek:0 "King"
+ PRESCRIPTED_adjective_charnovokh:0 "Necron"
+ PRESCRIPTED_ship_prefix_charnovokh:0 "CN"
+ PRESCRIPTED_species_name_charnovokh:0 "Necron"
+ PRESCRIPTED_species_plural_charnovokh:0 "Necrons"
+ PRESCRIPTED_species_adjective_charnovokh:0 "Necron"
+ PRESCRIPTED_planet_name_charnovokh:0 "?"
+ PRESCRIPTED_system_name_charnovokh:0 "?"
+ PRESCRIPTED_ruler_name_charnovokh:0 "?"
+ PRESCRIPTED_ruler_title_charnovokh:0 "?"
+ ###
+ PRESCRIPTED_adjective_mephrit:0 "Necron"
+ PRESCRIPTED_ship_prefix_mephrit:0 "MH"
+ PRESCRIPTED_species_name_mephrit:0 "Necron"
+ PRESCRIPTED_species_plural_mephrit:0 "Necrons"
+ PRESCRIPTED_species_adjective_mephrit:0 "Necron"
+ PRESCRIPTED_planet_name_mephrit:0 "?"
+ PRESCRIPTED_system_name_mephrit:0 "?"
+ PRESCRIPTED_ruler_name_mephrit:0 "?"
+ PRESCRIPTED_ruler_title_mephrit:0 "?"
+ ###
+ PRESCRIPTED_adjective_nepheru:0 "Necron"
+ PRESCRIPTED_ship_prefix_nepheru:0 "NH"
+ PRESCRIPTED_species_name_nepheru:0 "Necron"
+ PRESCRIPTED_species_plural_nepheru:0 "Necrons"
+ PRESCRIPTED_species_adjective_nepheru:0 "Necron"
+ PRESCRIPTED_planet_name_nepheru:0 "?"
+ PRESCRIPTED_system_name_nepheru:0 "?"
+ PRESCRIPTED_ruler_name_nepheru:0 "?"
+ PRESCRIPTED_ruler_title_nepheru:0 "?"
+ ###
+ PRESCRIPTED_adjective_nephrekh:0 "Necron"
+ PRESCRIPTED_ship_prefix_nephrekh:0 "NP"
+ PRESCRIPTED_species_name_nephrekh:0 "Necron"
+ PRESCRIPTED_species_plural_nephrekh:0 "Necrons"
+ PRESCRIPTED_species_adjective_nephrekh:0 "Necron"
+ PRESCRIPTED_planet_name_nephrekh:0 "?"
+ PRESCRIPTED_system_name_nephrekh:0 "?"
+ PRESCRIPTED_ruler_name_nephrekh:0 "?"
+ PRESCRIPTED_ruler_title_nephrekh:0 "?"
+ ###
+ PRESCRIPTED_adjective_nihiliakh:0 "Necron"
+ PRESCRIPTED_ship_prefix_nihiliakh:0 "NK"
+ PRESCRIPTED_species_name_nihiliakh:0 "Necron"
+ PRESCRIPTED_species_plural_nihiliakh:0 "Necrons"
+ PRESCRIPTED_species_adjective_nihiliakh:0 "Necron"
+ PRESCRIPTED_planet_name_nihiliakh:0 "?"
+ PRESCRIPTED_system_name_nihiliakh:0 "?"
+ PRESCRIPTED_ruler_name_nihiliakh:0 "?"
+ PRESCRIPTED_ruler_title_nihiliakh:0 "?"
+ ###
+ PRESCRIPTED_adjective_novokh:0 "Necron"
+ PRESCRIPTED_ship_prefix_novokh:0 "NV"
+ PRESCRIPTED_species_name_novokh:0 "Necron"
+ PRESCRIPTED_species_plural_novokh:0 "Necrons"
+ PRESCRIPTED_species_adjective_novokh:0 "Necron"
+ PRESCRIPTED_planet_name_novokh:0 "?"
+ PRESCRIPTED_system_name_novokh:0 "?"
+ PRESCRIPTED_ruler_name_novokh:0 "?"
+ PRESCRIPTED_ruler_title_novokh:0 "?"
+ ###
+ PRESCRIPTED_adjective_sautekh:0 "Necron"
+ PRESCRIPTED_ship_prefix_sautekh:0 "SK"
+ PRESCRIPTED_species_name_sautekh:0 "Necron"
+ PRESCRIPTED_species_plural_sautekh:0 "Necrons"
+ PRESCRIPTED_species_adjective_sautekh:0 "Necron"
+ PRESCRIPTED_planet_name_sautekh:0 "?"
+ PRESCRIPTED_system_name_sautekh:0 "?"
+ PRESCRIPTED_ruler_name_sautekh:0 "?"
+ PRESCRIPTED_ruler_title_sautekh:0 "?"
+ ###
+ PRESCRIPTED_adjective_temeryn:0 "Necron"
+ PRESCRIPTED_ship_prefix_temeryn:0 "TN"
+ PRESCRIPTED_species_name_temeryn:0 "Necron"
+ PRESCRIPTED_species_plural_temeryn:0 "Necrons"
+ PRESCRIPTED_species_adjective_temeryn:0 "Necron"
+ PRESCRIPTED_planet_name_temeryn:0 "?"
+ PRESCRIPTED_system_name_temeryn:0 "?"
+ PRESCRIPTED_ruler_name_temeryn:0 "?"
+ PRESCRIPTED_ruler_title_temeryn:0 "?"
+ ###
+ PRESCRIPTED_adjective_thokt:0 "Necron"
+ PRESCRIPTED_ship_prefix_thokt:0 "TH"
+ PRESCRIPTED_species_name_thokt:0 "Necron"
+ PRESCRIPTED_species_plural_thokt:0 "Necrons"
+ PRESCRIPTED_species_adjective_thokt:0 "Necron"
+ PRESCRIPTED_planet_name_thokt:0 "?"
+ PRESCRIPTED_system_name_thokt:0 "?"
+ PRESCRIPTED_ruler_name_thokt:0 "?"
+ PRESCRIPTED_ruler_title_thokt:0 "?"
  
 # TAU
  ###
@@ -639,13 +655,3 @@
  PRESCRIPTED_system_name_dyanoi:0 "?"
  PRESCRIPTED_ruler_name_dyanoi:0 "?"
  PRESCRIPTED_ruler_title_dyanoi:0 "Leader"
- 
-# ELD COR
- ###
- PRESCRIPTED_adjective_cor_ynnari:0 "Ynnari Corsairs"
- PRESCRIPTED_adjective_cor_twilight_swords:0 "Twilight Swords"
- PRESCRIPTED_adjective_cor_void_dragons:0 "Void Dragons"
- PRESCRIPTED_adjective_cor_sky_raiders:0 "Sky Raiders"
- PRESCRIPTED_adjective_cor_steeleye_reavers:0 "Steeleye Reavers"
- PRESCRIPTED_adjective_cor_sun_blitz:0 "Sun Blitz"
- PRESCRIPTED_adjective_cor_eldritch_raiders:0 "Eldritch Raiders"

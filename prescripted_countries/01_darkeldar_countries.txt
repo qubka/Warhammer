@@ -39,8 +39,8 @@ dark_ynnari = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-dark-ynnari.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_ynnari.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -106,8 +106,8 @@ the_severed = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-the-severed.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_Severed.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -173,8 +173,8 @@ last_hatred = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-last-hatred.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_LastHatred.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -240,8 +240,8 @@ iron_thorn = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-iron-thorn.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_IronThorn.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -307,8 +307,8 @@ flayed_skull = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-flayed-skull.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_FlayedSkull.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -374,8 +374,8 @@ dying_sun = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-dying-sun.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_DyingSun.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -441,8 +441,8 @@ broken_sigil = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-broken-sigil.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_BrokenSigil.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -508,8 +508,8 @@ black_heart = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-black-heart.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_BlackHeart.dds"
 		}
 		background = {
 			category = "backgrounds"

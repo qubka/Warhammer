@@ -1,0 +1,270 @@
+namespace = names
+
+event = {
+    id = names.1
+	hide_window = yes
+    fire_only_once = yes
+
+	immediate = {
+		every_country = { 
+			limit = { has_country_flag = the_mankind }
+			set_empire_name = "Imperium of Man"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_white_scars }
+			set_empire_name = "White Scars"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_ultra_marines }
+			set_empire_name = "Ultra Marines"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_space_wolfes }
+			set_empire_name = "Space Wolfes"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_salamanders }
+			set_empire_name = "Salamanders"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_raven_guard }
+			set_empire_name = "Raven Guard"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_iron_hand }
+			set_empire_name = "Iron Hand"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_imperial_fist }
+			set_empire_name = "Imperial Fist"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_dark_angles }
+			set_empire_name = "Dark Angles"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_blood_angles }
+			set_empire_name = "Blood Angles"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_ynnari }
+			set_empire_name = "Ynnari"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_ulthwe }
+			set_empire_name = "Ulthwe"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_saim_hann }
+			set_empire_name = "Saim Hann"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_ostara }
+			set_empire_name = "Ostara"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_iyanden }
+			set_empire_name = "Iyanden"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_biel_tan }
+			set_empire_name = "Biel Tan"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_alaitoc }
+			set_empire_name = "Alaitoc"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_charnovokh }
+			set_empire_name = "Charnovokh"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_mephrit }
+			set_empire_name = "Mephrit"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_nepheru }
+			set_empire_name = "Nepheru"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_nephrekh }
+			set_empire_name = "Nephrekh"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_nihiliakh }
+			set_empire_name = "Nihiliakh"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_novokh }
+			set_empire_name = "Novokh"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_sautekh }
+			set_empire_name = "Sautekh"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_temeryn }
+			set_empire_name = "Temeryn"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_thokt }
+			set_empire_name = "Thokt"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_goff }
+			set_empire_name = "Goff"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_evil_sunz }
+			set_empire_name = "Evil Sunz"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_death_skullz }
+			set_empire_name = "Death Skullz"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_blood_axe }
+			set_empire_name = "Blood Axe"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_big_mek }
+			set_empire_name = "Big Mek"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_big_boss }
+			set_empire_name = "Big Boss"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_bad_moons }
+			set_empire_name = "Bad Moons"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_dalyth }
+			set_empire_name = "Dalyth"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_farsight }
+			set_empire_name = "Farsight"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_sacea }
+			set_empire_name = "Sacea"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_tau }
+			set_empire_name = "Tau"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_taun }
+			set_empire_name = "Taun"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_dyanoi }
+			set_empire_name = "Dyanoi"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_behemoth }
+			set_empire_name = "Behemoth"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_gorgon }
+			set_empire_name = "Gorgon"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_hydra }
+			set_empire_name = "Hydra"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_jormungandr }
+			set_empire_name = "Jormungandr"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_kraken }
+			set_empire_name = "Kraken"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_leviathan }
+			set_empire_name = "Leviathan"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_ouroboris }
+			set_empire_name = "Ouroboris"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_tiamet }
+			set_empire_name = "Tiamet"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_alpha_legion }
+			set_empire_name = "Alpha Legion"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_black_legion }
+			set_empire_name = "Black Legion"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_death_guard }
+			set_empire_name = "Death Guard"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_emperor_children }
+			set_empire_name = "Emperor Children"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_iron_warrior }
+			set_empire_name = "Iron Warriors"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_night_lords }
+			set_empire_name = "Night Lords"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_red_corsairs }
+			set_empire_name = "Red Corsairs"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_thousand_sons }
+			set_empire_name = "Thousand Sons"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_word_bearer }
+			set_empire_name = "Word Bearers"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_world_eater }
+			set_empire_name = "World Eaters"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_dark_ynnari }
+			set_empire_name = "Dark Ynnari"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_severed }
+			set_empire_name = "The Severed"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_last_hatred }
+			set_empire_name = "Last Hatred"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_iron_thorn }
+			set_empire_name = "Iron Thorn"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_flayed_skull }
+			set_empire_name = "Flayed Skull"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_dying_sun }
+			set_empire_name = "Dying Sun"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_broken_sigil }
+			set_empire_name = "Broken Sigil"
+		}
+		every_country = { 
+			limit = { has_country_flag = the_black_heart }
+			set_empire_name = "Black Heart"
+		}
+	}
+}

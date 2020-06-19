@@ -190,35 +190,68 @@
  ####################################
  # Planet Classes
  ####################################
- pc_destroyedplanet:0 "Destroyed Planet"
- destroyedplanet_planet:0 "Destroyed Planet"
  
+ pc_orkworld_tile:0 "Ork World"
+ pc_orkworld_tile_desc:0 Ork World"
  pc_orkworld:0 "Ork World"
+ pc_orkworld_desc:0 "Ork World"
  orkworld_planet:0 "Ork World"
- 
- pc_advancexenocityyy:0 "Advance Xeno World"
- advancexenocityyy_planet:0 "Advance Xeno World"
- 
- pc_advancexenocityy:0 "Advance Xeno World"
- advancexenocityy_planet:0 "Advance Xeno World"
- 
+ orkworld_planet_desc:0 "Ork World"
+
+ pc_advancexenocity_tile:0 "Advance Xeno World"
+ pc_advancexenocity_tile_desc:0 Advance Xeno World"
+ pc_advancexenocity:0 "Advance Xeno World"
+ pc_advancexenocity_desc:0 "Advance Xeno World"
+ advancexenocity_planet:0 "Advance Xeno World"
+ advancexenocity_planet_desc:0 "Advance Xeno World"
  pc_advancexenocity:0 "Advance Xeno World"
  advancexenocity_planet:0 "Advance Xeno World"
  
+ pc_advancexenocityy_tile:0 "Advance Xeno World"
+ pc_advancexenocityy_tile_desc:0 Advance Xeno World"
+ pc_advancexenocityy:0 "Advance Xeno World"
+ pc_advancexenocityy_desc:0 "Advance Xeno World"
+ advancexenocityy_planet:0 "Advance Xeno World"
+ advancexenocityy_planet_desc:0 "Advance Xeno World"
+ pc_advancexenocityy:0 "Advance Xeno World"
+ advancexenocityy_planet:0 "Advance Xeno World"
+ 
+ pc_advancexenocityyy_tile:0 "Advance Xeno World"
+ pc_advancexenocityyy_tile_desc:0 Advance Xeno World"
+ pc_advancexenocityyy:0 "Advance Xeno World"
+ pc_advancexenocityyy_desc:0 "Advance Xeno World"
+ advancexenocityyy_planet:0 "Advance Xeno World"
+ advancexenocityyy_planet_desc:0 "Advance Xeno World"
+ pc_advancexenocityyy:0 "Advance Xeno World"
+ advancexenocityyy_planet:0 "Advance Xeno World"
+
+ pc_eternalcrusader_tile:0 "Eternal Crusader"
+ pc_eternalcrusader_tile_desc:0 "Eternal Crusader"
  pc_eternalcrusader:0 "Eternal Crusader"
+ pc_eternalcrusader_desc:0 "Eternal Crusader"
  eternalcrusader_planet:0 "Eternal Crusader"
+ eternalcrusader_planet_desc:0 "Eternal Crusader"
  
- pc_caliban:0 "Destroyed Planet"
- caliban_planet:0 "Destroyed Planet"
- 
+ pc_blackstonefortress_tile:0 "Blackstone Fortress"
+ pc_blackstonefortress_tile_desc:0 "Blackstone Fortress"
  pc_blackstonefortress:0 "Blackstone Fortress"
+ pc_blackstonefortress_desc:0 "Blackstone Fortress"
  blackstonefortress_planet:0 "Blackstone Fortress"
+ blackstonefortress_planet_desc:0 "Blackstone Fortress"
  
+ pc_spacehulk_tile:0 "Space Hulk"
+ pc_spacehulk_tile_desc:0 "Space Hulk"
  pc_spacehulk:0 "Space Hulk"
+ pc_spacehulk_desc:0 "Space Hulk"
  spacehulk_planet:0 "Space Hulk"
+ spacehulk_planet_desc:0 "Space Hulk"
  
+ pc_webway_tile:0 "Webway"
+ pc_webway_tile_desc:0 "Webway"
  pc_webway:0 "Webway"
+ pc_webway_desc:0 "Webway"
  webway_planet:0 "Webway"
+ webway_planet_desc:0 "Webway"
  
  pc_armoury_tile:0 "Armoury World"
  pc_armoury_tile_desc:0 "Armoury World"

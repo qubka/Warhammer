@@ -831,38 +831,6 @@ pc_blackstonefortress = {
 	district_set = habitat
 }
 
-pc_caliban = {
-	entity = "caliban_planet"
-	picture = pc_caliban 
-	tile_set = pc_continental
-	entity_scale = @planet_standard_scale
-	icon_frame = 8
-	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
-	
-	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
-
-	min_distance_from_sun = 60
-	max_distance_from_sun = 95
-	spawn_odds = 0
-	
-	extra_orbit_size = 0
-	extra_planet_count = 0
-	
-	chance_of_ring = 1
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
-	colonizable = yes
-	ideal = yes
-	starting_planet = no
-	show_city = no
-	district_set = default
-}
-
 pc_eternalcrusader = {
 	entity = "eternalcrusader_planet"
 	picture = pc_eternalcrusader 
@@ -1154,38 +1122,6 @@ pc_orkworld = {
 pc_armoury = {
 	entity = "armoury_planet"
 	picture = pc_armoury 
-	tile_set = pc_continental
-	entity_scale = @planet_standard_scale
-	icon_frame = 8
-	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
-	
-	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
-
-	min_distance_from_sun = 60
-	max_distance_from_sun = 95
-	spawn_odds = 0
-	
-	extra_orbit_size = 0
-	extra_planet_count = 0
-	
-	chance_of_ring = 1
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
-	colonizable = yes
-	ideal = yes
-	starting_planet = no
-	show_city = no
-	district_set = default
-}
-
-pc_destroyedplanet = {
-	entity = "caliban_planet"
-	picture = pc_destroyedplanet 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8

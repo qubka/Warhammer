@@ -39,8 +39,8 @@ alpha_legion = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-alpha-legion.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_AlphaLegion.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -106,8 +106,8 @@ black_legion = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-black-legion.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_BlackLegion.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -173,8 +173,8 @@ death_guard = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-death-guard.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_DeathGuards.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -240,8 +240,8 @@ emperor_children = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-emperors-children.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_EmperorChildren.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -307,8 +307,8 @@ iron_warrior = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-iron-warrioes.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_IronWarriors.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -374,8 +374,8 @@ night_lords = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-knight-lords.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_NightLords.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -441,8 +441,8 @@ red_corsairs = {
 	
 	empire_flag = {
 		icon = {
-			category = "misc"
-			file = "40k-red-corsairs.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_BadabTyrant.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -508,8 +508,8 @@ thousand_sons = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-thousand-sons.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_ThousandSons.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -575,8 +575,8 @@ word_bearer = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-word-bearers.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_WordBearers.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -642,8 +642,8 @@ world_eater = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-world-eaters.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_WorldEaters.dds"
 		}
 		background = {
 			category = "backgrounds"

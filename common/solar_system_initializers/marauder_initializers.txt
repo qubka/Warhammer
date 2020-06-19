@@ -37,82 +37,259 @@ marauder_1_1 = {
 		has_ring = no
 
 		init_effect = {
-			create_species = {
-				random_list = {
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_ynnari"
+			random_list = {
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_ynnari"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_twilight_swords"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Ynnari Corsairs"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_cor_ynnari
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_twilight_swords"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_void_dragons" 
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Twilight Swords"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_twilight_swords
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_void_dragons"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_sky_raiders"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Void Dragons" 
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_void_dragons
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_sky_raiders"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_steeleye_reavers"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Sky Raiders"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_sky_raiders
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_steeleye_reavers"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_sun_blitz"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Steeleye Reavers"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_steeleye_reavers
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				}
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_sun_blitz"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_eldritch_raiders"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Sun Blitz"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_sun_blitz
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				}
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_eldritch_raiders"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Eldritch Raiders"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_eldritch_raiders
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
 					}
 				}
-				class = "ELD"
-				traits = {
-					trait = "trait_pc_habitat_preference"
-					trait = "trait_extremely_adaptive"
-					trait = "trait_rapid_breeders"
-					trait = "trait_nomadic"
-					trait = "trait_quarrelsome"
-					trait = "trait_deviants"
-				}
-			}
-			create_country = {
-				name_list = random
-				species = last_created
-				type = dormant_marauders
-				civics = { civic = civic_anarcho_tribalism }
-				origin = "origin_default"
-				flag = {
-					icon = {
-						category = "eldar"
-						file = "40k-pirate_01.dds"
-					}
-					background= {
-						category = "backgrounds"
-						file = "00_solid.dds"
-					}
-					colors={
-						"black"
-						"black"
-						"null"
-						"null"
-					}
-				}
-				ethos = {
-					ethic = ethic_fanatic_militarist
-					ethic = ethic_xenophobe
-				}
-				ignore_initial_colony_error = yes
-			}
-			last_created_country = {
-				set_graphical_culture = pirate_01
-				save_global_event_target_as = marauder_country_1
-				set_country_flag = marauder_1
-				set_name = random
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
-				add_ship_design = last_created_design
 			}
 			create_fleet = {
 				effect = {
@@ -1126,82 +1303,259 @@ marauder_2_1 = {
 		has_ring = no
 
 		init_effect = {
-			create_species = {
-				random_list = {
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_ynnari"
+			random_list = {
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_ynnari"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_twilight_swords"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Ynnari Corsairs"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_cor_ynnari
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_twilight_swords"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_void_dragons" 
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Twilight Swords"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_twilight_swords
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_void_dragons"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_sky_raiders"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Void Dragons" 
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_void_dragons
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_sky_raiders"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_steeleye_reavers"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Sky Raiders"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_sky_raiders
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_steeleye_reavers"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_sun_blitz"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Steeleye Reavers"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_steeleye_reavers
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				}
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_sun_blitz"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_eldritch_raiders"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Sun Blitz"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_sun_blitz
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				}
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_eldritch_raiders"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Eldritch Raiders"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_eldritch_raiders
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
 					}
 				}
-				class = "ELD"
-				traits = {
-					trait = "trait_pc_habitat_preference"
-					trait = "trait_extremely_adaptive"
-					trait = "trait_rapid_breeders"
-					trait = "trait_nomadic"
-					trait = "trait_quarrelsome"
-					trait = "trait_deviants"
-				}
-			}
-			create_country = {
-				name_list = random
-				species = last_created
-				type = dormant_marauders
-				civics = { civic = civic_anarcho_tribalism }
-				origin = "origin_default"
-				flag = {
-					icon = {
-						category = "eldar"
-						file = "40k-pirate_02.dds"
-					}
-					background= {
-						category = "backgrounds"
-						file = "00_solid.dds"
-					}
-					colors={
-						"black"
-						"black"
-						"null"
-						"null"
-					}
-				}
-				ethos = {
-					ethic = ethic_fanatic_militarist
-					ethic = ethic_xenophobe
-				}
-				ignore_initial_colony_error = yes
-			}
-			last_created_country = {
-				set_graphical_culture = pirate_01
-				save_global_event_target_as = marauder_country_2
-				set_country_flag = marauder_2
-				set_name = random
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
-				add_ship_design = last_created_design
 			}
 			create_fleet = {
 				effect = {
@@ -2153,84 +2507,260 @@ marauder_3_1 = {
 		has_ring = no
 
 		init_effect = {
-			create_species = {
-				random_list = {
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_ynnari"
+			random_list = {
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_ynnari"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_twilight_swords"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Ynnari Corsairs"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_cor_ynnari
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_twilight_swords"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_void_dragons" 
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Twilight Swords"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_twilight_swords
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_void_dragons"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_sky_raiders"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Void Dragons" 
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_void_dragons
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = {
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_sky_raiders"
-					} 
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_steeleye_reavers"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
+					}
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Sky Raiders"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_sky_raiders
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				} 
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_steeleye_reavers"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_sun_blitz"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Steeleye Reavers"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_steeleye_reavers
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				}
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_sun_blitz"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-					30 = { 
-						name = "PRESCRIPTED_adjective_cor_eldritch_raiders"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Sun Blitz"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_sun_blitz
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
+				}
+				30 = { 
+					create_species = {
+						name= "Eldar Corsair"
+						class = "ELD"
 						portrait = "eldar_cor_eldritch_raiders"
+						name_list = "ELDAR1"
+						traits = {
+							trait = "trait_pc_habitat_preference"
+							trait = "trait_extremely_adaptive"
+							trait = "trait_rapid_breeders"
+							trait = "trait_nomadic"
+							trait = "trait_quarrelsome"
+							trait = "trait_deviants"
+						}
 					}
-				}
-				class = "ELD"
-				traits = {
-					trait = "trait_pc_habitat_preference"
-					trait = "trait_extremely_adaptive"
-					trait = "trait_rapid_breeders"
-					trait = "trait_nomadic"
-					trait = "trait_quarrelsome"
-					trait = "trait_deviants"
+					create_country = {
+						species = last_created
+						type = dormant_marauders
+						civics = { civic = civic_anarcho_tribalism }
+						origin = "origin_default"
+						ethos = {
+							ethic = ethic_fanatic_militarist
+							ethic = ethic_xenophobe
+						}
+						ignore_initial_colony_error = yes
+					}
+					last_created_country = {
+						set_name = "Eldritch Raiders"
+						set_graphical_culture = pirate_01
+						save_global_event_target_as = marauder_country_1
+						set_country_flag = marauder_1
+						set_country_flag = the_eldritch_raiders
+						create_ship_design = { design = "NAME_Marauder_Starbase" }
+						add_ship_design = last_created_design
+					}
 				}
 			}
-			create_country = {
-				name_list = random
-				species = last_created
-				type = dormant_marauders
-				civics = { civic = civic_anarcho_tribalism }
-				origin = "origin_default"
-				flag = {
-					icon = {
-						category = "eldar"
-						file = "40k-pirate_03.dds"
-					}
-					background= {
-						category = "backgrounds"
-						file = "00_solid.dds"
-					}
-					colors={
-						"black"
-						"black"
-						"null"
-						"null"
-					}
-				}
-				ethos = {
-					ethic = ethic_fanatic_spiritualist
-					ethic = ethic_xenophobe
-				}
-				ignore_initial_colony_error = yes
-			}
-			last_created_country = {
-				set_graphical_culture = pirate_01
-				save_global_event_target_as = marauder_country_3
-				set_country_flag = marauder_3
-				set_name = random
-				create_ship_design = { design = "NAME_Marauder_Starbase" }
-				add_ship_design = last_created_design
-			}
-
 			create_fleet = {
 				effect = {
 					set_owner = event_target:marauder_country_3

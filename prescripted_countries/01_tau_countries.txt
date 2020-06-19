@@ -39,8 +39,8 @@ dalyth = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-dalyth.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_DalYth.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -106,8 +106,8 @@ farsight = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-farsight.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_FarsightEnclave.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -173,8 +173,8 @@ sacea = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-sacea.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_SaCea.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -240,8 +240,8 @@ tau = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-tau.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_Tau.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -307,8 +307,8 @@ taun = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-taun.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_TauN.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -374,8 +374,8 @@ dyanoi = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-dyanoi.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_DYnaoi.dds"
 		}
 		background = {
 			category = "backgrounds"

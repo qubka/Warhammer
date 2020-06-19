@@ -39,8 +39,8 @@ ynnari = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40k-ynnari.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Ynnari.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -106,8 +106,8 @@ ulthwe = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40K-ulthwe.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Ulthwe.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -173,8 +173,8 @@ saim_hann = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40k-saim-hann.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Saim-Hann.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -240,8 +240,8 @@ ostara = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40k-ostara.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Os_Tara.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -307,8 +307,8 @@ iyanden = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40k-iyanden.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Lyanden.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -374,8 +374,8 @@ biel_tan = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40k-biel-tan.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Biel-Tan.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -441,8 +441,8 @@ alaitoc = {
 
 	empire_flag = {
 		icon = {
-			category = "eldar"
-			file = "40k-alaitoc.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_CRAFTWORLDER_Altoic.dds"
 		}
 		background = {
 			category = "backgrounds"

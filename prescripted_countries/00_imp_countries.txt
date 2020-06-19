@@ -39,8 +39,8 @@ mankind = {
 	
 	empire_flag = {
 		icon = {
-			category = "misc"
-			file = "40k-aquila.dds"
+			category = "armada"
+			file = "TX_GUI_Logo_Faction_IMP.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -106,8 +106,8 @@ white_scars = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-white-scars.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_WhiteScars.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -173,8 +173,8 @@ ultra_marines = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-ultramarines.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_Ultramarines.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -240,8 +240,8 @@ space_wolfes = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-space-wolfs.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_SpaceWolfes.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -307,8 +307,8 @@ salamanders = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-salamanders.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_Salamanders.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -374,8 +374,8 @@ raven_guard = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-raven-guard.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_RavenGuards.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -441,8 +441,8 @@ iron_hand = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-iron-hands.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_IronHands.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -508,8 +508,8 @@ imperial_fist = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-imperial-fists.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_ImperialFist.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -575,8 +575,8 @@ dark_angles = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-dark-angels.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_DarkAngels.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -642,8 +642,8 @@ blood_angles = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-blood-dragons1.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_BloodAngels.dds"
 		}
 		background = {
 			category = "backgrounds"

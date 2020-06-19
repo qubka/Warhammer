@@ -37,8 +37,8 @@ behemoth = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-behemoth.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Behemot.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -102,8 +102,8 @@ gorgon = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-gorgon.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Gorgon.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -167,8 +167,8 @@ hydra = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-hydra.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Hydra.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -232,8 +232,8 @@ jormungandr = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-jormungandr.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Jormungandr.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -297,8 +297,8 @@ kraken = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-kraken.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Kraken.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -362,8 +362,8 @@ leviathan = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-leviathan.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Leviathan.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -427,8 +427,8 @@ ouroboris = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-ouroboris.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Ouroboros.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -492,8 +492,8 @@ tiamet = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-tiamet.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Tiamet.dds"
 		}
 		background = {
 			category = "backgrounds"

@@ -75,7 +75,15 @@ portraits = {
 	TYR_Tiamet_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Tiamet_ruler.dds" }
 	
 	# NEC
-	NECRON_Cryptek_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Cryptek_ruler.dds" }
+	NECRON_Charnovokh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Charnovokh_ruler.dds" }
+	NECRON_Mephrit_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Mephrit_ruler.dds" }
+	NECRON_Nepheru_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Nepheru_ruler.dds" }
+	NECRON_Nephrekh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Nephrekh_ruler.dds" }
+	NECRON_Nihiliakh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Nihiliakh_ruler.dds" }
+	NECRON_Novokh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Novokh_ruler.dds" }
+	NECRON_Sautekh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Sautekh_ruler.dds" }
+	NECRON_Temeryn_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Temeryn_ruler.dds" }
+	NECRON_Thokt_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Thokt_ruler.dds" }
 	
 	####################################
 	# Pop Arts
