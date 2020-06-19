@@ -1,0 +1,109 @@
+@distance = 30
+@base_moon_distance = 10
+
+farsight_homeworld = {
+	class = "rl_standard_stars"
+
+	flags = { empire_home_system }
+	
+	usage = misc_system_init
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		root = { set_country_flag = the_farsight }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+	}
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+
+	planet = {
+		name = "Enclave Base"
+		class = "pc_continental"
+		size = { min = 14 max = 20 }
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 60
+		satellite_naming_policy = lower_case_latin_letters
+		home_planet = yes
+		starting_planet = yes
+		has_ring = no			
+		deposit_blockers = none	
+		modifiers = none
+
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_farsight
+				}
+				save_event_target_as = the_farsight
+			}
+
+			set_owner = event_target:the_farsight
+			set_controller = event_target:the_farsight
+			set_capital = yes
+
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+		
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 1 }
+			class = 
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 3
+		}
+	}
+	
+	change_orbit = 50
+
+	planet = {
+		orbit_angle = { min = 90 max = 270 }
+		class = pc_gas_giant
+		orbit_distance = 25
+		satellite_naming_policy = lower_case_latin_letters
+		flags = { ignore_startup_effect mining_planet }
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 4 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	change_orbit = 50
+	
+	planet = {
+        count = { min = 2 max = 3 }
+		class = rl_unhabitable_planets
+        orbit_distance = 15
+        orbit_angle = { min = 90 max = 270 }
+        
+        change_orbit = @base_moon_distance
+        
+        moon = {
+            count = { min = 0 max = 1 }
+			class = rl_unhabitable_planets
+            orbit_angle = { min = 90 max = 270 }
+            orbit_distance = 3
+        }
+    }
+}

@@ -48,6 +48,71 @@ IMP = {
 		name = "Imperium of Man"
 		plural = Humans
 	}
+	
+	agripinaa = {
+		name = "Agripinaa"
+		plural = Humans
+	}
+	
+	graia = {
+		name = "Graia"
+		plural = Humans
+	}
+	
+	lucius = {
+		name = "Lucius"
+		plural = Humans
+	}
+	
+	mars = {
+		name = "Mars"
+		plural = Humans
+	}
+	
+	metalica = {
+		name = "Metalica"
+		plural = Humans
+	}
+	
+	ryza = {
+		name = "Ryza"
+		plural = Humans
+	}
+	
+	stygiesiii = {
+		name = "StygiesIII"
+		plural = Humans
+	}
+	
+	armagedon = {
+		name = "Armagedon"
+		plural = Humans
+	}
+	
+	bakka = {
+		name = "Bakka"
+		plural = Humans
+	}
+	
+	bastion = {
+		name = "Bastion"
+		plural = Humans
+	}
+	
+	gothic = {
+		name = "Gothic"
+		plural = Humans
+	}
+	
+	koronus = {
+		name = "Koronus"
+		plural = Humans
+	}
+	
+	solar = {
+		name = "Solar"
+		plural = Humans
+	}
 }
 
 CHA = {
@@ -249,48 +314,6 @@ ELD = {
 		name = "Alaitoc"
 		plural = "Eldars"
 	}
-	
-#	void_gragons = {
-#		name = "Void Dragons"
-#		plural = "Eldars"
-#		home_planet = Terra
-#		home_system = Sol
-#	}
-#	
-#	twilight_swords = {
-#		name = "Twilight Swords"
-#		plural = "Eldars"
-#		home_planet = Terra
-#		home_system = Sol
-#	}
-#	
-#	sun_blitz = {
-#		name = "Sun Blitz"
-#		plural = "Eldars"
-#		home_planet = Terra
-#		home_system = Sol
-#	}
-#	
-#	steeleye_reavers = {
-#		name = "Steeleye Reavers"
-#		plural = "Eldars"
-#		home_planet = Terra
-#		home_system = Sol
-#	}
-#	
-#	sky_raders = {
-#		name = "Sky Raders"
-#		plural = "Eldars"
-#		home_planet = Terra
-#		home_system = Sol
-#	}
-#	
-#	eldritch_raider = {
-#		name = "Eldritch Raider"
-#		plural = "Eldars"
-#		home_planet = Terra
-#		home_system = Sol
-#	}
 }
 
 DEL = {
@@ -333,12 +356,51 @@ DEL = {
 		name = "Black Heart"
 		plural = "Drukhari"
 	}
-	
 }
 
 NEC = {
-    cryptek = {
-		name = "Cryptek"
+	charnovokh = {
+		name = "Charnovokh"
+		plural = "Necrons"
+	}
+	
+	mephrit = {
+		name = "Mephrit"
+		plural = "Necrons"
+	}
+	
+	nepheru = {
+		name = "Nepheru"
+		plural = "Necrons"
+	}
+	
+	nephrekh = {
+		name = "Nephrekh"
+		plural = "Necrons"
+	}
+	
+	nihiliakh = {
+		name = "Nihiliakh"
+		plural = "Necrons"
+	}
+	
+	novokh = {
+		name = "Novokh"
+		plural = "Necrons"
+	}
+	
+	sautekh = {
+		name = "Sautekh"
+		plural = "Necrons"
+	}
+	
+	temeryn = {
+		name = "Temeryn"
+		plural = "Necrons"
+	}
+	
+	thokt = {
+		name = "Thokt"
 		plural = "Necrons"
 	}
 }

@@ -8,7 +8,7 @@ mankind = {
 	
 	species = {
 		class = "IMP"
-		portrait = "imp_mankind"
+		portrait = "imp_navy"
 		name = "PRESCRIPTED_species_name_mankind"
 		plural = "PRESCRIPTED_species_plural_mankind"
 		adjective = "PRESCRIPTED_species_adjective_mankind"

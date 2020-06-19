@@ -3,7 +3,7 @@ static_galaxy_scenario = {
 	priority = 0
 	default = yes
 	colonizable_planet_odds = 1.0
-	num_empires = { min = 25 max = 65 }
+	num_empires = { min = 25 max = 78 }
 	num_empire_default = 34
 	advanced_empire_default = 0
 	fallen_empire_default = 0
@@ -612,12 +612,14 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "D Yanoi"
+		name = "D'yanoi"
 		id = "67"
+		initializer = dyanoi_homeworld 
 		position = {
 			x = -282.9671
 			y = 150.6264
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dyanoi } }
 	}
 
 	system = {
@@ -684,12 +686,14 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Dal Yth"
+		name = "Dal'yth"
 		id = "75"
+		initializer = dalyth_homeworld
 		position = {
 			x = -274.5402
 			y = 108.4924
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dalyth } }
 	}
 
 	system = {
@@ -702,16 +706,18 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Tau N"
+		name = "Tau'n"
 		id = "77"
+		initializer = taun_homeworld
 		position = {
 			x = -269.787
 			y = 121.4566
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_taun } }
 	}
 
 	system = {
-		name = "Fal Shia"
+		name = "Fal'shia"
 		id = "78"
 		position = {
 			x = -264
@@ -729,21 +735,25 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Sa Cea"
+		name = "Sa'cea"
 		id = "80"
+		initializer = sacea_homeworld
 		position = {
 			x = -264.8172
 			y = 130.3156
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_sacea } }
 	}
 
 	system = {
-		name = "T Au"
+		name = "T'au"
 		id = "81"
+		initializer = tau_homeworld
 		position = {
 			x = -260.496
 			y = 124.9138
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_tau } }
 	}
 
 	system = {
@@ -765,7 +775,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Bork An"
+		name = "Bork'an"
 		id = "84"
 		position = {
 			x = -247.0992
@@ -774,7 +784,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Vior La"
+		name = "Vior'la"
 		id = "85"
 		position = {
 			x = -253.1484
@@ -848,10 +858,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Iyanden"
 		id = "93"
+		initializer = iyanden_homeworld
 		position = {
 			x = -226
 			y = 249
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_iyanden } }
 	}
 
 	system = {
@@ -965,10 +977,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Lunaphage"
 		id = "106"
+		initializer = ostara_homeworld
 		position = {
 			x = -201
 			y = -288
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_ostara } }
 	}
 
 	system = {
@@ -1199,10 +1213,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Alaitoc"
 		id = "131"
+		initializer = alaitoc_homeworld
 		position = {
 			x = -122
 			y = 260
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_alaitoc } }
 	}
 
 	system = {
@@ -1386,12 +1402,14 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Hammefront"
+		name = "Qvrakotosh"
 		id = "152"
+		initializer = mephrit_homeworld
 		position = {
 			x = -75
 			y = -117
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_mephrit } }
 	}
 
 	system = {
@@ -2640,7 +2658,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "K phra"
+		name = "K'phra"
 		id = "277"
 		position = {
 			x = 183
@@ -2889,10 +2907,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Ulthwe"
 		id = "304"
+		initializer = ulthwe_homeworld
 		position = {
 			x = 231
 			y = -130
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_ulthwe } }
 	}
 
 	system = {
@@ -2916,12 +2936,10 @@ static_galaxy_scenario = {
 	system = {
 		name = "Fools Paradise"
 		id = "307"
-		initializer = ulthwe_homeworld
 		position = {
 			x = 237
 			y = -144
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_ulthwe } }
 	}
 
 	system = {
@@ -3051,12 +3069,14 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Biel tan"
+		name = "Biel-Tan"
 		id = "322"
+		initializer = biel_tan_homeworld
 		position = {
 			x = 258
 			y = 201
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_biel_tan } }
 	}
 
 	system = {
@@ -3577,7 +3597,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Ven thal"
+		name = "Ven'thal"
 		id = "380"
 		position = {
 			x = 377
@@ -4263,7 +4283,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Vash ya"
+		name = "Vash'ya"
 		id = "456"
 		position = {
 			x = -264.8172
@@ -4272,7 +4292,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Elsy eir"
+		name = "Elsy'eir"
 		id = "457"
 		position = {
 			x = -260.064
@@ -4281,7 +4301,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "N dras"
+		name = "N'dras"
 		id = "458"
 		position = {
 			x = -249.2604
@@ -4290,7 +4310,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "T olku"
+		name = "T'olku"
 		id = "459"
 		position = {
 			x = -253.365
@@ -4317,7 +4337,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Vior los"
+		name = "Vior'los"
 		id = "462"
 		position = {
 			x = -243.3509
@@ -4326,7 +4346,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Lub grahl"
+		name = "Lub'grahl"
 		id = "463"
 		position = {
 			x = -241.4821
@@ -4335,7 +4355,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Salash hei"
+		name = "Salash'hei"
 		id = "464"
 		position = {
 			x = -245.7014
@@ -4344,7 +4364,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Tinek la"
+		name = "Tinek'la"
 		id = "465"
 		position = {
 			x = -237.0839
@@ -4362,7 +4382,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Ke lshan"
+		name = "Ke'lshan"
 		id = "467"
 		position = {
 			x = -264.8172
@@ -4371,7 +4391,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Au taal"
+		name = "Au'taal"
 		id = "468"
 		position = {
 			x = -275.8362
@@ -4380,7 +4400,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Sky rrel Minoris"
+		name = "Sky'rrel Minoris"
 		id = "469"
 		position = {
 			x = -274.1082
@@ -4389,7 +4409,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Y leth"
+		name = "Y'leth"
 		id = "470"
 		position = {
 			x = -267.1938
@@ -4407,7 +4427,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Kel tyr"
+		name = "Kel'tyr"
 		id = "472"
 		position = {
 			x = -262.4394
@@ -4416,7 +4436,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Ksi m yen"
+		name = "Ksi'myen"
 		id = "473"
 		position = {
 			x = -256.3902
@@ -4425,7 +4445,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Fi rios"
+		name = "Fi'rios"
 		id = "474"
 		position = {
 			x = -255.0942
@@ -4434,7 +4454,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Kelsha var"
+		name = "Kelsha'var"
 		id = "475"
 		position = {
 			x = -274.3235
@@ -4452,7 +4472,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Tash var"
+		name = "Tash'var"
 		id = "477"
 		position = {
 			x = -274.5402
@@ -4461,7 +4481,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Vor anoth"
+		name = "Vor'anoth"
 		id = "478"
 		position = {
 			x = -272.5956
@@ -4479,7 +4499,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Kra Sylth"
+		name = "Kra'sylth"
 		id = "480"
 		position = {
 			x = -285.3437
@@ -4652,10 +4672,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Voltoris"
 		id = "499"
+		initializer = farsight_homeworld
 		position = {
 			x = -235.9761
 			y = 115.4971
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_farsight } }
 	}
 
 	system = {
@@ -5561,7 +5583,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "C syn ad"
+		name = "C'synad"
 		id = "600"
 		position = {
 			x = 24.97385
@@ -7370,7 +7392,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Krrk tikit"
+		name = "Krrk'tikit"
 		id = "801"
 		position = {
 			x = -256.046
@@ -7849,12 +7871,10 @@ static_galaxy_scenario = {
 	system = {
 		name = "Solsticee"
 		id = "854"
-		initializer = biel_tan_homeworld
 		position = {
 			x = 229.9994
 			y = 215.3652
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_biel_tan } }
 	}
 
 	system = {
@@ -8031,12 +8051,10 @@ static_galaxy_scenario = {
 	system = {
 		name = "Betalis"
 		id = "874"
-		initializer = alaitoc_homeworld
 		position = {
 			x = 264.6674
 			y = 14.34602
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_alaitoc } }
 	}
 
 	system = {
@@ -9042,10 +9060,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Dhol"
 		id = "979"
+		initializer = novokh_homeworld
 		position = {
 			x = -45.27742
 			y = 46.14151
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_novokh } }
 	}
 
 	system = {
@@ -9330,10 +9350,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Nagathar"
 		id = "1011"
+		initializer = temeryn_homeworld
 		position = {
 			x = -291.2144
 			y = 405.8871
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_temeryn } }
 	}
 
 	system = {
@@ -9744,12 +9766,10 @@ static_galaxy_scenario = {
 	system = {
 		name = "Rimmock"
 		id = "1057"
-		initializer = iyanden_homeworld
 		position = {
 			x = -155.1987
 			y = 149.5867
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_iyanden } }
 	}
 
 	system = {
@@ -9980,10 +10000,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Kinbriar"
 		id = "1083"
+		initializer = nepheru_homeworld
 		position = {
 			x = 253.8713
 			y = -358.8301
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_nepheru } }
 	}
 
 	system = {
@@ -10582,7 +10604,7 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "Cano var"
+		name = "Cano'var"
 		id = "1147"
 		position = {
 			x = -342.5472
@@ -10645,21 +10667,25 @@ static_galaxy_scenario = {
 	}
 
 	system = {
-		name = "MedusaN"
+		name = "Medusa VII"
 		id = "1159"
+		initializer = sautekh_homeworld
 		position = {
 			x = -340.917
 			y = 178.8744
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_sautekh } }
 	}
 
 	system = {
 		name = "Aryand"
 		id = "1160"
+		initializer = nephrekh_homeworld
 		position = {
 			x = 47.31908
 			y = -54.57928
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_nephrekh } }
 	}
 
 	system = {
@@ -10674,10 +10700,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Bardic"
 		id = "1164"
+		initializer = charnovokh_homeworld
 		position = {
 			x = -349.9122
 			y = 174.2239
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_charnovokh } }
 	}
 
 	system = {
@@ -10755,19 +10783,23 @@ static_galaxy_scenario = {
 	system = {
 		name = "Gheden"
 		id = "1174"
+		initializer = nihiliakh_homeworld
 		position = {
 			x = 118.8055
 			y = 17.02164
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_nihiliakh } }
 	}
 
 	system = {
 		name = "Meghoshta"
 		id = "1175"
+		initializer = thokt_homeworld
 		position = {
 			x = 364.6472
 			y = -23.77134
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_thokt } }
 	}
 
 	system = {

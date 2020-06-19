@@ -1,6 +1,6 @@
 namespace = leaders
 
-country_event = {
+event = {
     id = leaders.1
 	hide_window = yes
     fire_only_once = yes

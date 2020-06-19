@@ -31,7 +31,7 @@ dalyth = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_dalyth }
 	planet_name = "PRESCRIPTED_planet_name_dalyth"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_advancexenocityy"
 	system_name = "PRESCRIPTED_system_name_dalyth"
 
 	graphical_culture = "humanoid_01"
@@ -98,7 +98,7 @@ farsight = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_farsight }
 	planet_name = "PRESCRIPTED_planet_name_farsight"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_farsight"
 
 	graphical_culture = "humanoid_01"
@@ -165,7 +165,7 @@ sacea = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_sacea }
 	planet_name = "PRESCRIPTED_planet_name_sacea"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_advancexenocityy"
 	system_name = "PRESCRIPTED_system_name_sacea"
 
 	graphical_culture = "humanoid_01"
@@ -299,7 +299,7 @@ taun = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_taun }
 	planet_name = "PRESCRIPTED_planet_name_taun"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_advancexenocityyy"
 	system_name = "PRESCRIPTED_system_name_taun"
 
 	graphical_culture = "humanoid_01"

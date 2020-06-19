@@ -64,10 +64,12 @@ blood_angles_homeworld = {
 			prevent_anomaly = yes
 		}
 
+		change_orbit = @base_moon_distance
+		
 		moon = {
 			count = 2
 			class = "pc_barren"
-			orbit_distance = 4
+			orbit_distance = 6
 			orbit_angle = { min = 90 max = 270 }
 			size = 10
 			has_ring = no
