@@ -82,7 +82,7 @@ sacea_homeworld = {
 
 		moon = {
 			count = { min = 0 max = 1 }
-			class = 
+			class = random_non_colonizable
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 3
 		}

@@ -1,7 +1,7 @@
 charnovokh = {
 	name = "Charnovokh"
 	adjective = "PRESCRIPTED_adjective_charnovokh"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_charnovokh"
@@ -67,7 +67,7 @@ charnovokh = {
 mephrit = {
 	name = "Mephrit"
 	adjective = "PRESCRIPTED_adjective_mephrit"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_mephrit"
@@ -133,7 +133,7 @@ mephrit = {
 nepheru = {
 	name = "Nepheru"
 	adjective = "PRESCRIPTED_adjective_nepheru"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_nepheru"
@@ -199,7 +199,7 @@ nepheru = {
 nephrekh = {
 	name = "Nephrekh"
 	adjective = "PRESCRIPTED_adjective_nephrekh"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_nephrekh"
@@ -265,7 +265,7 @@ nephrekh = {
 nihiliakh = {
 	name = "Nihiliakh"
 	adjective = "PRESCRIPTED_adjective_nihiliakh"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_nihiliakh"
@@ -331,7 +331,7 @@ nihiliakh = {
 novokh = {
 	name = "Novokh"
 	adjective = "PRESCRIPTED_adjective_novokh"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_novokh"
@@ -397,7 +397,7 @@ novokh = {
 sautekh = {
 	name = "Sautekh"
 	adjective = "PRESCRIPTED_adjective_sautekh"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_sautekh"
@@ -463,7 +463,7 @@ sautekh = {
 temeryn = {
 	name = "Temeryn"
 	adjective = "PRESCRIPTED_adjective_temeryn"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_temeryn"
@@ -529,7 +529,7 @@ temeryn = {
 thokt = {
 	name = "Thokt"
 	adjective = "PRESCRIPTED_adjective_thokt"
-	spawn_enabled = no # yes / no / always
+	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_thokt"

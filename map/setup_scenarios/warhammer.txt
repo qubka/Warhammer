@@ -3,7 +3,7 @@ static_galaxy_scenario = {
 	priority = 0
 	default = yes
 	colonizable_planet_odds = 1.0
-	num_empires = { min = 25 max = 78 }
+	num_empires = { min = 25 max = 65 }
 	num_empire_default = 34
 	advanced_empire_default = 0
 	fallen_empire_default = 0
@@ -54,10 +54,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Mirienh"
 		id = "4"
+		initializer = gorgon_homeworld
 		position = {
 			x = -390
 			y = 193
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_gorgon } }
 	}
 
 	system = {
@@ -153,10 +155,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Jondl"
 		id = "15"
+		initializer = iron_thorn_homeworld
 		position = {
 			x = -371
 			y = -75
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_iron_thorn } }
 	}
 
 	system = {
@@ -1159,10 +1163,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Commorragh"
 		id = "1250"
+		initializer = dark_ynnari_homeworld
 		position = {
 			x = -119
 			y = -366
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dark_ynnari } }
 	}
 
 	system = {
@@ -1768,10 +1774,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Dynathi"
 		id = "188"
+		initializer = the_severed_homeworld
 		position = {
 			x = 2.781153
 			y = 4.941238
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_severed } }
 	}
 
 	system = {
@@ -1891,10 +1899,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Golgotha"
 		id = "201"
+		initializer = goff_homeworld
 		position = {
 			x = 56.57154
 			y = -9.666443
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_goff } }
 	}
 
 	system = {
@@ -1945,10 +1955,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Appollonia"
 		id = "207"
+		initializer = ouroboris_homeworld
 		position = {
 			x = 75
 			y = -417
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_ouroboris } }
 	}
 
 	system = {
@@ -2179,10 +2191,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Aleusis"
 		id = "233"
+		initializer = flayed_skull_homeworld
 		position = {
 			x = 113
 			y = 219
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_flayed_skull } }
 	}
 
 	system = {
@@ -2990,10 +3004,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Gathalamorr"
 		id = "313"
+		initializer = evil_sunz_homeworld
 		position = {
 			x = 249
 			y = 34
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_evil_sunz } }
 	}
 
 	system = {
@@ -7646,10 +7662,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Redemption"
 		id = "829"
+		initializer = last_hatred_homeworld
 		position = {
 			x = 322.0473
 			y = -353.2708
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_last_hatred } }
 	}
 
 	system = {
@@ -8361,10 +8379,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Nazdreg"
 		id = "906"
+		initializer = bad_moons_homeworld
 		position = {
 			x = 85.70482
 			y = -113.5594
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_bad_moons } }
 	}
 
 	system = {
@@ -8379,10 +8399,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Chrisios"
 		id = "908"
+		initializer = big_boss_homeworld
 		position = {
 			x = -59.14814
 			y = -287.977
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_big_boss } }
 	}
 	
 	system = {
@@ -8424,28 +8446,34 @@ static_galaxy_scenario = {
 	system = {
 		name = "Chrax"
 		id = "909"
+		initializer = death_skullz_homeworld
 		position = {
 			x = -129.0233
 			y = 55.34711
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_death_skullz } }
 	}
 
 	system = {
 		name = "Gorbad"
 		id = "910"
+		initializer = big_mek_homeworld
 		position = {
 			x = -157.4083
 			y = 233.5293
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_big_mek } }
 	}
 
 	system = {
 		name = "Grog"
 		id = "911"
+		initializer = blood_axe_homeworld
 		position = {
 			x = -205.862
 			y = 137.9873
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_blood_axe } }
 	}
 
 	system = {
@@ -8979,10 +9007,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Andalezja"
 		id = "970"
+		initializer = dying_sun_homeworld
 		position = {
 			x = 390.9804
 			y = -257.3507
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dying_sun } }
 	}
 
 	system = {
@@ -9314,10 +9344,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Anfenga"
 		id = "1007"
+		initializer = black_heart_homeworld
 		position = {
 			x = -121.8889
 			y = -174.8531
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_black_heart } }
 	}
 
 	system = {
@@ -9379,10 +9411,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Myrum"
 		id = "1014"
+		initializer = leviathan_homeworld
 		position = {
 			x = 195.0717
 			y = 385.678
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_leviathan } }
 	}
 
 	system = {
@@ -9415,10 +9449,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Swearkilke"
 		id = "1018"
+		initializer = behemoth_homeworld
 		position = {
 			x = -397.3681
 			y = 302.7152
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_behemoth } }
 	}
 
 	system = {
@@ -9730,10 +9766,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Karkadan"
 		id = "1053"
+		initializer = jormungandr_homeworld
 		position = {
 			x = -407.8861
 			y = -118.7682
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_jormungandr } }
 	}
 
 	system = {
@@ -9748,10 +9786,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Coggan"
 		id = "1055"
+		initializer = kraken_homeworld
 		position = {
 			x = -429.479
 			y = 41.27293
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_kraken } }
 	}
 
 	system = {
@@ -9901,10 +9941,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Ebucrosie"
 		id = "1072"
+		initializer = broken_sigil_homeworld
 		position = {
 			x = -175.4454
 			y = 355.0044
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_broken_sigil } }
 	}
 
 	system = {
@@ -9991,10 +10033,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Jabbah"
 		id = "1082"
+		initializer = tiamet_homeworld
 		position = {
 			x = 209.4154
 			y = -380.4229
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_tiamet } }
 	}
 
 	system = {
@@ -10236,10 +10280,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Nostea"
 		id = "1106"
+		initializer = hydra_homeworld
 		position = {
 			x = -67.8213
 			y = 425.6254
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_hydra } }
 	}
 
 	system = {
