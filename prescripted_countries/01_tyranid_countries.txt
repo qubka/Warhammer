@@ -22,7 +22,7 @@ behemoth = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -87,7 +87,7 @@ gorgon = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -152,7 +152,7 @@ hydra = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -217,7 +217,7 @@ jormungandr = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -282,7 +282,7 @@ kraken = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -347,7 +347,7 @@ leviathan = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -412,7 +412,7 @@ ouroboris = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -477,7 +477,7 @@ tiamet = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 

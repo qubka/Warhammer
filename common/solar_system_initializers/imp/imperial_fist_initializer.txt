@@ -18,7 +18,6 @@ imperial_fist_homeworld = {
 		
 		root = { set_country_flag = the_imperial_fist }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 		
 		spawn_megastructure = {
 			type = "dyson_sphere_ruined"

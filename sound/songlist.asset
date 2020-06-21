@@ -1,0 +1,113 @@
+music = {
+	name = "Chaos Approaches"
+	file = "music/01-Chaos-Approaches.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Assemble the Fleet"
+	file = "music/02-Assemble-the-Fleet.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "The War Room"
+	file = "music/03-The-War-Room.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "The Master Plan"
+	file = "music/04-The-Master-Plan.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Orks On Da Move"
+	file = "music/05-Orks-On-Da-Move.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Brace for Impact"
+	file = "music/06-Brace-for-Impact.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Attack Without Mercy"
+	file = "music/07-Attack-Without-Mercy.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "For The Glory Of The Emporer"
+	file = "music/08-For-The-Glory-Of-The-Emporer.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Children of the Omnissiah"
+	file = "music/09-Children-of-the-Omnissiah.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Caestus Metalican"
+	file = "music/10-Caestus-Metalican.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Lost Civilisations"
+	file = "music/11-Lost-Civilisations.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Immortal Machine"
+	file = "music/12-Immortal-Machine.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Noosphere"
+	file = "music/13-Noosphere.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Dance of the Cryptek"
+	file = "music/14-Dance-of-the-Cryptek.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Millennial Rage"
+	file = "music/15-Millennial-Rage.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Warriors of Mars"
+	file = "music/16-Warriors-of-Mars.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Treacherous 1"
+	file = "music/17-Treacherous_1.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Overlord"
+	file = "music/18-Overlord.ogg"
+	volume = 0.5
+}
+
+music = {
+	name = "Binary Signal"
+	file = "music/19-Binary-Signal.ogg"
+	volume = 0.5
+}

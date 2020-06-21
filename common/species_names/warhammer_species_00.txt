@@ -49,41 +49,8 @@ IMP = {
 		plural = Humans
 	}
 	
-	agripinaa = {
-		name = "Agripinaa"
-		plural = Humans
-	}
-	
-	graia = {
-		name = "Graia"
-		plural = Humans
-	}
-	
-	lucius = {
-		name = "Lucius"
-		plural = Humans
-	}
-	
-	mars = {
-		name = "Mars"
-		plural = Humans
-	}
-	
-	metalica = {
-		name = "Metalica"
-		plural = Humans
-	}
-	
-	ryza = {
-		name = "Ryza"
-		plural = Humans
-	}
-	
-	stygiesiii = {
-		name = "StygiesIII"
-		plural = Humans
-	}
-	
+	# OTHER
+
 	armagedon = {
 		name = "Armagedon"
 		plural = Humans
@@ -99,19 +66,49 @@ IMP = {
 		plural = Humans
 	}
 	
-	gothic = {
-		name = "Gothic"
+	fularis = {
+		name = "Fularis"
 		plural = Humans
 	}
 	
-	koronus = {
-		name = "Koronus"
+	krieg = {
+		name = "Krieg"
 		plural = Humans
 	}
 	
-	solar = {
-		name = "Solar"
+	cadia = {
+		name = "Cadia"
 		plural = Humans
+	}
+	
+	agripinaa = {
+		name = "Agripinaa"
+		plural = "Mechanicus Cults"
+	}
+	
+	graia = {
+		name = "Graia"
+		plural = "Mechanicus Cults"
+	}
+	
+	lucius = {
+		name = "Lucius"
+		plural = "Mechanicus Cults"
+	}
+
+	metalica = {
+		name = "Metalica"
+		plural = "Mechanicus Cults"
+	}
+	
+	ryza = {
+		name = "Ryza"
+		plural = "Mechanicus Cults"
+	}
+	
+	stygiesiii = {
+		name = "StygiesIII"
+		plural = "Mechanicus Cults"
 	}
 }
 

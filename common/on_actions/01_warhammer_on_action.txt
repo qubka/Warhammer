@@ -3,6 +3,7 @@ on_game_start = {
 	events = {
 		names.1
 		leaders.1
+		leaders.2
 		planets.1
 		marauder.999
 	}
@@ -11,6 +12,6 @@ on_game_start = {
 # No scope, like on_game_start
 on_yearly_pulse = {
 	events = {
-		leaders.1
+		leaders.2
 	}
 }

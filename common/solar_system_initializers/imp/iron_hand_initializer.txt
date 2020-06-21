@@ -22,7 +22,6 @@ iron_hand_homeworld = {
 		
 		root = { set_country_flag = the_iron_hand }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 	
 	planet = {

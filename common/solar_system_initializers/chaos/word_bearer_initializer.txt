@@ -18,7 +18,6 @@ word_bearer_homeworld = {
 		
 		root = { set_country_flag = the_word_bearer }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 		
 	planet = {

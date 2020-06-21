@@ -20,9 +20,9 @@ goff = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_combat_specialists" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -85,9 +85,9 @@ evil_sunz = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_vehicles_lovers" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -150,9 +150,9 @@ death_skullz = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_scavengers_mobz" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -215,9 +215,9 @@ blood_axe = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_camouflage_boyz" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -280,9 +280,9 @@ big_mek = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_oddboyz_culture" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -345,9 +345,9 @@ big_boss = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_clever_nobz" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -410,9 +410,9 @@ bad_moons = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_teeth_growers" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"

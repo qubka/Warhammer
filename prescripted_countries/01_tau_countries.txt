@@ -21,9 +21,9 @@ dalyth = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_free_haven" "civic_trader_friendly" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -47,7 +47,7 @@ dalyth = {
 			file = "00_solid.dds"
 		}
 		colors = {
-			"orange"
+			"grey"
 			"black"
 			"null"
 			"null"
@@ -88,9 +88,9 @@ farsight = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_farsight_enclaves" "civic_warrior_culture" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -155,9 +155,9 @@ sacea = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_warrior_culture" "civic_shadow_council" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -222,9 +222,9 @@ tau = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_free_haven" "civic_high_education" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -248,7 +248,7 @@ tau = {
 			file = "00_solid.dds"
 		}
 		colors = {
-			"purple"
+			"brown"
 			"black"
 			"null"
 			"null"
@@ -289,9 +289,9 @@ taun = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
+	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -315,7 +315,7 @@ taun = {
 			file = "00_solid.dds"
 		}
 		colors = {
-			"teal"
+			"dark_grey"
 			"black"
 			"null"
 			"null"
@@ -356,9 +356,9 @@ dyanoi = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_rustic_population" "civic_warrior_culture" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -382,7 +382,7 @@ dyanoi = {
 			file = "00_solid.dds"
 		}
 		colors = {
-			"grey"
+			"turquoise"
 			"black"
 			"null"
 			"null"

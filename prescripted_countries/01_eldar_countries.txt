@@ -13,6 +13,7 @@ ynnari = {
 		plural = "PRESCRIPTED_species_plural_ynnari"
 		adjective = "PRESCRIPTED_species_adjective_ynnari"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -21,9 +22,9 @@ ynnari = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_reborn_followers" "civic_children_of_stars" }
+	government = "gov_confederal_chiefdom"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -80,6 +81,7 @@ ulthwe = {
 		plural = "PRESCRIPTED_species_plural_ulthwe"
 		adjective = "PRESCRIPTED_species_adjective_ulthwe"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -88,9 +90,9 @@ ulthwe = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_seers_way" "civic_children_of_stars" }
+	government = "gov_authoritarian_magocratic"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -147,6 +149,7 @@ saim_hann = {
 		plural = "PRESCRIPTED_species_plural_saim_hann"
 		adjective = "PRESCRIPTED_species_adjective_saim_hann"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -155,9 +158,9 @@ saim_hann = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_enjoyed_of_simple" "civic_children_of_stars" }
+	government = "gov_confederal_chiefdom"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -214,6 +217,7 @@ ostara = {
 		plural = "PRESCRIPTED_species_plural_ostara"
 		adjective = "PRESCRIPTED_species_adjective_ostara"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -222,9 +226,9 @@ ostara = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_paranoid_isolationism" "civic_children_of_stars" }
+	government = "gov_authoritarian_magocratic"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -281,6 +285,7 @@ iyanden = {
 		plural = "PRESCRIPTED_species_plural_iyanden"
 		adjective = "PRESCRIPTED_species_adjective_iyanden"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -289,9 +294,9 @@ iyanden = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_damaged_craftworld" "civic_children_of_stars" }
+	government = "gov_authoritarian_magocratic"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -348,6 +353,7 @@ biel_tan = {
 		plural = "PRESCRIPTED_species_plural_biel_tan"
 		adjective = "PRESCRIPTED_species_adjective_biel_tan"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -356,9 +362,9 @@ biel_tan = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_warrior_culture" "civic_children_of_stars" }
+	government = "gov_federal_magocratic_stratocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -415,6 +421,7 @@ alaitoc = {
 		plural = "PRESCRIPTED_species_plural_alaitoc"
 		adjective = "PRESCRIPTED_species_adjective_alaitoc"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
@@ -423,9 +430,9 @@ alaitoc = {
 
 	room = "personality_spiritual_seekers_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_eldar"
+	civics = { "civic_over_racism" "civic_children_of_stars" }
+	government = "gov_authoritarian_magocratic"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"

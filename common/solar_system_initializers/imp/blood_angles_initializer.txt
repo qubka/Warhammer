@@ -22,7 +22,6 @@ blood_angles_homeworld = {
 		
 		root = { set_country_flag = the_blood_angles }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 	
 	planet = {

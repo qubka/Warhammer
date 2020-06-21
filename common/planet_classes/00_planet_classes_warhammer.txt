@@ -897,7 +897,7 @@ pc_daemon = {
 
 pc_daemonn = {
 	entity = "daemonn_planet"
-	picture = pc_daemon
+	picture = pc_daemonn
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
@@ -929,7 +929,7 @@ pc_daemonn = {
 
 pc_daemont = {
 	entity = "daemont_planet"
-	picture = pc_daemon
+	picture = pc_daemont
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
@@ -961,7 +961,7 @@ pc_daemont = {
 
 pc_daemons = {
 	entity = "daemons_planet"
-	picture = pc_daemon
+	picture = pc_daemons
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 4

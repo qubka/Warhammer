@@ -18,7 +18,6 @@ emperor_children_homeworld = {
 		
 		root = { set_country_flag = the_emperor_children }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 		
 	planet = {

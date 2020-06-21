@@ -18,7 +18,6 @@ sacea_homeworld = {
 		
 		root = { set_country_flag = the_sacea }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 	
 	planet = {
@@ -73,6 +72,8 @@ sacea_homeworld = {
 			set_controller = event_target:the_sacea
 			set_capital = yes
 
+			add_modifier = { modifier = "dangerous_wildlife" days = -1 }
+			
 			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes

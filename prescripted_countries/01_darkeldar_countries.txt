@@ -21,9 +21,9 @@ dark_ynnari = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_anarchy_terrorism" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -88,9 +88,9 @@ the_severed = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_master_pirates" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -155,9 +155,9 @@ last_hatred = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_forbidden_arts" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -222,9 +222,9 @@ iron_thorn = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_arm_developers" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -289,9 +289,9 @@ flayed_skull = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_professional_reavers" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -356,9 +356,9 @@ dying_sun = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_keepers_of_secrets" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -423,9 +423,9 @@ broken_sigil = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_scariest_kabal" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -490,9 +490,9 @@ black_heart = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_witches_of_discord" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"

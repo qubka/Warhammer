@@ -24,6 +24,51 @@
  TYR:0 "Tyranid"
  
  ####################################
+ # Authorities
+ ####################################
+ auth_imp_mankind:0 ""
+ auth_imp_mankind_desc:0 ""
+ auth_imp_dominion:0 ""
+ auth_imp_dominion_desc:0 ""
+ auth_chaos:0 "Chaos Warband"
+ auth_chaos_desc:0 "Chaos Space Marines, also sometimes called Traitor Marines, Renegade Marines, or Heretic Astartes, are former Loyalist Space Marines of the Imperium of Man who have chosen to abandon the service of the Emperor of Mankind and dedicate themselves to the service of Chaos to achieve their own ends."
+ auth_eldar:0 "Aeldari Craftworld"
+ auth_eldar_desc:0 "A Craftworld is a vast, planetoid-sized spacecraft populated by the highly advanced humanoid species known as the Eldar. The Craftworlds travel through the void of space at sublight speeds, carrying the greater remnant of the Eldar race after their Fall. Each Craftworld is a self-sufficient, independent realm with its own distinctive culture. "
+ auth_darkeldar:0 "Drukhari Kabal"
+ auth_darkeldar_desc:0 "A Kabal is a self-governing socio-economic paramilitary organization. Dark Eldar society is comprised primarily of these Kabals, as well as the Haemonculi Covens, the Incubus sect, and the Wych Cults. These Kabals send out raiding parties through Webway portals in order to collect alien beasts, slaves, and anything else the Kabal may need. The smallest Kabals may consist of hundreds of Dark Eldar, but their territories often consist of scattered hideouts and other secret locations. The largest Kabals contain millions of skilled soldiers."
+ auth_ork:0 "Ork Clan"
+ auth_ork_desc:0 "Ork Clans are cultural groupings of Orks rather than actual communities, each embodying a distinct Orkish philosophy. Clans exist outside the organization of tribes - where tribes are inconstant, breaking apart and reforming in war, Clans are constant and enduring."
+ auth_tau:0 "Tau Septs"
+ auth_tau_desc:0 "Each sept of the Tau Empire has its unique cultural identity wholly integrated within the greater Tau culture. This cultural identity seems to mainly derive from which Tau caste is more numerous and influential in the given sept. The Tau Empire was founded by the Tau caste called the Ethereals, who lead the Tau Empire in the name of the philosophy they have named the Greater Good."
+ 
+ ####################################
+ # Governments
+ ####################################
+ gov_kratocratic_dictatorship:0 "Kratocratic Dictatorship"
+ gov_kratocratic_dictatorship_desc:0 "A government established by seizure utilizing force or deceit with rule maintained by strength."
+ gov_authoritarian_federation:0 "Authoritarian Federation"
+ gov_authoritarian_federation_desc:0 "A government characterized by strong central power and limited political freedoms."
+ gov_authoritarian_magocratic:0 "Authoritarian Magocratic Seer Council"
+ gov_authoritarian_magocratic_desc:0 "A government in which psyker-users rule and the ability to perform warp manipulations is essential to be a member of the leadership caste."
+ gov_federal_magocratic_stratocracy:0 "Federal Magocratic Stratocracy"
+ gov_federal_magocratic_stratocracy_desc:0 "A government headed by military chiefs. The branches of government are administered by military forces, the government is legal under the laws of the jurisdiction at issue, and is usually carried out by military workers."
+ gov_confederal_chiefdom:0 "Confederal Chiefdom"
+ gov_confederal_chiefdom_desc:0 "A confederal chiefdom is a form of hierarchical political organization in the craftworld societies usually based on kinship, and in which formal leadership is monopolized by the legitimate senior members of select families which called Autarchs. These elites form a political-ideological aristocracy relative to the of the military aspects of Eldar society."
+ gov_libertarian_meritocracy:0 "Libertarian Meritocracy"
+ gov_libertarian_meritocracy_desc:0 "A government holds on a political system in which economic goods and political power are vested in individual people on the basis of talent, effort, and achievement, rather than wealth or social class."
+ gov_theocratic_confederation:0 "Unitary Authoritarian Semi-Theocratic Confederation"
+ gov_theocratic_confederation_desc:0 ""
+ gov_meritocratic_tetrarchy:0 "Meritocratic Tetrarchy"
+ gov_meritocratic_tetrarchy_desc:0 ""
+ gov_anarcho_tribalism:0 "Anarcho-Tribalism"
+ gov_anarcho_tribalism_desc:0 ""
+ 
+ ####################################
+ # Rulers
+ ####################################
+ RT_BIGBOSS:0 "Big Boss"
+ 
+ ####################################
  # Ethics
  ####################################
  ethic_imp:0 "Astartes"
@@ -32,14 +77,7 @@
  ####################################
  # Flags
  ####################################
- FLAG_CATEGORY_factions:0 "Factions"
- FLAG_CATEGORY_legions:0 "Legions"
- FLAG_CATEGORY_tyranid:0 "Tyranid"
- FLAG_CATEGORY_darkeldar:0 "Dark Eldar"
- FLAG_CATEGORY_eldar:0 "Eldar"
- FLAG_CATEGORY_ork:0 "Ork"
- FLAG_CATEGORY_tau:0 "Tau"
- FLAG_CATEGORY_misc:0 "40k"
+ FLAG_CATEGORY_armada:0 "Armada"
  
  ####################################
  # Species Classes
@@ -192,14 +230,14 @@
  ####################################
  
  pc_orkworld_tile:0 "Ork World"
- pc_orkworld_tile_desc:0 Ork World"
+ pc_orkworld_tile_desc:0 "Ork World"
  pc_orkworld:0 "Ork World"
  pc_orkworld_desc:0 "Ork World"
  orkworld_planet:0 "Ork World"
  orkworld_planet_desc:0 "Ork World"
 
  pc_advancexenocity_tile:0 "Advance Xeno World"
- pc_advancexenocity_tile_desc:0 Advance Xeno World"
+ pc_advancexenocity_tile_desc:0 "Advance Xeno World"
  pc_advancexenocity:0 "Advance Xeno World"
  pc_advancexenocity_desc:0 "Advance Xeno World"
  advancexenocity_planet:0 "Advance Xeno World"
@@ -208,7 +246,7 @@
  advancexenocity_planet:0 "Advance Xeno World"
  
  pc_advancexenocityy_tile:0 "Advance Xeno World"
- pc_advancexenocityy_tile_desc:0 Advance Xeno World"
+ pc_advancexenocityy_tile_desc:0 "Advance Xeno World"
  pc_advancexenocityy:0 "Advance Xeno World"
  pc_advancexenocityy_desc:0 "Advance Xeno World"
  advancexenocityy_planet:0 "Advance Xeno World"
@@ -217,7 +255,7 @@
  advancexenocityy_planet:0 "Advance Xeno World"
  
  pc_advancexenocityyy_tile:0 "Advance Xeno World"
- pc_advancexenocityyy_tile_desc:0 Advance Xeno World"
+ pc_advancexenocityyy_tile_desc:0 "Advance Xeno World"
  pc_advancexenocityyy:0 "Advance Xeno World"
  pc_advancexenocityyy_desc:0 "Advance Xeno World"
  advancexenocityyy_planet:0 "Advance Xeno World"

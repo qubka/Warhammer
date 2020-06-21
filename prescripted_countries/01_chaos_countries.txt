@@ -21,9 +21,9 @@ alpha_legion = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xx" "civic_extremly_secretive" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -88,9 +88,9 @@ black_legion = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xvi" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -155,9 +155,9 @@ death_guard = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xiv" "civic_nurgle_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -222,9 +222,9 @@ emperor_children = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_iii" "civic_slaanesh_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -289,9 +289,9 @@ iron_warrior = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_iv" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -356,9 +356,9 @@ night_lords = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_viii" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -423,9 +423,9 @@ red_corsairs = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_chaos_corsairs" "civic_warrior_culture" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -482,6 +482,7 @@ thousand_sons = {
 		plural = "PRESCRIPTED_species_plural_thousand_sons"
 		adjective = "PRESCRIPTED_species_adjective_thousand_sons"
 		name_list = "CHAOS1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_intelligent"
 		trait = "trait_quick_learners"
@@ -490,9 +491,9 @@ thousand_sons = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xv" "civic_tzeentch_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -557,9 +558,9 @@ word_bearer = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xvii" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -624,9 +625,9 @@ world_eater = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xii" "civic_khorne_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"

@@ -18,7 +18,6 @@ blood_axe_homeworld = {
 		
 		root = { set_country_flag = the_blood_axe }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 		
 	planet = {

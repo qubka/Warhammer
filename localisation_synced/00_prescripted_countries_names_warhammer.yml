@@ -285,18 +285,18 @@
  PRESCRIPTED_species_adjective_dark_ynnari:0 "Druchi"
  PRESCRIPTED_planet_name_dark_ynnari:0 "Commorragh"
  PRESCRIPTED_system_name_dark_ynnari:0 "Ghoul Stars"
- PRESCRIPTED_ruler_name_dark_ynnari:0 "?"
- PRESCRIPTED_ruler_title_dark_ynnari:0 "Lord"
+ PRESCRIPTED_ruler_name_dark_ynnari:0 "Lord Xelian"
+ PRESCRIPTED_ruler_title_dark_ynnari:0 "Archon"
  ###
  PRESCRIPTED_adjective_the_severed:0 "Druchi"
  PRESCRIPTED_ship_prefix_the_severed:0 "TS"
  PRESCRIPTED_species_name_the_severed:0 "Druchi"
- PRESCRIPTED_species_plural_the_severed:0 "?"Druchis
+ PRESCRIPTED_species_plural_the_severed:0 "Druchis"
  PRESCRIPTED_species_adjective_the_severed:0 "Druchi"
  PRESCRIPTED_planet_name_the_severed:0 "Dynathi"
  PRESCRIPTED_system_name_the_severed:0 "Maelstrom"
- PRESCRIPTED_ruler_name_the_severed:0 "?"
- PRESCRIPTED_ruler_title_the_severed:0 "Lord"
+ PRESCRIPTED_ruler_name_the_severed:0 "Ariensis"
+ PRESCRIPTED_ruler_title_the_severed:0 "Archon"
  ###
  PRESCRIPTED_adjective_last_hatred:0 "Druchi"
  PRESCRIPTED_ship_prefix_last_hatred:0 "LH"
@@ -305,8 +305,8 @@
  PRESCRIPTED_species_adjective_last_hatred:0 "Druchi"
  PRESCRIPTED_planet_name_last_hatred:0 "Redemption"
  PRESCRIPTED_system_name_last_hatred:0 "Halo Stars"
- PRESCRIPTED_ruler_name_last_hatred:0 "?"
- PRESCRIPTED_ruler_title_last_hatred:0 "Lord"
+ PRESCRIPTED_ruler_name_last_hatred:0 "Thyndrak"
+ PRESCRIPTED_ruler_title_last_hatred:0 "Archon"
  ###
  PRESCRIPTED_adjective_iron_thorn:0 "Druchi"
  PRESCRIPTED_ship_prefix_iron_thorn:0 "IT"
@@ -315,8 +315,8 @@
  PRESCRIPTED_species_adjective_iron_thorn:0 "Druchi"
  PRESCRIPTED_planet_name_iron_thorn:0 "Jondl"
  PRESCRIPTED_system_name_iron_thorn:0 "Eastern Fringe"
- PRESCRIPTED_ruler_name_iron_thorn:0 "?"
- PRESCRIPTED_ruler_title_iron_thorn:0 "Lord"
+ PRESCRIPTED_ruler_name_iron_thorn:0 "Qu"
+ PRESCRIPTED_ruler_title_iron_thorn:0 "Archon"
  ###
  PRESCRIPTED_adjective_flayed_skull:0 "Druchi"
  PRESCRIPTED_ship_prefix_flayed_skull:0 "FS"
@@ -325,8 +325,8 @@
  PRESCRIPTED_species_adjective_flayed_skull:0 "Druchi"
  PRESCRIPTED_planet_name_flayed_skull:0 "Aleusis"
  PRESCRIPTED_system_name_flayed_skull:0 "Segmentum Tempestus"
- PRESCRIPTED_ruler_name_flayed_skull:0 "?"
- PRESCRIPTED_ruler_title_flayed_skull:0 "Lord"
+ PRESCRIPTED_ruler_name_flayed_skull:0 "Lord Vraesque"
+ PRESCRIPTED_ruler_title_flayed_skull:0 "Archon"
  ###
  PRESCRIPTED_adjective_dying_sun:0 "Druchi"
  PRESCRIPTED_ship_prefix_dying_sun:0 "DS"
@@ -335,8 +335,8 @@
  PRESCRIPTED_species_adjective_dying_sun:0 "Druchi"
  PRESCRIPTED_planet_name_dying_sun:0 "Andalezja"
  PRESCRIPTED_system_name_dying_sun:0 "Halo Stars"
- PRESCRIPTED_ruler_name_dying_sun:0 "?"
- PRESCRIPTED_ruler_title_dying_sun:0 "Lord"
+ PRESCRIPTED_ruler_name_dying_sun:0 "Vorl-Xoelanth"
+ PRESCRIPTED_ruler_title_dying_sun:0 "Archon"
  ###
  PRESCRIPTED_adjective_broken_sigil:0 "Druchi"
  PRESCRIPTED_ship_prefix_broken_sigil:0 "BS"
@@ -345,8 +345,8 @@
  PRESCRIPTED_species_adjective_broken_sigil:0 "Druchi"
  PRESCRIPTED_planet_name_broken_sigil:0 "Ebucrosie"
  PRESCRIPTED_system_name_broken_sigil:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_broken_sigil:0 "?"
- PRESCRIPTED_ruler_title_broken_sigil:0 "Lord"
+ PRESCRIPTED_ruler_name_broken_sigil:0 "Xerathis"
+ PRESCRIPTED_ruler_title_broken_sigil:0 "Archon"
  ###
  PRESCRIPTED_adjective_black_heart:0 "Druchi"
  PRESCRIPTED_ship_prefix_black_heart:0 "BH"
@@ -355,8 +355,8 @@
  PRESCRIPTED_species_adjective_black_heart:0 "Druchi"
  PRESCRIPTED_planet_name_black_heart:0 "Anfenga"
  PRESCRIPTED_system_name_black_heart:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_black_heart:0 "?"
- PRESCRIPTED_ruler_title_black_heart:0 "Lord"
+ PRESCRIPTED_ruler_name_black_heart:0 "Asdrubael Vect"
+ PRESCRIPTED_ruler_title_black_heart:0 "Archon"
  
 # GOF
  ###
@@ -368,7 +368,7 @@
  PRESCRIPTED_planet_name_goff:0 "Golgotha"
  PRESCRIPTED_system_name_goff:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_goff:0 "Ghazghkull Mag Uruk Thraka"
- PRESCRIPTED_ruler_title_goff:0 "Boss"
+ PRESCRIPTED_ruler_title_goff:0 "Big Boss"
  ###
  PRESCRIPTED_adjective_evil_sunz:0 "Ork"
  PRESCRIPTED_ship_prefix_evil_sunz:0 "ES"
@@ -378,7 +378,7 @@
  PRESCRIPTED_planet_name_evil_sunz:0 "Gathalamorr"
  PRESCRIPTED_system_name_evil_sunz:0 "Segmentum Solar"
  PRESCRIPTED_ruler_name_evil_sunz:0 "Wazdakka Gutsmek"
- PRESCRIPTED_ruler_title_evil_sunz:0 "Boss"
+ PRESCRIPTED_ruler_title_evil_sunz:0 "Big Boss"
  ###
  PRESCRIPTED_adjective_death_skullz:0 "Ork"
  PRESCRIPTED_ship_prefix_death_skullz:0 "DS"
@@ -388,7 +388,7 @@
  PRESCRIPTED_planet_name_death_skullz:0 "Chrax"
  PRESCRIPTED_system_name_death_skullz:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_death_skullz:0 "Gorgrok Killfist"
- PRESCRIPTED_ruler_title_death_skullz:0 "Boss"
+ PRESCRIPTED_ruler_title_death_skullz:0 "Big Boss"
  ###
  PRESCRIPTED_adjective_blood_axe:0 "Ork"
  PRESCRIPTED_ship_prefix_blood_axe:0 "BA"
@@ -398,7 +398,7 @@
  PRESCRIPTED_planet_name_blood_axe:0 "Grog"
  PRESCRIPTED_system_name_blood_axe:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_blood_axe:0 "Badfragg"
- PRESCRIPTED_ruler_title_blood_axe:0 "Boss"
+ PRESCRIPTED_ruler_title_blood_axe:0 "Big Boss"
  ###
  PRESCRIPTED_adjective_big_mek:0 "Ork"
  PRESCRIPTED_ship_prefix_big_mek:0 "BM"
@@ -408,7 +408,7 @@
  PRESCRIPTED_planet_name_big_mek:0 "Gorbad"
  PRESCRIPTED_system_name_big_mek:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_big_mek:0 "Garmek Oil-Guzzler"
- PRESCRIPTED_ruler_title_big_mek:0 "Boss"
+ PRESCRIPTED_ruler_title_big_mek:0 "Big Boss"
  ###
  PRESCRIPTED_adjective_big_boss:0 "Ork"
  PRESCRIPTED_ship_prefix_big_boss:0 "BB"
@@ -418,7 +418,7 @@
  PRESCRIPTED_planet_name_big_boss:0 "Chrisios"
  PRESCRIPTED_system_name_big_boss:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_big_boss:0 "Morkrog"
- PRESCRIPTED_ruler_title_big_boss:0 "Boss"
+ PRESCRIPTED_ruler_title_big_boss:0 "Big Boss"
  ###
  PRESCRIPTED_adjective_bad_moons:0 "Ork"
  PRESCRIPTED_ship_prefix_bad_moons:0 "BM"
@@ -428,7 +428,7 @@
  PRESCRIPTED_planet_name_bad_moons:0 "Nazdreg"
  PRESCRIPTED_system_name_bad_moons:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_bad_moons:0 "Nazdreg Ug Urdgrub"
- PRESCRIPTED_ruler_title_bad_moons:0 "Boss"
+ PRESCRIPTED_ruler_title_bad_moons:0 "Big Boss"
  
 # TYR
  ###
@@ -614,7 +614,7 @@
  PRESCRIPTED_planet_name_dalyth:0 "Dal'yth"
  PRESCRIPTED_system_name_dalyth:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_dalyth:0 "?"
- PRESCRIPTED_ruler_title_dalyth:0 "Leader"
+ PRESCRIPTED_ruler_title_dalyth:0 "Council"
  ###
  PRESCRIPTED_adjective_farsight:0 "Tau"
  PRESCRIPTED_ship_prefix_farsight:0 "FS"
@@ -624,7 +624,7 @@
  PRESCRIPTED_planet_name_farsight:0 "Enclave Base"
  PRESCRIPTED_system_name_farsight:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_farsight:0 "?"
- PRESCRIPTED_ruler_title_farsight:0 "Leader"
+ PRESCRIPTED_ruler_title_farsight:0 "Warlord"
  ###
  PRESCRIPTED_adjective_sacea:0 "Tau"
  PRESCRIPTED_ship_prefix_sacea:0 "SS"
@@ -634,7 +634,7 @@
  PRESCRIPTED_planet_name_sacea:0 "Sa'cea"
  PRESCRIPTED_system_name_sacea:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_sacea:0 "?"
- PRESCRIPTED_ruler_title_sacea:0 "Leader"
+ PRESCRIPTED_ruler_title_sacea:0 "Council"
  ###
  PRESCRIPTED_adjective_tau:0 "Tau"
  PRESCRIPTED_ship_prefix_tau:0 "TA"
@@ -644,7 +644,7 @@
  PRESCRIPTED_planet_name_tau:0 "T'au"
  PRESCRIPTED_system_name_tau:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_tau:0 "?"
- PRESCRIPTED_ruler_title_tau:0 "Leader"
+ PRESCRIPTED_ruler_title_tau:0 "Council"
  ###
  PRESCRIPTED_adjective_taun:0 "Tau"
  PRESCRIPTED_ship_prefix_taun:0 "TN"
@@ -654,7 +654,7 @@
  PRESCRIPTED_planet_name_taun:0 "Tau'n"
  PRESCRIPTED_system_name_taun:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_taun:0 "?"
- PRESCRIPTED_ruler_title_taun:0 "Leader"
+ PRESCRIPTED_ruler_title_taun:0 "Council"
  ###
  PRESCRIPTED_adjective_dyanoi:0 "Tau"
  PRESCRIPTED_ship_prefix_dyanoi:0 "DI"
@@ -664,4 +664,4 @@
  PRESCRIPTED_planet_name_dyanoi:0 "D'yanoi"
  PRESCRIPTED_system_name_dyanoi:0 "Ultima Segmentum"
  PRESCRIPTED_ruler_name_dyanoi:0 "?"
- PRESCRIPTED_ruler_title_dyanoi:0 "Leader"
+ PRESCRIPTED_ruler_title_dyanoi:0 "Council"

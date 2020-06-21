@@ -18,7 +18,6 @@ temeryn_homeworld = {
 		
 		root = { set_country_flag = the_temeryn }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 		
 	planet = {
