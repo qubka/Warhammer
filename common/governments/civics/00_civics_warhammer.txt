@@ -28,9 +28,48 @@
 
 # IMP
 
-civic_senatorum_imperialis
+civic_senatorum_imperialis = {
+	possible = {
+		authority = {
+			value = auth_imp_mankind
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+		}
+	}
+	modifier = {
+		country_edict_cap_add = 1
+		edicts_cost_mult = -0.25
+	}
+}
 
-civic_imperialcult_fanatics
+civic_imperialcult_fanatics = {
+	possible = {
+		authority = {
+			value = auth_imp_mankind
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+		}
+	}
+	modifier = {
+		country_edict_cap_add = 1
+		edicts_cost_mult = -0.25
+	}
+}
 
 civic_horde_traditions
 
@@ -165,7 +204,3 @@ civic_trader_friendly
 civic_rustic_population
 
 civic_high_education
-
-
-
-
