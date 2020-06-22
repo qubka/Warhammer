@@ -2,12 +2,13 @@ mankind = {
 	name = "Imperium of Man"
 	adjective = "PRESCRIPTED_adjective_mankind"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_mankind"
 	
 	species = {
 		class = "IMP"
-		portrait = "imp_mankind"
+		portrait = "imp_navy"
 		name = "PRESCRIPTED_species_name_mankind"
 		plural = "PRESCRIPTED_species_plural_mankind"
 		adjective = "PRESCRIPTED_species_adjective_mankind"
@@ -20,9 +21,9 @@ mankind = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_mankind"
+	civics = { "civic_senatorum_imperialis" "civic_imperialcult_fanatics" }
+	government = "gov_theocratic_confederation"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -38,8 +39,8 @@ mankind = {
 	
 	empire_flag = {
 		icon = {
-			category = "misc"
-			file = "40k-aquila.dds"
+			category = "armada"
+			file = "TX_GUI_Logo_Faction_IMP.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -68,6 +69,7 @@ white_scars = {
 	name = "White Scars"
 	adjective = "PRESCRIPTED_adjective_white_scars"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_white_scars"
 	
@@ -86,9 +88,9 @@ white_scars = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_v" "civic_horde_traditions" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -104,8 +106,8 @@ white_scars = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-white-scars.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_WhiteScars.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -134,6 +136,7 @@ ultra_marines = {
 	name = "Ultra Marines"
 	adjective = "PRESCRIPTED_adjective_ultra_marines"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_ultra_marines"
 	
@@ -152,9 +155,9 @@ ultra_marines = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_xiii" "civic_imperium_secundus" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -170,8 +173,8 @@ ultra_marines = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-ultramarines.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_Ultramarines.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -200,6 +203,7 @@ space_wolfes = {
 	name = "Space Wolfes"
 	adjective = "PRESCRIPTED_adjective_space_wolfes"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_space_wolfes"
 	
@@ -218,9 +222,9 @@ space_wolfes = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_vi" "civic_barbarian_culture" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -236,8 +240,8 @@ space_wolfes = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-space-wolfs.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_SpaceWolfes.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -266,6 +270,7 @@ salamanders = {
 	name = "Salamanders"
 	adjective = "PRESCRIPTED_adjective_salamanders"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_salamanders"
 	
@@ -284,9 +289,9 @@ salamanders = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_xviii" "civic_blacksmith_culture" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -302,8 +307,8 @@ salamanders = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-salamanders.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_Salamanders.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -332,6 +337,7 @@ raven_guard = {
 	name = "Raven Guard"
 	adjective = "PRESCRIPTED_adjective_raven_guard"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_raven_guard"
 	
@@ -350,9 +356,9 @@ raven_guard = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_xix" "civic_production_guilds" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -368,8 +374,8 @@ raven_guard = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-raven-guard.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_RavenGuards.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -398,6 +404,7 @@ iron_hand = {
 	name = "Iron Hand"
 	adjective = "PRESCRIPTED_adjective_iron_hand"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_hand"
 	
@@ -416,9 +423,9 @@ iron_hand = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_x" "civic_interclans_rivalry" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -434,8 +441,8 @@ iron_hand = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-iron-hands.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_IronHands.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -464,6 +471,7 @@ imperial_fist = {
 	name = "Imperial Fist"
 	adjective = "PRESCRIPTED_adjective_imperial_fist"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_imperial_fist"
 	
@@ -482,9 +490,9 @@ imperial_fist = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_vii" "civic_chosen_by_the_emperor" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -500,8 +508,8 @@ imperial_fist = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-imperial-fists.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_ImperialFist.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -530,6 +538,7 @@ dark_angles = {
 	name = "Dark Angles"
 	adjective = "PRESCRIPTED_adjective_dark_angles"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_dark_angles"
 	
@@ -548,9 +557,9 @@ dark_angles = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_i" "civic_chivalric_traditions" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -566,8 +575,8 @@ dark_angles = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-dark-angels.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_DarkAngels.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -596,6 +605,7 @@ blood_angles = {
 	name = "Blood Angles"
 	adjective = "PRESCRIPTED_adjective_blood_angles"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_blood_angles"
 	
@@ -614,9 +624,9 @@ blood_angles = {
 	
 	room = "personality_evangelizing_zealots_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_aristocratic_elite" "civic_mining_guilds" }
-	government = "gov_star_empire"
+	authority = "auth_imp_dominion"
+	civics = { "civic_ix" "civic_tribal_culture" }
+	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -632,8 +642,8 @@ blood_angles = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-blood-dragons1.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SM_BloodAngels.dds"
 		}
 		background = {
 			category = "backgrounds"

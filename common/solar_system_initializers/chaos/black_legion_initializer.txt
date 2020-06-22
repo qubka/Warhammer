@@ -13,9 +13,15 @@ black_legion_homeworld = {
 	flags = { empire_home_system }
 
 	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
 		root = { set_country_flag = the_black_legion }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 		
 	planet = {
@@ -51,10 +57,18 @@ black_legion_homeworld = {
 		modifiers = none
 
 		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_black_legion
+				}
+				save_event_target_as = the_black_legion
+			}
+
+			set_owner = event_target:the_black_legion
+			set_controller = event_target:the_black_legion
 			set_capital = yes
 			set_planet_flag = spacemarinehomeworld
-			
-			generate_empire_home_planet = yes
+
 			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes

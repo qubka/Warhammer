@@ -2,6 +2,7 @@ dalyth = {
 	name = "Dalyth"
 	adjective = "PRESCRIPTED_adjective_dalyth"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dalyth"
 
@@ -20,9 +21,9 @@ dalyth = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_free_haven" "civic_trader_friendly" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -30,7 +31,7 @@ dalyth = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_dalyth }
 	planet_name = "PRESCRIPTED_planet_name_dalyth"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_advancexenocityy"
 	system_name = "PRESCRIPTED_system_name_dalyth"
 
 	graphical_culture = "humanoid_01"
@@ -38,15 +39,15 @@ dalyth = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-dalyth.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_DalYth.dds"
 		}
 		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
 		colors = {
-			"orange"
+			"grey"
 			"black"
 			"null"
 			"null"
@@ -68,6 +69,7 @@ farsight = {
 	name = "Farsight"
 	adjective = "PRESCRIPTED_adjective_farsight"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_farsight"
 
@@ -86,9 +88,9 @@ farsight = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_farsight_enclaves" "civic_warrior_culture" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -96,7 +98,7 @@ farsight = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_farsight }
 	planet_name = "PRESCRIPTED_planet_name_farsight"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_farsight"
 
 	graphical_culture = "humanoid_01"
@@ -104,8 +106,8 @@ farsight = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-farsight.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_FarsightEnclave.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -134,6 +136,7 @@ sacea = {
 	name = "Sacea"
 	adjective = "PRESCRIPTED_adjective_sacea"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_sacea"
 
@@ -152,9 +155,9 @@ sacea = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_warrior_culture" "civic_shadow_council" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -162,7 +165,7 @@ sacea = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_sacea }
 	planet_name = "PRESCRIPTED_planet_name_sacea"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_advancexenocityy"
 	system_name = "PRESCRIPTED_system_name_sacea"
 
 	graphical_culture = "humanoid_01"
@@ -170,8 +173,8 @@ sacea = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-sacea.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_SaCea.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -200,6 +203,7 @@ tau = {
 	name = "Tau"
 	adjective = "PRESCRIPTED_adjective_tau"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_tau"
 
@@ -218,9 +222,9 @@ tau = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_free_haven" "civic_high_education" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -236,15 +240,15 @@ tau = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-tau.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_Tau.dds"
 		}
 		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
 		colors = {
-			"purple"
+			"brown"
 			"black"
 			"null"
 			"null"
@@ -266,6 +270,7 @@ taun = {
 	name = "Taun"
 	adjective = "PRESCRIPTED_adjective_taun"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_taun"
 
@@ -284,9 +289,9 @@ taun = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
+	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -294,7 +299,7 @@ taun = {
 	ethic = "ethic_materialist"
 	flags = { tau_empire the_taun }
 	planet_name = "PRESCRIPTED_planet_name_taun"
-	planet_class = "pc_advancexenocity"
+	planet_class = "pc_advancexenocityyy"
 	system_name = "PRESCRIPTED_system_name_taun"
 
 	graphical_culture = "humanoid_01"
@@ -302,15 +307,15 @@ taun = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-taun.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_TauN.dds"
 		}
 		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
 		colors = {
-			"teal"
+			"dark_grey"
 			"black"
 			"null"
 			"null"
@@ -332,6 +337,7 @@ dyanoi = {
 	name = "Dyanoi"
 	adjective = "PRESCRIPTED_adjective_dyanoi"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dyanoi"
 
@@ -350,9 +356,9 @@ dyanoi = {
 
 	room = "personality_migrating_flock_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_free_haven" "civic_shadow_council" }
-	government = "gov_executive_committee"
+	authority = "auth_tau"
+	civics = { "civic_rustic_population" "civic_warrior_culture" }
+	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
 	ethic = "ethic_egalitarian"
@@ -368,15 +374,15 @@ dyanoi = {
 
 	empire_flag = {
 		icon = {
-			category = "tau"
-			file = "40k-dyanoi.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_MF_DYnaoi.dds"
 		}
 		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
 		colors = {
-			"grey"
+			"turquoise"
 			"black"
 			"null"
 			"null"

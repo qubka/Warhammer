@@ -17,7 +17,7 @@ NEC = {
 	leader_age_max = 1000
 	
     portraits = {
-        "necron_cryptek"
+        "necron_overlord"
     }   
 	
 	graphical_culture = ai_01

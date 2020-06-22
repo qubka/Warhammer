@@ -15,6 +15,18 @@ portraits = {
 	IMP_DarkAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_DarkAngles_ruler.dds" }
 	IMP_BloodAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_BloodAngles_ruler.dds" }
 	IMP_Emperor_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Emperor_ruler.dds" }
+	IMP_Navy_ruler1 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler1.dds" }
+	IMP_Navy_ruler2 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler2.dds" }
+	IMP_Navy_ruler3 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler3.dds" }
+	IMP_Navy_ruler4 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler4.dds" }
+	IMP_Navy_ruler5 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler5.dds" }
+	IMP_Navy_ruler6 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler6.dds" }
+	IMP_Mechanicus_ruler1 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler1.dds" }
+	IMP_Mechanicus_ruler2 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler2.dds" }
+	IMP_Mechanicus_ruler3 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler3.dds" }
+	IMP_Mechanicus_ruler4 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler4.dds" }
+	IMP_Mechanicus_ruler5 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler5.dds" }
+	IMP_Mechanicus_ruler6 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler6.dds" }
 	
 	# CHA
 	CHAOS_AlphaLegion_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_AlphaLegion_ruler.dds" }
@@ -75,7 +87,15 @@ portraits = {
 	TYR_Tiamet_ruler = { texturefile = "gfx/portraits/warhammer/TYR_Tiamet_ruler.dds" }
 	
 	# NEC
-	NECRON_Cryptek_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Cryptek_ruler.dds" }
+	NECRON_Charnovokh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Charnovokh_ruler.dds" }
+	NECRON_Mephrit_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Mephrit_ruler.dds" }
+	NECRON_Nepheru_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Nepheru_ruler.dds" }
+	NECRON_Nephrekh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Nephrekh_ruler.dds" }
+	NECRON_Nihiliakh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Nihiliakh_ruler.dds" }
+	NECRON_Novokh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Novokh_ruler.dds" }
+	NECRON_Sautekh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Sautekh_ruler.dds" }
+	NECRON_Temeryn_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Temeryn_ruler.dds" }
+	NECRON_Thokt_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Thokt_ruler.dds" }
 	
 	####################################
 	# Pop Arts

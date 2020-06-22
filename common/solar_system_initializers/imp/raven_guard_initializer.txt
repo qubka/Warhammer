@@ -13,9 +13,15 @@ raven_guard_homeworld = {
 	usage = misc_system_init
 	
 	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
 		root = { set_country_flag = the_raven_guard }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 	
 	planet = {
@@ -56,7 +62,7 @@ raven_guard_homeworld = {
 		moon = {
 			name = "Deliverance"
 			class = "pc_fortress"
-			orbit_distance = 8
+			orbit_distance = 15
 			orbit_angle = { min = 90 max = 270 }
 			size = 15
 			has_ring = no
@@ -66,10 +72,18 @@ raven_guard_homeworld = {
 			modifiers = none
 			
 			init_effect = {
+				every_country = {
+					limit = {
+						has_country_flag = the_raven_guard
+					}
+					save_event_target_as = the_raven_guard
+				}
+
+				set_owner = event_target:the_raven_guard
+				set_controller = event_target:the_raven_guard
 				set_capital = yes
 				set_planet_flag = spacemarinehomeworld
 
-				generate_empire_home_planet = yes
 				generate_start_buildings_and_districts = yes
 				generate_start_pops = yes
 				prevent_anomaly = yes

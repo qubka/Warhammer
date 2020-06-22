@@ -1,16 +1,17 @@
-cryptek = {
-	name = "Cryptek"
-	adjective = "PRESCRIPTED_adjective_cryptek"
+charnovokh = {
+	name = "Charnovokh"
+	adjective = "PRESCRIPTED_adjective_charnovokh"
 	spawn_enabled = always # yes / no / always
-	
-	ship_prefix = "PRESCRIPTED_ship_prefix_cryptek"
-	
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_charnovokh"
+
 	species = {
 		class = "NEC"
-		portrait = "necron_cryptek"
-		name = "PRESCRIPTED_species_name_cryptek"
-		plural = "PRESCRIPTED_species_plural_cryptek"
-		adjective = "PRESCRIPTED_species_adjective_cryptek"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_charnovokh"
+		plural = "PRESCRIPTED_species_plural_charnovokh"
+		adjective = "PRESCRIPTED_species_adjective_charnovokh"
 		name_list = "NECRON1"
 		trait = "trait_machine_unit"
 		trait = "trait_robot_power_drills"
@@ -18,27 +19,27 @@ cryptek = {
 		trait = "trait_robot_uncanny"
 		trait = "trait_robot_bulky"
 	}
-	
+
 	room = "machine_room"
-	
+
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
 	government = "gov_star_empire"
 	origin = "origin_default"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { necron_empire the_cryptek }
-	planet_name = "PRESCRIPTED_planet_name_cryptek"
+	flags = { the_charnovokh }
+	planet_name = "PRESCRIPTED_planet_name_charnovokh"
 	planet_class = "pc_tomb"
-	system_name = "PRESCRIPTED_system_name_cryptek"
-	
+	system_name = "PRESCRIPTED_system_name_charnovokh"
+
 	graphical_culture = "humanoid_01"
 	city_graphical_culture = "fallen_machine_empire_01"
-	
+
 	empire_flag = {
 		icon = {
-			category = "misc"
-			file = "40k-necron1.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Charnovokh.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -51,14 +52,542 @@ cryptek = {
 			"null"
 		}
 	}
-	
+
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_cryptek"
+		name = "PRESCRIPTED_ruler_name_charnovokh"
 		gender = male
-		portrait = "NECRON_Cryptek_ruler"
+		portrait = "NECRON_Charnovokh_ruler"
 		texture = 0
 		clothes = 0
 		leader_class = ruler
-		ruler_title = "PRESCRIPTED_ruler_title_cryptek"
+		ruler_title = "PRESCRIPTED_ruler_title_charnovokh"
+	}
+}
+
+mephrit = {
+	name = "Mephrit"
+	adjective = "PRESCRIPTED_adjective_mephrit"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_mephrit"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_mephrit"
+		plural = "PRESCRIPTED_species_plural_mephrit"
+		adjective = "PRESCRIPTED_species_adjective_mephrit"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_mephrit }
+	planet_name = "PRESCRIPTED_planet_name_mephrit"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_mephrit"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Mephrit.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_mephrit"
+		gender = male
+		portrait = "NECRON_Mephrit_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_mephrit"
+	}
+}
+
+nepheru = {
+	name = "Nepheru"
+	adjective = "PRESCRIPTED_adjective_nepheru"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_nepheru"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_nepheru"
+		plural = "PRESCRIPTED_species_plural_nepheru"
+		adjective = "PRESCRIPTED_species_adjective_nepheru"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_nepheru }
+	planet_name = "PRESCRIPTED_planet_name_nepheru"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_nepheru"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Nepheru.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_nepheru"
+		gender = male
+		portrait = "NECRON_Nepheru_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_nepheru"
+	}
+}
+
+nephrekh = {
+	name = "Nephrekh"
+	adjective = "PRESCRIPTED_adjective_nephrekh"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_nephrekh"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_nephrekh"
+		plural = "PRESCRIPTED_species_plural_nephrekh"
+		adjective = "PRESCRIPTED_species_adjective_nephrekh"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_nephrekh }
+	planet_name = "PRESCRIPTED_planet_name_nephrekh"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_nephrekh"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Nephrekh.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_nephrekh"
+		gender = male
+		portrait = "NECRON_Nephrekh_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_nephrekh"
+	}
+}
+
+nihiliakh = {
+	name = "Nihiliakh"
+	adjective = "PRESCRIPTED_adjective_nihiliakh"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_nihiliakh"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_nihiliakh"
+		plural = "PRESCRIPTED_species_plural_nihiliakh"
+		adjective = "PRESCRIPTED_species_adjective_nihiliakh"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_nihiliakh }
+	planet_name = "PRESCRIPTED_planet_name_nihiliakh"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_nihiliakh"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Nihiliakh.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_nihiliakh"
+		gender = male
+		portrait = "NECRON_Nihiliakh_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_nihiliakh"
+	}
+}
+
+novokh = {
+	name = "Novokh"
+	adjective = "PRESCRIPTED_adjective_novokh"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_novokh"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_novokh"
+		plural = "PRESCRIPTED_species_plural_novokh"
+		adjective = "PRESCRIPTED_species_adjective_novokh"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_novokh }
+	planet_name = "PRESCRIPTED_planet_name_novokh"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_novokh"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Novokh.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_novokh"
+		gender = male
+		portrait = "NECRON_Novokh_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_novokh"
+	}
+}
+
+sautekh = {
+	name = "Sautekh"
+	adjective = "PRESCRIPTED_adjective_sautekh"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_sautekh"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_sautekh"
+		plural = "PRESCRIPTED_species_plural_sautekh"
+		adjective = "PRESCRIPTED_species_adjective_sautekh"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_sautekh }
+	planet_name = "PRESCRIPTED_planet_name_sautekh"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_sautekh"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Sautekh.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sautekh"
+		gender = male
+		portrait = "NECRON_Sautekh_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_sautekh"
+	}
+}
+
+temeryn = {
+	name = "Temeryn"
+	adjective = "PRESCRIPTED_adjective_temeryn"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_temeryn"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_temeryn"
+		plural = "PRESCRIPTED_species_plural_temeryn"
+		adjective = "PRESCRIPTED_species_adjective_temeryn"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_temeryn }
+	planet_name = "PRESCRIPTED_planet_name_temeryn"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_temeryn"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Temeryn.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_temeryn"
+		gender = male
+		portrait = "NECRON_Temeryn_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_temeryn"
+	}
+}
+
+thokt = {
+	name = "Thokt"
+	adjective = "PRESCRIPTED_adjective_thokt"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_thokt"
+
+	species = {
+		class = "NEC"
+		portrait = "necron_overlord"
+		name = "PRESCRIPTED_species_name_thokt"
+		plural = "PRESCRIPTED_species_plural_thokt"
+		adjective = "PRESCRIPTED_species_adjective_thokt"
+		name_list = "NECRON1"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_power_drills"
+		trait = "trait_robot_mass_produced"
+		trait = "trait_robot_uncanny"
+		trait = "trait_robot_bulky"
+	}
+
+	room = "machine_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	government = "gov_star_empire"
+	origin = "origin_default"
+
+	ethic = "ethic_gestalt_consciousness"
+	flags = { the_thokt }
+	planet_name = "PRESCRIPTED_planet_name_thokt"
+	planet_class = "pc_tomb"
+	system_name = "PRESCRIPTED_system_name_thokt"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fallen_machine_empire_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_NECRON_Thokt.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_thokt"
+		gender = male
+		portrait = "NECRON_Thokt_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_thokt"
 	}
 }

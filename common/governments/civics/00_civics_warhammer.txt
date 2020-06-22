@@ -1,0 +1,171 @@
+#civic_example = {
+#	playable = {}								# AND trigger, no scope; use this to prevent the civic from being selectable by the player (UI)
+#	potential = {}								# requirements list, see ../readme_requirements.txt
+#	possible = {}								# requirements list, see ../readme_requirements.txt
+#	pickable_at_start = yes / no				# default: yes
+#	modification = yes / no						# default: yes, set to no to prevent adding or removing this after creation of the empire
+#
+#	random_weight = { base = 5 }				# scriptable weight for randomizing a civic; required, else the civic will not get assigned randomly
+#
+#	modifier = {}								# modifier added to the country if the civic is selected and valid
+#	can_build_ruler_ship = yes / no				# default: no
+#	traits = { trait = ... }					# default: empty; trait set to enforce on the primary species. They cannot be removed, but more can be added if points/picks permit
+#	has_secondary_species = {					# default: none; if present, will enable secondary species customization in empire designer and will create secondary species & pops at galaxy generation time (see empire_init_create_capital_secondary_pops)
+#		traits = { trait = ... }					# default: empty; trait set to enforce on the secondary species. They cannot be removed, but more can be added if points/picks permit
+#	}
+#	is_origin = yes / no 						# default: no, set to yes if civic should be treated as an Origin
+#
+#	swap_type = {								# triggered name/desc/custom desc based on species class, no scope
+#		name = ...
+#		description = ...
+#		trigger = {
+#			local_human_species_class = ..
+#		}
+#	}
+#}
+
+### Custom Civics
+
+# IMP
+
+civic_senatorum_imperialis
+
+civic_imperialcult_fanatics
+
+civic_horde_traditions
+
+civic_imperium_secundus
+
+civic_barbarian_culture
+
+civic_blacksmith_culture
+
+civic_production_guilds
+
+civic_interclans_rivalry
+
+civic_chosen_by_the_emperor
+
+civic_tribal_culture
+
+civic_chivalric_traditions
+
+civic_i
+
+civic_xiii
+
+civic_ix
+
+civic_x
+
+civic_vii
+
+civic_xviii
+
+civic_xix
+
+civic_v
+
+civic_vi
+
+# CHA
+
+civic_khorne_cult
+
+civic_tzeentch_cult
+
+civic_nurgle_cult
+
+civic_slaanesh_cult
+
+civic_chaos_undivided
+
+civic_iii
+
+civic_iv
+
+civic_xv
+
+civic_xiv
+
+civic_xvii
+
+civic_xii
+
+civic_xvi
+
+civic_xx
+
+civic_viii
+
+civic_chaos_corsairs
+
+civic_extremly_secretive
+
+# DEL
+
+civic_terrible_depravity
+
+civic_witches_of_discord
+
+civic_scariest_kabal
+
+civic_keepers_of_secrets
+
+civic_professional_reavers
+
+civic_arm_developers
+
+civic_forbidden_arts
+
+civic_master_pirates
+
+civic_anarchy_terrorism
+
+# ELD
+
+civic_children_of_stars
+
+civic_seers_way
+
+civic_enjoyed_of_simple
+
+civic_damaged_craftworld
+
+civic_over_racism
+
+civic_paranoid_isolationism
+
+civic_reborn_followers
+
+# ORK
+
+civic_great_waaagh
+
+civic_vehicles_lovers
+
+civic_teeth_growers
+
+civic_scavengers_mobz
+
+civic_camouflage_boyz
+
+civic_oddboyz_culture
+
+civic_clever_nobz
+
+civic_combat_specialists
+
+# TAU
+
+civic_farsight_enclaves
+
+civic_trader_friendly
+
+civic_rustic_population
+
+civic_high_education
+
+
+
+

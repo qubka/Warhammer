@@ -11,7 +11,8 @@ IMP = {
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 
     portraits = {
-		"imp_mankind"
+		"imp_navy"
+		"imp_mechanicus"
 		"imp_white_scars"
 		"imp_ultra_marines"
 		"imp_space_wolfes"

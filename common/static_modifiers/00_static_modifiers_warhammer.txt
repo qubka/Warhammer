@@ -5,7 +5,37 @@ forge_planet = {
 	icon_frame = 2
 }
 
-hive_planet = {
+industrial_planet = {
+    planet_jobs_energy_produces_mult = 1.5
+	planet_jobs_minerals_produces_mult = 1.5
+	planet_jobs_food_produces_mult = -0.1
+	pop_growth_speed = -0.1
+	planet_army_build_speed_mult = 0.1
+	armies_cost_mult = -0.15
+	icon = "gfx/interface/icons/planet_modifiers/pm_industrial.dds"
+	icon_frame = 2
+}
+
+agri_planet = {
+    planet_jobs_energy_produces_mult = -0.2
+	planet_jobs_minerals_produces_mult = -0.5
+	planet_jobs_food_produces_mult = 3
+	pop_growth_speed = 2.0
+	icon = "gfx/interface/icons/planet_modifiers/pm_agri.dds"
+	icon_frame = 2
+}
+
+shrine_planet = {
+	planet_jobs_unity_produces_mult = 2.0
+	planet_army_build_speed_mult = 0.5
+	armies_cost_mult = -0.2
+	army_defense_morale_mult = 8
+	army_defense_health_mult = 10
+	icon = "gfx/interface/icons/planet_modifiers/pm_shrine.dds"
+	icon_frame = 2
+}
+
+hive_medium_planet = {
     planet_jobs_energy_produces_mult = 0.3
 	planet_jobs_minerals_produces_mult = 0.2
 	icon = "gfx/interface/icons/planet_modifiers/pm_industrial.dds"
@@ -137,36 +167,6 @@ hive_industrial_planet = {
 	icon_frame = 2
 }
 
-industrial_planet = {
-    planet_jobs_energy_produces_mult = 1.5
-	planet_jobs_minerals_produces_mult = 1.5
-	planet_jobs_food_produces_mult = -0.1
-	pop_growth_speed = -0.1
-	planet_army_build_speed_mult = 0.1
-	armies_cost_mult = -0.15
-	icon = "gfx/interface/icons/planet_modifiers/pm_industrial.dds"
-	icon_frame = 2
-}
-
-agri_planet = {
-    planet_jobs_energy_produces_mult = -0.2
-	planet_jobs_minerals_produces_mult = -0.5
-	planet_jobs_food_produces_mult = 3
-	pop_growth_speed = 2.0
-	icon = "gfx/interface/icons/planet_modifiers/pm_agri.dds"
-	icon_frame = 2
-}
-
-shrine_planet = {
-	planet_jobs_unity_produces_mult = 2.0
-	planet_army_build_speed_mult = 0.5
-	armies_cost_mult = -0.2
-	army_defense_morale_mult = 8
-	army_defense_health_mult = 10
-	icon = "gfx/interface/icons/planet_modifiers/pm_shrine.dds"
-	icon_frame = 2
-}
-
 craftworld_planet = {
     planet_jobs_energy_produces_mult = 0.2
 	planet_jobs_minerals_produces_mult = 0.5
@@ -284,26 +284,6 @@ orkworld_planet = {
 	icon_frame = 2
 }
 
-nuked_planet = {
-    planet_jobs_energy_produces_mult = 0.5
-	planet_jobs_minerals_produces_mult = 2.0
-	planet_jobs_food_produces_mult = -0.1
-	army_defense_morale_mult = 0.5
-	army_defense_health_mult = 0.5
-	icon = "gfx/interface/icons/planet_modifiers/pm_irradiated.dds"
-	icon_frame = 2
-}
-
-destroyed_planet = {
-    planet_jobs_energy_produces_mult = 0.5
-	planet_jobs_minerals_produces_mult = 2.0
-	planet_jobs_food_produces_mult = -0.1
-	army_defense_morale_mult = 0.5
-	army_defense_health_mult = 0.5
-	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_impacts.dds"
-	icon_frame = 2
-}
-
 armoury_planet = {
     planet_jobs_energy_produces_mult = 0.5
 	planet_jobs_minerals_produces_mult = 0.4
@@ -321,17 +301,6 @@ eternalcrusader_planet = {
 	army_defense_morale_mult = 8
 	army_defense_health_mult = 10
 	icon = "gfx/interface/icons/planet_modifiers/pm_eternalcrusader.dds"
-	icon_frame = 2
-}
-
-caliban_planet = {
-    planet_jobs_energy_produces_mult = 0.2
-	planet_jobs_minerals_produces_mult = 0.3
-	planet_jobs_food_produces_mult = 0.5
-	pop_happiness = 15
-	army_defense_morale_mult = 20
-	army_defense_health_mult = 15
-	icon = "gfx/interface/icons/planet_modifiers/pm_wormhole.dds"
 	icon_frame = 2
 }
 

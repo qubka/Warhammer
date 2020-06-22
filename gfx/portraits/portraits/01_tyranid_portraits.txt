@@ -83,8 +83,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -182,8 +181,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -281,8 +279,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -380,8 +377,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -479,8 +475,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -594,8 +589,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -693,8 +687,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -792,8 +785,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {

@@ -1,0 +1,16 @@
+@distance = 30
+@base_moon_distance = 10
+
+bastion_homeworld = {
+	class = "rl_starting_stars"
+	
+	usage = misc_system_init
+	
+	flags = { empire_home_system }
+
+	init_effect = {
+		root = { set_country_flag = the_bastion }
+		generate_home_system_resources = yes
+		create_fe_citadel = yes
+	}
+}

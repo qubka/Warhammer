@@ -17,6 +17,14 @@ ELD = {
 		"eldar_iyanden"
 		"eldar_biel_tan"
 		"eldar_alaitoc"
+		
+		"eldar_cor_ynnari"
+		"eldar_cor_twilight_swords"
+		"eldar_cor_void_dragons"
+		"eldar_cor_sky_raiders"
+		"eldar_cor_steeleye_reavers"
+		"eldar_cor_sun_blitz"
+		"eldar_cor_eldritch_raiders"
     }   
 	
     graphical_culture = reptilian_01

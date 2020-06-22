@@ -130,7 +130,6 @@ entity = {
 	scale = 1
 }
 
-
 entity = {
 	name = "blackstonefortress_entity"
 	cull_radius = 0
@@ -142,7 +141,6 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
 	}
 	scale = 0.3
-
 }
 
 entity = {
@@ -155,18 +153,6 @@ entity = {
 	attach = { "loc1" = "blackstonefortress_entity"}
 	
 	scale = 4.5
-}
-
-entity = {
-	name = "caliban_planet_01_entity"
-
-	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 -65 0 }}
-	
-	default_state = "idle"
-	state = { name = "idle" animation = "idle" }
-	attach = { "loc1" = "barren_planet_01_destroyed_entity"}
-	
-	scale = 1.0
 }
 
 entity = {

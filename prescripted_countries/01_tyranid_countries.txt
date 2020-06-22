@@ -2,6 +2,7 @@ behemoth = {
 	name = "Behemoth"
 	adjective = "PRESCRIPTED_adjective_behemoth"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_behemoth"
 
@@ -21,7 +22,7 @@ behemoth = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -36,8 +37,8 @@ behemoth = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-behemoth.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Behemot.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -66,6 +67,7 @@ gorgon = {
 	name = "Gorgon"
 	adjective = "PRESCRIPTED_adjective_gorgon"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_gorgon"
 
@@ -85,7 +87,7 @@ gorgon = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -100,8 +102,8 @@ gorgon = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-gorgon.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Gorgon.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -130,6 +132,7 @@ hydra = {
 	name = "Hydra"
 	adjective = "PRESCRIPTED_adjective_hydra"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_hydra"
 
@@ -149,7 +152,7 @@ hydra = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -164,8 +167,8 @@ hydra = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-hydra.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Hydra.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -194,6 +197,7 @@ jormungandr = {
 	name = "Jormungandr"
 	adjective = "PRESCRIPTED_adjective_jormungandr"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_jormungandr"
 
@@ -213,7 +217,7 @@ jormungandr = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -228,8 +232,8 @@ jormungandr = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-jormungandr.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Jormungandr.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -258,6 +262,7 @@ kraken = {
 	name = "Kraken"
 	adjective = "PRESCRIPTED_adjective_kraken"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_kraken"
 
@@ -277,7 +282,7 @@ kraken = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -292,8 +297,8 @@ kraken = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-kraken.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Kraken.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -322,6 +327,7 @@ leviathan = {
 	name = "Leviathan"
 	adjective = "PRESCRIPTED_adjective_leviathan"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_leviathan"
 
@@ -341,7 +347,7 @@ leviathan = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -356,8 +362,8 @@ leviathan = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-leviathan.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Leviathan.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -386,6 +392,7 @@ ouroboris = {
 	name = "Ouroboris"
 	adjective = "PRESCRIPTED_adjective_ouroboris"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_ouroboris"
 
@@ -405,7 +412,7 @@ ouroboris = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -420,8 +427,8 @@ ouroboris = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-ouroboris.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Ouroboros.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -450,6 +457,7 @@ tiamet = {
 	name = "Tiamet"
 	adjective = "PRESCRIPTED_adjective_tiamet"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_tiamet"
 
@@ -469,7 +477,7 @@ tiamet = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_natural_neural_network" "civic_hive_pooled_knowledge" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
 	origin = "origin_default"
 
@@ -484,8 +492,8 @@ tiamet = {
 
 	empire_flag = {
 		icon = {
-			category = "tyranid"
-			file = "40k-tiamet.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_TYR_Tiamet.dds"
 		}
 		background = {
 			category = "backgrounds"

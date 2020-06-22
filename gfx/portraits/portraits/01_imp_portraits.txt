@@ -114,8 +114,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -245,8 +244,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -379,8 +377,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -492,8 +489,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -623,8 +619,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -754,8 +749,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -888,8 +882,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -1016,8 +1009,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -1144,8 +1136,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -1159,7 +1150,7 @@ portrait_groups = {
 		}
 	}
 	
-	imp_mankind = {
+	imp_navy = {
 		
 		default = IMP_Officer_01
 		
@@ -1297,8 +1288,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -1306,7 +1296,150 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_Navy_ruler
+					IMP_Navy_ruler1
+					IMP_Navy_ruler2
+					IMP_Navy_ruler3
+					IMP_Navy_ruler4
+					IMP_Navy_ruler5
+					IMP_Navy_ruler6
+				}
+			}
+		}
+	}
+	
+	imp_mechanicus = {
+		
+		default = IMP_N_MagosCrawn
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = IMP_Mechanicus_ruler1
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03					
+					human_male_04
+					human_female_01
+					human_female_02
+					human_female_03				
+					human_female_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					IMP_N_MagosCrawn
+					IMP_N_MagosCrestin
+					IMP_N_MagosKelen
+					IMP_N_MagosKlarn
+					IMP_N_MagosNumerian
+					IMP_N_MagosTellemark
+					IMP_N_MagosVaryn
+					IMP_N_FabricatorCambrius
+					IMP_N_MagosBiblios
+					IMP_N_BelisariusCawl
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					IMP_N_MagosCrawn
+					IMP_N_MagosCrestin
+					IMP_N_MagosKelen
+					IMP_N_MagosKlarn
+					IMP_N_MagosNumerian
+					IMP_N_MagosTellemark
+					IMP_N_MagosVaryn
+					IMP_N_FabricatorCambrius
+					IMP_N_MagosBiblios
+					IMP_N_BelisariusCawl
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					IMP_N_MagosCrawn
+					IMP_N_MagosCrestin
+					IMP_N_MagosKelen
+					IMP_N_MagosKlarn
+					IMP_N_MagosNumerian
+					IMP_N_MagosTellemark
+					IMP_N_MagosVaryn
+					IMP_N_FabricatorCambrius
+					IMP_N_MagosBiblios
+					IMP_N_BelisariusCawl
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					IMP_N_MagosCrawn
+					IMP_N_MagosCrestin
+					IMP_N_MagosKelen
+					IMP_N_MagosKlarn
+					IMP_N_MagosNumerian
+					IMP_N_MagosTellemark
+					IMP_N_MagosVaryn
+					IMP_N_FabricatorCambrius
+					IMP_N_MagosBiblios
+					IMP_N_BelisariusCawl
+				}
+			}
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					IMP_Mechanicus_ruler1
+					IMP_Mechanicus_ruler2
+					IMP_Mechanicus_ruler3
+					IMP_Mechanicus_ruler4
+					IMP_Mechanicus_ruler5
+					IMP_Mechanicus_ruler6
 				}
 			}
 		}

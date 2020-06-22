@@ -2,6 +2,7 @@ goff = {
 	name = "Goff"
 	adjective = "PRESCRIPTED_adjective_goff"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_goff"
 
@@ -19,9 +20,9 @@ goff = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_combat_specialists" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -36,8 +37,8 @@ goff = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-goff.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_Goffs.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -66,6 +67,7 @@ evil_sunz = {
 	name = "Evil Sunz"
 	adjective = "PRESCRIPTED_adjective_evil_sunz"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_evil_sunz"
 
@@ -83,9 +85,9 @@ evil_sunz = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_vehicles_lovers" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -100,8 +102,8 @@ evil_sunz = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-evil-sunz.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_EvilSunz.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -130,6 +132,7 @@ death_skullz = {
 	name = "Death Skullz"
 	adjective = "PRESCRIPTED_adjective_death_skullz"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_death_skullz"
 
@@ -147,9 +150,9 @@ death_skullz = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_scavengers_mobz" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -164,8 +167,8 @@ death_skullz = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-death-skullz.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_DeathSkullz.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -194,6 +197,7 @@ blood_axe = {
 	name = "Blood Axe"
 	adjective = "PRESCRIPTED_adjective_blood_axe"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_blood_axe"
 
@@ -211,9 +215,9 @@ blood_axe = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_camouflage_boyz" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -228,8 +232,8 @@ blood_axe = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-blood-axe.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_BloodAxe.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -258,6 +262,7 @@ big_mek = {
 	name = "Big Mek"
 	adjective = "PRESCRIPTED_adjective_big_mek"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_big_mek"
 
@@ -275,9 +280,9 @@ big_mek = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_oddboyz_culture" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -292,8 +297,8 @@ big_mek = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-big-mek.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_Pirates.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -322,6 +327,7 @@ big_boss = {
 	name = "Big Boss"
 	adjective = "PRESCRIPTED_adjective_big_boss"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_big_boss"
 
@@ -339,9 +345,9 @@ big_boss = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_clever_nobz" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -356,8 +362,8 @@ big_boss = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-big-boss.dds"
+			category = "armada"
+			file = "TX_GUI_Logo_Faction_ORK.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -386,6 +392,7 @@ bad_moons = {
 	name = "Bad Moons"
 	adjective = "PRESCRIPTED_adjective_bad_moons"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_bad_moons"
 
@@ -403,9 +410,9 @@ bad_moons = {
 
 	room = "extradimensional_green_room"
 
-	authority = "auth_dictatorial"
-	civics = { "civic_warrior_culture" "civic_police_state" }
-	government = "gov_martial_dictatorship"
+	authority = "auth_ork"
+	civics = { "civic_teeth_growers" "civic_great_waaagh" }
+	government = "gov_kratocratic_dictatorship"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -420,8 +427,8 @@ bad_moons = {
 
 	empire_flag = {
 		icon = {
-			category = "ork"
-			file = "40k-bad-moons.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_BadMoonz.dds"
 		}
 		background = {
 			category = "backgrounds"

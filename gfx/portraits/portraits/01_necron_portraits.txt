@@ -1,5 +1,5 @@
 portrait_groups = {
-	necron_cryptek = {
+	necron_overlord = {
 		
 		default = NECRON_N_Vorekh
 		
@@ -133,8 +133,7 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				trigger = {
@@ -142,7 +141,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					NECRON_Cryptek_ruler
+					NECRON_Charnovokh_ruler
+					NECRON_Mephrit_ruler
+					NECRON_Nepheru_ruler
+					NECRON_Nephrekh_ruler
+					NECRON_Nihiliakh_ruler
+					NECRON_Novokh_ruler
+					NECRON_Sautekh_ruler
+					NECRON_Temeryn_ruler
 				}
 			}
 		}

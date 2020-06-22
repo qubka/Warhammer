@@ -2,6 +2,7 @@ dark_ynnari = {
 	name = "Dark Ynnari"
 	adjective = "PRESCRIPTED_adjective_dark_ynnari"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dark_ynnari"
 
@@ -20,15 +21,15 @@ dark_ynnari = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_anarchy_terrorism" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_ynnari2 }
+	flags = { darkeldar_empire the_dark_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_dark_ynnari"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dark_ynnari"
@@ -38,8 +39,8 @@ dark_ynnari = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-dark-ynnari.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_ynnari.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -68,6 +69,7 @@ the_severed = {
 	name = "The Severed"
 	adjective = "PRESCRIPTED_adjective_the_severed"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_severed"
 
@@ -86,15 +88,15 @@ the_severed = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_master_pirates" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_the_severed }
+	flags = { darkeldar_empire the_severed }
 	planet_name = "PRESCRIPTED_planet_name_the_severed"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_the_severed"
@@ -104,8 +106,8 @@ the_severed = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-the-severed.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_Severed.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -134,6 +136,7 @@ last_hatred = {
 	name = "Last Hatred"
 	adjective = "PRESCRIPTED_adjective_last_hatred"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_last_hatred"
 
@@ -152,9 +155,9 @@ last_hatred = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_forbidden_arts" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -170,8 +173,8 @@ last_hatred = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-last-hatred.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_LastHatred.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -200,6 +203,7 @@ iron_thorn = {
 	name = "Iron Thorn"
 	adjective = "PRESCRIPTED_adjective_iron_thorn"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_thorn"
 
@@ -218,9 +222,9 @@ iron_thorn = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_arm_developers" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -236,8 +240,8 @@ iron_thorn = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-iron-thorn.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_IronThorn.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -266,6 +270,7 @@ flayed_skull = {
 	name = "Flayed Skull"
 	adjective = "PRESCRIPTED_adjective_flayed_skull"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_flayed_skull"
 
@@ -284,9 +289,9 @@ flayed_skull = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_professional_reavers" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -302,8 +307,8 @@ flayed_skull = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-flayed-skull.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_FlayedSkull.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -332,6 +337,7 @@ dying_sun = {
 	name = "Dying Sun"
 	adjective = "PRESCRIPTED_adjective_dying_sun"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_dying_sun"
 
@@ -350,9 +356,9 @@ dying_sun = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_keepers_of_secrets" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -368,8 +374,8 @@ dying_sun = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-dying-sun.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_DyingSun.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -398,6 +404,7 @@ broken_sigil = {
 	name = "Broken Sigil"
 	adjective = "PRESCRIPTED_adjective_broken_sigil"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_broken_sigil"
 
@@ -416,9 +423,9 @@ broken_sigil = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_scariest_kabal" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -434,8 +441,8 @@ broken_sigil = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-broken-sigil.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_BrokenSigil.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -464,6 +471,7 @@ black_heart = {
 	name = "Black Heart"
 	adjective = "PRESCRIPTED_adjective_black_heart"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_black_heart"
 
@@ -482,9 +490,9 @@ black_heart = {
 
 	room = "extradimensional_room"
 
-	authority = "auth_oligarchic"
-	civics = { "civic_meritocracy" "civic_nationalistic_zeal" }
-	government = "gov_military_junta"
+	authority = "auth_darkeldar"
+	civics = { "civic_witches_of_discord" "civic_terrible_depravity" }
+	government = "gov_libertarian_meritocracy"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -500,8 +508,8 @@ black_heart = {
 
 	empire_flag = {
 		icon = {
-			category = "darkeldar"
-			file = "40k-black-heart.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_DRUKHARI_BlackHeart.dds"
 		}
 		background = {
 			category = "backgrounds"

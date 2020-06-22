@@ -1,0 +1,44 @@
+namespace = leaders
+
+event = {
+    id = leaders.1
+	hide_window = yes
+    fire_only_once = yes
+
+	immediate = {
+		every_country = { 
+			limit = { 
+				NOT = {
+					has_country_flag = necron_empire
+					has_country_flag = tyranid_empire
+				}
+			}
+			every_owned_leader = {
+				limit = { leader_class = ruler }
+				add_trait = leader_trait_ruler_chosen
+			}
+		}
+	}
+}
+
+event = {
+    id = leaders.2
+	hide_window = yes
+    fire_only_once = yes
+
+	immediate = {
+		every_country = { 
+			limit = { 
+				OR = {
+					has_country_flag = chaos_empire
+					has_country_flag = human_empire 
+				}
+			}
+			every_owned_leader = {
+				limit = { leader_class = scientist }
+				add_trait = leader_trait_scientist_cyborg
+			}
+		}
+		
+	}
+}

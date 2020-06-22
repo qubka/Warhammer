@@ -1,0 +1,108 @@
+@distance = 30
+@base_moon_distance = 10
+
+big_mek_homeworld = {
+	class = "rl_starting_stars"
+	
+	usage = misc_system_init
+	
+	flags = { empire_home_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		root = { set_country_flag = the_big_mek }
+		generate_home_system_resources = yes
+	}
+		
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 35
+	
+	planet = {
+		count = { min = 1 max = 3 }
+		orbit_distance = 15
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		name = "Gorbad"
+		class = "pc_orkworld"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 16 max = 20 }
+		home_planet = yes
+		starting_planet = yes
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_big_mek
+				}
+				save_event_target_as = the_big_mek
+			}
+
+			set_owner = event_target:the_big_mek
+			set_controller = event_target:the_big_mek
+			set_capital = yes
+
+			generate_start_buildings_and_districts = yes
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = { min = 1 max = 3 }
+		orbit_distance = 25
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = 20
+		class = pc_gas_giant
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 1 max = 3 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = { min = 0 max = 1 }
+		orbit_distance = 20
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+	}
+}

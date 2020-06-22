@@ -2,6 +2,7 @@ alpha_legion = {
 	name = "Alpha Legion"
 	adjective = "PRESCRIPTED_adjective_alpha_legion"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_alpha_legion"
 	
@@ -20,9 +21,9 @@ alpha_legion = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xx" "civic_extremly_secretive" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -38,8 +39,8 @@ alpha_legion = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-alpha-legion.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_AlphaLegion.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -68,6 +69,7 @@ black_legion = {
 	name = "Black Legion"
 	adjective = "PRESCRIPTED_adjective_black_legion"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_black_legion"
 	
@@ -86,9 +88,9 @@ black_legion = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xvi" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -104,8 +106,8 @@ black_legion = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-black-legion.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_BlackLegion.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -134,6 +136,7 @@ death_guard = {
 	name = "Death Guard"
 	adjective = "PRESCRIPTED_adjective_death_guard"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_death_guard"
 	
@@ -152,9 +155,9 @@ death_guard = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xiv" "civic_nurgle_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -170,8 +173,8 @@ death_guard = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-death-guard.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_DeathGuards.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -200,6 +203,7 @@ emperor_children = {
 	name = "Emperor Children"
 	adjective = "PRESCRIPTED_adjective_emperor_children"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_emperor_children"
 	
@@ -218,9 +222,9 @@ emperor_children = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_iii" "civic_slaanesh_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -236,8 +240,8 @@ emperor_children = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-emperors-children.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_EmperorChildren.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -266,6 +270,7 @@ iron_warrior = {
 	name = "Iron Warriors"
 	adjective = "PRESCRIPTED_adjective_iron_warrior"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_warrior"
 	
@@ -284,9 +289,9 @@ iron_warrior = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_iv" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -302,8 +307,8 @@ iron_warrior = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-iron-warrioes.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_IronWarriors.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -332,6 +337,7 @@ night_lords = {
 	name = "Night Lords"
 	adjective = "PRESCRIPTED_adjective_night_lords"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_night_lords"
 	
@@ -350,9 +356,9 @@ night_lords = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_viii" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -368,8 +374,8 @@ night_lords = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-knight-lords.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_NightLords.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -398,6 +404,7 @@ red_corsairs = {
 	name = "Red Corsairs"
 	adjective = "PRESCRIPTED_adjective_red_corsairs"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_red_corsairs"
 	
@@ -416,9 +423,9 @@ red_corsairs = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_chaos_corsairs" "civic_warrior_culture" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -434,8 +441,8 @@ red_corsairs = {
 	
 	empire_flag = {
 		icon = {
-			category = "misc"
-			file = "40k-red-corsairs.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_BadabTyrant.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -464,6 +471,7 @@ thousand_sons = {
 	name = "Thousand Sons"
 	adjective = "PRESCRIPTED_adjective_thousand_sons"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_thousand_sons"
 	
@@ -474,6 +482,7 @@ thousand_sons = {
 		plural = "PRESCRIPTED_species_plural_thousand_sons"
 		adjective = "PRESCRIPTED_species_adjective_thousand_sons"
 		name_list = "CHAOS1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_intelligent"
 		trait = "trait_quick_learners"
@@ -482,9 +491,9 @@ thousand_sons = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xv" "civic_tzeentch_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -500,8 +509,8 @@ thousand_sons = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-thousand-sons.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_ThousandSons.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -530,6 +539,7 @@ word_bearer = {
 	name = "Word Bearers"
 	adjective = "PRESCRIPTED_adjective_word_bearer"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_word_bearer"
 	
@@ -548,9 +558,9 @@ word_bearer = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xvii" "civic_chaos_undivided" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -566,8 +576,8 @@ word_bearer = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-word-bearers.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_WordBearers.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -596,6 +606,7 @@ world_eater = {
 	name = "World Eaters"
 	adjective = "PRESCRIPTED_adjective_world_eater"
 	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
 	
 	ship_prefix = "PRESCRIPTED_ship_prefix_world_eater"
 	
@@ -614,9 +625,9 @@ world_eater = {
 	
 	room = "extradimensional_orange_room"
 	
-	authority = "auth_imperial"
-	civics = { "civic_philosopher_king" "civic_warrior_culture" }
-	government = "gov_star_empire"
+	authority = "auth_chaos"
+	civics = { "civic_xii" "civic_khorne_cult" }
+	government = "gov_anarcho_tribalism"
 	origin = "origin_default"
 
 	ethic = "ethic_xenophobe"
@@ -632,8 +643,8 @@ world_eater = {
 	
 	empire_flag = {
 		icon = {
-			category = "legions"
-			file = "40k-world-eaters.dds"
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_WorldEaters.dds"
 		}
 		background = {
 			category = "backgrounds"

@@ -1,0 +1,125 @@
+@distance = 30
+@base_moon_distance = 10
+
+ynnari_homeworld = {
+	class = "rl_standard_stars"
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 60
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 120
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 180
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 240
+	}
+	
+	flags = { empire_home_system }
+
+	usage = misc_system_init
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		root = { set_country_flag = the_ynnari }
+		generate_home_system_resources = yes
+	}
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+		
+		init_effect = {
+			# Create Ambient Object 2
+			create_ambient_object = {
+				type = "nebula_L8_entity"
+				entity_offset_height = -5 # Set to spawn far below the planets
+				location = this
+			}
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		name = "Bubonicus"
+		class = "pc_daemonn"
+		size = { min = 14 max = 20 }
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 25
+
+		change_orbit = @base_moon_distance
+
+		moon = {
+			name = "Arach-Cyn"
+			class = "pc_craftworld"			 
+			orbit_distance = 3
+			orbit_angle = 90
+			size = 6
+			has_ring = no
+			home_planet = yes
+			starting_planet = yes
+			deposit_blockers = none			
+			modifiers = none
+			
+			init_effect = {
+				every_country = {
+					limit = {
+						has_country_flag = the_ynnari
+					}
+					save_event_target_as = the_ynnari
+				}
+
+				set_owner = event_target:the_ynnari
+				set_controller = event_target:the_ynnari
+				set_capital = yes
+
+				generate_start_buildings_and_districts = yes
+				generate_start_pops = yes
+				prevent_anomaly = yes
+			}
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		count = { min = 2 max = 3 }
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	change_orbit = 60
+
+	planet = {
+		count = { min = 3 max = 4 }
+		class = pc_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	change_orbit = 60
+
+	planet = {
+		count = { min = 4 max = 5 }
+		class = pc_ice_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+}

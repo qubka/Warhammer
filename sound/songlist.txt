@@ -1,0 +1,75 @@
+song = {
+	name = "Chaos Approaches"
+}
+
+song = {
+	name = "Assemble the Fleet"
+}
+
+song = {
+	name = "The War Room"
+}
+
+song = {
+	name = "The Master Plan"
+}
+
+song = {
+	name = "Orks On Da Move"
+}
+
+song = {
+	name = "Brace for Impact"
+}
+
+song = {
+	name = "Attack Without Mercy"
+}
+
+song = {
+	name = "For The Glory Of The Emporer"
+}
+
+song = {
+	name = "Children of the Omnissiah"
+}
+
+song = {
+	name = "Caestus Metalican"
+}
+
+song = {
+	name = "Lost Civilisations"
+}
+
+song = {
+	name = "Immortal Machine"
+}
+
+song = {
+	name = "Noosphere"
+}
+
+song = {
+	name = "Dance of the Cryptek"
+}
+
+song = {
+	name = "Millennial Rage"
+}
+
+song = {
+	name = "Warriors of Mars"
+}
+
+song = {
+	name = "Treacherous 1"
+}
+
+song = {
+	name = "Overlord"
+}
+
+song = {
+	name = "Binary Signal"
+}

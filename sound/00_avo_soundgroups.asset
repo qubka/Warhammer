@@ -320,6 +320,22 @@ soundgroup =
 	}
 	soundoverride =
 	{
+		name = "advisor_notification_spacebourne_encounter_02"
+		file = "vo/ethics/imp/advisor_notification_spacebourne_encounter_02.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_spacebourne_encounter_03"
+		file = "vo/ethics/imp/advisor_notification_spacebourne_encounter_03.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_spacebourne_encounter_04"
+		file = "vo/ethics/imp/advisor_notification_spacebourne_encounter_04.wav"
+	}
+	
+	soundoverride =
+	{
 		name = "advisor_notification_spaceport_under_attack_01"
 		file = "vo/ethics/imp/advisor_notification_spaceport_under_attack_01.wav"
 	}
@@ -340,10 +356,6 @@ soundgroup =
 	
 	soundfileoverrides = 
 	{
-		advisor_notification_spacebourne_encounter_02 = "vo/ethics/imp/advisor_notification_spacebourne_encounter_02.wav"
-		advisor_notification_spacebourne_encounter_03 = "vo/ethics/imp/advisor_notification_spacebourne_encounter_03.wav"
-		advisor_notification_spacebourne_encounter_04 = "vo/ethics/imp/advisor_notification_spacebourne_encounter_04.wav"
-		
 		advisor_notification_enemy_declared_war_02 = "vo/ethics/imp/advisor_notification_enemy_declared_war_02.wav"
 		advisor_notification_enemy_declared_war_03 = "vo/ethics/imp/advisor_notification_enemy_declared_war_03.wav"
 		advisor_notification_enemy_declared_war_04 = "vo/ethics/imp/advisor_notification_enemy_declared_war_04.wav"
@@ -374,18 +386,18 @@ soundgroup =
 
 		#### Extra avo VO Lines
 	
-soundeffect = {
-	name = avo_advisor_notification_spacebourne_encounter
-	sounds = {
-		sound = advisor_notification_spacebourne_encounter_01
-		sound = advisor_notification_spacebourne_encounter_02
-		sound = advisor_notification_spacebourne_encounter_03
-		sound = advisor_notification_spacebourne_encounter_04
-	} 
-	volume = 0.45
-	max_audible = 1
-	max_audible_behaviour = fail
-}
+#soundeffect = {
+#	name = avo_advisor_notification_spacebourne_encounter
+#	sounds = {
+#		sound = advisor_notification_spacebourne_encounter_01
+#		sound = advisor_notification_spacebourne_encounter_02
+#		sound = advisor_notification_spacebourne_encounter_03
+#		sound = advisor_notification_spacebourne_encounter_04
+#	} 
+#	volume = 0.45
+#	max_audible = 1
+#	max_audible_behaviour = fail
+#}
 
 soundeffect = {
 	name = avo_advisor_notification_enemy_declared_war
