@@ -222,7 +222,7 @@ pc_hive_medium = {
 	show_city = no
 }
 
-pc_penal= {
+pc_penal = {
 	entity = "penal_planet"
 	picture = pc_penal
 	tile_set = pc_continental

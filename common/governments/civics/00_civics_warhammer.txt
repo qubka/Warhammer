@@ -17,7 +17,6 @@
 #
 #	swap_type = {								# triggered name/desc/custom desc based on species class, no scope
 #		name = ...
-#		description = ...
 #		trigger = {
 #			local_human_species_class = ..
 #		}
@@ -29,178 +28,401 @@
 # IMP
 
 civic_senatorum_imperialis = {
-	possible = {
-		authority = {
-			value = auth_imp_mankind
-		}
-		ethics = {
-			OR = {
-				text = civic_tooltip_authoritarian
-				value = ethic_authoritarian
-				value = ethic_fanatic_authoritarian
-			}
-			OR = {
-				text = civic_tooltip_spiritualist
-				value = ethic_spiritualist
-				value = ethic_fanatic_spiritualist
-			}
-		}
-	}
+	possible = { authority = { value = auth_imp } }
 	modifier = {
-		country_edict_cap_add = 1
-		edicts_cost_mult = -0.25
 	}
 }
 
 civic_imperialcult_fanatics = {
-	possible = {
-		authority = {
-			value = auth_imp_mankind
-		}
-		ethics = {
-			OR = {
-				text = civic_tooltip_spiritualist
-				value = ethic_spiritualist
-				value = ethic_fanatic_spiritualist
-			}
-		}
-	}
+	possible = { authority = { value = auth_imp } }
 	modifier = {
-		country_edict_cap_add = 1
-		edicts_cost_mult = -0.25
 	}
 }
 
-civic_horde_traditions
+civic_machine_cult = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_imperium_secundus
+civic_horde_traditions = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_barbarian_culture
+civic_imperium_secundus = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_blacksmith_culture
+civic_barbarian_culture = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_production_guilds
+civic_blacksmith_culture = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_interclans_rivalry
+civic_production_guilds = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_chosen_by_the_emperor
+civic_interclans_rivalry = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_tribal_culture
+civic_chosen_by_the_emperor = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_chivalric_traditions
+civic_tribal_culture = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_i
+civic_chivalric_traditions = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_xiii
+civic_i = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_ix
+civic_xiii = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_x
+civic_ix = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_vii
+civic_x = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_xviii
+civic_vii = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_xix
+civic_xviii = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_v
+civic_xix = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
-civic_vi
+civic_v = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
+
+civic_vi = {
+	possible = { authority = { value = auth_imp } }
+	modifier = {
+	}
+}
 
 # CHA
 
-civic_khorne_cult
+civic_khorne_cult = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_tzeentch_cult
+civic_tzeentch_cult = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_nurgle_cult
+civic_nurgle_cult = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_slaanesh_cult
+civic_slaanesh_cult = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_chaos_undivided
+civic_chaos_undivided = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_iii
+civic_iii = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_iv
+civic_iv = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_xv
+civic_xv = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_xiv
+civic_xiv = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_xvii
+civic_xvii = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_xii
+civic_xii = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_xvi
+civic_xvi = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_xx
+civic_xx = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_viii
+civic_viii = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_chaos_corsairs
+civic_chaos_corsairs = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
-civic_extremly_secretive
+civic_extremly_secretive = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+	}
+}
 
 # DEL
 
-civic_terrible_depravity
+civic_terrible_depravity = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_witches_of_discord
+civic_witches_of_discord = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_scariest_kabal
+civic_scariest_kabal = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_keepers_of_secrets
+civic_keepers_of_secrets = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_professional_reavers
+civic_professional_reavers = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_arm_developers
+civic_arm_developers = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_forbidden_arts
+civic_forbidden_arts = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_master_pirates
+civic_master_pirates = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
-civic_anarchy_terrorism
+civic_anarchy_terrorism = {
+	possible = { authority = { value = auth_darkeldar } }
+	modifier = {
+	}
+}
 
 # ELD
 
-civic_children_of_stars
+civic_children_of_stars = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
-civic_seers_way
+civic_seers_way = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
-civic_enjoyed_of_simple
+civic_enjoyed_of_simple = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
-civic_damaged_craftworld
+civic_damaged_craftworld = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
-civic_over_racism
+civic_over_racism = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
-civic_paranoid_isolationism
+civic_paranoid_isolationism = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
-civic_reborn_followers
+civic_reborn_followers = {
+	possible = { authority = { value = auth_eldar } }
+	modifier = {
+	}
+}
 
 # ORK
 
-civic_great_waaagh
+civic_great_waaagh = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_vehicles_lovers
+civic_vehicles_lovers = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_teeth_growers
+civic_teeth_growers = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_scavengers_mobz
+civic_scavengers_mobz = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_camouflage_boyz
+civic_camouflage_boyz = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_oddboyz_culture
+civic_oddboyz_culture = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_clever_nobz
+civic_clever_nobz = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
-civic_combat_specialists
+civic_combat_specialists = {
+	possible = { authority = { value = auth_ork } }
+	modifier = {
+	}
+}
 
 # TAU
 
-civic_farsight_enclaves
+civic_farsight_enclaves = {
+	possible = { authority = { value = auth_tau } }
+	modifier = {
+	}
+}
 
-civic_trader_friendly
+civic_trader_friendly = {
+	possible = { authority = { value = auth_tau } }
+	modifier = {
+	}
+}
 
-civic_rustic_population
+civic_rustic_population = {
+	possible = { authority = { value = auth_tau } }
+	modifier = {
+	}
+}
 
-civic_high_education
+civic_high_education = {
+	possible = { authority = { value = auth_tau } }
+	modifier = {
+	}
+}

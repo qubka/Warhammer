@@ -40,7 +40,8 @@ lucius_homeworld = {
 			}
 			create_country = {
 				species = last_created
-				civics = { civic = civic_technocracy }
+				authority = "auth_imp_dominion"
+				civics = { "civic_technocracy" "civic_machine_cult" }
 				origin = "origin_default"
 				ethos = {
 					ethic = ethic_fanatic_materialist
