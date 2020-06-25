@@ -21,7 +21,7 @@
 #	tags = { <key> <key2> }							# add these translation tags to the description
 #}
 
-auth_imp_mankind = {
+auth_imp = {
 	has_heir = no
 	election_type = none
 	can_reform = no
@@ -34,21 +34,6 @@ auth_imp_mankind = {
 		country_edict_cap_add = 2
 		pop_growth_speed = 0.25
 		empire_size_penalty_mult = -5.0
-	}
-}
-
-auth_imp_dominion = {
-	has_heir = no
-	election_type = none
-	can_reform = no
-
-	has_agendas = no
-	uses_mandates = no
-	
-	country_modifier = {
-		country_edict_cap_add = 1
-		pop_growth_speed = 0.1
-		empire_size_penalty_mult = -2.5
 	}
 }
 

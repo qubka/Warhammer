@@ -40,7 +40,7 @@ agripinaa_homeworld = {
 			}
 			create_country = {
 				species = last_created
-				authority = "auth_imp_dominion"
+				authority = "auth_imp"
 				civics = { "civic_technocracy" "civic_machine_cult" }
 				origin = "origin_default"
 				ethos = {

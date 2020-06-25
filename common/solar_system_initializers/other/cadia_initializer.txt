@@ -37,7 +37,7 @@ cadia_homeworld = {
 			}
 			create_country = {
 				species = last_created
-				authority = "auth_imp_dominion"
+				authority = "auth_imp"
 				civics = { "civic_warrior_culture" "civic_fanatic_purifiers" }
 				origin = "origin_default"
 				ethos = {

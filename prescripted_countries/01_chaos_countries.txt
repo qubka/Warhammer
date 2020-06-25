@@ -482,7 +482,6 @@ thousand_sons = {
 		plural = "PRESCRIPTED_species_plural_thousand_sons"
 		adjective = "PRESCRIPTED_species_adjective_thousand_sons"
 		name_list = "CHAOS1"
-		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_intelligent"
 		trait = "trait_quick_learners"
