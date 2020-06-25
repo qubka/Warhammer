@@ -37,11 +37,12 @@ cadia_homeworld = {
 			}
 			create_country = {
 				species = last_created
-				civics = { civic = civic_warrior_culture }
+				authority = "auth_imp_dominion"
+				civics = { "civic_warrior_culture" "civic_fanatic_purifiers" }
 				origin = "origin_default"
 				ethos = {
-					ethic = ethic_fanatic_militarist
-					ethic = ethic_xenophobe
+					ethic = ethic_fanatic_xenophobe
+					ethic = ethic_militarist
 				}
 				flag = {
 					icon = {
