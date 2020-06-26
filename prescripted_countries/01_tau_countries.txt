@@ -93,9 +93,9 @@ farsight = {
 	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
-	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
+	ethic = "ethic_militarist"
 	flags = { tau_empire the_farsight }
 	planet_name = "PRESCRIPTED_planet_name_farsight"
 	planet_class = "pc_continental"
@@ -156,13 +156,13 @@ sacea = {
 	room = "personality_migrating_flock_room"
 
 	authority = "auth_tau"
-	civics = { "civic_warrior_culture" "civic_shadow_council" }
+	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" }
 	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
-	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
+	ethic = "ethic_militarist"
 	flags = { tau_empire the_sacea }
 	planet_name = "PRESCRIPTED_planet_name_sacea"
 	planet_class = "pc_advancexenocityy"
@@ -290,7 +290,7 @@ taun = {
 	room = "personality_migrating_flock_room"
 
 	authority = "auth_tau"
-	civics = { "civic_free_haven" "civic_shadow_council" }
+	civics = { "civic_free_haven" "civic_idealistic_foundation" }
 	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
@@ -361,9 +361,9 @@ dyanoi = {
 	government = "gov_authoritarian_federation"
 	origin = "origin_default"
 
-	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
+	ethic = "ethic_militarist"
 	flags = { tau_empire the_dyanoi }
 	planet_name = "PRESCRIPTED_planet_name_dyanoi"
 	planet_class = "pc_advancexenocity"

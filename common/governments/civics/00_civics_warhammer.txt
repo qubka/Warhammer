@@ -40,7 +40,7 @@ civic_imperialcult_fanatics = {
 }
 
 civic_machine_cult = {
-	possible = { authority = { value = auth_imp } }
+	possible = { authority = { value = auth_oligarchic } }
 	modifier = {
 	}
 }

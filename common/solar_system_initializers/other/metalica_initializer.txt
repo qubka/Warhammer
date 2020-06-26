@@ -40,8 +40,11 @@ metalica_homeworld = {
 			}
 			create_country = {
 				species = last_created
-				authority = "auth_imp"
-				civics = { "civic_technocracy" "civic_machine_cult" }
+				authority = "auth_oligarchic"
+				civics = {
+					civic = civic_machine_cult
+					civic = civic_technocracy
+				}
 				origin = "origin_default"
 				ethos = {
 					ethic = ethic_fanatic_materialist

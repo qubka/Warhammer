@@ -38,7 +38,10 @@ cadia_homeworld = {
 			create_country = {
 				species = last_created
 				authority = "auth_imp"
-				civics = { "civic_warrior_culture" "civic_fanatic_purifiers" }
+				civics = {
+					civic = civic_warrior_culture
+					civic = civic_fanatic_purifiers
+				}
 				origin = "origin_default"
 				ethos = {
 					ethic = ethic_fanatic_xenophobe
@@ -62,7 +65,7 @@ cadia_homeworld = {
 				}
 			}
 			last_created_country = {
-				set_name = "Cadian Gate"
+				set_name = "Cadia"
 				set_graphical_culture = humanoid_01
 				save_global_event_target_as = the_cadia
 				set_country_flag = human_colony

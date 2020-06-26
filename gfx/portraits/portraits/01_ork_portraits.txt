@@ -95,7 +95,7 @@ portrait_groups = {
 
 	ork_evil_sunz = {
 		
-		default = ORK_EvilSunz_BigBoss_01
+		default = ORK_N_Firestarta
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = ORK_EvilSunz_ruler
@@ -128,6 +128,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					ORK_N_Firestarta
 					ORK_EvilSunz_BigBoss_01
 					ORK_EvilSunz_BigBoss_02
 					ORK_EvilSunz_BigBoss_03
@@ -163,6 +164,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
+					ORK_N_Firestarta
 					ORK_EvilSunz_BigBoss_01
 					ORK_EvilSunz_BigBoss_02
 					ORK_EvilSunz_BigBoss_03
@@ -371,7 +373,7 @@ portrait_groups = {
 
 	ork_big_mek = {
 		
-		default = ORK_N_Firestarta
+		default = ORK_BigMek_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			default = ORK_BigMek_ruler
@@ -404,7 +406,6 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					ORK_N_Firestarta
 					ORK_BigMek_01
 					ORK_BigMek_02
 					ORK_BigMek_03
@@ -440,7 +441,6 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					ORK_N_Firestarta
 					ORK_BigMek_01
 					ORK_BigMek_02
 					ORK_BigMek_03
