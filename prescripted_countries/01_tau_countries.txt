@@ -24,7 +24,7 @@ dalyth = {
 	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_trader_friendly" }
 	government = "gov_authoritarian_federation"
-	origin = "origin_default"
+	origin = "origin_dalyth"
 
 	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
@@ -91,7 +91,7 @@ farsight = {
 	authority = "auth_tau"
 	civics = { "civic_farsight_enclaves" "civic_warrior_culture" }
 	government = "gov_authoritarian_federation"
-	origin = "origin_default"
+	origin = "origin_farsight"
 
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
@@ -158,7 +158,7 @@ sacea = {
 	authority = "auth_tau"
 	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" }
 	government = "gov_authoritarian_federation"
-	origin = "origin_default"
+	origin = "origin_sacea"
 
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
@@ -225,7 +225,7 @@ tau = {
 	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_high_education" }
 	government = "gov_authoritarian_federation"
-	origin = "origin_default"
+	origin = "origin_tau"
 
 	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
@@ -292,7 +292,7 @@ taun = {
 	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_idealistic_foundation" }
 	government = "gov_authoritarian_federation"
-	origin = "origin_default"
+	origin = "origin_taun"
 
 	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
@@ -359,7 +359,7 @@ dyanoi = {
 	authority = "auth_tau"
 	civics = { "civic_rustic_population" "civic_warrior_culture" }
 	government = "gov_authoritarian_federation"
-	origin = "origin_default"
+	origin = "origin_dyanoi"
 
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"

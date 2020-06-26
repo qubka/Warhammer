@@ -42,7 +42,7 @@ cadia_homeworld = {
 					civic = civic_warrior_culture
 					civic = civic_fanatic_purifiers
 				}
-				origin = "origin_default"
+				origin = "origin_dominion"
 				ethos = {
 					ethic = ethic_fanatic_xenophobe
 					ethic = ethic_militarist

@@ -24,7 +24,7 @@ behemoth = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_behemoth"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_behemoth }
@@ -89,7 +89,7 @@ gorgon = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_gorgon"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_gorgon }
@@ -154,7 +154,7 @@ hydra = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_hydra"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_hydra }
@@ -219,7 +219,7 @@ jormungandr = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_jormungandr"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_jormungandr }
@@ -284,7 +284,7 @@ kraken = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_kraken"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_kraken }
@@ -349,7 +349,7 @@ leviathan = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_leviathan"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_leviathan }
@@ -414,7 +414,7 @@ ouroboris = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_ouroboris"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_ouroboris }
@@ -479,7 +479,7 @@ tiamet = {
 	authority = "auth_hive_mind"
 	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
 	government = "gov_hive_mind"
-	origin = "origin_default"
+	origin = "origin_tiamet"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_tiamet }

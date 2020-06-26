@@ -57,7 +57,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -93,7 +93,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -129,7 +129,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -165,7 +165,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -201,7 +201,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -237,7 +237,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -273,7 +273,7 @@ marauder_1_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1323,7 +1323,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1359,7 +1359,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1395,7 +1395,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1431,7 +1431,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1467,7 +1467,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1503,7 +1503,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1539,7 +1539,7 @@ marauder_2_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2527,7 +2527,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2563,7 +2563,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2599,7 +2599,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2635,7 +2635,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2671,7 +2671,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2707,7 +2707,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2743,7 +2743,7 @@ marauder_3_1 = {
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
-						origin = "origin_default"
+						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe

@@ -24,7 +24,7 @@ mankind = {
 	authority = "auth_imp"
 	civics = { "civic_senatorum_imperialis" "civic_imperialcult_fanatics" }
 	government = "gov_theocratic_confederation"
-	origin = "origin_default"
+	origin = "origin_mankind"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -91,7 +91,7 @@ white_scars = {
 	authority = "auth_imp"
 	civics = { "civic_v" "civic_horde_traditions" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_white_scars"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -158,7 +158,7 @@ ultra_marines = {
 	authority = "auth_imp"
 	civics = { "civic_xiii" "civic_imperium_secundus" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_ultra_marines"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -225,7 +225,7 @@ space_wolfes = {
 	authority = "auth_imp"
 	civics = { "civic_vi" "civic_barbarian_culture" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_space_wolfes"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -292,7 +292,7 @@ salamanders = {
 	authority = "auth_imp"
 	civics = { "civic_xviii" "civic_blacksmith_culture" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_salamanders"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -359,7 +359,7 @@ raven_guard = {
 	authority = "auth_imp"
 	civics = { "civic_xix" "civic_production_guilds" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_raven_guard"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -426,7 +426,7 @@ iron_hand = {
 	authority = "auth_imp"
 	civics = { "civic_x" "civic_interclans_rivalry" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_iron_hand"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -493,7 +493,7 @@ imperial_fist = {
 	authority = "auth_imp"
 	civics = { "civic_vii" "civic_chosen_by_the_emperor" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_imperial_fist"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -560,7 +560,7 @@ dark_angles = {
 	authority = "auth_imp"
 	civics = { "civic_i" "civic_chivalric_traditions" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_dark_angles"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -627,7 +627,7 @@ blood_angles = {
 	authority = "auth_imp"
 	civics = { "civic_ix" "civic_tribal_culture" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_default"
+	origin = "origin_blood_angles"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"

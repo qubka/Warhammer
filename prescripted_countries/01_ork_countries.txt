@@ -23,7 +23,7 @@ goff = {
 	authority = "auth_ork"
 	civics = { "civic_combat_specialists" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_goff"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
@@ -88,7 +88,7 @@ evil_sunz = {
 	authority = "auth_ork"
 	civics = { "civic_vehicles_lovers" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_evil_sunz"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
@@ -153,7 +153,7 @@ death_skullz = {
 	authority = "auth_ork"
 	civics = { "civic_scavengers_mobz" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_death_skullz"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
@@ -218,7 +218,7 @@ blood_axe = {
 	authority = "auth_ork"
 	civics = { "civic_camouflage_boyz" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_blood_axe"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
@@ -283,7 +283,7 @@ big_mek = {
 	authority = "auth_ork"
 	civics = { "civic_oddboyz_culture" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_big_mek"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
@@ -348,7 +348,7 @@ big_boss = {
 	authority = "auth_ork"
 	civics = { "civic_clever_nobz" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_big_boss"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
@@ -413,7 +413,7 @@ bad_moons = {
 	authority = "auth_ork"
 	civics = { "civic_teeth_growers" "civic_great_waaagh" }
 	government = "gov_kratocratic_dictatorship"
-	origin = "origin_default"
+	origin = "origin_bad_moons"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"

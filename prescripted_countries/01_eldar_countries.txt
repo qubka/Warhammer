@@ -24,7 +24,7 @@ ynnari = {
 	authority = "auth_eldar"
 	civics = { "civic_reborn_followers" "civic_children_of_stars" }
 	government = "gov_confederal_chiefdom"
-	origin = "origin_default"
+	origin = "origin_ynnari"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -91,7 +91,7 @@ ulthwe = {
 	authority = "auth_eldar"
 	civics = { "civic_seers_way" "civic_children_of_stars" }
 	government = "gov_authoritarian_magocratic"
-	origin = "origin_default"
+	origin = "origin_ulthwe"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -158,7 +158,7 @@ saim_hann = {
 	authority = "auth_eldar"
 	civics = { "civic_enjoyed_of_simple" "civic_children_of_stars" }
 	government = "gov_confederal_chiefdom"
-	origin = "origin_default"
+	origin = "origin_saim_hann"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -225,7 +225,7 @@ ostara = {
 	authority = "auth_eldar"
 	civics = { "civic_paranoid_isolationism" "civic_children_of_stars" }
 	government = "gov_authoritarian_magocratic"
-	origin = "origin_default"
+	origin = "origin_ostara"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -292,7 +292,7 @@ iyanden = {
 	authority = "auth_eldar"
 	civics = { "civic_damaged_craftworld" "civic_children_of_stars" }
 	government = "gov_authoritarian_magocratic"
-	origin = "origin_default"
+	origin = "origin_iyanden"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -359,7 +359,7 @@ biel_tan = {
 	authority = "auth_eldar"
 	civics = { "civic_warrior_culture" "civic_children_of_stars" }
 	government = "gov_federal_magocratic_stratocracy"
-	origin = "origin_default"
+	origin = "origin_biel_tan"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
@@ -426,7 +426,7 @@ alaitoc = {
 	authority = "auth_eldar"
 	civics = { "civic_over_racism" "civic_children_of_stars" }
 	government = "gov_authoritarian_magocratic"
-	origin = "origin_default"
+	origin = "origin_alaitoc"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"

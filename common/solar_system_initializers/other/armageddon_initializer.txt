@@ -43,7 +43,7 @@ armageddon_homeworld = {
 					civic = civic_warrior_culture
 					civic = civic_fanatic_purifiers
 				}
-				origin = "origin_default"
+				origin = "origin_dominion"
 				ethos = {
 					ethic = ethic_fanatic_xenophobe
 					ethic = ethic_militarist
@@ -135,8 +135,8 @@ armageddon_homeworld = {
 	}
 	
 	planet = {
-		name = ""
-		class = "pc_"
+		name = "Armageddonn"
+		class = "pc_hive_industrial"
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 16 max = 20 }

@@ -45,7 +45,7 @@ stygies_homeworld = {
 					civic = civic_machine_cult
 					civic = civic_technocracy
 				}
-				origin = "origin_default"
+				origin = "origin_mechanicus"
 				ethos = {
 					ethic = ethic_fanatic_materialist
 					ethic = ethic_xenophobe

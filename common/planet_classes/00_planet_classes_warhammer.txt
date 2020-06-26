@@ -562,7 +562,7 @@ pc_forge_ring = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -594,7 +594,7 @@ pc_forge_ring2 = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -626,7 +626,7 @@ pc_forge_ring3 = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -658,7 +658,7 @@ pc_craftworld = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -754,7 +754,7 @@ pc_webway = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -786,7 +786,7 @@ pc_spacehulk = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -818,7 +818,7 @@ pc_blackstonefortress = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
@@ -851,7 +851,7 @@ pc_eternalcrusader = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	
-	chance_of_ring = 1
+	chance_of_ring = 0
 	
 	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
 	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }

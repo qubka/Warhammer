@@ -84,3 +84,7 @@ gov_meritocratic_tetrarchy = {
 gov_anarcho_tribalism = {
 
 }
+
+gov_absolute_monarchy = {
+
+}

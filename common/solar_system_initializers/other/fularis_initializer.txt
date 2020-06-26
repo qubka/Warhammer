@@ -44,7 +44,7 @@ fularis_homeworld = {
 					civic = civic_warrior_culture
 					civic = civic_fanatic_purifiers
 				}
-				origin = "origin_default"
+				origin = "origin_dominion"
 				ethos = {
 					ethic = ethic_fanatic_xenophobe
 					ethic = ethic_militarist
@@ -136,8 +136,8 @@ fularis_homeworld = {
 	}
 	
 	planet = {
-		name = ""
-		class = "pc_"
+		name = "Fularis"
+		class = "pc_continental"
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 16 max = 20 }
@@ -148,8 +148,8 @@ fularis_homeworld = {
 		modifiers = none
 		
 		init_effect = {
-			set_owner = event_target:the_krieg
-			set_controller = event_target:the_krieg
+			set_owner = event_target:the_fularis
+			set_controller = event_target:the_fularis
 			set_capital = yes
 
 			generate_start_buildings_and_districts = yes

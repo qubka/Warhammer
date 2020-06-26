@@ -1,0 +1,967 @@
+# IMP
+
+origin_mankind = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_mechanicus = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_dominion = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_white_scars = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_ultra_marines = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_space_wolfes = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_salamanders = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_raven_guard = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_iron_hand = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_imperial_fist = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_dark_angles = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_blood_angles = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# DEL
+
+origin_dark_ynnari = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_severed = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_last_hatred = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_iron_thorn = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_flayed_skull = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_dying_sun = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_broken_sigil = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_black_heart = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# ELD
+
+origin_ynnari = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_ulthwe = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_saim_hann = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_ostara = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_iyanden = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_biel_tan = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_alaitoc = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_corsair = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# NEC
+
+origin_charnovokh = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_mephrit = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_nepheru = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_nephrekh = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_nihiliakh = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_novokh = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_sautekh = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_temeryn = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_thokt = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# ORK
+
+origin_goff = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_evil_sunz = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_death_skullz = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_blood_axe = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_big_mek = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_big_boss = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_bad_moons = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# TAU
+
+origin_dalyth = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_farsight = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_sacea = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_tau = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_taun = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_dyanoi = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# TYR
+
+origin_behemoth = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_gorgon = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_hydra = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_jormungandr = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_kraken = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_leviathan = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_ouroboris = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_tiamet = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+# CHA
+
+origin_alpha_legion = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_black_legion = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_death_guard = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_emperor_children = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_iron_warrior = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_night_lords = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_red_corsairs = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_thousand_sons = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_word_bearer = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_world_eater = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_default.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}

@@ -24,8 +24,8 @@ charnovokh = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_charnovokh"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_charnovokh }
@@ -90,8 +90,8 @@ mephrit = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_mephrit"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_mephrit }
@@ -156,8 +156,8 @@ nepheru = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_nepheru"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_nepheru }
@@ -222,8 +222,8 @@ nephrekh = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_nephrekh"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_nephrekh }
@@ -288,8 +288,8 @@ nihiliakh = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_nihiliakh"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_nihiliakh }
@@ -354,8 +354,8 @@ novokh = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_novokh"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_novokh }
@@ -420,8 +420,8 @@ sautekh = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_sautekh"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_sautekh }
@@ -486,8 +486,8 @@ temeryn = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_temeryn"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_temeryn }
@@ -552,8 +552,8 @@ thokt = {
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_machine_warbots" }
-	government = "gov_star_empire"
-	origin = "origin_default"
+	government = "gov_absolute_monarchy"
+	origin = "origin_thokt"
 
 	ethic = "ethic_gestalt_consciousness"
 	flags = { the_thokt }
