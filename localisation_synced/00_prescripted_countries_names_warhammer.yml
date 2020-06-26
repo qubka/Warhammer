@@ -439,8 +439,8 @@
  PRESCRIPTED_species_adjective_behemoth:0 "Tyranid"
  PRESCRIPTED_planet_name_behemoth:0 "Swearkilke"
  PRESCRIPTED_system_name_behemoth:0 "Eastern Fringe"
- PRESCRIPTED_ruler_name_behemoth:0 "?"
- PRESCRIPTED_ruler_title_behemoth:0 "Warlord"
+ PRESCRIPTED_ruler_name_behemoth:0 "Behemoth"
+ PRESCRIPTED_ruler_title_behemoth:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_gorgon:0 "Tyranid"
  PRESCRIPTED_ship_prefix_gorgon:0 "GG"
@@ -449,8 +449,8 @@
  PRESCRIPTED_species_adjective_gorgon:0 "Tyranid"
  PRESCRIPTED_planet_name_gorgon:0 "Mirienh"
  PRESCRIPTED_system_name_gorgon:0 "Eastern Fringe"
- PRESCRIPTED_ruler_name_gorgon:0 "?"
- PRESCRIPTED_ruler_title_gorgon:0 "Warlord"
+ PRESCRIPTED_ruler_name_gorgon:0 "Gorgon"
+ PRESCRIPTED_ruler_title_gorgon:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_hydra:0 "Tyranid"
  PRESCRIPTED_ship_prefix_hydra:0 "HY"
@@ -459,8 +459,8 @@
  PRESCRIPTED_species_adjective_hydra:0 "Tyranid"
  PRESCRIPTED_planet_name_hydra:0 "Nostea"
  PRESCRIPTED_system_name_hydra:0 "Veiled Region"
- PRESCRIPTED_ruler_name_hydra:0 "?"
- PRESCRIPTED_ruler_title_hydra:0 "Warlord"
+ PRESCRIPTED_ruler_name_hydra:0 "Hydra"
+ PRESCRIPTED_ruler_title_hydra:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_jormungandr:0 "Tyranid"
  PRESCRIPTED_ship_prefix_jormungandr:0 "JO"
@@ -469,8 +469,8 @@
  PRESCRIPTED_species_adjective_jormungandr:0 "Tyranid"
  PRESCRIPTED_planet_name_jormungandr:0 "Karkadan"
  PRESCRIPTED_system_name_jormungandr:0 "Ghoul Stars"
- PRESCRIPTED_ruler_name_jormungandr:0 "?"
- PRESCRIPTED_ruler_title_jormungandr:0 "Warlord"
+ PRESCRIPTED_ruler_name_jormungandr:0 "Jormungandr"
+ PRESCRIPTED_ruler_title_jormungandr:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_kraken:0 "Tyranid"
  PRESCRIPTED_ship_prefix_kraken:0 "KR"
@@ -479,8 +479,8 @@
  PRESCRIPTED_species_adjective_kraken:0 "Tyranid"
  PRESCRIPTED_planet_name_kraken:0 "Coggan"
  PRESCRIPTED_system_name_kraken:0 "Eastern Fringe"
- PRESCRIPTED_ruler_name_kraken:0 "?"
- PRESCRIPTED_ruler_title_kraken:0 "Warlord"
+ PRESCRIPTED_ruler_name_kraken:0 "Kraken"
+ PRESCRIPTED_ruler_title_kraken:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_leviathan:0 "Tyranid"
  PRESCRIPTED_ship_prefix_leviathan:0 "LV"
@@ -489,8 +489,8 @@
  PRESCRIPTED_species_adjective_leviathan:0 "Tyranid"
  PRESCRIPTED_planet_name_leviathan:0 "Myrum"
  PRESCRIPTED_system_name_leviathan:0 "Veiled Region"
- PRESCRIPTED_ruler_name_leviathan:0 "?"
- PRESCRIPTED_ruler_title_leviathan:0 "Warlord"
+ PRESCRIPTED_ruler_name_leviathan:0 "Leviathan"
+ PRESCRIPTED_ruler_title_leviathan:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_ouroboris:0 "Tyranid"
  PRESCRIPTED_ship_prefix_ouroboris:0 "OB"
@@ -499,8 +499,8 @@
  PRESCRIPTED_species_adjective_ouroboris:0 "Tyranid"
  PRESCRIPTED_planet_name_ouroboris:0 "Appollonia"
  PRESCRIPTED_system_name_ouroboris:0 "Segmentum Obscurus"
- PRESCRIPTED_ruler_name_ouroboris:0 "?"
- PRESCRIPTED_ruler_title_ouroboris:0 "Warlord"
+ PRESCRIPTED_ruler_name_ouroboris:0 "Ouroboris"
+ PRESCRIPTED_ruler_title_ouroboris:0 "Swarmlord"
  ###
  PRESCRIPTED_adjective_tiamet:0 "Tyranid"
  PRESCRIPTED_ship_prefix_tiamet:0 "TM"
@@ -509,8 +509,8 @@
  PRESCRIPTED_species_adjective_tiamet:0 "Tyranid"
  PRESCRIPTED_planet_name_tiamet:0 "Jabbah"
  PRESCRIPTED_system_name_tiamet:0 "Segmentum Obscurus"
- PRESCRIPTED_ruler_name_tiamets:0 "?"
- PRESCRIPTED_ruler_title_tiamet:0 "Warlord"
+ PRESCRIPTED_ruler_name_tiamet:0 "Tiamet"
+ PRESCRIPTED_ruler_title_tiamet:0 "Swarmlord"
  
 # NEC
  ###
@@ -521,8 +521,8 @@
  PRESCRIPTED_species_adjective_charnovokh:0 "Necron"
  PRESCRIPTED_planet_name_charnovokh:0 "Bardic"
  PRESCRIPTED_system_name_charnovokh:0 "Eastern Fringe"
- PRESCRIPTED_ruler_name_charnovokh:0 "?"
- PRESCRIPTED_ruler_title_charnovokh:0 "Overlord"
+ PRESCRIPTED_ruler_name_charnovokh:0 "Thoekh"
+ PRESCRIPTED_ruler_title_charnovokh:0 "Phaeron"
  ###
  PRESCRIPTED_adjective_mephrit:0 "Necron"
  PRESCRIPTED_ship_prefix_mephrit:0 "MH"
@@ -531,7 +531,7 @@
  PRESCRIPTED_species_adjective_mephrit:0 "Necron"
  PRESCRIPTED_planet_name_mephrit:0 "Qvrakotosh"
  PRESCRIPTED_system_name_mephrit:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_mephrit:0 "?"
+ PRESCRIPTED_ruler_name_mephrit:0 "Zarathusa"
  PRESCRIPTED_ruler_title_mephrit:0 "Overlord"
  ###
  PRESCRIPTED_adjective_nepheru:0 "Necron"
@@ -541,8 +541,8 @@
  PRESCRIPTED_species_adjective_nepheru:0 "Necron"
  PRESCRIPTED_planet_name_nepheru:0 "Kinbriar"
  PRESCRIPTED_system_name_nepheru:0 "Halo Stars"
- PRESCRIPTED_ruler_name_nepheru:0 "?"
- PRESCRIPTED_ruler_title_nepheru:0 "Overlord"
+ PRESCRIPTED_ruler_name_nepheru:0 "Kephrekh"
+ PRESCRIPTED_ruler_title_nepheru:0 "Phaeron"
  ###
  PRESCRIPTED_adjective_nephrekh:0 "Necron"
  PRESCRIPTED_ship_prefix_nephrekh:0 "NP"
@@ -551,8 +551,8 @@
  PRESCRIPTED_species_adjective_nephrekh:0 "Necron"
  PRESCRIPTED_planet_name_nephrekh:0 "Aryand"
  PRESCRIPTED_system_name_nephrekh:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_nephrekh:0 "?"
- PRESCRIPTED_ruler_title_nephrekh:0 "Overlord"
+ PRESCRIPTED_ruler_name_nephrekh:0 "Sylphek"
+ PRESCRIPTED_ruler_title_nephrekh:0 "Phaeron"
  ###
  PRESCRIPTED_adjective_nihiliakh:0 "Necron"
  PRESCRIPTED_ship_prefix_nihiliakh:0 "NK"
@@ -561,8 +561,8 @@
  PRESCRIPTED_species_adjective_nihiliakh:0 "Necron"
  PRESCRIPTED_planet_name_nihiliakh:0 "Gheden"
  PRESCRIPTED_system_name_nihiliakh:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_nihiliakh:0 "?"
- PRESCRIPTED_ruler_title_nihiliakh:0 "Overlord"
+ PRESCRIPTED_ruler_name_nihiliakh:0 "Oracle"
+ PRESCRIPTED_ruler_title_nihiliakh:0 "Phaeron"
  ###
  PRESCRIPTED_adjective_novokh:0 "Necron"
  PRESCRIPTED_ship_prefix_novokh:0 "NV"
@@ -571,7 +571,7 @@
  PRESCRIPTED_species_adjective_novokh:0 "Necron"
  PRESCRIPTED_planet_name_novokh:0 "Dhol"
  PRESCRIPTED_system_name_novokh:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_novokh:0 "?"
+ PRESCRIPTED_ruler_name_novokh:0 "Galmakh the Moon Killer"
  PRESCRIPTED_ruler_title_novokh:0 "Overlord"
  ###
  PRESCRIPTED_adjective_sautekh:0 "Necron"
@@ -581,8 +581,8 @@
  PRESCRIPTED_species_adjective_sautekh:0 "Necron"
  PRESCRIPTED_planet_name_sautekh:0 "Medusa VII"
  PRESCRIPTED_system_name_sautekh:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_sautekh:0 "?"
- PRESCRIPTED_ruler_title_sautekh:0 "Overlord"
+ PRESCRIPTED_ruler_name_sautekh:0 "Imotekh the Stormlord"
+ PRESCRIPTED_ruler_title_sautekh:0 "Phaeron"
  ###
  PRESCRIPTED_adjective_temeryn:0 "Necron"
  PRESCRIPTED_ship_prefix_temeryn:0 "TN"
@@ -591,8 +591,8 @@
  PRESCRIPTED_species_adjective_temeryn:0 "Necron"
  PRESCRIPTED_planet_name_temeryn:0 "Nagathar"
  PRESCRIPTED_system_name_temeryn:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_temeryn:0 "?"
- PRESCRIPTED_ruler_title_temeryn:0 "Overlord"
+ PRESCRIPTED_ruler_name_temeryn:0 "Varagon Drakvir"
+ PRESCRIPTED_ruler_title_temeryn:0 "Phaeron"
  ###
  PRESCRIPTED_adjective_thokt:0 "Necron"
  PRESCRIPTED_ship_prefix_thokt:0 "TH"
@@ -601,7 +601,7 @@
  PRESCRIPTED_species_adjective_thokt:0 "Necron"
  PRESCRIPTED_planet_name_thokt:0 "Meghoshta"
  PRESCRIPTED_system_name_thokt:0 "Segmentum Pacificus"
- PRESCRIPTED_ruler_name_thokt:0 "?"
+ PRESCRIPTED_ruler_name_thokt:0 "Vothimyt"
  PRESCRIPTED_ruler_title_thokt:0 "Overlord"
  
 # TAU
@@ -613,8 +613,8 @@
  PRESCRIPTED_species_adjective_dalyth:0 "Tau"
  PRESCRIPTED_planet_name_dalyth:0 "Dal'yth"
  PRESCRIPTED_system_name_dalyth:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_dalyth:0 "?"
- PRESCRIPTED_ruler_title_dalyth:0 "Council"
+ PRESCRIPTED_ruler_name_dalyth:0 "Por'ui Fi'rios"
+ PRESCRIPTED_ruler_title_dalyth:0 "Kar'tyr"
  ###
  PRESCRIPTED_adjective_farsight:0 "Tau"
  PRESCRIPTED_ship_prefix_farsight:0 "FS"
@@ -623,8 +623,8 @@
  PRESCRIPTED_species_adjective_farsight:0 "Tau"
  PRESCRIPTED_planet_name_farsight:0 "Enclave Base"
  PRESCRIPTED_system_name_farsight:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_farsight:0 "?"
- PRESCRIPTED_ruler_title_farsight:0 "Warlord"
+ PRESCRIPTED_ruler_name_farsight:0 "O'Shovah"
+ PRESCRIPTED_ruler_title_farsight:0 "High Admiral"
  ###
  PRESCRIPTED_adjective_sacea:0 "Tau"
  PRESCRIPTED_ship_prefix_sacea:0 "SS"
@@ -633,8 +633,8 @@
  PRESCRIPTED_species_adjective_sacea:0 "Tau"
  PRESCRIPTED_planet_name_sacea:0 "Sa'cea"
  PRESCRIPTED_system_name_sacea:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_sacea:0 "?"
- PRESCRIPTED_ruler_title_sacea:0 "Council"
+ PRESCRIPTED_ruler_name_sacea:0 "Starshrike"
+ PRESCRIPTED_ruler_title_sacea:0 "Commander"
  ###
  PRESCRIPTED_adjective_tau:0 "Tau"
  PRESCRIPTED_ship_prefix_tau:0 "TA"
@@ -643,8 +643,8 @@
  PRESCRIPTED_species_adjective_tau:0 "Tau"
  PRESCRIPTED_planet_name_tau:0 "T'au"
  PRESCRIPTED_system_name_tau:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_tau:0 "?"
- PRESCRIPTED_ruler_title_tau:0 "Council"
+ PRESCRIPTED_ruler_name_tau:0 "Aun'Va"
+ PRESCRIPTED_ruler_title_tau:0 "High Ethereal"
  ###
  PRESCRIPTED_adjective_taun:0 "Tau"
  PRESCRIPTED_ship_prefix_taun:0 "TN"
@@ -653,8 +653,8 @@
  PRESCRIPTED_species_adjective_taun:0 "Tau"
  PRESCRIPTED_planet_name_taun:0 "Tau'n"
  PRESCRIPTED_system_name_taun:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_taun:0 "?"
- PRESCRIPTED_ruler_title_taun:0 "Council"
+ PRESCRIPTED_ruler_name_taun:0 "Kor'o Y'eldi"
+ PRESCRIPTED_ruler_title_taun:0 "High Admiral"
  ###
  PRESCRIPTED_adjective_dyanoi:0 "Tau"
  PRESCRIPTED_ship_prefix_dyanoi:0 "DI"
@@ -663,5 +663,5 @@
  PRESCRIPTED_species_adjective_dyanoi:0 "Tau"
  PRESCRIPTED_planet_name_dyanoi:0 "D'yanoi"
  PRESCRIPTED_system_name_dyanoi:0 "Ultima Segmentum"
- PRESCRIPTED_ruler_name_dyanoi:0 "?"
+ PRESCRIPTED_ruler_name_dyanoi:0 "Vorcah"
  PRESCRIPTED_ruler_title_dyanoi:0 "Council"
