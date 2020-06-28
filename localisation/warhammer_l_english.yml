@@ -325,6 +325,16 @@
  building_daemon_pit_desc:0 "A huge sacrificial circle enabling more powerful daemons of the warp to be called forth to aid the forces of Chaos."
 
  ####################################
+ # Technologies
+ ####################################
+ tech_ritual_sacrifices:0 "Ritual Sacrifices"
+ tech_ritual_sacrifices_desc:0 "From the blood-soaked sacrificial cults of Feral Worlds to the philosophical secret societies of more advanced planets, the temptations of Chaos can capture all. The objective of the Chaos Cult is to survive and eventually dominate the society in which it dwells."
+ tech_ritual_terror:0 "Ritual Terror"
+ tech_ritual_terror_desc:0 "The cultists can use offerings to the Ruinous Powers, willingly setting their necks upon sacrificial blocks or shedding their guts upon stone altars as part of the most hideous and debased rituals imaginable. The objectives of these rituals varied, and while some were component parts of the larger ritual to bring the Ruinstorm into being, others were intended to summon Warp entities."
+ tech_daemon_pit:0 "Daemon Pit"
+ tech_daemon_pit_desc:0 "A huge sacrificial circle enabling more powerful daemons of the warp to be called forth to aid the forces of Chaos."
+ 
+ ####################################
  # Ethics
  ####################################
  ethic_imp:0 "Astartes"
@@ -508,7 +518,6 @@
  pc_advancexenocityy_tile_desc:0 "This world has been favored by a great sustainable technological development. Arable land is covered with efficiently run collective farms, cities rise into the sky, covered in white marble, and in their at their very center there are heavily defended fortresses, the Ethereal Councils."
  pc_advancexenocityy:0 "Advance Xeno World"
  pc_advancexenocityy_desc:0 "This world has been favored by a great sustainable technological development. Arable land is covered with efficiently run collective farms, cities rise into the sky, covered in white marble, and in their at their very center there are heavily defended fortresses, the Ethereal Councils."
- #pc_advancexenocityy:0 "Advance Xeno World" || This line is redundant with 373
  pc_advancexenocityyy_tile:0 "Advance Xeno World"
  pc_advancexenocityyy_tile_desc:0 "This world has been favored by a great sustainable technological development. Arable land is covered with efficiently run collective farms, cities rise into the sky, covered in white marble, and in their at their very center there are heavily defended fortresses, the Ethereal Councils."
  pc_advancexenocityyy:0 "Advance Xeno World"
@@ -706,6 +715,3 @@
  spacemarine_planet_desc:0 "This planet has a Adeptus Astartes base."
  mechanicus_planet:0 "Mechanicus Forge"
  mechanicus_planet_desc:0 "This planet is under Adeptus Mechanicus control."
- 
- 
- 

@@ -1,0 +1,66 @@
+# CHA
+
+tech_ritual_sacrifices = {
+	cost = 0
+	area = society
+	tier = 0
+	category = { psionics }
+	start_tech = yes
+
+	potential = {
+		OR = {
+			has_country_flag = chaos_empire
+			has_country_flag = darkeldar_empire
+		}
+	}
+	
+	modifier = {
+		pop_citizen_happiness = 0.15
+		slave_market_cost_mult = -0.1
+	}
+	
+	# unlocks daemon pit
+}
+
+tech_ritual_terror = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	prerequisites = { "tech_ritual_sacrifices" }
+	weight = @tier1weight1
+	
+	modifier = {
+		country_pop_enslaved_mult = 0.2
+		pop_category_slave_upkeep_mult = -0.1
+	}
+}
+
+tech_daemon_pit = {
+	cost = @tier2cost2
+	area = society
+	tier = 2
+	category = { psionics }
+	prerequisites = { "tech_ritual_terror" }
+	weight = @tier2weight2
+
+	potential = {
+		has_country_flag = chaos_empire
+	}
+	
+	modifier = {
+		pop_cat_slave_political_power = -0.15
+		pop_cat_slave_happiness = -0.1
+	}
+	
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 10
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+}
