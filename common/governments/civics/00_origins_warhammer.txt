@@ -2,7 +2,7 @@
 
 origin_mankind = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -16,7 +16,7 @@ origin_mankind = {
 
 origin_mechanicus = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -30,7 +30,7 @@ origin_mechanicus = {
 
 origin_dominion = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -44,7 +44,7 @@ origin_dominion = {
 
 origin_white_scars = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -58,7 +58,7 @@ origin_white_scars = {
 
 origin_ultra_marines = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -72,7 +72,7 @@ origin_ultra_marines = {
 
 origin_space_wolfes = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -86,7 +86,7 @@ origin_space_wolfes = {
 
 origin_salamanders = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -100,7 +100,7 @@ origin_salamanders = {
 
 origin_raven_guard = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -114,7 +114,7 @@ origin_raven_guard = {
 
 origin_iron_hand = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -128,7 +128,7 @@ origin_iron_hand = {
 
 origin_imperial_fist = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -142,7 +142,7 @@ origin_imperial_fist = {
 
 origin_dark_angles = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -156,7 +156,7 @@ origin_dark_angles = {
 
 origin_blood_angles = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -172,7 +172,7 @@ origin_blood_angles = {
 
 origin_dark_ynnari = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -186,7 +186,7 @@ origin_dark_ynnari = {
 
 origin_severed = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -200,7 +200,7 @@ origin_severed = {
 
 origin_last_hatred = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -214,7 +214,7 @@ origin_last_hatred = {
 
 origin_iron_thorn = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -228,7 +228,7 @@ origin_iron_thorn = {
 
 origin_flayed_skull = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -242,7 +242,7 @@ origin_flayed_skull = {
 
 origin_dying_sun = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -256,7 +256,7 @@ origin_dying_sun = {
 
 origin_broken_sigil = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -270,7 +270,7 @@ origin_broken_sigil = {
 
 origin_black_heart = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_darkeldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -286,7 +286,7 @@ origin_black_heart = {
 
 origin_ynnari = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -300,7 +300,7 @@ origin_ynnari = {
 
 origin_ulthwe = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -314,7 +314,7 @@ origin_ulthwe = {
 
 origin_saim_hann = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -328,7 +328,7 @@ origin_saim_hann = {
 
 origin_ostara = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -342,7 +342,7 @@ origin_ostara = {
 
 origin_iyanden = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -356,7 +356,7 @@ origin_iyanden = {
 
 origin_biel_tan = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -370,7 +370,7 @@ origin_biel_tan = {
 
 origin_alaitoc = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -384,7 +384,7 @@ origin_alaitoc = {
 
 origin_corsair = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_eldar.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -400,7 +400,7 @@ origin_corsair = {
 
 origin_charnovokh = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -414,7 +414,7 @@ origin_charnovokh = {
 
 origin_mephrit = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -428,7 +428,7 @@ origin_mephrit = {
 
 origin_nepheru = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -442,7 +442,7 @@ origin_nepheru = {
 
 origin_nephrekh = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -456,7 +456,7 @@ origin_nephrekh = {
 
 origin_nihiliakh = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -470,7 +470,7 @@ origin_nihiliakh = {
 
 origin_novokh = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -484,7 +484,7 @@ origin_novokh = {
 
 origin_sautekh = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -498,7 +498,7 @@ origin_sautekh = {
 
 origin_temeryn = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -512,7 +512,7 @@ origin_temeryn = {
 
 origin_thokt = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_necron.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -528,7 +528,7 @@ origin_thokt = {
 
 origin_goff = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -542,7 +542,7 @@ origin_goff = {
 
 origin_evil_sunz = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -556,7 +556,7 @@ origin_evil_sunz = {
 
 origin_death_skullz = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -570,7 +570,7 @@ origin_death_skullz = {
 
 origin_blood_axe = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -584,7 +584,7 @@ origin_blood_axe = {
 
 origin_big_mek = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -598,7 +598,7 @@ origin_big_mek = {
 
 origin_big_boss = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -612,7 +612,7 @@ origin_big_boss = {
 
 origin_bad_moons = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_ork.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -628,7 +628,7 @@ origin_bad_moons = {
 
 origin_dalyth = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tau.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -642,7 +642,7 @@ origin_dalyth = {
 
 origin_farsight = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tau.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -656,7 +656,7 @@ origin_farsight = {
 
 origin_sacea = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tau.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -670,7 +670,7 @@ origin_sacea = {
 
 origin_tau = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tau.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -684,7 +684,7 @@ origin_tau = {
 
 origin_taun = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tau.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -698,7 +698,7 @@ origin_taun = {
 
 origin_dyanoi = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tau.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -714,7 +714,7 @@ origin_dyanoi = {
 
 origin_behemoth = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -728,7 +728,7 @@ origin_behemoth = {
 
 origin_gorgon = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -742,7 +742,7 @@ origin_gorgon = {
 
 origin_hydra = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -756,7 +756,7 @@ origin_hydra = {
 
 origin_jormungandr = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -770,7 +770,7 @@ origin_jormungandr = {
 
 origin_kraken = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -784,7 +784,7 @@ origin_kraken = {
 
 origin_leviathan = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -798,7 +798,7 @@ origin_leviathan = {
 
 origin_ouroboris = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -812,7 +812,7 @@ origin_ouroboris = {
 
 origin_tiamet = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_tyranid.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -828,7 +828,7 @@ origin_tiamet = {
 
 origin_alpha_legion = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -842,7 +842,7 @@ origin_alpha_legion = {
 
 origin_black_legion = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -856,7 +856,7 @@ origin_black_legion = {
 
 origin_death_guard = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -870,7 +870,7 @@ origin_death_guard = {
 
 origin_emperor_children = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -884,7 +884,7 @@ origin_emperor_children = {
 
 origin_iron_warrior = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -898,7 +898,7 @@ origin_iron_warrior = {
 
 origin_night_lords = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -912,7 +912,7 @@ origin_night_lords = {
 
 origin_red_corsairs = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -926,7 +926,7 @@ origin_red_corsairs = {
 
 origin_thousand_sons = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -940,7 +940,7 @@ origin_thousand_sons = {
 
 origin_word_bearer = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {
@@ -954,7 +954,7 @@ origin_word_bearer = {
 
 origin_world_eater = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_default.dds"
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
 	picture = GFX_evt_metropolis
 	
 	playable = {

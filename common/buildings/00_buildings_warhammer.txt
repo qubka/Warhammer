@@ -1,0 +1,92 @@
+@b_time = 360
+
+# CHA
+
+building_daemon_pit = {
+	base_buildtime = @b_time
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = {
+			is_ai = no
+			has_country_flag = chaos_empire
+		}
+		planet = {
+			OR = {
+				is_planet_class = pc_daemon
+				is_planet_class = pc_daemonn
+				is_planet_class = pc_daemont
+				is_planet_class = pc_daemons
+			}
+		}
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+		buildings_simple_allow = yes
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = {
+				is_ai = yes
+				NOT = {
+					has_country_flag = chaos_empire
+				}
+			}
+			planet = {
+				NOR = { 
+					is_planet_class = pc_daemon
+					is_planet_class = pc_daemonn
+					is_planet_class = pc_daemont
+					is_planet_class = pc_daemons
+				}
+				free_building_slots = 0
+			}
+		}
+	}
+	
+	planet_modifier = {
+		job_priest_add = @b1_jobs
+		job_high_priest_add = 1
+		pop_happiness = 0.5
+	}
+
+	#prerequisites = {
+	#	"tech_daemon_pit"
+	#}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+		}
+		produces = {
+			trigger = {
+				exists = owner
+				owner = { NOT = { has_deficit = energy } }
+			}
+			society_research = 50
+		}
+		upkeep = {
+			energy = 25
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			buildings_build_building = yes
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}

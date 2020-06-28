@@ -85,7 +85,7 @@ stygies_homeworld = {
 			}
 			create_fleet = {
 				effect = {
-					set_owner = event_target:the_agripinaa
+					set_owner = event_target:the_stygies
 					while = {
 						count = 25
 						create_ship = {

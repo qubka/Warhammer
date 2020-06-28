@@ -319,6 +319,12 @@
  RT_BIGBOSS:0 "Big Boss"
  
  ####################################
+ # Buildings
+ ####################################
+ building_daemon_pit:0 "Daemon Pit"
+ building_daemon_pit_desc:0 "A huge sacrificial circle enabling more powerful daemons of the warp to be called forth to aid the forces of Chaos."
+
+ ####################################
  # Ethics
  ####################################
  ethic_imp:0 "Astartes"
