@@ -1,12 +1,16 @@
 # CHA
 
-tech_ritual_sacrifices = {
+###################
+# Rutuals
+###################
+
+tech_ritual = {
 	cost = 0
 	area = society
 	tier = 0
 	category = { psionics }
 	start_tech = yes
-
+	
 	potential = {
 		OR = {
 			has_country_flag = chaos_empire
@@ -14,18 +18,37 @@ tech_ritual_sacrifices = {
 		}
 	}
 	
+	# unlocks ritual districts
+}
+
+tech_ritual_sacrifices = {
+	cost = tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	start_tech = yes
+
 	modifier = {
 		pop_citizen_happiness = 0.15
 		slave_market_cost_mult = -0.1
 	}
 	
-	# unlocks daemon pit
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 10
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
 }
 
 tech_ritual_terror = {
-	cost = @tier1cost1
+	cost = @tier2cost1
 	area = society
-	tier = 1
+	tier = 2
 	category = { psionics }
 	prerequisites = { "tech_ritual_sacrifices" }
 	weight = @tier1weight1
@@ -34,15 +57,26 @@ tech_ritual_terror = {
 		country_pop_enslaved_mult = 0.2
 		pop_category_slave_upkeep_mult = -0.1
 	}
+	
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 10
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
 }
 
 tech_daemon_pit = {
-	cost = @tier2cost2
+	cost = @tier3cost1
 	area = society
-	tier = 2
+	tier = 3
 	category = { psionics }
 	prerequisites = { "tech_ritual_terror" }
-	weight = @tier2weight2
+	weight = @tier2weight1
 
 	potential = {
 		has_country_flag = chaos_empire

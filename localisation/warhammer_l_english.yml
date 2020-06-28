@@ -327,6 +327,8 @@
  ####################################
  # Technologies
  ####################################
+ tech_ritual:0 "Rituals"
+ tech_ritual_desc:0 "Unlocks ritual districts."
  tech_ritual_sacrifices:0 "Ritual Sacrifices"
  tech_ritual_sacrifices_desc:0 "From the blood-soaked sacrificial cults of Feral Worlds to the philosophical secret societies of more advanced planets, the temptations of Chaos can capture all. The objective of the Chaos Cult is to survive and eventually dominate the society in which it dwells."
  tech_ritual_terror:0 "Ritual Terror"
