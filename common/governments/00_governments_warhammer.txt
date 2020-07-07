@@ -24,67 +24,133 @@
 
 gov_kratocratic_dictatorship = {
 	ruler_title = RT_BIGBOSS
+	ruler_title_female = RT_BIGBOSS
 	
-	should_force_rename = yes
-	
-	leader_class = admiral 	# Initial ruler will become this if elected out of office
-
-	election_candidates = {
-		modifier = {
-			add = 100
-			leader_class = ruler
-		}
-		modifier = {
-			add = 10
-			OR = {
-				leader_class = admiral
-				leader_class = general
-			}
-		}
-	}
-
 	possible = {
 		has_authority = auth_ork
-		has_valid_civic = civic_great_waaagh
 	}
 
 	weight = {
-		base = 800
+		base = 1
 	}
 }
 
 gov_authoritarian_federation = {
+	ruler_title = RT_COUNCIL
+	ruler_title_female = RT_COUNCIL
+	
+	possible = {
+		has_authority = auth_tau
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_authoritarian_magocratic = {
+	ruler_title = RT_SEERCOUNCIL 
+	ruler_title_female = RT_SEERCOUNCIL
+	
+	possible = {
+		has_authority = auth_eldar
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_federal_magocratic_stratocracy = {
+	ruler_title = RT_EXARCH
+	ruler_title_female = RT_EXARCH
+	
+	possible = {
+		has_authority = auth_eldar
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_confederal_chiefdom = {
+	ruler_title = RT_CHIEFTAIN
+	ruler_title_female = RT_CHIEFTAIN
+	
+	possible = {
+		has_authority = auth_eldar
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_libertarian_meritocracy = {
+	ruler_title = RT_ARCHON
+	ruler_title_female = RT_ARCHON
+	
+	possible = {
+		has_authority = auth_darkeldar
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_theocratic_confederation = {
+	ruler_title = RT_EMPEROR
+	ruler_title_female = RT_EMPRESS
+	
+	possible = {
+		has_authority = auth_imp
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_meritocratic_tetrarchy = {
+	ruler_title = RT_TETRARCH
+	ruler_title_female = RT_TETRARCH
+	
+	possible = {
+		has_authority = auth_imp
+	}
 
+	weight = {
+		base = 1
+	}
 }
 
 gov_anarcho_tribalism = {
+	ruler_title = RT_WARMASTER
+	ruler_title_female = RT_WARMASTER
 
+	possible = {
+		has_authority = auth_chaos
+	}
+
+	weight = {
+		base = 1
+	}
 }
 
 gov_absolute_monarchy = {
+	ruler_title = RT_PHAERON
+	ruler_title_female = RT_PHAERAKH
 
+	use_regnal_names = yes
+	dynastic_last_names = yes
+
+	possible = {
+		has_authority = auth_machine_intelligence
+	}
+
+	weight = {
+		base = 1
+	}
 }

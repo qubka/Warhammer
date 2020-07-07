@@ -1,4 +1,5 @@
-faction_colony = {
+dominion_colony = {
 	ship_colonizer_cost_mult = 9999
+	armies_cost_mult = 9999
 	ships_upkeep_mult = -9999
 }

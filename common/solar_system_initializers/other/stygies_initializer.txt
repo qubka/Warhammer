@@ -81,7 +81,7 @@ stygies_homeworld = {
 					immortal = yes
 				}
 				set_leader = last_created_leader
-				add_modifier = { modifier = "faction_colony" days = -1 }
+				add_modifier = { modifier = "dominion_colony" days = -1 }
 			}
 			create_fleet = {
 				effect = {

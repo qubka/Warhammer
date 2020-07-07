@@ -231,7 +231,7 @@
  origin_alaitoc:0 "Alaitoc"
  origin_alaitoc_desc:0 "Alaitoc is an Eldar Craftworld known for its extensive use of Rangers. While all Craftworlds make use of the highly efficient sniper Rangers, none field or produce more than Alaitoc. By their nature, Alaitoc Rangers, known as the Starstriders do not reside upon the Craftworld, but travel the galaxy. These rangers retain their loyalty to Alaitoc, only returning to their Craftworld on occasion. It is said that by capturing its large numbers of Outcasts, the Imperial Inquisition has gleaned much knowledge of the Eldar through torture. This has increased tensions between the Imperium and Alaitoc, and the two are in a constant state of war. Despite the growth of Chaos following the Great Rift, Alaitoc believes that the Necrons are the greatest threat to the galaxy. "
  origin_corsair:0 "Corsair"
- origin_corsair_desc:0 ""
+ origin_corsair_desc:0 "The Corsairs are said to be the closest faction to the original Eldar before the Fall. Free from the bondage of the Path, they can explore the full extent of sensation in the universe without restraint. Their strong passions means that they are capable of both acts of great cruelty and kindness depending on their whims. Although they resort to piracy to survive due to lacking a economic support structure like a Craftworld or Kabal, it is mainly motivated by the fact that without the War Mask taught through the Path of the Warrior, Eldar can easily get addicted to the pleasures of battle and killing. Many Corsairs eventually grow out of this youthful rebellious phase and return to their Craftworld, though others fall so deep into depravity that their souls are consumed by Slaanesh or they become Dark Eldar themselves. Only those with the strongest wills can stay as a Corsair permanently without falling over the edge."
  origin_charnovokh:0 "Charnovokh Dynasty"
  origin_charnovokh_desc:0 "The Charnovokh Dynasty are a Dynasty of the Necrons on the Eastern Fringe. Their worlds were ravaged by Tyranid hive fleets, the dynasty is  now only a pale mirror of its former glories .Many of its dormant Tomb Worlds were devoured by the Tyranid Hive Fleet Behemoth while countless others have been ravaged in counterattacks against the Tyranids by the Imperium. As a result, the remaining systems of the Charnovokh Dynasty are small and scattered. The Charnovokh symbol represents the original three coreworlds and surrounding outer planets of the dynasty, although only a small fraction of these worlds now remain."
  origin_mephrit:0 "Mephrit Dynasty"
@@ -316,7 +316,17 @@
  ####################################
  # Rulers
  ####################################
+
  RT_BIGBOSS:0 "Big Boss"
+ RT_COUNCIL:0 "Council"
+ RT_SEERCOUNCIL:0 "Seer Council"
+ RT_EXARCH:0 "Exarch"
+ RT_CHIEFTAIN:0 "Chieftain"
+ RT_ARCHON:0 "Archon"
+ RT_TETRARCH:0 "Tetrarch"
+ RT_WARMASTER:0 "War Master"
+ RT_PHAERON:0 "Phaeron"
+ RT_PHAERAKH:0 "Phaerakh"
  
  ####################################
  # Buildings
@@ -338,7 +348,7 @@
  tech_daemon_pit:0 "Daemon Pit"
  tech_daemon_pit_desc:0 "A huge sacrificial circle enabling more powerful daemons of the warp to be called forth to aid the forces of Chaos."
  
-#IMP
+ #IMP
 
  ####################################
  # Categories
