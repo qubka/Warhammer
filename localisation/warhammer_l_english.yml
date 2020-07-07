@@ -327,6 +327,8 @@
  ####################################
  # Technologies
  ####################################
+ 
+ # CHA
  tech_ritual:0 "Rituals"
  tech_ritual_desc:0 "Unlocks ritual districts."
  tech_ritual_sacrifices:0 "Ritual Sacrifices"
@@ -335,6 +337,22 @@
  tech_ritual_terror_desc:0 "The cultists can use offerings to the Ruinous Powers, willingly setting their necks upon sacrificial blocks or shedding their guts upon stone altars as part of the most hideous and debased rituals imaginable. The objectives of these rituals varied, and while some were component parts of the larger ritual to bring the Ruinstorm into being, others were intended to summon Warp entities."
  tech_daemon_pit:0 "Daemon Pit"
  tech_daemon_pit_desc:0 "A huge sacrificial circle enabling more powerful daemons of the warp to be called forth to aid the forces of Chaos."
+ 
+#IMP
+
+ ####################################
+ # Categories
+ ####################################
+ chaos:0 "Chaos Manipulation"
+ chaos_desc:0 "The power to create and cause chaos."
+ armor:0 "Power Armor"
+ armor_desc:0 ""
+ weapon:0 "Weapons"
+ weapon_desc:0 ""
+ ammo:0 "Ammunition"
+ ammo_desc:0 ""
+ social:0 "Social"
+ social_desc:0 ""
  
  ####################################
  # Ethics

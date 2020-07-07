@@ -63,7 +63,6 @@ dark_angles_homeworld = {
 				set_capital = yes
 				set_planet_flag = spacemarinehomeworld
 
-				generate_start_buildings_and_districts = yes
 				generate_start_pops = yes
 				prevent_anomaly = yes
 			}

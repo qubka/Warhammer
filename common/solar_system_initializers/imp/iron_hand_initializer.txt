@@ -59,7 +59,6 @@ iron_hand_homeworld = {
 
 			add_modifier = { modifier = "unstable_tectonics" days = -1 }
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}

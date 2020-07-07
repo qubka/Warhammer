@@ -53,7 +53,6 @@ ultra_marines_homeworld = {
 			set_owner = event_target:the_ultra_marines
 			set_controller = event_target:the_ultra_marines
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -80,7 +79,6 @@ ultra_marines_homeworld = {
 			set_owner = event_target:the_ultra_marines
 			set_controller = event_target:the_ultra_marines
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -116,7 +114,6 @@ ultra_marines_homeworld = {
 			set_owner = event_target:the_ultra_marines
 			set_controller = event_target:the_ultra_marines
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -147,7 +144,6 @@ ultra_marines_homeworld = {
 			set_capital = yes
 			set_planet_flag = spacemarinehomeworld
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -174,7 +170,6 @@ ultra_marines_homeworld = {
 			set_owner = event_target:the_ultra_marines
 			set_controller = event_target:the_ultra_marines
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}

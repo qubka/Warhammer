@@ -153,7 +153,6 @@ metalica_homeworld = {
 			set_controller = event_target:the_metalica
 			set_capital = yes
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}

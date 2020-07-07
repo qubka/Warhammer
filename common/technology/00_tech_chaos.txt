@@ -1,21 +1,13 @@
-# CHA
-
-###################
-# Rutuals
-###################
 
 tech_ritual = {
 	cost = 0
 	area = society
 	tier = 0
-	category = { psionics }
+	category = { chaos }
 	start_tech = yes
 	
 	potential = {
-		OR = {
-			has_country_flag = chaos_empire
-			has_country_flag = darkeldar_empire
-		}
+		has_country_flag = chaos_empire
 	}
 	
 	# unlocks ritual districts
@@ -25,7 +17,7 @@ tech_ritual_sacrifices = {
 	cost = tier1cost1
 	area = society
 	tier = 1
-	category = { psionics }
+	category = { chaos }
 	prerequisites = { "tech_ritual" }
 	weight = @tier1weight1
 	
@@ -50,7 +42,7 @@ tech_ritual_terror = {
 	cost = @tier2cost1
 	area = society
 	tier = 2
-	category = { psionics }
+	category = { chaos }
 	prerequisites = { "tech_ritual_sacrifices" }
 	weight = @tier2weight1
 	
@@ -75,13 +67,9 @@ tech_daemon_pit = {
 	cost = @tier3cost1
 	area = society
 	tier = 3
-	category = { psionics }
+	category = { chaos }
 	prerequisites = { "tech_ritual_terror" }
 	weight = @tier3weight1
-
-	potential = {
-		has_country_flag = chaos_empire
-	}
 	
 	modifier = {
 		pop_cat_slave_political_power = -0.15

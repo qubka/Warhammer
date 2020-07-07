@@ -75,7 +75,6 @@ red_corsairs_homeworld = {
 			set_controller = event_target:the_red_corsairs
 			set_capital = yes
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -123,7 +122,6 @@ red_corsairs_homeworld = {
 				set_owner = event_target:the_red_corsairs
 				set_controller = event_target:the_red_corsairs
 
-				generate_start_buildings_and_districts = yes
 				generate_start_pops = yes
 				prevent_anomaly = yes
 			}

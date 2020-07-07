@@ -72,7 +72,6 @@ night_lords_homeworld = {
 			set_planet_flag = spacemarinehomeworld
 			set_planet_flag = mechanicushomeworld
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}

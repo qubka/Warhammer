@@ -90,7 +90,6 @@ mankind_homeworld = {
 			set_controller = event_target:the_mankind
 			set_capital = yes
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -116,7 +115,6 @@ mankind_homeworld = {
 				set_owner = event_target:the_mankind
 				set_controller = event_target:the_mankind
 				
-				generate_start_buildings_and_districts = yes
 				generate_start_pops = yes
 				prevent_anomaly = yes
 			}
@@ -145,7 +143,6 @@ mankind_homeworld = {
 			set_controller = event_target:the_mankind
 			set_planet_flag = mechanicushomeworld
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -270,8 +267,7 @@ mankind_homeworld = {
 				set_owner = event_target:the_mankind
 				set_controller = event_target:the_mankind
 				set_planet_flag = spacemarinehomeworld
-			
-				generate_start_buildings_and_districts = yes
+
 				generate_start_pops = yes
 				prevent_anomaly = yes
 			}

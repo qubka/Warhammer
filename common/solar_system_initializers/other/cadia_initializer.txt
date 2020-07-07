@@ -160,7 +160,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -183,7 +182,6 @@ cadia_homeworld = {
 			set_controller = event_target:the_cadia
 			set_capital = yes
 			
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -203,7 +201,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -223,7 +220,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -254,7 +250,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -285,7 +280,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -314,7 +308,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
@@ -334,7 +327,6 @@ cadia_homeworld = {
 			set_owner = event_target:the_cadia
 			set_controller = event_target:the_cadia
 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
 			prevent_anomaly = yes
 		}
