@@ -54,6 +54,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -65,7 +66,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Ynnari Corsairs"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -90,6 +90,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -101,7 +102,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Twilight Swords"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -126,6 +126,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -137,7 +138,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Void Dragons" 
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -162,6 +162,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -173,7 +174,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Sky Raiders"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -198,6 +198,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -209,7 +210,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Steeleye Reavers"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -234,6 +234,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -245,7 +246,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Sun Blitz"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -270,6 +270,7 @@ marauder_1_1 = {
 						}
 					}
 					create_country = {
+						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -281,7 +282,6 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Eldritch Raiders"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1320,6 +1320,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1331,7 +1332,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Ynnari Corsairs"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1356,6 +1356,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1367,7 +1368,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Twilight Swords"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1392,6 +1392,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1403,7 +1404,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Void Dragons" 
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1428,6 +1428,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1439,7 +1440,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Sky Raiders"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1464,6 +1464,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1475,7 +1476,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Steeleye Reavers"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1500,6 +1500,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1511,7 +1512,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Sun Blitz"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -1536,6 +1536,7 @@ marauder_2_1 = {
 						}
 					}
 					create_country = {
+						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -1547,7 +1548,6 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Eldritch Raiders"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2524,6 +2524,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2535,7 +2536,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Ynnari Corsairs"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2560,6 +2560,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2571,7 +2572,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Twilight Swords"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2596,6 +2596,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2607,7 +2608,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Void Dragons" 
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2632,6 +2632,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2643,7 +2644,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Sky Raiders"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2668,6 +2668,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2679,7 +2680,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Steeleye Reavers"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2704,6 +2704,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2715,7 +2716,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Sun Blitz"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
@@ -2740,6 +2740,7 @@ marauder_3_1 = {
 						}
 					}
 					create_country = {
+						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
 						civics = { civic = civic_anarcho_tribalism }
@@ -2751,7 +2752,6 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_name = "Eldritch Raiders"
 						set_graphical_culture = pirate_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1

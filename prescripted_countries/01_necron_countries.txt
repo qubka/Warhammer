@@ -3,7 +3,6 @@ charnovokh = {
 	adjective = "PRESCRIPTED_adjective_charnovokh"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_charnovokh"
 
 	species = {
@@ -69,7 +68,6 @@ mephrit = {
 	adjective = "PRESCRIPTED_adjective_mephrit"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_mephrit"
 
 	species = {
@@ -135,7 +133,6 @@ nepheru = {
 	adjective = "PRESCRIPTED_adjective_nepheru"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_nepheru"
 
 	species = {
@@ -201,7 +198,6 @@ nephrekh = {
 	adjective = "PRESCRIPTED_adjective_nephrekh"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_nephrekh"
 
 	species = {
@@ -267,7 +263,6 @@ nihiliakh = {
 	adjective = "PRESCRIPTED_adjective_nihiliakh"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_nihiliakh"
 
 	species = {
@@ -333,7 +328,6 @@ novokh = {
 	adjective = "PRESCRIPTED_adjective_novokh"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_novokh"
 
 	species = {
@@ -399,7 +393,6 @@ sautekh = {
 	adjective = "PRESCRIPTED_adjective_sautekh"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_sautekh"
 
 	species = {
@@ -465,7 +458,6 @@ temeryn = {
 	adjective = "PRESCRIPTED_adjective_temeryn"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_temeryn"
 
 	species = {
@@ -531,7 +523,6 @@ thokt = {
 	adjective = "PRESCRIPTED_adjective_thokt"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_thokt"
 
 	species = {

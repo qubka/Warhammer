@@ -333,6 +333,51 @@
  building_daemon_pit:0 "Daemon Pit"
  building_daemon_pit_desc:0 "A huge sacrificial circle enabling more powerful daemons of the warp to be called forth to aid the forces of Chaos."
 
+ 
+ # DEL
+ building_hall_of_blood:0 "Hall of Blood"
+ building_hall_of_blood_desc:0 "A massive complex built which shows all the perverse beauty of the Dark Eldars architecture."
+ building_dark_factory:0 "Dark Factory"
+ building_dark_factory_desc:0 "The essence of effective Dark Eldar strategy is the manufacture of fast-attack vehicles capable of easily traversing terrain and engaging enemy forces in raids. The Dark Foundry supplies the commander with a vast array of vehicles capable of meeting this task. In addition, the centuries-old engineers conduct research to improve the quality and durability of their weapons."
+ building_soul_cage:0 "Soul Cage"
+ building_soul_cage_desc:0 "Since inadvertently creating the Chaos God Slaanesh through their ghastly rituals milennia ago, the Dark Eldar have been in the thrall of their thirst for living souls. The Soul Cage, a hideous edifice echoing with the souls of the damned, is the ultimate monument to their corruption."
+ building_slave_chamber:0 "Slave Chamber"
+ building_slave_chamber_desc:0 "This building uses little-understood chaos technology to tunnel into other realities and siphon off their valuable resources by consuming huge amount of souls."
+ building_plasma_generator:0 "Plasma Generator"
+ building_plasma_generator_desc:0 "Even after all this time, the containment fields remain stable. No one understands how."
+ building_thermo_plasma_generator:0 "Thermo Plasma Forge"
+ building_thermo_plasma_generator_desc:0 "The thermo plasma-replicator bays convert raw materials into advanced alloys with miraculous efficiency."
+ building_haemonculus_laboratory:0 "Haemonculus' Laboratory"
+ building_haemonculus_laboratory_desc:0 "Before they were enthralled by the Chaos God Slaanesh, the Dark Eldar were part of one of the most cultured and learned civilizations of the universe. That scholarly tradition continues, albeit in a more twisted fashion, in the halls of the Haemonculus' Laboratory. Here, sinister sorceries and the application of pain, misery, and death are brought to the aid of their brethren as research into increasing the combat effectiveness of their forces. Once the Haemonculus' Laboratory is complete, the Dark Eldar commander can access Squad Leader options and special units."
+ building_wych_cult_arena:0 "Wych-Cult Arena"
+ building_wych_cult_arena_desc:0 "Among a species where cruelty is an art and souls are the stuff of life, the Wych Cult Arenas are among the most significant expressions of their culture. In the death-games of the Arena, the Wych cult train themselves in melee combat, allowing the Wych Squads to be deployed. In addition, the twisted tutors of the Wyches conduct research into using the tormented souls of the fallen as weapons in their raids."
+ building_kabal_fortress:0 "Kabal Fortress"
+ building_kabal_fortress_desc:0 "The Kabal Fortress is the building established by Dark Eldar. The unholy screams of the tormented echo in the endless halls of this grim citadel and the basic units of the Dark Eldar army deploy from this position. In addition, the covens of the Dark Eldar Archon research new deployment and ability options from inside their dark chambers."
+ building_tower_of_loathing:0 "Tower of Loathing"
+ building_tower_of_loathing_desc:0 "One of the most disheartening sights for an enemy commander is a Tower of Loathing being erected on a captured Strategic Point or Relic. These ugly towers serve as a basic defensive fortification in newly captured territory, protecting it until further reinforcements can be called in. Additionally , it can be upgraded with equipment to allow requisition rates to increase, as well as heavy weapons to mow down oncoming hostile forces."
+ 
+ 
+ #building__ancient_palace:0 ""
+ #building__ancient_palace_desc:0 ""
+ #building__affluence_center:0 ""
+ #building__affluence_center_desc:0 ""
+ #building__nourishment_center:0 ""
+ #building__nourishment_center_desc:0 ""
+ #building__dimensional_fabricator:0 ""
+ #building__dimensional_fabricator_desc:0 ""
+ #building__class_4_singularity:0 ""
+ #building__class_4_singularity_desc:0 ""
+ #building__nano_forge:0 ""
+ #building__nano_forge_desc:0 ""
+ #building__master_archive:0 ""
+ #building__master_archive_desc:0 "" 
+ #building__empyrean_shrine:0 ""
+ #building__empyrean_shrine_desc:0 "" 
+ #building__fe_dome:0 ""
+ #building__fe_dome_desc:0 ""
+ #building__fe_stronghold:0 ""
+ #building__fe_stronghold_desc:0 ""
+ 
  ####################################
  # Technologies
  ####################################

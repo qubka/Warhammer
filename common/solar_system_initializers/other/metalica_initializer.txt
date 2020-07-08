@@ -39,6 +39,7 @@ metalica_homeworld = {
 				}
 			}
 			create_country = {
+				name = "Metalica"
 				species = last_created
 				authority = "auth_oligarchic"
 				civics = {
@@ -68,7 +69,6 @@ metalica_homeworld = {
 				}
 			}
 			last_created_country = {
-				set_name = "Metalica"
 				set_graphical_culture = humanoid_01
 				save_global_event_target_as = the_metalica
 				set_country_flag = human_colony

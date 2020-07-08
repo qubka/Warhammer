@@ -1,114 +1,136 @@
 IMP = {
 	white_scars = {
 		name = "White Scars"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}	
 	
 	ultra_marines = {
 		name = "Ultramarines"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	space_wolfes = {
 		name = "Space Wolfes"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	salamanders = {
 		name = "Salamanders"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	raven_guard = {
 		name = "Raven Guard"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	iron_hand = {
 		name = "Iron Hand"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	imperial_fist = {
 		name = "Imperial Fist"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	dark_angles = {
 		name = "Dark Angles"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	blood_angles = {
 		name = "Blood Angles"
-		plural = Spacemarines
+		plural = "Spacemarines"
+		name_list = "IMPERIUM1"
 	}
 
 	mankind = {
 		name = "Imperium of Man"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	# OTHER
 
 	armagedon = {
 		name = "Armagedon"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	bakka = {
 		name = "Bakka"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	bastion = {
 		name = "Bastion"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	fularis = {
 		name = "Fularis"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	krieg = {
 		name = "Krieg"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	cadia = {
 		name = "Cadia"
-		plural = Humans
+		plural = "Humans"
+		name_list = "IMPERIUM1"
 	}
 	
 	agripinaa = {
 		name = "Agripinaa"
 		plural = "Mechanicus Cults"
+		name_list = "IMPERIUM1"
 	}
 	
 	graia = {
 		name = "Graia"
 		plural = "Mechanicus Cults"
+		name_list = "IMPERIUM1"
 	}
 	
 	lucius = {
 		name = "Lucius"
 		plural = "Mechanicus Cults"
+		name_list = "IMPERIUM1"
 	}
 
 	metalica = {
 		name = "Metalica"
 		plural = "Mechanicus Cults"
+		name_list = "IMPERIUM1"
 	}
 	
 	ryza = {
 		name = "Ryza"
 		plural = "Mechanicus Cults"
+		name_list = "IMPERIUM1"
 	}
 	
 	stygiesiii = {
 		name = "StygiesIII"
 		plural = "Mechanicus Cults"
+		name_list = "IMPERIUM1"
 	}
 }
 
@@ -116,51 +138,61 @@ CHA = {
 	alpha_legion = {
 		name = "Alpha Legion"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	black_legion = {
 		name = "Black Legion"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	death_guard = {
 		name = "Death Guard"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	emperor_children = {
 		name = "Emperor Children"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	iron_warrior = {
 		name = "Iron Warrior"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	night_lords = {
 		name = "Night Lords"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	red_corsairs = {
 		name = "Red Corsairs"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	thousand_sons = {
 		name = "Thousand Sons"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	word_bearer = {
 		name = "Word Bearer"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 	
 	world_eater = {
 		name = "World Eater"
 		plural = "Chaos Cults"
+		name_list = "CHAOS1"
 	}
 }
 
@@ -168,31 +200,37 @@ TAU = {
 	dalyth = {
 		name = "Dalyth"
 		plural = "Taus"
+		name_list = "TAU1"
 	}
 	
 	farsight = {
 		name = "Farsight"
 		plural = "Taus"
+		name_list = "TAU1"
 	}
 	
 	sacea = {
 		name = "Sacea"
 		plural = "Taus"
+		name_list = "TAU1"
 	}
 	
 	tau = {
 		name = "Tau"
 		plural = "Taus"
+		name_list = "TAU1"
 	}
 	
 	taun = {
 		name = "Taun"
 		plural = "Taus"
+		name_list = "TAU1"
 	}
 	
 	dyanoi = {
 		name = "Dyanoi"
 		plural = "Taus"
+		name_list = "TAU1"
 	}
 }
 
@@ -200,36 +238,43 @@ ORK = {
 	goff = {
 		name = "Goff"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 	
 	evil_sunz = {
 		name = "Evil Sunz"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 	
 	death_skullz = {
 		name = "Death Skullz"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 	
 	blood_axe = {
 		name = "Blood Axe"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 	
 	big_mek = {
 		name = "Big Mek"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 	
 	big_boss = {
 		name = "Big Boss"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 	
 	bad_moons = {
 		name = "Bad Moons"
 		plural = "Orks"
+		name_list = "ORK1"
 	}
 }
 
@@ -237,41 +282,49 @@ TYR = {
 	behemoth = {
 		name = "Behemoth"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	gorgon = {
 		name = "Gorgon"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	hydra = {
 		name = "Hydra"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	jormungandr = {
 		name = "Jormungandr"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	kraken = {
 		name = "Kraken"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	leviathan = {
 		name = "Leviathan"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	ouroboris = {
 		name = "Ouroboris"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 	tiamet = {
 		name = "Tiamet"
 		plural = "Tyranids"
+		name_list = "TYRANID1"
 	}
 	
 }
@@ -280,36 +333,43 @@ ELD = {
 	ynnari = {
 		name = "Ynnari"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 	
 	ulthwe = {
 		name = "Ulthwe"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 	
 	saim_hann = {
 		name = "Saim Hann"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 	
 	ostara = {
 		name = "Ostara"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 	
 	iyanden = {
 		name = "Iyanden"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 	
 	biel_tan = {
 		name = "Biel Tan"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 	
 	alaitoc = {
 		name = "Alaitoc"
 		plural = "Eldars"
+		name_list = "ELDAR1"
 	}
 }
 
@@ -317,41 +377,49 @@ DEL = {
 	dark_ynnari = {
 		name = "Dark Ynnari"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	the_severed = {
 		name = "The Severed"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	last_hatred = {
 		name = "Last Hatred"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	iron_thorn = {
 		name = "Iron Thorn"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	flayed_skull = {
 		name = "Flayed Skull"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	dying_sun = {
 		name = "Dying Sun"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	broken_sigil = {
 		name = "Broken Sigil"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 	
 	black_heart = {
 		name = "Black Heart"
 		plural = "Drukhari"
+		name_list = "DARKELDAR1"
 	}
 }
 
@@ -359,46 +427,55 @@ NEC = {
 	charnovokh = {
 		name = "Charnovokh"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	mephrit = {
 		name = "Mephrit"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	nepheru = {
 		name = "Nepheru"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	nephrekh = {
 		name = "Nephrekh"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	nihiliakh = {
 		name = "Nihiliakh"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	novokh = {
 		name = "Novokh"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	sautekh = {
 		name = "Sautekh"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	temeryn = {
 		name = "Temeryn"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 	
 	thokt = {
 		name = "Thokt"
 		plural = "Necrons"
+		name_list = "NECRON1"
 	}
 }
   

@@ -3,7 +3,6 @@ goff = {
 	adjective = "PRESCRIPTED_adjective_goff"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_goff"
 
 	species = {
@@ -68,7 +67,6 @@ evil_sunz = {
 	adjective = "PRESCRIPTED_adjective_evil_sunz"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_evil_sunz"
 
 	species = {
@@ -133,7 +131,6 @@ death_skullz = {
 	adjective = "PRESCRIPTED_adjective_death_skullz"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_death_skullz"
 
 	species = {
@@ -198,7 +195,6 @@ blood_axe = {
 	adjective = "PRESCRIPTED_adjective_blood_axe"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_blood_axe"
 
 	species = {
@@ -263,7 +259,6 @@ big_mek = {
 	adjective = "PRESCRIPTED_adjective_big_mek"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_big_mek"
 
 	species = {
@@ -328,7 +323,6 @@ big_boss = {
 	adjective = "PRESCRIPTED_adjective_big_boss"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_big_boss"
 
 	species = {
@@ -393,7 +387,6 @@ bad_moons = {
 	adjective = "PRESCRIPTED_adjective_bad_moons"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_bad_moons"
 
 	species = {

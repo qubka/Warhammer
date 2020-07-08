@@ -1,0 +1,282 @@
+species_modification_prefix = { 
+	Neo- 
+	Post- 
+	Super- 
+	Ultra- 
+	Meta- 
+	Trans- 
+}
+
+species_modification_postfix = { 
+	Superior
+	Variatus
+	Mutatis
+	Clarus
+	Illustratum
+}
+
+black_hole_names = {
+	"Demon's Maw"
+	"Devil's Maw"
+	"Hell's Maw"
+	"Suskat's Maw"
+	"Viskarron's Maw"
+	"Rixikar's Maw"
+	"Zultar's Maw"
+	"Xulbak's Maw"
+	"Urakhannon's Maw"
+	"Yonnok's Maw"
+	"Xuukanis Black Hole"
+	"Luusaj Black Hole"
+	"Verrakas Black Hole"
+	"Geltauri Black Hole"
+	"Zantaris Black Hole"
+	"Zorikkan Black Hole"
+	"Huur Black Hole"
+	"Faranis Black Hole"
+	"Gindor Black Hole"
+	"Nivogi Black Hole"
+	"Ter Meku Black Hole"
+	"Sithonis Maelstrom"
+	"Cibaaran Maelstrom"
+	"Belvares Maelstrom"
+	"Gathri Maelstrom"
+	"Kelvan Maelstrom"
+	"Vha'Zi Maelstrom"
+	"Jebben's Maelstrom"
+	"Pathabaan Vortex"
+	"Miklor's Vortex"
+	"Uzh'ab Vortex"
+	"Tunari Vortex"
+	"Ribellan Vortex"
+	"Zi Pok Vortex"
+	"Lithyrian Vortex"
+	"Zantaris Black Hole"	
+	"Yamek's Singularity"
+	"Broon's Singularity"
+	"D-471 Singularity"
+	"XT-81 Singularity"
+	"LR-9 Singularity"
+	"X-941 Singularity"
+	"BX-799 Singularity"
+	"P94-L Singularity"
+	"Heaven's Gate"
+	"Dubious Abyss"
+	"Screeching Abyss"
+	"Howling Vortex"
+	"Gaping Maw"
+	"Eternal Horizon"
+	"Light's End"
+	"Ascension's End"
+	"Quiet Dark"
+	"Abaddon's Demesne"
+}
+
+asteroid_prefix = {
+	TFL- 
+	TD-1- 
+	LM- 
+	RX2-
+	A1-
+	BT-
+	425-
+	18-
+	THX-
+	LR-9-
+	B12-
+	F-29-
+	I11-
+	LV-
+	TBR-
+	TLDR-
+	M4-
+	PX-4-
+	QH-
+	RLS-
+	W1-H-
+	GR-
+	R2-
+	C-
+	T-
+	HAL-
+	XR-7-
+	X9-
+	XXN-
+	FL-
+	IL-
+	AZ-11-
+	UT-9-
+	VTR-
+	V4-XN-
+	234-
+	6467-
+	88D2-
+	14-S-
+	DSS-
+	AT-
+	GF53-
+	SSD-
+	SL9-
+	WO-
+	WPR-
+	13-S-
+	DTLF-
+	E-9-R
+	XC-
+	B134-
+	A-
+	X-
+	ZR-
+	ZL-1-
+	X-12-
+	BT-
+	E49-
+	R66-
+	333P-
+	CCC4-
+	CP-01
+	TF-B-
+	133-D-
+	49-F-
+	377D-
+	1337-
+	4-
+	39-
+	47-
+	91F-
+	P1-
+	32-PX-
+	41-CV-
+	BK5-
+	UL1M-
+	D-9-
+	M4-
+	EUD-
+	9965-
+	TE9-
+	1ES-
+	8FV-
+	HL-
+	H-77-
+	H4-
+	J00-
+	JX4-
+	JQQ-1-
+	J3L1-
+	OD1N-
+	ZI3-
+	LJ-G-
+	WX12-
+	ZA-19-
+	AA-23-
+	V413-
+	SP0-
+	PT-RE-
+	LK12-
+	YZ9-
+	VIR-
+}
+
+asteroid_postfix = {
+	413 
+	3254 
+	233-D 
+	001B
+	1138
+	426
+	D2
+	3PO
+	1000
+	800
+	9000
+	AT
+	ST
+	2646
+	36367
+	3452
+	956
+	35-D
+	11B1
+	112
+	0909
+	DX-1
+	354-F
+	76-1
+	44-D1
+	12
+	94
+	BS12
+	GR-784
+	T-668
+	140
+	742
+	09-L
+	411
+	012
+	85-8
+	399
+	866
+	757
+	044
+	076
+	99
+	845
+	811
+	677
+	619
+	34-T1
+	7
+	QW1
+	Q38
+	H45
+	J88
+	M11
+	Y71
+	Y2K
+	OR95
+	66
+	97
+	83
+	88
+	37
+	111
+	NY1K
+	BR-F
+	397
+	937
+	893
+	951
+	863
+	915
+	872
+	138
+	947
+	863
+	234
+	394
+	438
+	758
+	784
+	728
+	328
+	906
+	038
+	3547
+	109-D
+	3427
+	5498
+	U-46
+	094
+	0935
+	6759
+	78
+	981
+	2340
+	21-12
+	2079
+	63089
+	63
+	6498
+	984
+	009
+}

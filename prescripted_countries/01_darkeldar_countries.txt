@@ -3,7 +3,6 @@ dark_ynnari = {
 	adjective = "PRESCRIPTED_adjective_dark_ynnari"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_dark_ynnari"
 
 	species = {
@@ -70,7 +69,6 @@ the_severed = {
 	adjective = "PRESCRIPTED_adjective_the_severed"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_the_severed"
 
 	species = {
@@ -137,7 +135,6 @@ last_hatred = {
 	adjective = "PRESCRIPTED_adjective_last_hatred"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_last_hatred"
 
 	species = {
@@ -204,7 +201,6 @@ iron_thorn = {
 	adjective = "PRESCRIPTED_adjective_iron_thorn"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_iron_thorn"
 
 	species = {
@@ -271,7 +267,6 @@ flayed_skull = {
 	adjective = "PRESCRIPTED_adjective_flayed_skull"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_flayed_skull"
 
 	species = {
@@ -338,7 +333,6 @@ dying_sun = {
 	adjective = "PRESCRIPTED_adjective_dying_sun"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_dying_sun"
 
 	species = {
@@ -405,7 +399,6 @@ broken_sigil = {
 	adjective = "PRESCRIPTED_adjective_broken_sigil"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_broken_sigil"
 
 	species = {
@@ -472,7 +465,6 @@ black_heart = {
 	adjective = "PRESCRIPTED_adjective_black_heart"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_black_heart"
 
 	species = {

@@ -1,7 +1,6 @@
 # Triggers when the game starts
 on_game_start = {
 	events = {
-		names.1
 		leaders.1
 		leaders.2
 		planets.1

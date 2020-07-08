@@ -1,0 +1,1091 @@
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_mankind 
+		}
+	}
+	format = "Imperium of Man"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_white_scars 
+		}
+	}
+	format = "White Scars"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_ultra_marines 
+		}
+	}
+	format = "Ultra Marines"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_space_wolfes 
+		}
+	}
+	format = "Space Wolfes"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_salamanders 
+		}
+	}
+	format = "Salamanders"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_raven_guard 
+		}
+	}
+	format = "Raven Guard"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_iron_hand 
+		}
+	}
+	format = "Iron Hand"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_imperial_fist 
+		}
+	}
+	format = "Imperial Fist"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_dark_angles 
+		}
+	}
+	format = "Dark Angles"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_blood_angles 
+		}
+	}
+	format = "Blood Angles"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_ynnari 
+		}
+	}
+	format = "Ynnari"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_ulthwe 
+		}
+	}
+	format = "Ulthwe"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_saim_hann 
+		}
+	}
+	format = "Saim Hann"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_ostara 
+		}
+	}
+	format = "Ostara"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_iyanden 
+		}
+	}
+	format = "Iyanden"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_biel_tan 
+		}
+	}
+	format = "Biel Tan"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_alaitoc 
+		}
+	}
+	format = "Alaitoc"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_charnovokh 
+		}
+	}
+	format = "Charnovokh"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_mephrit 
+		}
+	}
+	format = "Mephrit"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_nepheru 
+		}
+	}
+	format = "Nepheru"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_nephrekh 
+		}
+	}
+	format = "Nephrekh"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_nihiliakh 
+		}
+	}
+	format = "Nihiliakh"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_novokh 
+		}
+	}
+	format = "Novokh"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_sautekh 
+		}
+	}
+	format = "Sautekh"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_temeryn 
+		}
+	}
+	format = "Temeryn"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_thokt 
+		}
+	}
+	format = "Thokt"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_goff 
+		}
+	}
+	format = "Goff"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_evil_sunz 
+		}
+	}
+	format = "Evil Sunz"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_death_skullz 
+		}
+	}
+	format = "Death Skullz"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_blood_axe 
+		}
+	}
+	format = "Blood Axe"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_big_mek 
+		}
+	}
+	format = "Big Mek"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_big_boss 
+		}
+	}
+	format = "Big Boss"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_bad_moons 
+		}
+	}
+	format = "Bad Moons"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_dalyth 
+		}
+	}
+	format = "Dalyth"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_farsight 
+		}
+	}
+	format = "Farsight"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_sacea 
+		}
+	}
+	format = "Sacea"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_tau 
+		}
+	}
+	format = "Tau"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_taun 
+		}
+	}
+	format = "Taun"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_dyanoi 
+		}
+	}
+	format = "Dyanoi"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_behemoth 
+		}
+	}
+	format = "Behemoth"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_gorgon 
+		}
+	}
+	format = "Gorgon"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_hydra 
+		}
+	}
+	format = "Hydra"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_jormungandr 
+		}
+	}
+	format = "Jormungandr"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_kraken 
+		}
+	}
+	format = "Kraken"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_leviathan 
+		}
+	}
+	format = "Leviathan"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_ouroboris 
+		}
+	}
+	format = "Ouroboris"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_tiamet 
+		}
+	}
+	format = "Tiamet"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_alpha_legion 
+		}
+	}
+	format = "Alpha Legion"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_black_legion 
+		}
+	}
+	format = "Black Legion"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_death_guard 
+		}
+	}
+	format = "Death Guard"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_emperor_children 
+		}
+	}
+	format = "Emperor Children"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_iron_warrior 
+		}
+	}
+	format = "Iron Warriors"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_night_lords 
+		}
+	}
+	format = "Night Lords"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_red_corsairs 
+		}
+	}
+	format = "Red Corsairs"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_thousand_sons 
+		}
+	}
+	format = "Thousand Sons"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_word_bearer 
+		}
+	}
+	format = "Word Bearers"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_world_eater 
+		}
+	}
+	format = "World Eaters"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_dark_ynnari 
+		}
+	}
+	format = "Dark Ynnari"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_severed 
+		}
+	}
+	format = "The Severed"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_last_hatred 
+		}
+	}
+	format = "Last Hatred"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_iron_thorn 
+		}
+	}
+	format = "Iron Thorn"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_flayed_skull 
+		}
+	}
+	format = "Flayed Skull"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_dying_sun 
+		}
+	}
+	format = "Dying Sun"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_broken_sigil 
+		}
+	}
+	format = "Broken Sigil"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_black_heart 
+		}
+	}
+	format = "Black Heart"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_agripinaa 
+		}
+	}
+	format = "Agripinaa"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_bastion 
+		}
+	}
+	format = "Bastion"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_cadia 
+		}
+	}
+	format = "Cadia"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_fularis 
+		}
+	}
+	format = "Fularis"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_graia 
+		}
+	}
+	format = "Graia"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_krieg 
+		}
+	}
+	format = "Krieg"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_lucius 
+		}
+	}
+	format = "Lucius"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_metalica 
+		}
+	}
+	format = "Metalica"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_ryza 
+		}
+	}
+	format = "Ryza"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_stygies 
+		}
+	}
+	format = "Stygies"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_armageddon 
+		}
+	}
+	format = "Armageddon"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_bakka 
+		}
+	}
+	format = "Bakka"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_cor_ynnari
+		}
+	}
+	format = "Ynnari Corsairs"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_twilight_swords 
+		}
+	}
+	format = "Twilight Swords"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_void_dragons 
+		}
+	}
+	format = "Void Dragons"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_sky_raiders 
+		}
+	}
+	format = "Sky Raiders"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_steeleye_reavers
+		}
+	}
+	format = "Steeleye Reavers"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_sun_blitz  
+		}
+	}
+	format = "Sun Blitz"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
+			has_country_flag = the_eldritch_raiders 
+		}
+	}
+	format = "Eldritch Raiders"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}

@@ -37,6 +37,7 @@ bastion_homeworld = {
 				}
 			}
 			create_country = {
+				name = "Bastion"
 				species = last_created
 				authority = "auth_imp"
 				civics = {
@@ -66,7 +67,6 @@ bastion_homeworld = {
 				}
 			}
 			last_created_country = {
-				set_name = "Bastion"
 				set_graphical_culture = humanoid_01
 				save_global_event_target_as = the_bastion
 				set_country_flag = human_colony

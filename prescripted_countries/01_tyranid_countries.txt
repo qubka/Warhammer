@@ -3,7 +3,6 @@ behemoth = {
 	adjective = "PRESCRIPTED_adjective_behemoth"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_behemoth"
 
 	species = {
@@ -68,7 +67,6 @@ gorgon = {
 	adjective = "PRESCRIPTED_adjective_gorgon"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_gorgon"
 
 	species = {
@@ -133,7 +131,6 @@ hydra = {
 	adjective = "PRESCRIPTED_adjective_hydra"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_hydra"
 
 	species = {
@@ -198,7 +195,6 @@ jormungandr = {
 	adjective = "PRESCRIPTED_adjective_jormungandr"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_jormungandr"
 
 	species = {
@@ -263,7 +259,6 @@ kraken = {
 	adjective = "PRESCRIPTED_adjective_kraken"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_kraken"
 
 	species = {
@@ -328,7 +323,6 @@ leviathan = {
 	adjective = "PRESCRIPTED_adjective_leviathan"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_leviathan"
 
 	species = {
@@ -393,7 +387,6 @@ ouroboris = {
 	adjective = "PRESCRIPTED_adjective_ouroboris"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_ouroboris"
 
 	species = {
@@ -458,7 +451,6 @@ tiamet = {
 	adjective = "PRESCRIPTED_adjective_tiamet"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_tiamet"
 
 	species = {

@@ -143,12 +143,10 @@ event = {
 		every_planet = {
 			limit = { has_planet_flag = spacemarinehomeworld }
 			add_modifier = { modifier = "spacemarine_planet" days = -1 }
-			add_building = building_citadel_of_faith
 		}
 		every_planet = {
 			limit = { has_planet_flag = mechanicushomeworld }
 			add_modifier = { modifier = "mechanicus_planet" days = -1 }
-			add_building = building_supercomputer
 		}
 	}
 }

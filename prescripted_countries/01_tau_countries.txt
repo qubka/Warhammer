@@ -3,7 +3,6 @@ dalyth = {
 	adjective = "PRESCRIPTED_adjective_dalyth"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_dalyth"
 
 	species = {
@@ -70,7 +69,6 @@ farsight = {
 	adjective = "PRESCRIPTED_adjective_farsight"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_farsight"
 
 	species = {
@@ -137,7 +135,6 @@ sacea = {
 	adjective = "PRESCRIPTED_adjective_sacea"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_sacea"
 
 	species = {
@@ -204,7 +201,6 @@ tau = {
 	adjective = "PRESCRIPTED_adjective_tau"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_tau"
 
 	species = {
@@ -271,7 +267,6 @@ taun = {
 	adjective = "PRESCRIPTED_adjective_taun"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_taun"
 
 	species = {
@@ -338,7 +333,6 @@ dyanoi = {
 	adjective = "PRESCRIPTED_adjective_dyanoi"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_dyanoi"
 
 	species = {

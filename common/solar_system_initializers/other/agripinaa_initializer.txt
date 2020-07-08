@@ -39,6 +39,7 @@ agripinaa_homeworld = {
 				}
 			}
 			create_country = {
+				name = "Agripinna"
 				species = last_created
 				authority = "auth_oligarchic"
 				civics = {
@@ -68,7 +69,6 @@ agripinaa_homeworld = {
 				}
 			}
 			last_created_country = {
-				set_name = "Agripinna"
 				set_graphical_culture = humanoid_01
 				save_global_event_target_as = the_agripinaa
 				set_country_flag = human_colony

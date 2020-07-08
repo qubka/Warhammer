@@ -3,7 +3,6 @@ ynnari = {
 	adjective = "PRESCRIPTED_adjective_ynnari"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_ynnari"
 
 	species = {
@@ -70,7 +69,6 @@ ulthwe = {
 	adjective = "PRESCRIPTED_adjective_ulthwe"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_ulthwe"
 
 	species = {
@@ -137,7 +135,6 @@ saim_hann = {
 	adjective = "PRESCRIPTED_adjective_saim_hann"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_saim_hann"
 
 	species = {
@@ -204,7 +201,6 @@ ostara = {
 	adjective = "PRESCRIPTED_adjective_ostara"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_ostara"
 
 	species = {
@@ -271,7 +267,6 @@ iyanden = {
 	adjective = "PRESCRIPTED_adjective_iyanden"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_iyanden"
 
 	species = {
@@ -338,7 +333,6 @@ biel_tan = {
 	adjective = "PRESCRIPTED_adjective_biel_tan"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_biel_tan"
 
 	species = {
@@ -405,7 +399,6 @@ alaitoc = {
 	adjective = "PRESCRIPTED_adjective_alaitoc"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes
-
 	ship_prefix = "PRESCRIPTED_ship_prefix_alaitoc"
 
 	species = {
