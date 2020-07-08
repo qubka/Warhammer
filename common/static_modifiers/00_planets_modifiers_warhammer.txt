@@ -183,19 +183,6 @@ craftworld_planet = {
 	icon_frame = 2
 }
 
-advancecity_planet = {
-    planet_jobs_energy_produces_mult = 0.5
-	planet_jobs_minerals_produces_mult = -0.3
-	planet_jobs_food_produces_mult = 2.0
-	planet_jobs_physics_research_produces_mult = 0.5
-	planet_jobs_society_research_produces_mult = 0.5
-	planet_jobs_engineering_research_produces_mult = 0.5
-	army_defense_morale_mult = 5
-	army_defense_health_mult = 5
-	icon = "gfx/interface/icons/planet_modifiers/pm_advancecity.dds"
-	icon_frame = 2
-}
-
 daemon_planet = {
 	planet_jobs_energy_produces_mult = 2
 	planet_jobs_minerals_produces_mult = 2
@@ -270,6 +257,19 @@ advancexenocityyy_planet = {
 	planet_jobs_food_produces_mult = 0.1
 	army_defense_morale_mult = 3
 	army_defense_health_mult = 3
+	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
+	icon_frame = 2
+}
+
+advancecity_planet = {
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = -0.3
+	planet_jobs_food_produces_mult = 2.0
+	planet_jobs_physics_research_produces_mult = 0.5
+	planet_jobs_society_research_produces_mult = 0.5
+	planet_jobs_engineering_research_produces_mult = 0.5
+	army_defense_morale_mult = 5
+	army_defense_health_mult = 5
 	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
 	icon_frame = 2
 }

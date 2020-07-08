@@ -40,7 +40,7 @@ gorgon_homeworld = {
 	
 	planet = {
 		name = "Mirienh"
-		class = "pc_advancecity"
+		class = "pc_hive"
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 16 max = 20 }

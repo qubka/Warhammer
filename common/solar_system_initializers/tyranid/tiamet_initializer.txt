@@ -32,15 +32,8 @@ tiamet_homeworld = {
 	change_orbit = 35
 	
 	planet = {
-		count = { min = 1 max = 3 }
-		orbit_distance = 15
-		class = random_non_colonizable
-		orbit_angle = { min = 90 max = 270 }
-	}
-	
-	planet = {
-		name = "Jabbah"
-		class = "pc_advancecity"
+		name = "Ziaphoria"
+		class = "pc_hive"
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 16 max = 20 }
@@ -74,34 +67,118 @@ tiamet_homeworld = {
 			orbit_distance = 5
 		}
 	}
-	
-	planet = {
-		count = { min = 1 max = 3 }
-		orbit_distance = 25
-		class = random_non_colonizable
-		orbit_angle = { min = 90 max = 270 }
-	}
-	
-	planet = {
-		count = { min = 1 max = 2 }
-		orbit_distance = 20
-		class = pc_gas_giant
-		orbit_angle = { min = 90 max = 270 }
-		
-		change_orbit = @base_moon_distance
 
-		moon = {
-			count = { min = 1 max = 3 }
-			class = random_non_colonizable
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
+	planet = {
+		name = "Tiamet II"
+		class = "pc_hive"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_owner = event_target:the_tiamet
+			set_controller = event_target:the_tiamet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
 		}
 	}
 	
 	planet = {
-		count = { min = 0 max = 1 }
+		name = "Tiamet III"
+		class = "pc_hive"
 		orbit_distance = 20
-		class = random_non_colonizable
 		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_owner = event_target:the_tiamet
+			set_controller = event_target:the_tiamet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tiamet IV"
+		class = "pc_hive"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_owner = event_target:the_tiamet
+			set_controller = event_target:the_tiamet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tiamet V"
+		class = "pc_hive"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_owner = event_target:the_tiamet
+			set_controller = event_target:the_tiamet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tiamet VI"
+		class = "pc_hive"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_owner = event_target:the_tiamet
+			set_controller = event_target:the_tiamet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tiamet VII"
+		class = "pc_hive"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			set_owner = event_target:the_tiamet
+			set_controller = event_target:the_tiamet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
 	}
 }
