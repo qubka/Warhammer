@@ -30,12 +30,26 @@
 civic_senatorum_imperialis = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		country_admin_cap_mult 3
+		ship_armor_mult 3
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.8
+		starbases_upkeep_mult 0.2
+		starbase_module_capacity_add 10
+		country_leader_pool_size 5
+		country_starbase_influence_cost_mult 0.5
+		piracy_growth_mult 3		
 	}
 }
 
 civic_imperialcult_fanatics = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		pop_ethic_xenophobe_attraction_mult 2
+		pop_ethic_militarist_attraction_mult 4
+		pop_ethic_spiritualist_attraction_mult 2
+		
 	}
 }
 
@@ -49,114 +63,215 @@ civic_machine_cult = {
 		} 
 	}
 	modifier = {
+		pop_ethic_spiritualist_attraction_mult 3
+		pop_ethic_materialist_attraction_mult 4
+		pop_ethic_militarist_attraction_mult 2
+		ship_armor_mult 3
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_science_alloys_cost_mult 0.2
+		species_leader_exp_gain 1.5
+		all_technology_research_speed 0.5
 	}
 }
 
 civic_horde_traditions = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		planet_army_build_time_mult 0.5
+		bio_pop_growth_from_immigration 2
+		planet_colony_development_speed_mult 3
+		pop_resettlement_cost_mult 0.33
+		ship_base_speed_mult 1.3
 	}
 }
 
 civic_imperium_secundus = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		pop_ethic_xenophobe_attraction_mult 2
+		pop_ethic_spiritualist_attraction_mult 2
+		starbases_upkeep_mult 0.5
+		starbase_module_capacity_add 5
+		country_leader_pool_size 4
+		country_starbase_influence_cost_mult 0.7
 	}
 }
 
 civic_barbarian_culture = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		army_attack_damage_mult 1.5
+		army_attack_morale_mult 1.5
+		army_starting_experience_mult 2
+		country_insult_efficiency 5
 	}
 }
 
 civic_blacksmith_culture = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		country_engineering_tech_research_speed 1.5	
+		country_physics_tech_research_speed	1.5
+		army_attack_morale_mult 2
+		
 	}
 }
 
 civic_production_guilds = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		country_resource_max_minerals_add 25000
+		country_minerals_produces_mult 1.3
+		planet_orbital_bombardment_damage 1.2
 	}
 }
 
 civic_interclans_rivalry = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		country_border_friction_mult 1.3
+		country_claim_influence_cost_mult 0.5
+		planet_stability_add -10
 	}
 }
 
 civic_chosen_by_the_emperor = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		country_war_exhaustion_mult 0.5
+		civic_chivalric_traditions 1.2
+		starbase_defense_platform_capacity_add 20
+		starbase_upgrade_cost_mult 0.7
+		starbase_upgrade_time_mult 0.5
 	}
 }
 
 civic_tribal_culture = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-	}
+		bio_pop_growth_speed 1.2
+		country_admin_cap_mult 0.8
+		country_war_exhaustion_mult 0.7
+		}
 }
 
 civic_chivalric_traditions = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		civic_chivalric_traditions
+		army_collateral_damage_mult 0
+		army_experience_gain_mult 2
+		army_damage_mult 0.9
+		
 	}
 }
 
 civic_i = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_xiii = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_ix = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_x = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_vii = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_xviii = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_xix = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_v = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
 civic_vi = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
+		ship_armor_mult 5
+		torpedo_weapon_damage_mult 2
+		torpedo_weapon_speed_mult 0.6
+		ship_base_speed_mult 0.6
+		ship_evasion_mult 0.5
+		pop_ethic_militarist_attraction_mult 5
 	}
 }
 
