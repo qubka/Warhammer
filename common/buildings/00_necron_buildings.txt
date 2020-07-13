@@ -1,0 +1,474 @@
+
+building_ancient_monolith = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+	planetary_ftl_inhibitor = yes
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+		job_fe_guardian_bot_add = 10
+		planet_orbital_bombardment_damage = -0.5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+		
+	ai_weight = {
+		weight = 1
+	}
+}
+
+building_dark_factory = {
+	base_buildtime = @b2_time
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
+			}
+			consumer_goods = 50
+		}
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			minerals = 25
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 50
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		consumer_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_dormant_monolith = {
+	base_buildtime = @b2_time
+	base_cap_amount = 1
+	
+	category = pop_assembly
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+	
+	planet_modifier = {
+		job_replicator_add = 3
+	}
+	
+	triggered_desc = {
+		text = job_replicator_effect_desc
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			energy = @b3_upkeep
+			sr_living_metal = @b3_rare_upkeep
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 750
+			has_building = building_energy_core
+		}
+	}
+}
+
+building_energy_core = {
+	base_buildtime = @b2_time
+
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+	
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NOT = { has_deficit = energy } }
+			}
+			minerals = 100
+			rare_crystals = @b3_rare_upkeep
+			exotic_gases = @b3_rare_upkeep
+			volatile_motes = @b3_rare_upkeep
+			sr_living_metal = @b3_rare_upkeep
+		}
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				OR = {
+					has_monthly_income = {
+						resource = minerals
+						value < 100
+					}
+					has_monthly_income = {
+						resource = rare_crystals
+						value < @b3_rare_upkeep
+					}
+					has_monthly_income = {
+						resource = exotic_gases
+						value < @b3_rare_upkeep
+					}
+					has_monthly_income = {
+						resource = volatile_motes
+						value < @b3_rare_upkeep
+					}
+					has_monthly_income = {
+						resource = sr_living_metal
+						value < @b3_rare_upkeep
+					}
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		minerals = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_plasma_monolith = {
+	base_buildtime = @b2_time
+
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+		}
+		produces = {
+			energy = 250
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value < 250
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		energy = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_thermo_plasma_monolith = {
+	base_buildtime = @b2_time
+	
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
+			}
+			alloys = 25
+		}
+		cost = {
+			minerals = @b3_minerals
+		}
+		upkeep = {
+			minerals = 50
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 25
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		alloys = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_forbidden_archive = {
+	base_buildtime = @b2_time
+	
+	category = research
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+	
+	planet_modifier = {
+		job_fe_archivist_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NOT = { has_deficit = energy } }
+			}
+			physics_research = 100
+			society_research = 100
+			engineering_research = 100
+		}
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_summoning_core = {
+	base_buildtime = @b2_time
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+
+	planet_modifier = {
+		job_fe_augur_add = 3
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+		}	
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_supercomputer_core = {
+	base_buildtime = @b2_time
+
+	category = research
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+	
+	planet_modifier = {
+		job_calculator_add = 1
+		planet_researchers_produces_mult = 0.15
+	}
+	
+	triggered_desc = {
+		text = job_calculator_effect_desc
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			jobs_any_research = yes
+		}
+	}
+}
+
+building_gauss_turret = {
+	base_buildtime = @b2_time
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = necron_empire } }
+	}
+
+	planet_modifier = {
+		job_fe_guardian_bot_add = 5
+		planet_orbital_bombardment_damage = -0.1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b2_minerals
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+	}
+}

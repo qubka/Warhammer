@@ -7,14 +7,16 @@ event = {
     
 	immediate = {
 		every_planet = {
-			limit = {
-				OR = {
-					is_planet_class = pc_forge
-					is_planet_class = pc_forgee
-					is_planet_class = pc_forgeee
-				}
-			}
+			limit = { is_planet_class = pc_forge }
 			add_modifier = { modifier = "forge_planet" days = -1 }
+		}
+		every_planet = {
+			limit = { is_planet_class = pc_forgee }
+			add_modifier = { modifier = "forgee_planet" days = -1 }
+		}
+		every_planet = {
+			limit = { is_planet_class = pc_forgeee }
+			add_modifier = { modifier = "forgeee_planet" days = -1 }
 		}
 		every_planet = {
 			limit = { is_planet_class = pc_industrial }
@@ -141,12 +143,382 @@ event = {
 			add_modifier = { modifier = "webway_planet" days = -1 }
 		}
 		every_planet = {
-			limit = { has_planet_flag = spacemarinehomeworld }
+			limit = { has_planet_flag = spacemarine_homeworld }
 			add_modifier = { modifier = "spacemarine_planet" days = -1 }
 		}
 		every_planet = {
-			limit = { has_planet_flag = mechanicushomeworld }
+			limit = { has_planet_flag = mechanicus_homeworld }
 			add_modifier = { modifier = "mechanicus_planet" days = -1 }
 		}
+	}
+}
+
+planet_event = {
+	id = planets.2
+	title = planets.2.name
+	desc = planets.2.desc
+	picture = GFX_evt_hive_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_hive_arid
+			is_planet_class = pc_hive_continental_01
+			is_planet_class = pc_hive_continental_02
+			is_planet_class = pc_hive_ocean
+			is_planet_class = pc_hive_tundra
+		}
+	}
+
+	option = {
+		name = planets.2.a
+	}
+}
+
+planet_event = {
+	id = planets.3
+	title = planets.3.name
+	desc = planets.3.desc
+	picture = GFX_evt_hive_medium_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_hive_medium
+	}
+
+	option = {
+		name = planets.3.a
+	}
+}
+
+planet_event = {
+	id = planets.4
+	title = planets.4.name
+	desc = planets.4.desc
+	picture = GFX_evt_super_hive_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_super_hive
+	}
+
+	option = {
+		name = planets.4.a
+	}
+}
+
+planet_event = {
+	id = planets.5
+	title = planets.5.name
+	desc = planets.5.desc
+	picture = GFX_evt_mega_hive_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_mega_hive
+	}
+
+	option = {
+		name = planets.5.a
+	}
+}
+
+planet_event = {
+	id = planets.6
+	title = planets.6.name
+	desc = planets.6.desc
+	picture = GFX_evt_industrial_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_industrial
+	}
+
+	option = {
+		name = planets.6.a
+	}
+}
+
+planet_event = {
+	id = planets.7
+	title = planets.7.name
+	desc = planets.7.desc
+	picture = GFX_evt_hive_industrial_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_hive_industrial
+	}
+
+	option = {
+		name = planets.7.a
+	}
+}
+
+planet_event = {
+	id = planets.8
+	title = planets.8.name
+	desc = planets.8.desc
+	picture = GFX_evt_forge_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+		}
+	}
+
+	option = {
+		name = planets.8.a
+	}
+}
+
+planet_event = {
+	id = planets.9
+	title = planets.9.name
+	desc = planets.9.desc
+	picture = GFX_evt_forge_ring_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_forge_ring
+			is_planet_class = pc_forge_ring2
+			is_planet_class = pc_forge_ring3
+		}
+	}
+
+	option = {
+		name = planets.9.a
+	}
+}
+
+planet_event = {
+	id = planets.10
+	title = planets.10.name
+	desc = planets.10.desc
+	picture = GFX_evt_agri_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_agri
+	}
+
+	option = {
+		name = planets.10.a
+	}
+}
+
+planet_event = {
+	id = planets.11
+	title = planets.11.name
+	desc = planets.11.desc
+	picture = GFX_evt_shrine_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_shrine
+	}
+
+	option = {
+		name = planets.11.a
+	}
+}
+
+planet_event = {
+	id = planets.12
+	title = planets.12.name
+	desc = planets.12.desc
+	picture = GFX_evt_penal_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_penal
+	}
+
+	option = {
+		name = planets.12.a
+	}
+}
+
+planet_event = {
+	id = planets.13
+	title = planets.13.name
+	desc = planets.13.desc
+	picture = GFX_evt_fortress_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_fortress
+	}
+
+	option = {
+		name = planets.13.a
+	}
+}
+
+planet_event = {
+	id = planets.14
+	title = planets.14.name
+	desc = planets.14.desc
+	picture = GFX_evt_armoury_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_armoury
+	}
+
+	option = {
+		name = planets.14.a
+	}
+}
+
+planet_event = {
+	id = planets.15
+	title = planets.15.name
+	desc = planets.15.desc
+	picture = GFX_evt_daemon_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_daemon
+			is_planet_class = pc_daemonn
+			is_planet_class = pc_daemont
+			is_planet_class = pc_daemons
+		}
+	}
+
+	option = {
+		name = planets.15.a
+	}
+}
+
+planet_event = {
+	id = planets.16
+	title = planets.16.name
+	desc = planets.16.desc
+	picture = GFX_evt_undaemon_project
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOR = {
+			is_planet_class = pc_daemon
+			is_planet_class = pc_daemonn
+			is_planet_class = pc_daemont
+			is_planet_class = pc_daemons
+		}
+	}
+
+	option = {
+		name = planets.16.a
+	}
+}
+
+planet_event = {
+	id = planets.17
+	title = planets.17.name
+	desc = planets.17.desc
+	picture = GFX_evt_ork_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_orkworld
+	}
+
+	option = {
+		name = planets.17.a
+	}
+}
+
+planet_event = {
+	id = planets.18
+	title = planets.18.name
+	desc = planets.18.desc
+	picture = GFX_evt_unork_project
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_desert
+	}
+
+	option = {
+		name = planets.18.a
+	}
+}
+
+planet_event = {
+	id = planets.19
+	title = planets.19.name
+	desc = planets.19.desc
+	picture = GFX_evt_tau_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_advancexenocity
+			is_planet_class = pc_advancexenocityy
+			is_planet_class = pc_advancexenocityyy
+		}
+	}
+
+	option = {
+		name = planets.19.a
 	}
 }

@@ -120,7 +120,8 @@ iron_warrior_homeworld = {
 			set_owner = event_target:the_iron_warrior
 			set_controller = event_target:the_iron_warrior
 			set_capital = yes
-			set_planet_flag = spacemarinehomeworld
+			set_planet_flag = spacemarine_homeworld
+			set_planet_flag = daemon_homeworld
 
 			generate_start_pops = yes
 			prevent_anomaly = yes
@@ -133,6 +134,10 @@ iron_warrior_homeworld = {
 			class = rl_chaos_planets
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
+			
+			init_effect = { 
+				set_planet_flag = daemon_homeworld
+			}
 		}
 	}
 	

@@ -1,0 +1,258 @@
+
+decision_corrupting_project = {
+	owned_planets_only = yes
+
+	enactment_time = 900
+	resources = {
+		category = decisions
+		cost = {
+			unity = 100
+			energy = 5000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_corrupting_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			if = { 
+				limit = { has_country_flag = khorne }  
+				change_pc = pc_daemon
+				set_planet_entity = {
+					entity = "daemon_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "daemon_planet" days = -1 }
+			}
+			else_if = { 
+				limit = { has_country_flag = nurgle }  
+				change_pc = pc_daemonn
+				set_planet_entity = {
+					entity = "daemonn_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "daemonn_planet" days = -1 }
+			}
+			else_if = { 
+				limit = { has_country_flag = tzeentch }  
+				change_pc = pc_daemont
+				set_planet_entity = {
+					entity = "daemont_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "daemont_planet" days = -1 }
+			}
+			else_if = { 
+				limit = { has_country_flag = slaanesh }  
+				change_pc = pc_daemons
+				set_planet_entity = {
+					entity = "daemons_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "daemons_planet" days = -1 }
+			}
+			else = {
+				random_list = {
+					30 = {
+						change_pc = pc_daemon
+						set_planet_entity = {
+							entity = "daemon_planet"
+							graphical_culture = owner
+						}
+						add_modifier = { modifier = "daemon_planet" days = -1 }
+					}
+					30 = {
+						change_pc = pc_daemonn
+						set_planet_entity = {
+							entity = "daemonn_planet"
+							graphical_culture = owner
+						}
+						add_modifier = { modifier = "daemonn_planet" days = -1 }
+					}
+					30 = {
+						change_pc = pc_daemont
+						set_planet_entity = {
+							entity = "daemont_planet"
+							graphical_culture = owner
+						}
+						add_modifier = { modifier = "daemont_planet" days = -1 }
+					}
+					30 = {
+						change_pc = pc_daemons
+						set_planet_entity = {
+							entity = "daemons_planet"
+							graphical_culture = owner
+						}
+						add_modifier = { modifier = "daemons_planet" days = -1 }
+					}
+				}
+			}
+			planet_event = { id = planets.15 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_uncorrupting_project = {
+	owned_planets_only = yes
+
+	enactment_time = 900
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			energy = 7500
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_daemon
+			is_planet_class = pc_daemonn
+			is_planet_class = pc_daemont
+			is_planet_class = pc_daemons
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { 
+			NOR = {
+				has_country_flag = tyranid_empire
+				has_country_flag = chaos_empire
+			} 
+		}
+	}
+
+	effect = {
+		custom_tooltip = decision_uncorrupting_project_effects
+		hidden_effect = {
+			if = { 
+				limit = { 
+					is_planet_class = pc_daemon
+				}  
+				random_list = {
+					30 = {
+						change_pc = pc_savannah
+						set_planet_entity = {
+							entity = "savannah_planet"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_desert
+						set_planet_entity = {
+							entity = "desert_planet"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_arid
+						set_planet_entity = {
+							entity = "arid_planet"
+							graphical_culture = owner
+						}
+					}
+				}
+				remove_modifier = "daemon_planet"
+			}
+			else_if = { 
+				limit = { 
+					is_planet_class = pc_daemonn
+				}  
+				random_list = {
+					30 = {
+						change_pc = pc_tropical
+						set_planet_entity = {
+							entity = "tropical_planet"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_continental
+						set_planet_entity = {
+							entity = "continental_planet"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_gaia
+						set_planet_entity = {
+							entity = "gaia_planet"
+							graphical_culture = owner
+						}
+					}
+				}
+				remove_modifier = "daemonn_planet"
+			}
+			else_if = { 
+				limit = { 
+					is_planet_class = pc_daemont
+				}  
+				random_list = {
+					30 = {
+						change_pc = pc_ocean
+						set_planet_entity = {
+							entity = "ocean_planet"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_arctic
+						set_planet_entity = {
+							entity = "arctic_planet"
+							graphical_culture = owner
+						}
+					}
+				}
+				remove_modifier = "daemont_planet"
+			}
+			else_if = { 
+				limit = { 
+					is_planet_class = pc_daemons
+				}
+				random_list = {
+					30 = {
+						change_pc = pc_tundra
+						set_planet_entity = {
+							entity = "tundra_planet"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_alpine
+						set_planet_entity = {
+							entity = "alpine_planet"
+							graphical_culture = owner
+						}
+					}
+				}
+				remove_modifier = "daemons_planet"
+			}
+			planet_event = { id = planets.16 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

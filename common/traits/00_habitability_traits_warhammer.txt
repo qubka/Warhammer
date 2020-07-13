@@ -1,5 +1,6 @@
+
 trait_pc_daemon_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_daemon_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -24,7 +25,7 @@ trait_pc_daemon_preference = {
 }
 
 trait_pc_daemonn_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_daemon_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -49,7 +50,7 @@ trait_pc_daemonn_preference = {
 }
 
 trait_pc_daemont_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_daemon_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -74,7 +75,7 @@ trait_pc_daemont_preference = {
 }
 
 trait_pc_daemons_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_daemon_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -99,7 +100,7 @@ trait_pc_daemons_preference = {
 }
 
 trait_pc_tomb_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_tomb_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -125,7 +126,7 @@ trait_pc_tomb_preference = {
 }
 
 trait_pc_craftworld_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_space_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -151,7 +152,7 @@ trait_pc_craftworld_preference = {
 }
 
 trait_pc_hive_industrial_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -176,7 +177,7 @@ trait_pc_hive_industrial_preference = {
 }
 
 trait_pc_fortress_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_fortress_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -201,7 +202,7 @@ trait_pc_fortress_preference = {
 }
 
 trait_pc_mega_hive_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -226,7 +227,7 @@ trait_pc_mega_hive_preference = {
 }
 
 trait_pc_webway_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_webway_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -252,7 +253,7 @@ trait_pc_webway_preference = {
 }
 
 trait_pc_advancecity_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -276,7 +277,7 @@ trait_pc_advancecity_preference = {
 }
 
 trait_pc_advancexenocity_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -300,7 +301,7 @@ trait_pc_advancexenocity_preference = {
 }
 
 trait_pc_advancexenocityy_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -324,7 +325,7 @@ trait_pc_advancexenocityy_preference = {
 }
 
 trait_pc_advancexenocityyy_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -348,7 +349,7 @@ trait_pc_advancexenocityyy_preference = {
 }
 
 trait_pc_forge_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_forge_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -372,7 +373,7 @@ trait_pc_forge_preference = {
 }
 
 trait_pc_forgee_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_forge_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -396,7 +397,7 @@ trait_pc_forgee_preference = {
 }
 
 trait_pc_forgeee_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_forge_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -420,7 +421,7 @@ trait_pc_forgeee_preference = {
 }
 
 trait_pc_industrial_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -444,7 +445,7 @@ trait_pc_industrial_preference = {
 }
 
 trait_pc_agri_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_agri_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -468,7 +469,7 @@ trait_pc_agri_preference = {
 }
 
 trait_pc_shrine_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_shrine_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -492,7 +493,7 @@ trait_pc_shrine_preference = {
 }
 
 trait_pc_hive_medium_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -516,7 +517,7 @@ trait_pc_hive_medium_preference = {
 }
 
 trait_pc_penal_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_penal_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -540,7 +541,7 @@ trait_pc_penal_preference = {
 }
 
 trait_pc_hive_arid_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -564,7 +565,7 @@ trait_pc_hive_arid_preference = {
 }
 
 trait_pc_hive_continental_01_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -588,7 +589,7 @@ trait_pc_hive_continental_01_preference = {
 }
 
 trait_pc_hive_continental_02_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -612,7 +613,7 @@ trait_pc_hive_continental_02_preference = {
 }
 
 trait_pc_hive_ocean_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -636,7 +637,7 @@ trait_pc_hive_ocean_preference = {
 }
 
 trait_pc_hive_tundra_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -660,7 +661,7 @@ trait_pc_hive_tundra_preference = {
 }
 
 trait_pc_super_hive_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_city_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -683,8 +684,8 @@ trait_pc_super_hive_preference = {
 	}
 }
 
-trait_pc_forge_ring_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+trait_pc_ring_preference = {
+	icon = "gfx/interface/icons/traits/trait_pc_ring_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -708,7 +709,7 @@ trait_pc_forge_ring_preference = {
 }
 
 trait_pc_forge_ring2_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_ring_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -732,7 +733,7 @@ trait_pc_forge_ring2_preference = {
 }
 
 trait_pc_forge_ring3_preference = {	
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_ring_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -757,7 +758,7 @@ trait_pc_forge_ring3_preference = {
 }
 
 trait_pc_spacehulk_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_space_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -781,7 +782,7 @@ trait_pc_spacehulk_preference = {
 }
 
 trait_pc_blackstonefortress_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_space_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -805,7 +806,7 @@ trait_pc_blackstonefortress_preference = {
 }
 
 trait_pc_eternalcrusader_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_space_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -829,7 +830,7 @@ trait_pc_eternalcrusader_preference = {
 }
 
 trait_pc_orkworld_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_orkworld_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30
@@ -853,7 +854,7 @@ trait_pc_orkworld_preference = {
 }
 
 trait_pc_armoury_preference = {
-	icon = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	icon = "gfx/interface/icons/traits/trait_pc_armoury_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
 	sorting_priority = 30

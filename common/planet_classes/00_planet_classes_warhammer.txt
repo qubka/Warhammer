@@ -5,9 +5,9 @@ pc_forge = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -37,9 +37,9 @@ pc_forgee = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -64,14 +64,14 @@ pc_forgee = {
 
 pc_forgeee = {
 	entity = "forgeee_planet"
-	picture = pc_forgee 
+	picture = pc_forgeee 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -101,9 +101,9 @@ pc_industrial = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -133,9 +133,9 @@ pc_agri = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -165,9 +165,9 @@ pc_shrine = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -197,9 +197,9 @@ pc_hive_medium = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -229,9 +229,9 @@ pc_penal = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -261,9 +261,9 @@ pc_fortress = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -293,9 +293,9 @@ pc_tomb = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -325,9 +325,9 @@ pc_hive_arid = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -357,9 +357,9 @@ pc_hive_continental_01 = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -389,9 +389,9 @@ pc_hive_continental_02 = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -421,9 +421,9 @@ pc_hive_ocean = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -453,9 +453,9 @@ pc_hive_tundra = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -485,9 +485,9 @@ pc_super_hive = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -517,9 +517,9 @@ pc_mega_hive = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -549,9 +549,9 @@ pc_forge_ring = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -581,9 +581,9 @@ pc_forge_ring2 = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -608,14 +608,14 @@ pc_forge_ring2 = {
 
 pc_forge_ring3 = {
 	entity = "forge_ring3"
-	picture = pc_forgee
+	picture = pc_forgeee
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -645,9 +645,9 @@ pc_craftworld = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -677,9 +677,9 @@ pc_hive_industrial = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -709,9 +709,9 @@ pc_advancecity = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -731,7 +731,7 @@ pc_advancecity = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = hive_world
+	district_set = city_world
 }
 
 pc_webway = {
@@ -741,9 +741,9 @@ pc_webway = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -773,9 +773,9 @@ pc_spacehulk = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -805,9 +805,9 @@ pc_blackstonefortress = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -838,9 +838,9 @@ pc_eternalcrusader = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -870,9 +870,9 @@ pc_daemon = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -902,9 +902,9 @@ pc_daemonn = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -934,9 +934,9 @@ pc_daemont = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -966,9 +966,9 @@ pc_daemons = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -998,9 +998,9 @@ pc_advancexenocity = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -1030,9 +1030,9 @@ pc_advancexenocityy = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -1062,9 +1062,9 @@ pc_advancexenocityyy = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -1094,9 +1094,9 @@ pc_orkworld = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
@@ -1126,9 +1126,9 @@ pc_armoury = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 	
-	atmosphere_color 		= hsv { 0.89 0.89 0.56 }		
-	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 0.5
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
 	
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 

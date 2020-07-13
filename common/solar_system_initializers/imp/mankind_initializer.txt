@@ -141,7 +141,7 @@ mankind_homeworld = {
 
 			set_owner = event_target:the_mankind
 			set_controller = event_target:the_mankind
-			set_planet_flag = mechanicushomeworld
+			set_planet_flag = mechanicus_homeworld
 
 			generate_start_pops = yes
 			prevent_anomaly = yes
@@ -266,7 +266,7 @@ mankind_homeworld = {
 
 				set_owner = event_target:the_mankind
 				set_controller = event_target:the_mankind
-				set_planet_flag = spacemarinehomeworld
+				set_planet_flag = spacemarine_homeworld
 
 				generate_start_pops = yes
 				prevent_anomaly = yes

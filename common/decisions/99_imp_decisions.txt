@@ -1,0 +1,748 @@
+
+# HIVE
+
+decision_small_hive_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 5000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = decision_small_hive_project_requirements
+			free_district_slots < 1
+			num_districts = { type = district_farming value < 1 }
+			num_districts = { type = district_mining value < 1 }
+			num_districts = { type = district_generator value < 1 }
+		}
+		num_uncleared_blockers < 1
+	}
+
+	effect = {
+		custom_tooltip = decision_small_hive_project_effects
+		hidden_effect = {
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+			if = { 
+				limit = { 
+					OR = {
+						is_planet_class = pc_savannah
+						is_planet_class = pc_desert
+						is_planet_class = pc_arid
+					}
+				}  
+				change_pc = pc_hive_arid
+				set_planet_entity = {
+					entity = "hive_arid"
+					graphical_culture = owner
+				}
+			} 
+			else_if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_tropical
+						is_planet_class = pc_continental
+						is_planet_class = pc_gaia
+					}
+				} 
+				random_list = {
+					30 = {
+						change_pc = pc_hive_continental_01
+						set_planet_entity = {
+							entity = "hive_continental_01"
+							graphical_culture = owner
+						}
+					}
+					30 = {
+						change_pc = pc_hive_continental_02
+						set_planet_entity = {
+							entity = "hive_continental_02"
+							graphical_culture = owner
+						}
+					}
+				}
+				
+			}
+			else_if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_arctic
+						is_planet_class = pc_ocean
+					}
+				} 
+				change_pc = pc_hive_ocean
+				set_planet_entity = {
+					entity = "hive_ocean"
+					graphical_culture = owner
+				}
+			}
+			else_if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_alpine
+						is_planet_class = pc_tundra
+					}
+				} 
+				change_pc = pc_hive_tundra
+				set_planet_entity = {
+					entity = "hive_tundra"
+					graphical_culture = owner
+				}
+			}
+			add_modifier = { modifier = "hive_small_planet" days = -1 }
+			planet_event = { id = planets.2 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_medium_hive_project = {
+	owned_planets_only = yes
+
+	enactment_time = 3600
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 5000
+			alloys = 1000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_hive_arid
+			is_planet_class = pc_hive_continental_01
+			is_planet_class = pc_hive_continental_02
+			is_planet_class = pc_hive_ocean
+			is_planet_class = pc_hive_tundra
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_medium_hive_project_effects
+		hidden_effect = {
+			change_pc = pc_hive_medium
+			set_planet_entity = {
+				entity = "hive_planet"
+				graphical_culture = owner
+			}
+			remove_modifier = "hive_small_planet"
+			add_modifier = { modifier = "hive_medium_planet" days = -1 }
+			planet_event = { id = planets.3 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_super_hive_project = {
+	owned_planets_only = yes
+
+	enactment_time = 3600
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 7500
+			alloys = 1500
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_hive_medium
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_super_hive_project_effects
+		hidden_effect = {
+			change_pc = pc_super_hive
+			set_planet_entity = {
+				entity = "super_hive"
+				graphical_culture = owner
+			}
+			remove_modifier = "hive_medium_planet"
+			add_modifier = { modifier = "super_hive_planet" days = -1 }
+			planet_event = { id = planets.4 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_mega_hive_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 5000
+			alloys = 2500
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_super_hive
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_mega_hive_project_effects
+		hidden_effect = {
+			change_pc = pc_mega_hive
+			set_planet_entity = {
+				entity = "mega_hive"
+				graphical_culture = owner
+			}
+			remove_modifier = "super_hive_planet"
+			add_modifier = { modifier = "mega_hive_planet" days = -1 }
+			planet_event = { id = planets.5 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# FORGE
+
+decision_industrial_project = {
+	owned_planets_only = yes
+
+	enactment_time = 2000
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 5000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = decision_industrial_project_requirements
+			free_district_slots < 1
+			num_districts = { type = district_farming value < 1 }
+			num_districts = { type = district_mining value < 1 }
+			num_districts = { type = district_generator value < 1 }
+		}
+		num_uncleared_blockers < 1
+	}
+
+	effect = {
+		custom_tooltip = decision_industrial_project_effects
+		hidden_effect = {
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+			if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_alpine
+						is_planet_class = pc_tundra
+						is_planet_class = pc_gaia
+					}
+				} 
+				set_planet_flag = foundry_planet
+			}
+			else_if = { 
+				limit = { 
+					OR = {
+						is_planet_class = pc_savannah
+						is_planet_class = pc_desert
+						is_planet_class = pc_arid
+					}
+				}  
+				set_planet_flag = energy_planet
+			} 
+			else_if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_tropical
+						is_planet_class = pc_continental
+						is_planet_class = pc_arctic
+						is_planet_class = pc_ocean
+					}
+				} 
+				set_planet_flag = manufacture_planet
+			}
+			change_pc = pc_industrial
+			set_planet_entity = {
+				entity = "industrial_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "industrial_planet" days = -1 }
+			planet_event = { id = planets.6 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_hive_industrial_project = {
+	owned_planets_only = yes
+
+	enactment_time = 3600
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 5000
+			alloys = 1000
+		}
+	}
+	
+	potential = {
+		is_planet_class = pc_industrial
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	effect = {
+		custom_tooltip = decision_hive_industrial_project_effects
+		hidden_effect = {
+			change_pc = pc_hive_industrial
+			set_planet_entity = {
+				entity = "hive_industrial"
+				graphical_culture = owner
+			}
+			remove_modifier = "industrial_planet"
+			add_modifier = { modifier = "hive_industrial_planet" days = -1 }
+			planet_event = { id = planets.7 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_forge_project = {
+	owned_planets_only = yes
+
+	enactment_time = 3600
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 7500
+		}
+	}
+	
+	potential = {
+		is_planet_class = pc_industrial
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	effect = {
+		custom_tooltip = decision_forge_project_effects
+		hidden_effect = {
+			remove_modifier = "industrial_planet"
+			if = { 
+				limit = { has_planet_flag = foundry_planet }  
+				change_pc = pc_forge
+				set_planet_entity = {
+					entity = "forge_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "forge_planet" days = -1 }
+			} 
+			else_if = {
+				limit = { has_planet_flag = energy_planet } 
+				change_pc = pc_forgee
+				set_planet_entity = {
+					entity = "forgee_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "forgee_planet" days = -1 }
+			}
+			else_if = {
+				limit = { has_planet_flag = manufacture_planet } 
+				change_pc = pc_forgeee
+				set_planet_entity = {
+					entity = "forgeee_planet"
+					graphical_culture = owner
+				}
+				add_modifier = { modifier = "forgeee_planet" days = -1 }
+			}
+			planet_event = { id = planets.8 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_forge_ring_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			minerals = 5000
+			alloys = 1500
+		}
+	}
+	
+	potential = {
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	effect = {
+		custom_tooltip = decision_forge_ring_project_effects
+		hidden_effect = {
+			if = { 
+				limit = { is_planet_class = pc_forge }  
+				change_pc = pc_forge_ring
+				set_planet_entity = {
+					entity = "forge_ring"
+					graphical_culture = owner
+				}
+				remove_modifier = "forge_planet"
+				add_modifier = { modifier = "forge_ring_planet" days = -1 }
+			} 
+			else_if = {
+				limit = { is_planet_class = pc_forgee } 
+				change_pc = pc_forge_ring2
+				set_planet_entity = {
+					entity = "forge_ring2"
+					graphical_culture = owner
+				}
+				remove_modifier = "forgee_planet"
+				add_modifier = { modifier = "forge_ring2_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_forgeee } 
+				change_pc = pc_forge_ring3
+				set_planet_entity = {
+					entity = "forge_ring3"
+					graphical_culture = owner
+				}
+				remove_modifier = "forgeee_planet"
+				add_modifier = { modifier = "forge_ring3_planet" days = -1 }
+			}
+			planet_event = { id = planets.9 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# OTHER
+
+decision_agri_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			energy = 5000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_gaia
+			is_planet_class = pc_continental
+			is_planet_class = pc_tropical
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_agri_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_agri
+			set_planet_entity = {
+				entity = "agri_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "agri_planet" days = -1 }
+			planet_event = { id = planets.10 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_shrine_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 5000
+			alloys = 2000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_shrine_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_shrine
+			set_planet_entity = {
+				entity = "shrine_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "shrine_planet" days = -1 }
+			planet_event = { id = planets.11 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_penal_project = {
+	owned_planets_only = yes
+	icon = decision_penal_colony
+	
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 2500
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_penal_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_penal
+			set_planet_entity = {
+				entity = "penal_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "penal_planet" days = -1 }
+			planet_event = { id = planets.12 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_fortress_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 10000
+			alloys = 5000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_penal_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_fortress
+			set_planet_entity = {
+				entity = "fortress_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "fortress_planet" days = -1 }
+			planet_event = { id = planets.13 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_armoury_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 5000
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_armoury_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_armoury
+			set_planet_entity = {
+				entity = "armoury_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "armoury_planet" days = -1 }
+			planet_event = { id = planets.14 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

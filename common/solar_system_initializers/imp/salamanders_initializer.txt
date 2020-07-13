@@ -89,7 +89,7 @@ salamanders_homeworld = {
 			set_owner = event_target:the_salamanders
 			set_controller = event_target:the_salamanders
 			set_capital = yes
-			set_planet_flag = spacemarinehomeworld
+			set_planet_flag = spacemarine_homeworld
 
 			add_modifier = { modifier = "unstable_tectonics" days = -1 }
 

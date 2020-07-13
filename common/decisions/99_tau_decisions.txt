@@ -1,0 +1,82 @@
+
+decision_advance_city_project = {
+	owned_planets_only = yes
+
+	enactment_time = 1800
+	resources = {
+		category = decisions
+		cost = {
+			influence = 250
+			minerals = 10000
+			alloys = 500
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = decision_advance_city_project_requirements
+			free_district_slots < 1
+			num_districts = { type = district_farming value < 1 }
+			num_districts = { type = district_mining value < 1 }
+			num_districts = { type = district_generator value < 1 }
+		}
+		num_uncleared_blockers < 1
+	}
+
+	effect = {
+		custom_tooltip = decision_advance_city_project_effects
+		hidden_effect = {
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+			random_list = {
+				30 = {
+					change_pc = pc_advancexenocity
+					set_planet_entity = {
+						entity = "advancexenocity_planet"
+						graphical_culture = owner
+					}
+					add_modifier = { modifier = "advancexenocity_planet" days = -1 }
+				}
+				30 = {
+					change_pc = pc_advancexenocityy
+					set_planet_entity = {
+						entity = "advancexenocityy_planet"
+						graphical_culture = owner
+					}
+					add_modifier = { modifier = "advancexenocityy_planet" days = -1 }
+				}
+				30 = {
+					change_pc = pc_advancexenocityyy
+					set_planet_entity = {
+						entity = "advancexenocityyy_planet"
+						graphical_culture = owner
+					}
+					add_modifier = { modifier = "advancexenocityyy_planet" days = -1 }
+				}
+			}
+			planet_event = { id = planets.19 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

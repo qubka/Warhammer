@@ -1,6 +1,3 @@
-###########################
-# Fallen Empire buildings #
-###########################
 
 building_hall_of_blood = {
 	capital = yes
@@ -15,11 +12,16 @@ building_hall_of_blood = {
 		exists = owner
 		owner = { has_country_flag = darkeldar_empire }
 	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
+	}
 
 	planet_modifier = {
 		planet_housing_add = 12
 		planet_amenities_add = 12
-		job_fe_sky_cardinal_add = 2
+		job_fe_high_priest_add = 2
 		job_fe_protector_add = 2
 	}
 
@@ -44,16 +46,23 @@ building_dark_factory = {
 	category = manufacturing
 	
 	potential = {
-		custom_tooltip = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-			fail_text = "ancrel.10004.failtext"
-		}
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
 
 	resources = {
 		category = planet_buildings
 		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
+			}
 			consumer_goods = 50
 		}
 		cost = {
@@ -92,16 +101,23 @@ building_soul_cage = {
 	category = resource
 	
 	potential = {
-		custom_tooltip = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-			fail_text = "ancrel.10004.failtext"
-		}
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
 
 	resources = {
 		category = planet_buildings
 		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NOT = { has_deficit = energy } }
+			}
 			food = 100
 		}
 		cost = {
@@ -139,16 +155,23 @@ building_slave_chamber = {
 	category = resource
 	
 	potential = {
-		custom_tooltip = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-			fail_text = "ancrel.10004.failtext"
-		}
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
 
 	resources = {
 		category = planet_buildings
 		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NOT = { has_deficit = energy } }
+			}
 			minerals = 100
 			rare_crystals = @b3_rare_upkeep
 			exotic_gases = @b3_rare_upkeep
@@ -206,13 +229,15 @@ building_plasma_generator = {
 	category = resource
 	
 	potential = {
-		custom_tooltip = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-			fail_text = "ancrel.10004.failtext"
-		}
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
 	}
 
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
+	}
+	
 	resources = {
 		category = planet_buildings
 		cost = {
@@ -250,16 +275,23 @@ building_thermo_plasma_generator = {
 	category = manufacturing
 	
 	potential = {
-		custom_tooltip = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-			fail_text = "ancrel.10004.failtext"
-		}
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
 	}
 
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
+	}
+	
 	resources = {
 		category = planet_buildings
 		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
+			}
 			alloys = 25
 		}
 		cost = {
@@ -297,17 +329,28 @@ building_haemonculus_laboratory = {
 	
 	category = research
 	
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-		}
+	potential = {
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
+	}
+	
+	planet_modifier = {
 		job_fe_archivist_add = 10
 	}
 
 	resources = {
 		category = planet_buildings
 		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NOT = { has_deficit = energy } }
+			}
 			physics_research = 100
 			society_research = 100
 			engineering_research = 100
@@ -334,6 +377,11 @@ building_wych_cult_arena = {
 		exists = owner
 		owner = { has_country_flag = darkeldar_empire }
 	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
+	}
 
 	planet_modifier = {
 		job_fe_augur_add = 3
@@ -360,11 +408,13 @@ building_kabal_fortress = {
 	category = amenity
 	
 	potential = {
-		custom_tooltip = {
-			exists = owner
-			owner = { has_country_flag = darkeldar_empire }
-			fail_text = "ancrel.10004.failtext"
-		}
+		exists = owner
+		owner = { has_country_flag = darkeldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
 	
 	planet_modifier = {
@@ -405,13 +455,17 @@ building_kabal_fortress = {
 
 building_tower_of_loathing = {
 	base_buildtime = @b2_time
-	planetary_ftl_inhibitor = yes
-	
+
 	category = army
 	
 	potential = {
 		exists = owner
 		owner = { has_country_flag = darkeldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
 
 	planet_modifier = {

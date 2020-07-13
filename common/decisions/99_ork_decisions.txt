@@ -1,0 +1,94 @@
+Line 1090:  = {
+
+decision_spore_settleming_project = {
+	owned_planets_only = yes
+
+	enactment_time = 900
+	resources = {
+		category = decisions
+		cost = {
+			unity = 100
+			energy = 2500
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_spore_settleming_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_orkworld
+			set_planet_entity = {
+				entity = "orkworld_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "orkworld_planet" days = -1 }
+			planet_event = { id = planets.17 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_spore_cleaning_project = {
+	owned_planets_only = yes
+
+	enactment_time = 900
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			energy = 2500
+		}
+	}
+
+	potential = {
+		OR = {
+			is_planet_class = pc_orkworld
+		}
+		habitable_structure = no
+		exists = owner
+		owner = {
+			NOR = {
+				has_country_flag = tyranid_empire
+				has_country_flag = ork_empire
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = decision_spore_settleming_project_effects
+		hidden_effect = {
+			change_pc = pc_desert
+			set_planet_entity = {
+				entity = "desert_planet"
+				graphical_culture = owner
+			}
+			remove_modifier = "orkworld_planet"
+			planet_event = { id = planets.18 }
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
