@@ -21,7 +21,7 @@ behemoth = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet" }
 	government = "gov_hive_mind"
 	origin = "origin_behemoth"
 
@@ -85,7 +85,7 @@ gorgon = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet" }
 	government = "gov_hive_mind"
 	origin = "origin_gorgon"
 
@@ -149,7 +149,7 @@ hydra = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet"}
 	government = "gov_hive_mind"
 	origin = "origin_hydra"
 
@@ -213,7 +213,7 @@ jormungandr = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet"}
 	government = "gov_hive_mind"
 	origin = "origin_jormungandr"
 
@@ -277,7 +277,7 @@ kraken = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet" }
 	government = "gov_hive_mind"
 	origin = "origin_kraken"
 
@@ -341,7 +341,7 @@ leviathan = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet" "civic_hive_fleet" }
 	government = "gov_hive_mind"
 	origin = "origin_leviathan"
 
@@ -405,7 +405,7 @@ ouroboris = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet"}
 	government = "gov_hive_mind"
 	origin = "origin_ouroboris"
 
@@ -469,7 +469,7 @@ tiamet = {
 	room = "swarm_room"
 
 	authority = "auth_hive_mind"
-	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" }
+	civics = { "civic_hive_strength_of_legions" "civic_hive_devouring_swarm" "civic_hive_fleet" "civic_tiamet_beacon_guardians"}
 	government = "gov_hive_mind"
 	origin = "origin_tiamet"
 
