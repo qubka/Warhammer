@@ -1,0 +1,44 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+tombspyder_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 6.80
+	health = 10.80
+	morale = 6.80
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 57
+	
+	potential = {
+		planet = {
+			is_planet_class = pc_tomb
+		}
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+lychguard_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 5.55
+	health = 8.55
+	morale = 5.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 58
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+	
+}

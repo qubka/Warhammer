@@ -1,0 +1,376 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+attack_scarabs = {
+	damage = 0.80
+	health = 5.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 56
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 15
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+lychguard = {
+	damage = 1.80
+	health = 3.80
+	morale = 1.80
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 58
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 15
+		}
+
+		upkeep = {
+			energy = 3.7
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+necron_warriors = {
+	damage = 1.55
+	health = 3.55
+	morale = 1.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 110
+	
+	icon_frame = 59
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 10
+		}
+
+		upkeep = {
+			energy = 3.4
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+destroyer = {
+	damage = 2
+	health = 4
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 170
+	
+	icon_frame = 60
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 20
+		}
+
+		upkeep = {
+			energy = 3.9
+		}
+	}
+	
+	#prerequisites = { "tech_medium_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+pariahs = {
+	damage = 3
+	health = 5
+	morale = 3
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 300
+	
+	icon_frame = 65
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 40
+		}
+
+		upkeep = {
+			energy = 3.9
+		}
+	}
+	
+	#prerequisites = { "tech_medium_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+immortal = {
+	damage = 4.2
+	health = 6.2
+	morale = 4.2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 61
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 50
+		}
+
+		upkeep = {
+			energy = 4.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "immortal_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+wraith = {
+	damage = 3.5
+	health = 5.5
+	morale = 2.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 62
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 40
+		}
+
+		upkeep = {
+			energy = 4.5
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "canoptek_wraith_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+flayed_ones = {
+	damage = 4.0
+	health = 6.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 64
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 50
+		}
+
+		upkeep = {
+			energy = 4.9
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "canoptek_wraith_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+monolith = {
+	damage = 10.5
+	health = 15
+	morale = 10.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 1000
+	
+	icon_frame = 63
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 200
+		}
+
+		upkeep = {
+			energy = 9
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "monolith_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "monolith_count" 
+					value = 5
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "monolith_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "monolith_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+deceiver = {
+	damage = 15.5
+	health = 20
+	morale = 20.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 2000
+	
+	icon_frame = 138
+	
+	resources = {
+		category = armies
+		cost = {
+			sr_living_metal = 500
+		}
+
+		upkeep = {
+			energy = 15
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "monolith_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "deceiver_count" 
+					value = 1
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "deceiver_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "deceiver_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}

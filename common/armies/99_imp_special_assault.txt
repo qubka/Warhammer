@@ -1,0 +1,348 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+catachan_fighters = {
+	damage = 2
+	health = 4
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 66
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = catachanplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+cadian_shock_troops = {
+	damage = 2.2
+	health = 4
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 67
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = cadiaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+armageddon_steel_legion = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 68
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = armageddonplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+death_korps_of_krieg = {
+	damage = 2.2
+	health = 4.2
+	morale = 100
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 100
+	
+	icon_frame = 69
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = kriegplanett }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+mordian_iron_guard = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 70
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = mordianplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+scintillan_fusiliers = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 71
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = scintillaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+praetorian_guard = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 72
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = praetoriaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+valhallan_ice_warriors = {
+	damage = 2.2
+	health = 4.2
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 73
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = valhallaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+tallarn_desert_raiders = {
+	damage = 2
+	health = 4
+	morale = 2.2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 74
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = tallarnplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+vostroyan_firstborn = {
+	damage = 2.2
+	health = 4.2
+	morale = 2.2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 75
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = vostroyaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+elysian_drop_troops = {
+	damage = 2.2
+	health = 4.2
+	morale = 2.2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 142
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = elysiaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}

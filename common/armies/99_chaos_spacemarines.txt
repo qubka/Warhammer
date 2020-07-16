@@ -1,0 +1,638 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+emperors_children = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 25
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_emperors_children_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "emperors_children_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "emperors_children_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "emperors_children_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_emperors_children_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+iron_warriors = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 26
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_iron_warriors_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "iron_warriors_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "iron_warriors_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "iron_warriors_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_thousand_sons_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+night_lords = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 27
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_night_lords_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "night_lords_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "night_lords_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "night_lords_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_thousand_sons_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+world_eaters = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 28
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		
+	}
+	
+	allow = {
+		#has_building = "building_world_eaters_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "world_eaters_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "world_eaters_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "world_eaters_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_world_eaters_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+death_guard = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 29
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_death_guard_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "death_guard_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "death_guard_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "death_guard_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_death_guard_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+thousand_sons = {
+	damage = 3.1
+	health = 8.1
+	morale = 3.1
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 30
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_thousand_sons_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "thousand_sons_count" 
+					value = 7
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "thousand_sons_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "thousand_sons_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_thousand_sons_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+black_legion = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 31
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 540
+		}
+
+		upkeep = {
+			energy = 4.9
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_black_legion_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "black_legion_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "black_legion_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "black_legion_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_black_legion_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+word_bearers = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 32
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_word_bearers_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "word_bearers_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "word_bearers_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "word_bearers_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_word_bearers_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+alpha_legion = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 33
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_alpha_legion_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "alpha_legion_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "alpha_legion_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "alpha_legion_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_word_bearers_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+red_corsairs = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 34
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		#has_building = "building_alpha_legion_fortress_monastery"
+		owner = {
+			not = { 
+				check_variable = {
+					which = "red_corsairs_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "red_corsairs_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "red_corsairs_count" 
+				value = -1
+			}
+		}
+	}
+	potential = {
+		planet = {
+			#has_building = "building_word_bearers_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}

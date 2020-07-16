@@ -1,0 +1,598 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+ork_nobz = {
+	damage = 1.80
+	health = 3.80
+	morale = 1.80
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 1
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "ork_nobz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+storm_boyz = {
+	damage = 1.55
+	health = 3.55
+	morale = 1.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 110
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+tankbustas = {
+	damage = 1.5
+	health = 4.0
+	morale = 2.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 100
+	
+	icon_frame = 141
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 2.0
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+ork_shoota_boyz = {
+	damage = 2.05
+	health = 3.0
+	morale = 1.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 139
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 70
+		}
+
+		upkeep = {
+			energy = 2.3
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+ork_slugga_boyz = {
+	damage = 1.5
+	health = 4.0
+	morale = 2.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 140
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 70
+		}
+
+		upkeep = {
+			energy = 2.0
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+mek_boyz = {
+	damage = 3.5
+	health = 3.5
+	morale = 2.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 138
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+grotz = {
+	damage = 1.0
+	health = 2.0
+	morale = 1.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 4
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 25
+		}
+
+		upkeep = {
+			energy = 1.5
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+lootas = {
+	damage = 3.3
+	health = 3.0
+	morale = 4.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 100
+	
+	icon_frame = 3
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "kommandoz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+stikkbommaz = {
+	damage = 4.0
+	health = 2.5
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 200
+	
+	icon_frame = 136
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 250
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "kommandoz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+weird_boyz = {
+	damage = 5.0
+	health = 4.0
+	morale = 4.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 300
+	
+	icon_frame = 110
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 500
+		}
+
+		upkeep = {
+			energy = 4
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "kommandoz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+kommando_squad = {
+	damage = 3.0
+	health = 4.0
+	morale = 5.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 300
+	
+	icon_frame = 137
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 350
+		}
+
+		upkeep = {
+			energy = 4
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "kommandoz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+kommandoz = {
+	damage = 4.0
+	health = 6.0
+	morale = 4.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 5
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "kommandoz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+wartrukk = {
+	damage = 5.0
+	health = 3.5
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 300
+	
+	icon_frame = 111
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 2.0
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+deff_dread = {
+	damage = 7.0
+	health = 3.0
+	morale = 8.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 400
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 750
+		}
+
+		upkeep = {
+			energy = 3.0
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+looted_tank = {
+	damage = 5.0
+	health = 5.0
+	morale = 5.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 450
+	
+	icon_frame = 7
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 950
+		}
+
+		upkeep = {
+			energy = 4.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+stompa = {
+	damage = 6.0
+	health = 8.0
+	morale = 6.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 500
+	
+	icon_frame = 8
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1050
+		}
+
+		upkeep = {
+			energy = 5.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "stompa_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "stompa_count" 
+					value = 10
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "stompa_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "stompa_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+gargant = {
+	damage = 8.0
+	health = 10.0
+	morale = 8.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 700
+	
+	icon_frame = 9
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1450
+		}
+
+		upkeep = {
+			energy = 6.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "gargant_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "gargant_count" 
+					value = 5
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "gargant_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "gargant_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}

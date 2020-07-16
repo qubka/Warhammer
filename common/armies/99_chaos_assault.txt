@@ -1,0 +1,480 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+cultists = {
+	damage = 1.15
+	health = 3.15
+	morale = 1.15
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 90
+	
+	icon_frame = 98
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 50
+		}
+
+		upkeep = {
+			energy = 3.2
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+			#is_country_type = "chaos"
+		}
+	}
+}
+
+bloodcrusher = {
+	damage = 1.35
+	health = 3.35
+	morale = 1.35
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 90
+	
+	icon_frame = 99
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 70
+		}
+
+		upkeep = {
+			energy = 3.3
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+chaos_spawn = {
+	damage = 1.55
+	health = 3.55
+	morale = 1.55
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 110
+	
+	icon_frame = 100
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+plague_zombies = {
+	damage = 0.5
+	health = 6.7
+	morale = 10.0
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 110
+	
+	icon_frame = 101
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+defilers = {
+	damage = 1.80
+	health = 3.80
+	morale = 1.80
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 150
+	
+	icon_frame = 102
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 3.8
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	allow = {
+		#has_building = "defilers_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+chaos_dreadnaught = {
+	damage = 1.90
+	health = 3.90
+	morale = 1.90
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 150
+	
+	icon_frame = 103
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 3.8
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	allow = {
+		planet = {
+			OR = {
+				is_planet_class = pc_daemon
+				is_planet_class = pc_daemont
+				is_planet_class = pc_daemons
+				is_planet_class = pc_daemonn
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			OR = {
+				is_planet_class = pc_daemon
+				is_planet_class = pc_daemont
+				is_planet_class = pc_daemons
+				is_planet_class = pc_daemonn
+			}
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+chaos_predator = {
+	damage = 2
+	health = 4
+	morale = 2
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 170
+	
+	icon_frame = 104
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 4
+		}
+	}
+	
+	#prerequisites = { "tech_medium_army" }
+	
+	allow = {
+		#has_building = "chaos_predators_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+bloodletters = {
+	damage = 4.5
+	health = 5.5
+	morale = 2.5
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 360
+	
+	icon_frame = 105
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+		}
+
+		upkeep = {
+			energy = 6
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "bloodletters_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}
+
+nurglings = {
+	damage = 1.65
+	health = 3.65
+	morale = 1.65
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 110
+	
+	icon_frame = 106
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 90
+		}
+
+		upkeep = {
+			energy = 3.4
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+		planet = {
+			is_planet_class = pc_daemonn
+		}
+	}
+}
+
+havocs = {
+	damage = 2.65
+	health = 4.65
+	morale = 1.65
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 200
+	
+	icon_frame = 107
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 4.0
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+		planet = {
+			is_planet_class = pc_daemon
+		}
+	}
+}
+
+noise_marines = {
+	damage = 2.65
+	health = 5.65
+	morale = 5.65
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 250
+	
+	icon_frame = 108
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 4.4
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+		planet = {
+			is_planet_class = pc_daemons
+		}
+	}
+}
+
+plague_marines = {
+	damage = 3.65
+	health = 8.65
+	morale = 5.65
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 300
+	
+	icon_frame = 135
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 300
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		planet = {
+			is_planet_class = pc_daemonn
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+great_unclear_one = {
+	damage = 6.2
+	health = 20.0
+	morale = 10.0
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 500
+	
+	icon_frame = 109
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2000
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+	
+	allow = {
+		##has_building = "chaos_building_imperial_knight_base_1"
+	
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "great_unclear_one_count" 
+					value = 3
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "great_unclear_one_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "great_unclear_one_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			is_planet_class = pc_daemonn
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}

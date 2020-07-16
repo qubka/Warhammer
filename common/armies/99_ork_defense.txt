@@ -1,0 +1,43 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+ork_nobz_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 5.80
+	health = 8.80
+	morale = 5.80
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+
+	icon_frame = 1
+	
+	potential = {
+		planet = {
+			is_planet_class = pc_orkworld
+		}
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+stormboyz_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3.55
+	health = 6.55
+	morale = 3.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+
+	icon_frame = 2
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}

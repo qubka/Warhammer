@@ -1,0 +1,252 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+scouts_space_marine_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 2
+	health = 8
+	morale = 5	
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+
+	icon_frame = 132
+
+	potential = {
+		planet = { has_planet_flag = spacemarinehomeworld }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+legio_custodes_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 5
+	health = 10
+	morale = 5	
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+
+	icon_frame = 22
+
+	potential = {
+		planet = { has_planet_flag = terraplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+mars_collegia_titanica_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 10
+	health = 10
+	morale = 10
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 35
+		
+	potential = {
+		planet = { has_planet_flag = marsplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+catachan_fighters_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 66
+	
+	potential = {
+		planet = { has_planet_flag = catachanplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+cadian_defense_troops = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+
+	icon_frame = 67
+		
+	potential = {
+		planet = { has_planet_flag = cadiaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+armageddon_steel_legion_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 68
+	
+	potential = {
+		planet = { has_planet_flag = armageddonplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+death_korps_of_krieg_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 69
+	
+	potential = {
+		planet = { has_planet_flag = kriegplanett }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+mordian_iron_guard_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 70
+	
+	potential = {
+		planet = { has_planet_flag = mordianplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+scintillan_fusiliers_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 71
+	
+	potential = {
+		planet = { has_planet_flag = scintillaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+praetorian_guard_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 72
+	
+	potential = {
+		planet = { has_planet_flag = praetoriaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+valhallan_ice_warriors_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 73
+	
+	potential = {
+		planet = { has_planet_flag = valhallaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+tallarn_desert_raiders_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 74
+	
+	potential = {
+		planet = { has_planet_flag = tallarnplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+vostroyan_firstborn_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00	
+	war_exhaustion = 0.0
+	
+	icon_frame = 75
+	
+	potential = {
+		planet = { has_planet_flag = vostroyaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}

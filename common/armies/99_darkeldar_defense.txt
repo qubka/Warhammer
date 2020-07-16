@@ -1,0 +1,43 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+kabalite_warriors_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 10.0
+	health = 15.0
+	morale = 10.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 87
+	
+	potential = {
+		planet = {
+			is_planet_class = pc_webway
+		}
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+}
+
+ravager_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3.5
+	health = 6.5
+	morale = 3.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 99
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+}

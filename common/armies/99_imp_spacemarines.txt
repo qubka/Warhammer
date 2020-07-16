@@ -1,0 +1,900 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+dark_angels = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 10
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_planet_flag = calibanplanet
+			#has_building = "building_dark_angels_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "dark_angels_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "dark_angels_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "dark_angels_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+white_scars = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 11
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_white_scars_fortress_monastery"
+			has_planet_flag = chogorisplanet
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "white_scars_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "white_scars_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "white_scars_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+space_wolves = {
+	damage = 3.1
+	health = 8.1
+	morale = 3.1
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 12
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 560
+		}
+
+		upkeep = {
+			energy = 3.1
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "space_wolves_count" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_planet_flag = fenrisplanet
+			#has_building = "building_space_wolves_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "space_wolves_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "space_wolves_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+imperial_fists = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 13
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_imperial_fists_fortress_monastery"
+		has_planet_flag = terraplanet
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "imperial_fists_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "imperial_fists_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "imperial_fists_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+blood_angels = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 14
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "blood_angels_count" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_planet_flag = baalplanet
+			#has_building = "building_blood_angels_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "blood_angels_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "blood_angels_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+iron_hands  = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 15
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_iron_hands_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "iron_hands_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "iron_hands_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "iron_hands_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+ultramarines = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 16
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "ultramarines_count" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			#has_planet_flag = macraggeplanet
+			#has_building = "building_ultramarines_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "ultramarines_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "ultramarines_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+salamanders = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 17
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet= {
+				#has_building = "building_salamanders_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "salamanders_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "salamanders_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "salamanders_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+raven_guard = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 18
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_raven_guard_fortress_monastery"
+		}
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "raven_guard_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "raven_guard_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "raven_guard_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+grey_knights = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 20
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "grey_knights_count" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_planet_flag = titanplanet
+			#has_building = "building_grey_knights_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "grey_knights_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "grey_knights_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+black_templars = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 21
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_black_templars_fortress_monastery"
+		}
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "black_templars_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "black_templars_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "black_templars_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+blood_ravens = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 19
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_blood_ravens_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "blood_ravens_count" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "blood_ravens_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "blood_ravens_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+legio_custodes = {
+	damage = 3.0
+	health = 13.0
+	morale = 3.0
+	defensive = yes
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 22
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "legio_custodes_count" 
+					value = 5
+				}
+			}
+		}
+		planet = {
+			#has_building = "building_legio_custodes_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "legio_custodes_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "legio_custodes_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+deathwatch = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 23
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "deathwatch_count" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			#has_building = "building_deathwatch_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "deathwatch_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "deathwatch_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+sisters_of_battle = {
+	damage = 4.0
+	health = 7.0
+	morale = 3.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 160
+	
+	icon_frame = 24
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			#has_building = "building_sisters_of_battle_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "sisters_of_battle_count" 
+					value = 8
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "sisters_of_battle_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "sisters_of_battle_count" 
+				value = -1
+			}
+		}
+	}
+}

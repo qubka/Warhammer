@@ -1,0 +1,329 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+chaos_imperial_knight = {
+	damage = 4.0
+	health = 6.0
+	morale = 4.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 500
+	
+	icon_frame = 35
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1050
+		}
+
+		upkeep = {
+			energy = 6.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "chaos_building_imperial_knight_base_1"
+	
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "chaos_imperial_knight_count" 
+					value = 15
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "chaos_imperial_knight_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "chaos_imperial_knight_count" 
+				value = -1
+			}
+		}
+	}
+
+	potential = {
+		planet = {
+			#has_building = "chaos_building_imperial_knight_base_1"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+chaos_warhound_titan = {
+	damage = 5.0
+	health = 7.0
+	morale = 5.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 600
+	
+	icon_frame = 35
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1250
+		}
+
+		upkeep = {
+			energy = 7
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "chaos_building_warhound_titan_base_1"
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "chaos_warhound_titan_count" 
+					value = 12
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "chaos_warhound_titan_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "chaos_warhound_titan_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			#has_building = "chaos_building_warhound_titan_base_1"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+chaos_reaver_titan = {
+	damage = 6.0
+	health = 8.0
+	morale = 6.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 700
+	
+	icon_frame = 35
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1450
+		}
+
+		upkeep = {
+			energy = 7.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "chaos_building_reaver_titan_base_1"
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "chaos_reaver_titan_count" 
+					value = 9
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "chaos_reaver_titan_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "chaos_reaver_titan_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			#has_building = "chaos_building_reaver_titan_base_1"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+chaos_warlord_titan = {
+	damage = 7.0
+	health = 9.0
+	morale = 7.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 800
+	
+	icon_frame = 35
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1650
+		}
+
+		upkeep = {
+			energy = 8
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "chaos_building_warlord_titan_base_1"
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "chaos_warlord_titan_count" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "chaos_warlord_titan_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "chaos_warlord_titan_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			#has_building = "chaos_building_warlord_titan_base_1"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+chaos_emperor_titan = {
+	damage = 8.5
+	health = 9.5
+	morale = 8.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 1000
+	
+	icon_frame = 35
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2000
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "chaos_building_emperor_titan_base_1"
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "chaos_emperor_titan_count" 
+					value = 3
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "chaos_emperor_titan_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "chaos_emperor_titan_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			#has_building = "chaos_building_emperor_titan_base_1"
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}

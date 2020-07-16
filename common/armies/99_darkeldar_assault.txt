@@ -1,0 +1,392 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+wyches = {
+	damage = 1.80
+	health = 3.35
+	morale = 1.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 110
+	
+	icon_frame = 86
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	#prerequisites = { "tech_medium_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+kabalite_warriors = {
+	damage = 1.35
+	health = 3.0
+	morale = 1.15
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 87
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 50
+		}
+
+		upkeep = {
+			energy = 3.2
+		}
+	}
+	
+	#prerequisites = { "tech_medium_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+warp_beast_pack = {
+	damage = 0.8
+	health = 5.0
+	morale = 3.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 88
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 1.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "raider_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+hellion_squad = {
+	damage = 1.8
+	health = 5.0
+	morale = 4.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 89
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 2.0
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "raider_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+scourge_squad = {
+	damage = 2.8
+	health = 5.0
+	morale = 3.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 90
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 250
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "raider_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+mandrake_squad = {
+	damage = 1.55
+	health = 3.15
+	morale = 1.35
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 96
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 1.3
+		}
+	}
+	
+	#prerequisites = { "tech_basic_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+reaver_jetbike = {
+	damage = 3.5
+	health = 3.0
+	morale = 2.5
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 91
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 300
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "raider_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+raider = {
+	damage = 3.8
+	health = 4.6
+	morale = 3
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 170
+	
+	icon_frame = 92
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 350
+		}
+
+		upkeep = {
+			energy = 4.3
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		#has_building = "raider_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+ravager = {
+	damage = 2.00
+	health = 3.60
+	morale = 1.80
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 93
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 3.8
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "venom_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+dais = {
+	damage = 4.0
+	health = 6.60
+	morale = 6.80
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 360
+	
+	icon_frame = 94
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 500
+		}
+
+		upkeep = {
+			energy = 4.5
+		}
+	}
+	
+	#prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		#has_building = "venom_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+haemonculus = {
+	damage = 3.0
+	health = 1.00
+	morale = 1.50
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 40
+	
+	icon_frame = 95
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 3.1
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}
+
+incubi = {
+	damage = 2.15
+	health = 3.15
+	morale = 1.35
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 90
+	
+	icon_frame = 97
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.4
+		}
+	}
+	
+	#prerequisites = { "tech_medium_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = darkeldar_empire
+		}
+	}
+}

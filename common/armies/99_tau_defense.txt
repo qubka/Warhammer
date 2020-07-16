@@ -1,0 +1,47 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+fire_warriors_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3.40
+	health = 6.40
+	morale = 3.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 36
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+}
+
+kroot_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 4.40
+	health = 7.40
+	morale = 4.55
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 38
+	
+	potential = {
+		planet = {
+			OR = {
+				is_planet_class = pc_advancexenocity
+				is_planet_class = pc_advancexenocityy
+				is_planet_class = pc_advancexenocityyy
+			}
+		}
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+}
