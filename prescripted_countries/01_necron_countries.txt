@@ -22,7 +22,7 @@ charnovokh = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_charnovokh"
 
@@ -87,7 +87,7 @@ mephrit = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_mephrit"
 
@@ -152,7 +152,7 @@ nepheru = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_nepheru"
 
@@ -217,7 +217,7 @@ nephrekh = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_nephrekh"
 
@@ -282,7 +282,7 @@ nihiliakh = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_nihiliakh"
 
@@ -347,7 +347,7 @@ novokh = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_novokh"
 
@@ -412,7 +412,7 @@ sautekh = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_sautekh"
 
@@ -477,7 +477,7 @@ temeryn = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_temeryn"
 
@@ -542,7 +542,7 @@ thokt = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_machine_warbots" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_thokt"
 
