@@ -31,7 +31,7 @@ civic_senatorum_imperialis = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
 		country_admin_cap_mult = 3
-		country_naval_cap_mult 1
+		country_naval_cap_mult = 1
 		ship_base_speed_mult = -0.2
 		ship_armor_mult = 2
 		starbases_upkeep_mult = -0.8
@@ -121,7 +121,7 @@ civic_production_guilds = {
 	modifier = {
 		country_resource_max_minerals_add = 25000
 		country_minerals_produces_mult = 0.3
-		planet_orbital_bombardment_damage = 0.2
+		ship_orbital_bombardment_mult = 0.2
 	}
 }
 
@@ -156,7 +156,7 @@ civic_tribal_culture = {
 civic_chivalric_traditions = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		planet_orbital_bombardment_damage = -0.1
+		ship_orbital_bombardment_mult = -0.1
 		army_collateral_damage_mult = -1
 		army_experience_gain_mult = 1
 		army_damage_mult= -0.1
@@ -727,7 +727,7 @@ civic_tiamet_beacon_guardians  = {
 # NEC
 
 civic_advanced_necron_warships  = {
-	possible = { authority = { value = auth_hive_mind } }
+	possible = { authority = { value = auth_machine_intelligence } }
 	modifier = {
 		ship_armor_mult = 3
 		ship_shield_mult = 3
@@ -738,6 +738,85 @@ civic_advanced_necron_warships  = {
 		country_ommand_limit_mult = 0.75
 		army_damage_mult = 0.2
 		army_collateral_damage_mult = 0.2
+	}
+}
+
+civic_determined_survivors  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		planet_orbital_bombardment_damage = -0.5
+		army_defense_health_mult = 1.5
+	}
+}
+
+civic_headless_star_destroyers  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		ship_orbital_bombardment_mult = 1.5
+		planet_stability_add = -10
+	}
+}
+
+civic_expansionist_campaign  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		country_claim_influence_cost_mult = -0.5
+		country_starbase_influence_cost_mult = -0.2
+	}
+}
+
+civic_wealthiest_necrons  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		country_energy_produces_mult = 0.15
+		country_base_minerals_produces_add = 50
+	}
+}
+
+civic_treasure_guardians  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		diplomacy_upkeep_mult = 2
+		country_starbase_influence_cost_mult = 1.5
+		country_energy_produces_mult = 0.5
+		country_base_energy_produces_add = 100
+	}
+}
+
+civic_bloody_berserkers  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		army_damage_mult = 0.5
+		army_collateral_damage_mult = 1
+		army_morale_damage_mult = 1.5
+	}
+}
+
+civic_solid_administration  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		country_base_influence_produces_add = 1
+		country_admin_cap_mult = 1.5		
+	}
+}
+
+civic_crusade_against_chaos  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		country_naval_cap_mult = 0.25
+		admiral_skill_levels = 4
+		country_admin_cap_mult = -0.25
+	}
+}
+
+civic_radioactive  = {
+	possible = { authority = { value = auth_machine_intelligence } }
+	modifier = {
+		country_energy_produces_mult = 0.15
+		army_collateral_damage_mult = 1
+		army_damage_mult = 0.5
+		shipclass_military_damage_mult = 0.1
+		ship_orbital_bombardment_mult = 0.3
 	}
 }
 
