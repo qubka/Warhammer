@@ -739,7 +739,7 @@
 
 		ETHOS_MAX_POINTS					= 3	# Number of points which you can spend on ethos.
 
-		GOVERNMENT_CIVIC_POINTS_BASE		= 2		# Base amount of civic points (to "pay" for government civic costs)
+		GOVERNMENT_CIVIC_POINTS_BASE		= 3		# Base amount of civic points (to "pay" for government civic costs)
 
 		POP_ETHOS_LOWER_ETHIC_THRESHOLD				= 0.5	# If the % of pops following an ethic is <= this relative to its attraction do not diverge away from it
 		POP_ETHOS_UPPER_ETHIC_THRESHOLD				= 2.0	# If the % of pops following an ethic is >= this relative to its attraction do not diverge to it
