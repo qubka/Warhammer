@@ -88,7 +88,7 @@ civic_imperium_secundus = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
 		pop_ethic_xenophobe_attraction_mult = 2
-		pop_ethic_spiritualist_attraction_mult 2
+		pop_ethic_spiritualist_attraction_mult = 2
 		starbases_upkeep_mult = -0.5
 		starbase_module_capacity_add = 5
 		country_leader_pool_size = 4
@@ -671,7 +671,7 @@ civic_trader_friendly = {
 civic_rustic_population = {
 	possible = { authority = { value = auth_tau } }
 	modifier = {
-		planet_jobs_energy_produces_mult =  0.15
+		planet_jobs_energy_produces_mult = 0.15
 		planet_jobs_minerals_produces_mult = 0.15
 		planet_jobs_unity_produces_mult = 0.1
 	}
@@ -706,21 +706,9 @@ civic_hive_fleet  = {
 		ship_armor_mult = -0.5
 		ship_base_speed_mult = 0.2
 		ship_evasion_mult = 0.4
-		ship_hull_regen_add_perc 5
-		ship_armor_regen_add_perc 10
+		ship_hull_regen_add_perc = 5
+		ship_armor_regen_add_perc = 10
 		shipclass_military_build_cost_mult = -0.25
-	}
-}
-
-civic_tiamet_beacon_guardians  = {
-	possible = { authority = { value = auth_hive_mind } }
-	modifier = {
-		ship_home_territory_fire_rate_mult = 1		
-		army_defense_damage_mult = 3
-		army_defense_health_mult = 3
-		army_defense_morale_mult = 3
-		planet_orbital_bombardment_damage = -0.95
-		country_starbase_influence_cost_mult = 4		
 	}
 }
 
@@ -809,7 +797,7 @@ civic_crusade_against_chaos  = {
 	}
 }
 
-civic_radioactive  = {
+civic_radioactive_imbued  = {
 	possible = { authority = { value = auth_machine_intelligence } }
 	modifier = {
 		country_energy_produces_mult = 0.15
@@ -819,4 +807,3 @@ civic_radioactive  = {
 		ship_orbital_bombardment_mult = 0.3
 	}
 }
-

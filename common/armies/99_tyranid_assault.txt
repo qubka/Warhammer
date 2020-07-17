@@ -33,6 +33,36 @@ genestealer = {
 	}
 }
 
+ravener_brood = {
+	damage = 0.6
+	health = 8.00
+	morale = 1.00
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 40
+	
+	icon_frame = 158
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 20
+		}
+
+		upkeep = {
+			energy = 1.5
+		}
+	}
+	
+	#prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
 termagant = {
 	damage = 0.70
 	health = 10.00

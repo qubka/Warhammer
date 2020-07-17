@@ -1,0 +1,40 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+ripper_swarm_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3.5
+	health = 10.0
+	morale = 5.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 157
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
+spore_mines_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 10.0
+	health = 3.0
+	morale = 20.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	
+	icon_frame = 159
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}

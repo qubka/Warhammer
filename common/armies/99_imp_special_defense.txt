@@ -3,7 +3,7 @@
 # collateral_damage was not part of old file so set to vanilla values
 # war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
 
-scouts_space_marine_defense = {
+scouts_space_marines_defense = {
 	defensive = yes
 	is_pop_spawned = yes
 	damage = 2
@@ -39,10 +39,9 @@ legio_custodes_defense = {
 			has_country_flag = human_empire
 		}
 	}
-	
 }
 
-mars_collegia_titanica_defense = {
+collegia_titanica_defense = {
 	defensive = yes
 	is_pop_spawned = yes
 	damage = 10
@@ -80,7 +79,7 @@ catachan_fighters_defense = {
 	}
 }
 
-cadian_defense_troops = {
+cadian_shock_troops_defense = {
 	defensive = yes
 	is_pop_spawned = yes
 	damage = 3

@@ -417,6 +417,36 @@ wartrukk = {
 	}
 }
 
+battlewagon = {
+	damage = 6.0
+	health = 3.5
+	morale = 6.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 350
+	
+	icon_frame = 154
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 650
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	#prerequisites = { "tech_titans_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
 deff_dread = {
 	damage = 7.0
 	health = 3.0

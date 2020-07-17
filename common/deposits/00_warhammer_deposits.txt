@@ -1,0 +1,25 @@
+
+d_tiamet_beacon = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_amenities_add = 25
+		pop_growth_speed = 0.25
+		army_defense_damage_mult = 3
+        army_defense_health_mult = 3
+        army_defense_morale_mult = 3
+		planet_army_build_speed_mult = 0.15
+		armies_cost_mult = -0.5
+		planet_orbital_bombardment_damage = -0.95
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			unity = 250
+		}
+	}
+}

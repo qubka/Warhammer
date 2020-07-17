@@ -174,7 +174,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.2.a
+		name = EXCELLENT
 	}
 }
 
@@ -193,7 +193,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.3.a
+		name = EXCELLENT
 	}
 }
 
@@ -212,7 +212,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.4.a
+		name = EXCELLENT
 	}
 }
 
@@ -231,7 +231,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.5.a
+		name = EXCELLENT
 	}
 }
 
@@ -250,7 +250,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.6.a
+		name = EXCELLENT
 	}
 }
 
@@ -269,7 +269,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.7.a
+		name = EXCELLENT
 	}
 }
 
@@ -292,7 +292,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.8.a
+		name = EXCELLENT
 	}
 }
 
@@ -315,7 +315,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.9.a
+		name = EXCELLENT
 	}
 }
 
@@ -334,7 +334,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.10.a
+		name = EXCELLENT
 	}
 }
 
@@ -353,7 +353,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.11.a
+		name = EXCELLENT
 	}
 }
 
@@ -372,7 +372,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.12.a
+		name = EXCELLENT
 	}
 }
 
@@ -391,7 +391,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.13.a
+		name = EXCELLENT
 	}
 }
 
@@ -410,7 +410,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.14.a
+		name = EXCELLENT
 	}
 }
 
@@ -434,7 +434,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.15.a
+		name = EXCELLENT
 	}
 }
 
@@ -458,7 +458,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.16.a
+		name = EXCELLENT
 	}
 }
 
@@ -477,7 +477,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.17.a
+		name = EXCELLENT
 	}
 }
 
@@ -496,7 +496,7 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.18.a
+		name = EXCELLENT
 	}
 }
 
@@ -519,6 +519,32 @@ planet_event = {
 	}
 
 	option = {
-		name = planets.19.a
+		name = EXCELLENT
+	}
+}
+
+planet_event = {
+	id = planets.20
+	title = planets.20.name
+	desc = planets.20.desc
+	picture = GFX_evt_beacon_destroyed
+	show_sound = event_alien_nature
+
+	is_triggered_only = yes
+
+	trigger = {
+		planet_devastation >= 50
+		has_deposit = d_tiamet_beacon
+	}
+	
+	immediate = {
+		remove_deposit = d_tiamet_beacon
+	}
+
+	option = {
+		name = UNFORTUNATE
+		tooltip = { 
+			remove_deposit = d_tiamet_beacon
+		}
 	}
 }

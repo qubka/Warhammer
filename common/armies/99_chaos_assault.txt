@@ -8,7 +8,8 @@ cultists = {
 	health = 3.15
 	morale = 1.15
 	collateral_damage = 1.00												
-	war_exhaustion = 0.0											
+	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 98
@@ -20,7 +21,7 @@ cultists = {
 		}
 
 		upkeep = {
-			energy = 3.2
+			energy = 1.2
 		}
 	}
 	
@@ -163,19 +164,19 @@ defilers = {
 }
 
 chaos_dreadnaught = {
-	damage = 1.90
-	health = 3.90
-	morale = 1.90
+	damage = 6.0
+	health = 5.0
+	morale = 5.0
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
-	time = 150
+	time = 200
 	
 	icon_frame = 103
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			minerals = 500
 		}
 
 		upkeep = {
@@ -184,52 +185,64 @@ chaos_dreadnaught = {
 	}
 	
 	#prerequisites = { "tech_basic_army" }
-	
+
 	allow = {
-		planet = {
-			OR = {
-				is_planet_class = pc_daemon
-				is_planet_class = pc_daemont
-				is_planet_class = pc_daemons
-				is_planet_class = pc_daemonn
+		##has_building = "chaos_building_imperial_knight_base_1"
+	
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "chaos_dreadnaught_count" 
+					value = 10
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "chaos_dreadnaught_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "chaos_dreadnaught_count" 
+				value = -1
 			}
 		}
 	}
 	
 	potential = {
-		planet = {
-			OR = {
-				is_planet_class = pc_daemon
-				is_planet_class = pc_daemont
-				is_planet_class = pc_daemons
-				is_planet_class = pc_daemonn
-			}
-		}
 		owner = {
 			has_country_flag = chaos_empire
 		}
 	}
-	
 }
 
 chaos_predator = {
-	damage = 2
-	health = 4
+	damage = 5
+	health = 3
 	morale = 2
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
-	time = 170
+	time = 200
 	
 	icon_frame = 104
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			minerals = 750
 		}
 
 		upkeep = {
-			energy = 4
+			energy = 3.5
 		}
 	}
 	
@@ -269,12 +282,27 @@ bloodletters = {
 	}
 	
 	#prerequisites = { "tech_advance_army" }
-	
+		
 	allow = {
-		#has_building = "bloodletters_recruitment"
+		planet = {
+			OR = {
+				is_planet_class = pc_daemon
+				is_planet_class = pc_daemont
+				is_planet_class = pc_daemons
+				is_planet_class = pc_daemonn
+			}
+		}
 	}
 	
 	potential = {
+		planet = {
+			OR = {
+				is_planet_class = pc_daemon
+				is_planet_class = pc_daemont
+				is_planet_class = pc_daemons
+				is_planet_class = pc_daemonn
+			}
+		}
 		owner = {
 			has_country_flag = chaos_empire
 		}
@@ -320,7 +348,7 @@ havocs = {
 	health = 4.65
 	morale = 1.65
 	collateral_damage = 1.00												
-	war_exhaustion = 0.0											
+	war_exhaustion = 0.0
 	time = 200
 	
 	icon_frame = 107
@@ -353,7 +381,7 @@ noise_marines = {
 	health = 5.65
 	morale = 5.65
 	collateral_damage = 1.00												
-	war_exhaustion = 0.0											
+	war_exhaustion = 0.0
 	time = 250
 	
 	icon_frame = 108
@@ -386,7 +414,7 @@ plague_marines = {
 	health = 8.65
 	morale = 5.65
 	collateral_damage = 1.00												
-	war_exhaustion = 0.0											
+	war_exhaustion = 0.0
 	time = 300
 	
 	icon_frame = 135
