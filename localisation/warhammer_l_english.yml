@@ -2063,7 +2063,7 @@
  # Deposits
  ####################################
  d_tiamet_beacon:0 "Tiamet Beacon"
- d_tiamet_beacon_desc:0 "This Hive Fleet is dedicated to protect a Xenos Megaestructure built in Tiamet I, also known as Ziaphoria by the eldars. Inquisition's Ordo Xenos suspects this continental-spanning mountain filled with encephalic mass is a navigational beacon used by Hive Fleets the same way the Imperium of Man uses the Astranomicon. It's even speculated it's bringing new Tyranid  Hive Fleets to his galaxy."
+ d_tiamet_beacon_desc:0 "This Hive Fleet is dedicated to protect a Xenos Megaestructure built in Tiamet I, also known as Ziaphoria by the eldars. Inquisition's Ordo Xenos suspects this continental-spanning mountain filled with encephalic mass is a navigational beacon used by Hive Fleets the same way the Imperium of Man uses the Astranomicon. It's even speculated it's bringing new Tyranid  Hive Fleets to this galaxy."
  
  ####################################
  # Events
