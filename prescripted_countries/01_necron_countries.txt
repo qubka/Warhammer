@@ -542,7 +542,7 @@ thokt = {
 	room = "machine_room"
 
 	authority = "auth_machine_intelligence"
-	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_radioactive" }
+	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_radioactive_imbued" }
 	government = "gov_absolute_monarchy"
 	origin = "origin_thokt"
 

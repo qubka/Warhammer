@@ -1,3 +1,161 @@
+# OTHER
+
+decision_promethium_mine = {
+	owned_planets_only = yes
+	
+	enactment_time = 450
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 1000
+		}
+	}
+	
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+		has_planet_flag = promethium_success
+		NOT = { has_planet_flag = promethium_builded }
+	}
+	
+	effect = {
+		custom_tooltip = decision_promethium_mine_effects
+		add_deposit = "d_promethium_mine"
+		set_planet_flag = promethium_builded
+		planet_event = { id = planets.23 }
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_promethium_prospecting = {
+	owned_planets_only = yes
+	
+	enactment_time = 900
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			energy = 1000
+		}
+	}
+	
+	potential = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = human_empire }
+		NOT = { 
+			has_planet_flag = promethium_success
+			has_planet_flag = promethium_fail
+		}
+	}
+	
+	effect = {
+		custom_tooltip = decision_promethium_search_effects
+		hidden_effect = {
+			random_list = {
+				50 = {
+					# Success
+					set_planet_flag = promethium_success
+					planet_event = { id = planets.21 }
+				}
+				50 = {
+					# Fail
+					set_planet_flag = promethium_fail
+					planet_event = { id = planets.22 }
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_burn_promethium = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+		}
+	}
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+			is_planet_class = pc_forge_ring
+			is_planet_class = pc_forge_ring2
+			is_planet_class = pc_forge_ring3
+		}
+	}
+	
+	effect = {
+		add_modifier = { modifier = "burn_promethium" days = -1 }
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+decision_stop_burn_promethium = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+
+	resources = {
+		category = decisions
+	}
+	
+	potential = {
+		has_modifier = burn_promethium
+	}
+	
+	effect = {
+		remove_modifier = burn_promethium
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
 
 # HIVE
 
@@ -538,6 +696,7 @@ decision_agri_project = {
 				entity = "agri_planet"
 				graphical_culture = owner
 			}
+			remove_deposit = "d_promethium_mine"
 			add_modifier = { modifier = "agri_planet" days = -1 }
 			planet_event = { id = planets.10 }
 		}
@@ -588,6 +747,7 @@ decision_shrine_project = {
 				entity = "shrine_planet"
 				graphical_culture = owner
 			}
+			remove_deposit = "d_promethium_mine"
 			add_modifier = { modifier = "shrine_planet" days = -1 }
 			planet_event = { id = planets.11 }
 		}
@@ -688,6 +848,7 @@ decision_fortress_project = {
 				entity = "fortress_planet"
 				graphical_culture = owner
 			}
+			remove_deposit = "d_promethium_mine"
 			add_modifier = { modifier = "fortress_planet" days = -1 }
 			planet_event = { id = planets.13 }
 		}
@@ -706,7 +867,7 @@ decision_armoury_project = {
 		category = decisions
 		cost = {
 			influence = 50
-			minerals = 5000
+			minerals = 2500
 		}
 	}
 
@@ -737,6 +898,7 @@ decision_armoury_project = {
 				entity = "armoury_planet"
 				graphical_culture = owner
 			}
+			remove_deposit = "d_promethium_mine"
 			add_modifier = { modifier = "armoury_planet" days = -1 }
 			planet_event = { id = planets.14 }
 		}

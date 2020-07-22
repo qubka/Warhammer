@@ -3,8 +3,8 @@ static_galaxy_scenario = {
 	priority = 0
 	default = yes
 	colonizable_planet_odds = 1.0
-	num_empires = { min = 25 max = 65 }
-	num_empire_default = 34
+	num_empires = 65
+	num_empire_default = 65
 	advanced_empire_default = 0
 	fallen_empire_default = 0
 	fallen_empire_max = 0

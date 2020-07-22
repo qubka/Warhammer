@@ -26,7 +26,7 @@ goff = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_goff }
+	flags = { orkoid ork_empire the_goff }
 	planet_name = "PRESCRIPTED_planet_name_goff"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_goff"
@@ -90,7 +90,7 @@ evil_sunz = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_evil_sunz }
+	flags = { orkoid ork_empire the_evil_sunz }
 	planet_name = "PRESCRIPTED_planet_name_evil_sunz"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_evil_sunz"
@@ -154,7 +154,7 @@ death_skullz = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_death_skullz }
+	flags = { orkoid ork_empire the_death_skullz }
 	planet_name = "PRESCRIPTED_planet_name_death_skullz"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_death_skullz"
@@ -218,7 +218,7 @@ blood_axe = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_blood_axe }
+	flags = { orkoid ork_empire the_blood_axe }
 	planet_name = "PRESCRIPTED_planet_name_blood_axe"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_blood_axe"
@@ -282,7 +282,7 @@ big_mek = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_big_mek }
+	flags = { orkoid ork_empire the_big_mek }
 	planet_name = "PRESCRIPTED_planet_name_big_mek"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_big_mek"
@@ -346,7 +346,7 @@ big_boss = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_big_boss }
+	flags = { orkoid ork_empire the_big_boss }
 	planet_name = "PRESCRIPTED_planet_name_big_boss"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_big_boss"
@@ -410,7 +410,7 @@ bad_moons = {
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_militarist"
-	flags = { ork_empire the_bad_moons }
+	flags = { orkoid ork_empire the_bad_moons }
 	planet_name = "PRESCRIPTED_planet_name_bad_moons"
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_bad_moons"

@@ -1,4 +1,132 @@
 
+#########################
+### ADVANCED RESOURCES ##
+#########################
+
+d_promethium_1 = {
+	station = shipclass_mining_station 
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			promethium = 1
+		}
+	}
+	
+	potential = {
+		OR = {
+			is_planet_class = pc_toxic
+			is_planet_class = pc_gas_giant
+		}
+	}
+	
+	drop_weight = {
+		weight = 10
+		modifier = {
+			factor = 2
+			is_inside_nebula = yes
+		}
+	}
+}
+
+d_promethium_2 = {
+	station = shipclass_mining_station 
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			promethium = 2
+		}
+	}
+	
+	potential = {
+		OR = {
+			is_planet_class = pc_toxic
+			is_planet_class = pc_gas_giant
+		}
+	}
+	
+	drop_weight = {
+		weight = 5
+		modifier = {
+			factor = 2
+			is_inside_nebula = yes
+		}
+	}
+}
+
+d_promethium_3 = {
+	station = shipclass_mining_station 
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			promethium = 3
+		}
+	}
+	
+	potential = {
+		OR = {
+			is_planet_class = pc_toxic
+			is_planet_class = pc_gas_giant
+		}
+	}
+	
+	drop_weight = {
+		weight = 0.5
+		modifier = {
+			factor = 2
+			is_inside_nebula = yes
+		}
+	}
+}
+
+d_slaves = {
+	station = shipclass_mining_station 
+	is_for_colonizeable = no
+	
+	resources = { 
+		category = orbital_mining_deposits
+		produces = {
+			slaves = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+###################
+##### SPECIAL #####
+###################
+
+d_promethium_mine = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+
+	planet_modifier = {
+		planet_jobs_minerals_produces_mult = 0.15
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = human_empire }
+		}
+		modifier = {	
+			job_promethium_miner_add = 2
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
 d_tiamet_beacon = {
 	is_for_colonizeable = yes
 	category = deposit_cat_rare
@@ -9,8 +137,8 @@ d_tiamet_beacon = {
 		planet_amenities_add = 25
 		pop_growth_speed = 0.25
 		army_defense_damage_mult = 3
-        army_defense_health_mult = 3
-        army_defense_morale_mult = 3
+		army_defense_health_mult = 3
+		army_defense_morale_mult = 3
 		planet_army_build_speed_mult = 0.15
 		armies_cost_mult = -0.5
 		planet_orbital_bombardment_damage = -0.95
@@ -22,4 +150,10 @@ d_tiamet_beacon = {
 			unity = 250
 		}
 	}
+
+	drop_weight = {
+		weight = 0
+	}
 }
+
+#d_imperial_palace

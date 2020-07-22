@@ -1,0 +1,82 @@
+
+district_armoury_storage = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+	
+	show_on_uncolonized = {
+		uses_district_set = armoury_world
+	}
+
+	potential = {
+		uses_district_set = armoury_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = humanoid } }
+	}
+	
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2
+		country_resource_max_add = 5000
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 2
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			weight = 50
+			is_active_resolution = "resolution_greatergood_balance_in_the_middle"
+		}
+		modifier = {
+			weight = 500
+			is_active_resolution = "resolution_greatergood_universal_prosperity_mandate"
+		}
+	}
+}

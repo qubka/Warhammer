@@ -548,3 +548,96 @@ planet_event = {
 		}
 	}
 }
+
+planet_event = {
+	id = planets.21
+	title = planets.21.name
+	desc = planets.21.desc
+	picture = GFX_evt_prospecting_success
+	show_sound = event_scanner
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+	}
+
+	option = {
+		name = INTERESTING
+	}
+}
+
+planet_event = {
+	id = planets.22
+	title = planets.22.name
+	desc = planets.22.desc
+	picture = GFX_evt_prospecting_fail
+	show_sound = event_scanner
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+	}
+
+	option = {
+		name = OOPS
+	}
+}
+
+planet_event = {
+	id = planets.23
+	title = planets.23.name
+	desc = planets.23.desc
+	picture = GFX_evt_prospecting_mine
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+	}
+}

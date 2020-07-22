@@ -22,7 +22,7 @@ building_cadre_headquarters = {
 		planet_housing_add = 12
 		planet_amenities_add = 12
 		job_fe_high_priest_add = 2
-		job_fe_protector_add = 2
+		job_protector_add = 2
 	}
 
 	resources = {
@@ -173,12 +173,6 @@ building_shaping_center = {
 				owner = { NOT = { has_deficit = energy } }
 			}
 			minerals = 100
-			rare_crystals = @b3_rare_upkeep
-			exotic_gases = @b3_rare_upkeep
-			volatile_motes = @b3_rare_upkeep
-			#sr_zro = 1
-			#sr_dark_matter = 1
-			#sr_living_metal = 1
 		}
 		cost = {
 			minerals = @b3_minerals
@@ -193,23 +187,9 @@ building_shaping_center = {
 		modifier = {
 			weight = 100
 			owner = {
-				OR = {
-					has_monthly_income = {
-						resource = minerals
-						value < 100
-					}
-					has_monthly_income = {
-						resource = rare_crystals
-						value < @b3_rare_upkeep
-					}
-					has_monthly_income = {
-						resource = exotic_gases
-						value < @b3_rare_upkeep
-					}
-					has_monthly_income = {
-						resource = volatile_motes
-						value < @b3_rare_upkeep
-					}
+				has_monthly_income = {
+					resource = minerals
+					value < 100
 				}
 			}
 		}
@@ -435,8 +415,7 @@ building_listening_post = {
 	}
 
 	planet_modifier = {
-		planet_orbital_bombardment_damage = -0.5
-		job_fe_protector_add = 5
+		job_protector_add = 5
 	}
 
 	resources = {

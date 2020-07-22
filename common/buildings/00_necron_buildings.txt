@@ -22,8 +22,8 @@ building_ancient_monolith = {
 	planet_modifier = {
 		planet_housing_add = 10
 		planet_amenities_add = 10
-		job_fe_guardian_bot_add = 10
-		planet_orbital_bombardment_damage = -0.5
+		job_warrior_drone_bot_add = 10
+		planet_orbital_bombardment_damage = -0.25
 	}
 
 	resources = {
@@ -41,7 +41,7 @@ building_ancient_monolith = {
 	}
 }
 
-building_dark_factory = {
+building_obelisk = {
 	base_buildtime = @b2_time
 
 	category = manufacturing
@@ -127,7 +127,6 @@ building_dormant_monolith = {
 		}
 		upkeep = {
 			energy = @b3_upkeep
-			sr_living_metal = @b3_rare_upkeep
 		}
 	}
 	
@@ -164,10 +163,7 @@ building_energy_core = {
 				owner = { NOT = { has_deficit = energy } }
 			}
 			minerals = 100
-			rare_crystals = @b3_rare_upkeep
-			exotic_gases = @b3_rare_upkeep
-			volatile_motes = @b3_rare_upkeep
-			sr_living_metal = @b3_rare_upkeep
+			living_metal = @b3_rare_upkeep
 		}
 		cost = {
 			minerals = @b3_minerals
@@ -188,19 +184,7 @@ building_energy_core = {
 						value < 100
 					}
 					has_monthly_income = {
-						resource = rare_crystals
-						value < @b3_rare_upkeep
-					}
-					has_monthly_income = {
-						resource = exotic_gases
-						value < @b3_rare_upkeep
-					}
-					has_monthly_income = {
-						resource = volatile_motes
-						value < @b3_rare_upkeep
-					}
-					has_monthly_income = {
-						resource = sr_living_metal
+						resource = living_metal
 						value < @b3_rare_upkeep
 					}
 				}
@@ -333,7 +317,7 @@ building_forbidden_archive = {
 	}
 	
 	planet_modifier = {
-		job_fe_archivist_add = 10
+		job_calculator_add = 10
 	}
 
 	resources = {
@@ -377,7 +361,7 @@ building_summoning_core = {
 	}
 
 	planet_modifier = {
-		job_fe_augur_add = 3
+		job_coordinator_add = 3
 	}
 
 	resources = {
@@ -454,7 +438,7 @@ building_gauss_turret = {
 	}
 
 	planet_modifier = {
-		job_fe_guardian_bot_add = 5
+		job_warrior_drone_bot_add = 5
 		planet_orbital_bombardment_damage = -0.1
 	}
 
