@@ -11,11 +11,6 @@ district_forge_city = {
 		exists = owner
 		owner = { has_country_flag = humanoid }
 	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
 
 	resources = {
 		category = planet_districts
@@ -28,7 +23,7 @@ district_forge_city = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 15
+		planet_housing_add = 10
 		job_clerk_add = 10
 	}
 	
@@ -57,11 +52,6 @@ district_fondry_manufactoria = {
 		uses_district_set = forge_world
 		exists = owner
 		owner = { has_country_flag = humanoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
 	}
 
 	resources = {
@@ -98,6 +88,15 @@ district_fondry_manufactoria = {
 				}
 			}
 		}
+		modifier = {
+			weight = 1000
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 0
+				}
+			}
+		}
 	}
 	
 	ai_resource_production = {
@@ -120,11 +119,6 @@ district_generatorum_line = {
 		uses_district_set = forge_world
 		exists = owner
 		owner = { has_country_flag = humanoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
 	}
 
 	resources = {
@@ -149,7 +143,7 @@ district_generatorum_line = {
 		}
 	}
 
-	triggered_planet_modifier = {
+	planet_modifier = {
 		planet_housing_add = 10
 		job_technician_add = 10
 	}
@@ -193,11 +187,6 @@ district_research_center = {
 		owner = { has_country_flag = humanoid }
 	}
 	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
-	
 	resources = {
 		category = planet_districts
 		cost = {
@@ -208,7 +197,7 @@ district_research_center = {
 		}
 	}
 
-	triggered_planet_modifier = {
+	planet_modifier = {
 		planet_housing_add = 10
 		job_researcher_add = 10
 	}
@@ -224,7 +213,7 @@ district_research_center = {
 			owner = {
 				has_monthly_income = {
 					resource = consumer_goods
-					value > 50
+					value > 99
 				}
 			}
 		}

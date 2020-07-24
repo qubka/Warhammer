@@ -44,6 +44,7 @@ cadia_homeworld = {
 					civic = civic_fanatic_purifiers
 				}
 				origin = "origin_dominion"
+				room = "navy_room"
 				ethos = {
 					ethic = ethic_fanatic_xenophobe
 					ethic = ethic_militarist

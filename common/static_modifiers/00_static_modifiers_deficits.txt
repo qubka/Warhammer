@@ -18,7 +18,7 @@ electronics_deficit = {
 	custom_tooltip = electronics_deficit_tooltip
 }
 
-gene_seed = {
+gene_seed_deficit = {
 	custom_tooltip = gene_seed_deficit_tooltip
 }
 
@@ -28,7 +28,8 @@ scrap_deficit = {
 }
 
 slaves_deficit = {
-	custom_tooltip = slaves_deficit_tooltip
+	pop_happiness = -1.0
+	pop_decline_speed = 0.15
 }
 
 living_metal_deficit = {

@@ -11,11 +11,6 @@ district_hive_city = {
 		exists = owner
 		owner = { has_country_flag = humanoid }
 	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
 
 	resources = {
 		category = planet_districts
@@ -85,11 +80,6 @@ district_military_manufactoria = {
 		exists = owner
 		owner = { has_country_flag = humanoid }
 	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
 
 	resources = {
 		category = planet_districts
@@ -125,6 +115,15 @@ district_military_manufactoria = {
 				}
 			}
 		}
+		modifier = {
+			weight = 1000
+			owner = {
+				has_monthly_income = {
+					resource = military_goods
+					value < 0
+				}
+			}
+		}
 	}
 	
 	ai_resource_production = {
@@ -147,11 +146,6 @@ district_civilian_manufactoria = {
 		uses_district_set = hivecity_world
 		exists = owner
 		owner = { has_country_flag = humanoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
 	}
 
 	resources = {
@@ -220,11 +214,6 @@ district_technical_manufactoria = {
 		exists = owner
 		owner = { has_country_flag = humanoid }
 	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
 
 	resources = {
 		category = planet_districts
@@ -257,6 +246,15 @@ district_technical_manufactoria = {
 				has_monthly_income = {
 					resource = alloys
 					value > 99
+				}
+			}
+		}
+		modifier = {
+			weight = 1000
+			owner = {
+				has_monthly_income = {
+					resource = electronics
+					value < 0
 				}
 			}
 		}

@@ -18,7 +18,7 @@ ynnari = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_reborn_followers" "civic_children_of_stars" }
@@ -28,7 +28,7 @@ ynnari = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_ynnari }
+	flags = { eldarian eldar_empire the_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_ynnari"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ynnari"
@@ -84,7 +84,7 @@ ulthwe = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_seers_way" "civic_children_of_stars" }
@@ -94,7 +94,7 @@ ulthwe = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_ulthwe }
+	flags = { eldarian eldar_empire the_ulthwe }
 	planet_name = "PRESCRIPTED_planet_name_ulthwe"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ulthwe"
@@ -150,7 +150,7 @@ saim_hann = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_enjoyed_of_simple" "civic_children_of_stars" }
@@ -160,7 +160,7 @@ saim_hann = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_saim_hann }
+	flags = { eldarian eldar_empire the_saim_hann }
 	planet_name = "PRESCRIPTED_planet_name_saim_hann"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_saim_hann"
@@ -216,7 +216,7 @@ ostara = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_paranoid_isolationism" "civic_children_of_stars" }
@@ -226,7 +226,7 @@ ostara = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_ostara }
+	flags = { eldarian eldar_empire the_ostara }
 	planet_name = "PRESCRIPTED_planet_name_ostara"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ostara"
@@ -282,7 +282,7 @@ iyanden = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_damaged_craftworld" "civic_children_of_stars" }
@@ -292,7 +292,7 @@ iyanden = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_iyanden }
+	flags = { eldarian eldar_empire the_iyanden }
 	planet_name = "PRESCRIPTED_planet_name_iyanden"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_iyanden"
@@ -348,7 +348,7 @@ biel_tan = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_warrior_culture" "civic_children_of_stars" }
@@ -358,7 +358,7 @@ biel_tan = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_biel_tan }
+	flags = { eldarian eldar_empire the_biel_tan }
 	planet_name = "PRESCRIPTED_planet_name_biel_tan"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_biel_tan"
@@ -414,7 +414,7 @@ alaitoc = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_over_racism" "civic_children_of_stars" }
@@ -424,7 +424,7 @@ alaitoc = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_alaitoc }
+	flags = { eldarian eldar_empire the_alaitoc }
 	planet_name = "PRESCRIPTED_planet_name_alaitoc"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_alaitoc"

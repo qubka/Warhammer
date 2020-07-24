@@ -18,7 +18,7 @@ alpha_legion = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_xx" "civic_extremly_secretive" }
@@ -84,7 +84,7 @@ black_legion = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_xvi" "civic_chaos_undivided" }
@@ -150,7 +150,7 @@ death_guard = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "nurgle_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_xiv" "civic_nurgle_cult" }
@@ -216,7 +216,7 @@ emperor_children = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "slaanesh_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_iii" "civic_slaanesh_cult" }
@@ -282,7 +282,7 @@ iron_warrior = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_iv" "civic_chaos_undivided" }
@@ -348,7 +348,7 @@ night_lords = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_viii" "civic_chaos_undivided" }
@@ -414,7 +414,7 @@ red_corsairs = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_chaos_corsairs" "civic_warrior_culture" }
@@ -480,7 +480,7 @@ thousand_sons = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "tzeentch_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_xv" "civic_tzeentch_cult" }
@@ -546,7 +546,7 @@ word_bearer = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_xvii" "civic_chaos_undivided" }
@@ -612,7 +612,7 @@ world_eater = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "khorne_room"
 	
 	authority = "auth_chaos"
 	civics = { "civic_xii" "civic_khorne_cult" }

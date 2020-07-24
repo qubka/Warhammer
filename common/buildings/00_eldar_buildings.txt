@@ -1,5 +1,5 @@
 
-building_paradisaic_capital = {
+building_paradisaic_complex = {
 	capital = yes
 	can_build = no
 	can_demolish = no
@@ -17,22 +17,35 @@ building_paradisaic_capital = {
 		exists = owner
 		owner = { NOT = { has_country_flag = eldar_empire } }
 	}
+	
+	convert_to = {
+		building_hall_of_blood
+		building_tyranid_hive
+		building_irontoff_bastion
+		building_administratum
+		building_ancient_monolith
+		building_cadre_headquarters
+		building_chaos_complex
+	}
 
 	planet_modifier = {
 		planet_housing_add = 12
 		planet_amenities_add = 12
-		job_fe_high_priest_add = 2
-		job_protector_add = 2
+		job_noble_warlock_add = 3
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 10
 		}
+	}
+	
+	triggered_desc = {
+		text = job_noble_warlock_effect_desc
 	}
 		
 	ai_weight = {
@@ -40,8 +53,62 @@ building_paradisaic_capital = {
 	}
 }
 
+building_asuryani_center = {
+	base_buildtime = 240
+	
+	category = government
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = eldar_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = eldar_empire } }
+	}
+
+	planet_modifier = {
+		job_bureaucrat_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	triggered_desc = {
+		text = job_bureaucrat_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 20
+			owner = { empire_sprawl_over_cap > 0 }
+		}
+		modifier = {
+			weight = 50
+			owner = { empire_sprawl_over_cap > 10 }
+		}
+		modifier = {
+			weight = 100
+			owner = { empire_sprawl_over_cap > 20 }
+		}
+		modifier = {
+			weight = 500
+			owner = { empire_sprawl_over_cap > 40 }
+		}
+	}
+}
+
 building_eldar_workshop = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = manufacturing
 	
@@ -66,7 +133,7 @@ building_eldar_workshop = {
 			consumer_goods = 50
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			minerals = 25
@@ -95,62 +162,8 @@ building_eldar_workshop = {
 	}
 }
 
-building_asuryani_greenhouse = {
-	base_buildtime = @b2_time
-
-	category = resource
-	
-	potential = {
-		exists = owner
-		owner = { has_country_flag = eldar_empire }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = eldar_empire } }
-	}
-
-	resources = {
-		category = planet_buildings
-		produces = {
-			trigger = {
-				exists = owner
-				is_ai = no
-				owner = { NOT = { has_deficit = energy } }
-			}
-			food = 100
-		}
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			energy = 20
-		}
-	}
-	
-	ai_weight = {
-		weight = 0
-		modifier = {
-			weight = 100
-			owner = {
-				has_monthly_income = {
-					resource = food
-					value < 100
-				}
-			}
-		}
-	}
-
-	ai_resource_production = {
-		food = 1
-		trigger = {
-			always = yes
-		}
-	}
-}
-
 building_craftworld_fabricator = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 	
@@ -175,10 +188,10 @@ building_craftworld_fabricator = {
 			minerals = 100
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
-			energy = 20
+			energy = 50
 		}
 	}
 	
@@ -203,8 +216,8 @@ building_craftworld_fabricator = {
 	}
 }
 
-building_spirit_generator = {
-	base_buildtime = @b2_time
+building_voidsight_tower = {
+	base_buildtime = 240
 
 	category = resource
 	
@@ -221,7 +234,7 @@ building_spirit_generator = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		produces = {
 			energy = 250
@@ -250,7 +263,7 @@ building_spirit_generator = {
 }
 
 building_holy_foundry = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	
 	category = manufacturing
 	
@@ -275,7 +288,7 @@ building_holy_foundry = {
 			alloys = 25
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			minerals = 50
@@ -304,8 +317,8 @@ building_holy_foundry = {
 	}
 }
 
-building_black_library = {
-	base_buildtime = @b2_time
+building_forbidden_library = {
+	base_buildtime = 240
 	
 	category = research
 	
@@ -320,7 +333,7 @@ building_black_library = {
 	}
 	
 	planet_modifier = {
-		job_fe_archivist_add = 10
+		job_librarian_add = 10
 	}
 
 	resources = {
@@ -336,14 +349,22 @@ building_black_library = {
 			engineering_research = 100
 		}
 		cost = {
-			minerals = @b2_minerals
+			minerals = 500
 		}
 		upkeep = {
-			energy = 20
+			energy = 50
 		}
+	}
+	
+	triggered_desc = {
+		text = job_librarian_effect_desc
 	}
 	
 	ai_weight = {
 		weight = 10
 	}
 }
+
+#building_spiritspire_dharquese = {
+#
+#}

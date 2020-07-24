@@ -41,18 +41,6 @@ district_generator = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
@@ -264,19 +252,7 @@ district_mining = {
 	planet_modifier = {
 		planet_housing_add = 2
 	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -481,31 +457,6 @@ district_farming = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_technology = tech_housing_agrarian_idyll
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
@@ -677,14 +628,16 @@ district_generator_uncapped = {
 
 	show_on_uncolonized = {
 		OR = {
-			uses_district_set = hive_world
+			uses_district_set = shrine_world
+			uses_district_set = armoury_world
 			uses_district_set = machine_world
 		}
 	}
 
 	potential = {
 		OR = {
-			uses_district_set = hive_world
+			uses_district_set = shrine_world
+			uses_district_set = armoury_world
 			uses_district_set = machine_world
 		}
 	}
@@ -710,18 +663,6 @@ district_generator_uncapped = {
 
 	planet_modifier = {
 		planet_housing_add = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
 	}
 
 	triggered_planet_modifier = {
@@ -840,14 +781,16 @@ district_mining_uncapped = {
 
 	show_on_uncolonized = {
 		OR = {
-			uses_district_set = hive_world
+			uses_district_set = shrine_world
+			uses_district_set = armoury_world
 			uses_district_set = machine_world
 		}
 	}
 
 	potential = {
 		OR = {
-			uses_district_set = hive_world
+			uses_district_set = shrine_world
+			uses_district_set = armoury_world
 			uses_district_set = machine_world
 		}
 	}
@@ -873,18 +816,6 @@ district_mining_uncapped = {
 
 	planet_modifier = {
 		planet_housing_add = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
 	}
 
 	triggered_planet_modifier = {
@@ -1011,9 +942,9 @@ district_farming_uncapped = {
 	icon = district_farming
 	is_capped_by_modifier = no
 
-	show_on_uncolonized = { uses_district_set = hive_world }
+	show_on_uncolonized = { uses_district_set = machine_world }
 
-	potential = { uses_district_set = hive_world }
+	potential = { uses_district_set = machine_world }
 
 	allow = {
 		NOT = { has_modifier = resort_colony }
@@ -1036,31 +967,6 @@ district_farming_uncapped = {
 
 	planet_modifier = {
 		planet_housing_add = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_technology = tech_housing_agrarian_idyll
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
 	}
 
 	triggered_planet_modifier = {

@@ -47,6 +47,7 @@ ryza_homeworld = {
 					civic = civic_technocracy
 				}
 				origin = "origin_mechanicus"
+				room = "mechanicus_room"
 				ethos = {
 					ethic = ethic_fanatic_materialist
 					ethic = ethic_xenophobe

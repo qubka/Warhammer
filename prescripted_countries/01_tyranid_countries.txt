@@ -28,7 +28,7 @@ behemoth = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_behemoth }
 	planet_name = "PRESCRIPTED_planet_name_behemoth"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_behemoth"
 
 	graphical_culture = "humanoid_01"
@@ -92,7 +92,7 @@ gorgon = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_gorgon }
 	planet_name = "PRESCRIPTED_planet_name_gorgon"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_gorgon"
 
 	graphical_culture = "humanoid_01"
@@ -156,7 +156,7 @@ hydra = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_hydra }
 	planet_name = "PRESCRIPTED_planet_name_hydra"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_hydra"
 
 	graphical_culture = "humanoid_01"
@@ -220,7 +220,7 @@ jormungandr = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_jormungandr }
 	planet_name = "PRESCRIPTED_planet_name_jormungandr"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_jormungandr"
 
 	graphical_culture = "humanoid_01"
@@ -284,7 +284,7 @@ kraken = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_kraken }
 	planet_name = "PRESCRIPTED_planet_name_kraken"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_kraken"
 
 	graphical_culture = "humanoid_01"
@@ -348,7 +348,7 @@ leviathan = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_leviathan }
 	planet_name = "PRESCRIPTED_planet_name_leviathan"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_leviathan"
 
 	graphical_culture = "humanoid_01"
@@ -412,7 +412,7 @@ ouroboris = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_ouroboris }
 	planet_name = "PRESCRIPTED_planet_name_ouroboris"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_ouroboris"
 
 	graphical_culture = "humanoid_01"
@@ -476,7 +476,7 @@ tiamet = {
 	ethic = "ethic_gestalt_consciousness"
 	flags = { tyranid_empire the_tiamet }
 	planet_name = "PRESCRIPTED_planet_name_tiamet"
-	planet_class = "pc_advancecity"
+	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_tiamet"
 
 	graphical_culture = "humanoid_01"

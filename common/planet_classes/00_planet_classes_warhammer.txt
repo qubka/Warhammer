@@ -123,7 +123,7 @@ pc_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = forge_world
 }
 
 pc_agri = {
@@ -315,7 +315,7 @@ pc_tomb = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = machine_world
+	district_set = tomb_world
 }
 
 pc_hive_arid = {
@@ -667,7 +667,7 @@ pc_craftworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = habitat
+	district_set = craft_world
 }
 
 pc_hive_industrial = {
@@ -699,7 +699,7 @@ pc_hive_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_advancecity = {
@@ -763,7 +763,7 @@ pc_webway = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = habitat
+	district_set = webway_world
 }
 
 pc_spacehulk = {

@@ -1,6 +1,5 @@
-
 district_shrine_complex = {
-	base_buildtime = 600
+	base_buildtime = 240
 	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
@@ -11,11 +10,6 @@ district_shrine_complex = {
 		uses_district_set = shrine_world
 		exists = owner
 		owner = { has_country_flag = humanoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
 	}
 
 	resources = {

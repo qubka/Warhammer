@@ -9,6 +9,13 @@ on_game_start = {
 }
 
 # No scope, like on_game_start
+on_monthly_pulse = {
+	events = {
+		#planets.24
+	}
+}
+
+# No scope, like on_game_start
 on_yearly_pulse = {
 	events = {
 		leaders.2

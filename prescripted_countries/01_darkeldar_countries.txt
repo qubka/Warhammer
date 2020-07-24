@@ -18,7 +18,7 @@ dark_ynnari = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_anarchy_terrorism" "civic_terrible_depravity" }
@@ -28,7 +28,7 @@ dark_ynnari = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_dark_ynnari }
+	flags = { eldarian darkeldar_empire the_dark_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_dark_ynnari"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dark_ynnari"
@@ -84,7 +84,7 @@ the_severed = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_master_pirates" "civic_terrible_depravity" }
@@ -94,7 +94,7 @@ the_severed = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_severed }
+	flags = { eldarian darkeldar_empire the_severed }
 	planet_name = "PRESCRIPTED_planet_name_the_severed"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_the_severed"
@@ -150,7 +150,7 @@ last_hatred = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_forbidden_arts" "civic_terrible_depravity" }
@@ -160,7 +160,7 @@ last_hatred = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_last_hatred }
+	flags = { eldarian darkeldar_empire the_last_hatred }
 	planet_name = "PRESCRIPTED_planet_name_last_hatred"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_last_hatred"
@@ -216,7 +216,7 @@ iron_thorn = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_arm_developers" "civic_terrible_depravity" }
@@ -226,7 +226,7 @@ iron_thorn = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_iron_thorn }
+	flags = { eldarian darkeldar_empire the_iron_thorn }
 	planet_name = "PRESCRIPTED_planet_name_iron_thorn"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_iron_thorn"
@@ -282,7 +282,7 @@ flayed_skull = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_professional_reavers" "civic_terrible_depravity" }
@@ -292,7 +292,7 @@ flayed_skull = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_flayed_skull }
+	flags = { eldarian darkeldar_empire the_flayed_skull }
 	planet_name = "PRESCRIPTED_planet_name_flayed_skull"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_flayed_skull"
@@ -348,7 +348,7 @@ dying_sun = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_keepers_of_secrets" "civic_terrible_depravity" }
@@ -358,7 +358,7 @@ dying_sun = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_dying_sun }
+	flags = { eldarian darkeldar_empire the_dying_sun }
 	planet_name = "PRESCRIPTED_planet_name_dying_sun"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dying_sun"
@@ -414,7 +414,7 @@ broken_sigil = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_scariest_kabal" "civic_terrible_depravity" }
@@ -424,7 +424,7 @@ broken_sigil = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_broken_sigil }
+	flags = { eldarian darkeldar_empire the_broken_sigil }
 	planet_name = "PRESCRIPTED_planet_name_broken_sigil"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_broken_sigil"
@@ -480,7 +480,7 @@ black_heart = {
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
 	civics = { "civic_witches_of_discord" "civic_terrible_depravity" }
@@ -490,7 +490,7 @@ black_heart = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_black_heart }
+	flags = { eldarian darkeldar_empire the_black_heart }
 	planet_name = "PRESCRIPTED_planet_name_black_heart"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_black_heart"

@@ -1,0 +1,295 @@
+district_underground_shelter = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = tomb_world
+	}
+
+	potential = {
+		uses_district_set = tomb_world
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		job_nemesor_add = 10
+	}
+	
+	triggered_desc = {
+		text = job_nemesor_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 10
+		}
+		modifier = {
+			weight = 10
+			owner = { empire_sprawl_over_cap > 0 }
+		}
+		modifier = {
+			factor = 2
+			owner = { empire_sprawl_over_cap > 10 }
+		}
+		modifier = {
+			factor = 2
+			owner = { empire_sprawl_over_cap > 20 }
+		}
+		modifier = {
+			factor = 2
+			owner = { empire_sprawl_over_cap > 40 }
+		}
+	}
+}
+
+district_kmenic_quarry = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = tomb_world
+	}
+
+	potential = {
+		uses_district_set = tomb_world
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		job_necron_miner_add = 10
+	}
+	
+	triggered_desc = {
+		text = job_necron_miner_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 3
+			OR = {
+				free_jobs < 2
+				AND = {
+					districts_good_minerals = yes
+					free_jobs < 6
+				}
+				any_owned_pop = {
+					is_unemployed = yes
+					NOT = { has_citizenship_type = { type = citizenship_organic_trophy } }
+					NOR = {
+						is_pop_category = specialist
+						is_pop_category = ruler
+					}
+				}
+			}
+		}
+		modifier = {
+			weight = 300
+			OR = {
+				AND = {
+					years_passed > 4
+					OR = {
+						free_jobs < 3
+						owner = { has_ascension_perk = ap_arcology_project }
+						any_owned_pop = {
+							is_unemployed = yes
+							NOT = { has_citizenship_type = { type = citizenship_organic_trophy } }
+							NOR = {
+								is_pop_category = specialist
+								is_pop_category = ruler
+							}
+						}
+					}
+					owner = {
+						has_monthly_income = {
+							resource = minerals
+							value < 100
+						}
+					}
+					OR = {
+						owner = {
+							has_monthly_income = {
+								resource = food
+								value > 0
+							}
+						}
+						num_free_districts = { type = district_farming value = 0 }
+					}
+				}
+				AND = {
+					free_jobs < 5
+					districts_good_energy = no
+					districts_good_food = no
+					owner = {
+						used_naval_capacity_percent < 0.9
+						has_monthly_income = {
+							resource = alloys
+							value <= 5
+						}#Alloy production has shut down which means the current mineral income can't be trusted
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			exists = owner
+			owner = {
+				is_lithoid_empire = yes
+			}
+		}
+		modifier = {
+			factor = 10
+			owner = {
+				has_deficit = minerals
+			}
+		}
+	}
+
+	ai_resource_production = {
+		minerals = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+district_ancient_stelae = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = tomb_world
+	}
+
+	potential = {
+		uses_district_set = tomb_world
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		job_cryptek_add = 10
+	}
+	
+	triggered_desc = {
+		text = job_cryptek_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 500
+			owner = {
+				has_monthly_income = {
+					resource = living_metal
+					value < 200
+				}
+				has_monthly_income = {
+					resource = minerals
+					value > 99
+				}
+			}
+		}
+		modifier = {
+			weight = 1000
+			owner = {
+				has_monthly_income = {
+					resource = living_metal
+					value < 0
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		living_metal = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+district_defense_grid = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = tomb_world
+	}
+
+	potential = {
+		uses_district_set = tomb_world
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 5
+		job_necron_warrior_add = 5
+		planet_orbital_bombardment_damage = -0.1
+	}
+
+	triggered_desc = {
+		text = job_necron_warrior_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			free_jobs < 1
+			owner = { used_naval_capacity_percent > 0.9	}
+		}
+		modifier = {
+			weight = 100
+			owner = { used_naval_capacity_percent > 0.8	}
+		}
+	}
+}

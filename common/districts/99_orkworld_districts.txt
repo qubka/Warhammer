@@ -1,9 +1,6 @@
-
 district_primitive_shack = {
 	base_buildtime = 240
-	
-	min_for_deposits_on_planet = 3
-	max_for_deposits_on_planet = 15
+	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
 		uses_district_set = ork_world
@@ -12,23 +9,18 @@ district_primitive_shack = {
 	potential = {
 		uses_district_set = ork_world
 		exists = owner
-		owner = { has_country_flag = orkoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = orkoid } }
+		owner = { has_country_flag = ork_empire }
 	}
 
 	resources = {
-		category = planet_districts_cities
+		category = planet_districts
 		cost = {
-			minerals = @base_cost
+			minerals = 500
 		}
 	}
 
 	planet_modifier = {
-		planet_housing_add = 5
+		planet_housing_add = 10
 	}
 
 	ai_weight = {
@@ -42,9 +34,7 @@ district_primitive_shack = {
 
 district_open_mine = {
 	base_buildtime = 240
-
-	min_for_deposits_on_planet = 1
-	max_for_deposits_on_planet = 15
+	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
 		uses_district_set = ork_world
@@ -53,18 +43,13 @@ district_open_mine = {
 	potential = {
 		uses_district_set = ork_world
 		exists = owner
-		owner = { has_country_flag = orkoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = orkoid } }
+		owner = { has_country_flag = ork_empire }
 	}
 
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = @base_cost
+			minerals = 500
 		}
 		upkeep = {
 			energy = 1
@@ -172,9 +157,7 @@ district_open_mine = {
 
 district_scrap_yard = {
 	base_buildtime = 240
-
-	min_for_deposits_on_planet = 5
-	max_for_deposits_on_planet = 15
+	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
 		uses_district_set = ork_world
@@ -183,18 +166,13 @@ district_scrap_yard = {
 	potential = {
 		uses_district_set = ork_world
 		exists = owner
-		owner = { has_country_flag = orkoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = orkoid } }
+		owner = { has_country_flag = ork_empire }
 	}
 
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = @base_cost
+			minerals = 500
 		}
 		upkeep = {
 			energy = 1
@@ -302,9 +280,7 @@ district_scrap_yard = {
 
 district_hunting_ground = {
 	base_buildtime = 240
-
-	min_for_deposits_on_planet = 1
-	max_for_deposits_on_planet = 15
+	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
 		uses_district_set = ork_world
@@ -313,18 +289,13 @@ district_hunting_ground = {
 	potential = {
 		uses_district_set = ork_world
 		exists = owner
-		owner = { has_country_flag = orkoid }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = orkoid } }
+		owner = { has_country_flag = ork_empire }
 	}
 
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = @base_cost
+			minerals = 500
 		}
 	}
 

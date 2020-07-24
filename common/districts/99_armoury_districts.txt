@@ -13,61 +13,29 @@ district_armoury_storage = {
 		owner = { has_country_flag = humanoid }
 	}
 	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
-	
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 500
+			minerals = 2000
 		}
 		upkeep = {
-			energy = 1
+			energy = 5
 		}
 	}
-
+	
+	country_modifier = {
+		country_resource_max_add = 10000
+	}
+	
 	planet_modifier = {
 		planet_housing_add = 2
-		country_resource_max_add = 5000
+		job_clerk_add = 2
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_regular_empire = yes }
-		}
-		modifier = {
-			job_clerk_add = 2
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_gestalt = yes }
-		}
-		modifier = {
-			job_maintenance_drone_add = 1
-		}
-	}
-	
 	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = { is_gestalt = no }
-		}
 		text = job_clerk_effect_desc
 	}
-	
-	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = { is_gestalt = yes }
-		}
-		text = job_maintenance_drone_effect_desc
-	}
-	
+
 	ai_weight = {
 		weight = 1
 		modifier = {

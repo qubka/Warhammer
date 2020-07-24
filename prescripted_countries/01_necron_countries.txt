@@ -19,7 +19,7 @@ charnovokh = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_determined_survivors" }
@@ -27,7 +27,7 @@ charnovokh = {
 	origin = "origin_charnovokh"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_charnovokh }
+	flags = { necron_empire the_charnovokh }
 	planet_name = "PRESCRIPTED_planet_name_charnovokh"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_charnovokh"
@@ -84,7 +84,7 @@ mephrit = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_headless_star_destroyers" }
@@ -92,7 +92,7 @@ mephrit = {
 	origin = "origin_mephrit"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_mephrit }
+	flags = { necron_empire the_mephrit }
 	planet_name = "PRESCRIPTED_planet_name_mephrit"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_mephrit"
@@ -149,7 +149,7 @@ nepheru = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_expansionist_campaign" }
@@ -157,7 +157,7 @@ nepheru = {
 	origin = "origin_nepheru"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_nepheru }
+	flags = { necron_empire the_nepheru }
 	planet_name = "PRESCRIPTED_planet_name_nepheru"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_nepheru"
@@ -214,7 +214,7 @@ nephrekh = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_wealthiest_necrons" }
@@ -222,7 +222,7 @@ nephrekh = {
 	origin = "origin_nephrekh"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_nephrekh }
+	flags = { necron_empire the_nephrekh }
 	planet_name = "PRESCRIPTED_planet_name_nephrekh"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_nephrekh"
@@ -279,7 +279,7 @@ nihiliakh = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_treasure_guardians"}
@@ -287,7 +287,7 @@ nihiliakh = {
 	origin = "origin_nihiliakh"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_nihiliakh }
+	flags = { necron_empire the_nihiliakh }
 	planet_name = "PRESCRIPTED_planet_name_nihiliakh"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_nihiliakh"
@@ -344,7 +344,7 @@ novokh = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_bloody_berserkers" }
@@ -352,7 +352,7 @@ novokh = {
 	origin = "origin_novokh"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_novokh }
+	flags = { necron_empire the_novokh }
 	planet_name = "PRESCRIPTED_planet_name_novokh"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_novokh"
@@ -409,7 +409,7 @@ sautekh = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_solid_administration" }
@@ -417,7 +417,7 @@ sautekh = {
 	origin = "origin_sautekh"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_sautekh }
+	flags = { necron_empire the_sautekh }
 	planet_name = "PRESCRIPTED_planet_name_sautekh"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_sautekh"
@@ -474,7 +474,7 @@ temeryn = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_crusade_against_chaos" }
@@ -482,7 +482,7 @@ temeryn = {
 	origin = "origin_temeryn"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_temeryn }
+	flags = { necron_empire the_temeryn }
 	planet_name = "PRESCRIPTED_planet_name_temeryn"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_temeryn"
@@ -539,7 +539,7 @@ thokt = {
 		trait = "trait_robot_bulky"
 	}
 
-	room = "machine_room"
+	room = "necron_room"
 
 	authority = "auth_machine_intelligence"
 	civics = { "civic_machine_terminator" "civic_advanced_necron_warships" "civic_radioactive_imbued" }
@@ -547,7 +547,7 @@ thokt = {
 	origin = "origin_thokt"
 
 	ethic = "ethic_gestalt_consciousness"
-	flags = { the_thokt }
+	flags = { necron_empire the_thokt }
 	planet_name = "PRESCRIPTED_planet_name_thokt"
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_thokt"

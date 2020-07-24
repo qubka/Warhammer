@@ -641,3 +641,47 @@ planet_event = {
 		name = EXCELLENT
 	}
 }
+
+country_event = {
+	id = planets.24
+    hide_window = yes
+
+	trigger = {
+		has_country_flag = darkeldar_empire
+		NOT = { has_deficit = slaves }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	immediate = {
+		create_species = {
+			name = random
+			class = "PRE_ART"
+			portrait = random
+			traits = {
+				trait = random_presapient_trait
+			}
+			sapient = no
+		}
+		
+		every_owned_planet = {
+			every_owned_pop = {
+				limit = { has_job = haemonculus }
+				random_list = {
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = { create_pop = { species = last_created } }
+				}
+			}
+		}
+	}
+}

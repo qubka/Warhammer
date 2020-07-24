@@ -17,20 +17,28 @@ building_tyranid_hive = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
+	
+	convert_to = {
+		building_hall_of_blood
+		building_irontoff_bastion
+		building_administratum
+		building_ancient_monolith
+		building_cadre_headquarters
+		building_chaos_complex
+	}
 
 	planet_modifier = {
-		planet_housing_add = 12
-		planet_amenities_add = 12
-		job_warrior_drone_add = 6
+		planet_housing_add = 20
+		planet_amenities_add = 20
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
-			energy = 10
+			energy = 20
 		}
 	}
 		
@@ -39,63 +47,8 @@ building_tyranid_hive = {
 	}
 }
 
-building_hive_factory = {
-	base_buildtime = @b2_time
-
-	category = manufacturing
-	
-	potential = {
-		exists = owner
-		owner = { has_country_flag = tyranid_empire }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = tyranid_empire } }
-	}
-
-	resources = {
-		category = planet_buildings
-		produces = {
-			trigger = {
-				exists = owner
-				is_ai = no
-				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
-			}
-			consumer_goods = 50
-		}
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			minerals = 25
-			energy = 10
-		}
-	}
-	
-	ai_weight = {
-		weight = 0
-		modifier = {
-			weight = 100
-			owner = {
-				has_monthly_income = {
-					resource = consumer_goods
-					value < 50
-				}
-			}
-		}
-	}
-
-	ai_resource_production = {
-		consumer_goods = 1
-		trigger = {
-			always = yes
-		}
-	}
-}
-
 building_nutritional_converter = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 	
@@ -120,7 +73,7 @@ building_nutritional_converter = {
 			food = 100
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			energy = 20
@@ -149,7 +102,7 @@ building_nutritional_converter = {
 }
 
 building_mineral_extractor = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 	
@@ -174,7 +127,7 @@ building_mineral_extractor = {
 			minerals = 100
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			energy = 20
@@ -203,7 +156,7 @@ building_mineral_extractor = {
 }
 
 building_energy_producer = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 	
@@ -220,18 +173,10 @@ building_energy_producer = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		produces = {
-			trigger = {
-				exists = owner
-				is_ai = no
-				owner = { NOT = { has_deficit = food } }
-			}
 			energy = 250
-		}
-		upkeep = {
-			food = 50
 		}
 	}
 	
@@ -257,7 +202,7 @@ building_energy_producer = {
 }
 
 building_chitinous_producer = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	
 	category = manufacturing
 	
@@ -282,7 +227,7 @@ building_chitinous_producer = {
 			alloys = 25
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			minerals = 50
@@ -312,7 +257,7 @@ building_chitinous_producer = {
 }
 
 building_hive_researcher = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	
 	category = research
 	
@@ -324,10 +269,6 @@ building_hive_researcher = {
 	destroy_trigger = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
-	}
-	
-	planet_modifier = {
-		job_brain_drone_add = 10
 	}
 
 	resources = {
@@ -343,7 +284,7 @@ building_hive_researcher = {
 			engineering_research = 100
 		}
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 20
@@ -356,7 +297,7 @@ building_hive_researcher = {
 }
 
 building_brood_nest = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	base_cap_amount = 1
 
 	category = pop_assembly
@@ -372,13 +313,13 @@ building_brood_nest = {
 	}
 
 	planet_modifier = {
-		pop_growth_speed = 0.5
+		pop_growth_speed = 0.25
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}	
 		upkeep = {
 			energy = 10
@@ -391,7 +332,7 @@ building_brood_nest = {
 }
 
 building_hive_cocoons = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = amenity
 	
@@ -413,7 +354,7 @@ building_hive_cocoons = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 10
@@ -441,8 +382,8 @@ building_hive_cocoons = {
 	}
 }
 
-building_hive_node = {
-	base_buildtime = @b2_time
+building_hive_noder = {
+	base_buildtime = 240
 
 	category = army
 	
@@ -457,17 +398,21 @@ building_hive_node = {
 	}
 
 	planet_modifier = {
-		job_warrior_drone_add = 5
+		job_tyranid_guardian_add = 5
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 10
 		}
+	}
+	
+	triggered_desc = {
+		text = job_tyranid_guardian_effect_desc
 	}
 	
 	ai_weight = {
@@ -476,7 +421,7 @@ building_hive_node = {
 }
 
 building_hive_post = {
-	base_buildtime = @b1_time
+	base_buildtime = 120
 
 	category = government
 
@@ -491,16 +436,17 @@ building_hive_post = {
 	}
 
 	planet_modifier = {
+		planet_sensor_range_add = 5
 		job_patrol_drone_add = 2
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b1_minerals
+			minerals = 300
 		}
 		upkeep = {
-			energy = 2
+			energy = 10
 		}
 	}
 
@@ -519,7 +465,7 @@ building_hive_post = {
 }
 
 building_hive_pool = {
-	base_buildtime = @b1_time
+	base_buildtime = 120
 	base_cap_amount = 1
 
 	category = amenity
@@ -541,10 +487,10 @@ building_hive_pool = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b1_minerals
+			minerals = 300
 		}
 		upkeep = {
-			energy = 2
+			energy = 10
 		}
 	}
 
@@ -558,8 +504,7 @@ building_hive_pool = {
 }
 
 building_hive_brain = {
-	base_buildtime = @b2_time
-	base_cap_amount = 1
+	base_buildtime = 240
 
 	category = research
 
@@ -573,23 +518,18 @@ building_hive_brain = {
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
 
+	planet_modifier = {
+		planet_researchers_produces_mult = 0.15
+	}
+	
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
-			energy = @b2_upkeep
+			energy = 10
 		}
-	}
-
-	planet_modifier = {
-		job_brain_drone_add = 1
-		planet_researchers_produces_mult = 0.15
-	}
-
-	triggered_desc = {
-		text = job_brain_drone_effect_desc
 	}
 
 	ai_weight = {
@@ -602,7 +542,7 @@ building_hive_brain = {
 }
 
 building_processing_node = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	base_cap_amount = 1
 
 	category = manufacturing
@@ -622,18 +562,18 @@ building_processing_node = {
 		planet_artisans_produces_mult = 0.15
 	}
 
+	triggered_planet_modifier = {
+		job_alloy_drone_add = 5
+	}
+	
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
-			energy = @b2_upkeep
+			energy = 10
 		}
-	}
-
-	triggered_planet_modifier = {
-		job_alloy_drone_add = 2
 	}
 
 	triggered_desc = {
@@ -646,7 +586,7 @@ building_processing_node = {
 }
 
 building_reprocessing_node = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	base_cap_amount = 1
 
 	category = resource
@@ -669,7 +609,10 @@ building_reprocessing_node = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
 		}
 	}
 
@@ -683,7 +626,7 @@ building_reprocessing_node = {
 }
 
 building_capillary_node = {
-	base_buildtime = @b3_time
+	base_buildtime = 360
 
 	category = unity
 
@@ -697,19 +640,19 @@ building_capillary_node = {
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
 
+	planet_modifier = {
+		job_synapse_drone_add = 5
+		planet_housing_add = 2
+	}
+	
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
-			energy = @b3_upkeep
+			energy = 10
 		}
-	}
-
-	planet_modifier = {
-		job_synapse_drone_add = @b3_jobs
-		planet_housing_add = 2
 	}
 
 	triggered_desc = {
@@ -732,7 +675,7 @@ building_capillary_node = {
 }
 
 building_ravener_tunnel = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 
@@ -749,10 +692,10 @@ building_ravener_tunnel = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
-			energy = @b1_upkeep
+			energy = 10
 		}
 	}
 	

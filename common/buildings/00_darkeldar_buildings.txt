@@ -17,6 +17,16 @@ building_hall_of_blood = {
 		exists = owner
 		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
+	
+	convert_to = {
+		building_paradisaic_complex
+		building_tyranid_hive
+		building_irontoff_bastion
+		building_administratum
+		building_ancient_monolith
+		building_cadre_headquarters
+		building_chaos_complex
+	}
 
 	planet_modifier = {
 		planet_housing_add = 12
@@ -28,7 +38,7 @@ building_hall_of_blood = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 10
@@ -41,7 +51,7 @@ building_hall_of_blood = {
 }
 
 building_dark_factory = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = manufacturing
 	
@@ -66,7 +76,7 @@ building_dark_factory = {
 			consumer_goods = 50
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			minerals = 25
@@ -96,61 +106,11 @@ building_dark_factory = {
 }
 
 building_soul_cage = {
-	base_buildtime = @b2_time
 
-	category = resource
-	
-	potential = {
-		exists = owner
-		owner = { has_country_flag = darkeldar_empire }
-	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = darkeldar_empire } }
-	}
-
-	resources = {
-		category = planet_buildings
-		produces = {
-			trigger = {
-				exists = owner
-				is_ai = no
-				owner = { NOT = { has_deficit = energy } }
-			}
-			food = 100
-		}
-		cost = {
-			minerals = @b3_minerals
-		}
-		upkeep = {
-			energy = 20
-		}
-	}
-	
-	ai_weight = {
-		weight = 0
-		modifier = {
-			weight = 100
-			owner = {
-				has_monthly_income = {
-					resource = food
-					value < 100
-				}
-			}
-		}
-	}
-
-	ai_resource_production = {
-		food = 1
-		trigger = {
-			always = yes
-		}
-	}
 }
 
 building_slave_chamber = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 	
@@ -175,10 +135,10 @@ building_slave_chamber = {
 			minerals = 100
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
-			energy = 20
+			energy = 50
 		}
 	}
 	
@@ -204,7 +164,7 @@ building_slave_chamber = {
 }
 
 building_plasma_generator = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = resource
 	
@@ -221,7 +181,7 @@ building_plasma_generator = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		produces = {
 			energy = 250
@@ -249,8 +209,8 @@ building_plasma_generator = {
 	}
 }
 
-building_thermo_plasma_generator = {
-	base_buildtime = @b2_time
+building_thermo_plasma_forge = {
+	base_buildtime = 240
 	
 	category = manufacturing
 	
@@ -275,7 +235,7 @@ building_thermo_plasma_generator = {
 			alloys = 25
 		}
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}
 		upkeep = {
 			minerals = 50
@@ -305,7 +265,7 @@ building_thermo_plasma_generator = {
 }
 
 building_haemonculus_laboratory = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 	
 	category = research
 	
@@ -320,7 +280,7 @@ building_haemonculus_laboratory = {
 	}
 	
 	planet_modifier = {
-		job_fe_archivist_add = 10
+		job_haemonculi_labassistant_add = 10
 	}
 
 	resources = {
@@ -336,10 +296,10 @@ building_haemonculus_laboratory = {
 			engineering_research = 100
 		}
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
-			energy = 20
+			energy = 50
 		}
 	}
 	
@@ -349,7 +309,7 @@ building_haemonculus_laboratory = {
 }
 
 building_wych_cult_arena = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = unity
 	
@@ -364,17 +324,21 @@ building_wych_cult_arena = {
 	}
 
 	planet_modifier = {
-		job_fe_augur_add = 3
+		job_wych_add = 5
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b3_minerals
+			minerals = 500
 		}	
 		upkeep = {
-			energy = 10
+			energy = 25
 		}
+	}
+	
+	triggered_desc = {
+		text = job_wych_effect_desc
 	}
 	
 	ai_weight = {
@@ -383,7 +347,7 @@ building_wych_cult_arena = {
 }
 
 building_kabal_fortress = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = amenity
 	
@@ -405,7 +369,7 @@ building_kabal_fortress = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 10
@@ -434,7 +398,7 @@ building_kabal_fortress = {
 }
 
 building_tower_of_loathing = {
-	base_buildtime = @b2_time
+	base_buildtime = 240
 
 	category = army
 	
@@ -449,17 +413,21 @@ building_tower_of_loathing = {
 	}
 
 	planet_modifier = {
-		job_protector_add = 5
+		job_kabalite_warrior_add = 5
 	}
 
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = @b2_minerals
+			minerals = 400
 		}
 		upkeep = {
 			energy = 10
 		}
+	}
+	
+	triggered_desc = {
+		text = job_kabalite_warrior_effect_desc
 	}
 	
 	ai_weight = {

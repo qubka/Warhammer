@@ -11,16 +11,6 @@ district_agri_farming = {
 		exists = owner
 		owner = { has_country_flag = humanoid }
 	}
-	
-	destroy_trigger = {
-		exists = owner
-		owner = { NOT = { has_country_flag = humanoid } }
-	}
-
-	conversion_ratio = 1
-	convert_to = {
-		district_farming_uncapped
-	}
 
 	resources = {
 		category = planet_districts
@@ -38,13 +28,6 @@ district_agri_farming = {
 	}
 
 	triggered_desc = {
-		trigger = {
-			exists = owner
-			owner = {
-				is_gestalt = no
-				is_fallen_empire_spiritualist = no
-			}
-		}
 		text = job_farmer_effect_desc
 	}
 

@@ -18,7 +18,7 @@ mankind = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "palace_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_senatorum_imperialis" "civic_imperialcult_fanatics" }
@@ -84,7 +84,7 @@ white_scars = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "chogoris_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_v" "civic_horde_traditions" }
@@ -150,7 +150,7 @@ ultra_marines = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "macragge_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_xiii" "civic_imperium_secundus" }
@@ -216,7 +216,7 @@ space_wolfes = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "fenris_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_vi" "civic_barbarian_culture" }
@@ -282,7 +282,7 @@ salamanders = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "nocturne_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_xviii" "civic_blacksmith_culture" }
@@ -348,7 +348,7 @@ raven_guard = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "deliverance_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_xix" "civic_production_guilds" }
@@ -414,7 +414,7 @@ iron_hand = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "medusa_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_x" "civic_interclans_rivalry" }
@@ -480,7 +480,7 @@ imperial_fist = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "phalanx_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_vii" "civic_chosen_by_the_emperor" }
@@ -546,7 +546,7 @@ dark_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "rock_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_i" "civic_chivalric_traditions" }
@@ -612,7 +612,7 @@ blood_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "baal_room"
 	
 	authority = "auth_imp"
 	civics = { "civic_ix" "civic_tribal_culture" }

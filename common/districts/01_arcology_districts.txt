@@ -1,0 +1,277 @@
+district_arcology_housing = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = city_world
+	}
+
+	potential = {
+		uses_district_set = city_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+	
+	conversion_ratio = 1
+	convert_to = {
+		district_city
+		district_nexus
+		district_hive
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		job_clerk_add = 10
+	}
+
+	triggered_desc = {
+		text = job_clerk_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 10
+		}
+	}
+}
+
+district_arcology_arms_industry = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = city_world
+	}
+
+	potential = {
+		uses_district_set = city_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_city
+		district_nexus
+		district_hive
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		job_foundry_add = 10
+	}
+
+	triggered_desc = {
+		text = job_foundry_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 500
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 500
+				}
+				has_monthly_income = {
+					resource = minerals
+					value > 99
+				}
+			}
+		}
+		modifier = {
+			weight = 1000
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 0
+				}
+			}
+		}
+	}
+}
+
+district_arcology_civilian_industry = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = city_world
+	}
+
+	potential = {
+		uses_district_set = city_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_city
+		district_nexus
+		district_hive
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		job_artisan_add = 10
+	}
+
+	triggered_desc = {
+		text = job_artisan_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 500
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 200
+				}
+				has_monthly_income = {
+					resource = minerals
+					value > 99
+				}
+			}
+		}
+		modifier = {
+			weight = 1000
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+	}
+}
+
+district_arcology_leisure = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = city_world
+		from = {
+			is_regular_empire = yes
+		}
+	}
+
+	potential = {
+		uses_district_set = city_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_city
+		district_nexus
+		district_hive
+		district_arcology_housing
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { NOT = { has_valid_civic = civic_warrior_culture } }
+		}
+		modifier = {
+			job_entertainer_add = 5
+			job_culture_worker_add = 5
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_warrior_culture }
+		}
+		modifier = {
+			job_duelist_add = 5
+			job_culture_worker_add = 5
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_valid_civic = civic_warrior_culture }
+		}
+		text = job_duelist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { NOT = { has_valid_civic = civic_warrior_culture } }
+		}
+		text = job_entertainer_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 250
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 200
+				}
+				has_monthly_income = {
+					resource = alloys
+					value > 500
+				}
+			}
+		}
+	}
+}
