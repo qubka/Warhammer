@@ -1,0 +1,12 @@
+objectTypes = {
+	pdxmesh = {
+		name = "xeno_portrait_mesh"
+		file = "gfx/models/portraits/xeno/xeno_portrait.mesh"
+		scale = 1.15
+		
+		animation = { id = "idle" type = "xeno_portrait_idle_animation" }
+		animation = { id = "idle2" type = "xeno_portrait_idle2_animation" }
+		animation = { id = "idle3" type = "xeno_portrait_idle3_animation" }
+		animation = { id = "idle4" type = "xeno_portrait_idle4_animation" }
+	}
+}

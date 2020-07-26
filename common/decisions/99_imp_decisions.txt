@@ -128,7 +128,8 @@ decision_burn_promethium = {
 	}
 	
 	effect = {
-		add_modifier = { modifier = "burn_promethium" days = -1 }
+		custom_tooltip = decision_burn_promethium_effects
+		add_modifier = { modifier = "planet_burn_promethium" days = -1 }
 	}
 	
 	ai_weight = {
@@ -145,11 +146,12 @@ decision_stop_burn_promethium = {
 	}
 	
 	potential = {
-		has_modifier = burn_promethium
+		has_modifier = planet_burn_promethium
 	}
 	
 	effect = {
-		remove_modifier = burn_promethium
+		custom_tooltip = decision_stop_burn_promethium_effects
+		remove_modifier = planet_burn_promethium
 	}
 	
 	ai_weight = {

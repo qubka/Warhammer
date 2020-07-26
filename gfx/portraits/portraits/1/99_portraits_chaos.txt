@@ -1,0 +1,135 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Human
+	chaos_female_01 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture"  hair_selector = "chaos_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/chaos/fcm1.dds"	
+			}
+	}
+	chaos_female_02 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_female_hair_01"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/chaos/fcm3.dds"	
+			}
+	}
+	chaos_female_03 = {	entity = "portrait_human_female_05_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/chaos/fcm4.dds"	
+			}
+	}	
+	chaos_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/chaos/chaos01.dds"	
+			}
+	}
+	chaos_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/chaos/chaos02.dds"	
+			}
+	}		
+	chaos_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/chaos/chaos03.dds"	
+			}
+	}
+	chaos_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/chaos/chaos04.dds"	
+			}
+	}
+	chaos_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/chaos/chaos05.dds"	
+			}
+	}		
+	chaos_males_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "chaos_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/chaos/chaos06.dds"	
+			}
+	}
+	deamon_01 = {
+		entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/chaos/deamon1.dds"
+			}
+	}
+	deamon_02 = {
+		entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/chaos/deamon2.dds"
+			}
+	}
+	deamon_03 = {
+		entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/chaos/deamon3.dds"
+			}
+	}
+	deamon_04 = {
+		entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/chaos/deamon4.dds"
+			}
+	}
+	deamon_05 = {
+		entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/chaos/deamon5.dds"
+			}
+	}
+	gdevil_female_01 = {	entity = "humanoid_05_female_01_entity"	clothes_selector = "gdevil_female_clothes_01" 	hair_selector = "no_texture"	greeting_sound = "human_female_greetings_03" 
+		character_textures = { 
+			"gfx/models/portraits/gdevil/gdevil_female_body_m01.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_m02.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_m03.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_m04.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_m05.dds"
+		}
+	}	
+	gdevil_female_02 = {	entity = "humanoid_05_female_01_entity"	clothes_selector = "gdevil_female_clothes_01" 	hair_selector = "no_texture"	greeting_sound = "human_female_greetings_03" 
+		character_textures = { 
+			"gfx/models/portraits/gdevil/gdevil_female_body_l01.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_l02.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_l03.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_l04.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_l05.dds"
+		}
+	}
+	gdevil_female_03 = {	entity = "humanoid_05_female_01_entity"	clothes_selector = "gdevil_female_clothes_01" 	hair_selector = "no_texture"	greeting_sound = "human_female_greetings_03" 
+		character_textures = { 
+			"gfx/models/portraits/gdevil/gdevil_female_body_d01.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_d02.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_d03.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_d04.dds"
+			"gfx/models/portraits/gdevil/gdevil_female_body_d05.dds"
+		}
+	}
+	gdevil_male_01 = {	entity = "humanoid_05_male_01_entity"	clothes_selector = "gdevil_male_clothes_01" 	hair_selector = "gdevil_male_horns_m"	greeting_sound = "human_male_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/gdevil/gdevil_male_body_m01.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_m02.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_m03.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_m04.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_m05.dds"
+		}
+	}
+	gdevil_male_02 = {	entity = "humanoid_05_male_01_entity"	clothes_selector = "gdevil_male_clothes_01" 	hair_selector = "gdevil_male_horns_l"	greeting_sound = "human_male_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/gdevil/gdevil_male_body_l01.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_l02.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_l03.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_l04.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_l05.dds"
+		}
+	}
+	gdevil_male_03 = {	entity = "humanoid_05_male_01_entity"	clothes_selector = "gdevil_male_clothes_01" 	hair_selector = "gdevil_male_horns_d"	greeting_sound = "human_male_greetings_03"
+		character_textures = { 
+			"gfx/models/portraits/gdevil/gdevil_male_body_d01.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_d02.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_d03.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_d04.dds"
+			"gfx/models/portraits/gdevil/gdevil_male_body_d05.dds"
+		}
+	}
+	
+}

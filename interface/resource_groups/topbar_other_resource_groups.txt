@@ -3,7 +3,7 @@ tb_others_group = {
 		military_goods
 		promethium
 		electronics
-		geneseed
+		gene_seed
 		scrap
 		slaves
 		living_metal

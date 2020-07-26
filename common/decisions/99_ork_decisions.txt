@@ -1,4 +1,3 @@
-
 decision_spore_settleming_project = {
 	owned_planets_only = yes
 

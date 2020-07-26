@@ -212,7 +212,7 @@ orkworld_planet = {
 	planet_jobs_minerals_produces_mult = -0.1
 	planet_jobs_food_produces_mult = 0.5
 	planet_buildings_cost_mult = -0.25
-	pop_growth_speed = 0.25
+	bio_pop_growth_speed = 0.25
 	icon = "gfx/interface/icons/planet_modifiers/pm_ork.dds"
 	icon_frame = 2
 }
@@ -224,7 +224,7 @@ agri_planet = {
 	planet_jobs_minerals_produces_mult = -0.5
 	planet_jobs_food_produces_mult = 1.0
 	planet_buildings_cost_mult = 0.25
-	pop_growth_speed = 0.25
+	bio_pop_growth_speed = 0.25
 	icon = "gfx/interface/icons/planet_modifiers/pm_agri.dds"
 	icon_frame = 2
 }
@@ -330,8 +330,20 @@ mechanicus_planet = {
 }
 
 # OTHER
-burn_promethium = {
-	custom_tooltip = burn_promethium_tooltip
+planet_burn_promethium = {
+	custom_tooltip = planet_burn_promethium_tooltip
 	icon = "gfx/interface/icons/planet_modifiers/pm_promethium.dds"
+	icon_frame = 2
+}
+
+planet_no_awakening = {
+	custom_tooltip = planet_no_awakening_tooltip
+	icon = "gfx/interface/icons/planet_modifiers/pm_awakening.dds"
+	icon_frame = 2
+}
+
+planet_no_sculpting = {
+	custom_tooltip = planet_no_sculpting_tooltip
+	icon = "gfx/interface/icons/planet_modifiers/pm_sculpting.dds"
 	icon_frame = 2
 }

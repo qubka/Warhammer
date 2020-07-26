@@ -82,11 +82,11 @@ district_kmenic_quarry = {
 
 	planet_modifier = {
 		planet_housing_add = 10
-		job_necron_miner_add = 10
+		job_canoptek_add = 10
 	}
 	
 	triggered_desc = {
-		text = job_necron_miner_effect_desc
+		text = job_canoptek_effect_desc
 	}
 	
 	ai_weight = {
@@ -273,7 +273,7 @@ district_defense_grid = {
 	planet_modifier = {
 		planet_housing_add = 5
 		job_necron_warrior_add = 5
-		planet_orbital_bombardment_damage = -0.1
+		planet_orbital_bombardment_damage = -0.05
 	}
 
 	triggered_desc = {

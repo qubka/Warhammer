@@ -1,0 +1,107 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# darkangels
+	darkangels_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "darkangels_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel1.dds"	
+			}
+	}
+	darkangels_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "darkangels_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel2.dds"	
+			}
+	}
+	darkangels_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "darkangels_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel3.dds"	
+			}
+	}
+	darkangels_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "darkangels_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel4.dds"	
+			}
+	}
+	darkangels_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "no_texture"  hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/human/humanf1.dds"	
+			}
+	}
+	darkangelst_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/human/humanf2.dds"	
+			}
+	}
+	darkangels_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/human/humanf3.dds"	
+			}
+	}
+	darkangels_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "no_texture"  hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/human/humanf4.dds"	
+			}
+	}
+	darkangels_female_05 = {	entity = "portrait_human_female_05_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/human/humanf5.dds"	
+			}
+	}
+	humans_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/human/humanf6.dds"	
+			}
+	}	
+	humans_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture" 	hair_selector = "mech_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/human/humanf7.dds"	
+			}
+	}
+	darkangels_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/human/humanm1.dds"	
+			}
+	}
+	humans_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/human/humanm2.dds"	
+			}
+	}		
+	humans_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/humanm3.dds"	
+			}
+	}
+	humans_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/human/humanm4.dds"	
+			}
+	}
+	humans_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/human/humanm5.dds"	
+			}
+	}		
+	humans_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/humanm6.dds"	
+			}
+	}
+	humanz_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "mech_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/humanm7.dds"	
+			}
+	}
+	primda_male_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/Primarchlion.dds"	
+			}
+	}
+	dangel_male_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel5.dds"	
+			}
+	}
+	dangel_male_02 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel6.dds"	
+			}
+	}
+	dangel_male_03 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel7.dds"	
+			}
+	}
+	dangel_male_04 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/dangel8.dds"	
+			}
+	}	
+	
+}

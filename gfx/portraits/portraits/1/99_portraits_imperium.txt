@@ -1,0 +1,224 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# imperium
+	imperium_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "imperium_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/imperium/adeptuscustodes1.dds"	
+			}
+	}
+	imperium_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "imperium_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/imperium/adeptuscustodes2.dds"	
+			}
+	}
+	imperium_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "imperium_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/imperium/adeptuscustodes3.dds"	
+			}
+	}
+	imperium_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "imperium_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/imperium/adeptuscustodes4.dds"	
+			}
+	}
+	imperium_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "no_texture"  hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/human/humanf1.dds"	
+			}
+	}
+	imperium_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/human/humanf2.dds"	
+			}
+	}
+	imperium_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/human/humanf3.dds"	
+			}
+	}
+	imperium_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "no_texture"  hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/human/humanf4.dds"	
+			}
+	}
+	imperium_female_05 = {	entity = "portrait_human_female_05_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/human/humanf5.dds"	
+			}
+	}
+	humans_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "no_texture" 	hair_selector = "human_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/human/humanf6.dds"	
+			}
+	}	
+	humans_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture" 	hair_selector = "mech_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/human/humanf7.dds"	
+			}
+	}
+	imperium_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/human/humanm1.dds"	
+			}
+	}
+	humans_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/human/humanm2.dds"	
+			}
+	}		
+	humans_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/humanm3.dds"	
+			}
+	}
+	humans_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/human/humanm4.dds"	
+			}
+	}
+	humans_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/human/humanm5.dds"	
+			}
+	}		
+	humans_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "no_texture" 	hair_selector = "human_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/humanm6.dds"	
+			}
+	}
+	humanz_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "mech_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/humanm7.dds"	
+			}
+	}
+	
+	# emperorofman
+	emperorofman = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/imperium/emperorofman.dds"
+		}
+	}
+	commisar_male_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/Commisar_Officer.dds"	
+			}
+	}
+	guard_male_02 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/guard2.dds"	
+			}
+	}
+	solar_male_03 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/solar1.dds"	
+			}
+	}
+	techmarine_male_04 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/human/Techmarine_Harkus.dds"	
+			}
+	}
+		dw1 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw1.dds"
+		}
+	}
+	
+	dw2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw2.dds"
+		}
+	}
+	
+	dw3 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw3.dds"
+		}
+	}
+	
+	dw4 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw4.dds"
+		}
+	}
+	dw5 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw5.dds"
+		}
+	}
+	dw6 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw6.dds"
+		}
+	}
+	dw7 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dw7.dds"
+		}
+	}
+	deathwatch_chap = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/deathwatch-chap.dds"
+		}
+	}
+	deathwatch_chap2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/deathwatch_chap2.dds"
+		}
+	}
+	deathwatchl1 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/deathwatchl1.dds"
+		}
+	}
+	deathwatchl2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/deathwatchl2.dds"
+		}
+	}
+	dwl2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dwl2.dds"
+		}
+	}
+	dwtech = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dwtech.dds"
+		}
+	}
+	dwtech2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/deathwatch/dwtech2.dds"
+		}
+	}
+	primum_male_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/ultramarines/PrimarchRoboute1.dds"	
+			}
+	}
+	jahataikhan = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/whitescars/jahataikhan.dds"
+		}
+	}
+	lemanruss = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/spacewolves/lemanruss.dds"
+		}
+	}
+	vulcan = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/salamanders/vulcan.dds"
+		}
+	}
+	Covus = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/ravenguard/Covus.dds"
+		}
+	}
+	primif_male_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/imperialfist/primarchdorne2.dds"	
+			}
+	}
+	primda_male_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/darkangels/Primarchlion.dds"	
+			}
+	}
+	primba_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "psan_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/bloodangels/Primarchsang.dds"	
+			}
+	}
+	ferrasmanus = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/ironhands/ferrasmanus.dds"
+		}
+	}
+	
+}

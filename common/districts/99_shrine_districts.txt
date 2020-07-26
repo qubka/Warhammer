@@ -75,4 +75,11 @@ district_shrine_complex = {
 			}
 		}
 	}
+	
+	ai_resource_production = {
+		gods_favor = 1
+		trigger = {
+			always = yes
+		}
+	}
 }

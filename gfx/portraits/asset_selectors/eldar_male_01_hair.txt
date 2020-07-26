@@ -15,7 +15,6 @@ eldar_male_hair_01 = {
 	
 	#pop scope
 	pop = { #for a specific pop
-	
 		default = "gfx/models/portraits/eldar/eldar_male_hair.dds"
 
 		random = {
@@ -30,12 +29,8 @@ eldar_male_hair_01 = {
 		}
 	}
 
-
-
-
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
 		random = {
 			trigger = { leader_class = general }
 			list = {
@@ -89,8 +84,6 @@ eldar_male_hair_01 = {
 
 	#leader scope
 	ruler = { #for rulers
-		#default = "gfx/models/portraits/human/human_male_hair_brown_style_01_and_beard_dark_style_01.dds"
-		
 		random = {
 			trigger = {
 				owner = { has_militarist_government = yes }

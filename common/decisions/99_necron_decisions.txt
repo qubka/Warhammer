@@ -1,0 +1,64 @@
+decision_stop_necron_awakening = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+		NOT = { has_modifier = planet_no_awakening }
+	}
+	
+	effect = {
+		custom_tooltip = decision_stop_necron_awakening_effects
+		add_modifier = { modifier = "planet_no_awakening" days = -1 }
+	}
+
+	ai_weight = {
+		weight = 5
+		modifier = { # don't enable if you have free housing and no city districts left to build
+			factor = 0
+			OR = {
+				free_housing > 0
+				num_free_districts = {
+					type = any
+					value > 0
+				}
+				has_building_construction = yes #Added since they're probably building housing
+			}
+		}
+	}
+}
+
+decision_start_necron_awakening = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+
+	resources = {
+		category = decisions
+	}
+
+	potential = {
+		has_modifier = planet_no_awakening
+	}
+
+	effect = {
+		custom_tooltip = decision_start_necron_awakening_effects
+		remove_modifier = planet_no_awakening
+	}
+
+	ai_weight = {
+		weight = 20
+		
+		modifier = { # don't end if less than 1 housing
+			factor = 0
+			free_housing < 1
+		}
+	}
+}

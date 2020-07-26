@@ -28,13 +28,12 @@ scrap_deficit = {
 }
 
 slaves_deficit = {
-	pop_happiness = -1.0
+	biological_pop_happiness = -1.0
 	pop_decline_speed = 0.15
 }
 
 living_metal_deficit = {
-	army_attack_health_mult = -0.5
-	army_defense_health_mult = -0.5
+	custom_tooltip = living_metal_deficit_tooltip
 }
 
 spirit_stones_deficit = {
@@ -42,6 +41,6 @@ spirit_stones_deficit = {
 }
 
 gods_favor_deficit = {
-	pop_happiness = -0.5
-	pop_growth_from_immigration = -0.25
+	biological_pop_happiness = -0.5
+	bio_pop_growth_from_immigration = -0.25
 }

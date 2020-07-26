@@ -1,0 +1,50 @@
+portraits = {
+	cf01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist1.dds"
+		}
+	}
+	
+	cf02 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist2.dds"
+		}
+	}
+	
+	cf03 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist3.dds"
+		}
+	}
+	
+	cf04 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist4.dds"
+		}
+	}
+	cfapoth = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfistL.dds"
+		}
+	}
+	cfl1 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist5.dds"
+		}
+	}
+	cfl2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist6.dds"
+		}
+	}
+	cfl3 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist7.dds"
+		}
+	}
+	cfl4 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/crimsonfist/cfist8.dds"
+		}
+	}
+}

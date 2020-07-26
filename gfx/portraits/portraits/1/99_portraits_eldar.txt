@@ -1,0 +1,51 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# eldar
+	eldar_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "no_texture"  hair_selector = "eldar_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/eldar/eldar_female_body_01.dds"	
+			}
+	}
+	eldar_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_female_hair_01"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/eldar/eldar_female_body_02.dds"	
+			}
+	}
+	eldar_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_female_hair_01"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/eldar/eldar_female_body_03.dds"	
+			}
+	}
+	eldar_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "no_texture"  hair_selector = "eldar_female_hair_01"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/eldar/eldar_female_body_04.dds"	
+			}
+	}
+	eldar_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/eldar/eldar_male_body_01.dds"	
+			}
+	}
+	eldar_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/eldar/eldar_male_body_02.dds"	
+			}
+	}		
+	eldar_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_male_hair_01"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/eldar/eldar_male_body_03.dds"	
+			}
+	}
+	eldar_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_male_hair_01"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/eldar/eldar_male_body_04.dds"	
+			}
+	}
+	eldar_male_05 = {	entity = "portrait_human_male_05_entity"	clothes_selector = "no_texture" 	hair_selector = "eldar_male_hair_01"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/eldar/eldar_male_body_05.dds"	
+			}
+	}
+	
+}

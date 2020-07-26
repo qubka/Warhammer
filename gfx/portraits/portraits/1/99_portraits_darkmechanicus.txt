@@ -1,0 +1,55 @@
+portraits = {
+	dfmech1 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dfmech.dds"
+		}
+	}
+	
+	dfmech2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dfmech2.dds"
+		}
+	}
+	
+	dfmech3 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dfmech3.dds"
+		}
+	}
+	
+	dmech1 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech1.dds"
+		}
+	}
+	dmech2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech2.dds"
+		}
+	}
+	dmech3 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech3.dds"
+		}
+	}
+	dmech4 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech4.dds"
+		}
+	}
+	dmech5 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech5.dds"
+		}
+	}
+	dmech6 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech6.dds"
+		}
+	}
+	dmech7 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/darkmechanicus/dmech7.dds"
+		}
+	}
+}

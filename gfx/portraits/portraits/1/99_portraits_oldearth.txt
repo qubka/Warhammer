@@ -1,0 +1,47 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Human
+	oldearth_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"		greeting_sound = "human_female_greetings_04"character_textures = {
+			"gfx/models/portraits/oldearth/lostf1.dds"	
+			}
+	}
+	oldearth_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"		greeting_sound = "human_female_greetings_01"character_textures = {
+			"gfx/models/portraits/oldearth/lostf2.dds"	
+			}
+	}
+	oldearth_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/oldearth/lostf3.dds"	
+			}
+	}	
+	oldearth_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"		greeting_sound = "human_female_greetings_02"character_textures = {
+			"gfx/models/portraits/oldearth/lostf4.dds"	
+			}
+	}
+	oldearth_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_04" character_textures = {
+			"gfx/models/portraits/oldearth/lostm1.dds"	
+			}
+	}
+	oldearth_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_05" character_textures = {
+			"gfx/models/portraits/oldearth/lostm2.dds"	
+			}
+	}		
+	oldearth_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/oldearth/lostm3.dds"	
+			}
+	}
+	oldearth_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "no_texture" 	hair_selector = "no_texture"			greeting_sound = "human_male_greetings_02" character_textures = {
+			"gfx/models/portraits/oldearth/lostm4.dds"	
+			}
+	}
+	
+}

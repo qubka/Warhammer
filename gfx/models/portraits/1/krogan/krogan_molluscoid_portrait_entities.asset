@@ -1,0 +1,8 @@
+entity = {
+	name = "portrait_molluscoid_13_dontmove_entity"
+	pdxmesh = "portrait_molluscoid_13_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"    animation_blend_time = 0 chance = 4.0 looping = no next_state = idle}
+	scale = 1.15
+}

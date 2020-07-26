@@ -1,0 +1,45 @@
+portraits = {
+	gn01 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gn01.dds"
+		}
+	}
+	
+	gn02 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gn02.dds"
+		}
+	}
+	
+	gn03 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gn03.dds"
+		}
+	}
+	
+	gn04 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gn04.dds"
+		}
+	}
+	gnapoth = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gnapoth.dds"
+		}
+	}
+	gnl1 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gnl1.dds"
+		}
+	}
+	gnl2 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gnl2.dds"
+		}
+	}
+	gnl3 = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/greyknights/gnl3.dds"
+		}
+	}
+}

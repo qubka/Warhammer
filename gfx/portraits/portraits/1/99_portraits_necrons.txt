@@ -1,0 +1,41 @@
+portraits = {
+	necrons_male_01 = { entity = "portrait_droid_01_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+		character_textures = { "gfx/models/portraits/necrons/nec3.dds"
+							 "gfx/models/portraits/necrons/nec4.dds"
+							 }
+	}
+	
+	nec_02 = { entity = "portrait_droid_01_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+		character_textures = { "gfx/models/portraits/necrons/nec6.dds"
+							 "gfx/models/portraits/necrons/nec7.dds"
+							 "gfx/models/portraits/necrons/nec8.dds"
+							 }
+	}
+	
+	nec_03 = { entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+		character_textures = { "gfx/models/portraits/necrons/nec1.dds"
+							 "gfx/models/portraits/necrons/nec2.dds"
+							 "gfx/models/portraits/necrons/nec5.dds"
+							 }
+	}
+	
+	#GENERAL GREVIOUS
+	neclord_01 = { entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "humamoid_male_greeting_a"
+		character_textures = { "gfx/models/portraits/necrons/neclord1.dds"
+							 "gfx/models/portraits/necrons/neclord2.dds"
+							 "gfx/models/portraits/necrons/neclord3.dds"
+							 "gfx/models/portraits/necrons/neclord4.dds"
+							 }
+	}
+	neclord_02 = { entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "humamoid_male_greeting_a"
+		character_textures = { "gfx/models/portraits/necrons/neclord2.dds"
+							 "gfx/models/portraits/necrons/neclord3.dds"
+							 "gfx/models/portraits/necrons/neclord4.dds"
+							 }
+	}
+	neclord_03 = { entity = "portrait_reptilian_14_dontmove_entity" clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "humamoid_male_greeting_a"
+		character_textures = { "gfx/models/portraits/necrons/neclord3.dds"
+							 "gfx/models/portraits/necrons/neclord4.dds"
+							 }
+	}
+}

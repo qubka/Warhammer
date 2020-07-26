@@ -1,0 +1,230 @@
+promethium_miner = {
+	category = worker
+	condition_string = WORKER_JOB_TRIGGER
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		worker_job_check_trigger = yes
+		owner = { is_gestalt = no }
+	}
+
+	resources = {
+		category = planet_miners
+		produces = {
+			promethium = 5
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_edict = mining_subsidies
+				}
+			}
+			energy = 0.5
+		}
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { has_technology = tech_droid_workers }
+		}
+		modifier = {
+			factor = 200
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { NOT = { has_technology = tech_droid_workers } }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 5
+			has_trait = trait_syncretic_proles
+		}
+		modifier = {
+			factor = 2
+			species = {
+				has_species_flag = racket_species_flag
+			}
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_very_strong
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_strong
+		}
+		modifier = {
+			factor = 0.1
+			has_trait = trait_weak
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_trait = trait_robust
+				has_trait = trait_robot_efficient_processors
+			}
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_void_dweller_1
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_nerve_stapled
+		}
+	}
+}
+
+electronics_manufacturer = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	clothes_texture_index = 3
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+	
+	possible = {
+		specialist_job_check_trigger = yes
+	}
+	
+	resources = {
+		category = planet_artisans
+		produces = {
+			electronics = 1
+		}
+		upkeep = {
+			alloys = 1
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_edict = industrial_subsidies
+				}
+			}
+			energy = 1
+		}
+	}	
+	
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 5
+			has_job = electronics_manufacturer
+		}
+		modifier = {
+			factor = 10
+			has_job = electronics_manufacturer
+			OR = {
+				has_trait = trait_robust
+				has_trait = trait_robot_efficient_processors
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_void_dweller_1
+		}
+	}
+}
+
+military_artisan = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_artisans
+		produces = {
+			military_goods = 1
+		}
+		upkeep = {
+			alloys = 5
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_edict = industrial_subsidies
+				}
+			}
+			energy = 1
+		}
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 5
+			has_job = military_artisan
+		}
+		modifier = {
+			factor = 10
+			has_job = military_artisan
+			OR = {
+				has_trait = trait_robust
+				has_trait = trait_robot_efficient_processors
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_void_dweller_1
+		}
+	}
+}

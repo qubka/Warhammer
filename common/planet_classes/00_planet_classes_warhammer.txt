@@ -3,7 +3,7 @@ pc_forge = {
 	picture = pc_forge 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 37
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -35,7 +35,7 @@ pc_forgee = {
 	picture = pc_forgee 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 37
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -67,7 +67,7 @@ pc_forgeee = {
 	picture = pc_forgeee 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 37
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -99,7 +99,7 @@ pc_industrial = {
 	picture = pc_industrial # there's no unique gaia_planet picture
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 35
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -131,7 +131,7 @@ pc_agri = {
 	picture = pc_agri
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 33
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -163,7 +163,7 @@ pc_shrine = {
 	picture = pc_shrine
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 41
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -195,7 +195,7 @@ pc_hive_medium = {
 	picture = pc_hive_medium
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 39
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -227,7 +227,7 @@ pc_penal = {
 	picture = pc_penal
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 38
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -259,7 +259,7 @@ pc_fortress = {
 	picture = pc_fortress
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 42
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -291,7 +291,7 @@ pc_tomb = {
 	picture = pc_tomb
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 52
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -323,7 +323,7 @@ pc_hive_arid = {
 	picture = pc_hive_arid
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 48
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -355,7 +355,7 @@ pc_hive_continental_01 = {
 	picture = pc_hive_continental_01
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 46
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -387,7 +387,7 @@ pc_hive_continental_02 = {
 	picture = pc_hive_continental_02
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 43
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -419,7 +419,7 @@ pc_hive_ocean = {
 	picture = pc_hive_ocean
 	tile_set = pc_ocean
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 53
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -451,7 +451,7 @@ pc_hive_tundra = {
 	picture = pc_hive_tundra
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 44
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -483,7 +483,7 @@ pc_super_hive = {
 	picture = pc_super_hive 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 49
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -515,7 +515,7 @@ pc_mega_hive = {
 	picture = pc_mega_hive 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 36
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -547,7 +547,7 @@ pc_forge_ring = {
 	picture = pc_forge
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 47
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -579,7 +579,7 @@ pc_forge_ring2 = {
 	picture = pc_forgee
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 47
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -611,7 +611,7 @@ pc_forge_ring3 = {
 	picture = pc_forgeee
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 47
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -643,7 +643,7 @@ pc_craftworld = {
 	picture = pc_craftworld
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 50
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -675,7 +675,7 @@ pc_hive_industrial = {
 	picture = pc_hive_arid
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 40
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -707,7 +707,7 @@ pc_advancecity = {
 	picture = pc_advancecity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -739,7 +739,7 @@ pc_webway = {
 	picture = pc_webway 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 32
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -771,7 +771,7 @@ pc_spacehulk = {
 	picture = pc_spacehulk 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 18
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -803,7 +803,7 @@ pc_blackstonefortress = {
 	picture = pc_blackstonefortress 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 54
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -836,7 +836,7 @@ pc_eternalcrusader = {
 	picture = pc_eternalcrusader 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 55
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -868,7 +868,7 @@ pc_daemon = {
 	picture = pc_daemon
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -900,7 +900,7 @@ pc_daemonn = {
 	picture = pc_daemonn
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -932,7 +932,7 @@ pc_daemont = {
 	picture = pc_daemont
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -964,7 +964,7 @@ pc_daemons = {
 	picture = pc_daemons
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -996,7 +996,7 @@ pc_advancexenocity = {
 	picture = pc_advancexenocity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1028,7 +1028,7 @@ pc_advancexenocityy = {
 	picture = pc_advancexenocity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1060,7 +1060,7 @@ pc_advancexenocityyy = {
 	picture = pc_advancexenocity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1092,7 +1092,7 @@ pc_orkworld = {
 	picture = pc_orkworld
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 56
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1124,7 +1124,7 @@ pc_armoury = {
 	picture = pc_armoury 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 51
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5

@@ -114,7 +114,7 @@ district_defence_laser = {
 	planet_modifier = {
 		planet_housing_add = 3
 		job_soldier_add = 3
-		planet_orbital_bombardment_damage = -0.1
+		planet_orbital_bombardment_damage = -0.05
 	}
 
 	triggered_desc = {
