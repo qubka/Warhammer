@@ -181,8 +181,7 @@ building_slaanesh_palace = {
 		category = planet_buildings
 		produces = {
 			trigger = {
-				exists = owner
-				is_ai = no
+				exists = owner
 				owner = { NAND = { has_deficit = minerals has_deficit = gods_favor } }
 			}
 			alloys = 25
@@ -259,8 +258,7 @@ building_tzeentch_complex = {
 		category = planet_buildings
 		produces = {
 			trigger = {
-				exists = owner
-				is_ai = no
+				exists = owner
 				owner = { NOT = { has_deficit = gods_favor } }
 			}
 			energy = 250
@@ -492,8 +490,7 @@ building_daemon_pit = {
 		category = planet_buildings
 		produces = {
 			trigger = {
-				exists = owner
-				is_ai = no
+				exists = owner
 				owner = { NOT = { has_deficit = energy } }
 			}
 			society_research = 250

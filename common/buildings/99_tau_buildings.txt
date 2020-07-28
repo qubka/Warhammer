@@ -294,7 +294,6 @@ building_thermo_plasma_chamber = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			alloys = 10

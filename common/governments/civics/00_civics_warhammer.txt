@@ -144,10 +144,10 @@ civic_chosen_by_the_emperor = {
 civic_tribal_culture = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		bio_bio_pop_growth_speed = 0.2
+		bio_pop_growth_speed = 0.2
 		country_admin_cap_mult = -0.2
 		country_war_exhaustion_mult = -0.3
-		}
+	}
 }
 
 civic_chivalric_traditions = {
@@ -292,7 +292,7 @@ civic_nurgle_cult = {
 civic_slaanesh_cult = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		biological_biological_pop_happiness = 0.3
+		biological_pop_happiness = 0.3
 		planet_stability_add = 0.2
 		army_morale_damage_mult = 1.5
 		pop_government_ethic_attraction = 0.8

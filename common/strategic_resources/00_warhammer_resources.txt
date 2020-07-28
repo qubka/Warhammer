@@ -53,7 +53,7 @@ gene_seed = {
 	max = 15000
 
 	visibility_prerequisite = { always = yes }
-	deficit_modifier = geneseed_deficit
+	deficit_modifier = gene_seed_deficit
 	
 	ai_weight = {
 		weight = 100

@@ -261,7 +261,6 @@ building_thermo_plasma_monolith = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			alloys = 25
@@ -316,7 +315,6 @@ building_forbidden_archive = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = energy } }
 			}
 			physics_research = 100

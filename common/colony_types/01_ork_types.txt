@@ -1,0 +1,12 @@
+# Ork World
+col_orkworld = {
+	icon = 38
+
+	potential = {
+		is_planet_class = pc_orkworld
+	}
+
+	weight_modifier = {
+		base = 1000
+	}
+}

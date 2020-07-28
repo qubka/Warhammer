@@ -684,7 +684,7 @@ trait_pc_super_hive_preference = {
 	}
 }
 
-trait_pc_ring_preference = {
+trait_pc_forge_ring_preference = {
 	icon = "gfx/interface/icons/traits/trait_pc_ring_preference.dds"
 	modification = no
 	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }

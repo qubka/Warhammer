@@ -63,7 +63,6 @@ building_nutritional_converter = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = energy } }
 			}
 			food = 100
@@ -117,7 +116,6 @@ building_mineral_extractor = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = energy } }
 			}
 			minerals = 100
@@ -217,7 +215,6 @@ building_chitinous_producer = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			alloys = 25
@@ -272,7 +269,6 @@ building_hive_researcher = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = energy } }
 			}
 			physics_research = 100

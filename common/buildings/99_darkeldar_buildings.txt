@@ -74,7 +74,6 @@ building_dark_factory = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			consumer_goods = 50
@@ -182,7 +181,6 @@ building_soul_cage = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = energy } }
 			}
 			minerals = 100
@@ -282,7 +280,6 @@ building_thermo_plasma_forge = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			alloys = 25
@@ -341,7 +338,6 @@ building_haemonculus_laboratory = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = energy } }
 			}
 			physics_research = 100

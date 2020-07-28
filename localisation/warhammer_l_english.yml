@@ -246,6 +246,7 @@
  origin_ulthwe_desc:0 "Ulthwé is one of the largest and most populous Eldar craftworlds remaining since the Fall of the Eldar. Ulthwé was caught in the gravitational pull of the Eye of Terror when it formed during the birth of Slaanesh and now orbits it, perilously close to ultimate absorption and under regular attack from the denizens of the Eye of Terror. Being so near the Eye, the Craftworld has fought long and bitterly against Chaos forces. This Craftworld maintains a highly trained standing army known as the Black Guardians because of the colour of their armour, dedicated to rapidly responding to the many attacks from the Eye of Terror. Thanks to this force, Ulthwé has survived years of constant attacks."
  origin_saim_hann:0 "Saim-Hann"
  origin_saim_hann_desc:0 "Saim-Hann is an Eldar Craftworld with a reputation for wildness and a preference for lightning-fast attacks. Saim-Hann (literally, "Quest for Enlightenment") is regarded by other Craftworlds as anything from a slightly wild and dangerous place to a nest of barbarians living on the edge of Eldar society. The Warriors of Saim-Hann are proud, boisterous, undisciplined and aggressive, and use fast, mobile troops with a high quantity of Jetbikes. Young Guardians are always trying to outdo each other in contests of speed, and particularly in battle. "
+ origin_ostara:0 "Ostara"
  origin_ostara_desc:0 "The Os'tara is an Eldar Craftworld, whose people are allies with the Ynnari. It was last seen traveling through the Segmentum Obscurus, in the aftermath of Cadia's destruction. As the Ynnari, they carry the Spirit Stones of deceased Eldar, whose souls they use to bolster their psychic powers and they are also able to siphon the energy of the recently dead to invigorate themselves. Those who truly give themselves to the worship of Ynnead, are able to communicate with the souls of the spirit stones they possess and can also draw upon the deceased Eldars' skills, wisdom and experiences to aid them in battle."
  origin_iyanden:0 "Iyanden"
  origin_iyanden_desc:0 "Iyanden is an Eldar Craftworld. Once the most populated and largest of the Craftworlds, it is now on the brink of extinction after being invaded by Hive Fleet Kraken. Iyanden barely repelled the attack, losing thousands upon thousands of Eldar warriors in the process. With so few remaining, Iyanden must now rely heavily on Wraith-constructs inhabited by the spirits of their dead, such as Wraithlords and Wraithguard, to form the backbone of its armies. Since then, the people of Iyanden are often referred to as the "Ghost Warriors"."
@@ -291,6 +292,7 @@
  origin_dalyth_desc:0 "Dal'yth is a Tau sept, a world within the Tau Empire. It was established as part of the First Sphere of Expansion. It was tamed long ago during the First Sphere of Expansion and has been brought into compliance with prime-level colony standards every since. Dal'yth was the scene of heavy fighting between the Imperium and Tau during the Damocles Crusade, but it has recovered quickly, thanks to its busy trade ports. Large numbers of aliens can be seen here, alongside Water caste merchants and diplomats."
  origin_farsight:0 "Farsight Expedition"
  origin_farsight_desc:0 "The Farsight Expedition was a campaign launched by the Tau Empire. It was launched in the aftermath of the Damocles Gulf Crusade, which saw the Tau rattled by self-doubts after encountering the mighty Imperium on its borders. After capturing a series of planets on the far side of the Damocles Gulf, Farsight encountered a significant Ork Fleet, so large that it resembled an asteroid belt. Controversially, Farsight decided that he would engage the Orks over concluding the reconquest of lost worlds in the Damocles Gulf. However it soon became clear that Farsight had again underestimated the cunning of Warchief Grog. The Orks struck at the undefended worlds he had already captured earlier in the Expedition, and Farsight arrived at his base of operations on Vior'los to find the region in a full-scale war."
+ origin_sacea:0 "Sa'cea"
  origin_sacea_desc:0 "Sa'cea is a Tau sept, a star system within the Tau Empire. hen the planet was originally settled by the Tau during the First Sphere of Expansion, the world was overrun with fierce flesh-eating predators that had to be hunted down and destroyed by the Fire Caste before settlers would dare to land. It is highly militarised and has one of the greatest proportion of fire warriors in the Tau Empire."
  origin_tau:0 "T'au"
  origin_tau_desc:0 "T'au is the homeworld of the Tau, and capital of the Tau Empire. It is located within the Ultima Segmentum, to the galactic north of Ultramar. Cities rise into the sky, covered in white marble, in stark contrast to the Hives of the Imperium. No humans have ever walked on the streets of the capital, located on the equator, and Imperial scans are blocked by some Tau technology. At the centre of this city appears to be a heavily defended fortress, possibly the heart of the Tau empire, the high council of the Ethereals."
@@ -302,6 +304,7 @@
  origin_behemoth_desc:0 "Hive Fleet Behemoth was the first Tyranid Hive Fleet encountered by the Imperium, and was also the first contact the Imperium had with the Tyranids as a race. Behemoth made a juggernaut rush into the Galaxy from the Eastern Fringe and proceeded into Ultramar, resulting in what became known as the First Tyrannic War. Hive Fleet Behemoth ploughed wildly into the galaxy, ruining hundreds of systems and devouring everything in its path. Compared to later Hive Fleets which adopted different strategies, Behemoth showed no subtlety in its berserker advance. Eventually its onslaught used more biomass than it could replace and it almost all but consumed itself in the failed process of breaking the Imperial defence at the Battle for Macragge."
  origin_gorgon:0 "Hive Fleet Gorgon"
  origin_gorgon_desc:0 "Hive Fleet Gorgon was a Tyranid Hive Fleet which invaded the Tau Empire in 899.M41. Regions of the Tau Empire that have been left barren by Gorgon are known as the Zone of Silence Gorgon was relatively small compared to other Hive Fleets, but it was exceptional for its ability to quickly adapt on a biological level to new circumstances of battle. This rapid pace of adaptation may have been unique to Gorgon, or it may have been a response to conflict with the Tau, a race who are also highly flexible and adaptable but on a technological level."
+ origin_hydra:0 "Hive Fleet Hydra"
  origin_hydra_desc:0 "Hydra is a minor Tyranid Hive Fleet awoken prematurely from an aeons-long hibernation and is now advancing into the Galaxy to slake its hunger. It was first encountered on the very extremes of the eastern spiral. Hive Fleet Hydra is known to multiply and regenerate at terrifying speed, a trait that its largest beasts to lowliest maggots display. Hydra is currently targeting other, older Tyranid Hive Fleets in order to cannibalize them for unknown reasons , though it may be the explanation for its ability to rapidly multiply and regenerate."
  origin_jormungandr:0 "Hive Fleet Jormungandr"
  origin_jormungandr_desc:0 "Hive Fleet Jormungandr is a small Tyranid Hive Fleet that entered the Imperium from the North East of the Ultima Segmentum. This Hive Fleet specialized in ambush and trickering tactics. Jormungandr's vanguard was wiped out at Goyan Valley by Commander Chenkov leading over a million Guardsmen of the Valhallan 18th 'Tundra Wolves', and later it was largely destroyed by Admiral Vortigern Hanroth at the Battle of the Black Nebula in late 995.M41. However, tough remnants still endure."
@@ -1247,6 +1250,7 @@
  pc_hive_ocean_desc:0 "Planet with several huge hive-cities surrounded by contaminated seas from where they get their resources."
  pc_hive_tundra_tile:0 "Urban and contaminated terrain"
  pc_hive_tundra_tile_desc:0 "Huge hive-city surrounded by frozen contaminated terrain."
+ pc_hive_tundra:0 "Small Hive World"
  pc_hive_tundra_desc:0 "Planet with several huge hive-cities surrounded by frozen contaminated terrains from where they get their resources."
  pc_super_hive_tile:0 "Advanced Urban Terrain"
  pc_super_hive_tile_desc:0 "The surface completely covered in urban terrain and huge buildings rising over clouds."
@@ -1359,26 +1363,42 @@
  planet_no_sculpting_desc:0 "A limit on slave sculpting has been declared."
  planet_no_sculpting_tooltip:0 "§RNo Slaves Growth on Planet§!"
  
- col_shrine:0 "Shrine"
- col_shrine_desc:0 ""
- col_tomb:0 "Tomb"
- col_tomb_desc:0 ""
- col_craftworld:0 "Craftworld"
- col_craftworld_desc:0 ""
- col_webway:0 "Webway"
- col_webway_desc:0 ""
- col_spacehulk:0 "Spacehulk"
- col_spacehulk_desc:0 ""
- col_blackstonefortress:0 "Blackstone Fortress"
- col_blackstonefortress_desc:0 ""
- col_eternalcrusader:0 "Eternal Crusader"
- col_eternalcrusader_desc:0 ""
- col_daemon:0 "Daemon"
- col_daemon_desc:0 ""
- col_orkworld:0 "Ork"
- col_orkworld_desc:0 ""
- col_armoury:0 "Armoury"
- col_armoury_desc:0 ""
+ ####################################
+ # Colony Types
+ ####################################
+ 
+ col_hive_mix:0 "Hive World"
+ col_hive_mix_desc:0 "This hive world has not been specialized for any particular industry"
+ col_hive_military_factory:0 "Military Hive"
+ col_hive_military_factory_desc:0 "This hive world that specializes in the ceaseless production of military goods"
+ col_hive_civilian_factory:0 "Civilian Hive"
+ col_hive_civilian_factory_desc:0 "This hive world that specializes in the ceaseless production of consumer goods"
+ col_hive_technical_factory:0 "Technical Hive"
+ col_hive_technical_factory_desc:0 "This hive world that specializes in the ceaseless production of electronics"
+ col_forge_mix:0 "Forge World"
+ col_forge_mix_desc:0 "This forge world has not been specialized for any particular industry"
+ col_forge_fondry_factory:0 "Foundry Forge"
+ col_forge_fondry_factory_desc:0 "This forge world that specializes in the ceaseless production of alloys"
+ col_forge_generatorum_factory:0 "Energy Forge"
+ col_forge_generatorum_factory_desc:0 "This forge world that specializes in the ceaseless production of energy"
+ col_forge_research_center:0 "Research Forge"
+ col_forge_research_center_desc:0 "This forge world that specializes in the latest cutting-edge research"
+ col_ecu_leisure:0 "Ecumenopolis Leisure"
+ col_ecu_leisure_desc:0 "A vast city-planet that specializes in the ceaseless providing of leisure activities"
+ col_daemon:0 "Khorne World"
+ col_daemon_desc:0 "This planet twisted and corrupted by the power of Khorne"
+ col_daemonn:0 "Nurgle World"
+ col_daemonn_desc:0 "This planet twisted and corrupted by the power of Nurgle"
+ col_daemont:0 "Tzeentch World"
+ col_daemont_desc:0 "This planet twisted and corrupted by the power of Tzeentch"
+ col_daemons:0 "Slaanesh World"
+ col_daemons_desc:0 "This planet twisted and corrupted by the power of Slaanesh"
+ col_orkworld:0 "Scrap World"
+ col_orkworld_desc:0 "This primitive planet that is home to several Ork clans"
+ col_shrine:0 "Shrine World"
+ col_shrine_desc:0 "This planet studded with cathedrals, temples, and shrines spread across the globe to the Emperor and his saints"
+ col_armoury:0 "Armoury World"
+ col_armoury_desc:0 "This planet used by the Departmento Munitorum to store vast amounts of weapons, ammunition, and war machines"
  
  ####################################
  # Armies
@@ -2050,7 +2070,17 @@
  spirit_stones_deficit:0 "$spirit_stones$ Shortage"
  spirit_stones_deficit_tooltip:0 "A lack of Spirit Stones halts some recruitment processes."
  gods_favor_deficit:0 "$gods_favor$ Shortage"
- 
+ #
+ mod_planet_jobs_military_goods_produces_mult:0 "£military_goods£ $military_goods$ from £job£ Jobs"
+ mod_planet_jobs_promethium_produces_mult:0 "£promethium£ $promethium$ from £job£ Jobs"
+ mod_planet_jobs_electronics_produces_mult:0 "£electronics£ $electronics$ from £job£ Jobs"
+ mod_planet_jobs_gene_seed_produces_mult:0 "£gene_seed£ $gene_seed$ from £job£ Jobs"
+ mod_planet_jobs_scrap_produces_mult:0 "£scrap£ $scrap$ from £job£ Jobs"
+ mod_planet_jobs_slaves_produces_mult:0 "£slaves£ $slaves$ from £job£ Jobs"
+ mod_planet_jobs_living_metal_produces_mult:0 "£living_metal£ $living_metal$ from £job£ Jobs"
+ mod_planet_jobs_spirit_stones_produces_mult:0 "£spirit_stones£ $spirit_stones$ from £job£ Jobs"
+ mod_planet_jobs_gods_favor_produces_mult:0 "£gods_favor£ $gods_favor$ from £job£ Jobs"
+
  ####################################
  # Desisions
  ####################################
@@ -2181,6 +2211,11 @@
  district_technical_manufactoria_plural:0 "Technical Manufactorias"
  district_technical_manufactoria_desc:0 "Geared towards military industries, this hive district is filled with the roar of assembly lines."
  
+ mod_planet_district_hive_city_build_speed_mult:0 "$district_hive_city$ Build Speed"
+ mod_planet_district_military_manufactoria_build_speed_mult:0 "$district_military_manufactoria$ Build Speed"
+ mod_planet_district_civilian_manufactoria_build_speed_mult:0 "$district_civilian_manufactoria$ Build Speed"
+ mod_planet_district_technical_manufactoria_build_speed_mult:0 "$district_technical_manufactoria$ Build Speed"
+ 
  # FORGE
  district_forge_city:0 "Forge City"
  district_forge_city_plural:0 "Forge Cities"
@@ -2195,31 +2230,46 @@
  district_research_center_plural:0 "Research Centers"
  district_research_center_desc:0 "Centers for scientific research which strictly controlled by the Adeptus Mechanicus."
 
+ mod_planet_district_forge_city_build_speed_mult:0 "$district_forge_city$ Build Speed"
+ mod_planet_district_fondry_manufactoria_build_speed_mult:0 "$district_fondry_manufactoria$ Build Speed"
+ mod_planet_district_generatorum_line_build_speed_mult:0 "$district_generatorum_line$ Build Speed"
+ mod_planet_district_research_center_build_speed_mult:0 "$district_research_center$ Build Speed"
+ 
  # AGRI
  district_agri_farming:0 "Agriculture Arcology"
  district_agri_farming_plural:0 "Agriculture Arcologies"
  district_agri_farming_desc:0 "Land set aside for cultivation, either through the growing of crops or animal husbandry."
  
+ mod_planet_district_agri_farming_build_speed_mult:0 "$district_agri_farming$ Build Speed"
+ 
  # FORTRESS
  district_military_barrack:0 "Military Barrack"
  district_military_barrack_plural:0 "Military Barracks"
  district_military_barrack_desc:0 "A group of military buildings used to house a specific group of people, such as labourers or Imperium soldiers."
- district_planetary_fortress:0 "Planetary Fortress"
- district_planetary_fortress_plural:0 "Planetary Fortresses"
- district_planetary_fortress_desc:0 "A massive fortress complex with an expanded garrison and training facilities for soldiers."
  district_defence_laser:0 "Defence Laser"
  district_defence_laser_plural:0 "Defence Lasers"
  district_defence_laser_desc:0 "It is a very large Imperial laser weapon commonly used as a static, planet-based, anti-starship defence by Imperial Planetary Defence Forces. Due to its power consumption and sheer weight, it cannot be installed on a ground vehicle of standard size."
+ district_planetary_fortress:0 "Planetary Fortress"
+ district_planetary_fortress_plural:0 "Planetary Fortresses"
+ district_planetary_fortress_desc:0 "A massive fortress complex with an expanded garrison and training facilities for soldiers."
+
+ mod_planet_district_military_barrack_build_speed_mult:0 "$district_military_barrack$ Build Speed"
+ mod_planet_district_planetary_fortress_build_speed_mult:0 "$district_planetary_fortress$ Build Speed"
+ mod_planet_district_defence_laser_build_speed_mult:0 "$district_defence_laser$ Build Speed"
  
  # ARMOURY
  district_armoury_storage:0 "Armoury Storage"
  district_armoury_storage_plural:0 "Armoury Storages"
  district_armoury_storage_desc:0 "Massive resource silos and storage facilities where large quantities of resources can be safely kept."
  
+ mod_planet_district_armoury_storage_build_speed_mult:0 "$district_armoury_storage$ Build Speed"
+ 
  # SHRINE
  district_shrine_complex:0 "Shrine Complex"
  district_shrine_complex_plural:0 "Shrine Complexes"
  district_shrine_complex_desc: "Often studded with cathedrals, temples and shrines spread across the globe to the Emperor and his saints, these worlds are frequently directly controlled by the Ecclesiarchy and may form training grounds for members of the Adeptus Ministorum and the Adepta Sororitas."
+ 
+ mod_planet_district_shrine_complex_build_speed_mult:0 "$district_shrine_complex$ Build Speed"
  
  # ORK
  district_primitive_shack:0 "Primitive Shack"
@@ -2235,6 +2285,11 @@
  district_hunting_ground_plural:0 "Hunting Grounds"
  district_hunting_ground_desc:0 "A hunting ground is an area where orks chase and kill wild animals for food."
  
+ mod_planet_district_primitive_shack_build_speed_mult:0 "$district_primitive_shack$ Build Speed"
+ mod_planet_district_open_mine_build_speed_mult:0 "$district_open_mine$ Build Speed"
+ mod_planet_district_scrap_yard_build_speed_mult:0 "$district_scrap_yard$ Build Speed"
+ mod_planet_district_hunting_ground_build_speed_mult:0 "$district_hunting_ground$ Build Speed"
+ 
  # DAEMON
  district_khorne_realm:0 "Khorne Realm"
  district_khorne_realm_plural:0 "Khorne Realms"
@@ -2248,6 +2303,11 @@
  district_slannesh_realm:0 "Slaanesh Realm"
  district_slannesh_realm_plural:0 "Slaanesh Realms"
  district_slannesh_realm_desc:0 "Slaanesh is the Lord of Pleasure, the Dark God dedicated to the pursuit of earthly gratification and the overthrow of all decent behaviour. He is the God of Obsession, the Master of Excess in All Things, from gluttony to lust to megalomania."
+ 
+ mod_planet_district_khorne_realm_build_speed_mult:0 "$district_khorne_realm$ Build Speed"
+ mod_planet_district_nurgle_realm_build_speed_mult:0 "$district_nurgle_realm$ Build Speed"
+ mod_planet_district_tzeentch_realm_build_speed_mult:0 "$district_tzeentch_realm$ Build Speed"
+ mod_planet_district_slannesh_realm_build_speed_mult:0 "$district_slannesh_realm$ Build Speed"
  
  # CRAFTWORLD 
  district_craftworld_segment:0 "Craftworld Segment"
@@ -2263,6 +2323,11 @@
  district_special_biodome_plural:0 "Special Biodomes"
  district_special_biodome_desc:0 "Endless seas of farmland stretch across this Craftworld section, growing massive amounts of food."
 
+ mod_planet_district_craftworld_segment_build_speed_mult:0 "$district_craftworld_segment$ Build Speed"
+ mod_planet_district_infinity_circuit_build_speed_mult:0 "$district_infinity_circuit$ Build Speed"
+ mod_planet_district_ghost_hall_build_speed_mult:0 "$district_ghost_hall$ Build Speed"
+ mod_planet_district_special_biodome_build_speed_mult:0 "$district_special_biodome$ Build Speed"
+ 
  # WEBWAY
  district_high_commorragh:0 "High Commorragh"
  district_high_commorragh_plural:0 "High Commorraghs"
@@ -2276,6 +2341,11 @@
  district_torture_dungeon:0 "Torture Dungeon"
  district_torture_dungeon_plural:0 "Torture Dungeons"
  district_torture_dungeon_desc:0 "Dark Eldats are experts in the techniques of torture as well as mental and physical degradation, as the longer a Drukhari can drag out the torture of a slave the more psychic nourishment they can take from him or her. "
+ 
+ mod_planet_district_high_commorragh_build_speed_mult:0 "$district_high_commorragh$ Build Speed"
+ mod_planet_district_stolen_sun_build_speed_mult:0 "$district_stolen_sun$ Build Speed"
+ mod_planet_district_low_commorragh_build_speed_mult:0 "$district_low_commorragh$ Build Speed"
+ mod_planet_district_torture_dungeon_build_speed_mult:0 "$district_torture_dungeon$ Build Speed"
  
  # TOMB
  district_underground_shelter:0 "Underground Shelter"
@@ -2291,6 +2361,11 @@
  district_defense_grid_plural:0 "Defense Grids"
  district_defense_grid_desc:0 "If the Necron weapons are dreaded across the known universe, their defense systems are doubly feared. Even amongst the soulless Necrons, this inspires pride."
 
+ mod_planet_district_underground_shelter_build_speed_mult:0 "$district_underground_shelter$ Build Speed"
+ mod_planet_district_kmenic_quarry_build_speed_mult:0 "$district_kmenic_quarry$ Build Speed"
+ mod_planet_district_ancient_stelae_build_speed_mult:0 "$district_ancient_stelae$ Build Speed"
+ mod_planet_district_defense_grid_build_speed_mult:0 "$district_defense_grid$ Build Speed"
+ 
  ####################################
  # Deposits
  ####################################
@@ -2609,7 +2684,7 @@
  mod_job_inquisitor_add:0 "$job_inquisitor$ Jobs"
  mod_job_inquisitor_per_pop:0 "§G+1§! $job_inquisitor$ Job per $VALUE$ Pops"
  mod_job_inquisitor_per_pop_short:0 "§G+1§! £mod_job_inquisitor_add£ per $VALUE$ £pop£"
- 
+
  ####################################
  # Events
  ####################################

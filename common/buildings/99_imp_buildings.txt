@@ -1027,8 +1027,7 @@ building_generatorum = {
 		}
 		produces = {
 			trigger = {
-				exists = owner
-				is_ai = no
+				exists = owner
 				owner = { NOT = { has_deficit = promethium } }
 				planet = { has_modifier = planet_burn_promethium }
 			}

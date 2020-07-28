@@ -53,6 +53,7 @@ event = {
 						}
 						
 						add_district = district_forge_city
+						add_district = district_generatorum_line
 						add_district = district_fondry_manufactoria
 					}
 					else_if = {
