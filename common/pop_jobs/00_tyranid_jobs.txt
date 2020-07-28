@@ -1,5 +1,7 @@
 tyranid_guardian = {
 	category = simple_drone
+	building_icon = building_hive_noder
+	icon = warrior_drone
 	condition_string = DRONE_JOB_TRIGGER
 
 	country_modifier = {

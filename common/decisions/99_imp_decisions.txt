@@ -117,14 +117,6 @@ decision_burn_promethium = {
 	potential = {
 		exists = owner
 		owner = { has_country_flag = human_empire }
-		OR = {
-			is_planet_class = pc_forge
-			is_planet_class = pc_forgee
-			is_planet_class = pc_forgeee
-			is_planet_class = pc_forge_ring
-			is_planet_class = pc_forge_ring2
-			is_planet_class = pc_forge_ring3
-		}
 	}
 	
 	effect = {

@@ -22,7 +22,7 @@ building_ancient_monolith = {
 		building_tyranid_hive
 		building_hall_of_blood
 		building_paradisaic_complex
-		building_administratum
+		building_auditorium
 		building_irontoff_bastion
 		building_cadre_headquarters
 		building_chaos_complex
@@ -36,9 +36,6 @@ building_ancient_monolith = {
 
 	resources = {
 		category = planet_buildings
-		cost = {
-			minerals = 400
-		}
 		upkeep = {
 			energy = 10
 		}
@@ -172,7 +169,7 @@ building_energy_core = {
 	planet_modifier = {
 		planet_researchers_produces_mult = 0.15
 		planet_buildings_energy_upkeep_mult = -0.2
-		planet_districts_energy_upkeep_mult = -0.1
+		planet_buildings_energy_upkeep_mult = -0.1
 	}
 
 	resources = {
@@ -439,10 +436,6 @@ building_gauss_turret = {
 		army_attack_damage_mult = 0.1
 		army_defense_damage_mult = 0.1
 	}
-	
-	triggered_desc = {
-		text = job_necron_warrior_effect_desc
-	}
 
 	resources = {
 		category = planet_buildings
@@ -452,6 +445,10 @@ building_gauss_turret = {
 		upkeep = {
 			energy = 20
 		}
+	}
+	
+	triggered_desc = {
+		text = job_necron_warrior_effect_desc
 	}
 	
 	ai_weight = {

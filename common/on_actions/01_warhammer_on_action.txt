@@ -4,14 +4,8 @@ on_game_start = {
 		leaders.1
 		leaders.2
 		planets.1
+		planets.999
 		marauder.999
-	}
-}
-
-# No scope, like on_game_start
-on_monthly_pulse = {
-	events = {
-		#planets.24
 	}
 }
 

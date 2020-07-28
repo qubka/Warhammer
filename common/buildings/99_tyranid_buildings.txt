@@ -20,7 +20,7 @@ building_tyranid_hive = {
 	convert_to = {
 		building_hall_of_blood
 		building_irontoff_bastion
-		building_administratum
+		building_auditorium
 		building_ancient_monolith
 		building_cadre_headquarters
 		building_chaos_complex
@@ -33,11 +33,8 @@ building_tyranid_hive = {
 
 	resources = {
 		category = planet_buildings
-		cost = {
-			minerals = 400
-		}
 		upkeep = {
-			energy = 20
+			energy = 1
 		}
 	}
 		
@@ -478,7 +475,9 @@ building_hive_post = {
 		modifier = {
 			weight = 10
 			planet_crime > 15
-			buildings_build_building = yes
+			NOT = { 
+				num_buildings = { type = building_hive_post value = 3 } 
+			}
 		}
 	}
 }
@@ -578,7 +577,7 @@ building_processing_node = {
 		planet_artisans_produces_mult = 0.15
 	}
 
-	triggered_planet_modifier = {
+	planet_modifier = {
 		job_alloy_drone_add = 5
 	}
 	
@@ -710,6 +709,14 @@ building_ravener_tunnel = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
+	
+	country_modifier = {
+		country_resource_max_add = 10000
+	}
+	
+	planet_modifier = {
+		job_maintenance_drone_add = 1
+	}
 
 	resources = {
 		category = planet_buildings
@@ -719,14 +726,6 @@ building_ravener_tunnel = {
 		upkeep = {
 			energy = 10
 		}
-	}
-	
-	planet_modifier = {
-		job_maintenance_drone_add = 1
-	}
-
-	country_modifier = {
-		country_resource_max_add = 10000
 	}
 
 	triggered_desc = {

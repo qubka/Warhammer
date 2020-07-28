@@ -21,7 +21,7 @@ building_chaos_tower = {
 		building_tyranid_hive
 		building_hall_of_blood
 		building_paradisaic_complex
-		building_administratum
+		building_auditorium
 		building_irontoff_bastion
 		building_ancient_monolith
 		building_cadre_headquarters
@@ -31,22 +31,24 @@ building_chaos_tower = {
 		planet_housing_add = 20
 		planet_amenities_add = 20
 		job_chaos_priest_add = 2
+		job_slave_overseer_add = 3
 	}
 
 	resources = {
 		category = planet_buildings
-		cost = {
-			minerals = 400
-		}
 		upkeep = {
-			energy = 10
+			energy = 5
 		}
 	}
 	
 	triggered_desc = {
 		text = job_chaos_priest_effect_desc
 	}
-		
+	
+	triggered_desc = {
+		text = job_slave_overseer_effect_desc
+	}
+	
 	ai_weight = {
 		weight = 1
 	}
@@ -72,7 +74,7 @@ building_chaos_workshop = {
 	}
 	
 	resources = {
-		category = planet_districts
+		category = planet_buildings
 		cost = {
 			minerals = 500
 		}
@@ -126,7 +128,7 @@ building_daemon_quarry = {
 	}
 	
 	resources = {
-		category = planet_districts
+		category = planet_buildings
 		cost = {
 			minerals = 400
 		}
@@ -275,13 +277,13 @@ building_tzeentch_complex = {
 		text = job_sorcerer_effect_desc
 	}
 	
-	triggered_country_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = tzeentch }
 		}
 		modifier = {
-			country_naval_cap_add = 100
+			planet_jobs_gods_favor_produces_mult = 0.25
 		}
 	}
 	
@@ -384,13 +386,13 @@ building_khorne_fortress = {
 		text = job_berserk_effect_desc
 	}
 	
-	triggered_army_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { has_country_flag = khorne }
 		}
 		modifier = {
-			army_starting_experience_add = 500
+			planet_jobs_gods_favor_produces_mult = 0.1
 		}
 	}
 	
@@ -521,7 +523,7 @@ building_daemon_pit = {
 }
 
 building_khorne_tower = {
-	base_buildtime = 120
+	base_buildtime = 360
 	base_cap_amount = 1
 	
 	category = army

@@ -1,0 +1,1740 @@
+building_auditorium = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	upgrades = {
+		building_administratum
+	}
+	
+	convert_to = {
+		building_tyranid_hive
+		building_hall_of_blood
+		building_paradisaic_complex
+		building_cadre_headquarters
+		building_irontoff_bastion
+		building_ancient_monolith
+		building_chaos_complex
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+		job_administrator_add = 2
+		job_inquisitor_add = 1
+	}
+
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_administrator_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_inquisitor_effect_desc
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+building_castra_exercitus = {
+	base_buildtime = 360
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	country_modifier = {
+		country_resource_max_add = 5000
+	}
+	
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.1
+		job_military_artisan_add = 5
+	}
+	
+	army_modifier = {
+		army_starting_experience_add = 100
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_military_artisan_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = military_goods
+					value < 5
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		military_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_factorum = {
+	base_buildtime = 240
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	planet_modifier = {
+		job_artisan_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_artisan_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 25
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		consumer_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_librarium = {
+	base_buildtime = 240
+	
+	category = research
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	planet_modifier = {
+		job_librarian_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_librarian_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			has_building = building_librarium
+		}
+	}
+}
+
+building_manufactorium = {
+	base_buildtime = 480
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	planet_modifier = {
+		job_electronics_manufacturer_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_electronics_manufacturer_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = electronics
+					value < 5
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		electronics = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_mausoleum = {
+	base_buildtime = 240
+
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+
+	planet_modifier = {
+		job_culture_worker_add = 5
+	}
+	
+	army_modifier = {
+		army_defense_morale_mult = 2.0
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_culture_worker_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			NOT = { has_building = building_mausoleum }
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 10
+				}
+			}
+		}
+	}
+}
+
+building_planetary_turret_1 = {
+	base_buildtime = 240
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	upgrades = {
+		building_planetery_turret_2
+	}
+
+	planet_modifier = {
+		planet_orbital_bombardment_damage = -0.01
+		job_soldier_add = 5
+	}
+	
+	army_modifier = {
+		army_attack_damage_mult = 0.1
+		army_defense_damage_mult = 0.1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_soldier_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			free_jobs < 1
+			free_building_slots > 1
+			owner = { used_naval_capacity_percent > 0.9	}
+		}
+		modifier = {
+			weight = 100
+			OR = {
+				is_planet_class = pc_hive_arid
+				is_planet_class = pc_hive_continental_01
+				is_planet_class = pc_hive_continental_02
+				is_planet_class = pc_hive_ocean
+				is_planet_class = pc_hive_tundra
+				is_planet_class = pc_hive_medium
+				is_planet_class = pc_super_hive
+				is_planet_class = pc_mega_hive
+			}
+			owner = { used_naval_capacity_percent > 0.8	}
+		}
+		modifier = {
+			weight = 25
+			num_pops > 39
+			NOT = {	has_building = building_planetary_turret_1 }
+		}
+	}
+}
+
+building_planetery_turret_2 = {
+	base_buildtime = 360
+	can_build = no
+	
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+
+	planet_modifier = {
+		planet_orbital_bombardment_damage = -0.05
+		job_soldier_add = 10
+	}
+	
+	army_modifier = {
+		army_attack_damage_mult = 0.2
+		army_defense_damage_mult = 0.2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+	
+	triggered_desc = {
+		text = job_soldier_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			free_jobs < 1
+			free_building_slots > 1
+			owner = { used_naval_capacity_percent > 0.9	}
+		}
+		modifier = {
+			weight = 100
+			OR = {
+				is_planet_class = pc_hive_arid
+				is_planet_class = pc_hive_continental_01
+				is_planet_class = pc_hive_continental_02
+				is_planet_class = pc_hive_ocean
+				is_planet_class = pc_hive_tundra
+				is_planet_class = pc_hive_medium
+				is_planet_class = pc_super_hive
+				is_planet_class = pc_mega_hive
+			}
+			owner = { used_naval_capacity_percent > 0.8	}
+		}
+	}
+}
+
+building_navy_recruitment = {
+	base_buildtime = 240
+	planetary_ftl_inhibitor = yes
+	add_to_first_building_slot = yes
+	
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+		job_soldier_add = 5
+	}
+	
+	army_modifier = {
+		army_starting_experience_add = 200
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}	
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_soldier_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100 #High weight to gurantee that if the below is true then the AI should build it
+			free_housing < 3 #Prevents the AI from running out of residences when nearly out of tiles
+			OR = {
+				free_jobs > 0 #prevents spamming of residence buildings when no jobs are open
+				AND = {
+					free_housing < 0 #Prevents the AI from running out of residences when nearly out of tiles
+					NOT = { any_owned_pop = { is_unemployed = yes } }
+				}
+			}
+			free_district_slots = 0 #Do not build when city districts can still be built
+		}
+		modifier = {
+			factor = 0
+			has_building = building_navy_recruitment
+		}
+	}
+}
+ 
+building_administratum = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		num_pops >= 50
+	}
+	
+	convert_to = {
+		building_tyranid_hive
+		building_hall_of_blood
+		building_paradisaic_complex
+		building_cadre_headquarters
+		building_irontoff_bastion
+		building_ancient_monolith
+		building_chaos_complex
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 20
+		job_administrator_add = 3
+		job_inquisitor_add = 2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_administrator_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_inquisitor_effect_desc
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+building_censorium = {
+	base_buildtime = 240
+
+	category = government
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	planet_modifier = {
+		job_clerk_add = 5
+		job_manager_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_clerk_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_manager_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			num_buildings = { type = building_cellarion value < 3 }
+		}
+	}
+}
+
+building_arbitratorum = {
+	base_buildtime = 240
+
+	category = government
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		job_enforcer_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_enforcer_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			planet_crime > 30
+			NOT = {
+				num_buildings = { type = building_arbitratorum value = 2 }
+			}
+		}
+	}
+}
+
+building_chapel = {
+	base_buildtime = 240
+
+	category = unity
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	upgrades = {
+		building_cathedral
+	}
+	
+	planet_modifier = {
+		job_priest_add = 2
+		pop_ethic_spiritualist_attraction_mult = 0.05
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	triggered_desc = {
+		text = job_priest_effect_desc
+	}
+
+	ai_weight = {
+		weight = 25
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 8
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				has_building = building_chapel
+				has_building = building_cathedral
+			}
+		}
+	}
+}
+
+building_cathedral = {
+	base_buildtime = 480
+	base_cap_amount = 1
+	can_build = no
+	
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	planet_modifier = {
+		job_priest_add = 5
+		job_high_priest_add = 1
+		pop_ethic_spiritualist_attraction_mult = 0.20
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+			alloys = 200
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_priest_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_high_priest_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 8
+				}
+			}
+		}
+	}
+}
+
+building_confession_machine = {
+	base_buildtime = 240
+
+	category = unity
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	upgrades = {
+		building_confessorum
+	}
+
+	country_modifier = {
+		piracy_suppression_mult = 0.1
+	}
+	
+	planet_modifier = {
+		planet_crime_add = -5
+		job_truth_preacher_add = 1
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_truth_preacher_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			NOT = { has_building = building_confession_machine }
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value > 20
+				}
+			}
+		}
+	}
+}
+
+building_confessorum = {
+	base_buildtime = 240
+	can_build = no
+	
+	category = unity
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	country_modifier = {
+		piracy_suppression_mult = 0.2
+	}
+	
+	planet_modifier = {
+		planet_crime_add = -20
+		job_truth_preacher_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_truth_preacher_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 8
+				}
+			}
+		}
+	}
+}
+
+building_execution_site = {
+	base_buildtime = 360
+
+	category = amenity
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		job_executioner_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_executioner_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 50
+			free_amenities < 5
+			OR = {
+				free_jobs < 3 #makes it come before any free_jobs = 0 building checks. This makes the build a high priority building.
+				NOT = { has_building = building_eavy_metal_stage }
+				NOT = { has_building = building_smack_bar }
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				free_amenities > 20
+
+				# we shouldn't be building more than one of these
+				has_building = building_eavy_metal_stage
+				has_building = building_smack_bar
+
+				# don't build in consumer goods deficit ( if we care about goods )
+				AND = {
+					owner = {
+						has_monthly_income = {
+							resource = consumer_goods
+							value < 0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+building_generatorum = {
+	base_buildtime = 240
+
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	planet_modifier = {
+		job_technician_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		produces = {
+			energy = 100
+		}
+		produces = {
+			trigger = {
+				exists = owner
+				is_ai = no
+				owner = { NOT = { has_deficit = promethium } }
+				planet = { has_modifier = planet_burn_promethium }
+			}
+			energy = 100
+		}
+		upkeep = {
+			trigger = {
+				planet = { has_modifier = planet_burn_promethium }
+			}
+			promethium = 1
+		}
+	}
+	
+	triggered_desc = {
+		text = job_technician_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value < 100
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		energy = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_cellarion = {
+	base_buildtime = 240
+
+	category = trade
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	planet_modifier = {
+		trade_value_mult = 0.20
+		job_executive_add = 3
+		job_bureaucrat_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_executive_effect_desc
+	}
+
+	triggered_desc = {
+		text = job_bureaucrat_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 20
+			owner = { empire_sprawl_over_cap > 0 }
+		}
+		modifier = {
+			weight = 50
+			owner = { empire_sprawl_over_cap > 10 }
+		}
+		modifier = {
+			weight = 100
+			owner = { empire_sprawl_over_cap > 20 }
+		}
+		modifier = {
+			weight = 500
+			owner = { empire_sprawl_over_cap > 40 }
+		}
+	}
+}
+
+building_penance_station = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = amenity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 20
+		planet_crime_add = -15
+		biological_pop_happiness = 0.05
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_propaganda_post = {
+	base_buildtime = 240
+	
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 10
+		planet_crime_add = -10
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			planet_crime > 15
+			NOT = {
+				num_buildings = { type = building_propaganda_post value = 3 }
+			}
+		}
+	}
+}
+
+building_residence = {
+	base_buildtime = 240
+
+	category = amenity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 20
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100 #High weight to gurantee that if the below is true then the AI should build it
+			free_housing < 3 #Prevents the AI from running out of residences when nearly out of tiles
+			OR = {
+				free_jobs > 0 #prevents spamming of residence buildings when no jobs are open
+				AND = {
+					free_housing < 0 #Prevents the AI from running out of residences when nearly out of tiles
+					NOT = { any_owned_pop = { is_unemployed = yes } }
+				}
+			}
+			free_district_slots = 0 #Do not build when city districts can still be built
+		}
+		modifier = {
+			factor = 0
+			has_building = building_residence
+		}
+	}
+}
+
+building_ventilation_shaft = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_jobs_worker_produces_mult = 0.05
+		pop_decline_speed = -0.15
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_street_clock = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = amenity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 25
+		planet_jobs_produces_mult = 0.05
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_triumphal_arch = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		biological_pop_happiness = 0.25
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		produces = {
+			unity = 5
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+	
+	ai_resource_production = {
+		unity = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_saint_statue = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = unity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_stability_add = 15
+		pop_ethic_spiritualist_attraction_mult = 0.25
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+building_grim_reaper_statue = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_jobs_energy_produces_mult = 0.1
+		planet_jobs_minerals_produces_mult = 0.1
+		planet_jobs_food_produces_mult = 0.1
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+building_angel_statue = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = research
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	country_modifier = {
+		all_technology_research_speed = 0.05
+		country_subject_technology_sharing_mult = 0.01
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+building_legionary_statue = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	army_modifier = {
+		army_attack_health_mult = 0.1
+		army_attack_damage_mult = 0.1
+		army_attack_morale_mult = 0.3
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+building_memorial_bundle = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_buildings_cost_mult = -0.1
+		planet_districts_cost_mult = -0.05
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_water_towers = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = pop_assembly
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	upgrades = {
+		building_fountain
+	}
+
+	planet_modifier = {
+		bio_pop_growth_speed = 0.05
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_fountain = {
+	base_buildtime = 240
+	can_build = no
+	
+	category = pop_assembly
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	upgrades = {
+		building_grand_fountain
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 10
+		bio_pop_growth_speed = 0.1
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_grand_fountain = {
+	base_buildtime = 240
+	can_build = no
+	
+	category = pop_assembly
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	upgrades = {
+		building_fountain_of_saints
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 20
+		bio_pop_growth_speed = 0.15
+		biological_pop_happiness = 0.1
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_fountain_of_saints = {
+	base_buildtime = 240
+	can_build = no
+	
+	category = pop_assembly
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = human_empire } }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 30
+		bio_pop_growth_speed = 0.2
+		biological_pop_happiness = 0.15
+		pop_ethic_spiritualist_attraction_mult = 0.01
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}

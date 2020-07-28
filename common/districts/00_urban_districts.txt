@@ -186,10 +186,6 @@ district_hive = {
 		}
 	}
 
-	allow = {
-		NOT = { has_modifier = resort_colony }
-	}
-
 	conversion_ratio = 0.5
 	convert_to = {
 		district_arcology_housing
@@ -332,10 +328,6 @@ district_nexus = {
 			uses_district_set = armoury_world
 			uses_district_set = machine_world
 		}
-	}
-
-	allow = {
-		NOT = { has_modifier = resort_colony }
 	}
 
 	conversion_ratio = 0.5

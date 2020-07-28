@@ -23,7 +23,7 @@ district_craftworld_segment = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 20
+		planet_housing_add = 30
 		job_clerk_add = 10
 	}
 

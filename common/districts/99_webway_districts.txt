@@ -23,7 +23,7 @@ district_low_commorragh = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 10
+		planet_housing_add = 30
 		job_clerk_add = 10
 	}
 
@@ -240,30 +240,10 @@ district_torture_dungeon = {
 			weight = 750
 			owner = {
 				has_monthly_income = {
-					resource = gods_favor
-					value < 200
-				}
-				has_monthly_income = {
 					resource = slaves
-					value > 99
+					value > 10
 				}
 			}
-		}
-		modifier = {
-			weight = 1000
-			owner = {
-				has_monthly_income = {
-					resource = gods_favor
-					value < 0
-				}
-			}
-		}
-	}
-	
-	ai_resource_production = {
-		gods_favor = 1
-		trigger = {
-			always = yes
 		}
 	}
 }

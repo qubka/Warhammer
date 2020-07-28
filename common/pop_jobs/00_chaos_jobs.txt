@@ -1,6 +1,7 @@
 chaos_priest = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_daemon_pit
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -168,6 +169,7 @@ chaos_priest = {
 berserk = {
 	category = worker
 	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_khorne_fortress
 	clothes_texture_index = 4
 
 	country_modifier = {
@@ -309,6 +311,7 @@ berserk = {
 rot_gatherer = {
 	category = worker
 	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_slaanesh_palace
 	clothes_texture_index = 2
 
 	possible_pre_triggers = {
@@ -486,6 +489,7 @@ rot_gatherer = {
 sorcerer = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_tzeentch_complex
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {
@@ -607,6 +611,7 @@ sorcerer = {
 daemonette = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_slaanesh_palace
 	clothes_texture_index = 3
 
 	possible_pre_triggers = {

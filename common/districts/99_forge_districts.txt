@@ -23,7 +23,7 @@ district_forge_city = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 10
+		planet_housing_add = 30
 		job_clerk_add = 10
 	}
 	
@@ -131,13 +131,13 @@ district_generatorum_line = {
 				exists = owner
 				is_ai = no
 				owner = { NOT = { has_deficit = promethium } }
-				has_modifier = planet_burn_promethium
+				planet = { has_modifier = planet_burn_promethium }
 			}
 			energy = 100
 		}
 		upkeep = {
 			trigger = {
-				has_modifier = planet_burn_promethium
+				planet = { has_modifier = planet_burn_promethium }
 			}
 			promethium = 1
 		}

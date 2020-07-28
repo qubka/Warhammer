@@ -21,7 +21,7 @@ building_irontoff_bastion = {
 		building_tyranid_hive
 		building_hall_of_blood
 		building_paradisaic_complex
-		building_administratum
+		building_auditorium
 		building_ancient_monolith
 		building_cadre_headquarters
 		building_chaos_complex
@@ -35,9 +35,6 @@ building_irontoff_bastion = {
 
 	resources = {
 		category = planet_buildings
-		cost = {
-			minerals = 400
-		}
 		upkeep = {
 			energy = 5
 		}
@@ -594,14 +591,7 @@ building_mechboss_site_totem = {
 		exists = owner
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = 300
-		}
-	}
-
+	
 	country_modifier = {
 		ships_upkeep_mult = -0.1
 	}
@@ -609,6 +599,13 @@ building_mechboss_site_totem = {
 	planet_modifier = {
 		planet_buildings_cost_mult = -0.15
 		planet_districts_cost_mult = -0.1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
 	}
 
 	ai_weight = {
@@ -762,12 +759,8 @@ building_watch_tower = {
 		modifier = {
 			weight = 100
 			planet_crime > 15
-			NOR = {
-				AND = {
-					has_building = building_watch_tower
-					owner = { has_technology = tech_colonial_centralization }
-				}
-				num_buildings = { type = building_watch_tower value = 3 }
+			NOT = { 
+				num_buildings = { type = building_watch_tower value = 3 } 
 			}
 		}
 	}

@@ -15,10 +15,6 @@ district_generator = {
 		uses_district_set = standard
 	}
 
-	allow = {
-		NOT = { has_modifier = resort_colony }
-	}
-
 	conversion_ratio = 1
 	convert_to = {
 		district_generator_uncapped
@@ -230,10 +226,6 @@ district_mining = {
 		uses_district_set = standard
 	}
 
-	allow = {
-		NOT = { has_modifier = resort_colony }
-	}
-
 	conversion_ratio = 1
 	convert_to = {
 		district_mining_uncapped
@@ -429,10 +421,6 @@ district_farming = {
 
 	potential = {
 		uses_district_set = standard
-	}
-
-	allow = {
-		NOT = { has_modifier = resort_colony }
 	}
 
 	conversion_ratio = 1
@@ -642,10 +630,6 @@ district_generator_uncapped = {
 		}
 	}
 
-	allow = {
-		NOT = { has_modifier = resort_colony }
-	}
-
 	conversion_ratio = 1
 	convert_to = {
 		district_generator
@@ -795,10 +779,6 @@ district_mining_uncapped = {
 		}
 	}
 
-	allow = {
-		NOT = { has_modifier = resort_colony }
-	}
-
 	conversion_ratio = 1
 	convert_to = {
 		district_mining
@@ -945,10 +925,6 @@ district_farming_uncapped = {
 	show_on_uncolonized = { uses_district_set = machine_world }
 
 	potential = { uses_district_set = machine_world }
-
-	allow = {
-		NOT = { has_modifier = resort_colony }
-	}
 
 	conversion_ratio = 1
 	convert_to = {

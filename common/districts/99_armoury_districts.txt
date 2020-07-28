@@ -23,11 +23,13 @@ district_armoury_storage = {
 		}
 	}
 	
-	country_modifier = {
-		country_resource_max_add = 10000
-	}
+	# FIND SOLUTION !
+	#country_modifier = {
+	#	country_resource_max_add = 10000
+	#}
 	
 	planet_modifier = {
+		planet_army_build_speed_mult = 0.15
 		planet_housing_add = 2
 		job_clerk_add = 2
 	}

@@ -23,7 +23,7 @@ district_hive_city = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 30
+		planet_housing_add = 50
 		job_clerk_add = 10
 		job_bureaucrat_add = 10
 	}

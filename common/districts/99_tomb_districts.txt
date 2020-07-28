@@ -23,7 +23,7 @@ district_underground_shelter = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 10
+		planet_housing_add = 30
 		job_nemesor_add = 10
 	}
 	

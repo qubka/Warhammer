@@ -23,7 +23,7 @@ district_military_barrack = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 10
+		planet_housing_add = 20
 		job_enforcer_add = 10
 	}
 	

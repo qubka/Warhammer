@@ -21,7 +21,7 @@ building_cadre_headquarters = {
 		building_tyranid_hive
 		building_hall_of_blood
 		building_paradisaic_complex
-		building_administratum
+		building_auditorium
 		building_irontoff_bastion
 		building_ancient_monolith
 		building_chaos_complex
@@ -31,14 +31,11 @@ building_cadre_headquarters = {
 		planet_housing_add = 20
 		planet_amenities_add = 20
 		job_noble_add = 1
-		job_high_priest_add = 2
+		job_executive_add = 2
 	}
 
 	resources = {
 		category = planet_buildings
-		cost = {
-			minerals = 400
-		}
 		upkeep = {
 			energy = 10
 		}
@@ -49,7 +46,7 @@ building_cadre_headquarters = {
 	}
 	
 	triggered_desc = {
-		text = job_high_priest_effect_desc
+		text = job_executive_effect_desc
 	}
 		
 	ai_weight = {
@@ -72,7 +69,7 @@ building_tau_factory = {
 		owner = { NOT = { has_country_flag = tau_empire } }
 	}
 	
-	triggered_planet_modifier = {
+	planet_modifier = {
 		job_artisan_add = 5
 	}
 
@@ -126,7 +123,7 @@ building_vehicle_beacon = {
 		owner = { NOT = { has_country_flag = tau_empire } }
 	}
 	
-	triggered_planet_modifier = {
+	planet_modifier = {
 		job_military_artisan_add = 5
 	}
 
@@ -180,7 +177,7 @@ building_shaping_center = {
 		owner = { NOT = { has_country_flag = tau_empire } }
 	}
 	
-	triggered_planet_modifier = {
+	planet_modifier = {
 		job_electronics_manufacturer_add = 5
 	}
 

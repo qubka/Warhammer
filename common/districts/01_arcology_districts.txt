@@ -30,7 +30,7 @@ district_arcology_housing = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 10
+		planet_housing_add = 30
 		job_clerk_add = 10
 	}
 

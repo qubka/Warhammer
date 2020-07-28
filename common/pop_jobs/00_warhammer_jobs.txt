@@ -30,3 +30,9 @@ haemacolyte
 triarch
 
 incubus
+
+executioner
+
+truth_treacher
+
+inquisitor

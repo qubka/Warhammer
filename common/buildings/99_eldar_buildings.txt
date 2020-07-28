@@ -21,7 +21,7 @@ building_paradisaic_complex = {
 		building_hall_of_blood
 		building_tyranid_hive
 		building_irontoff_bastion
-		building_administratum
+		building_auditorium
 		building_ancient_monolith
 		building_cadre_headquarters
 		building_chaos_complex
@@ -31,13 +31,11 @@ building_paradisaic_complex = {
 		planet_housing_add = 20
 		planet_amenities_add = 20
 		job_noble_warlock_add = 3
+		job_executive_add = 2
 	}
 
 	resources = {
 		category = planet_buildings
-		cost = {
-			minerals = 400
-		}
 		upkeep = {
 			energy = 10
 		}
@@ -45,6 +43,10 @@ building_paradisaic_complex = {
 	
 	triggered_desc = {
 		text = job_noble_warlock_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_executive_effect_desc
 	}
 		
 	ai_weight = {

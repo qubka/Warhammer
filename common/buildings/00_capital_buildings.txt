@@ -35,7 +35,7 @@ building_colony_shelter = {
 		building_hall_of_blood
 		building_tyranid_hive
 		building_irontoff_bastion
-		building_administratum
+		building_auditorium
 		building_ancient_monolith
 		building_cadre_headquarters
 		building_chaos_complex
