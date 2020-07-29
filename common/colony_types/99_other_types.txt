@@ -619,7 +619,7 @@ col_bureau = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -633,7 +633,7 @@ col_mac = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -647,7 +647,7 @@ col_mac_foundry = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -661,7 +661,7 @@ col_mac_factory = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -675,7 +675,7 @@ col_foundry = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -689,7 +689,7 @@ col_factory = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -703,7 +703,7 @@ col_refinery = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }
 
@@ -717,6 +717,6 @@ col_research = {
 	}
 
 	weight_modifier = {
-		weight = 0
+		base = 0
 	}
 }

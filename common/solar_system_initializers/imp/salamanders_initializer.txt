@@ -100,7 +100,7 @@ salamanders_homeworld = {
 		moon = {
 			name = "Prometheus"
 			class = "pc_fortress"
-			orbit_distance = 8
+			orbit_distance = 15
 			orbit_angle = { min = 90 max = 270 }
 			size = 10
 			has_ring = no
