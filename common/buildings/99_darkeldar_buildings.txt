@@ -363,6 +363,15 @@ building_haemonculus_laboratory = {
 			has_building = building_haemonculus_laboratory
 		}
 	}
+	
+	ai_resource_production = {
+		physics_research = 1
+		society_research = 1
+		engineering_research = 1
+		trigger = {
+			always = yes
+		}
+	}
 }
 
 building_wych_cult_arena = {

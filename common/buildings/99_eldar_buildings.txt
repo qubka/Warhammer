@@ -127,7 +127,7 @@ building_eldar_workshop = {
 		category = planet_buildings
 		produces = {
 			trigger = {
-				exists = owner
+				exists = owner
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			consumer_goods = 50
@@ -280,7 +280,7 @@ building_holy_foundry = {
 		category = planet_buildings
 		produces = {
 			trigger = {
-				exists = owner
+				exists = owner
 				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
 			}
 			alloys = 25
@@ -362,6 +362,15 @@ building_forbidden_library = {
 		modifier = {
 			factor = 0
 			has_building = building_forbidden_library
+		}
+	}
+	
+	ai_resource_production = {
+		physics_research = 1
+		society_research = 1
+		engineering_research = 1
+		trigger = {
+			always = yes
 		}
 	}
 }

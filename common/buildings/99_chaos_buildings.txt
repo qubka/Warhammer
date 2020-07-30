@@ -513,13 +513,14 @@ building_daemon_pit = {
 	
 	ai_resource_production = {
 		gods_favor = 1
+		society_research = 1
 		trigger = {
 			always = yes
 		}
 	}
 }
 
-building_khorne_tower = {
+building_khorne_shrine = {
 	base_buildtime = 360
 	base_cap_amount = 1
 	
@@ -556,7 +557,7 @@ building_khorne_tower = {
 	}
 }
 
-building_tzeentch_tower = {
+building_tzeentch_shrine = {
 	base_buildtime = 360
 	base_cap_amount = 1
 	
@@ -608,7 +609,7 @@ building_tzeentch_tower = {
 	}
 }
 
-building_slaanesh_tower = {
+building_slaanesh_shrine = {
 	base_buildtime = 360
 	base_cap_amount = 1
 	
@@ -648,7 +649,7 @@ building_slaanesh_tower = {
 	}
 }
 
-building_nurgle_tower = {
+building_nurgle_shrine = {
 	base_buildtime = 360
 	base_cap_amount = 1
 	

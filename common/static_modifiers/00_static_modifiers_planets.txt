@@ -333,17 +333,17 @@ mechanicus_planet = {
 planet_burn_promethium = {
 	custom_tooltip = planet_burn_promethium_tooltip
 	icon = "gfx/interface/icons/planet_modifiers/pm_promethium.dds"
-	icon_frame = 2
+	icon_frame = 1
 }
 
 planet_no_awakening = {
 	custom_tooltip = planet_no_awakening_tooltip
 	icon = "gfx/interface/icons/planet_modifiers/pm_awakening.dds"
-	icon_frame = 2
+	icon_frame = 3
 }
 
 planet_no_sculpting = {
 	custom_tooltip = planet_no_sculpting_tooltip
 	icon = "gfx/interface/icons/planet_modifiers/pm_sculpting.dds"
-	icon_frame = 2
+	icon_frame = 3
 }

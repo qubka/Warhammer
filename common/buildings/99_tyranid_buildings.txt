@@ -290,6 +290,15 @@ building_hive_researcher = {
 			has_building = building_hive_researcher
 		}
 	}
+	
+	ai_resource_production = {
+		physics_research = 1
+		society_research = 1
+		engineering_research = 1
+		trigger = {
+			always = yes
+		}
+	}
 }
 
 building_brood_nest = {

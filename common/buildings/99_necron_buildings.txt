@@ -328,12 +328,21 @@ building_forbidden_archive = {
 			energy = 20
 		}
 	}
-	
+
 	ai_weight = {
 		weight = 10
 		modifier = {
 			factor = 0
 			has_building = building_forbidden_archive
+		}
+	}
+	
+	ai_resource_production = {
+		physics_research = 1
+		society_research = 1
+		engineering_research = 1
+		trigger = {
+			always = yes
 		}
 	}
 }

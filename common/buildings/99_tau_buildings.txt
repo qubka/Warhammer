@@ -54,7 +54,7 @@ building_cadre_headquarters = {
 	}
 }
 
-building_tau_factory = {
+building_civilian_factory = {
 	base_buildtime = 240
 
 	category = manufacturing
