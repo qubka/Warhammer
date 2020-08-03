@@ -11,12 +11,16 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					NECRON_Overlord_01_nobg
-					NECRON_Overlord_02_nobg
-					NECRON_Overlord_03_nobg
-					NECRON_Overlord_05_nobg
-					NECRON_Overlord_08_nobg
-					NECRON_Overlord_09_nobg
+					NECRON_Overlord_01
+					NECRON_Overlord_02
+					NECRON_Overlord_03
+					NECRON_Overlord_04
+					NECRON_Overlord_05
+					NECRON_Overlord_06
+					NECRON_Overlord_07
+					NECRON_Overlord_08
+					NECRON_Overlord_09
+					NECRON_Overlord_10
 				}
 			}
 		}		
@@ -25,12 +29,16 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					NECRON_Overlord_01_nobg
-					NECRON_Overlord_02_nobg
-					NECRON_Overlord_03_nobg
-					NECRON_Overlord_05_nobg
-					NECRON_Overlord_08_nobg
-					NECRON_Overlord_09_nobg
+					NECRON_Overlord_01
+					NECRON_Overlord_02
+					NECRON_Overlord_03
+					NECRON_Overlord_04
+					NECRON_Overlord_05
+					NECRON_Overlord_06
+					NECRON_Overlord_07
+					NECRON_Overlord_08
+					NECRON_Overlord_09
+					NECRON_Overlord_10
 				}
 			}
 		}

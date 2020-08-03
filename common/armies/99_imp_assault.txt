@@ -1287,7 +1287,7 @@ grenadiers = {
 		}
 	}
 
-	prerequisites = { "tech_carapace_armor" "tech_lasgun" "tech_demoman" }
+	prerequisites = { "tech_carapace_armor" "tech_lasgun" "tech_demoman" "tech_demolition_charge" }
 
 	allow = {
 		has_building = building_navy_recruitment

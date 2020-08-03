@@ -11,12 +11,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_Ynnari_01
+					AEL_DRU_Ynnari_02
+					AEL_DRU_Ynnari_03
+					AEL_DRU_Ynnari_04
 				}
 			}
 		}		
@@ -25,12 +23,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_Ynnari_01
+					AEL_DRU_Ynnari_02
+					AEL_DRU_Ynnari_03
+					AEL_DRU_Ynnari_04
 				}
 			}
 		}
@@ -113,12 +109,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_TheSevered_01
+					AEL_DRU_TheSevered_02
+					AEL_DRU_TheSevered_03
+					AEL_DRU_TheSevered_04
 				}
 			}
 		}		
@@ -127,12 +121,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_TheSevered_01
+					AEL_DRU_TheSevered_02
+					AEL_DRU_TheSevered_03
+					AEL_DRU_TheSevered_04
 				}
 			}
 		}
@@ -215,12 +207,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_LastHatred_01
+					AEL_DRU_LastHatred_02
+					AEL_DRU_LastHatred_03
+					AEL_DRU_LastHatred_04
 				}
 			}
 		}		
@@ -229,12 +219,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_LastHatred_01
+					AEL_DRU_LastHatred_02
+					AEL_DRU_LastHatred_03
+					AEL_DRU_LastHatred_04
 				}
 			}
 		}
@@ -317,12 +305,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_IronThorn_01
+					AEL_DRU_IronThorn_02
+					AEL_DRU_IronThorn_03
+					AEL_DRU_IronThorn_04
 				}
 			}
 		}		
@@ -331,12 +317,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_IronThorn_01
+					AEL_DRU_IronThorn_02
+					AEL_DRU_IronThorn_03
+					AEL_DRU_IronThorn_04
 				}
 			}
 		}
@@ -419,12 +403,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_FlayedSkull_01
+					AEL_DRU_FlayedSkull_02
+					AEL_DRU_FlayedSkull_03
+					AEL_DRU_FlayedSkull_04
 				}
 			}
 		}		
@@ -433,12 +415,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_FlayedSkull_01
+					AEL_DRU_FlayedSkull_02
+					AEL_DRU_FlayedSkull_03
+					AEL_DRU_FlayedSkull_04
 				}
 			}
 		}
@@ -521,12 +501,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_DyingSun_01
+					AEL_DRU_DyingSun_02
+					AEL_DRU_DyingSun_03
+					AEL_DRU_DyingSun_04
 				}
 			}
 		}		
@@ -535,12 +513,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_DyingSun_01
+					AEL_DRU_DyingSun_02
+					AEL_DRU_DyingSun_03
+					AEL_DRU_DyingSun_04
 				}
 			}
 		}
@@ -623,12 +599,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_BrokenSigil_01
+					AEL_DRU_BrokenSigil_02
+					AEL_DRU_BrokenSigil_03
+					AEL_DRU_BrokenSigil_04
 				}
 			}
 		}		
@@ -637,12 +611,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_BrokenSigil_01
+					AEL_DRU_BrokenSigil_02
+					AEL_DRU_BrokenSigil_03
+					AEL_DRU_BrokenSigil_04
 				}
 			}
 		}
@@ -725,12 +697,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_Blackheart_01
+					AEL_DRU_Blackheart_02
+					AEL_DRU_Blackheart_03
+					AEL_DRU_Blackheart_04
 				}
 			}
 		}		
@@ -739,12 +709,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_DRU_Blackheart_01
+					AEL_DRU_Blackheart_02
+					AEL_DRU_Blackheart_03
+					AEL_DRU_Blackheart_04
 				}
 			}
 		}

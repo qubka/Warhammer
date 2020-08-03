@@ -11,7 +11,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_Goff_BigBoss_01
+					ORK_Goff_BigBoss_02
+					ORK_Goff_BigBoss_03
+					ORK_Goff_BigBoss_04
 				}
 			}
 		}		
@@ -20,7 +23,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_Goff_BigBoss_01
+					ORK_Goff_BigBoss_02
+					ORK_Goff_BigBoss_03
+					ORK_Goff_BigBoss_04
 				}
 			}
 		}
@@ -105,7 +111,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_EvilSunz_BigBoss_01
+					ORK_EvilSunz_BigBoss_02
+					ORK_EvilSunz_BigBoss_03
+					ORK_EvilSunz_BigBoss_04
 				}
 			}
 		}		
@@ -114,7 +123,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_EvilSunz_BigBoss_01
+					ORK_EvilSunz_BigBoss_02
+					ORK_EvilSunz_BigBoss_03
+					ORK_EvilSunz_BigBoss_04
 				}
 			}
 		}
@@ -199,7 +211,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_DeathSkullz_01
+					ORK_DeathSkullz_02
+					ORK_DeathSkullz_03
+					ORK_DeathSkullz_04
 				}
 			}
 		}		
@@ -208,7 +223,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_DeathSkullz_01
+					ORK_DeathSkullz_02
+					ORK_DeathSkullz_03
+					ORK_DeathSkullz_04
 				}
 			}
 		}
@@ -291,7 +309,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BloodAxe_01
+					ORK_BloodAxe_02
+					ORK_BloodAxe_03
+					ORK_BloodAxe_04
 				}
 			}
 		}		
@@ -300,7 +321,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BloodAxe_01
+					ORK_BloodAxe_02
+					ORK_BloodAxe_03
+					ORK_BloodAxe_04
 				}
 			}
 		}
@@ -383,7 +407,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BigMek_01
+					ORK_BigMek_02
+					ORK_BigMek_03
+					ORK_BigMek_04
 				}
 			}
 		}		
@@ -392,7 +419,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BigMek_01
+					ORK_BigMek_02
+					ORK_BigMek_03
+					ORK_BigMek_04
 				}
 			}
 		}
@@ -475,7 +505,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BigBoss_01
+					ORK_BigBoss_02
+					ORK_BigBoss_03
+					ORK_BigBoss_04
 				}
 			}
 		}		
@@ -484,7 +517,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BigBoss_01
+					ORK_BigBoss_02
+					ORK_BigBoss_03
+					ORK_BigBoss_04
 				}
 			}
 		}
@@ -569,7 +605,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BadMoonz_BigBoss_01
+					ORK_BadMoonz_BigBoss_02
+					ORK_BadMoonz_BigBoss_03
+					ORK_BadMoonz_BigBoss_04
 				}
 			}
 		}		
@@ -578,7 +617,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_hp_12
+					ORK_BadMoonz_BigBoss_01
+					ORK_BadMoonz_BigBoss_02
+					ORK_BadMoonz_BigBoss_03
+					ORK_BadMoonz_BigBoss_04
 				}
 			}
 		}
