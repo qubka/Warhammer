@@ -70,7 +70,7 @@ origin_ultra_marines = {
 	advanced_start = yes
 }
 
-origin_space_wolfes = {
+origin_space_wolves = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
@@ -140,7 +140,7 @@ origin_imperial_fist = {
 	advanced_start = yes
 }
 
-origin_dark_angles = {
+origin_dark_angels = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis
@@ -154,7 +154,7 @@ origin_dark_angles = {
 	advanced_start = yes
 }
 
-origin_blood_angles = {
+origin_blood_angels = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis

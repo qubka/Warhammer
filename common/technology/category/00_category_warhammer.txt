@@ -17,3 +17,7 @@ ammo = {
 social = {
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_social.dds"
 }
+
+lost_knowledge = {
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_lost_knowledge.dds"
+}

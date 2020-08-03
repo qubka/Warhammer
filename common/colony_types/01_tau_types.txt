@@ -133,7 +133,7 @@ col_ecu_leisure = {
 
 	planet_modifier = {
 		planet_amenities_mult = 0.5
-		planet_jobs_entertainer_consumer_goods_upkeep_mult = -0.2
+		planet_entertainer_consumer_goods_upkeep_mult = -0.2
 	}
 
 	weight_modifier = {

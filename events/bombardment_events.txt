@@ -1,0 +1,319 @@
+namespace = bombardments
+
+planet_event = {
+	id = bombardments.1
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_orbital_bombardment_stance = exterminatus_1
+		from = { has_country_flag = human_empire }
+		habitable_planet = yes
+	}
+
+	immediate = {
+		random_list = {
+			30 = {
+				owner = {
+					add_static_war_exhaustion = {
+						attacker = from
+						location = root
+						value_for_planet_destruction = 0.5
+					}
+					country_event = { id = bombardments.2 }
+				}
+				from = { country_event = { id = bombardments.3 } }
+				change_pc = pc_nuked
+			}
+			30 = {
+				owner = {
+					add_static_war_exhaustion = {
+						attacker = from
+						location = root
+						value_for_planet_destruction = 0.5
+					}
+					country_event = { id = bombardments.4 }
+				}
+				from = { country_event = { id = bombardments.5 } }
+				change_pc = pc_barren
+			}
+			30 = {
+				owner = {
+					add_static_war_exhaustion = {
+						attacker = from
+						location = root
+						value_for_planet_destruction = 0.5
+					}
+					country_event = { id = bombardments.6 }
+				}
+				from = { country_event = { id = bombardments.7 } }
+				change_pc = pc_molten
+			}
+			30 = {
+				owner = {
+					add_static_war_exhaustion = {
+						attacker = from
+						location = root
+						value_for_planet_destruction = 0.5
+					}
+					country_event = { id = bombardments.8 }
+				}
+				from = { country_event = { id = bombardments.9 } }
+				change_pc = pc_toxic 
+			}
+		}
+		remove_all_buildings = yes
+		reroll_deposits = yes
+		remove_modifier = "natural_beauty"
+		remove_modifier = "atmospheric_aphrodisiac"
+		remove_modifier = "atmospheric_hallucinogen"
+		remove_modifier = "lush_planet"
+		remove_modifier = "dangerous_wildlife"
+		set_planet_flag = exterminatus_nuked
+		
+		save_event_target_as = exterminated_planet
+		
+		create_ambient_object = {
+			type = "exterminatus_explosion"
+			location = solar_system
+		}	
+		
+		last_created_ambient_object = {
+			set_location = {
+				target = event_target:exterminated_planet
+				distance = 0
+				angle = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bombardments.2
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.2.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = bombardments.2.a
+		custom_tooltip = bombed_to_tomb_world
+	}
+}
+
+country_event = {
+	id = bombardments.3
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.3.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		custom_tooltip = bombed_to_tomb_world
+	}
+}
+
+country_event = {
+	id = bombardments.4
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.2.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = bombardments.2.a
+		custom_tooltip = bombed_to_barren_world
+	}
+}
+
+country_event = {
+	id = bombardments.5
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.3.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		custom_tooltip = bombed_to_barren_world
+	}
+}
+
+country_event = {
+	id = bombardments.6
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.2.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = bombardments.2.a
+		custom_tooltip = bombed_to_molten_world
+	}
+}
+
+country_event = {
+	id = bombardments.7
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.3.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		custom_tooltip = bombed_to_molten_world
+	}
+}
+
+country_event = {
+	id = bombardments.8
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.2.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = bombardments.2.a
+		custom_tooltip = bombed_to_toxic_world
+	}
+}
+
+country_event = {
+	id = bombardments.9
+	title = "bombardments.2.name"
+	picture = GFX_evt_exterminatus
+	desc = bombardments.3.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		custom_tooltip = bombed_to_toxic_world
+	}
+}
+
+planet_event = {
+	id = bombardments.10
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_orbital_bombardment_stance = exterminatus_2
+		from = { has_country_flag = human_empire }
+		habitable_planet = yes
+	}
+
+	immediate = {
+		owner = {
+			add_static_war_exhaustion = {
+				attacker = from
+				location = root
+				value_for_planet_destruction = 1.0
+			}
+			country_event = { id = bombardments.11 }
+		}
+		if = {
+			limit = { is_capital = yes }
+			from.owner = { set_country_flag = exterminatus }
+		}
+		from = { country_event = { id = bombardments.12 } }
+		change_pc = pc_shattered
+		remove_all_buildings = yes
+		clear_deposits = yes
+		set_planet_flag = exterminatus_cracked
+		
+		random_list = {
+			1 = {
+				add_deposit = d_minerals_4
+				add_deposit = d_minerals_4
+				add_deposit = d_minerals_4
+				add_deposit = d_minerals_4
+			}
+			1 = {
+				add_deposit = d_minerals_4
+				add_deposit = d_minerals_4
+				add_deposit = d_minerals_4
+			}
+			1 = {
+				add_deposit = d_minerals_4
+				add_deposit = d_minerals_4
+			}
+			1 = {
+				add_deposit = d_minerals_4
+			}
+		}
+		
+		save_event_target_as = exterminated_planet
+		
+		create_ambient_object = {
+			type = "exterminatus_explosion"
+			location = solar_system
+		}	
+		
+		last_created_ambient_object = {
+			set_location = {
+				target = event_target:exterminated_planet
+				distance = 0
+				angle = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bombardments.11
+	title = "bombardments.11.name"
+	picture = GFX_evt_exterminatus_2
+	desc = bombardments.11.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = bombardments.2.a
+		custom_tooltip = bombed_to_shattered_world
+	}
+}
+
+country_event = {
+	id = bombardments.12
+	title = "bombardments.11.name"
+	picture = GFX_evt_exterminatus_2
+	desc = bombardments.12.desc
+	show_sound = event_super_explosion
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		custom_tooltip = bombed_to_shattered_world
+	}
+}

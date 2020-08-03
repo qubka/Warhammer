@@ -59,9 +59,7 @@ harridan = {
 	
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -119,9 +117,7 @@ hierodule = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -179,9 +175,7 @@ dominatrix = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -239,9 +233,7 @@ hierophant = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -299,8 +291,6 @@ viciator = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }

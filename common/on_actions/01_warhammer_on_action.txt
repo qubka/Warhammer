@@ -15,3 +15,13 @@ on_yearly_pulse = {
 		leaders.2
 	}
 }
+
+# Planet has reached 0 pops from orbital bombardment
+# This = Planet
+# From = Bombarder
+on_planet_zero_pops = {
+	events = {
+		bombardments.1
+		bombardments.10
+	}
+}

@@ -27,9 +27,7 @@ skitarii_defense = {
 				is_planet_class = pc_forge_ring3
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -48,9 +46,7 @@ penal_legion_defense = {
 		planet = {
 			is_planet_class = pc_penal
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -72,9 +68,7 @@ death_korps_defense = {
 			is_planet_class = pc_tomb
 			is_planet_class = pc_asteroid
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -97,9 +91,7 @@ imperial_guard_big_defense = {
 				is_planet_class = pc_mega_hive
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -126,9 +118,7 @@ imperial_guard_medium_defense = {
 				is_planet_class = pc_hive_industrial
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -144,9 +134,7 @@ imperial_guard_small_defense = {
 	icon_frame = 127
 
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -168,8 +156,6 @@ heavy_weapon_squad_defense = {
 				is_planet_class = pc_armoury
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }

@@ -27,13 +27,11 @@ ork_nobz = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "ork_nobz_recruitment"
+		#has_building = ork_nobz_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -61,9 +59,7 @@ storm_boyz = {
 	#prerequisites = { "tech_basic_army" }
 
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -91,9 +87,7 @@ tankbustas = {
 	#prerequisites = { "tech_basic_army" }
 
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -121,9 +115,7 @@ ork_shoota_boyz = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -151,9 +143,7 @@ ork_slugga_boyz = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -181,9 +171,7 @@ mek_boyz = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -211,9 +199,7 @@ grotz = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -241,13 +227,11 @@ lootas = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "kommandoz_recruitment"
+		#has_building = kommandoz_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -275,13 +259,11 @@ stikkbommaz = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "kommandoz_recruitment"
+		#has_building = kommandoz_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -309,13 +291,11 @@ weird_boyz = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "kommandoz_recruitment"
+		#has_building = kommandoz_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -343,13 +323,11 @@ kommando_squad = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "kommandoz_recruitment"
+		#has_building = kommandoz_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -377,13 +355,11 @@ kommandoz = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "kommandoz_recruitment"
+		#has_building = kommandoz_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -411,9 +387,7 @@ wartrukk = {
 	#prerequisites = { "tech_titans_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -441,9 +415,7 @@ battlewagon = {
 	#prerequisites = { "tech_titans_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -471,9 +443,7 @@ deff_dread = {
 	#prerequisites = { "tech_titans_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -501,9 +471,7 @@ looted_tank = {
 	#prerequisites = { "tech_titans_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -531,7 +499,7 @@ stompa = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "stompa_recruitment"
+		#has_building = stompa_recruitment
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -561,9 +529,7 @@ stompa = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -591,7 +557,7 @@ gargant = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "gargant_recruitment"
+		#has_building = gargant_recruitment
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -621,8 +587,6 @@ gargant = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }

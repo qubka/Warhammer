@@ -27,9 +27,7 @@ fire_warriors = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -58,9 +56,7 @@ guevesa = {
 
 	potential = {
 		#planet = { has_planet_flag = human_planet }
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -89,9 +85,7 @@ demiurg = {
 	
 	potential = {
 		#planet = { has_planet_flag = demiurg_planet }
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -120,9 +114,7 @@ vespid = {
 	
 	potential = {
 		#planet = { has_planet_flag = vespid_planet }
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -151,9 +143,7 @@ kroot = {
 
 	potential = {
 		#planet = { has_planet_flag = pech_planet }
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -181,9 +171,7 @@ xv8_crisis_battlesuits = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -211,13 +199,11 @@ xv25_stealthsuit = {
 	#prerequisites = { "tech_medium_army" }
 	
 	allow = {
-		#has_building = "xv25_recruitment"
+		#has_building = xv25_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -245,13 +231,11 @@ xv88_broadside_battlesuit = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "xv88_recruitment"
+		#has_building = xv88_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -279,13 +263,11 @@ xv104_riptide_battlesuit = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "xv104_recruitment"
+		#has_building = xv104_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -313,12 +295,10 @@ hammerhead_gunship = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "hammerhead_recruitment"
+		#has_building = hammerhead_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }

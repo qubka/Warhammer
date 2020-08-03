@@ -57,7 +57,10 @@ marauder_1_1 = {
 						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = { 
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -95,7 +98,10 @@ marauder_1_1 = {
 						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -133,7 +139,10 @@ marauder_1_1 = {
 						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -171,7 +180,10 @@ marauder_1_1 = {
 						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -209,7 +221,10 @@ marauder_1_1 = {
 						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -247,7 +262,10 @@ marauder_1_1 = {
 						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -285,7 +303,10 @@ marauder_1_1 = {
 						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1337,7 +1358,10 @@ marauder_2_1 = {
 						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1375,7 +1399,10 @@ marauder_2_1 = {
 						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1413,7 +1440,10 @@ marauder_2_1 = {
 						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1451,7 +1481,10 @@ marauder_2_1 = {
 						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1489,7 +1522,10 @@ marauder_2_1 = {
 						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1527,7 +1563,10 @@ marauder_2_1 = {
 						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -1565,7 +1604,10 @@ marauder_2_1 = {
 						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2555,7 +2597,10 @@ marauder_3_1 = {
 						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2593,7 +2638,10 @@ marauder_3_1 = {
 						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2631,7 +2679,10 @@ marauder_3_1 = {
 						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2669,7 +2720,10 @@ marauder_3_1 = {
 						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2707,7 +2761,10 @@ marauder_3_1 = {
 						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2745,7 +2802,10 @@ marauder_3_1 = {
 						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {
@@ -2783,7 +2843,10 @@ marauder_3_1 = {
 						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						room = "corsair_room"
 						ethos = {

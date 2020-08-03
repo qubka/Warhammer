@@ -1,6 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_ship_part_warp_jump_drive_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_warp_jump_drive_1.dds"
+	}
+
+	spriteType = {
 		name = "GFX_faction_icon_imperialist"
 		textureFile = "gfx/interface/icons/faction_icons/faction_icons_imperialists.dds"
 		noOfFrames = 1
@@ -81,7 +86,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_army_icons"
 		textureFile = "gfx/interface/planetview/army_icon.dds"
-		noOfFrames = 159
+		noOfFrames = 161
 	}
 
 	spriteType = {
@@ -360,6 +365,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_clausewitz_logo"
 		textureFile = "gfx/interface/icons/clausewitz_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_gw_logo"
+		textureFile = "gfx/interface/icons/gw_logo.dds"
 	}
 
 	spriteType = {

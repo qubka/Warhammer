@@ -12,6 +12,8 @@ decision_promethium_mine = {
 		}
 	}
 	
+	prerequisites = { "tech_promethium_mining" }
+
 	potential = {
 		OR = {
 			is_planet_class = pc_desert
@@ -56,6 +58,8 @@ decision_promethium_prospecting = {
 			energy = 1000
 		}
 	}
+	
+	prerequisites = { "tech_minerals_prospecting" }
 	
 	potential = {
 		OR = {
@@ -114,6 +118,8 @@ decision_burn_promethium = {
 		}
 	}
 	
+	prerequisites = { "tech_burn_promethium" }
+	
 	potential = {
 		exists = owner
 		owner = { has_country_flag = human_empire }
@@ -165,6 +171,8 @@ decision_small_hive_project = {
 		}
 	}
 
+	prerequisites = { "tech_hive_project" }
+	
 	potential = {
 		OR = {
 			is_planet_class = pc_desert
@@ -287,6 +295,8 @@ decision_medium_hive_project = {
 			alloys = 1000
 		}
 	}
+	
+	prerequisites = { "tech_hive_project" }
 
 	potential = {
 		OR = {
@@ -332,6 +342,8 @@ decision_super_hive_project = {
 			alloys = 1500
 		}
 	}
+	
+	prerequisites = { "tech_hive_project" }
 
 	potential = {
 		is_planet_class = pc_hive_medium
@@ -371,6 +383,8 @@ decision_mega_hive_project = {
 			alloys = 2500
 		}
 	}
+	
+	prerequisites = { "tech_hive_project" }
 
 	potential = {
 		is_planet_class = pc_super_hive
@@ -412,6 +426,8 @@ decision_industrial_project = {
 		}
 	}
 
+	prerequisites = { "tech_forge_project" }
+	
 	potential = {
 		OR = {
 			is_planet_class = pc_desert
@@ -504,6 +520,8 @@ decision_hive_industrial_project = {
 			alloys = 1000
 		}
 	}
+
+	prerequisites = { "tech_hive_project" "tech_forge_project" }
 	
 	potential = {
 		is_planet_class = pc_industrial
@@ -542,6 +560,8 @@ decision_forge_project = {
 			minerals = 7500
 		}
 	}
+	
+	prerequisites = { "tech_forge_project" }
 	
 	potential = {
 		is_planet_class = pc_industrial
@@ -602,6 +622,8 @@ decision_forge_ring_project = {
 			alloys = 1500
 		}
 	}
+	
+	prerequisites = { "tech_forge_project" }
 	
 	potential = {
 		OR = {
@@ -669,6 +691,8 @@ decision_agri_project = {
 			energy = 5000
 		}
 	}
+	
+	prerequisites = { "tech_agri_project" }
 
 	potential = {
 		OR = {
@@ -714,6 +738,8 @@ decision_shrine_project = {
 		}
 	}
 
+	prerequisites = { "tech_shrine_project" }
+	
 	potential = {
 		OR = {
 			is_planet_class = pc_desert
@@ -764,6 +790,8 @@ decision_penal_project = {
 			minerals = 2500
 		}
 	}
+	
+	prerequisites = { "tech_penal_project" }
 
 	potential = {
 		OR = {
@@ -814,6 +842,8 @@ decision_fortress_project = {
 			alloys = 5000
 		}
 	}
+	
+	prerequisites = { "tech_fortress_project" }
 
 	potential = {
 		OR = {
@@ -864,6 +894,8 @@ decision_armoury_project = {
 			minerals = 2500
 		}
 	}
+	
+	prerequisites = { "tech_armoury_project" }
 
 	potential = {
 		OR = {

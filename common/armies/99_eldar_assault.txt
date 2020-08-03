@@ -27,7 +27,7 @@ wraithguard = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "wraithguard_recruitment"
+		#has_building = wraithguard_recruitment
 		
 		owner = {
 			NOT = { 
@@ -61,9 +61,7 @@ wraithguard = {
 		planet = {
 			is_planet_class = pc_craftworld 
 		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -91,7 +89,7 @@ wraithlord = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "wraithlord_recruitment"
+		#has_building = wraithlord_recruitment
 		
 		owner = {
 			NOT = { 
@@ -122,9 +120,7 @@ wraithlord = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -152,7 +148,7 @@ wraithknight = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "wraithlord_recruitment"
+		#has_building = wraithlord_recruitment
 		
 		owner = {
 			NOT = { 
@@ -183,9 +179,7 @@ wraithknight = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -213,7 +207,7 @@ avatar = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "wraithknight_recruitment"
+		#has_building = wraithknight_recruitment
 		
 		owner = {
 			NOT = { 
@@ -247,9 +241,7 @@ avatar = {
 		planet = {
 			is_planet_class = pc_craftworld 
 		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -277,13 +269,11 @@ cobra = {
 	#prerequisites = { "tech_medium_army" }
 	
 	allow = {
-		#has_building = "cobra_recruitment"
+		#has_building = cobra_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -320,9 +310,7 @@ warp_spiders = {
 		planet = {
 			is_planet_class = pc_craftworld 
 		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -350,13 +338,11 @@ falcon = {
 	#prerequisites = { "tech_medium_army" }
 	
 	allow = {
-		#has_building = "falcon_recruitment"
+		#has_building = falcon_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -384,9 +370,7 @@ guardian_squad = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -414,9 +398,7 @@ ranger_squad = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -444,9 +426,7 @@ howling_banshee = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -506,8 +486,6 @@ warlock = {
 		planet = {
 			has_planet_flag = ulthwecraftworld
 		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }

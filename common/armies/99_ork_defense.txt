@@ -18,9 +18,7 @@ ork_nobz_defense = {
 		planet = {
 			is_planet_class = pc_orkworld
 		}
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }
 
@@ -36,8 +34,6 @@ stormboyz_defense = {
 	icon_frame = 2
 
 	potential = {
-		owner = {
-			has_country_flag = ork_empire
-		}
+		owner = { has_country_flag = ork_empire }
 	}
 }

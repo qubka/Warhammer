@@ -27,7 +27,7 @@ chaos_imperial_knight = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "chaos_building_imperial_knight_base_1"
+		#has_building = chaos_building_imperial_knight_base_1
 	
 		owner = {
 			NOT = { 
@@ -60,11 +60,9 @@ chaos_imperial_knight = {
 
 	potential = {
 		planet = {
-			#has_building = "chaos_building_imperial_knight_base_1"
+			#has_building = chaos_building_imperial_knight_base_1
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -92,7 +90,7 @@ chaos_warhound_titan = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "chaos_building_warhound_titan_base_1"
+		#has_building = chaos_building_warhound_titan_base_1
 		
 		owner = {
 			NOT = { 
@@ -125,11 +123,9 @@ chaos_warhound_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_warhound_titan_base_1"
+			#has_building = chaos_building_warhound_titan_base_1
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -157,7 +153,7 @@ chaos_reaver_titan = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "chaos_building_reaver_titan_base_1"
+		#has_building = chaos_building_reaver_titan_base_1
 		
 		owner = {
 			NOT = { 
@@ -190,11 +186,9 @@ chaos_reaver_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_reaver_titan_base_1"
+			#has_building = chaos_building_reaver_titan_base_1
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -222,7 +216,7 @@ chaos_warlord_titan = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "chaos_building_warlord_titan_base_1"
+		#has_building = chaos_building_warlord_titan_base_1
 		
 		owner = {
 			NOT = { 
@@ -255,11 +249,9 @@ chaos_warlord_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_warlord_titan_base_1"
+			#has_building = chaos_building_warlord_titan_base_1
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -287,7 +279,7 @@ chaos_emperor_titan = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "chaos_building_emperor_titan_base_1"
+		#has_building = chaos_building_emperor_titan_base_1
 		
 		owner = {
 			NOT = { 
@@ -320,10 +312,8 @@ chaos_emperor_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_emperor_titan_base_1"
+			#has_building = chaos_building_emperor_titan_base_1
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }

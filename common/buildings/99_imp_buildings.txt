@@ -342,6 +342,8 @@ building_heavy_bolter_turret = {
 	upgrades = {
 		building_planetery_turret_1
 	}
+	
+	prerequisites = { "tech_heavy_bolter_turret" }
 
 	planet_modifier = {
 		job_soldier_add = 2
@@ -786,6 +788,84 @@ building_sacred_artifact = {
 		modifier = {
 			factor = 0
 			has_building = building_sacred_artifact
+		}
+	}
+}
+
+building_fishing_post = {
+	base_buildtime = 240
+
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = human_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { NOT = { has_country_flag = human_empire } }
+			NOR = {
+				is_planet_class = pc_tropical
+				is_planet_class = pc_ocean
+				is_planet_class = pc_continental
+				is_planet_class = pc_gaia
+				is_planet_class = pc_tundra
+				is_planet_class = pc_arctic
+				is_planet_class = pc_alpine
+			}
+		}
+	}
+	
+	allow = {
+		OR = {
+			is_planet_class = pc_tropical
+			is_planet_class = pc_ocean
+			is_planet_class = pc_continental
+			is_planet_class = pc_gaia
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_alpine
+		}
+	}
+	
+	prerequisites = { "tech_fishing_post" }
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = {
+				exists = owner
+				owner = { NOT = { has_deficit = energy } }
+			}
+			food = 100
+		}
+		cost = {
+			minerals = 300
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value < 100
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		food = 1
+		trigger = {
+			always = yes
 		}
 	}
 }
@@ -1824,6 +1904,8 @@ building_saint_statue = {
 	allow = {
 		has_upgraded_capital = yes
 	}
+	
+	prerequisites = { "tech_imperium_statues" }
 
 	planet_modifier = {
 		planet_stability_add = 15
@@ -1861,6 +1943,8 @@ building_grim_reaper_statue = {
 	allow = {
 		has_upgraded_capital = yes
 	}
+	
+	prerequisites = { "tech_imperium_statues" }
 
 	planet_modifier = {
 		planet_jobs_energy_produces_mult = 0.1
@@ -1895,6 +1979,8 @@ building_angel_statue = {
 		exists = owner
 		owner = { NOT = { has_country_flag = human_empire } }
 	}
+	
+	prerequisites = { "tech_imperium_statues" }
 	
 	allow = {
 		has_upgraded_capital = yes
@@ -1936,6 +2022,8 @@ building_legionary_statue = {
 	allow = {
 		has_upgraded_capital = yes
 	}
+	
+	prerequisites = { "tech_imperium_statues" }
 
 	army_modifier = {
 		army_attack_health_mult = 0.1
@@ -1974,6 +2062,8 @@ building_memorial_bundle = {
 	allow = {
 		has_upgraded_capital = yes
 	}
+	
+	prerequisites = { "tech_imperium_statues" }
 
 	planet_modifier = {
 		planet_buildings_cost_mult = -0.1

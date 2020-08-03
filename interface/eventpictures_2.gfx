@@ -146,4 +146,18 @@ spriteTypes = {
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "GFX_evt_exterminatus"
+		texturefile = "gfx/event_pictures/exterminatus.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_exterminatus_2"
+		texturefile = "gfx/event_pictures/exterminatus_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
 }

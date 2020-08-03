@@ -16,7 +16,9 @@ imperial_knight = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1050
+			alloys = 1050
+			electronics = 100
+			military_goods = 50
 		}
 
 		upkeep = {
@@ -24,12 +26,11 @@ imperial_knight = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_collegia_titanica" }
 	
 	allow = {
-		#has_building = "building_imperial_knight_base_1"
+		has_building = building_machine_cult
 
-		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -61,11 +62,16 @@ imperial_knight = {
 
 	potential = {
 		planet = {
-			#has_building = "building_imperial_knight_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -82,7 +88,9 @@ warhound_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1250
+			alloys = 1250
+			electronics = 150
+			military_goods = 50
 		}
 
 		upkeep = {
@@ -90,10 +98,10 @@ warhound_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_collegia_titanica" }
 	
 	allow = {
-		#has_building = "building_warhound_titan_base_1"
+		has_building = building_machine_cult
 		
 		owner = {
 			NOT = { 
@@ -126,11 +134,16 @@ warhound_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "building_warhound_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -147,7 +160,9 @@ reaver_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1450
+			alloys = 1450
+			electronics = 150
+			military_goods = 100
 		}
 
 		upkeep = {
@@ -155,10 +170,10 @@ reaver_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_collegia_titanica" }
 	
 	allow = {
-		#has_building = "building_reaver_titan_base_1"
+		has_building = building_machine_cult
 		
 		owner = {
 			NOT = { 
@@ -191,11 +206,16 @@ reaver_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "building_reaver_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -212,7 +232,9 @@ warlord_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1650
+			alloys = 1650
+			electronics = 200
+			military_goods = 150
 		}
 
 		upkeep = {
@@ -220,10 +242,10 @@ warlord_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_collegia_titanica" }
 	
 	allow = {
-		#has_building = "building_warlord_titan_base_1"
+		has_building = building_machine_cult
 		
 		owner = {
 			NOT = { 
@@ -255,11 +277,16 @@ warlord_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "building_warlord_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -276,7 +303,9 @@ emperor_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 2000
+			alloys = 2000
+			electronics = 300
+			military_goods = 250
 		}
 
 		upkeep = {
@@ -284,10 +313,10 @@ emperor_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_collegia_titanica" }
 	
 	allow = {
-		#has_building = "building_emperor_titan_base_1"
+		has_building = building_machine_cult
 		
 		owner = {
 			NOT = { 
@@ -320,10 +349,15 @@ emperor_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "building_emperor_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }

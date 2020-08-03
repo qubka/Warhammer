@@ -7,13 +7,13 @@ portraits = {
 	# IMP
 	IMP_WhiteScars_ruler = { texturefile = "gfx/portraits/warhammer/IMP_WhiteScars_ruler.dds" }
 	IMP_Ultramarines_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Ultramarines_ruler.dds" }
-	IMP_SpaceWolfes_ruler = { texturefile = "gfx/portraits/warhammer/IMP_SpaceWolfes_ruler.dds" }
+	IMP_SpaceWolves_ruler = { texturefile = "gfx/portraits/warhammer/IMP_SpaceWolves_ruler.dds" }
 	IMP_Salamanders_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Salamanders_ruler.dds" }
 	IMP_RavenGuard_ruler = { texturefile = "gfx/portraits/warhammer/IMP_RavenGuard_ruler.dds" }
 	IMP_IronHand_ruler = { texturefile = "gfx/portraits/warhammer/IMP_IronHand_ruler.dds" }
 	IMP_ImperialFist_ruler = { texturefile = "gfx/portraits/warhammer/IMP_ImperialFist_ruler.dds" }
-	IMP_DarkAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_DarkAngles_ruler.dds" }
-	IMP_BloodAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_BloodAngles_ruler.dds" }
+	IMP_DarkAngels_ruler = { texturefile = "gfx/portraits/warhammer/IMP_DarkAngels_ruler.dds" }
+	IMP_BloodAngels_ruler = { texturefile = "gfx/portraits/warhammer/IMP_BloodAngels_ruler.dds" }
 	IMP_Emperor_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Emperor_ruler.dds" }
 	IMP_Navy_ruler1 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler1.dds" }
 	IMP_Navy_ruler2 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler2.dds" }

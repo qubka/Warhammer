@@ -258,12 +258,12 @@ portrait_groups = {
 		}
 	}
 
-	imp_space_wolfes = {
+	imp_space_wolves = {
 		
 		default = IMP_N_IronPriestFiremaw
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = IMP_SpaceWolfes_ruler
+			default = IMP_SpaceWolves_ruler
 		}
 		
 		#species scope
@@ -385,7 +385,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_SpaceWolfes_ruler
+					IMP_SpaceWolves_ruler
 				}
 			}
 		}
@@ -896,12 +896,12 @@ portrait_groups = {
 		}
 	}
 	
-	imp_dark_angles = {
+	imp_dark_angels = {
 		
 		default = IMP_N_MasterofthefleetKorahael
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = IMP_DarkAngles_ruler
+			default = IMP_DarkAngels_ruler
 		}
 		
 		#species scope
@@ -1017,18 +1017,18 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_DarkAngles_ruler
+					IMP_DarkAngels_ruler
 				}
 			}
 		}
 	}
 	
-	imp_blood_angles = {
+	imp_blood_angels = {
 		
 		default = IMP_N_CaptainDonatosAphael
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = IMP_BloodAngles_ruler
+			default = IMP_BloodAngels_ruler
 		}
 		
 		#species scope
@@ -1144,7 +1144,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_BloodAngles_ruler
+					IMP_BloodAngels_ruler
 				}
 			}
 		}

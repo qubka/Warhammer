@@ -27,7 +27,7 @@ emperors_children = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_emperors_children_fortress_monastery"
+		#has_building = building_emperors_children_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -58,11 +58,9 @@ emperors_children = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_emperors_children_fortress_monastery"
+			#has_building = building_emperors_children_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -90,7 +88,7 @@ iron_warriors = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_iron_warriors_fortress_monastery"
+		#has_building = building_iron_warriors_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -121,11 +119,9 @@ iron_warriors = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_thousand_sons_fortress_monastery"
+			#has_building = building_thousand_sons_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -153,7 +149,7 @@ night_lords = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_night_lords_fortress_monastery"
+		#has_building = building_night_lords_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -184,11 +180,9 @@ night_lords = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_thousand_sons_fortress_monastery"
+			#has_building = building_thousand_sons_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -220,7 +214,7 @@ world_eaters = {
 	}
 	
 	allow = {
-		#has_building = "building_world_eaters_fortress_monastery"
+		#has_building = building_world_eaters_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -251,11 +245,9 @@ world_eaters = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_world_eaters_fortress_monastery"
+			#has_building = building_world_eaters_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -283,7 +275,7 @@ death_guard = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_death_guard_fortress_monastery"
+		#has_building = building_death_guard_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -314,11 +306,9 @@ death_guard = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_death_guard_fortress_monastery"
+			#has_building = building_death_guard_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -346,7 +336,7 @@ thousand_sons = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_thousand_sons_fortress_monastery"
+		#has_building = building_thousand_sons_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -377,11 +367,9 @@ thousand_sons = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_thousand_sons_fortress_monastery"
+			#has_building = building_thousand_sons_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -409,7 +397,7 @@ black_legion = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_black_legion_fortress_monastery"
+		#has_building = building_black_legion_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -440,11 +428,9 @@ black_legion = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_black_legion_fortress_monastery"
+			#has_building = building_black_legion_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -472,7 +458,7 @@ word_bearers = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_word_bearers_fortress_monastery"
+		#has_building = building_word_bearers_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -503,11 +489,9 @@ word_bearers = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_word_bearers_fortress_monastery"
+			#has_building = building_word_bearers_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -535,7 +519,7 @@ alpha_legion = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_alpha_legion_fortress_monastery"
+		#has_building = building_alpha_legion_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -566,11 +550,9 @@ alpha_legion = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_word_bearers_fortress_monastery"
+			#has_building = building_word_bearers_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -598,7 +580,7 @@ red_corsairs = {
 	#prerequisites = { "tech_gene_seed_purification" }
 	
 	allow = {
-		#has_building = "building_alpha_legion_fortress_monastery"
+		#has_building = building_alpha_legion_fortress_monastery
 		owner = {
 			not = { 
 				check_variable = {
@@ -629,10 +611,8 @@ red_corsairs = {
 	}
 	potential = {
 		planet = {
-			#has_building = "building_word_bearers_fortress_monastery"
+			#has_building = building_word_bearers_fortress_monastery
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }

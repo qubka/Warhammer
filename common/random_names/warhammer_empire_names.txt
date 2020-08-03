@@ -42,10 +42,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 9999
-			has_country_flag = the_space_wolfes 
+			has_country_flag = the_space_wolves 
 		}
 	}
-	format = "Space Wolfes"
+	format = "Space Wolves"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }
@@ -107,10 +107,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 9999
-			has_country_flag = the_dark_angles 
+			has_country_flag = the_dark_angels 
 		}
 	}
-	format = "Dark Angles"
+	format = "Dark Angels"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }
@@ -120,10 +120,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 9999
-			has_country_flag = the_blood_angles 
+			has_country_flag = the_blood_angels 
 		}
 	}
-	format = "Blood Angles"
+	format = "Blood Angels"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }

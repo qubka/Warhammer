@@ -21,7 +21,7 @@ alpha_legion = {
 	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xx" "civic_extremly_secretive" }
+	civics = { "civic_xx" "civic_extremly_secretive" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_alpha_legion"
 
@@ -87,7 +87,7 @@ black_legion = {
 	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xvi" "civic_chaos_undivided" }
+	civics = { "civic_xvi" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_black_legion"
 
@@ -153,7 +153,7 @@ death_guard = {
 	room = "nurgle_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xiv" "civic_nurgle_cult" }
+	civics = { "civic_xiv" "civic_nurgle_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_death_guard"
 
@@ -219,7 +219,7 @@ emperor_children = {
 	room = "slaanesh_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_iii" "civic_slaanesh_cult" }
+	civics = { "civic_iii" "civic_slaanesh_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_emperor_children"
 
@@ -285,7 +285,7 @@ iron_warrior = {
 	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_iv" "civic_chaos_undivided" }
+	civics = { "civic_iv" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_iron_warrior"
 
@@ -351,7 +351,7 @@ night_lords = {
 	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_viii" "civic_chaos_undivided" }
+	civics = { "civic_viii" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_night_lords"
 
@@ -417,7 +417,7 @@ red_corsairs = {
 	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_chaos_corsairs" "civic_warrior_culture" }
+	civics = { "civic_chaos_corsairs" "civic_warrior_culture" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_red_corsairs"
 
@@ -483,7 +483,7 @@ thousand_sons = {
 	room = "tzeentch_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xv" "civic_tzeentch_cult" }
+	civics = { "civic_xv" "civic_tzeentch_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_thousand_sons"
 
@@ -549,7 +549,7 @@ word_bearer = {
 	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xvii" "civic_chaos_undivided" }
+	civics = { "civic_xvii" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_word_bearer"
 
@@ -615,7 +615,7 @@ world_eater = {
 	room = "khorne_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xii" "civic_khorne_cult" }
+	civics = { "civic_xii" "civic_khorne_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_world_eater"
 

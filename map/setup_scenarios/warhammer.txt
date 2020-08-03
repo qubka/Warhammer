@@ -1495,12 +1495,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Baal"
 		id = "161"
-		initializer = blood_angles_homeworld
+		initializer = blood_angels_homeworld
 		position = {
 			x = -57
 			y = -78
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_blood_angles } }
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_blood_angels } }
 	}
 
 	system = {
@@ -2496,12 +2496,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Fenris"
 		id = "261"
-		initializer = space_wolfes_homeworld
+		initializer = space_wolves_homeworld
 		position = {
 			x = 161
 			y = -112
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_space_wolfes } }
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_space_wolves } }
 	}
 
 	system = {
@@ -3123,12 +3123,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Caliban"
 		id = "325"
-		initializer = dark_angles_homeworld
+		initializer = dark_angels_homeworld
 		position = {
 			x = 264
 			y = -217
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dark_angles } }
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dark_angels } }
 	}
 
 	system = {

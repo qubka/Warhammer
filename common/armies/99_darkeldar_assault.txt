@@ -27,9 +27,7 @@ wyches = {
 	#prerequisites = { "tech_medium_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -57,9 +55,7 @@ kabalite_warriors = {
 	#prerequisites = { "tech_medium_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -87,13 +83,11 @@ warp_beast_pack = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "raider_recruitment"
+		#has_building = raider_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -121,13 +115,11 @@ hellion_squad = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "raider_recruitment"
+		#has_building = raider_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -155,13 +147,11 @@ scourge_squad = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "raider_recruitment"
+		#has_building = raider_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -189,9 +179,7 @@ mandrake_squad = {
 	#prerequisites = { "tech_basic_army" }
 
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -219,13 +207,11 @@ reaver_jetbike = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "raider_recruitment"
+		#has_building = raider_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -253,13 +239,11 @@ raider = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "raider_recruitment"
+		#has_building = raider_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -287,13 +271,11 @@ ravager = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "venom_recruitment"
+		#has_building = venom_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -321,13 +303,11 @@ dais = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "venom_recruitment"
+		#has_building = venom_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -355,9 +335,7 @@ haemonculus = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }
 
@@ -385,8 +363,6 @@ incubi = {
 	#prerequisites = { "tech_medium_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = darkeldar_empire
-		}
+		owner = { has_country_flag = darkeldar_empire }
 	}
 }

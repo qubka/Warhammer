@@ -24,9 +24,11 @@ promethium = {
 	market_price = 100
 	max = 15000
 
+	prerequisites = { "tech_promethium_mining" }
+	
 	visibility_prerequisite = { always = yes }
 	deficit_modifier = promethium_deficit
-	
+
 	ai_weight = {
 		weight = 100
 	}
@@ -52,6 +54,8 @@ gene_seed = {
 	tradable = no
 	max = 15000
 
+	prerequisites = { "tech_stabilize_gene_seed" }
+	
 	visibility_prerequisite = { always = yes }
 	deficit_modifier = gene_seed_deficit
 	

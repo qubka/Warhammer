@@ -75,7 +75,7 @@ col_hive_military_factory = {
 	
 	planet_modifier = {
 		planet_district_military_manufactoria_build_speed_mult = 0.25
-		planet_jobs_military_artisan_alloys_upkeep_mult = -0.2
+		planet_military_artisan_alloys_upkeep_mult = -0.2
 	}
 
 	weight_modifier = {
@@ -175,7 +175,7 @@ col_hive_technical_factory = {
 	
 	planet_modifier = {
 		planet_district_technical_manufactoria_build_speed_mult = 0.25
-		planet_jobs_electronics_manufacturer_alloys_upkeep_mult = -0.2
+		planet_electronics_manufacturer_alloys_upkeep_mult = -0.2
 	}
 
 	weight_modifier = {

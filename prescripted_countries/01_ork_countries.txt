@@ -20,7 +20,7 @@ goff = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_combat_specialists" "civic_great_waaagh" }
+	civics = { "civic_combat_specialists" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_goff"
 
@@ -84,7 +84,7 @@ evil_sunz = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_vehicles_lovers" "civic_great_waaagh" }
+	civics = { "civic_vehicles_lovers" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_evil_sunz"
 
@@ -148,7 +148,7 @@ death_skullz = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_scavengers_mobz" "civic_great_waaagh" }
+	civics = { "civic_scavengers_mobz" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_death_skullz"
 
@@ -212,7 +212,7 @@ blood_axe = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_camouflage_boyz" "civic_great_waaagh" }
+	civics = { "civic_camouflage_boyz" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_blood_axe"
 
@@ -276,7 +276,7 @@ big_mek = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_oddboyz_culture" "civic_great_waaagh" }
+	civics = { "civic_oddboyz_culture" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_big_mek"
 
@@ -340,7 +340,7 @@ big_boss = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_clever_nobz" "civic_great_waaagh" }
+	civics = { "civic_clever_nobz" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_big_boss"
 
@@ -404,7 +404,7 @@ bad_moons = {
 	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_teeth_growers" "civic_great_waaagh" }
+	civics = { "civic_teeth_growers" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_bad_moons"
 

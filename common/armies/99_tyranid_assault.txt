@@ -27,9 +27,7 @@ genestealer = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -57,9 +55,7 @@ ravener_brood = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -87,9 +83,7 @@ termagant = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -117,9 +111,7 @@ hormagaunt = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -147,9 +139,7 @@ tyranid_warrior = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -177,16 +167,14 @@ lictor = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	allow = {
-		#has_building = "xv25_recruitment"
+		#has_building = xv25_recruitment
 	}
 	
 	potential = {
 		planet = {
-			#has_building = "xv25_recruitment"
+			#has_building = xv25_recruitment
 		}
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -214,16 +202,14 @@ swarmlord = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	allow = {
-		#has_building = "xv88_recruitment"
+		#has_building = xv88_recruitment
 	}
 	
 	potential = {
 		planet = {
-			#has_building = "xv88_recruitment"
+			#has_building = xv88_recruitment
 		}
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -251,16 +237,14 @@ zoanthrope = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	allow = {
-		#has_building = "xv104_recruitment"
+		#has_building = xv104_recruitment
 	}
 	
 	potential = {
 		planet = {
-			#has_building = "xv104_recruitment"
+			#has_building = xv104_recruitment
 		}
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -288,15 +272,13 @@ hive_tyrant = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	allow = {
-		#has_building = "hammerhead_recruitment"
+		#has_building = hammerhead_recruitment
 	}
 	
 	potential = {
 		planet = {
-			#has_building = "hammerhead_recruitment"
+			#has_building = hammerhead_recruitment
 		}
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }

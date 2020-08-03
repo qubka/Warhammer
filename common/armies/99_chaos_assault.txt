@@ -28,9 +28,7 @@ cultists = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-			#is_country_type = "chaos"
+		owner = { has_country_flag = chaos_empire #is_country_type = "chaos"
 		}
 	}
 }
@@ -59,9 +57,7 @@ bloodcrusher = {
 	#prerequisites = { "tech_assault_armies" }
 
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 	
 }
@@ -90,9 +86,7 @@ chaos_spawn = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 	
 }
@@ -121,9 +115,7 @@ plague_zombies = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 	
 }
@@ -152,13 +144,11 @@ defilers = {
 	#prerequisites = { "tech_basic_army" }
 	
 	allow = {
-		#has_building = "defilers_recruitment"
+		#has_building = defilers_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 	
 }
@@ -187,7 +177,7 @@ chaos_dreadnaught = {
 	#prerequisites = { "tech_basic_army" }
 
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		##has_building = chaos_building_imperial_knight_base_1
 	
 		owner = {
 			NOT = { 
@@ -219,9 +209,7 @@ chaos_dreadnaught = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -249,13 +237,11 @@ chaos_predator = {
 	#prerequisites = { "tech_medium_army" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		#has_building = chaos_predators_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 	
 }
@@ -303,9 +289,7 @@ bloodletters = {
 				is_planet_class = pc_daemonn
 			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 	
 }
@@ -334,9 +318,7 @@ nurglings = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 		planet = {
 			is_planet_class = pc_daemonn
 		}
@@ -367,9 +349,7 @@ havocs = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 		planet = {
 			is_planet_class = pc_daemon
 		}
@@ -400,9 +380,7 @@ noise_marines = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 		planet = {
 			is_planet_class = pc_daemons
 		}
@@ -436,9 +414,7 @@ plague_marines = {
 		planet = {
 			is_planet_class = pc_daemonn
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -466,7 +442,7 @@ great_unclear_one = {
 	#prerequisites = { "tech_basic_army" }
 	
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		##has_building = chaos_building_imperial_knight_base_1
 	
 		owner = {
 			NOT = { 
@@ -501,8 +477,6 @@ great_unclear_one = {
 		planet = {
 			is_planet_class = pc_daemonn
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }

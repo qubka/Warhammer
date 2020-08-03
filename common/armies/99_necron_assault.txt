@@ -27,9 +27,7 @@ attack_scarabs = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -57,9 +55,7 @@ lychguard = {
 	#prerequisites = { "tech_basic_army" }
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -87,9 +83,7 @@ necron_warriors = {
 	#prerequisites = { "tech_assault_armies" }
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -117,9 +111,7 @@ destroyer = {
 	#prerequisites = { "tech_medium_army" }
 
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -147,9 +139,7 @@ pariahs = {
 	#prerequisites = { "tech_medium_army" }
 
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -177,13 +167,11 @@ immortal = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "immortal_recruitment"
+		#has_building = immortal_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -211,13 +199,11 @@ wraith = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "canoptek_wraith_recruitment"
+		#has_building = canoptek_wraith_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -245,13 +231,11 @@ flayed_ones = {
 	#prerequisites = { "tech_advance_army" }
 	
 	allow = {
-		#has_building = "canoptek_wraith_recruitment"
+		#has_building = canoptek_wraith_recruitment
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -279,7 +263,7 @@ monolith = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "monolith_recruitment"
+		#has_building = monolith_recruitment
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -309,9 +293,7 @@ monolith = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -339,7 +321,7 @@ deceiver = {
 	#prerequisites = { "tech_titans_army" }
 	
 	allow = {
-		#has_building = "monolith_recruitment"
+		#has_building = monolith_recruitment
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -369,8 +351,6 @@ deceiver = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
