@@ -19,7 +19,7 @@ building_auditorium = {
 	
 	upgrades = {
 		building_administratum
-		building_stronghold
+		building_strong_hold
 	}
 	
 	convert_to = {
@@ -29,7 +29,7 @@ building_auditorium = {
 		building_cadre_headquarters
 		building_irontoff_bastion
 		building_ancient_monolith
-		building_chaos_complex
+		building_chaos_tower
 	}
 	
 	planet_modifier = {
@@ -340,7 +340,7 @@ building_heavy_bolter_turret = {
 	}
 
 	upgrades = {
-		building_planetery_turret_1
+		building_planetary_turret_1
 	}
 	
 	prerequisites = { "tech_heavy_bolter_turret" }
@@ -393,7 +393,11 @@ building_heavy_bolter_turret = {
 		modifier = {
 			weight = 25
 			num_pops > 39
-			NOT = {	has_building = building_planetary_turret_1 }
+			NOR = {	
+				has_building = building_heavy_bolter_turret
+				has_building = building_planetary_turret_1
+				has_building = building_planetary_turret_2
+			}
 		}
 	}
 }
@@ -467,11 +471,6 @@ building_planetary_turret_1 = {
 				is_planet_class = pc_mega_hive
 			}
 			owner = { used_naval_capacity_percent > 0.8	}
-		}
-		modifier = {
-			weight = 25
-			num_pops > 39
-			NOT = {	has_building = building_planetary_turret_1 }
 		}
 	}
 }
@@ -620,6 +619,8 @@ building_machine_cult = {
 		exists = owner
 		owner = { NOT = { has_country_flag = human_empire } }
 	}
+	
+	prerequisites = { "tech_adeptus_astartes" }
 
 	resources = {
 		category = planet_buildings
@@ -654,6 +655,8 @@ building_armoury = {
 		exists = owner
 		owner = { NOT = { has_country_flag = human_empire } }
 	}
+	
+	prerequisites = { "tech_adeptus_astartes" }
 
 	country_modifier = {
 		country_resource_max_add = 2000
@@ -703,6 +706,8 @@ building_chapel_barracks = {
 		exists = owner
 		owner = { NOT = { has_country_flag = human_empire } }
 	}
+	
+	prerequisites = { "tech_adeptus_astartes" }
 
 	resources = {
 		category = planet_buildings
@@ -738,6 +743,8 @@ building_orbital_relay = {
 		exists = owner
 		owner = { NOT = { has_country_flag = human_empire } }
 	}
+	
+	prerequisites = { "tech_relay_beacon" }
 
 	resources = {
 		category = planet_buildings
@@ -772,6 +779,8 @@ building_sacred_artifact = {
 		exists = owner
 		owner = { NOT = { has_country_flag = human_empire } }
 	}
+	
+	prerequisites = { "tech_adeptus_astartes" }
 
 	resources = {
 		category = planet_buildings
@@ -870,7 +879,7 @@ building_fishing_post = {
 	}
 }
 
-building_stronghold = {
+building_strong_hold = {
 	base_buildtime = 480
 
 	capital = yes
@@ -895,18 +904,17 @@ building_stronghold = {
 		num_pops >= 10
 	}
 	
-	upgrades = {
-		building_administratum
-	}
-	
+	prerequisites = { "tech_hq" }
+
 	convert_to = {
+		building_auditorium
 		building_tyranid_hive
 		building_hall_of_blood
 		building_paradisaic_complex
 		building_cadre_headquarters
 		building_irontoff_bastion
 		building_ancient_monolith
-		building_chaos_complex
+		building_chaos_tower
 	}
 	
 	planet_modifier = {
@@ -959,19 +967,16 @@ building_administratum = {
 	allow = {
 		num_pops >= 50
 	}
-	
-	upgrades = {
-		building_stronghold
-	}
-	
+
 	convert_to = {
+		building_auditorium
 		building_tyranid_hive
 		building_hall_of_blood
 		building_paradisaic_complex
 		building_cadre_headquarters
 		building_irontoff_bastion
 		building_ancient_monolith
-		building_chaos_complex
+		building_chaos_tower
 	}
 	
 	planet_modifier = {
@@ -1507,6 +1512,8 @@ building_plasma_generatorum = {
 	allow = {
 		has_upgraded_capital = yes
 	}
+	
+	prerequisites = { "tech_power_gen" }
 	
 	planet_modifier = {
 		job_technician_add = 10

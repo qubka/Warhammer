@@ -25,7 +25,7 @@ building_ancient_monolith = {
 		building_auditorium
 		building_irontoff_bastion
 		building_cadre_headquarters
-		building_chaos_complex
+		building_chaos_tower
 	}
 
 	planet_modifier = {

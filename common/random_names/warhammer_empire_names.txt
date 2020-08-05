@@ -84,7 +84,7 @@ empire_name_format = {
 			has_country_flag = the_iron_hand 
 		}
 	}
-	format = "Iron Hand"
+	format = "Iron Hands"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }
@@ -97,7 +97,7 @@ empire_name_format = {
 			has_country_flag = the_imperial_fist 
 		}
 	}
-	format = "Imperial Fist"
+	format = "Imperial Fists"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }
@@ -656,7 +656,7 @@ empire_name_format = {
 			has_country_flag = the_emperor_children 
 		}
 	}
-	format = "Emperor Children"
+	format = "Emperor's Children"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }

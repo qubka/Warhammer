@@ -17,6 +17,10 @@ building_chaos_tower = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
+	upgrades = {
+		building_desecrated_strong_hold
+	}
+	
 	convert_to = {
 		building_tyranid_hive
 		building_hall_of_blood
@@ -28,8 +32,8 @@ building_chaos_tower = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 20
-		planet_amenities_add = 20
+		planet_housing_add = 10
+		planet_amenities_add = 10
 		job_chaos_priest_add = 2
 		job_slave_overseer_add = 3
 	}
@@ -47,6 +51,68 @@ building_chaos_tower = {
 	
 	triggered_desc = {
 		text = job_slave_overseer_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+building_desecrated_strong_hold = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = chaos_empire } }
+	}
+	
+	allow = {
+		num_pops >= 10
+	}
+	
+	prerequisites = { "tech_chaos_marines" }
+	
+	convert_to = {
+		building_chaos_tower
+		building_tyranid_hive
+		building_hall_of_blood
+		building_paradisaic_complex
+		building_auditorium
+		building_irontoff_bastion
+		building_ancient_monolith
+		building_cadre_headquarters
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+		planet_stability_add = 50
+		job_soldier_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_soldier_effect_desc
 	}
 	
 	ai_weight = {
@@ -158,6 +224,246 @@ building_daemon_quarry = {
 		minerals = 1
 		trigger = {
 			always = yes
+		}
+	}
+}
+
+building_machine_pit = {
+	base_buildtime = 360
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = chaos_empire } }
+	}
+	
+	prerequisites = { "tech_chaos_marines" }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}	
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			has_building = building_machine_pit
+		}
+	}
+}
+
+building_dark_armoury = {
+	base_buildtime = 360
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = chaos_empire } }
+	}
+	
+	prerequisites = { "tech_chaos_marines" }
+
+	country_modifier = {
+		country_resource_max_add = 2000
+	}
+	
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.1
+		job_military_artisan_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_military_artisan_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = military_goods
+					value < 5
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		military_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_chaos_temple = {
+	base_buildtime = 360
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = chaos_empire } }
+	}
+	
+	prerequisites = { "tech_chaos_marines" }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}	
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			has_building = building_chaos_temple
+		}
+	}
+}
+
+building_chaos_relay = {
+	base_buildtime = 240
+	planetary_ftl_inhibitor = yes
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = chaos_empire } }
+	}
+	
+	prerequisites = { "tech_chaos_marines" }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}	
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			has_building = building_chaos_relay
+		}
+	}
+}
+
+building_tarantula_turret = {
+	base_buildtime = 120
+	
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = chaos_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = chaos_empire } }
+	}
+
+	prerequisites = { "tech_tarantula_turret" }
+
+	planet_modifier = {
+		job_soldier_add = 2
+	}
+	
+	army_modifier = {
+		army_attack_damage_mult = 0.1
+		army_defense_damage_mult = 0.1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_soldier_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			free_jobs < 1
+			free_building_slots > 1
+			owner = { used_naval_capacity_percent > 0.9	}
+		}
+		modifier = {
+			weight = 100
+			OR = {
+				is_planet_class = pc_hive_arid
+				is_planet_class = pc_hive_continental_01
+				is_planet_class = pc_hive_continental_02
+				is_planet_class = pc_hive_ocean
+				is_planet_class = pc_hive_tundra
+				is_planet_class = pc_hive_medium
+				is_planet_class = pc_super_hive
+				is_planet_class = pc_mega_hive
+			}
+			owner = { used_naval_capacity_percent > 0.8	}
+		}
+		modifier = {
+			weight = 25
+			num_pops > 39
+			NOT = {	has_building = building_tarantula_turret }
 		}
 	}
 }
@@ -478,14 +784,12 @@ building_daemon_pit = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
+	prerequisites = { "tech_daemon_pit" }
+	
 	planet_modifier = {
 		job_chaos_priest_add = 5
 	}
 
-	prerequisites = {
-		tech_daemon_pit
-	}
-	
 	resources = {
 		category = planet_buildings
 		produces = {
@@ -536,6 +840,8 @@ building_khorne_shrine = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
+	prerequisites = { "tech_chaos_shrines" }
+	
 	army_modifier = {
 		army_attack_health_mult = -0.1
 		army_attack_damage_mult = 0.25
@@ -572,6 +878,8 @@ building_tzeentch_shrine = {
 		exists = owner
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
+	
+	prerequisites = { "tech_chaos_shrines" }
 	
 	country_modifier = {
 		country_naval_cap_add = 200
@@ -625,6 +933,8 @@ building_slaanesh_shrine = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
+	prerequisites = { "tech_chaos_shrines" }
+	
 	planet_modifier = {
 		planet_jobs_slave_produces_mult = 0.15
 		pop_cat_slave_political_power = -0.5
@@ -664,6 +974,8 @@ building_nurgle_shrine = {
 		exists = owner
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
+	
+	prerequisites = { "tech_chaos_shrines" }
 	
 	planet_modifier = {
 		bio_pop_growth_speed = 0.25

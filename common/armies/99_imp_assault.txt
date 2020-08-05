@@ -19,7 +19,7 @@ scouts_space_marines = {
 	resources = {
 		category = armies
 		cost = {
-			military_goods = 100
+			military_goods = 10
 			gene_seed = 5
 		}
 
@@ -59,7 +59,7 @@ dreadnought = {
 		}
 	}
 	
-	prerequisites = { "tech_dreadnought_claws" "tech_dreadnought_armor" "tech_assault_cannon_dread" "tech_multimelta" }
+	prerequisites = { "tech_dreadnought_claws" "tech_advanced_dreadnought_armor" "tech_assault_cannon_dread" "tech_multimelta" }
 	
 	allow = {
 		has_building = building_machine_cult
@@ -960,7 +960,7 @@ ogryn_squad = {
 		}
 	}
 
-	prerequisites = { "tech_ogryn_squad_leader" }
+	prerequisites = { "tech_ogryn_army" "tech_ogryn_squad_leader" "tech_power_fist_common" }
 
 	allow = {
 		has_building = building_navy_recruitment
@@ -1209,7 +1209,7 @@ heavy_weapon_squad = {
 		}
 	}
 
-	prerequisites = { "tech_heavy_weapon_squad_lascannon" "tech_heavy_weapon_squad_autocannon" "tech_missile_launcher" "tech_combat_shotgun" }
+	prerequisites = { "tech_heavy_bolter_turret_common" "tech_heavy_weapon_squad_lascannon" "tech_heavy_weapon_squad_autocannon" "tech_missile_launcher" }
 
 	allow = {
 		has_building = building_navy_recruitment

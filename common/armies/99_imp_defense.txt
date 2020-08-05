@@ -14,8 +14,6 @@ skitarii_defense = {
 	
 	icon_frame = 124
 
-	#prerequisites = { "tech_medium_army" }
-
 	potential = {
 		planet = {
 			OR = {

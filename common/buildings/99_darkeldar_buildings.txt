@@ -24,7 +24,7 @@ building_hall_of_blood = {
 		building_auditorium
 		building_ancient_monolith
 		building_cadre_headquarters
-		building_chaos_complex
+		building_chaos_tower
 	}
 
 	planet_modifier = {

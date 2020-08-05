@@ -4,9 +4,7 @@
 
 # Military Goods
 military_goods = {
-	tradable = yes
-	market_amount = 10
-	market_price = 100
+	tradable = no
 	max = 15000
 
 	visibility_prerequisite = { always = yes }
@@ -19,9 +17,7 @@ military_goods = {
 
 # Promethium
 promethium = {
-	tradable = yes
-	market_amount = 10
-	market_price = 100
+	tradable = no
 	max = 15000
 
 	prerequisites = { "tech_promethium_mining" }
@@ -36,9 +32,7 @@ promethium = {
 
 # Electronics
 electronics = {
-	tradable = yes
-	market_amount = 10
-	market_price = 100
+	tradable = no
 	max = 15000
 
 	visibility_prerequisite = { always = yes }
@@ -54,8 +48,6 @@ gene_seed = {
 	tradable = no
 	max = 15000
 
-	prerequisites = { "tech_stabilize_gene_seed" }
-	
 	visibility_prerequisite = { always = yes }
 	deficit_modifier = gene_seed_deficit
 	

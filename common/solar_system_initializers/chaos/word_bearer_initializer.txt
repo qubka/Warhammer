@@ -77,6 +77,7 @@ word_bearer_homeworld = {
 			set_owner = event_target:the_word_bearer
 			set_controller = event_target:the_word_bearer
 			set_capital = yes
+			set_planet_flag = sicarus_planet
 			set_planet_flag = spacemarine_homeworld
 			set_planet_flag = daemon_homeworld
 
