@@ -1,0 +1,43 @@
+objectTypes = {
+	pdxmesh = {
+		name = "gothic_01_habitat_window_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"
+		scale = 1.0
+	}
+		
+	pdxmesh = {
+		name = "gothic_01_habitat_core_mesh"
+		file = "gfx/models/ships/gothic_01/stations/gothic_01_spaceport.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_ring_habitat_landmass_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_ring_habitat_nightlights_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"
+		scale = 1.0	
+	}
+
+	pdxmesh = {
+		name = "gothic_01_orbital_station_habitat_section_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_upgraded_orbital_habitat_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "gothic_01_upgraded_orbital_habitat_frame_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"						
+		scale = 1.0
+	}
+}	

@@ -6,9 +6,9 @@
 
 # Red Lasers
 tech_lasers_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	tier = 0
@@ -19,9 +19,9 @@ tech_lasers_1 = {
 
 # Blue Lasers
 tech_lasers_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier1cost2
@@ -73,9 +73,9 @@ tech_lasers_2 = {
 
 # UV Lasers
 tech_lasers_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier2cost1
@@ -127,9 +127,9 @@ tech_lasers_3 = {
 
 # X-Ray Lasers
 tech_lasers_4 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier3cost1
@@ -181,9 +181,9 @@ tech_lasers_4 = {
 
 # Gamma Lasers
 tech_lasers_5 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost1
@@ -234,9 +234,9 @@ tech_lasers_5 = {
 }
 
 tech_energy_lance_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost2
@@ -285,9 +285,9 @@ tech_energy_lance_1 = {
 }
 
 tech_energy_lance_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost3
@@ -340,9 +340,9 @@ tech_energy_lance_2 = {
 # ##################
 
 tech_plasma_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier2cost2
@@ -398,9 +398,9 @@ tech_plasma_1 = {
 }
 
 tech_plasma_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier3cost1
@@ -449,9 +449,9 @@ tech_plasma_2 = {
 }
 
 tech_plasma_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost1
@@ -500,9 +500,9 @@ tech_plasma_3 = {
 }
 
 tech_arc_emitter_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost2
@@ -551,9 +551,9 @@ tech_arc_emitter_1 = {
 }
 
 tech_arc_emitter_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost3
@@ -606,9 +606,9 @@ tech_arc_emitter_2 = {
 # ##################
 
 tech_disruptors_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier2cost2
@@ -664,9 +664,9 @@ tech_disruptors_1 = {
 }
 
 tech_disruptors_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier3cost1
@@ -715,9 +715,9 @@ tech_disruptors_2 = {
 }
 
 tech_disruptors_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost1
@@ -770,9 +770,9 @@ tech_disruptors_3 = {
 # ##################
 
 tech_energy_torpedoes_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier3cost3
@@ -827,9 +827,9 @@ tech_energy_torpedoes_1 = {
 }
 
 tech_energy_torpedoes_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier4cost2
@@ -883,9 +883,9 @@ tech_energy_torpedoes_2 = {
 
 #Active Countermeasures
 tech_pd_tracking_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	tier = 0
@@ -896,9 +896,9 @@ tech_pd_tracking_1 = {
 
 #Interlinked Support Systems
 tech_pd_tracking_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	tier = 2
@@ -933,9 +933,9 @@ tech_pd_tracking_2 = {
 
 #Predictive Algorithms
 tech_pd_tracking_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	tier = 4
@@ -973,9 +973,9 @@ tech_pd_tracking_3 = {
 # ##################
 
 tech_extradimensional_weapon_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier5cost3
@@ -1026,9 +1026,9 @@ tech_extradimensional_weapon_1 = {
 }
 
 tech_mining_drone_weapon_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier2cost2
@@ -1058,9 +1058,9 @@ tech_mining_drone_weapon_1 = {
 }
 
 tech_space_cloud_weapon_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = physics
 	cost = @tier2cost3

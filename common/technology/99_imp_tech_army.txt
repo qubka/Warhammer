@@ -72,6 +72,43 @@ tech_defense_doctrine = {
 	}
 }
 
+tech_for_the_emperor = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	modifier = {
+		army_attack_morale_mult = 0.05
+		army_defense_morale_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
 tech_valor_code = {
 	cost = @tier1cost3
 	area = society
@@ -299,8 +336,8 @@ tech_blind_grenades = {
 	weight = @tier1weight3
 
 	modifier = {
-		army_defense_health_mult = 0.05
 		army_disengage_chance_mult = 0.15
+		army_defense_health_mult = 0.05
 	}
 	
 	weight_modifier = {
@@ -441,11 +478,11 @@ tech_increased_tithe = {
 	cost = @tier1cost1
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
 	weight = @tier1weight1
 
 	modifier = {
-		planet_army_build_speed_mult = 0.15
+		planet_army_build_speed_mult = 0.2
 	}
 
 	weight_modifier = {
@@ -453,7 +490,7 @@ tech_increased_tithe = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -463,7 +500,43 @@ tech_increased_tithe = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_navy_req = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight1
+
+	modifier = {
+		planet_army_build_speed_mult = 0.1
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -477,7 +550,7 @@ tech_helm_of_command = {
 	cost = @tier3cost1
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight1
 
 	weight_modifier = {
@@ -485,7 +558,7 @@ tech_helm_of_command = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -495,7 +568,7 @@ tech_helm_of_command = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -624,7 +697,7 @@ tech_obsidian_raven = {
 	cost = @tier1cost3
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
 	weight = @tier1weight3
 
 	modifier = {
@@ -636,7 +709,7 @@ tech_obsidian_raven = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -646,7 +719,7 @@ tech_obsidian_raven = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -660,7 +733,7 @@ tech_emperors_justice = {
 	cost = @tier1cost3
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
 	weight = @tier1weight3
 
 	modifier = {
@@ -672,7 +745,7 @@ tech_emperors_justice = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -682,7 +755,7 @@ tech_emperors_justice = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -696,7 +769,7 @@ tech_salvaged_weaponry = {
 	cost = @tier1cost3
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
 	weight = @tier1weight3
 
 	weight_modifier = {
@@ -704,7 +777,7 @@ tech_salvaged_weaponry = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -714,7 +787,7 @@ tech_salvaged_weaponry = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -726,6 +799,42 @@ tech_salvaged_weaponry = {
 		}
 	}
 	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_deployable_cover = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	modifier = {
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
 	potential = {
 		has_country_flag = human_empire 
 	}
@@ -812,7 +921,7 @@ tech_relic_armor = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { armor }
 	weight = @tier2weight3
 
 	modifier = {
@@ -827,7 +936,7 @@ tech_relic_armor = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_armor"
 			}
 		}
 	}
@@ -837,7 +946,7 @@ tech_relic_armor = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_armor"
 			}
 		}
 	}
@@ -851,7 +960,7 @@ tech_litanies_of_hate = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	modifier = {
@@ -865,7 +974,7 @@ tech_litanies_of_hate = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -875,7 +984,7 @@ tech_litanies_of_hate = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1037,21 +1146,25 @@ tech_apoth_combat_stimulant_equipment = {
 	}
 }
 
-############################################################################
-
-tech_adeptus_astartes = {
-	cost = @tier1cost3
+tech_larramans_blessing = {
+	cost = @tier2cost3
 	area = society
-	tier = 1
-	category = { social }
-	weight = @tier1weight3
+	tier = 2
+	category = { military_theory }
+	weight = @tier2weight3
+
+	modifier = {
+		army_defense_morale_mult = 0.05
+	}
+	
+	prerequisites = { "tech_adeptus_astartes" }
 
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1061,7 +1174,41 @@ tech_adeptus_astartes = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+############################################################################
+
+tech_adeptus_astartes = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1113,6 +1260,40 @@ tech_wings_of_shrike = {
 }
 
 tech_advanced_dreadnought_armor = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { armor }
+	weight = @tier2weight3
+
+	prerequisites = { "tech_adeptus_astartes" }
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_dreadnaught_charge_drives = {
 	cost = @tier2cost3
 	area = engineering
 	tier = 2
@@ -2340,7 +2521,7 @@ tech_scout_sergeant = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight3
 
 	prerequisites = { "tech_helm_of_command" }
@@ -2350,7 +2531,7 @@ tech_scout_sergeant = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2360,7 +2541,7 @@ tech_scout_sergeant = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2374,7 +2555,7 @@ tech_sergeant_assault_squad = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight3
 
 	prerequisites = { "tech_helm_of_command" }
@@ -2384,7 +2565,7 @@ tech_sergeant_assault_squad = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2394,7 +2575,7 @@ tech_sergeant_assault_squad = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2510,7 +2691,7 @@ tech_spell_librarian = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -2520,7 +2701,7 @@ tech_spell_librarian = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2530,7 +2711,7 @@ tech_spell_librarian = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2612,7 +2793,7 @@ tech_tactical_sergeant = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight3
 
 	prerequisites = { "tech_helm_of_command" }
@@ -2622,7 +2803,7 @@ tech_tactical_sergeant = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2632,7 +2813,7 @@ tech_tactical_sergeant = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -2986,7 +3167,7 @@ tech_cadian_trooper = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight3
 
 	prerequisites = { "tech_helm_of_command" }
@@ -2996,7 +3177,7 @@ tech_cadian_trooper = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3006,7 +3187,7 @@ tech_cadian_trooper = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3088,7 +3269,7 @@ tech_guardsmen_squad_commissar = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight3
 
 	prerequisites = { "tech_helm_of_command" }
@@ -3098,7 +3279,7 @@ tech_guardsmen_squad_commissar = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3108,7 +3289,7 @@ tech_guardsmen_squad_commissar = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3190,7 +3371,7 @@ tech_ogryn_squad_leader = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight3
 
 	prerequisites = { "tech_helm_of_command" }
@@ -3200,7 +3381,7 @@ tech_ogryn_squad_leader = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3210,7 +3391,7 @@ tech_ogryn_squad_leader = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3254,7 +3435,41 @@ tech_tank_armor = {
 	}
 }
 
-tech_manticore_missile = {
+tech_sentinel_missile = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { weapon }
+	weight = @tier2weight3
+
+	prerequisites = { "tech_adeptus_astartes" }
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_manticore_shot = {
 	cost = @tier2cost3
 	area = engineering
 	tier = 2
@@ -3394,7 +3609,7 @@ tech_ogryn_army = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -3404,7 +3619,7 @@ tech_ogryn_army = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3414,7 +3629,7 @@ tech_ogryn_army = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3428,7 +3643,7 @@ tech_special_recruits = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -3438,7 +3653,7 @@ tech_special_recruits = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3448,7 +3663,7 @@ tech_special_recruits = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3598,7 +3813,7 @@ tech_collegia_titanica = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -3608,7 +3823,7 @@ tech_collegia_titanica = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3618,7 +3833,7 @@ tech_collegia_titanica = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3632,7 +3847,7 @@ tech_officio_assassinorum = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -3642,7 +3857,7 @@ tech_officio_assassinorum = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3652,7 +3867,7 @@ tech_officio_assassinorum = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3666,7 +3881,7 @@ tech_deathwatch = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -3676,7 +3891,7 @@ tech_deathwatch = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3686,7 +3901,7 @@ tech_deathwatch = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3700,7 +3915,7 @@ tech_sisters_of_battle = {
 	cost = @tier2cost3
 	area = society
 	tier = 2
-	category = { social }
+	category = { military_theory }
 	weight = @tier2weight3
 
 	prerequisites = { "tech_adeptus_astartes" }
@@ -3710,7 +3925,7 @@ tech_sisters_of_battle = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3720,7 +3935,7 @@ tech_sisters_of_battle = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -3765,6 +3980,74 @@ tech_heavy_bolter_turret_common = {
 }
 
 tech_power_fist_common = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { weapon }
+	weight = @tier2weight3
+
+	prerequisites = { "tech_adeptus_astartes" }
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_planetary_turret_gun = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	category = { weapon }
+	weight = @tier2weight3
+
+	prerequisites = { "tech_adeptus_astartes" }
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_sniper_squad_targeted_grenades = {
 	cost = @tier2cost3
 	area = engineering
 	tier = 2

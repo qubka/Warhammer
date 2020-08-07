@@ -47,7 +47,7 @@ agripinaa_homeworld = {
 					civic = civic_technocracy
 				}
 				origin = "origin_mechanicus"
-				room = "mechanicus_room"
+				#room = "mechanicus_room"
 				ethos = {
 					ethic = ethic_fanatic_materialist
 					ethic = ethic_xenophobe
@@ -83,7 +83,6 @@ agripinaa_homeworld = {
 					immortal = yes
 				}
 				set_leader = last_created_leader
-				add_modifier = { modifier = "dominion_colony" days = -1 }
 			}
 			create_fleet = {
 				effect = {

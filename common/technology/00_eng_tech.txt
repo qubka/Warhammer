@@ -19,7 +19,7 @@ tech_solar_panel_network = {
 # ##################
 tech_space_exploration = {
 	potential = {
-		has_country_flag = unknown 
+		NOT = { has_country_flag = human_colony }
 	}
 
 	cost = 0
@@ -38,9 +38,9 @@ tech_space_exploration = {
 }
 
 tech_corvettes = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = 0
 	area = engineering
@@ -58,9 +58,9 @@ tech_corvettes = {
 }
 
 tech_destroyers = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost1
 	area = engineering
@@ -132,9 +132,9 @@ tech_destroyers = {
 }
 
 tech_cruisers = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost1
 	area = engineering
@@ -206,9 +206,9 @@ tech_cruisers = {
 }
 
 tech_battleships = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier4cost1
 	area = engineering
@@ -279,7 +279,7 @@ tech_battleships = {
 
 tech_titans = {
 	potential = {
-		has_country_flag = unknown 
+		#has_country_flag = unknown 
 		host_has_dlc = "Apocalypse"
 	}
 
@@ -358,7 +358,7 @@ tech_titans = {
 
 tech_juggernaut = {
 	potential = {
-		has_country_flag = unknown 
+		#has_country_flag = unknown 
 		host_has_dlc = "Federations"
 	}
 
@@ -440,9 +440,9 @@ tech_juggernaut = {
 # ##################
 
 tech_corvette_build_speed = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier1cost2
 	area = engineering
@@ -478,9 +478,9 @@ tech_corvette_build_speed = {
 }
 
 tech_corvette_hull_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier1cost3
 	area = engineering
@@ -516,9 +516,9 @@ tech_corvette_hull_1 = {
 }
 
 tech_corvette_hull_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost3
 	area = engineering
@@ -588,9 +588,9 @@ tech_corvette_hull_2 = {
 # ##################
 
 tech_destroyer_build_speed = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost2
 	area = engineering
@@ -626,9 +626,9 @@ tech_destroyer_build_speed = {
 }
 
 tech_destroyer_hull_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost3
 	area = engineering
@@ -668,9 +668,9 @@ tech_destroyer_hull_1 = {
 }
 
 tech_destroyer_hull_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost1
 	area = engineering
@@ -744,9 +744,9 @@ tech_destroyer_hull_2 = {
 # ##################
 
 tech_cruiser_build_speed = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost2
 	area = engineering
@@ -782,9 +782,9 @@ tech_cruiser_build_speed = {
 }
 
 tech_cruiser_hull_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost3
 	area = engineering
@@ -824,9 +824,9 @@ tech_cruiser_hull_1 = {
 }
 
 tech_cruiser_hull_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier4cost1
 	area = engineering
@@ -900,9 +900,9 @@ tech_cruiser_hull_2 = {
 # ##################
 
 tech_battleship_build_speed = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier4cost2
 	area = engineering
@@ -938,9 +938,9 @@ tech_battleship_build_speed = {
 }
 
 tech_battleship_hull_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier4cost3
 	area = engineering
@@ -980,9 +980,9 @@ tech_battleship_hull_1 = {
 }
 
 tech_battleship_hull_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier5cost1
 	area = engineering
@@ -1056,9 +1056,9 @@ tech_battleship_hull_2 = {
 # ##################
 
 tech_titan_hull_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier5cost2
 	area = engineering
@@ -1128,9 +1128,9 @@ tech_titan_hull_1 = {
 }
 
 tech_titan_hull_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier5cost3
 	area = engineering
@@ -1204,9 +1204,9 @@ tech_titan_hull_2 = {
 # ##################
 
 tech_starbase_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = 0
 	area = engineering
@@ -1227,9 +1227,9 @@ tech_starbase_1 = {
 
 
 tech_starbase_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = 0
 	area = engineering
@@ -1249,9 +1249,9 @@ tech_starbase_2 = {
 }
 
 tech_starbase_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost2
 	area = engineering
@@ -1324,9 +1324,9 @@ tech_starbase_3 = {
 }
 
 tech_starbase_4 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost2
 	area = engineering
@@ -1399,9 +1399,9 @@ tech_starbase_4 = {
 }
 
 tech_starbase_5 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier4cost2
 	area = engineering
@@ -1678,9 +1678,9 @@ tech_habitat_3 = {
 
 # Modular Engineering
 tech_modular_engineering = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost3
 	area = engineering
@@ -1745,9 +1745,9 @@ tech_modular_engineering = {
 
 #Corps of Engineers
 tech_space_defense_station_improvement = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost3
 	area = engineering
@@ -1814,9 +1814,9 @@ tech_space_defense_station_improvement = {
 # ##################
 
 tech_strike_craft_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier1cost3
 	area = engineering
@@ -1850,9 +1850,9 @@ tech_strike_craft_1 = {
 }
 
 tech_strike_craft_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost3
 	area = engineering
@@ -1886,9 +1886,9 @@ tech_strike_craft_2 = {
 }
 
 tech_strike_craft_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost3
 	area = engineering
@@ -1945,9 +1945,9 @@ tech_assault_armies = {
 
 #Nanocomposite Materials
 tech_ship_armor_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier1cost1
 	area = engineering
@@ -1959,9 +1959,9 @@ tech_ship_armor_1 = {
 
 #Ceramo-Metal Materials
 tech_ship_armor_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier1cost2
@@ -1995,9 +1995,9 @@ tech_ship_armor_2 = {
 
 #Plasteel Materials
 tech_ship_armor_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier2cost2
@@ -2031,9 +2031,9 @@ tech_ship_armor_3 = {
 
 #Durasteel Materials
 tech_ship_armor_4 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier3cost2
@@ -2067,9 +2067,9 @@ tech_ship_armor_4 = {
 
 #Neutronium Materials
 tech_ship_armor_5 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier4cost2
@@ -2107,9 +2107,9 @@ tech_ship_armor_5 = {
 
 #Crystal-Infused Plating
 tech_crystal_armor_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier2cost3
@@ -2137,9 +2137,9 @@ tech_crystal_armor_1 = {
 
 #Crystal-Forged Plating
 tech_crystal_armor_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier4cost1
@@ -2166,9 +2166,9 @@ tech_crystal_armor_2 = {
 
 #Chemical Thrusters
 tech_thrusters_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = 0
@@ -2188,9 +2188,9 @@ tech_thrusters_1 = {
 
 #Ion Thrusters
 tech_thrusters_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier2cost1
@@ -2237,9 +2237,9 @@ tech_thrusters_2 = {
 
 #Plasma Thrusters
 tech_thrusters_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier3cost1
@@ -2286,9 +2286,9 @@ tech_thrusters_3 = {
 
 #Impulse Thrusters
 tech_thrusters_4 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier4cost1
@@ -2339,9 +2339,9 @@ tech_thrusters_4 = {
 
 #Defense Platform
 tech_space_defense_station_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = 0
 	tier = 0
@@ -2352,9 +2352,9 @@ tech_space_defense_station_1 = {
 }
 
 tech_defense_platform_hull_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost2
 	area = engineering
@@ -2470,9 +2470,9 @@ tech_powered_exoskeletons = {
 }
 
 tech_space_mining_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier1cost1
 	area = engineering
@@ -2507,9 +2507,9 @@ tech_space_mining_1 = {
 }
 
 tech_space_mining_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier1cost3
 	area = engineering
@@ -2544,9 +2544,9 @@ tech_space_mining_2 = {
 }
 
 tech_space_mining_3 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost1
 	area = engineering
@@ -2581,9 +2581,9 @@ tech_space_mining_3 = {
 }
 
 tech_space_mining_4 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier2cost3
 	area = engineering
@@ -2618,9 +2618,9 @@ tech_space_mining_4 = {
 }
 
 tech_space_mining_5 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = @tier3cost1
 	area = engineering
@@ -3585,9 +3585,9 @@ tech_synthetic_leaders = {
 # ##################
 
 tech_space_construction = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = 0
 	area = engineering
@@ -3632,9 +3632,9 @@ tech_space_construction = {
 
 #Afterburners
 tech_afterburners_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier1cost2
@@ -3684,9 +3684,9 @@ tech_afterburners_1 = {
 
 #Advanced Afterburners
 tech_afterburners_2 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = engineering
 	cost = @tier3cost2

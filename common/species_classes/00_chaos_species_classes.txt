@@ -22,6 +22,6 @@ CHA = {
 		"chaos_world_eater"
     }
 	
-    graphical_culture = humanoid_01
+    graphical_culture = gothic_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

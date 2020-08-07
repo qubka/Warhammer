@@ -1,0 +1,1096 @@
+tech_wraithbone = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_avatar = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_death_spinner_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_aspect_of_banshee = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_aspect_of_warp_spider = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_banshee_exarch = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_battle_equipment = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_brightlance_wraithlord = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_champions_robe = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_energy_field = {
+	cost = @tier1cost3
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_executioner_legendary = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_fusion_gun_legendary = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_long_rifle_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_merciless_witchblade = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_pathfinder_gear = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_power_sword_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_shuriken_cannon_wraithguard = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_shuriken_catapult_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_shuriken_pistol_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_twin_death_spinner_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_warlock = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_witchblade_rare = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_farse_witchblade_doombringer = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_farse_witchblade_sky_gauntlets = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_destructor_rare = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_wraithbone_wraithguard = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_wraithsword_common = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_farse_ghosthelm = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_thunder_and_lightning = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_wargear_eld_entangling_web = {
+	cost = @tier1cost3
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_wargear_eld_improved_targeters = {
+	cost = @tier1cost3
+	area = physics
+	tier = 1
+	category = { computing }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_wargear_eld_powerblades = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_warp_spiders = {
+	cost = @tier1cost3
+	area = society
+	tier = 1
+
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}
+
+tech_wp_farse_witchblade_singing_spear.png = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = eldar_empire
+	}
+}

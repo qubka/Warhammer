@@ -33,7 +33,7 @@ mankind = {
 	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_mankind"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -99,7 +99,7 @@ white_scars = {
 	planet_class = "pc_arid"
 	system_name = "PRESCRIPTED_system_name_white_scars"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -165,7 +165,7 @@ ultra_marines = {
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_ultra_marines"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -231,7 +231,7 @@ space_wolves = {
 	planet_class = "pc_arctic"
 	system_name = "PRESCRIPTED_system_name_space_wolves"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -297,7 +297,7 @@ salamanders = {
 	planet_class = "pc_desert"
 	system_name = "PRESCRIPTED_system_name_salamanders"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -363,7 +363,7 @@ raven_guard = {
 	planet_class = "pc_fortress"
 	system_name = "PRESCRIPTED_system_name_raven_guard"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -429,7 +429,7 @@ iron_hand = {
 	planet_class = "pc_forge_ring"
 	system_name = "PRESCRIPTED_system_name_iron_hand"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -495,7 +495,7 @@ imperial_fist = {
 	planet_class = "pc_habitat"
 	system_name = "PRESCRIPTED_system_name_imperial_fist"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -561,7 +561,7 @@ dark_angels = {
 	planet_class = "pc_habitat"
 	system_name = "PRESCRIPTED_system_name_dark_angels"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -627,7 +627,7 @@ blood_angels = {
 	planet_class = "pc_fortress"
 	system_name = "PRESCRIPTED_system_name_blood_angels"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {

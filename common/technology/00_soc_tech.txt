@@ -1049,9 +1049,9 @@ tech_arcane_deciphering = {
 
 #New Worlds Protocol
 tech_colonization_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	cost = 0
 	area = society

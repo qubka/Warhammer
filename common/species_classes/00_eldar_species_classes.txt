@@ -28,6 +28,5 @@ ELD = {
     }   
 	
     graphical_culture = reptilian_01
-
     move_pop_sound_effect = "moving_pop_confirmation"
 }

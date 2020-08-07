@@ -31,7 +31,7 @@ behemoth = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_behemoth"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -95,7 +95,7 @@ gorgon = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_gorgon"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -159,7 +159,7 @@ hydra = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_hydra"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -223,7 +223,7 @@ jormungandr = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_jormungandr"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -287,7 +287,7 @@ kraken = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_kraken"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -351,7 +351,7 @@ leviathan = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_leviathan"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -415,7 +415,7 @@ ouroboris = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_ouroboris"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {
@@ -479,7 +479,7 @@ tiamet = {
 	planet_class = "pc_hive"
 	system_name = "PRESCRIPTED_system_name_tiamet"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "swarm_01"
 	city_graphical_culture = "industrial_01"
 
 	empire_flag = {

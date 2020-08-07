@@ -6,9 +6,9 @@
 
 # Space Amoeba Strike Craft
 tech_amoeba_strike_craft_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = society
 	cost = @tier2cost3
@@ -32,9 +32,9 @@ tech_amoeba_strike_craft_1 = {
 
 # Swarm Strike Craft
 tech_swarm_strike_craft_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = society
 	cost = @tier5cost3
@@ -59,9 +59,9 @@ tech_swarm_strike_craft_1 = {
 
 # Swarm Scourge Missiles
 tech_scourge_missile_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = society
 	cost = @tier5cost3
@@ -86,9 +86,9 @@ tech_scourge_missile_1 = {
 
 # Space Whale Weapon
 tech_space_whale_weapon_1 = {
-	potential = {
-		has_country_flag = unknown 
-	}
+	#potential = {
+		#has_country_flag = unknown
+	#}
 
 	area = society
 	cost = @tier1cost3

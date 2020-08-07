@@ -1,3 +1,19 @@
+# Icons set here are the ones show in the actual slot. 
+
+@cost1 = 5
+@cost2 = 10
+@cost3 = 15
+@cost4 = 20
+
+@power1 = -10
+@power2 = -15
+@power3 = -20
+@power4 = -30
+
+#############
+# UTILITIES #
+#############
+
 ### Jump drives
 utility_component_template = {
 	key = "WARP_JUMP_DRIVE_1"

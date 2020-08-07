@@ -33,7 +33,7 @@ alpha_legion = {
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_alpha_legion"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -99,7 +99,7 @@ black_legion = {
 	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_black_legion"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -165,7 +165,7 @@ death_guard = {
 	planet_class = "pc_daemonn"
 	system_name = "PRESCRIPTED_system_name_death_guard"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -231,7 +231,7 @@ emperor_children = {
 	planet_class = "pc_daemons"
 	system_name = "PRESCRIPTED_system_name_emperor_children"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -297,7 +297,7 @@ iron_warrior = {
 	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_iron_warrior"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -363,7 +363,7 @@ night_lords = {
 	planet_class = "pc_forge_ring3"
 	system_name = "PRESCRIPTED_system_name_night_lords"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -429,7 +429,7 @@ red_corsairs = {
 	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_red_corsairs"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -495,7 +495,7 @@ thousand_sons = {
 	planet_class = "pc_daemont"
 	system_name = "PRESCRIPTED_system_name_thousand_sons"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -561,7 +561,7 @@ word_bearer = {
 	planet_class = "pc_daemons"
 	system_name = "PRESCRIPTED_system_name_word_bearer"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -627,7 +627,7 @@ world_eater = {
 	planet_class = "pc_forge_ring3"
 	system_name = "PRESCRIPTED_system_name_world_eater"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {

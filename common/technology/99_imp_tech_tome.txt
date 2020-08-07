@@ -406,7 +406,7 @@ tech_parable_of_the_lion = {
 	cost = @tier3cost1
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
 	weight = @tier3weight1
 	
 	modifier = {
@@ -418,7 +418,7 @@ tech_parable_of_the_lion = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -428,7 +428,7 @@ tech_parable_of_the_lion = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -442,7 +442,43 @@ tech_gift_of_the_artificers = {
 	cost = @tier3cost1
 	area = society
 	tier = 1
-	category = { social }
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_shield_penetration_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tactical_advance = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
 	weight = @tier3weight1
 
 	modifier = {
@@ -454,7 +490,7 @@ tech_gift_of_the_artificers = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -464,7 +500,43 @@ tech_gift_of_the_artificers = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_retreat_point_enabled = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_emergency_ftl_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}

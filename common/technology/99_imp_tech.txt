@@ -1573,7 +1573,7 @@ tech_sanguinala_parade = {
 	cost = @tier1cost3
 	area = society
 	tier = 1
-	category = { social }
+	category = { statecraft }
 	weight = @tier1weight3
 
 	modifier = {
@@ -1586,7 +1586,7 @@ tech_sanguinala_parade = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -1596,7 +1596,7 @@ tech_sanguinala_parade = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -1647,7 +1647,7 @@ tech_imperium_statues = {
 	cost = @tier1cost3
 	area = society
 	tier = 1
-	category = { social }
+	category = { statecraft }
 	weight = @tier1weight3
 
 	weight_modifier = {
@@ -1655,7 +1655,7 @@ tech_imperium_statues = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -1665,7 +1665,7 @@ tech_imperium_statues = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -1714,7 +1714,7 @@ tech_gellar_field = {
 tech_warp_jump_drive = {
 	cost = @tier5cost1
 	area = physics
-	tier = 1
+	tier = 5
 	category = { field_manipulation }
 	ai_update_type = all
 	is_rare = yes
@@ -1786,7 +1786,7 @@ tech_navigators_selection = {
 	cost = @tier3cost1
 	area = society
 	tier = 1
-	category = { social }
+	category = { statecraft }
 	weight = @tier3weight1
 	
 	prerequisites = { "tech_warp_jump_drive" }
@@ -1801,7 +1801,7 @@ tech_navigators_selection = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -1811,7 +1811,7 @@ tech_navigators_selection = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -1929,6 +1929,78 @@ tech_ship_armor = {
 	}
 }
 
+tech_full_auto = {
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { computing }
+	weight = @tier2weight2
+	
+	modifier = {
+		ship_armor_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_auto_missile_barrage = {
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { weapon }
+	weight = @tier2weight2
+	
+	modifier = {
+		ship_shield_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
 tech_analyze_stc = {
 	cost = @tier1cost3
 	area = society
@@ -2008,7 +2080,7 @@ tech_increased_ration = {
 	cost = @tier1cost3
 	area = society
 	tier = 1
-	category = { social }
+	category = { statecraft }
 	weight = @tier1weight3
 
 	modifier = {
@@ -2021,7 +2093,7 @@ tech_increased_ration = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
@@ -2031,7 +2103,7 @@ tech_increased_ration = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_social"
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}

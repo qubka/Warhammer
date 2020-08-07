@@ -840,7 +840,7 @@ building_khorne_shrine = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
-	prerequisites = { "tech_chaos_shrines" }
+	prerequisites = { "tech_shrine_khorne" }
 	
 	army_modifier = {
 		army_attack_health_mult = -0.1
@@ -879,7 +879,7 @@ building_tzeentch_shrine = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
-	prerequisites = { "tech_chaos_shrines" }
+	prerequisites = { "tech_shrine_tzeentch" }
 	
 	country_modifier = {
 		country_naval_cap_add = 200
@@ -933,7 +933,7 @@ building_slaanesh_shrine = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
-	prerequisites = { "tech_chaos_shrines" }
+	prerequisites = { "tech_shrine_slaanesh" }
 	
 	planet_modifier = {
 		planet_jobs_slave_produces_mult = 0.15
@@ -975,7 +975,7 @@ building_nurgle_shrine = {
 		owner = { NOT = { has_country_flag = chaos_empire } }
 	}
 	
-	prerequisites = { "tech_chaos_shrines" }
+	prerequisites = { "tech_shrine_nurgle" }
 	
 	planet_modifier = {
 		bio_pop_growth_speed = 0.25

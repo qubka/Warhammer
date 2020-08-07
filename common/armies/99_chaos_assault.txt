@@ -321,7 +321,7 @@ nurglings = {
 		}
 	}
 	
-	prerequisites = { "tech_nurglings" "tech_deadly_plague" "tech_nurgle_pact" }
+	prerequisites = { "tech_nurglings" "tech_swarm_of_flies" "tech_vomit" }
 	
 	allow = {
 		OR = {
@@ -458,7 +458,7 @@ great_unclear_one = {
 		}
 	}
 	
-	prerequisites = { "tech_daemon_army" "tech_deadly_plague" "tech_nurgle_pact" "tech_great_summoning" }
+	prerequisites = { "tech_daemon_army" "tech_swarm_of_flies" "tech_vomit" "tech_great_summoning" }
 	
 	allow = {
 		OR = {

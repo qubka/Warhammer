@@ -44,7 +44,7 @@ cadia_homeworld = {
 					civic = civic_fanatic_purifiers
 				}
 				origin = "origin_dominion"
-				room = "navy_room"
+				#room = "navy_room"
 				ethos = {
 					ethic = ethic_fanatic_xenophobe
 					ethic = ethic_militarist
@@ -80,7 +80,6 @@ cadia_homeworld = {
 					immortal = yes
 				}
 				set_leader = last_created_leader
-				add_modifier = { modifier = "dominion_colony" days = -1 }
 			}
 			create_fleet = {
 				effect = {

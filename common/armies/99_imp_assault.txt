@@ -122,7 +122,7 @@ venerable_dreadnought = {
 		}
 	}
 	
-	prerequisites = { "tech_dark_age_dreadnought" }
+	prerequisites = { "tech_dark_age_dreadnought" "tech_dreadnaught_charge_drives" }
 	
 	allow = {
 		has_building = building_machine_cult
@@ -757,6 +757,8 @@ sentinel = {
 		}
 	}
 	
+	prerequisites = { "tech_sentinel_missile" }
+	
 	allow = {
 		has_building = building_navy_recruitment
 	}
@@ -789,7 +791,7 @@ manticore = {
 		}
 	}
 
-	prerequisites = { "tech_manticore_missile" }
+	prerequisites = { "tech_manticore_shot" }
 
 	allow = {
 		has_building = building_navy_recruitment
@@ -1325,7 +1327,7 @@ vindicare_assassin = {
 		}
 	}
 
-	prerequisites = { "tech_officio_assassinorum" "tech_infiltrate" "tech_sniper_rifle" }
+	prerequisites = { "tech_officio_assassinorum" "tech_infiltrate" "tech_sniper_rifle" "tech_sniper_squad_targeted_grenades" }
 
 	allow = {
 		has_building = building_navy_recruitment
