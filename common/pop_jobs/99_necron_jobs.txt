@@ -9,21 +9,7 @@ necron_warrior = {
 	}
 
 	pop_modifier = {
-		pop_defense_armies_add = 5
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			planet = {
-				OR = {
-					has_modifier = compliance_protocols
-					has_modifier = hunter_killer_drones
-				}
-			}
-		}
-		modifier = {
-			planet_stability_add = 5
-		}
+		pop_defense_armies_add = 3
 	}
 
 	possible_pre_triggers = {
@@ -69,13 +55,6 @@ necron_warrior = {
 		modifier = {
 			factor = 0.5
 			has_trait = trait_weak
-		}
-		modifier = {
-			factor = 0.9
-			exists = owner
-			years_passed < 1
-			owner = { has_valid_civic = civic_machine_assimilator }
-			has_trait = trait_cybernetic
 		}
 		modifier = {
 			factor = 0
@@ -136,13 +115,6 @@ canoptek = {
 			}
 		}
 		modifier = {
-			factor = 1.1
-			exists = owner
-			years_passed < 1
-			owner = { has_valid_civic = civic_machine_assimilator }
-			has_trait = trait_cybernetic
-		}
-		modifier = {
 			factor = 1.2
 			has_job = necron_miner
 		}
@@ -188,13 +160,6 @@ cryptek = {
 	weight = {
 		weight = @complex_drone_job_weight
 		modifier = {
-			factor = 0.9
-			exists = owner
-			years_passed < 1
-			owner = { has_valid_civic = civic_machine_assimilator }
-			has_trait = trait_cybernetic
-		}
-		modifier = {
 			factor = 5
 			has_job = cryptek
 			OR = {
@@ -226,14 +191,9 @@ nemesor = {
 		country_naval_cap_add = 5
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			planet = { has_modifier = planet_artifact_relays_machine }
-		}
-		modifier = {
-			planet_stability_add = 2
-			planet_jobs_simple_drone_produces_mult = 0.01
-		}
+	planet_modifier = {
+		planet_stability_add = 2
+		planet_jobs_simple_drone_produces_mult = 0.01
 	}
 
 	triggered_country_modifier = {
@@ -269,13 +229,6 @@ nemesor = {
 
 	weight = {
 		weight = @synapse_drone_job_weight
-		modifier = {
-			factor = 0.9
-			exists = owner
-			years_passed < 1
-			owner = { has_valid_civic = civic_machine_assimilator }
-			has_trait = trait_cybernetic
-		}
 	}
 }
 

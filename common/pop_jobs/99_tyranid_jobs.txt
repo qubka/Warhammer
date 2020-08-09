@@ -10,20 +10,7 @@ tyranid_guardian = {
 
 	pop_modifier = {
 		pop_defense_armies_add = 3
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			planet = {
-				OR = {
-					has_modifier = compliance_protocols
-					has_modifier = hunter_killer_drones
-				}
-			}
-		}
-		modifier = {
-			planet_stability_add = 5
-		}
+		planet_stability_add = 2
 	}
 
 	possible_pre_triggers = {
@@ -68,13 +55,6 @@ tyranid_guardian = {
 		modifier = {
 			factor = 0.5
 			has_trait = trait_weak
-		}
-		modifier = {
-			factor = 0.9
-			exists = owner
-			years_passed < 1
-			owner = { has_valid_civic = civic_machine_assimilator }
-			has_trait = trait_cybernetic
 		}
 		modifier = {
 			factor = 0

@@ -1,0 +1,1279 @@
+tech_weirdboy_whistles = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_angry_bits = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_spiky_armor = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_belly_gun = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_big_shoota = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_boom_timer = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_burna = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_choppa = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_cybork_bits = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_deff_rolla = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_deffgun = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_explosive_shells = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_explosive_shoter = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_gargant_mega_armor = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_hide_boyz = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_huge_choppa = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_jump = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_kommando_ambush = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_kommando_grenade = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_kommando_kaboom = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_kommando_spechul_shoota = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_kustom_choppa = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_kustom_shoota = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_looted_tank_armor = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_mek_equipment = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_mekboy_beamy_deffgun = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_mortar_launcher = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_nob_hammers = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_nob_kit = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_nob_leader = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_nob_leader_kommando = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_power_claw = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_rokkit_launcha = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_shoota = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_slugga = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_stikkbomb = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_stormboy = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_wartrukk = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_weirdboy_bells = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_yyy"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}
+
+tech_weirdboy_copper_rod = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	potential = {
+		has_country_flag = ork_empire 
+	}
+}

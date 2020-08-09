@@ -1,5 +1,5 @@
 tech_combat_doctrine = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -36,7 +36,7 @@ tech_combat_doctrine = {
 }
 
 tech_defense_doctrine = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -73,7 +73,7 @@ tech_defense_doctrine = {
 }
 
 tech_for_the_emperor = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -110,7 +110,7 @@ tech_for_the_emperor = {
 }
 
 tech_valor_code = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -147,7 +147,7 @@ tech_valor_code = {
 }
 
 tech_weapon_aimed_fire = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -183,7 +183,7 @@ tech_weapon_aimed_fire = {
 }
 
 tech_weapon_heavy_fire = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -219,7 +219,7 @@ tech_weapon_heavy_fire = {
 }
 
 tech_weapon_sniper_ai_aim = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -256,7 +256,7 @@ tech_weapon_sniper_ai_aim = {
 }
 
 tech_signum = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -292,7 +292,7 @@ tech_signum = {
 }
 
 tech_smoke_grenades = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -329,7 +329,7 @@ tech_smoke_grenades = {
 }
 
 tech_blind_grenades = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -366,7 +366,7 @@ tech_blind_grenades = {
 }
 
 tech_kraken_bolts = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -402,7 +402,7 @@ tech_kraken_bolts = {
 }
 
 tech_improved_ballistics = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { propulsion }
@@ -438,7 +438,7 @@ tech_improved_ballistics = {
 }
 
 tech_advanced_implants = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { biology }
@@ -622,7 +622,7 @@ tech_drop_pod = {
 }
 
 tech_purity_seal = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -658,7 +658,7 @@ tech_purity_seal = {
 }
 
 tech_battle_standard = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -694,7 +694,7 @@ tech_battle_standard = {
 }
 
 tech_obsidian_raven = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -730,7 +730,7 @@ tech_obsidian_raven = {
 }
 
 tech_emperors_justice = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -766,7 +766,7 @@ tech_emperors_justice = {
 }
 
 tech_salvaged_weaponry = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -805,7 +805,7 @@ tech_salvaged_weaponry = {
 }
 
 tech_deployable_cover = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -841,7 +841,7 @@ tech_deployable_cover = {
 }
 
 tech_teleport = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = physics
 	tier = 2
 	category = { field_manipulation }
@@ -879,7 +879,7 @@ tech_teleport = {
 }
 
 tech_ressurect = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { biology }
@@ -918,7 +918,7 @@ tech_ressurect = {
 }
 
 tech_relic_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { armor }
@@ -957,7 +957,7 @@ tech_relic_armor = {
 }
 
 tech_litanies_of_hate = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -995,7 +995,7 @@ tech_litanies_of_hate = {
 }
 
 tech_merciless_strike = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -1033,7 +1033,7 @@ tech_merciless_strike = {
 }
 
 tech_acc_charge = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -1071,7 +1071,7 @@ tech_acc_charge = {
 }
 
 tech_retreat_enemies = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -1109,7 +1109,7 @@ tech_retreat_enemies = {
 }
 
 tech_apoth_combat_stimulant_equipment = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { biology }
@@ -1147,7 +1147,7 @@ tech_apoth_combat_stimulant_equipment = {
 }
 
 tech_larramans_blessing = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -1187,7 +1187,7 @@ tech_larramans_blessing = {
 ############################################################################
 
 tech_adeptus_astartes = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { military_theory }
@@ -1226,7 +1226,7 @@ tech_adeptus_astartes = {
 }
 
 tech_wings_of_shrike = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -1260,7 +1260,7 @@ tech_wings_of_shrike = {
 }
 
 tech_advanced_dreadnought_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -1294,7 +1294,7 @@ tech_advanced_dreadnought_armor = {
 }
 
 tech_dreadnaught_charge_drives = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -1328,7 +1328,7 @@ tech_dreadnaught_charge_drives = {
 }
 
 tech_assault_cannon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1362,7 +1362,7 @@ tech_assault_cannon = {
 }
 
 tech_assault_cannon_dread = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1396,7 +1396,7 @@ tech_assault_cannon_dread = {
 }
 
 tech_bolt_pistol = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1430,7 +1430,7 @@ tech_bolt_pistol = {
 }
 
 tech_bolter = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1464,7 +1464,7 @@ tech_bolter = {
 }
 
 tech_chainsword = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1498,7 +1498,7 @@ tech_chainsword = {
 }
 
 tech_cyclone_missile_launcher = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1532,7 +1532,7 @@ tech_cyclone_missile_launcher = {
 }
 
 tech_dark_age_dreadnought = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { lost_knowledge }
@@ -1566,7 +1566,7 @@ tech_dark_age_dreadnought = {
 }
 
 tech_dreadnought_claws = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1600,7 +1600,7 @@ tech_dreadnought_claws = {
 }
 
 tech_flamer = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1634,7 +1634,7 @@ tech_flamer = {
 }
 
 tech_force_sword = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1668,7 +1668,7 @@ tech_force_sword = {
 }
 
 tech_grenade_launcher = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1702,7 +1702,7 @@ tech_grenade_launcher = {
 }
 
 tech_heavy_assault_cannon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1736,7 +1736,7 @@ tech_heavy_assault_cannon = {
 }
 
 tech_heavy_bolter = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1770,7 +1770,7 @@ tech_heavy_bolter = {
 }
 
 tech_heavy_flamer = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1804,7 +1804,7 @@ tech_heavy_flamer = {
 }
 
 tech_lasgun = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1838,7 +1838,7 @@ tech_lasgun = {
 }
 
 tech_librarian_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -1872,7 +1872,7 @@ tech_librarian_armor = {
 }
 
 tech_librarian_force_staff = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1906,7 +1906,7 @@ tech_librarian_force_staff = {
 }
 
 tech_lightning_claw = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1940,7 +1940,7 @@ tech_lightning_claw = {
 }
 
 tech_lightning_claws_upgrade = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -1974,7 +1974,7 @@ tech_lightning_claws_upgrade = {
 }
 
 tech_melta_gun = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2008,7 +2008,7 @@ tech_melta_gun = {
 }
 
 tech_missile_launcher = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2042,7 +2042,7 @@ tech_missile_launcher = {
 }
 
 tech_multimelta = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2076,7 +2076,7 @@ tech_multimelta = {
 }
 
 tech_antitank_grenades = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2110,7 +2110,7 @@ tech_antitank_grenades = {
 }
 
 tech_plasma_cannon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2144,7 +2144,7 @@ tech_plasma_cannon = {
 }
 
 tech_plasma_gun = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2178,7 +2178,7 @@ tech_plasma_gun = {
 }
 
 tech_plasma_pistol = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2212,7 +2212,7 @@ tech_plasma_pistol = {
 }
 
 tech_power_fist = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2246,7 +2246,7 @@ tech_power_fist = {
 }
 
 tech_power_fist_upgrade = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2280,7 +2280,7 @@ tech_power_fist_upgrade = {
 }
 
 tech_power_sword = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2314,7 +2314,7 @@ tech_power_sword = {
 }
 
 tech_power_axe = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2348,7 +2348,7 @@ tech_power_axe = {
 }
 
 tech_predator_lascannon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2382,7 +2382,7 @@ tech_predator_lascannon = {
 }
 
 tech_psychic_hood = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2416,7 +2416,7 @@ tech_psychic_hood = {
 }
 
 tech_reinforced_armor_plating = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2450,7 +2450,7 @@ tech_reinforced_armor_plating = {
 }
 
 tech_scout_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2484,7 +2484,7 @@ tech_scout_armor = {
 }
 
 tech_scout_equipment = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2518,7 +2518,7 @@ tech_scout_equipment = {
 }
 
 tech_scout_sergeant = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { military_theory }
@@ -2552,7 +2552,7 @@ tech_scout_sergeant = {
 }
 
 tech_sergeant_assault_squad = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { military_theory }
@@ -2586,7 +2586,7 @@ tech_sergeant_assault_squad = {
 }
 
 tech_shotgun = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2620,7 +2620,7 @@ tech_shotgun = {
 }
 
 tech_apothecary_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2654,7 +2654,7 @@ tech_apothecary_armor = {
 }
 
 tech_sniper_rifle = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2688,7 +2688,7 @@ tech_sniper_rifle = {
 }
 
 tech_spell_librarian = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -2722,7 +2722,7 @@ tech_spell_librarian = {
 }
 
 tech_storm_bolter = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2756,7 +2756,7 @@ tech_storm_bolter = {
 }
 
 tech_storm_shield = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2790,7 +2790,7 @@ tech_storm_shield = {
 }
 
 tech_tactical_sergeant = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { military_theory }
@@ -2824,7 +2824,7 @@ tech_tactical_sergeant = {
 }
 
 tech_terminator_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2858,7 +2858,7 @@ tech_terminator_armor = {
 }
 
 tech_terminator_teleporter = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = engineering
 	tier = 3
 	category = { armor }
@@ -2892,7 +2892,7 @@ tech_terminator_teleporter = {
 }
 
 tech_thunder_hammer = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -2926,7 +2926,7 @@ tech_thunder_hammer = {
 }
 
 tech_mk8_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2960,7 +2960,7 @@ tech_mk8_armor = {
 }
 
 tech_gravis_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -2994,7 +2994,7 @@ tech_gravis_armor = {
 }
 
 tech_omnis_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -3028,7 +3028,7 @@ tech_omnis_armor = {
 }
 
 tech_phobos_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -3062,7 +3062,7 @@ tech_phobos_armor = {
 }
 
 tech_tacticus_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -3096,7 +3096,7 @@ tech_tacticus_armor = {
 }
 
 tech_vanquisher = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3130,7 +3130,7 @@ tech_vanquisher = {
 }
 
 tech_assault_kit = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3164,7 +3164,7 @@ tech_assault_kit = {
 }
 
 tech_cadian_trooper = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { military_theory }
@@ -3198,7 +3198,7 @@ tech_cadian_trooper = {
 }
 
 tech_demoman = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3232,7 +3232,7 @@ tech_demoman = {
 }
 
 tech_executioner = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3266,7 +3266,7 @@ tech_executioner = {
 }
 
 tech_guardsmen_squad_commissar = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { military_theory }
@@ -3300,7 +3300,7 @@ tech_guardsmen_squad_commissar = {
 }
 
 tech_heavy_weapon_squad_autocannon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3334,7 +3334,7 @@ tech_heavy_weapon_squad_autocannon = {
 }
 
 tech_heavy_weapon_squad_lascannon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3368,7 +3368,7 @@ tech_heavy_weapon_squad_lascannon = {
 }
 
 tech_ogryn_squad_leader = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = society
 	tier = 3
 	category = { military_theory }
@@ -3402,7 +3402,7 @@ tech_ogryn_squad_leader = {
 }
 
 tech_tank_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { materials }
@@ -3436,7 +3436,7 @@ tech_tank_armor = {
 }
 
 tech_sentinel_missile = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3470,7 +3470,7 @@ tech_sentinel_missile = {
 }
 
 tech_manticore_shot = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3504,7 +3504,7 @@ tech_manticore_shot = {
 }
 
 tech_iron_halo = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -3538,7 +3538,7 @@ tech_iron_halo = {
 }
 
 tech_armoured_ceramite_plating = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { materials }
@@ -3572,7 +3572,7 @@ tech_armoured_ceramite_plating = {
 }
 
 tech_infiltrate = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -3606,7 +3606,7 @@ tech_infiltrate = {
 }
 
 tech_ogryn_army = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -3640,7 +3640,7 @@ tech_ogryn_army = {
 }
 
 tech_special_recruits = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -3674,7 +3674,7 @@ tech_special_recruits = {
 }
 
 tech_carapace_armor = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { armor }
@@ -3708,7 +3708,7 @@ tech_carapace_armor = {
 }
 
 tech_heavy_bolter_turret = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3742,7 +3742,7 @@ tech_heavy_bolter_turret = {
 }
 
 tech_demolition_charge = {
-	cost = @tier3cost3
+	cost = @tier3cost1
 	area = engineering
 	tier = 3
 	category = { weapon }
@@ -3776,7 +3776,7 @@ tech_demolition_charge = {
 }
 
 tech_remote_detonation = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3810,7 +3810,7 @@ tech_remote_detonation = {
 }
 
 tech_collegia_titanica = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -3844,7 +3844,7 @@ tech_collegia_titanica = {
 }
 
 tech_officio_assassinorum = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -3878,7 +3878,7 @@ tech_officio_assassinorum = {
 }
 
 tech_deathwatch = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -3912,7 +3912,7 @@ tech_deathwatch = {
 }
 
 tech_sisters_of_battle = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
@@ -3946,7 +3946,7 @@ tech_sisters_of_battle = {
 }
 
 tech_heavy_bolter_turret_common = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -3980,7 +3980,7 @@ tech_heavy_bolter_turret_common = {
 }
 
 tech_power_fist_common = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -4014,7 +4014,7 @@ tech_power_fist_common = {
 }
 
 tech_planetary_turret_gun = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }
@@ -4048,7 +4048,7 @@ tech_planetary_turret_gun = {
 }
 
 tech_sniper_squad_targeted_grenades = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { weapon }

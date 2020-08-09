@@ -24,7 +24,7 @@ genestealer = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_genestealer_rending_claws" "tech_adrenal_rush" }
 
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
@@ -52,7 +52,7 @@ ravener_brood = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_burrow_strike" "tech_burrow_trap" }
 	
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
@@ -80,7 +80,7 @@ termagant = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_crippling_poison" "tech_toxin_sac" }
 	
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
@@ -108,7 +108,7 @@ hormagaunt = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_scything_talons" "tech_adrenal_glands" }
 
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
@@ -136,7 +136,7 @@ tyranid_warrior = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_warrior_vanguard" "tech_acid_splatter" Эtech_corrosive_clawsЭ }
 	
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
@@ -164,16 +164,9 @@ lictor = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
-	
-	allow = {
-		#has_building = xv25_recruitment
-	}
-	
+	prerequisites = { "tech_lictor" "tech_flesh_hook" "tech_elite_jump" }
+
 	potential = {
-		planet = {
-			#has_building = xv25_recruitment
-		}
 		owner = { has_country_flag = tyranid_empire }
 	}
 }
@@ -199,16 +192,9 @@ swarmlord = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
-	
-	allow = {
-		#has_building = xv88_recruitment
-	}
+	prerequisites = { "tech_devourer" "tech_blade_fury" "tech_leech_essence" }
 	
 	potential = {
-		planet = {
-			#has_building = xv88_recruitment
-		}
 		owner = { has_country_flag = tyranid_empire }
 	}
 }
@@ -234,16 +220,9 @@ zoanthrope = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
-	
-	allow = {
-		#has_building = xv104_recruitment
-	}
-	
+	prerequisites = { "tech_warp_field" "tech_psychic_scream" "tech_enhanced_muscle_coil" }
+
 	potential = {
-		planet = {
-			#has_building = xv104_recruitment
-		}
 		owner = { has_country_flag = tyranid_empire }
 	}
 }
@@ -269,16 +248,9 @@ hive_tyrant = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
-	
-	allow = {
-		#has_building = hammerhead_recruitment
-	}
-	
+	prerequisites = { "tech_bioplasma" "tech_hive_venom_cannon" "tech_toxic_miasma" }
+
 	potential = {
-		planet = {
-			#has_building = hammerhead_recruitment
-		}
 		owner = { has_country_flag = tyranid_empire }
 	}
 }

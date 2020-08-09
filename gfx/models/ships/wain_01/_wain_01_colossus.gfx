@@ -1,0 +1,24 @@
+objectTypes = {
+	pdxmesh = {
+		name = "wain_01_blackship_frame_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_blackship_frame.mesh"
+		
+		animation = { id = "idle"			type = "wain_01_blackship_frame_idle_animation" }
+		animation = { id = "open"			type = "wain_01_blackship_frame_open_animation" }
+		animation = { id = "opening"		type = "wain_01_blackship_frame_opening_animation" }
+		animation = { id = "closing"		type = "wain_01_blackship_frame_closing_animation" }
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_blackship_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_blackship_hull.mesh"
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+}

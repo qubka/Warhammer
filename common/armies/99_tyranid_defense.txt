@@ -30,6 +30,8 @@ spore_mines_defense = {
 	
 	icon_frame = 159
 	
+	prerequisites = { "tech_spore_detonation" }
+	
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
 	}

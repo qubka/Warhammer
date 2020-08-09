@@ -16,7 +16,7 @@ ork_nobz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			scrap = 100
 		}
 
 		upkeep = {
@@ -24,10 +24,10 @@ ork_nobz = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_nob_kit" "tech_nob_hammers" "tech_huge_choppa" }
 	
 	allow = {
-		#has_building = ork_nobz_recruitment
+		has_building = building_ork_barrack
 	}
 	
 	potential = {
@@ -48,7 +48,7 @@ storm_boyz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			scrap = 100
 		}
 
 		upkeep = {
@@ -56,8 +56,12 @@ storm_boyz = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_stormboy" "tech_jump" "tech_explosive_shoter" }
 
+	allow = {
+		has_building = building_ork_barrack
+	}
+	
 	potential = {
 		owner = { has_country_flag = ork_empire }
 	}
@@ -76,7 +80,7 @@ tankbustas = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			scrap = 100
 		}
 
 		upkeep = {
@@ -84,8 +88,12 @@ tankbustas = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_rokkit_launcha" "tech_mortar_launcher" "tech_boom_timer" }
 
+	allow = {
+		has_building = building_ork_barrack
+	}
+	
 	potential = {
 		owner = { has_country_flag = ork_empire }
 	}
@@ -104,7 +112,7 @@ ork_shoota_boyz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 70
+			scrap = 100
 		}
 
 		upkeep = {
@@ -112,8 +120,12 @@ ork_shoota_boyz = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_shoota" "tech_explosive_shells" "tech_nob_leader_kommando" }
 
+	allow = {
+		has_building = building_ork_barrack
+	}
+	
 	potential = {
 		owner = { has_country_flag = ork_empire }
 	}
@@ -132,7 +144,7 @@ ork_slugga_boyz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 70
+			scrap = 75
 		}
 
 		upkeep = {
@@ -140,8 +152,12 @@ ork_slugga_boyz = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_slugga" "tech_choppa" "tech_nob_leader_kommando"}
 
+	allow = {
+		has_building = building_ork_barrack
+	}
+	
 	potential = {
 		owner = { has_country_flag = ork_empire }
 	}
@@ -160,7 +176,7 @@ mek_boyz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			scrap = 150
 		}
 
 		upkeep = {
@@ -168,8 +184,12 @@ mek_boyz = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_mekboy_beamy_deffgun" "tech_cybork_bits" "tech_mek_equipment" }
 
+	allow = {
+		has_building = building_ork_barrack
+	}
+	
 	potential = {
 		owner = { has_country_flag = ork_empire }
 	}
@@ -181,6 +201,7 @@ grotz = {
 	morale = 1.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 4
@@ -188,15 +209,17 @@ grotz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 25
+			food = 25
 		}
 
 		upkeep = {
 			energy = 1.5
 		}
 	}
-	
-	#prerequisites = { "tech_assault_armies" }
+
+	allow = {
+		has_building = building_ork_barrack
+	}
 	
 	potential = {
 		owner = { has_country_flag = ork_empire }
@@ -216,7 +239,7 @@ lootas = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			scrap = 150
 		}
 
 		upkeep = {
@@ -224,10 +247,10 @@ lootas = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_deffgun" "tech_nob_leader" }
 	
 	allow = {
-		#has_building = kommandoz_recruitment
+		has_building = building_ork_barrack
 	}
 	
 	potential = {
@@ -248,7 +271,7 @@ stikkbommaz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
+			scrap = 200
 		}
 
 		upkeep = {
@@ -256,10 +279,10 @@ stikkbommaz = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_stikkbomb" "tech_nob_leader" }
 	
 	allow = {
-		#has_building = kommandoz_recruitment
+		has_building = building_ork_barrack
 	}
 	
 	potential = {
@@ -269,7 +292,7 @@ stikkbommaz = {
 
 weird_boyz = {
 	damage = 5.0
-	health = 4.0
+	health = 2.0
 	morale = 4.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
@@ -280,7 +303,7 @@ weird_boyz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 500
+			scrap = 200
 		}
 
 		upkeep = {
@@ -288,10 +311,10 @@ weird_boyz = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_weirdboy_whistles" "tech_weirdboy_copper_rod" "tech_weirdboy_bells" }
 	
 	allow = {
-		#has_building = kommandoz_recruitment
+		has_building = building_ork_barrack
 	}
 	
 	potential = {
@@ -312,7 +335,7 @@ kommando_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 350
+			scrap = 200
 		}
 
 		upkeep = {
@@ -320,10 +343,10 @@ kommando_squad = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_kustom_shoota" "tech_burna_bomb" "tech_kommando_ambush" "tech_hide_boyz" }
 	
 	allow = {
-		#has_building = kommandoz_recruitment
+		has_building = building_ork_barrack
 	}
 	
 	potential = {
@@ -344,7 +367,7 @@ kommandoz = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			scrap = 250
 		}
 
 		upkeep = {
@@ -352,10 +375,10 @@ kommandoz = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_kommando_spechul_shoota" "tech_kustom_choppa" "tech_kommando_kaboom" "tech_kommando_grenade" }
 	
 	allow = {
-		#has_building = kommandoz_recruitment
+		has_building = building_ork_barrack
 	}
 	
 	potential = {
@@ -376,7 +399,7 @@ wartrukk = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			scrap = 500
 		}
 
 		upkeep = {
@@ -384,7 +407,11 @@ wartrukk = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_wartrukk" }
+	
+	allow = {
+		has_building = building_troop_transmitta
+	}
 	
 	potential = {
 		owner = { has_country_flag = ork_empire }
@@ -404,7 +431,7 @@ battlewagon = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 650
+			scrap = 500
 		}
 
 		upkeep = {
@@ -412,7 +439,11 @@ battlewagon = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_deff_rolla" }
+	
+	allow = {
+		has_building = building_troop_transmitta
+	}
 	
 	potential = {
 		owner = { has_country_flag = ork_empire }
@@ -432,7 +463,7 @@ deff_dread = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 750
+			scrap = 500
 		}
 
 		upkeep = {
@@ -440,7 +471,11 @@ deff_dread = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_burna" }
+	
+	allow = {
+		has_building = building_troop_transmitta
+	}
 	
 	potential = {
 		owner = { has_country_flag = ork_empire }
@@ -460,7 +495,7 @@ looted_tank = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 950
+			scrap = 750
 		}
 
 		upkeep = {
@@ -468,7 +503,11 @@ looted_tank = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_looted_tank_armor" }
+	
+	allow = {
+		has_building = building_troop_transmitta
+	}
 	
 	potential = {
 		owner = { has_country_flag = ork_empire }
@@ -488,18 +527,19 @@ stompa = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1050
+			scrap = 1000
 		}
 
 		upkeep = {
-			energy = 5.5
+			energy = 8.0
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
-	
+	prerequisites = { "tech_big_shoota" "tech_power_claw" "tech_spiky_armor" }
+
 	allow = {
-		#has_building = stompa_recruitment
+		has_building = building_troop_transmitta
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -546,18 +586,19 @@ gargant = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1450
+			scrap = 1500
 		}
 
 		upkeep = {
-			energy = 6.5
+			energy = 10.0
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_belly_gun" "tech_angry_bits" "tech_gargant_mega_armor" }
 	
 	allow = {
-		#has_building = gargant_recruitment
+		has_building = building_troop_transmitta
+		
 		owner = {
 			NOT = { 
 				check_variable = {

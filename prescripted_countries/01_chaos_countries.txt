@@ -558,7 +558,7 @@ word_bearer = {
 	ethic = "ethic_spiritualist"
 	flags = { humanoid chaos_empire the_word_bearer chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_word_bearer"
-	planet_class = "pc_daemons"
+	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_word_bearer"
 	
 	graphical_culture = "gothic_01"

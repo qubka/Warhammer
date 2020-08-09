@@ -57,7 +57,7 @@ word_bearer_homeworld = {
 	
 	planet = {
 		name = "Sicarus"
-		class = "pc_daemons"
+		class = "pc_daemon"
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 16 max = 20 }

@@ -1,8 +1,7 @@
 tech_wraithbone = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -32,10 +31,9 @@ tech_wraithbone = {
 }
 
 tech_avatar = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -65,7 +63,7 @@ tech_avatar = {
 }
 
 tech_death_spinner_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -97,10 +95,9 @@ tech_death_spinner_common = {
 }
 
 tech_aspect_of_banshee = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -130,10 +127,9 @@ tech_aspect_of_banshee = {
 }
 
 tech_aspect_of_warp_spider = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -163,10 +159,9 @@ tech_aspect_of_warp_spider = {
 }
 
 tech_banshee_exarch = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -196,7 +191,7 @@ tech_banshee_exarch = {
 }
 
 tech_battle_equipment = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -228,7 +223,7 @@ tech_battle_equipment = {
 }
 
 tech_brightlance_wraithlord = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -260,7 +255,7 @@ tech_brightlance_wraithlord = {
 }
 
 tech_champions_robe = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { armor }
@@ -292,7 +287,7 @@ tech_champions_robe = {
 }
 
 tech_energy_field = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = physics
 	tier = 1
 	category = { field_manipulation }
@@ -324,7 +319,7 @@ tech_energy_field = {
 }
 
 tech_executioner_legendary = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -356,7 +351,7 @@ tech_executioner_legendary = {
 }
 
 tech_fusion_gun_legendary = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -388,7 +383,7 @@ tech_fusion_gun_legendary = {
 }
 
 tech_long_rifle_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -420,7 +415,7 @@ tech_long_rifle_common = {
 }
 
 tech_merciless_witchblade = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -452,10 +447,9 @@ tech_merciless_witchblade = {
 }
 
 tech_pathfinder_gear = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -485,7 +479,7 @@ tech_pathfinder_gear = {
 }
 
 tech_power_sword_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -517,7 +511,7 @@ tech_power_sword_common = {
 }
 
 tech_shuriken_cannon_wraithguard = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -549,7 +543,7 @@ tech_shuriken_cannon_wraithguard = {
 }
 
 tech_shuriken_catapult_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -581,7 +575,7 @@ tech_shuriken_catapult_common = {
 }
 
 tech_shuriken_pistol_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -613,7 +607,7 @@ tech_shuriken_pistol_common = {
 }
 
 tech_twin_death_spinner_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -645,10 +639,9 @@ tech_twin_death_spinner_common = {
 }
 
 tech_warlock = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -678,7 +671,7 @@ tech_warlock = {
 }
 
 tech_witchblade_rare = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -710,7 +703,7 @@ tech_witchblade_rare = {
 }
 
 tech_farse_witchblade_doombringer = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -742,7 +735,7 @@ tech_farse_witchblade_doombringer = {
 }
 
 tech_farse_witchblade_sky_gauntlets = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -774,7 +767,7 @@ tech_farse_witchblade_sky_gauntlets = {
 }
 
 tech_destructor_rare = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -806,10 +799,9 @@ tech_destructor_rare = {
 }
 
 tech_wraithbone_wraithguard = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -839,7 +831,7 @@ tech_wraithbone_wraithguard = {
 }
 
 tech_wraithsword_common = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -871,7 +863,7 @@ tech_wraithsword_common = {
 }
 
 tech_farse_ghosthelm = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -903,7 +895,7 @@ tech_farse_ghosthelm = {
 }
 
 tech_thunder_and_lightning = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -935,7 +927,7 @@ tech_thunder_and_lightning = {
 }
 
 tech_wargear_eld_entangling_web = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = physics
 	tier = 1
 	category = { particles }
@@ -967,7 +959,7 @@ tech_wargear_eld_entangling_web = {
 }
 
 tech_wargear_eld_improved_targeters = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = physics
 	tier = 1
 	category = { computing }
@@ -999,7 +991,7 @@ tech_wargear_eld_improved_targeters = {
 }
 
 tech_wargear_eld_powerblades = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }
@@ -1031,10 +1023,9 @@ tech_wargear_eld_powerblades = {
 }
 
 tech_warp_spiders = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
-
 	category = { military_theory }
 	weight = @tier1weight3
 
@@ -1064,7 +1055,7 @@ tech_warp_spiders = {
 }
 
 tech_wp_farse_witchblade_singing_spear.png = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { weapon }

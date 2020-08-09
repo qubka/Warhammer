@@ -129,7 +129,6 @@ district_generatorum_line = {
 		produces = {
 			trigger = {
 				exists = owner
-				is_ai = no
 				owner = { NOT = { has_deficit = promethium } }
 				planet = { has_modifier = planet_burn_promethium }
 			}

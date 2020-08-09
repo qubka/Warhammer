@@ -1,5 +1,5 @@
 tech_advanced_construction = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -35,7 +35,7 @@ tech_advanced_construction = {
 }
 
 tech_advanced_cutters = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -71,7 +71,7 @@ tech_advanced_cutters = {
 }
 
 tech_advanced_drills = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -107,7 +107,7 @@ tech_advanced_drills = {
 }
 
 tech_advanced_manipulators = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -143,7 +143,7 @@ tech_advanced_manipulators = {
 }
 
 tech_advanced_processing = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -179,7 +179,7 @@ tech_advanced_processing = {
 }
 
 tech_advanced_smelters = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -215,7 +215,7 @@ tech_advanced_smelters = {
 }
 
 tech_advanced_tools = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -251,7 +251,7 @@ tech_advanced_tools = {
 }
 
 tech_advanced_seeds = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { biology }
@@ -324,7 +324,7 @@ tech_advanced_scanning = {
 }
 
 tech_angel_cult = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { statecraft }
@@ -360,7 +360,7 @@ tech_angel_cult = {
 }
 
 tech_agri_project = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -410,7 +410,7 @@ tech_agri_project = {
 
 tech_penal_project = {
 	icon = tech_penal_colonies
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -459,7 +459,7 @@ tech_penal_project = {
 }
 
 tech_hive_project = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -508,7 +508,7 @@ tech_hive_project = {
 }
 
 tech_forge_project = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -557,7 +557,7 @@ tech_forge_project = {
 }
 
 tech_fortress_project = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -606,7 +606,7 @@ tech_fortress_project = {
 }
 
 tech_shrine_project = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -655,7 +655,7 @@ tech_shrine_project = {
 }
 
 tech_armoury_project = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -704,7 +704,7 @@ tech_armoury_project = {
 }
 
 tech_darkage_knowledge = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { lost_knowledge }
@@ -740,7 +740,7 @@ tech_darkage_knowledge = {
 }
 
 tech_education_reform = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -792,7 +792,7 @@ tech_education_reform = {
 }
 
 tech_mining_guilds = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -828,7 +828,7 @@ tech_mining_guilds = {
 }
 
 tech_merchant_guilds = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -864,7 +864,7 @@ tech_merchant_guilds = {
 }
 
 tech_mechanicus_guilds = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -900,7 +900,7 @@ tech_mechanicus_guilds = {
 }
 
 tech_promethium = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { materials }
@@ -1002,7 +1002,7 @@ tech_promethium_mining = {
 }
 
 tech_minerals_prospecting = {
-	cost = @tier1cost2
+	cost = @tier1cost1
 	area = physics
 	tier = 1
 	category = { field_manipulation }
@@ -1034,7 +1034,7 @@ tech_minerals_prospecting = {
 }
 
 tech_burn_promethium = {
-	cost = @tier1cost2
+	cost = @tier1cost1
 	area = physics
 	tier = 1
 	category = { particles }
@@ -1118,7 +1118,7 @@ tech_byzantine_bureaucracy = {
 }
 
 tech_alco_produce = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -1191,7 +1191,7 @@ tech_imperial_cult = {
 }
 
 tech_mind_cleaning = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { biology }
@@ -1300,7 +1300,7 @@ tech_orders_famulous = {
 }
 
 tech_stabilize_gene_seed = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { biology }
@@ -1434,7 +1434,7 @@ tech_exterminatus_2 = {
 }
 
 tech_fishing_post  = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = engineering
 	tier = 2
 	category = { industry }
@@ -1468,7 +1468,7 @@ tech_fishing_post  = {
 }
 
 tech_power_gen = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = physics
 	tier = 2
 	category = { field_manipulation }
@@ -1502,7 +1502,7 @@ tech_power_gen = {
 }
 
 tech_relay_beacon = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = physics
 	tier = 2
 	category = { field_manipulation }
@@ -1536,7 +1536,7 @@ tech_relay_beacon = {
 }
 
 tech_hq = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { statecraft }
@@ -1570,7 +1570,7 @@ tech_hq = {
 }
 
 tech_sanguinala_parade = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -1607,7 +1607,7 @@ tech_sanguinala_parade = {
 }
 
 tech_improved_bionics = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { computing }
@@ -1644,7 +1644,7 @@ tech_improved_bionics = {
 }
 
 tech_imperium_statues = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -1895,7 +1895,7 @@ tech_ammunition_alloys = {
 
 tech_ship_armor = {
 	area = engineering
-	cost = @tier2cost2
+	cost = @tier2cost1
 	tier = 2
 	category = { materials }
 	weight = @tier2weight2
@@ -1931,7 +1931,7 @@ tech_ship_armor = {
 
 tech_full_auto = {
 	area = physics
-	cost = @tier2cost2
+	cost = @tier2cost1
 	tier = 2
 	category = { computing }
 	weight = @tier2weight2
@@ -1967,7 +1967,7 @@ tech_full_auto = {
 
 tech_auto_missile_barrage = {
 	area = physics
-	cost = @tier2cost2
+	cost = @tier2cost1
 	tier = 2
 	category = { weapon }
 	weight = @tier2weight2
@@ -2002,7 +2002,7 @@ tech_auto_missile_barrage = {
 }
 
 tech_analyze_stc = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { lost_knowledge }
@@ -2040,7 +2040,7 @@ tech_analyze_stc = {
 }
 
 tech_judicial_reform = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { statecraft }
@@ -2077,7 +2077,7 @@ tech_judicial_reform = {
 }
 
 tech_increased_ration = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { statecraft }
@@ -2114,7 +2114,7 @@ tech_increased_ration = {
 }
 
 tech_servo_skull = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { lost_knowledge }
@@ -2150,7 +2150,7 @@ tech_servo_skull = {
 }
 
 tech_chemical_reagents = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = engineering
 	tier = 1
 	category = { industry }
@@ -2186,7 +2186,7 @@ tech_chemical_reagents = {
 }
 
 tech_generatorum_boosters = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = physics
 	tier = 1
 	category = { particles }
@@ -2222,7 +2222,7 @@ tech_generatorum_boosters = {
 }
 
 tech_inquisition_spies = {
-	cost = @tier2cost3
+	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { statecraft }

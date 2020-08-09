@@ -386,37 +386,6 @@ truth_preacher = {
 		planet_amenities_add = 5
 	}
 
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_trait = trait_robot_domestic_protocols
-				has_trait = trait_charismatic
-			}
-		}
-		modifier = {
-			planet_amenities_add = 0.6
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			has_trait = trait_repugnant
-		}
-		modifier = {
-			planet_amenities_add = -0.6
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_trait = trait_thrifty
-				has_trait = trait_nuumismatic_administration
-			}
-		}
-		modifier = {
-			trade_value_add = 0.6
-		}
-	}
-
 	weight = {
 		weight = @specialist_job_weight
 		modifier = {
@@ -525,40 +494,13 @@ inquisitor = {
 	resources = {
 		category = planet_priests
 		produces = {
-			unity = 10
-			society_research = 5
-		}
-		produces = {
-			trigger = {
-				exists = owner
-				owner = { has_valid_civic = civic_exalted_priesthood }
-			}
-			unity = 1
+			unity = 5
+			society_research = 3
 		}
 	}
 
 	planet_modifier = {
 		planet_stability_add = 15
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_trait = trait_robot_domestic_protocols
-				has_trait = trait_charismatic
-			}
-		}
-		modifier = {
-			planet_amenities_add = 1
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			has_trait = trait_repugnant
-		}
-		modifier = {
-			planet_amenities_add = -1
-		}
 	}
 
 	weight = {
@@ -658,26 +600,6 @@ executioner = {
 
 	planet_modifier = {
 		planet_amenities_add = 15
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_trait = trait_robot_domestic_protocols
-				has_trait = trait_charismatic
-			}
-		}
-		modifier = {
-			planet_amenities_add = 2
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			has_trait = trait_repugnant
-		}
-		modifier = {
-			planet_amenities_add = -2
-		}
 	}
 
 	weight = {

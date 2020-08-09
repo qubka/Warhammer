@@ -1,0 +1,961 @@
+objectTypes = {
+		
+	#######  Turrets  #######	
+	
+	pdxmesh = {
+		name = "wain_01_turret_projectile_large_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_projectile_large.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_projectile_medium_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_projectile_medium.mesh"	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_projectile_small_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_projectile_small.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_turret_laser_large_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_laser_large.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_laser_medium_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_laser_medium.mesh"	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_laser_small_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_laser_small.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_turret_missile_large_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_missile_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_missile_medium_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_missile_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_missile_small_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_missile_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_turret_point_defence_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_laser_small.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_turret_xl_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_turret_xl.mesh"	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	#######  corvette frame  #######
+	
+	pdxmesh = {
+		name = "wain_01_cobra_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cobra_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_cobra_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cobra_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_cobra_prow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cobra_prow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_cobra_torpedoprow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cobra_torpedoprow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  corvette sections  #######	
+	
+	pdxmesh = {
+		name = "wain_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_corvette_M1S1.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "wain_01_corvette_S3_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_corvette_S3.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+		pdxmesh = {
+		name = "wain_01_corvette_S1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_corvette_S1.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	
+	
+	#######  destroyer frame  #######
+	
+	pdxmesh = {
+		name = "wain_01_firestorm_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_firestorm_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "wain_01_firestorm_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_firestorm_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_firestorm_bowboardside_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_firestorm_bowboardside.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_firestorm_bowbrattice_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_firestorm_bowbrattice.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_firestorm_sternboardside_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_firestorm_sternboardside.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_firestorm_sternbrattice_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_firestorm_sternbrattice.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  destroyer bow sections  #######	
+
+	pdxmesh = {
+		name = "wain_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_destroyer_bow_L1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_destroyer_bow_M1S2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_destroyer_bow_S3.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+	
+	pdxmesh = {
+		name = "wain_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_destroyer_stern_S2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_destroyer_stern_M1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	#######  cruiser frame  #######
+
+	pdxmesh = {
+		name = "wain_01_3parts_frame_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_3parts_frame.mesh"
+				animation = { id = "idle"			type = "wain_01_3parts_frame_idle_animation" }
+				animation = { id = "death"			type = "wain_01_3parts_frame_death_animation" }
+				animation = { id = "death2"			type = "wain_01_3parts_frame_death2_animation" }
+				animation = { id = "death3"			type = "wain_01_3parts_frame_death3_animation" }
+				animation = { id = "attack"			type = "wain_01_3parts_frame_idle_animation" }				
+				animation = { id = "moving"			type = "wain_01_3parts_frame_idle_animation" }				
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "wain_01_dauntless_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dauntless_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_dauntless_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dauntless_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_dauntless_bow_prow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dauntless_bow_prow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_dauntless_bow_torpedoprow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dauntless_bow_torpedoprow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_dauntless_mid_prow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dauntless_mid_prow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_dauntless_mid_torpedoprow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dauntless_mid_torpedoprow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "wain_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_bow_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "wain_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_bow_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_bow_M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "wain_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_mid_S2HB.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_mid_L1M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+				
+	pdxmesh = {
+		name = "wain_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_mid_M3.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}		
+	
+	pdxmesh = {
+		name = "wain_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_mid_M2S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "wain_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_stern_M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_cruiser_stern_S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}		
+	
+	
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "wain_01_overlord_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_overlord_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_overlord_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_overlord_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  Battleship bow sections  #######	
+	
+	pdxmesh = {
+		name = "wain_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_bow_L1M1S2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "wain_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_bow_L2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_bow_M1S2SHB.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_bow_XL1.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	#######  Battleship mid sections  #######			
+		
+		
+		pdxmesh = {
+		name = "wain_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_mid_L2M2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_mid_L3.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_mid_M4SHB.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_mid_S4LHB.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+				
+		
+	#######  Battleship stern sections  #######	
+		
+		
+	pdxmesh = {
+		name = "wain_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_stern_L1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+
+	pdxmesh = {
+		name = "wain_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_battleship_stern_M2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	
+	#######  civilian frame  #######
+	
+	####### small ships  #######	
+	pdxmesh = {
+		name = "wain_01_bomber_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_bomber.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_launcher_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_launcher.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "wain_01_fighter_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_fighter.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	####### stations #######	
+	
+	pdxmesh = {
+		name = "wain_01_dp_frame_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dp_frame.mesh"
+				animation = { id = "idle"			type = "wain_01_dp_frame_idle_animation" }
+				animation = { id = "death"			type = "wain_01_dp_frame_death_animation" }
+				animation = { id = "death2"			type = "wain_01_dp_frame_death2_animation" }
+				animation = { id = "death3"			type = "wain_01_dp_frame_death3_animation" }
+				animation = { id = "attack"			type = "wain_01_dp_frame_idle_animation" }				
+				animation = { id = "moving"			type = "wain_01_dp_frame_idle_animation" }				
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "wain_01_dp_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dp_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_dp_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_dp_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_military_station_section_heavy_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_military_station_section_heavy.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_military_station_section_medium_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_military_station_section_medium.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "wain_01_military_station_section_light_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_military_station_section_light.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_military_station_section_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_military_station_section_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_smallstation_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_smallstation_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_smallstation_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_smallstation_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_ion_cannon_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_ion_cannon.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_citadel_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_citadel_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_citadel_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_citadel_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starfort_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starfort_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starfort_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starfort_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starhold_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starhold_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starhold_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starhold_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starport_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starport_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_starport_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starport_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_outpost_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_outpost_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_outpost_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_outpost_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starbase_frame_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starbase_frame.mesh"
+				animation = { id = "idle"			type = "wain_01_starbase_frame_idle_animation" }
+				animation = { id = "death"			type = "wain_01_starbase_frame_death_animation" }
+				animation = { id = "death2"			type = "wain_01_starbase_frame_death2_animation" }
+				animation = { id = "death3"			type = "wain_01_starbase_frame_death3_animation" }
+				animation = { id = "attack"			type = "wain_01_starbase_frame_idle_animation" }				
+				animation = { id = "moving"			type = "wain_01_starbase_frame_idle_animation" }				
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "wain_01_habitat_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_habitat_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "wain_01_starbase_civil_section_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starbase_civil_section_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_starbase_hangar_section_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starbase_hangar_section_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_orbital_station_assemblyyard_section_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_starbase_assemblyyard_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	
+	####### civilian ships  #######	
+	
+	pdxmesh = {
+		name = "wain_01_science_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_science.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "wain_01_constructor_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_constructor_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_constructor_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_constructor_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_transport_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_transport.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_transport_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_transport_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_empty_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_empty.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+}
+
+

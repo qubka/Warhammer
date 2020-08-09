@@ -423,7 +423,7 @@ building_planetary_turret_1 = {
 	}
 	
 	upgrades = {
-		building_planetery_turret_2
+		building_planetary_turret_2
 	}
 	
 	prerequisites = { "tech_planetary_turret_gun" }
@@ -477,7 +477,7 @@ building_planetary_turret_1 = {
 	}
 }
 
-building_planetery_turret_2 = {
+building_planetary_turret_2 = {
 	base_buildtime = 360
 	can_build = no
 	

@@ -132,27 +132,8 @@ kabalite_warrior = {
 		pop_defense_armies_add = 3
 	}
 
-	resources = {
-		category = planet_soldiers
-		produces = {
-			trigger = {
-				exists = owner
-				owner = { has_valid_civic = civic_citizen_service }
-			}
-			unity = 2
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = planet
-			planet = {
-				has_modifier = martial_law
-			}
-		}
-		modifier = {
-			planet_stability_add = 5
-		}
+	planet_modifier = {
+		planet_stability_add = 3
 	}
 
 	possible_pre_triggers = {
@@ -282,13 +263,6 @@ haemacolyte = {
 			physics_research = 5
 			engineering_research = 5
 			society_research = 5
-		}
-		produces = {
-			trigger = {
-				exists = owner
-				owner = { has_valid_civic = civic_technocracy }
-			}
-			unity = 3
 		}
 		upkeep = {
 			consumer_goods = 1
@@ -420,31 +394,11 @@ wych = {
 	}
 
 	planet_modifier = {
-		planet_amenities_add = 12
+		planet_amenities_add = 15
 	}
 
 	country_modifier = {
 		country_naval_cap_add = 2
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			OR = {
-				has_trait = trait_robot_domestic_protocols
-				has_trait = trait_charismatic
-			}
-		}
-		modifier = {
-			planet_amenities_add = 2
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			has_trait = trait_repugnant
-		}
-		modifier = {
-			planet_amenities_add = -2
-		}
 	}
 
 	weight = {

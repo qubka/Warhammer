@@ -1,0 +1,66 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "wain_01_phalanx_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_phalanx_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_phalanx_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_phalanx_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_phalanx_engine_01_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_phalanx_engine_01.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_phalanx_engine_02_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_phalanx_engine_02.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_phalanx_st_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_phalanx_st_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_juggernaut_core_section_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_juggernaut_core_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "wain_01_phalanx_shield_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_phalanx_shield_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+
+}

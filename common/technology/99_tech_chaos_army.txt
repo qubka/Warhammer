@@ -1,5 +1,5 @@
 tech_chaos_marines = {
-	cost = @tier1cost3
+	cost = @tier1cost1
 	area = society
 	tier = 1
 	category = { chaos }

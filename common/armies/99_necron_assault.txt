@@ -16,7 +16,7 @@ attack_scarabs = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 15
+			living_metal = 15
 		}
 
 		upkeep = {
@@ -44,7 +44,7 @@ lychguard = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 15
+			living_metal = 15
 		}
 
 		upkeep = {
@@ -72,7 +72,7 @@ necron_warriors = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 10
+			living_metal = 10
 		}
 
 		upkeep = {
@@ -100,7 +100,7 @@ destroyer = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 20
+			living_metal = 20
 		}
 
 		upkeep = {
@@ -128,7 +128,7 @@ pariahs = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 40
+			living_metal = 40
 		}
 
 		upkeep = {
@@ -156,7 +156,7 @@ immortal = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 50
+			living_metal = 50
 		}
 
 		upkeep = {
@@ -188,7 +188,7 @@ wraith = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 40
+			living_metal = 40
 		}
 
 		upkeep = {
@@ -220,7 +220,7 @@ flayed_ones = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 50
+			living_metal = 50
 		}
 
 		upkeep = {
@@ -252,7 +252,7 @@ monolith = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 200
+			living_metal = 200
 		}
 
 		upkeep = {
@@ -264,6 +264,7 @@ monolith = {
 	
 	allow = {
 		#has_building = monolith_recruitment
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -310,7 +311,7 @@ deceiver = {
 	resources = {
 		category = armies
 		cost = {
-			sr_living_metal = 500
+			living_metal = 500
 		}
 
 		upkeep = {
@@ -322,6 +323,7 @@ deceiver = {
 	
 	allow = {
 		#has_building = monolith_recruitment
+		
 		owner = {
 			NOT = { 
 				check_variable = {

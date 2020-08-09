@@ -1,0 +1,47 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "wain_01_apocalypse_hull_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_apocalypse_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_apocalypse_parts_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_apocalypse_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_titan_bow_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_titan_bow.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_titan_mid_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_titan_mid.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "wain_01_titan_stern_mesh"
+		file = "gfx/models/ships/wain_01/wain_01_titan_stern.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+}

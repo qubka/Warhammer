@@ -1,0 +1,177 @@
+@juggernaut_scale = 48
+
+entity = {
+	name = "wain_01_juggernaut_entity"
+	pdxmesh = "wain_01_3parts_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" animation_blend_time = 4
+		start_event = { trigger_once = yes sound = { soundeffect = juggernaut_mammalian_idle } }
+	}
+	state = { name = "moving" animation = "idle" animation_blend_time = 2
+		event = { sound = { soundeffect = juggernaut_mammalian_move } }
+	}
+	state = { name = "death" animation = "death" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 3.4 node = "part1_locator" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 3.4 node = "part1_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 3.4 node = "part1_locator" particle = "ship_burn_particle" }
+		
+		event = { time = 8.0 node = "part2_back_locator" particle = "ship_explosion_air_vent_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 3.4 node = "part2_front_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 8.0 node = "part2_back_locator" particle = "ship_burn_particle" }
+		event = { time = 3.4 node = "part2_front_locator" particle = "ship_burn_particle" }
+		
+		event = { time = 8.0 node = "part3_locator" particle = "ship_burn_particle" }
+		event = { time = 8.0 node = "part3_locator" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 8.0 node = "part3_locator" particle = "ship_explosion_air_vent_particle" }
+	
+		event = { time = 10.3 node = "explosion_locator6" particle = "small_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		
+		event = { time = 19.73 node = "part2" particle = "small_player_ship_explosion_particle" sound = { soundeffect = ship_explosion_large } }
+		event = { time = 19.73 node = "explosion_locator3" particle = "small_player_ship_explosion_particle" }
+	}
+	state = { name = "death" animation = "death2" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 5.16 node = "part1_locator" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 5.16 node = "part1_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 5.16 node = "part1_locator" particle = "ship_burn_particle" }
+		
+		event = { time = 5.16 node = "part2_front_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 5.16 node = "part2_front_locator" particle = "ship_burn_particle" }
+		
+		event = { time = 11.9 node = "part2_back_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 11.9 node = "part2_back_locator" particle = "ship_burn_particle" }
+		event = { time = 11.9 node = "part2_back_locator" particle = "ship_explosion_particle" }
+	
+		event = { time = 11.9 node = "part3_explosion_locator" particle = "small_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		
+		event = { time = 18.0 node = "part2" particle = "small_player_ship_explosion_particle" sound = { soundeffect = ship_explosion_large } }
+		event = { time = 18.0 node = "part1" particle = "small_player_ship_explosion_particle" }
+	}
+	
+	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 1.7 node = "explosion_locator1" particle = "ship_burn_particle" }
+		event = { time = 1.7 node = "explosion_locator1" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+	
+		event = { time = 2.16 node = "explosion_locator2" particle = "ship_burn_particle" }
+		event = { time = 2.16 node = "explosion_locator2" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+	
+		event = { time = 3.9 node = "explosion_locator3" particle = "ship_burn_particle" }
+		event = { time = 3.9 node = "explosion_locator3" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 7.5 node = "explosion_locator4" particle = "ship_burn_particle" }
+		event = { time = 7.5 node = "explosion_locator4" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+	
+		event = { time = 4.9 node = "explosion_locator5" particle = "ship_burn_particle" }
+		event = { time = 4.9 node = "explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+	
+		event = { time = 17.5 node = "part2" particle = "small_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+	}
+	
+	attach = { part1 = "wain_01_phalanx_hull_entity" }
+	attach = { part1 = "wain_01_phalanx_parts_entity" }
+	attach = { part1 = "wain_01_phalanx_st_parts_entity" }
+	attach = { part1 = "wain_01_phalanx_shield_parts_entity" }
+	attach = { part1 = "wain_01_phalanx_engine_01_entity" }
+	attach = { part1 = "wain_01_phalanx_engine_02_entity" }
+	
+	scale = 1.0
+	game_data = {
+		size = @juggernaut_scale
+		emissive_recolor_crunch = 0.0
+	}
+}
+
+entity = {
+	name = "wain_01_juggernaut_core_section_entity"
+	pdxmesh = "wain_01_juggernaut_core_section_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "wain_01_phalanx_shield_parts_entity"
+	pdxmesh = "wain_01_phalanx_shield_parts_mesh"
+	
+	game_data = {
+		uv_animation_speed   = -0.05
+		uv_animation_direction  = { 1.0 0.0 }
+		emissive_recolor_crunch = 0.0
+	}
+}
+
+entity = {
+	name = "wain_01_phalanx_hull_entity"
+	pdxmesh = "wain_01_phalanx_hull_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "wain_01_phalanx_parts_entity"
+	pdxmesh = "wain_01_phalanx_parts_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "wain_01_phalanx_engine_01_entity"
+	pdxmesh = "wain_01_phalanx_engine_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_05" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_06" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_07" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_08" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_09" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_10" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_11" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "wain_01_phalanx_engine_02_entity"
+	pdxmesh = "wain_01_phalanx_engine_02_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_12" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_13" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_14" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_15" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_16" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_17" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_18" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_19" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_20" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_21" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_22" particle = "wain_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "wain_01_phalanx_st_parts_entity"
+	pdxmesh = "wain_01_phalanx_st_parts_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}

@@ -16,7 +16,7 @@ harridan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1800
+			alloys = 1800
 		}
 
 		upkeep = {
@@ -24,7 +24,7 @@ harridan = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_organic_wings" "tech_bioplasma_armor" }
 	
 	allow = {
 		owner = {
@@ -76,7 +76,7 @@ hierodule = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 2500
+			alloys = 2500
 		}
 
 		upkeep = {
@@ -84,7 +84,7 @@ hierodule = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_barbed_strangler" "tech_revive_carapace" }
 	
 	allow = {
 		owner = {
@@ -134,7 +134,7 @@ dominatrix = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 3000
+			alloys = 3000
 		}
 
 		upkeep = {
@@ -142,7 +142,7 @@ dominatrix = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_dominatrix_crippling_talon" "tech_extended_carapace" }
 	
 	allow = {
 		owner = {
@@ -192,7 +192,7 @@ hierophant = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 4500
+			alloys = 4500
 		}
 
 		upkeep = {
@@ -200,7 +200,7 @@ hierophant = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_feeder_tendrils" "tech_strong_exoskeleton" }
 	
 	allow = {
 		owner = {
@@ -250,7 +250,7 @@ viciator = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 5500
+			alloys = 5500
 		}
 
 		upkeep = {
@@ -258,7 +258,7 @@ viciator = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_bonded_exoskeleton" "tech_crushing_claws" }
 	
 	allow = {
 		owner = {
