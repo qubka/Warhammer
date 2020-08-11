@@ -916,7 +916,7 @@ tech_power_fist_nurgle = {
 	}
 }
 
-tech_predator_lascannon = {
+tech_predator_lascannons = {
 	cost = @tier2cost3
 	area = engineering
 	tier = 2

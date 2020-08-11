@@ -296,7 +296,7 @@ emperor_titan = {
 	morale = 9
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
-	time = 1001
+	time = 1000
 	
 	icon_frame = 35
 	

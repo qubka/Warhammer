@@ -314,6 +314,7 @@ warp_spiders = {
 	morale = 2.00
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 130
 	
 	icon_frame = 80
@@ -347,6 +348,7 @@ guardian_squad = {
 	morale = 1.35
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 82
@@ -379,6 +381,7 @@ ranger_squad = {
 	morale = 1.15
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 83
@@ -411,6 +414,7 @@ howling_banshee = {
 	morale = 1.55
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 110
 	
 	icon_frame = 84

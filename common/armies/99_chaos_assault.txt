@@ -246,7 +246,7 @@ chaos_predator = {
 		}
 	}
 	
-	prerequisites = { "tech_predator_lascannon" "tech_predator_mark_of_khorne" "tech_predator_mark_of_nurgle" }
+	prerequisites = { "tech_predator_lascannons" "tech_predator_mark_of_khorne" "tech_predator_mark_of_nurgle" }
 	
 	allow = {
 		has_building = building_machine_pit

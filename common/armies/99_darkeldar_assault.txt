@@ -9,6 +9,7 @@ wyches = {
 	morale = 1.55
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 110
 	
 	icon_frame = 86
@@ -16,7 +17,7 @@ wyches = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			alloys = 100
 		}
 
 		upkeep = {
@@ -24,7 +25,11 @@ wyches = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_combat_drugs" "tech_wych_succubus" }
+	
+	allow = {
+		has_building = building_wych_cult_arena
+	}
 	
 	potential = {
 		owner = { has_country_flag = darkeldar_empire }
@@ -37,6 +42,7 @@ kabalite_warriors = {
 	morale = 1.15
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 87
@@ -44,7 +50,7 @@ kabalite_warriors = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 50
+			alloys = 50
 		}
 
 		upkeep = {
@@ -52,7 +58,11 @@ kabalite_warriors = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_kabal" "tech_warrior_sybarite" }
+	
+	allow = {
+		has_building = building_kabal_fortress
+	}
 	
 	potential = {
 		owner = { has_country_flag = darkeldar_empire }
@@ -72,7 +82,7 @@ warp_beast_pack = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			alloys = 150
 		}
 
 		upkeep = {
@@ -80,10 +90,10 @@ warp_beast_pack = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_beastmaster" }
 	
 	allow = {
-		#has_building = raider_recruitment
+		has_building = building_kabal_fortress
 	}
 	
 	potential = {
@@ -97,6 +107,7 @@ hellion_squad = {
 	morale = 4.5
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 150
 	
 	icon_frame = 89
@@ -104,7 +115,7 @@ hellion_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			alloys = 200
 		}
 
 		upkeep = {
@@ -112,10 +123,10 @@ hellion_squad = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_hellion_sybarite" "tech_poisoned_blade" }
 	
 	allow = {
-		#has_building = raider_recruitment
+		has_building = building_kabal_fortress
 	}
 	
 	potential = {
@@ -129,6 +140,7 @@ scourge_squad = {
 	morale = 3.5
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 150
 	
 	icon_frame = 90
@@ -136,7 +148,7 @@ scourge_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
+			alloys = 250
 		}
 
 		upkeep = {
@@ -144,10 +156,10 @@ scourge_squad = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_scourge_sybarite" "tech_rekindle_rage" }
 	
 	allow = {
-		#has_building = raider_recruitment
+		has_building = building_kabal_fortress
 	}
 	
 	potential = {
@@ -161,6 +173,7 @@ mandrake_squad = {
 	morale = 1.35
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 96
@@ -168,7 +181,7 @@ mandrake_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			alloys = 100
 		}
 
 		upkeep = {
@@ -176,8 +189,12 @@ mandrake_squad = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_mandrake_sybarite" "tech_infiltration" }
 
+	allow = {
+		has_building = building_kabal_fortress
+	}
+	
 	potential = {
 		owner = { has_country_flag = darkeldar_empire }
 	}
@@ -196,7 +213,7 @@ reaver_jetbike = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 300
+			alloys = 300
 		}
 
 		upkeep = {
@@ -204,10 +221,10 @@ reaver_jetbike = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_screaming_jets" "tech_night_shields" }
 	
 	allow = {
-		#has_building = raider_recruitment
+		has_building = building_dark_factory
 	}
 	
 	potential = {
@@ -215,7 +232,7 @@ reaver_jetbike = {
 	}
 }
 
-raider = {
+raven = {
 	damage = 3.8
 	health = 4.6
 	morale = 3
@@ -228,7 +245,7 @@ raider = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 350
+			alloys = 350
 		}
 
 		upkeep = {
@@ -236,10 +253,42 @@ raider = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_screaming_jets" "tech_short_circuit" }
 	
 	allow = {
-		#has_building = raider_recruitment
+		has_building = building_dark_factory
+	}
+	
+	potential = {
+		owner = { has_country_flag = darkeldar_empire }
+	}
+}
+
+talos = {
+	damage = 1.8
+	health = 3.8
+	morale = 2
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 150
+	
+	icon_frame = 162
+	
+	resources = {
+		category = armies
+		cost = {
+			alloys = 150
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	prerequisites = { "tech_screaming_jets" "tech_wildfire" }
+	
+	allow = {
+		has_building = building_dark_factory
 	}
 	
 	potential = {
@@ -260,7 +309,7 @@ ravager = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			alloys = 150
 		}
 
 		upkeep = {
@@ -268,10 +317,10 @@ ravager = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_screaming_jets" "tech_horrorfex_bomb" }
 	
 	allow = {
-		#has_building = venom_recruitment
+		has_building = building_dark_factory
 	}
 	
 	potential = {
@@ -292,7 +341,7 @@ dais = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 500
+			alloys = 500
 		}
 
 		upkeep = {
@@ -300,10 +349,10 @@ dais = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_screaming_jets" "tech_disintegrator" }
 	
 	allow = {
-		#has_building = venom_recruitment
+		has_building = building_dark_factory
 	}
 	
 	potential = {
@@ -324,7 +373,7 @@ haemonculus = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 40
+			alloys = 40
 		}
 
 		upkeep = {
@@ -332,7 +381,11 @@ haemonculus = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_stinger" "tech_torture_amp" }
+	
+	allow = {
+		has_building = building_haemonculus_laboratory
+	}
 	
 	potential = {
 		owner = { has_country_flag = darkeldar_empire }
@@ -345,6 +398,7 @@ incubi = {
 	morale = 1.35
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 97
@@ -352,7 +406,7 @@ incubi = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			alloys = 100
 		}
 
 		upkeep = {
@@ -360,7 +414,11 @@ incubi = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_wraithbone_woven_battlesuit" "tech_dark_scythe" "tech_animus_vitae" }
+	
+	allow = {
+		has_building = building_tower_of_loathing
+	}
 	
 	potential = {
 		owner = { has_country_flag = darkeldar_empire }

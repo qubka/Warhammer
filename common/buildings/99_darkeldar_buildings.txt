@@ -145,10 +145,10 @@ building_slave_chamber = {
 		category = planet_buildings
 		cost = {
 			minerals = 300
-			slaves = 100
 		}
 		upkeep = {
 			energy = 20
+			slaves = 1
 		}
 	}
 

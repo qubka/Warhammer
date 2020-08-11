@@ -9,6 +9,7 @@ fire_warriors = {
 	morale = 1.55
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 36
@@ -16,7 +17,7 @@ fire_warriors = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 60
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -24,7 +25,7 @@ fire_warriors = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_pulse_rifle" "tech_combat_uniform" "tech_shas_ui" }
 
 	potential = {
 		owner = { has_country_flag = tau_empire }
@@ -37,6 +38,7 @@ guevesa = {
 	morale = 2.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 144
@@ -44,7 +46,7 @@ guevesa = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 50
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -52,7 +54,7 @@ guevesa = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_shas_vesa" "tech_pulse_carbine" "tech_guevesa_armor" }
 
 	potential = {
 		#planet = { has_planet_flag = human_planet }
@@ -66,6 +68,7 @@ demiurg = {
 	morale = 1.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 49
@@ -73,7 +76,7 @@ demiurg = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 55
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -81,7 +84,7 @@ demiurg = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_demiurg_gun" "tech_demiurg_armor" "tech_energy_drill" }
 	
 	potential = {
 		#planet = { has_planet_flag = demiurg_planet }
@@ -95,6 +98,7 @@ vespid = {
 	morale = 1.35
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 37
@@ -102,7 +106,7 @@ vespid = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 60
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -110,7 +114,7 @@ vespid = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_vespid_strain_leader" "tech_neutron_blaster" "tech_communion_helm" }
 	
 	potential = {
 		#planet = { has_planet_flag = vespid_planet }
@@ -124,6 +128,7 @@ kroot = {
 	morale = 1.35
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 38
@@ -131,7 +136,7 @@ kroot = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 60
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -139,10 +144,10 @@ kroot = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_kroot_gun" "tech_kroot_rifle" "tech_jeap_jump" }
 
 	potential = {
-		#planet = { has_planet_flag = pech_planet }
+		#planet = { has_planet_flag = kroot_planet }
 		owner = { has_country_flag = tau_empire }
 	}
 }
@@ -160,7 +165,9 @@ xv8_crisis_battlesuits = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			alloys = 500
+			electronics = 50
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -168,7 +175,11 @@ xv8_crisis_battlesuits = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_blue_flamer" "tech_fusion_blaster" "tech_misslepod" }
+	
+	allow = {
+		has_building = building_vehicle_beacon
+	}
 	
 	potential = {
 		owner = { has_country_flag = tau_empire }
@@ -188,7 +199,9 @@ xv25_stealthsuit = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			alloys = 600
+			electronics = 50
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -196,10 +209,10 @@ xv25_stealthsuit = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_shas_vre" "tech_fusion_cascade" "tech_infiltrationing" }
 	
 	allow = {
-		#has_building = xv25_recruitment
+		has_building = building_vehicle_beacon
 	}
 	
 	potential = {
@@ -220,7 +233,9 @@ xv88_broadside_battlesuit = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			alloys = 750
+			electronics = 50
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -228,10 +243,10 @@ xv88_broadside_battlesuit = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_plasma_rifle" "tech_particle_accelerator" "tech_misslepod" }
 	
 	allow = {
-		#has_building = xv88_recruitment
+		has_building = building_vehicle_beacon
 	}
 	
 	potential = {
@@ -240,8 +255,8 @@ xv88_broadside_battlesuit = {
 }
 
 xv104_riptide_battlesuit = {
-	damage = 6.2
-	health = 8.2
+	damage = 5.2
+	health = 6.2
 	morale = 6.2
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
@@ -252,7 +267,9 @@ xv104_riptide_battlesuit = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1050
+			alloys = 950
+			electronics = 100
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -260,10 +277,10 @@ xv104_riptide_battlesuit = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_ion_accelerator" "tech_riptide_shield_generators" "tech_nova_reactor" }
 	
 	allow = {
-		#has_building = xv104_recruitment
+		has_building = building_vehicle_beacon
 	}
 	
 	potential = {
@@ -284,7 +301,9 @@ hammerhead_gunship = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			alloys = 250
+			electronics = 50
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -292,10 +311,10 @@ hammerhead_gunship = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_dual_anti_grav_jet_propulsion_motive_system" "tech_heavy_burst_cannon" "tech_rail_rifle" }
 	
 	allow = {
-		#has_building = hammerhead_recruitment
+		has_building = building_vehicle_beacon
 	}
 	
 	potential = {

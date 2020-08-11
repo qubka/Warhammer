@@ -86,7 +86,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_army_icons"
 		textureFile = "gfx/interface/planetview/army_icon.dds"
-		noOfFrames = 161
+		noOfFrames = 162
 	}
 
 	spriteType = {

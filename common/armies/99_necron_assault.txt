@@ -9,6 +9,7 @@ attack_scarabs = {
 	morale = 3.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 150
 	
 	icon_frame = 56
@@ -24,7 +25,14 @@ attack_scarabs = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_scarabs" }
+	
+	allow = {
+		OR = {
+			has_building = building_summoning_core
+			has_building = building_greater_summoning_core
+		}
+	}
 	
 	potential = {
 		owner = { has_country_flag = necron_empire }
@@ -37,6 +45,7 @@ lychguard = {
 	morale = 1.80
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 150
 	
 	icon_frame = 58
@@ -52,7 +61,14 @@ lychguard = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_lychguard" "tech_warscythe" }
+	
+	allow = {
+		OR = {
+			has_building = building_summoning_core
+			has_building = building_greater_summoning_core
+		}
+	}
 	
 	potential = {
 		owner = { has_country_flag = necron_empire }
@@ -65,6 +81,7 @@ necron_warriors = {
 	morale = 1.55
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 110
 	
 	icon_frame = 59
@@ -80,7 +97,14 @@ necron_warriors = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_warriors" "tech_gauss_flayer" }
+	
+	allow = {
+		OR = {
+			has_building = building_summoning_core
+			has_building = building_greater_summoning_core
+		}
+	}
 	
 	potential = {
 		owner = { has_country_flag = necron_empire }
@@ -93,6 +117,7 @@ destroyer = {
 	morale = 2
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 170
 	
 	icon_frame = 60
@@ -108,8 +133,15 @@ destroyer = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_destroying" "tech_tesla_carbine" }
 
+	allow = {
+		OR = {
+			has_building = building_summoning_core
+			has_building = building_greater_summoning_core
+		}
+	}
+	
 	potential = {
 		owner = { has_country_flag = necron_empire }
 	}
@@ -121,6 +153,7 @@ pariahs = {
 	morale = 3
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 300
 	
 	icon_frame = 65
@@ -136,8 +169,12 @@ pariahs = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_warp_immunity" "tech_pariahs_future" }
 
+	allow = {
+		has_building = building_greater_summoning_core
+	}
+	
 	potential = {
 		owner = { has_country_flag = necron_empire }
 	}
@@ -149,6 +186,7 @@ immortal = {
 	morale = 4.2
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 360
 	
 	icon_frame = 61
@@ -164,10 +202,10 @@ immortal = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
-	
+	prerequisites = { "tech_immortal" }
+
 	allow = {
-		#has_building = immortal_recruitment
+		has_building = building_greater_summoning_core
 	}
 	
 	potential = {
@@ -181,6 +219,7 @@ wraith = {
 	morale = 2.5
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 360
 	
 	icon_frame = 62
@@ -196,10 +235,10 @@ wraith = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_wraith" }
 	
 	allow = {
-		#has_building = canoptek_wraith_recruitment
+		has_building = building_greater_summoning_core
 	}
 	
 	potential = {
@@ -213,6 +252,7 @@ flayed_ones = {
 	morale = 3.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 360
 	
 	icon_frame = 64
@@ -228,10 +268,10 @@ flayed_ones = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_flayed_ones" }
 	
 	allow = {
-		#has_building = canoptek_wraith_recruitment
+		has_building = building_greater_summoning_core
 	}
 	
 	potential = {
@@ -260,10 +300,10 @@ monolith = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_monolith" }
 	
 	allow = {
-		#has_building = monolith_recruitment
+		has_building = building_greater_summoning_core
 		
 		owner = {
 			NOT = { 
@@ -311,6 +351,7 @@ deceiver = {
 	resources = {
 		category = armies
 		cost = {
+			energy = 5000
 			living_metal = 500
 		}
 
@@ -319,10 +360,10 @@ deceiver = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_essence_of_deceiver" "tech_deceiver" }
 	
 	allow = {
-		#has_building = monolith_recruitment
+		has_building = building_greater_summoning_core
 		
 		owner = {
 			NOT = { 
