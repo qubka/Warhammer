@@ -136,7 +136,7 @@ tyranid_warrior = {
 		}
 	}
 	
-	prerequisites = { "tech_warrior_vanguard" "tech_acid_splatter" Эtech_corrosive_clawsЭ }
+	prerequisites = { "tech_warrior_vanguard" "tech_acid_splatter" "tech_corrosive_claws" }
 	
 	potential = {
 		owner = { has_country_flag = tyranid_empire }
