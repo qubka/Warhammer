@@ -37,7 +37,10 @@ col_default_machine = {
 
 	potential = {
 		exists = owner
-		owner = { is_machine_empire = yes }
+		owner = { 
+			is_machine_empire = yes
+			NOT = { has_country_flag = necron_empire } # left for some another ai empires
+		}
 		has_upgraded_capital = no
 		is_special_colony_type = no
 		num_pops < 5
@@ -115,6 +118,7 @@ col_capital_machine = {
 		owner = {
 			is_country_type = default
 			is_machine_empire = yes
+			NOT = { has_country_flag = necron_empire } # left for some another ai empires
 		}
 	}
 
@@ -149,7 +153,10 @@ col_nexus = {
 			is_planet_class = pc_gaia
 		}
 		exists = owner
-		owner = { is_machine_empire = yes }
+		owner = { 
+			is_machine_empire = yes
+			NOT = { has_country_flag = necron_empire } # left for some another ai empires
+		}
 		is_special_colony_type = no
 	}
 

@@ -67,7 +67,7 @@ cadia_homeworld = {
 				}
 			}
 			last_created_country = {
-				set_graphical_culture = humanoid_01
+				set_graphical_culture = gothic_01
 				save_global_event_target_as = the_cadia
 				set_country_flag = human_colony
 				set_country_flag = human_empire

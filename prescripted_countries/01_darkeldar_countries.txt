@@ -33,7 +33,7 @@ dark_ynnari = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dark_ynnari"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -99,7 +99,7 @@ the_severed = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_the_severed"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -165,7 +165,7 @@ last_hatred = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_last_hatred"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -231,7 +231,7 @@ iron_thorn = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_iron_thorn"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -297,7 +297,7 @@ flayed_skull = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_flayed_skull"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -363,7 +363,7 @@ dying_sun = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dying_sun"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -429,7 +429,7 @@ broken_sigil = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_broken_sigil"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -495,7 +495,7 @@ black_heart = {
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_black_heart"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {

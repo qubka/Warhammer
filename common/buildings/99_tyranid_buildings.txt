@@ -305,7 +305,7 @@ building_brood_nest = {
 	base_buildtime = 240
 	base_cap_amount = 1
 
-	category = pop_assembly
+	category = army
 	
 	potential = {
 		exists = owner
@@ -317,8 +317,11 @@ building_brood_nest = {
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
 
+	prerequisites = { "tech_brood_nest" }
+	
 	planet_modifier = {
-		bio_pop_growth_speed = 0.25
+		planet_army_build_speed_mult = -0.5
+		armies_cost_mult = -0.2
 	}
 
 	resources = {
@@ -401,6 +404,8 @@ building_hive_noder = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
+	
+	prerequisites = { "tech_hive_node" }
 
 	planet_modifier = {
 		job_tyranid_guardian_add = 5
@@ -455,6 +460,8 @@ building_hive_post = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
+	
+	prerequisites = { "tech_hive_post" }
 
 	planet_modifier = {
 		planet_sensor_range_add = 5
@@ -502,6 +509,8 @@ building_hive_pool = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
+	
+	prerequisites = { "tech_hive_pool" }
 
 	planet_modifier = {
 		job_spawning_drone_add = 1
@@ -542,6 +551,8 @@ building_hive_brain = {
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
 
+	prerequisites = { "tech_hive_brain" }
+	
 	country_modifier = {
 		all_technology_research_speed = 0.15
 	}
@@ -622,8 +633,8 @@ building_reprocessing_node = {
 	}
 
 	planet_modifier = {
-		planet_amenities_add = 5
-		job_technician_drone_add = 2
+		planet_amenities_add = 25
+		job_technician_drone_add = 5
 	}
 
 	resources = {
@@ -714,6 +725,8 @@ building_ravener_tunnel = {
 		exists = owner
 		owner = { NOT = { has_country_flag = tyranid_empire } }
 	}
+	
+	prerequisites = { "tech_tunnel" }
 	
 	country_modifier = {
 		country_resource_max_add = 10000

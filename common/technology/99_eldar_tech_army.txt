@@ -25,6 +25,13 @@ tech_wraithbone = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHLORD_TITLE"
+			desc = "TECH_UNLOCK_WRAITHLORD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -89,6 +96,13 @@ tech_death_spinner_common = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARP_SPIDERS_TITLE"
+			desc = "TECH_UNLOCK_WARP_SPIDERS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -118,6 +132,13 @@ tech_aspect_of_banshee = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HOWLING_BANSHEE_TITLE"
+			desc = "TECH_UNLOCK_HOWLING_BANSHEE_DESC"
 		}
 	}
 
@@ -153,6 +174,13 @@ tech_aspect_of_warp_spider = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARP_SPIDERS_TITLE"
+			desc = "TECH_UNLOCK_WARP_SPIDERS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -182,6 +210,13 @@ tech_banshee_exarch = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HOWLING_BANSHEE_TITLE"
+			desc = "TECH_UNLOCK_HOWLING_BANSHEE_DESC"
 		}
 	}
 
@@ -217,6 +252,13 @@ tech_battle_equipment = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUARDIAN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_GUARDIAN_SQUAD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -246,6 +288,20 @@ tech_brightlance_wraithlord = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHLORD_TITLE"
+			desc = "TECH_UNLOCK_WRAITHLORD_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHKNIGHT_TITLE"
+			desc = "TECH_UNLOCK_WRAITHKNIGHT_DESC"
 		}
 	}
 
@@ -281,6 +337,13 @@ tech_champions_robe = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARLOCK_TITLE"
+			desc = "TECH_UNLOCK_WARLOCK_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -310,6 +373,13 @@ tech_energy_field = {
 				area = physics
 				has_trait = "leader_trait_expertise_field_manipulation"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FALCON_TITLE"
+			desc = "TECH_UNLOCK_FALCON_DESC"
 		}
 	}
 
@@ -345,6 +415,13 @@ tech_executioner_legendary = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARLOCK_TITLE"
+			desc = "TECH_UNLOCK_WARLOCK_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -377,6 +454,13 @@ tech_fusion_gun_legendary = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARLOCK_TITLE"
+			desc = "TECH_UNLOCK_WARLOCK_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -406,6 +490,13 @@ tech_long_rifle_common = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUARDIAN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_GUARDIAN_SQUAD_DESC"
 		}
 	}
 
@@ -473,6 +564,13 @@ tech_pathfinder_gear = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RANGER_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_RANGER_SQUAD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -502,6 +600,13 @@ tech_power_sword_common = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RANGER_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_RANGER_SQUAD_DESC"
 		}
 	}
 
@@ -537,6 +642,13 @@ tech_shuriken_cannon_wraithguard = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHGUARD_TITLE"
+			desc = "TECH_UNLOCK_WRAITHGUARD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -566,6 +678,13 @@ tech_shuriken_catapult_common = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RANGER_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_RANGER_SQUAD_DESC"
 		}
 	}
 
@@ -601,6 +720,13 @@ tech_shuriken_pistol_common = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUARDIAN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_GUARDIAN_SQUAD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -630,6 +756,13 @@ tech_twin_death_spinner_common = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FALCON_TITLE"
+			desc = "TECH_UNLOCK_FALCON_DESC"
 		}
 	}
 
@@ -665,6 +798,13 @@ tech_warlock = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARLOCK_TITLE"
+			desc = "TECH_UNLOCK_WARLOCK_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -694,6 +834,13 @@ tech_witchblade_rare = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUARDIAN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_GUARDIAN_SQUAD_DESC"
 		}
 	}
 
@@ -729,6 +876,13 @@ tech_farse_witchblade_doombringer = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHGUARD_TITLE"
+			desc = "TECH_UNLOCK_WRAITHGUARD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -758,6 +912,13 @@ tech_farse_witchblade_sky_gauntlets = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HOWLING_BANSHEE_TITLE"
+			desc = "TECH_UNLOCK_HOWLING_BANSHEE_DESC"
 		}
 	}
 
@@ -793,6 +954,13 @@ tech_destructor_rare = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_COBRA_TITLE"
+			desc = "TECH_UNLOCK_COBRA_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -822,6 +990,13 @@ tech_wraithbone_wraithguard = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHGUARD_TITLE"
+			desc = "TECH_UNLOCK_WRAITHGUARD_DESC"
 		}
 	}
 
@@ -857,6 +1032,13 @@ tech_wraithsword_common = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WRAITHLORD_TITLE"
+			desc = "TECH_UNLOCK_WRAITHLORD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -886,6 +1068,13 @@ tech_farse_ghosthelm = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RANGER_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_RANGER_SQUAD_DESC"
 		}
 	}
 
@@ -953,6 +1142,13 @@ tech_wargear_eld_entangling_web = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FALCON_TITLE"
+			desc = "TECH_UNLOCK_FALCON_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -982,6 +1178,13 @@ tech_wargear_eld_improved_targeters = {
 				area = physics
 				has_trait = "leader_trait_expertise_computing"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_COBRA_TITLE"
+			desc = "TECH_UNLOCK_COBRA_DESC"
 		}
 	}
 
@@ -1017,6 +1220,13 @@ tech_wargear_eld_powerblades = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HOWLING_BANSHEE_TITLE"
+			desc = "TECH_UNLOCK_HOWLING_BANSHEE_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = eldar_empire
 	}
@@ -1046,6 +1256,13 @@ tech_warp_spiders = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WARP_SPIDERS_TITLE"
+			desc = "TECH_UNLOCK_WARP_SPIDERS_DESC"
 		}
 	}
 

@@ -109,7 +109,7 @@ decision_corrupting_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 100
 	}
 }
 
@@ -252,6 +252,6 @@ decision_uncorrupting_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 500
 	}
 }

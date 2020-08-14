@@ -1253,6 +1253,20 @@ tech_wings_of_shrike = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1285,6 +1299,13 @@ tech_advanced_dreadnought_armor = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DREADNOUGHT_TITLE"
+			desc = "TECH_UNLOCK_DREADNOUGHT_DESC"
 		}
 	}
 	
@@ -1321,6 +1342,13 @@ tech_dreadnaught_charge_drives = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VENERABLE_DREADNOUGHT_TITLE"
+			desc = "TECH_UNLOCK_VENERABLE_DREADNOUGHT_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1353,6 +1381,13 @@ tech_assault_cannon = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -1389,6 +1424,13 @@ tech_assault_cannon_dread = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DREADNOUGHT_TITLE"
+			desc = "TECH_UNLOCK_DREADNOUGHT_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1421,6 +1463,20 @@ tech_bolt_pistol = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_APOTHECARY_TITLE"
+			desc = "TECH_UNLOCK_APOTHECARY_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_REIVER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_REIVER_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -1457,6 +1513,13 @@ tech_bolter = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TECHMARINES_TITLE"
+			desc = "TECH_UNLOCK_TECHMARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1489,6 +1552,13 @@ tech_chainsword = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_APOTHECARY_TITLE"
+			desc = "TECH_UNLOCK_APOTHECARY_DESC"
 		}
 	}
 	
@@ -1525,6 +1595,13 @@ tech_cyclone_missile_launcher = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TERMINATOR_TITLE"
+			desc = "TECH_UNLOCK_TERMINATOR_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1557,6 +1634,13 @@ tech_dark_age_dreadnought = {
 				area = society
 				has_trait = "leader_trait_expertise_lost_knowledge"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VENERABLE_DREADNOUGHT_TITLE"
+			desc = "TECH_UNLOCK_VENERABLE_DREADNOUGHT_DESC"
 		}
 	}
 	
@@ -1593,6 +1677,13 @@ tech_dreadnought_claws = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DREADNOUGHT_TITLE"
+			desc = "TECH_UNLOCK_DREADNOUGHT_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1625,6 +1716,27 @@ tech_flamer = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_DESC"
 		}
 	}
 	
@@ -1661,6 +1773,13 @@ tech_force_sword = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LIBRARIAN_TITLE"
+			desc = "TECH_UNLOCK_LIBRARIAN_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1693,6 +1812,13 @@ tech_grenade_launcher = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORMTROOPERS_TITLE"
+			desc = "TECH_UNLOCK_STORMTROOPERS_DESC"
 		}
 	}
 	
@@ -1729,6 +1855,13 @@ tech_heavy_assault_cannon = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1761,6 +1894,27 @@ tech_heavy_bolter = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -1797,6 +1951,13 @@ tech_heavy_flamer = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LANDRAIDER_TITLE"
+			desc = "TECH_UNLOCK_LANDRAIDER_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1829,6 +1990,34 @@ tech_lasgun = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GRENADIERS_TITLE"
+			desc = "TECH_UNLOCK_GRENADIERS_DESC"
 		}
 	}
 	
@@ -1865,6 +2054,13 @@ tech_librarian_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LIBRARIAN_TITLE"
+			desc = "TECH_UNLOCK_LIBRARIAN_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1897,6 +2093,13 @@ tech_librarian_force_staff = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LIBRARIAN_TITLE"
+			desc = "TECH_UNLOCK_LIBRARIAN_DESC"
 		}
 	}
 	
@@ -1933,6 +2136,13 @@ tech_lightning_claw = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -1965,6 +2175,13 @@ tech_lightning_claws_upgrade = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2001,6 +2218,13 @@ tech_melta_gun = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORMTROOPERS_TITLE"
+			desc = "TECH_UNLOCK_STORMTROOPERS_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2033,6 +2257,13 @@ tech_missile_launcher = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_DESC"
 		}
 	}
 	
@@ -2069,6 +2300,13 @@ tech_multimelta = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DREADNOUGHT_TITLE"
+			desc = "TECH_UNLOCK_DREADNOUGHT_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2101,6 +2339,13 @@ tech_antitank_grenades = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_REIVER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_REIVER_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2137,6 +2382,20 @@ tech_plasma_cannon = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2169,6 +2428,27 @@ tech_plasma_gun = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_DESC"
 		}
 	}
 	
@@ -2205,6 +2485,13 @@ tech_plasma_pistol = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TECHMARINES_TITLE"
+			desc = "TECH_UNLOCK_TECHMARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2237,6 +2524,13 @@ tech_power_fist = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2273,6 +2567,20 @@ tech_power_fist_upgrade = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2305,6 +2613,20 @@ tech_power_sword = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_REIVER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_REIVER_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2341,6 +2663,13 @@ tech_power_axe = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TECHMARINES_TITLE"
+			desc = "TECH_UNLOCK_TECHMARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2373,6 +2702,13 @@ tech_predator_lascannon = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_PREDATOR_TITLE"
+			desc = "TECH_UNLOCK_PREDATOR_DESC"
 		}
 	}
 	
@@ -2409,6 +2745,13 @@ tech_psychic_hood = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LIBRARIAN_TITLE"
+			desc = "TECH_UNLOCK_LIBRARIAN_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2441,6 +2784,13 @@ tech_reinforced_armor_plating = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_PREDATOR_TITLE"
+			desc = "TECH_UNLOCK_PREDATOR_DESC"
 		}
 	}
 	
@@ -2477,6 +2827,13 @@ tech_scout_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SCOUTS_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SCOUTS_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2509,6 +2866,13 @@ tech_scout_equipment = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SCOUTS_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SCOUTS_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2545,6 +2909,13 @@ tech_scout_sergeant = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SCOUTS_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SCOUTS_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2577,6 +2948,20 @@ tech_sergeant_assault_squad = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2647,6 +3032,13 @@ tech_apothecary_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_APOTHECARY_TITLE"
+			desc = "TECH_UNLOCK_APOTHECARY_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2679,6 +3071,13 @@ tech_sniper_rifle = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VINDICARE_ASSASSIN_TITLE"
+			desc = "TECH_UNLOCK_VINDICARE_ASSASSIN_DESC"
 		}
 	}
 	
@@ -2715,6 +3114,13 @@ tech_spell_librarian = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LIBRARIAN_TITLE"
+			desc = "TECH_UNLOCK_LIBRARIAN_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2747,6 +3153,13 @@ tech_storm_bolter = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RAZORBACK_TITLE"
+			desc = "TECH_UNLOCK_RAZORBACK_DESC"
 		}
 	}
 	
@@ -2783,6 +3196,13 @@ tech_storm_shield = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TERMINATOR_TITLE"
+			desc = "TECH_UNLOCK_TERMINATOR_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2815,6 +3235,13 @@ tech_tactical_sergeant = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2851,6 +3278,13 @@ tech_terminator_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TERMINATOR_TITLE"
+			desc = "TECH_UNLOCK_TERMINATOR_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2883,6 +3317,13 @@ tech_terminator_teleporter = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TERMINATOR_TITLE"
+			desc = "TECH_UNLOCK_TERMINATOR_DESC"
 		}
 	}
 	
@@ -2919,6 +3360,13 @@ tech_thunder_hammer = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TERMINATOR_TITLE"
+			desc = "TECH_UNLOCK_TERMINATOR_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -2951,6 +3399,34 @@ tech_mk8_armor = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TECHMARINES_TITLE"
+			desc = "TECH_UNLOCK_TECHMARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_TACTICAL_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_ASSAULT_SPACE_MARINES_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_DEVASTATOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -2987,6 +3463,13 @@ tech_gravis_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_INCEPTOR_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3019,6 +3502,13 @@ tech_omnis_armor = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_SUPPRESSOR_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -3055,6 +3545,13 @@ tech_phobos_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_REIVER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_REIVER_SPACE_MARINES_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3087,6 +3584,13 @@ tech_tacticus_armor = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_TITLE"
+			desc = "TECH_UNLOCK_HELLBLASTER_SPACE_MARINES_DESC"
 		}
 	}
 	
@@ -3157,6 +3661,13 @@ tech_assault_kit = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORMTROOPERS_TITLE"
+			desc = "TECH_UNLOCK_STORMTROOPERS_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3191,6 +3702,13 @@ tech_cadian_trooper = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORMTROOPERS_TITLE"
+			desc = "TECH_UNLOCK_STORMTROOPERS_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3223,6 +3741,13 @@ tech_demoman = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GRENADIERS_TITLE"
+			desc = "TECH_UNLOCK_GRENADIERS_DESC"
 		}
 	}
 	
@@ -3293,6 +3818,27 @@ tech_guardsmen_squad_commissar = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_BIG_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_MEDIUM_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_TITLE"
+			desc = "TECH_UNLOCK_IMPERIAL_GUARD_SMALL_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3325,6 +3871,13 @@ tech_heavy_weapon_squad_autocannon = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_DESC"
 		}
 	}
 	
@@ -3361,6 +3914,13 @@ tech_heavy_weapon_squad_lascannon = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3393,6 +3953,13 @@ tech_ogryn_squad_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OGRYN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_OGRYN_SQUAD_DESC"
 		}
 	}
 	
@@ -3531,6 +4098,13 @@ tech_iron_halo = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_APOTHECARY_TITLE"
+			desc = "TECH_UNLOCK_APOTHECARY_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3563,6 +4137,20 @@ tech_armoured_ceramite_plating = {
 				area = engineering
 				has_trait = "leader_trait_expertise_materials"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LANDRAIDER_TITLE"
+			desc = "TECH_UNLOCK_LANDRAIDER_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RAZORBACK_TITLE"
+			desc = "TECH_UNLOCK_RAZORBACK_DESC"
 		}
 	}
 	
@@ -3599,6 +4187,13 @@ tech_infiltrate = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VINDICARE_ASSASSIN_TITLE"
+			desc = "TECH_UNLOCK_VINDICARE_ASSASSIN_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3631,6 +4226,13 @@ tech_ogryn_army = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OGRYN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_OGRYN_SQUAD_DESC"
 		}
 	}
 	
@@ -3701,6 +4303,13 @@ tech_carapace_armor = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GRENADIERS_TITLE"
+			desc = "TECH_UNLOCK_GRENADIERS_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3767,6 +4376,13 @@ tech_demolition_charge = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GRENADIERS_TITLE"
+			desc = "TECH_UNLOCK_GRENADIERS_DESC"
 		}
 	}
 	
@@ -3871,6 +4487,13 @@ tech_officio_assassinorum = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VINDICARE_ASSASSIN_TITLE"
+			desc = "TECH_UNLOCK_VINDICARE_ASSASSIN_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -3973,6 +4596,13 @@ tech_heavy_bolter_turret_common = {
 			}
 		}
 	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_HEAVY_WEAPON_SQUAD_DESC"
+		}
+	}
 	
 	potential = {
 		has_country_flag = human_empire 
@@ -4005,6 +4635,13 @@ tech_power_fist_common = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OGRYN_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_OGRYN_SQUAD_DESC"
 		}
 	}
 	
@@ -4073,6 +4710,13 @@ tech_sniper_squad_targeted_grenades = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VINDICARE_ASSASSIN_TITLE"
+			desc = "TECH_UNLOCK_VINDICARE_ASSASSIN_DESC"
 		}
 	}
 	

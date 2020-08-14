@@ -57,6 +57,13 @@ tech_deceiver = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DECEIVER_TITLE"
+			desc = "TECH_UNLOCK_DECEIVER_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = necron_empire 
 	}
@@ -89,6 +96,13 @@ tech_destroying = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DESTROYER_TITLE"
+			desc = "TECH_UNLOCK_DESTROYER_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = necron_empire 
 	}
@@ -118,6 +132,13 @@ tech_essence_of_deceiver = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DECEIVER_TITLE"
+			desc = "TECH_UNLOCK_DECEIVER_DESC"
 		}
 	}
 
@@ -185,6 +206,13 @@ tech_gauss_flayer = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_NECRON_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_NECRON_WARRIORS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = necron_empire 
 	}
@@ -246,6 +274,13 @@ tech_lychguard = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LYCHGUARD_TITLE"
+			desc = "TECH_UNLOCK_LYCHGUARD_DESC"
 		}
 	}
 
@@ -313,6 +348,13 @@ tech_pariahs_future = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_PARIAHS_TITLE"
+			desc = "TECH_UNLOCK_PARIAHS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = necron_empire 
 	}
@@ -377,6 +419,13 @@ tech_tesla_carbine = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DESTROYER_TITLE"
+			desc = "TECH_UNLOCK_DESTROYER_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = necron_empire 
 	}
@@ -406,6 +455,13 @@ tech_warp_immunity = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_PARIAHS_TITLE"
+			desc = "TECH_UNLOCK_PARIAHS_DESC"
 		}
 	}
 
@@ -441,6 +497,13 @@ tech_warriors = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_NECRON_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_NECRON_WARRIORS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = necron_empire 
 	}
@@ -470,6 +533,13 @@ tech_warscythe = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LYCHGUARD_TITLE"
+			desc = "TECH_UNLOCK_LYCHGUARD_DESC"
 		}
 	}
 

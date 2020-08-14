@@ -172,7 +172,6 @@ berserk = {
 
 	possible = {
 		worker_job_check_trigger = yes
-		owner = { is_gestalt = no }
 	}
 
 	weight = {
@@ -282,12 +281,7 @@ rot_gatherer = {
 	}
 
 	possible = {
-		hidden_trigger = { exists = owner }
 		worker_job_check_trigger = yes
-		owner = {
-			is_gestalt = no
-			is_fallen_empire_spiritualist = no
-		}
 	}
 
 	resources = {

@@ -935,7 +935,7 @@ orbital_bombardment = {
 		}
 
 		potential = {
-			has_valid_civic = civic_machine_terminator
+			has_technology = tech_armageddon_bombardment
 		}
 
 		policy_flags = {
@@ -988,7 +988,7 @@ orbital_bombardment = {
 		modifier = {}
 
 		AI_weight = {
-			factor = 10
+			factor = 5
 		}
 	}
 }

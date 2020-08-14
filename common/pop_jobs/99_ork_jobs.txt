@@ -11,12 +11,7 @@ hunter = {
 	}
 
 	possible = {
-		hidden_trigger = { exists = owner }
 		worker_job_check_trigger = yes
-		owner = {
-			is_gestalt = no
-			is_fallen_empire_spiritualist = no
-		}
 	}
 
 	resources = {
@@ -172,7 +167,6 @@ scraploota = {
 
 	possible = {
 		worker_job_check_trigger = yes
-		owner = { is_gestalt = no }
 	}
 
 	resources = {
@@ -282,7 +276,6 @@ ork_boy = {
 
 	possible = {
 		worker_job_check_trigger = yes
-		owner = { is_gestalt = no }
 	}
 
 	weight = {
@@ -402,7 +395,6 @@ ork_nob = {
 
 	possible = {
 		complex_specialist_job_check_trigger = yes
-		owner = { is_gestalt = no }
 	}
 
 	weight = {
@@ -575,10 +567,6 @@ techboy = {
 
 	possible = {
 		complex_worker_job_check_trigger = yes
-		owner = {
-			is_gestalt = no
-			is_fallen_empire_spiritualist = no
-		}
 	}
 
 	resources = {
@@ -1127,7 +1115,6 @@ brewboy = {
 
 	possible = {
 		complex_worker_job_check_trigger = yes
-		owner = { is_fallen_empire = no }
 	}
 
 	planet_modifier = {

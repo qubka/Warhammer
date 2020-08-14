@@ -144,7 +144,6 @@ kabalite_warrior = {
 
 	possible = {
 		ruler_job_check_trigger = yes
-		owner = { is_gestalt = no }
 	}
 
 	weight = {

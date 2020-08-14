@@ -33,7 +33,7 @@ ynnari = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ynnari"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -99,7 +99,7 @@ ulthwe = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ulthwe"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -165,7 +165,7 @@ saim_hann = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_saim_hann"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -231,7 +231,7 @@ ostara = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ostara"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -297,7 +297,7 @@ iyanden = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_iyanden"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -363,7 +363,7 @@ biel_tan = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_biel_tan"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -429,7 +429,7 @@ alaitoc = {
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_alaitoc"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {

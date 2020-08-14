@@ -25,6 +25,13 @@ tech_weirdboy_whistles = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WEIRD_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_WEIRD_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -54,6 +61,13 @@ tech_angry_bits = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GARGANT_TITLE"
+			desc = "TECH_UNLOCK_GARGANT_DESC"
 		}
 	}
 
@@ -89,6 +103,13 @@ tech_spiky_armor = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STOMPA_TITLE"
+			desc = "TECH_UNLOCK_STOMPA_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -118,6 +139,13 @@ tech_belly_gun = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GARGANT_TITLE"
+			desc = "TECH_UNLOCK_GARGANT_DESC"
 		}
 	}
 
@@ -153,6 +181,13 @@ tech_big_shoota = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STOMPA_TITLE"
+			desc = "TECH_UNLOCK_STOMPA_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -182,6 +217,13 @@ tech_boom_timer = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TANKBUSTAS_TITLE"
+			desc = "TECH_UNLOCK_TANKBUSTAS_DESC"
 		}
 	}
 
@@ -249,6 +291,13 @@ tech_choppa = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_SLUGGA_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_SLUGGA_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -278,6 +327,13 @@ tech_cybork_bits = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_MEK_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_MEK_BOYZ_DESC"
 		}
 	}
 
@@ -345,6 +401,13 @@ tech_deffgun = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LOOTAS_TITLE"
+			desc = "TECH_UNLOCK_LOOTAS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -374,6 +437,13 @@ tech_explosive_shells = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_SHOOTA_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_SHOOTA_BOYZ_DESC"
 		}
 	}
 
@@ -409,6 +479,13 @@ tech_explosive_shoter = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORM_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_STORM_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -438,6 +515,13 @@ tech_gargant_mega_armor = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GARGANT_TITLE"
+			desc = "TECH_UNLOCK_GARGANT_DESC"
 		}
 	}
 
@@ -473,6 +557,13 @@ tech_hide_boyz = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDO_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDO_SQUAD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -502,6 +593,13 @@ tech_huge_choppa = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_NOBZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_NOBZ_DESC"
 		}
 	}
 
@@ -537,6 +635,13 @@ tech_jump = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORM_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_STORM_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -566,6 +671,13 @@ tech_kommando_ambush = {
 				area = society
 				has_trait = "leader_trait_expertise_yyy"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDO_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDO_SQUAD_DESC"
 		}
 	}
 
@@ -601,6 +713,13 @@ tech_kommando_grenade = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDOZ_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDOZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -630,6 +749,13 @@ tech_kommando_kaboom = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDOZ_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDOZ_DESC"
 		}
 	}
 
@@ -665,6 +791,13 @@ tech_kommando_spechul_shoota = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDOZ_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDOZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -697,6 +830,13 @@ tech_kustom_choppa = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDOZ_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDOZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -726,6 +866,13 @@ tech_kustom_shoota = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KOMMANDO_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_KOMMANDO_SQUAD_DESC"
 		}
 	}
 
@@ -793,6 +940,13 @@ tech_mek_equipment = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_MEK_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_MEK_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -822,6 +976,13 @@ tech_mekboy_beamy_deffgun = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_MEK_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_MEK_BOYZ_DESC"
 		}
 	}
 
@@ -857,6 +1018,13 @@ tech_mortar_launcher = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TANKBUSTAS_TITLE"
+			desc = "TECH_UNLOCK_TANKBUSTAS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -886,6 +1054,13 @@ tech_nob_hammers = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_NOBZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_NOBZ_DESC"
 		}
 	}
 
@@ -921,6 +1096,13 @@ tech_nob_kit = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_NOBZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_NOBZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -950,6 +1132,20 @@ tech_nob_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_yyy"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_LOOTAS_TITLE"
+			desc = "TECH_UNLOCK_LOOTAS_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STIKKBOMMAZ_TITLE"
+			desc = "TECH_UNLOCK_STIKKBOMMAZ_DESC"
 		}
 	}
 
@@ -985,6 +1181,20 @@ tech_nob_leader_kommando = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_SHOOTA_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_SHOOTA_BOYZ_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_SLUGGA_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_SLUGGA_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -1014,6 +1224,13 @@ tech_power_claw = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STOMPA_TITLE"
+			desc = "TECH_UNLOCK_STOMPA_DESC"
 		}
 	}
 
@@ -1049,6 +1266,13 @@ tech_rokkit_launcha = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TANKBUSTAS_TITLE"
+			desc = "TECH_UNLOCK_TANKBUSTAS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -1078,6 +1302,13 @@ tech_shoota = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_SHOOTA_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_SHOOTA_BOYZ_DESC"
 		}
 	}
 
@@ -1113,6 +1344,13 @@ tech_slugga = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ORK_SLUGGA_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_ORK_SLUGGA_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -1145,6 +1383,13 @@ tech_stikkbomb = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STIKKBOMMAZ_TITLE"
+			desc = "TECH_UNLOCK_STIKKBOMMAZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -1174,6 +1419,13 @@ tech_stormboy = {
 				area = society
 				has_trait = "leader_trait_expertise_yyy"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_STORM_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_STORM_BOYZ_DESC"
 		}
 	}
 
@@ -1241,6 +1493,13 @@ tech_weirdboy_bells = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WEIRD_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_WEIRD_BOYZ_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = ork_empire 
 	}
@@ -1270,6 +1529,13 @@ tech_weirdboy_copper_rod = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WEIRD_BOYZ_TITLE"
+			desc = "TECH_UNLOCK_WEIRD_BOYZ_DESC"
 		}
 	}
 

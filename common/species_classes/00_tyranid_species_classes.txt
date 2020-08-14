@@ -22,6 +22,6 @@ TYR = {
 		"tyranid_tiamet"
     }   
 	
-    graphical_culture = swarm_01
+    graphical_culture = tyranid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

@@ -1,3 +1,62 @@
+decision_tomb_project = {
+	owned_planets_only = yes
+
+	enactment_time = 7200
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			energy = 20000
+			alloys = 7500
+			living_metal = 5000
+		}
+	}
+
+	prerequisites = { "tech_tomb_project" }
+
+	potential = {
+		OR = {
+			is_planet_class = pc_continental
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_molten
+			is_planet_class = pc_barren
+			is_planet_class = pc_barren_cold
+			is_planet_class = pc_toxic
+			is_planet_class = pc_frozen
+			is_planet_class = pc_nuked
+			is_planet_class = pc_gaia
+		}
+		habitable_structure = no
+		exists = owner
+		owner = { has_country_flag = necron_empire }
+	}
+
+	effect = {
+		custom_tooltip = decision_tomb_project_effects
+		hidden_effect = {
+			clear_planet_modifiers = yes
+			change_pc = pc_tomb
+			set_planet_entity = {
+				entity = "tomb_planet"
+				graphical_culture = owner
+			}
+			add_modifier = { modifier = "tomb_planet" days = -1 }
+			planet_event = { id = planets.25 }
+		}
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
 decision_stop_necron_awakening = {
 	owned_planets_only = yes
 	sound = event_administrative_work

@@ -117,6 +117,8 @@ building_smack_bar = {
 		exists = owner
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
+	
+	prerequisites = { "tech_smack_swill" }
 
 	planet_modifier = {
 		job_brewboy_add = 5
@@ -459,8 +461,8 @@ building_troop_transmitta = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.5
-		armies_cost_mult = -0.2
+		planet_army_build_speed_mult = -0.15
+		armies_cost_mult = -0.1
 	}
 
 	resources = {
@@ -469,7 +471,7 @@ building_troop_transmitta = {
 			minerals = 500
 		}	
 		upkeep = {
-			energy = 20
+			energy = 50
 		}
 	}
 	
@@ -548,6 +550,8 @@ building_skull_trophy_rack = {
 		exists = owner
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
+	
+	prerequisites = { "tech_trophy_rack" }
 
 	planet_modifier = {
 		job_yeller_add = 1
@@ -592,6 +596,8 @@ building_mechboss_site_totem = {
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
 	
+	prerequisites = { "tech_kult_of_speed" }
+	
 	country_modifier = {
 		ships_upkeep_mult = -0.1
 	}
@@ -628,6 +634,8 @@ building_boss_skull_tower = {
 		exists = owner
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
+	
+	prerequisites = { "tech_towers" }
 
 	resources = {
 		category = planet_buildings
@@ -662,6 +670,8 @@ building_dedard_dakka_tower = {
 		exists = owner
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
+	
+	prerequisites = { "tech_towers" }
 
 	resources = {
 		category = planet_buildings
@@ -700,6 +710,8 @@ building_freak_tower = {
 		exists = owner
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
+	
+	prerequisites = { "tech_towers" }
 
 	planet_modifier = {
 		planet_jobs_slave_produces_mult = 0.05
@@ -738,6 +750,8 @@ building_watch_tower = {
 		owner = { NOT = { has_country_flag = ork_empire } }
 	}
 
+	prerequisites = { "tech_towers" }
+	
 	planet_modifier = {
 		job_ork_boy_add = 5
 		planet_crime_add = -20

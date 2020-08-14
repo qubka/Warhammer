@@ -25,6 +25,13 @@ tech_vespid_strain_leader = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VESPID_TITLE"
+			desc = "TECH_UNLOCK_VESPID_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -54,6 +61,13 @@ tech_airbursting_fragmentation_projector = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
 		}
 	}
 
@@ -89,6 +103,13 @@ tech_annihilation_warhead = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -118,6 +139,13 @@ tech_cluster_rocket_system = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
 		}
 	}
 
@@ -153,6 +181,13 @@ tech_combat_uniform = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FIRE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_FIRE_WARRIORS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -182,6 +217,13 @@ tech_communion_helm = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VESPID_TITLE"
+			desc = "TECH_UNLOCK_VESPID_DESC"
 		}
 	}
 
@@ -217,6 +259,13 @@ tech_demiurg_armor = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEMIURG_TITLE"
+			desc = "TECH_UNLOCK_DEMIURG_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -246,6 +295,13 @@ tech_demiurg_gun = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEMIURG_TITLE"
+			desc = "TECH_UNLOCK_DEMIURG_DESC"
 		}
 	}
 
@@ -281,6 +337,13 @@ tech_dual_anti_grav_jet_propulsion_motive_system = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_TITLE"
+			desc = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -310,6 +373,13 @@ tech_energy_drill = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEMIURG_TITLE"
+			desc = "TECH_UNLOCK_DEMIURG_DESC"
 		}
 	}
 
@@ -345,6 +415,13 @@ tech_blue_flamer = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_TITLE"
+			desc = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -374,6 +451,13 @@ tech_fragmentation_cluster_shell_launcher = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
 		}
 	}
 
@@ -409,6 +493,13 @@ tech_fusion_blaster = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_TITLE"
+			desc = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -438,6 +529,13 @@ tech_fusion_cascade = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV25_STEALTHSUIT_TITLE"
+			desc = "TECH_UNLOCK_XV25_STEALTHSUIT_DESC"
 		}
 	}
 
@@ -473,6 +571,13 @@ tech_fusion_eradicator = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -502,6 +607,13 @@ tech_guevesa_armor = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUEVESA_TITLE"
+			desc = "TECH_UNLOCK_GUEVESA_DESC"
 		}
 	}
 
@@ -537,6 +649,13 @@ tech_heavy_burst_cannon = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_TITLE"
+			desc = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -566,6 +685,13 @@ tech_heavy_rail_cannon = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
 		}
 	}
 
@@ -601,6 +727,13 @@ tech_infiltrationing = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV25_STEALTHSUIT_TITLE"
+			desc = "TECH_UNLOCK_XV25_STEALTHSUIT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -630,6 +763,13 @@ tech_ion_accelerator = {
 				area = physics
 				has_trait = "leader_trait_expertise_field_manipulation"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_DESC"
 		}
 	}
 
@@ -665,6 +805,13 @@ tech_jeap_jump = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KROOT_TITLE"
+			desc = "TECH_UNLOCK_KROOT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -694,6 +841,13 @@ tech_kroot_gun = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KROOT_TITLE"
+			desc = "TECH_UNLOCK_KROOT_DESC"
 		}
 	}
 
@@ -729,6 +883,13 @@ tech_kroot_rifle = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KROOT_TITLE"
+			desc = "TECH_UNLOCK_KROOT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -758,6 +919,20 @@ tech_misslepod = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_TITLE"
+			desc = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_DESC"
 		}
 	}
 
@@ -793,6 +968,13 @@ tech_neutron_blaster = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VESPID_TITLE"
+			desc = "TECH_UNLOCK_VESPID_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -822,6 +1004,13 @@ tech_nova_reactor = {
 				area = physics
 				has_trait = "leader_trait_expertise_field_manipulation"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_DESC"
 		}
 	}
 
@@ -857,6 +1046,13 @@ tech_particle_accelerator = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -886,6 +1082,13 @@ tech_plasma_rifle = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_DESC"
 		}
 	}
 
@@ -921,6 +1124,13 @@ tech_pulse_carbine = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUEVESA_TITLE"
+			desc = "TECH_UNLOCK_GUEVESA_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -950,6 +1160,13 @@ tech_pulse_ordnance_multi_driver = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
 		}
 	}
 
@@ -985,6 +1202,13 @@ tech_pulse_rifle = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FIRE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_FIRE_WARRIORS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -1014,6 +1238,13 @@ tech_rail_rifle = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_TITLE"
+			desc = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_DESC"
 		}
 	}
 
@@ -1049,6 +1280,13 @@ tech_riptide_shield_generators = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -1078,6 +1316,13 @@ tech_shas_ui = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FIRE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_FIRE_WARRIORS_DESC"
 		}
 	}
 
@@ -1113,6 +1358,13 @@ tech_shas_vesa = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUEVESA_TITLE"
+			desc = "TECH_UNLOCK_GUEVESA_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -1145,6 +1397,13 @@ tech_shas_vre = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV25_STEALTHSUIT_TITLE"
+			desc = "TECH_UNLOCK_XV25_STEALTHSUIT_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = tau_empire 
 	}
@@ -1174,6 +1433,13 @@ tech_smart_misstle_system = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
 		}
 	}
 

@@ -32,7 +32,7 @@ charnovokh = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_charnovokh"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -97,7 +97,7 @@ mephrit = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_mephrit"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -162,7 +162,7 @@ nepheru = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_nepheru"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -227,7 +227,7 @@ nephrekh = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_nephrekh"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -292,7 +292,7 @@ nihiliakh = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_nihiliakh"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -357,7 +357,7 @@ novokh = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_novokh"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -422,7 +422,7 @@ sautekh = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_sautekh"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -487,7 +487,7 @@ temeryn = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_temeryn"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {
@@ -552,7 +552,7 @@ thokt = {
 	planet_class = "pc_tomb"
 	system_name = "PRESCRIPTED_system_name_thokt"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "necron_01"
 	city_graphical_culture = "fallen_machine_empire_01"
 
 	empire_flag = {

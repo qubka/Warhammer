@@ -11,6 +11,8 @@ decision_advance_city_project = {
 		}
 	}
 
+	prerequisites = { "tech_advanced_city_project" }
+
 	potential = {
 		OR = {
 			is_planet_class = pc_desert
@@ -76,6 +78,6 @@ decision_advance_city_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 1
 	}
 }

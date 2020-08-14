@@ -25,6 +25,13 @@ tech_wych_succubus = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WYCHES_TITLE"
+			desc = "TECH_UNLOCK_WYCHES_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -54,6 +61,13 @@ tech_animus_vitae = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCUBI_TITLE"
+			desc = "TECH_UNLOCK_INCUBI_DESC"
 		}
 	}
 
@@ -121,6 +135,13 @@ tech_combat_drugs = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_WYCHES_TITLE"
+			desc = "TECH_UNLOCK_WYCHES_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -150,6 +171,13 @@ tech_dark_scythe = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCUBI_TITLE"
+			desc = "TECH_UNLOCK_INCUBI_DESC"
 		}
 	}
 
@@ -185,6 +213,13 @@ tech_disintegrator = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DAIS_TITLE"
+			desc = "TECH_UNLOCK_DAIS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -214,6 +249,13 @@ tech_hellion_sybarite = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HELLION_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_HELLION_SQUAD_DESC"
 		}
 	}
 
@@ -249,6 +291,13 @@ tech_horrorfex_bomb = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RAVAGER_TITLE"
+			desc = "TECH_UNLOCK_RAVAGER_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -278,6 +327,13 @@ tech_infiltration = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_MANDRAKE_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_MANDRAKE_SQUAD_DESC"
 		}
 	}
 
@@ -313,6 +369,13 @@ tech_kabal = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KABALITE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_KABALITE_WARRIORS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -342,6 +405,13 @@ tech_mandrake_sybarite = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_MANDRAKE_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_MANDRAKE_SQUAD_DESC"
 		}
 	}
 
@@ -377,6 +447,13 @@ tech_night_shields = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_REAVER_JETBIKE_TITLE"
+			desc = "TECH_UNLOCK_REAVER_JETBIKE_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -406,6 +483,13 @@ tech_poisoned_blade = {
 				area = engineering
 				has_trait = "leader_trait_expertise_weapon"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HELLION_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_HELLION_SQUAD_DESC"
 		}
 	}
 
@@ -441,6 +525,13 @@ tech_rekindle_rage = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SCOURGE_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_SCOURGE_SQUAD_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -470,6 +561,13 @@ tech_scourge_sybarite = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SCOURGE_SQUAD_TITLE"
+			desc = "TECH_UNLOCK_SCOURGE_SQUAD_DESC"
 		}
 	}
 
@@ -505,6 +603,41 @@ tech_screaming_jets = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_REAVER_JETBIKE_TITLE"
+			desc = "TECH_UNLOCK_REAVER_JETBIKE_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RAVEN_TITLE"
+			desc = "TECH_UNLOCK_RAVEN_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TALOS_TITLE"
+			desc = "TECH_UNLOCK_TALOS_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RAVAGER_TITLE"
+			desc = "TECH_UNLOCK_RAVAGER_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DAIS_TITLE"
+			desc = "TECH_UNLOCK_DAIS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -534,6 +667,13 @@ tech_short_circuit = {
 				area = engineering
 				has_trait = "leader_trait_expertise_voidcraft"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_RAVEN_TITLE"
+			desc = "TECH_UNLOCK_RAVEN_DESC"
 		}
 	}
 
@@ -569,6 +709,13 @@ tech_stinger = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAEMONCULUS_TITLE"
+			desc = "TECH_UNLOCK_HAEMONCULUS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -598,6 +745,13 @@ tech_torture_amp = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAEMONCULUS_TITLE"
+			desc = "TECH_UNLOCK_HAEMONCULUS_DESC"
 		}
 	}
 
@@ -633,6 +787,13 @@ tech_warrior_sybarite = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KABALITE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_KABALITE_WARRIORS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -665,6 +826,13 @@ tech_wildfire = {
 		}
 	}
 
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TALOS_TITLE"
+			desc = "TECH_UNLOCK_TALOS_DESC"
+		}
+	}
+
 	potential = {
 		has_country_flag = darkeldar_empire 
 	}
@@ -694,6 +862,13 @@ tech_wraithbone_woven_battlesuit = {
 				area = engineering
 				has_trait = "leader_trait_expertise_armor"
 			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_INCUBI_TITLE"
+			desc = "TECH_UNLOCK_INCUBI_DESC"
 		}
 	}
 

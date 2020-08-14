@@ -18,6 +18,6 @@ TAU = {
 		"tau_dyanoi"
     }   
 	
-    graphical_culture = avian_01
+    graphical_culture = humanoid_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

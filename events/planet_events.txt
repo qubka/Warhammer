@@ -696,3 +696,22 @@ country_event = {
 		}
 	}
 }
+
+planet_event = {
+	id = planets.25
+	title = planets.25.name
+	desc = planets.25.desc
+	picture = GFX_evt_tomb_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_tomb
+	}
+
+	option = {
+		name = EXCELLENT
+	}
+}

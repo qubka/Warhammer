@@ -1,6 +1,6 @@
 ##################################################################
 ######														######
-######						Fungoid 						######
+######						Tyranid 						######
 ######														######
 ##################################################################
 
@@ -369,5 +369,248 @@ entity = {
 entity = {
 	name = "tyranid_01_ion_cannon_section_entity"
 	pdxmesh = "swarm_01_starbase_swarm_mesh"
+	scale = 0.5
+}
+
+##################################################################
+######														######
+######						 Necron 						######
+######														######
+##################################################################
+
+entity = {
+	name = "necron_01_starbase_outpost_entity"
+	pdxmesh = "fungoid_01_outpost_frame_mesh"
+}
+
+entity = {
+	name = "necron_01_starbase_outpost_section_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 particle = "necron_01_large_station_core_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
+	}
+	scale = 0.5
+}
+
+
+entity = {
+	name = "necron_01_starbase_starport_entity"
+	pdxmesh = "fungoid_01_starport_frame_mesh"
+}
+
+entity = {
+	name = "necron_01_starbase_starport_section_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 particle = "necron_01_large_station_core_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
+	}
+	scale = 0.75
+}
+
+
+entity = {
+	name = "necron_01_starbase_starhold_entity"
+	pdxmesh = "fungoid_01_starhold_frame_mesh"
+}
+
+entity = {
+	name = "necron_01_starbase_starhold_section_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 particle = "necron_01_large_station_core_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
+	}
+	scale = 1.0
+}
+
+entity = {
+	name = "necron_01_starbase_starfortress_entity"
+	pdxmesh = "fungoid_01_starfort_frame_mesh"
+}
+
+entity = {
+	name = "necron_01_starbase_starfortress_section_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 particle = "necron_01_large_station_core_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
+	}
+	scale = 1.25
+}
+
+
+entity = {
+	name = "necron_01_starbase_citadel_entity"
+	pdxmesh = "fungoid_01_citadel_frame_mesh"
+}
+
+entity = {
+	name = "necron_01_starbase_citadel_section_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"
+
+	#locator = { name = "slot1"				position = { 0	0  0 } }
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 particle = "necron_01_large_station_core_effect" keep_particle = yes trigger_once = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
+	}
+	scale = 1.5
+}
+
+entity = {	
+	name = "necron_01_starbase_outpost_phase_01_entity"
+	locator = { name = "slot1"				position = { 0	0  0 } }
+
+	attach = { "slot1" = "fungoid_01_starbase_outpost_section_entity" }
+
+	cull_radius = 500
+}
+
+entity = {	
+	name = "necron_01_starbase_starport_phase_02_entity"
+	locator = { name = "slot1"				position = { 0	0  0 } }
+
+	attach = { "slot1" = "fungoid_01_starbase_starport_section_entity" }
+
+	cull_radius = 500
+}
+
+entity = {	
+	name = "necron_01_starbase_starhold_phase_03_entity"
+	locator = { name = "slot1"				position = { 0	0  0 } }
+
+	attach = { "slot1" = "fungoid_01_starbase_starhold_section_entity" }
+
+	cull_radius = 500
+}
+
+entity = {	
+	name = "necron_01_starbase_starfortress_phase_04_entity"
+	locator = { name = "slot1"				position = { 0	0  0 } }
+	
+	attach = { "slot1" = "fungoid_01_starbase_starfortress_section_entity" }
+
+	cull_radius = 500
+}
+
+entity = {	
+	name = "necron_01_starbase_citadel_phase_05_entity"
+	locator = { name = "slot1"				position = { 0	0  0 } }
+
+	attach = { "slot1" = "fungoid_01_starbase_citadel_section_entity" }
+
+	cull_radius = 500
+		
+}
+
+entity = {	
+	name = "necron_01_starbases_entity"
+	locator = { name = "slot1"				position = { 0	0  0 } }
+	locator = { name = "slot2"				position = { 50	0  0 } }
+	locator = { name = "slot3"				position = { 100	0  0 } }
+	locator = { name = "slot4"				position = { 175	0  0 } }
+	locator = { name = "slot5"				position = { 250	0  0 } }
+
+	attach = { "slot1" = "fungoid_01_starbase_outpost_phase_01_entity" }
+	attach = { "slot2" = "fungoid_01_starbase_starport_phase_02_entity" }
+	attach = { "slot3" = "fungoid_01_starbase_starhold_phase_03_entity" }
+	attach = { "slot4" = "fungoid_01_starbase_starfortress_phase_04_entity" }
+	attach = { "slot5" = "fungoid_01_starbase_citadel_phase_05_entity" }
+
+	cull_radius = 500
+}
+
+entity = {
+	name = "necron_01_starbase_outpost_construction_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"	
+	default_state = "idle"
+	state = { name = "idle"
+		event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
+	}
+
+	scale = 0.5
+}
+
+entity = {
+	name = "necron_01_starbase_starport_construction_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"	
+	default_state = "idle"
+	state = { name = "idle"
+		event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
+	}
+
+	scale = 0.75
+}
+
+entity = {
+	name = "necron_01_starbase_starhold_construction_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"	
+	default_state = "idle"
+	state = { name = "idle"
+		event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
+	}
+
+	scale = 1.0
+}
+
+entity = {
+	name = "necron_01_starbase_starfortress_construction_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"	
+	default_state = "idle"
+	state = { name = "idle"
+		event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
+	}
+	
+	scale = 1.25
+}
+
+entity = {
+	name = "necron_01_starbase_citadel_construction_entity"
+	pdxmesh = "ai_01_starbase_ai_mesh"	
+	default_state = "idle"
+	state = { name = "idle" 
+		event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
+	}
+	
+	scale = 1.5
+}
+
+entity = {
+	name = "necron_01_starbase_turret_section_entity"
+	pdxmesh = "fungoid_01_starbase_turret_section_mesh"
+	scale = 1.0
+}
+
+######### ANIMATIONS ##########
+
+###### Ion Cannon ######
+
+entity = {
+	name = "necron_01_ion_cannon_entity"
+	locator = { name = "part1" position = { 0 0 0 } }
+}
+
+entity = {
+	name = "necron_01_ion_cannon_section_entity"
+	pdxmesh = "ai_02_outpost_mesh"
 	scale = 0.5
 }

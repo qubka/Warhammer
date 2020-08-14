@@ -27,6 +27,6 @@ ELD = {
 		"eldar_cor_eldritch_raiders"
     }   
 	
-    graphical_culture = reptilian_01
+    graphical_culture = avian_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

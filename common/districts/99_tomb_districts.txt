@@ -259,6 +259,8 @@ district_defense_grid = {
 		exists = owner
 		owner = { has_country_flag = necron_empire }
 	}
+	
+	prerequisites = { "tech_defense_platform" }
 
 	resources = {
 		category = planet_districts
@@ -273,7 +275,7 @@ district_defense_grid = {
 	planet_modifier = {
 		planet_housing_add = 5
 		job_necron_warrior_add = 5
-		planet_orbital_bombardment_damage = -0.05
+		planet_orbital_bombardment_damage = -0.025
 	}
 
 	triggered_desc = {

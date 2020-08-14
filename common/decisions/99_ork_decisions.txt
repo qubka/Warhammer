@@ -10,6 +10,8 @@ decision_spore_settleming_project = {
 		}
 	}
 
+	prerequisites = { "tech_spore_settle" }
+
 	potential = {
 		OR = {
 			is_planet_class = pc_desert
@@ -43,7 +45,7 @@ decision_spore_settleming_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 100
 	}
 }
 
@@ -87,6 +89,6 @@ decision_spore_cleaning_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 500
 	}
 }
