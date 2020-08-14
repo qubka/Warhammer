@@ -4118,9 +4118,9 @@
  decision_start_necron_awakening_effects_short:2 "Resumes necrons awakening on this planet."
  decision_start_necron_awakening_desc:1 "Resumes the awakening of necrons on this planet."
  decision_tomb_project:0 "Necrontyr Tomb Project"
- decision_tomb_project_effects:1 ""
- decision_tomb_project_effects_short:2 ""
- decision_tomb_project_desc:1 "" 
+ decision_tomb_project_effects:1 "The Necrons' underground tombs are generally quite large and cavernous, containing repair facilities that are manned by Canoptek Scarab robots that repair the Necrons that were critically damaged in recent battles."
+ decision_tomb_project_effects_short:2 "The Necrons' underground tombs are generally quite large and cavernous, containing many different facilities."
+ decision_tomb_project_desc:1 "An unceasing stretch of tombs will unite the planet from pole to pole, creating one global mega tomb with all facilities." 
   
  ####################################
  # Districts
