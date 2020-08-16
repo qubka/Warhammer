@@ -9,6 +9,8 @@ decision_corrupting_project = {
 			energy = 5000
 		}
 	}
+	
+	prerequisites = { "tech_corrupting_project" }
 
 	potential = {
 		OR = {

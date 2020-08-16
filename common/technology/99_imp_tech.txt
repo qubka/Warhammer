@@ -42,7 +42,7 @@ tech_advanced_cutters = {
 	weight = @tier1weight3
 
 	modifier = {
-		planet_artisans_produces_mult = 0.30
+		planet_artisans_produces_mult = 0.10
 	}
 	
 	weight_modifier = {
@@ -78,7 +78,7 @@ tech_advanced_drills = {
 	weight = @tier1weight3
 
 	modifier = {
-		planet_miners_minerals_produces_mult = 0.30
+		station_gatherers_produces_mult = 0.30
 	}
 	
 	weight_modifier = {
@@ -114,7 +114,7 @@ tech_advanced_manipulators = {
 	weight = @tier1weight3
 
 	modifier = {
-		planet_military_artisan_produces_mult = 0.30
+		planet_military_artisans_produces_mult = 0.30
 	}
 	
 	weight_modifier = {
@@ -150,7 +150,7 @@ tech_advanced_processing = {
 	weight = @tier1weight3
 
 	modifier = {
-		planet_electronics_manufacturer_produces_mult = 0.30
+		planet_electronics_manufacturers_produces_mult = 0.30
 	}
 	
 	weight_modifier = {
@@ -1162,7 +1162,7 @@ tech_imperial_cult = {
 	weight = @tier1weight1
 
 	modifier = {
-		planet_truth_preacher_produces_mult = 0.30
+		planet_truth_preachers_produces_mult = 0.30
 	}
 
 	weight_modifier = {
@@ -1683,7 +1683,7 @@ tech_gellar_field = {
 	weight = @tier1weight1
 
 	modifier = {
-		
+		ship_ftl_jumpdrive_range_mult = 0.05
 	}
 
 	weight_modifier = {
@@ -1705,7 +1705,7 @@ tech_gellar_field = {
 			}
 		}
 	}
-	
+
 	potential = {
 		has_country_flag = human_empire 
 	}
@@ -1865,7 +1865,7 @@ tech_ammunition_alloys = {
 	weight = @tier3weight1
 
 	modifier = {
-		planet_military_artisan_produces_mult = 0.15
+		planet_military_artisans_produces_mult = 0.15
 	}
 
 	weight_modifier = {
@@ -2157,7 +2157,7 @@ tech_chemical_reagents = {
 	weight = @tier1weight3
 
 	modifier = {
-		planet_electronics_manufacturer_produces_mult = 0.15
+		planet_electronics_manufacturers_produces_mult = 0.15
 	}
 	
 	weight_modifier = {

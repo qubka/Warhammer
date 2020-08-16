@@ -744,6 +744,19 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 9999
+			has_country_flag = the_sons_of_malice 
+		}
+	}
+	format = "Sons Of Malice"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 9999
 			has_country_flag = the_dark_ynnari 
 		}
 	}

@@ -3,8 +3,8 @@ static_galaxy_scenario = {
 	priority = 0
 	default = yes
 	colonizable_planet_odds = 1.0
-	num_empires = 65
-	num_empire_default = 65
+	num_empires = 66
+	num_empire_default = 66
 	advanced_empire_default = 0
 	fallen_empire_default = 0
 	fallen_empire_max = 0
@@ -8341,11 +8341,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "World of Immortal Sorrows"
 		id = "901"
-		initializer = chaos_init_03
+		initializer = sons_of_malice_homeworld
 		position = {
 			x = 292.3195
 			y = -158.1989
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_sons_of_malice } }
 	}
 
 	system = {

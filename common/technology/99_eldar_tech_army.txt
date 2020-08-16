@@ -1271,7 +1271,7 @@ tech_warp_spiders = {
 	}
 }
 
-tech_wp_farse_witchblade_singing_spear.png = {
+tech_wp_farse_witchblade_singing_spear = {
 	cost = @tier1cost1
 	area = engineering
 	tier = 1

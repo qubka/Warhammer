@@ -203,7 +203,17 @@
  PRESCRIPTED_system_name_world_eater:0 "Eye of Terror"
  PRESCRIPTED_ruler_name_world_eater:0 "Angron"
  PRESCRIPTED_ruler_title_world_eater:0 "Fallen Primarch"
-
+ ###
+ PRESCRIPTED_adjective_sons_of_malice:0 "Sons Of Malice"
+ PRESCRIPTED_ship_prefix_sons_of_malice:0 "SM"
+ PRESCRIPTED_species_name_sons_of_malice:0 "Cultist"
+ PRESCRIPTED_species_plural_sons_of_malice:0 "Cultists"
+ PRESCRIPTED_species_adjective_sons_of_malice:0 "Cultic"
+ PRESCRIPTED_planet_name_sons_of_malice:0 "Labyrinth"
+ PRESCRIPTED_system_name_sons_of_malice:0 "Eye of Terror"
+ PRESCRIPTED_ruler_name_sons_of_malice:0 "Kathal"
+ PRESCRIPTED_ruler_title_sons_of_malice:0 "Fallen Primarch"
+ 
 # ELD
  ###
  PRESCRIPTED_adjective_ynnari:0 "Eldar"

@@ -124,6 +124,8 @@ building_slave_chamber = {
 		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
 
+	prerequisites = { "tech_slave_chamber" }
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -388,6 +390,8 @@ building_wych_cult_arena = {
 		exists = owner
 		owner = { NOT = { has_country_flag = darkeldar_empire } }
 	}
+	
+	prerequisites = { "tech_wych_cult_arena" }
 
 	planet_modifier = {
 		job_wych_add = 5

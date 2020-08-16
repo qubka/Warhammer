@@ -146,7 +146,7 @@ wraithknight = {
 		}
 	}
 	
-	prerequisites = { "tech_brightlance_wraithlord" "tech_eld_shuriken_cannon_wraithlord" }
+	prerequisites = { "tech_brightlance_wraithlord" "tech_shuriken_cannon_wraithguard" }
 	
 	allow = {
 		has_building = building_spiritspire_dharquese
@@ -265,7 +265,7 @@ cobra = {
 		}
 	}
 	
-	prerequisites = { "tech_wargear_eld_improved_targeters" "tech_destructor_rare" "tech_sm_thunder_and_lightning" }
+	prerequisites = { "tech_wargear_eld_improved_targeters" "tech_destructor_rare" "tech_thunder_and_lightning" }
 	
 	allow = {
 		has_building = building_spiritspire_dharquese

@@ -222,7 +222,7 @@ district_torture_dungeon = {
 			owner = { has_country_flag = darkeldar_empire }
 		}
 		modifier = {
-			job_haemonculus_add = 10
+			job_haemonculus_add = 1
 		}
 	}
 

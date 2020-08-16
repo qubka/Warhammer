@@ -40,7 +40,6 @@ world_eater_homeworld = {
 
     planet = {
 		name = "Xana"
-        count = 1
         class = star
         orbit_distance = 0
         size = { min = 15 max = 25 }

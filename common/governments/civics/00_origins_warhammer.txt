@@ -965,3 +965,18 @@ origin_world_eater = {
 	
 	advanced_start = yes
 }
+
+origin_sons_of_malice = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_chaos.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+

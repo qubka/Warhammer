@@ -655,13 +655,15 @@ country_event = {
 	trigger = {
 		has_country_flag = darkeldar_empire
 		NOT = { has_deficit = slaves }
+		has_technology = tech_flesh_constructing
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 12
 	}
 	
 	immediate = {
+		# tech_gnarlskin
 		create_species = {
 			name = random
 			class = "PRE_ART"

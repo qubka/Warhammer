@@ -74,7 +74,7 @@ district_infinity_circuit = {
 			owner = { has_country_flag = eldar_empire }
 		}
 		modifier = {
-			job_seer_add = 10
+			job_seer_add = 1
 		}
 	}
 	

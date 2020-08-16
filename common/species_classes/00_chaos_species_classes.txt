@@ -20,6 +20,7 @@ CHA = {
 		"chaos_thousand_sons"
 		"chaos_word_bearer"
 		"chaos_world_eater"
+		"chaos_sons_of_malice"
     }
 	
     graphical_culture = gothic_01

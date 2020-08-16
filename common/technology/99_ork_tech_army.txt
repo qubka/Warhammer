@@ -542,7 +542,7 @@ tech_hide_boyz = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -552,7 +552,7 @@ tech_hide_boyz = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -659,7 +659,7 @@ tech_kommando_ambush = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -669,7 +669,7 @@ tech_kommando_ambush = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1120,7 +1120,7 @@ tech_nob_leader = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1130,7 +1130,7 @@ tech_nob_leader = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1166,7 +1166,7 @@ tech_nob_leader_kommando = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1176,7 +1176,7 @@ tech_nob_leader_kommando = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1407,7 +1407,7 @@ tech_stormboy = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1417,7 +1417,7 @@ tech_stormboy = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1478,7 +1478,7 @@ tech_weirdboy_bells = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}
@@ -1488,7 +1488,7 @@ tech_weirdboy_bells = {
 			factor = 1.25
 			research_leader = {
 				area = society
-				has_trait = "leader_trait_expertise_yyy"
+				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}

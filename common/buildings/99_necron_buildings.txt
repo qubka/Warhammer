@@ -60,6 +60,8 @@ building_engaged_monolith = {
 	can_be_ruined = no
 	can_be_disabled = no
 	planetary_ftl_inhibitor = yes
+	
+	icon = building_ancient_monolith
 
 	category = government
 	

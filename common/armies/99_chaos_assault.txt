@@ -53,7 +53,7 @@ plague_zombies = {
 		}
 	}
 	
-	prerequisites = { "plague_zombies" }
+	prerequisites = { "tech_plague_zombies" }
 	
 	potential = {
 		owner = { has_country_flag = chaos_empire }

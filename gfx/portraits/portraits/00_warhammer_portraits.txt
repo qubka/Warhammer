@@ -41,6 +41,7 @@ portraits = {
 	CHAOS_ThousandSons_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_ThousandSons_ruler.dds" }
 	CHAOS_WordBearer_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_WordBearer_ruler.dds" }
 	CHAOS_WorldEater_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_WorldEater_ruler.dds" }
+	CHAOS_SonsOfMalice_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_SonsOfMalice_ruler.dds" }
 	
 	# TAU
 	TAU_Dalyth_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Dalyth_ruler.dds" }

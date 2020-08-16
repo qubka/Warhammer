@@ -2,7 +2,7 @@
 @base_moon_distance = 10
 
 word_bearer_homeworld = {
-	class = "rl_starting_stars"
+	class = "rl_binary_starting_stars"
 	
 	usage = misc_system_init
 	

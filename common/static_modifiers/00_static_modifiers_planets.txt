@@ -297,9 +297,9 @@ blackstonefortress_planet = {
 }
 
 spacehulk_planet = {
-    planet_jobs_energy_produces_mult = -0.5
-	planet_jobs_minerals_produces_mult = -1.0
-	planet_jobs_food_produces_mult = -1.0
+    planet_jobs_energy_produces_mult = -0.2
+	planet_jobs_minerals_produces_mult = -0.2
+	planet_jobs_food_produces_mult = -0.5
 	icon = "gfx/interface/icons/planet_modifiers/pm_spacehulk.dds"
 	icon_frame = 2
 }

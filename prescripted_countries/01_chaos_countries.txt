@@ -657,3 +657,69 @@ world_eater = {
 		ruler_title = "PRESCRIPTED_ruler_title_world_eater"
 	}
 }
+
+sons_of_malice = {
+	name = "Sons of Malice"
+	adjective = "PRESCRIPTED_adjective_sons_of_malice"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_sons_of_malice"
+	
+	species = {
+		class = "CHA"
+		portrait = "chaos_sons_of_malice"
+		name = "PRESCRIPTED_species_name_sons_of_malice"
+		plural = "PRESCRIPTED_species_plural_sons_of_malice"
+		adjective = "PRESCRIPTED_species_adjective_sons_of_malice"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "chaos_room"
+	
+	authority = "auth_chaos"
+	civics = { "civic_malice_cult" "civic_warrior_culture" "civic_barbaric_despoilers" }
+	government = "gov_anarcho_tribalism"
+	origin = "origin_sons_of_malice"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { humanoid chaos_empire the_sons_of_malice malice }
+	planet_name = "PRESCRIPTED_planet_name_sons_of_malice"
+	planet_class = "pc_spacehulk"
+	system_name = "PRESCRIPTED_system_name_sons_of_malice"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_SonsOfMalice.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sons_of_malice"
+		gender = male
+		portrait = "CHAOS_SonsOfMalice_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_sons_of_malice"
+	}
+}
