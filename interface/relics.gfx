@@ -1,0 +1,895 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_ORK_Warbuggy"
+		texturefile = "gfx/interface/icons/relics/ORK_Warbuggy.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Warbuggy_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Astartes_Konor_Pattern_Power_Sword_Final"
+		texturefile = "gfx/interface/icons/relics/AST_Astartes_Konor_Pattern_Power_Sword_Final.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Astartes_Konor_Pattern_Power_Sword_Final_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Axe_Photos"
+		texturefile = "gfx/interface/icons/relics/AST_Axe_Photos.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Axe_Photos_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Cypher_Armor"
+		texturefile = "gfx/interface/icons/relics/AST_Cypher_Armor.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Cypher_Armor_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Cypher_Attack_Bike"
+		texturefile = "gfx/interface/icons/relics/AST_Cypher_Attack_Bike.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Cypher_Attack_Bike_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Cypher_Scapular"
+		texturefile = "gfx/interface/icons/relics/AST_Cypher_Scapular.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Cypher_Scapular_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Erasmus_Pattern_PlasmaCannon_MKI"
+		texturefile = "gfx/interface/icons/relics/AST_Erasmus_Pattern_PlasmaCannon_MKI.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Erasmus_Pattern_PlasmaCannon_MKI_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Gilded_Bolter"
+		texturefile = "gfx/interface/icons/relics/AST_Gilded_Bolter.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Gilded_Bolter_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Glaive_Super_Heavy_Special_Weapons_Tank"
+		texturefile = "gfx/interface/icons/relics/AST_Glaive_Super-Heavy_Special_Weapons_Tank.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Glaive_Super-Heavy_Special_Weapons_Tank_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Hagen_Pattern_Narthecium"
+		texturefile = "gfx/interface/icons/relics/AST_Hagen_Pattern_Narthecium.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Hagen_Pattern_Narthecium_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Relic_Powerfist"
+		texturefile = "gfx/interface/icons/relics/AST_Relic_Powerfist.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Relic_Powerfist_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Requiem_Heavy_Bolter"
+		texturefile = "gfx/interface/icons/relics/AST_Requiem_Heavy_Bolter.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Requiem_Heavy_Bolter_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_AST_Sternguard_Bolter"
+		texturefile = "gfx/interface/icons/relics/AST_Sternguard_Bolter.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/AST_Sternguard_Bolter_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Murder_Sword"
+		texturefile = "gfx/interface/icons/relics/CSM_Murder_Sword.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Murder_Sword_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Abaddons_Grace"
+		texturefile = "gfx/interface/icons/relics/CSM_Abaddons_Grace.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Abaddons_Grace_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Apollo_Pattern_Plasma_Gun"
+		texturefile = "gfx/interface/icons/relics/CSM_Apollo_Pattern_Plasma_Gun.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Apollo_Pattern_Plasma_Gun_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Deathlock_Cestus_Powerfist_Skin"
+		texturefile = "gfx/interface/icons/relics/CSM_Deathlock_Cestus_Powerfist-_Skin.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Deathlock_Cestus_Powerfist-_Skin_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Fleshmetal_Shell"
+		texturefile = "gfx/interface/icons/relics/CSM_Fleshmetal_Shell.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Fleshmetal_Shell_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Hell_Breach_PlasmaCannon_2"
+		texturefile = "gfx/interface/icons/relics/CSM_Hell_Breach_PlasmaCannon_2.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Hell_Breach_PlasmaCannon_2_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Hell_Warbike"
+		texturefile = "gfx/interface/icons/relics/CSM_Hell_Warbike.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Hell_Warbike_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Hellkiss_Meltagun"
+		texturefile = "gfx/interface/icons/relics/CSM_Hellkiss_Meltagun.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Hellkiss_Meltagun_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_MaelstromCleaver"
+		texturefile = "gfx/interface/icons/relics/CSM_MaelstromCleaver.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_MaelstromCleaver_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Rage_Spitter"
+		texturefile = "gfx/interface/icons/relics/CSM_Rage_Spitter.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Rage_Spitter_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Shrieking_Souls_Armor"
+		texturefile = "gfx/interface/icons/relics/CSM_Shrieking_Souls_Armor.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Shrieking_Souls_Armor_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_CSM_Widowmaker_Bolter"
+		texturefile = "gfx/interface/icons/relics/CSM_Widowmaker_Bolter.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/CSM_Widowmaker_Bolter_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Firesabre"
+		texturefile = "gfx/interface/icons/relics/ELD_Firesabre.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Firesabre_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Fire_Dragon_Fusion_Gun"
+		texturefile = "gfx/interface/icons/relics/ELD_Fire_Dragon_Fusion_Gun.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Fire_Dragon_Fusion_Gun_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_ELD_SwoopingHawk_Lasblaster"
+		texturefile = "gfx/interface/icons/relics/ELD_SwoopingHawk_Lasblaster.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_SwoopingHawk_Lasblaster_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Gatekeepers_Bastion"
+		texturefile = "gfx/interface/icons/relics/ELD_Gatekeepers_Bastion.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Gatekeepers_Bastion_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Gorhu_Armor"
+		texturefile = "gfx/interface/icons/relics/ELD_Gorhu_Armor.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Gorhu_Armor_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Ice_Hawk_Cannon"
+		texturefile = "gfx/interface/icons/relics/ELD_Ice-Hawk_Cannon.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Ice-Hawk_Cannon_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_LaelshanWitchblade"
+		texturefile = "gfx/interface/icons/relics/ELD_LaelshanWitchblade.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_LaelshanWitchblade_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Last_Runes_Armor"
+		texturefile = "gfx/interface/icons/relics/ELD_Last_Runes_Armor.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Last_Runes_Armor_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_MaelDannan_DireSword"
+		texturefile = "gfx/interface/icons/relics/ELD_MaelDannan_DireSword.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_MaelDannan_DireSword_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Torrent_Reaper_Launcher"
+		texturefile = "gfx/interface/icons/relics/ELD_Torrent_Reaper_Launcher.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Torrent_Reaper_Launcher_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ELD_Vyper"
+		texturefile = "gfx/interface/icons/relics/ELD_Vyper.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ELD_Vyper_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Boss_Choppa"
+		texturefile = "gfx/interface/icons/relics/ORK_Boss_Choppa.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Boss_Choppa_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Da_Heart_Stoppa"
+		texturefile = "gfx/interface/icons/relics/ORK_Da_Heart_Stoppa.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Da_Heart_Stoppa_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_DaNeedleUvLif"
+		texturefile = "gfx/interface/icons/relics/ORK_DaNeedleUvLif.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_DaNeedleUvLif_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_Ork_Heresy_Limited_Edition_Looted_Umie_Bolter"
+		texturefile = "gfx/interface/icons/relics/Ork_Heresy_Limited_Edition-Looted_Umie_Bolter.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/Ork_Heresy_Limited_Edition-Looted_Umie_Bolter_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Iron_Sight_Shoota"
+		texturefile = "gfx/interface/icons/relics/ORK_Iron_Sight_Shoota.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Iron_Sight_Shoota_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Looted_Power_Armor"
+		texturefile = "gfx/interface/icons/relics/ORK_Looted_Power_Armor.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Looted_Power_Armor_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Plasma_Chompa_02"
+		texturefile = "gfx/interface/icons/relics/ORK_Plasma_Chompa_02.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Plasma_Chompa_02_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_PowerRippa"
+		texturefile = "gfx/interface/icons/relics/ORK_PowerRippa.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_PowerRippa_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_SpareKeys_CombiShoota"
+		texturefile = "gfx/interface/icons/relics/ORK_SpareKeys_CombiShoota.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_SpareKeys_CombiShoota_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Splash_Burna"
+		texturefile = "gfx/interface/icons/relics/ORK_Splash_Burna.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Splash_Burna_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_ORK_Squig_Armor"
+		texturefile = "gfx/interface/icons/relics/ORK_Squig_Armor.dds"	
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/ORK_Squig_Armor_shine.dds"
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = yes
+			animationtime = 11
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "rotating"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+}
