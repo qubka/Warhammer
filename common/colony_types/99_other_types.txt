@@ -8,6 +8,7 @@ col_habitat = {
 			is_planet_class = pc_habitat
 			is_planet_class = pc_webway
 			is_planet_class = pc_spacehulk
+			is_planet_class = pc_phalanx
 			is_planet_class = pc_blackstonefortress
 			is_planet_class = pc_eternalcrusader
 			is_planet_class = pc_craftworld

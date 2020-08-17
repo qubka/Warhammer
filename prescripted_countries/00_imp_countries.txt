@@ -492,7 +492,7 @@ imperial_fist = {
 	ethic = "ethic_spiritualist"
 	flags = { humanoid human_empire the_imperial_fist }
 	planet_name = "PRESCRIPTED_planet_name_imperial_fist"
-	planet_class = "pc_habitat"
+	planet_class = "pc_phalanx"
 	system_name = "PRESCRIPTED_system_name_imperial_fist"
 	
 	graphical_culture = "gothic_01"
@@ -558,7 +558,7 @@ dark_angels = {
 	ethic = "ethic_spiritualist"
 	flags = { humanoid human_empire the_dark_angels }
 	planet_name = "PRESCRIPTED_planet_name_dark_angels"
-	planet_class = "pc_habitat"
+	planet_class = "pc_eternalcrusader"
 	system_name = "PRESCRIPTED_system_name_dark_angels"
 	
 	graphical_culture = "gothic_01"

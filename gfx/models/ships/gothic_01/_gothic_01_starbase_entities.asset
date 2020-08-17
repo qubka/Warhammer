@@ -20,6 +20,24 @@ entity = {
 		
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
 	}
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -39,6 +57,24 @@ entity = {
 		
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
 	}
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {
@@ -62,6 +98,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
 	}
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {
@@ -91,6 +145,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_01" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
 	}
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {
@@ -115,6 +187,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_02" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "starbase_hum_stage_03" } }
 	}
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {	

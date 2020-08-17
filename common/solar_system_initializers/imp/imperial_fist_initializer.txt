@@ -61,17 +61,20 @@ imperial_fist_homeworld = {
 		size = { min = 16 max = 20 }
 		has_ring = yes
 
+		change_orbit = @base_moon_distance
+		
 		moon = {
 			name = "Phalanx"
-			class = "pc_habitat"
-			orbit_angle = { min = 90 max = 270 }
+			class = "pc_phalanx"
+			orbit_angle = 0
 			orbit_distance = 5
-			size = 6
+			size = 10
 			home_planet = yes
 			starting_planet = yes
 			has_ring = no
 			deposit_blockers = none
 			modifiers = none
+			flags = { megastructure habitat energy_habitat }
 
 			init_effect = {
 				every_country = {
@@ -80,7 +83,7 @@ imperial_fist_homeworld = {
 					}
 					save_event_target_as = the_imperial_fist
 				}
-
+				
 				set_owner = event_target:the_imperial_fist
 				set_controller = event_target:the_imperial_fist
 				set_capital = yes

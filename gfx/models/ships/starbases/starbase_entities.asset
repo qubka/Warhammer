@@ -44,6 +44,24 @@ entity = {
 		event = { time = 4.9 particle = "large_swarm_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "swarm_station_explosion_large" } }	
 	}
 	scale = 0.5
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -87,6 +105,24 @@ entity = {
 		event = { time = 4.9 particle = "large_swarm_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "swarm_station_explosion_large" } }	
 	}
 	scale = 0.75
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -132,6 +168,24 @@ entity = {
 		event = { time = 4.9 particle = "large_swarm_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "swarm_station_explosion_large" } }	
 	}
 	scale = 1.0
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {
@@ -176,6 +230,24 @@ entity = {
 		event = { time = 4.9 particle = "large_swarm_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "swarm_station_explosion_large" } }	
 	}
 	scale = 1.25
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -221,6 +293,24 @@ entity = {
 		event = { time = 4.9 particle = "large_swarm_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "swarm_station_explosion_large" } }	
 	}
 	scale = 1.5
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {	
@@ -395,6 +485,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
 	}
 	scale = 0.5
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -415,6 +523,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
 	}
 	scale = 0.75
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -435,6 +561,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
 	}
 	scale = 1.0
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {
@@ -454,6 +598,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
 	}
 	scale = 1.25
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 
@@ -474,6 +636,24 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = ai_civ_station } }
 	}
 	scale = 1.5
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" position = { 0 0 0 } }
+	locator = { name = "medium_gun_010" position = { 0 0 0 } }
+	locator = { name = "medium_gun_011" position = { 0 0 0 } }
+	locator = { name = "medium_gun_012" position = { 0 0 0 } }
+	locator = { name = "medium_gun_013" position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
 }
 
 entity = {	

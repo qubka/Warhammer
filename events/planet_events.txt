@@ -142,6 +142,10 @@ event = {
 				add_modifier = { modifier = "spacehulk_planet" days = -1 }
 			}
 			else_if = {
+				limit = { is_planet_class = pc_phalanx }
+				add_modifier = { modifier = "phalanx_planet" days = -1 }
+			}
+			else_if = {
 				limit = { is_planet_class = pc_webway }
 				add_modifier = { modifier = "webway_planet" days = -1 }
 			}

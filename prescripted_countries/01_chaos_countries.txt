@@ -96,7 +96,7 @@ black_legion = {
 	ethic = "ethic_spiritualist"
 	flags = { humanoid chaos_empire the_black_legion chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_black_legion"
-	planet_class = "pc_daemon"
+	planet_class = "pc_blackstonefortress"
 	system_name = "PRESCRIPTED_system_name_black_legion"
 	
 	graphical_culture = "gothic_01"

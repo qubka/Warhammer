@@ -23,6 +23,7 @@ salamanders_homeworld = {
 			name = "Gherash"
 			type = "strategic_coordination_center_ruined"
 			location = event_target:coordination_location
+			graphical_culture = gothic_01
 		}
 	}
 	

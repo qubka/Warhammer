@@ -281,6 +281,7 @@ craftworld_planet = {
 }
 
 eternalcrusader_planet = {
+	planet_buildings_cost_mult = 0.4
     planet_jobs_energy_produces_mult = -0.2
 	planet_jobs_minerals_produces_mult = -0.3
 	planet_jobs_food_produces_mult = -0.9
@@ -289,18 +290,29 @@ eternalcrusader_planet = {
 }
 
 blackstonefortress_planet = {
+	planet_buildings_cost_mult = 0.1
     planet_jobs_energy_produces_mult = -0.3
 	planet_jobs_minerals_produces_mult = -0.1
-	planet_jobs_food_produces_mult = -0.8
+	planet_jobs_food_produces_mult = -0.6
 	icon = "gfx/interface/icons/planet_modifiers/pm_blackstonefortress.dds"
 	icon_frame = 2
 }
 
 spacehulk_planet = {
+	planet_buildings_cost_mult = 0.5
     planet_jobs_energy_produces_mult = -0.2
 	planet_jobs_minerals_produces_mult = -0.2
 	planet_jobs_food_produces_mult = -0.5
 	icon = "gfx/interface/icons/planet_modifiers/pm_spacehulk.dds"
+	icon_frame = 2
+}
+
+phalanx_planet = {
+	planet_buildings_cost_mult = 0.3
+    planet_jobs_energy_produces_mult = -0.1
+	planet_jobs_minerals_produces_mult = -0.4
+	planet_jobs_food_produces_mult = -0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_phalanx.dds"
 	icon_frame = 2
 }
 

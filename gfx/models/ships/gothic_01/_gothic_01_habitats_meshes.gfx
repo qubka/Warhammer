@@ -40,4 +40,19 @@ objectTypes = {
 		file = "gfx/models/ships/gothic_01/gothic_01_empty.mesh"						
 		scale = 1.0
 	}
+	
+	pdxmesh = {
+		name = "gothic_01_phalanx_mesh"
+		file = "gfx/models/ships/gothic_01/stations/gothic_01_spaceport.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshPlanet"
+			texture_diffuse = "gothic_01_spaceport_diffuse.dds"
+			texture_normal = "gothic_01_spaceport_normal.dds"
+			texture_specular = "gothic_01_spaceport_specular.dds"
+		}
+	}
+	
 }	

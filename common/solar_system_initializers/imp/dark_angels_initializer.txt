@@ -31,7 +31,7 @@ dark_angels_homeworld = {
 	planet = {
 		name = "Caliban"
 		class = "pc_shattered"			 
-		orbit_distance = 40
+		orbit_distance = 60
 		orbit_angle = 60
 		size = 30
 		has_ring = no
@@ -40,16 +40,17 @@ dark_angels_homeworld = {
 
 		moon = {
 			name = "The Rock"
-			class = "pc_habitat"			 
-			orbit_distance = 5
-			orbit_angle = 60
-			size = 6
+			class = "pc_eternalcrusader"			 
+			orbit_distance = 10
+			orbit_angle = 0
+			size = 8
 			has_ring = no
 			home_planet = yes
 			starting_planet = yes
 			deposit_blockers = none			
 			modifiers = none
-			
+			flags = { megastructure habitat energy_habitat }
+
 			init_effect = {
 				every_country = {
 					limit = {

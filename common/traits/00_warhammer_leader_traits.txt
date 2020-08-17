@@ -14,15 +14,15 @@ leader_trait_expertise_chaos = {
 	cost = 1
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_chaos.dds"
-	requires_governments = { anarcho_tribalism }
+	leader_potential_add = {
+		from = { has_authority = "auth_chaos" }
+	}
 	modifier = {
 		category_chaos_research_speed_mult = @categorybonus
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
 	opposites = {
-		"leader_trait_expertise_biology"
-		"leader_trait_expertise_materials"
 		"leader_trait_expertise_propulsion"
 		"leader_trait_expertise_voidcraft"
 		"leader_trait_expertise_industry"
@@ -30,13 +30,14 @@ leader_trait_expertise_chaos = {
 		"leader_trait_expertise_particles"
 		"leader_trait_expertise_psionics"
 		"leader_trait_expertise_computing"
-		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_biology"
 		"leader_trait_expertise_statecraft"
 		"leader_trait_expertise_military_theory"
-		"leader_trait_expertise_lost_knowledge"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
 	}
-	# higher chance to generate techs in category chaos (done in tech-script)
-
+	# higher chance to generate techs in category lost_knowledges (done in tech-script)
+	
 	ai_categories = {
 		society
 	}
@@ -50,15 +51,15 @@ leader_trait_expertise_lost_knowledge = {
 	cost = 1
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_lost_knowledge.dds"
-	requires_governments = { theocratic_confederation meritocratic_tetrarchy }
+	leader_potential_add = {
+		from = { has_authority = "auth_imp" }
+	}
 	modifier = {
 		category_chaos_research_speed_mult = @categorybonus
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
 	opposites = {
-		"leader_trait_expertise_biology"
-		"leader_trait_expertise_materials"
 		"leader_trait_expertise_propulsion"
 		"leader_trait_expertise_voidcraft"
 		"leader_trait_expertise_industry"
@@ -66,13 +67,14 @@ leader_trait_expertise_lost_knowledge = {
 		"leader_trait_expertise_particles"
 		"leader_trait_expertise_psionics"
 		"leader_trait_expertise_computing"
-		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_biology"
 		"leader_trait_expertise_statecraft"
 		"leader_trait_expertise_military_theory"
-		"leader_trait_expertise_chaos"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
 	}
-	# higher chance to generate techs in category lost knowledge (done in tech-script)
-
+	# higher chance to generate techs in category lost_knowledges (done in tech-script)
+	
 	ai_categories = {
 		society
 	}
@@ -87,7 +89,7 @@ leader_trait_expertise_weapon = {
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_weapon.dds"
 	modifier = {
-		category_materials_research_speed_mult = @categorybonus
+		category_weapon_research_speed_mult = @categorybonus
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
@@ -103,6 +105,8 @@ leader_trait_expertise_weapon = {
 		"leader_trait_expertise_statecraft"
 		"leader_trait_expertise_military_theory"
 		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
+		"leader_trait_expertise_lost_knowledge"
 		"leader_trait_expertise_armor"
 	}
 	# higher chance to generate techs in category weapons (done in tech-script)
@@ -121,7 +125,7 @@ leader_trait_expertise_armor = {
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_armor.dds"
 	modifier = {
-		category_materials_research_speed_mult = @categorybonus
+		category_armor_research_speed_mult = @categorybonus
 	}
 	leader_trait = { scientist }
 	leader_class = { scientist }
@@ -137,6 +141,8 @@ leader_trait_expertise_armor = {
 		"leader_trait_expertise_statecraft"
 		"leader_trait_expertise_military_theory"
 		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
+		"leader_trait_expertise_lost_knowledge"
 		"leader_trait_expertise_weapon"
 	}
 	# higher chance to generate techs in category armors (done in tech-script)

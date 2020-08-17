@@ -31,6 +31,7 @@ mankind_homeworld = {
 			name = "Imperial Dock"
 			type = "mega_shipyard_ruined"
 			location = event_target:shipyard_location
+			graphical_culture = gothic_01
 		}
 	}
 	

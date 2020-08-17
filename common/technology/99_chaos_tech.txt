@@ -3318,7 +3318,7 @@ tech_mark_of_tzeentch = {
 	weight = @tier1weight3
 	
 	modifier = {
-		planet_researches_produces_mult = 0.2
+		planet_researchers_produces_mult = 0.2
 	}
 	
 	weight_modifier = {
