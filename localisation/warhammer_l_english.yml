@@ -4798,6 +4798,42 @@
  requires_ork_country_flag:0 "$TRIGGER_FAIL$§RThe relic can be activated only by §Y$ORK_plural$§! factions.§!"
  
  ####################################
+ # Relics
+ ####################################
+ 
+ # IMP
+ site_abandoned_stronghold:0 "Abandoned Stronghold"
+ site_abandoned_stronghold_intro:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centures ago."
+ relics.10.name:0 "Fossils abandoned fortifications on [Root.GetName]"
+ relics.10.desc:0 ""
+ relics.11.name:0 "The Imperium Stronghold"
+ relics.11.desc:0 "This structure looks like a stronghold of the Adeptus Astartes, abandoned several centures ago because of some incident. There are no obvious signs of previous looters. The main entrance of the structure is accessible, but it blocked by the collapsed gates."
+ relics.12.name:0 "West Section"
+ relics.12.desc:0 ""
+ relics.13.name:0 "East Section"
+ relics.13.desc:0 ""
+ relics.14.name:0 "North Section"
+ relics.14.desc:0 ""
+ relics.15.name:0 "South Section"
+ relics.15.desc:0 ""
+ relics.16.name:0 "Center Section"
+ relics.16.desc:0 ""
+ 
+ # ORK
+ site_abandoned_settlement:0 "Abandoned Settlement"
+ site_abandoned_settlement_intro:0 ""
+ 
+ # ELD
+ site_abandoned_farpost:0 "Abandoned Farpost"
+ site_abandoned_farpost_intro:0 ""
+ 
+ # CHA
+ site_abandoned_base:0 "Abandoned Base"
+ site_abandoned_base_intro:0 ""
+ 
+ #
+ 
+ ####################################
  # Events
  ####################################
  planets.2.name:0 "§HSmall Hive§!: [Root.GetName] Encased"

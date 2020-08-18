@@ -1,6 +1,69 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_evt_south_section"
+		texturefile = "gfx/event_pictures/south_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_east_section"
+		texturefile = "gfx/event_pictures/east_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_stronghold"
+		texturefile = "gfx/event_pictures/discovered_stronghold.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_center_section"
+		texturefile = "gfx/event_pictures/center_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_west_section"
+		texturefile = "gfx/event_pictures/west_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_base"
+		texturefile = "gfx/event_pictures/abandoned_base.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_farpost"
+		texturefile = "gfx/event_pictures/abandoned_farpost.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_settlement"
+		texturefile = "gfx/event_pictures/abandoned_settlement.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_stronghold"
+		texturefile = "gfx/event_pictures/abandoned_stronghold.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
 		name = "GFX_evt_tomb_world"
 		texturefile = "gfx/event_pictures/tomb_world.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"

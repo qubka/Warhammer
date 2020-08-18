@@ -1,0 +1,292 @@
+namespace = relics
+
+### Archaeology: Abandoned Stronghold
+
+# Spawn Site
+planet_event = {
+	id = relics.10
+	title = "relics.10.name"
+	desc = "relics.10.desc"
+	picture = GFX_evt_abandoned_stronghold
+	show_sound = event_dig_site
+
+	pre_triggers = {
+		has_owner = yes
+		is_homeworld = no
+		original_owner = yes
+		is_ai = no
+		has_ground_combat = no
+		is_capital = no
+		is_occupied_flag = no
+	}
+
+	trigger = {
+		#has_relics = yes
+		num_pops > 0
+		#owner = { has_country_flag = human_empire }
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_continental
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+		}
+		NOT = { exists = archaeological_site }
+		NOR = {
+			has_planet_flag = site_abandoned_stronghold
+			has_planet_flag = colony_event
+		}
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		has_planet_flag = site_abandoned_stronghold
+		set_planet_flag = colony_event
+	}
+	
+	option = {
+		name = CURIOUS
+		create_archaeological_site = site_abandoned_stronghold
+	}
+}
+
+# Stage 1
+fleet_event = {
+	id = relics.11
+	title = "relics.11.name"
+	desc = "relics.11.desc"
+	picture = GFX_evt_discovered_stronghold
+	show_sound = event_wind_ruins
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+# Stage 2
+fleet_event = {
+	id = relics.12
+	title = "relics.12.name"
+	desc = "relics.12.desc"
+	picture = GFX_evt_west_section
+	show_sound = event_ground_battle
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+# Stage 3
+fleet_event = {
+	id = relics.13
+	title = "relics.13.name"
+	desc = "relics.13.desc"
+	picture = GFX_evt_east_section
+	show_sound = event_screams
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+# Stage 4
+fleet_event = {
+	id = relics.14
+	title = "relics.14.name"
+	desc = "relics.14.desc"
+	picture = GFX_evt_north_section
+	show_sound = event_dig_site
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+# Stage 5
+fleet_event = {
+	id = relics.15
+	title = "relics.15.name"
+	desc = "relics.15.desc"
+	picture = GFX_evt_south_section
+	show_sound = event_big_door_opening
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+# Stage 6
+fleet_event = {
+	id = relics.16
+	title = "relics.16.name"
+	desc = "relics.16.desc"
+	picture = GFX_evt_center_section
+	show_sound = event_finding_loot
+	
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		owner = {
+			if = { 
+				limit = { NOT = { has_country_flag = r_astartes_konor_pattern_power_sword_final } } 
+				add_relic = r_astartes_konor_pattern_power_sword_final
+				set_country_flag = r_astartes_konor_pattern_power_sword_final
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_axe_photos } } 
+				add_relic = r_axe_photos
+				set_country_flag = r_axe_photos
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_cypher_armor } } 
+				add_relic = r_cypher_armor
+				set_country_flag = r_cypher_armor
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_cypher_attack_bike } } 
+				add_relic = r_cypher_attack_bike
+				set_country_flag = r_cypher_attack_bike
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_cypher_scapular } } 
+				add_relic = r_cypher_scapular
+				set_country_flag =r_cypher_scapular
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_erasmus_pattern_plasmacannon_mki } } 
+				add_relic = r_erasmus_pattern_plasmacannon_mki
+				set_country_flag = r_erasmus_pattern_plasmacannon_mki
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_gilded_bolter } } 
+				add_relic = r_gilded_bolter
+				set_country_flag = r_gilded_bolter
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_glaive_super_heavy_special_weapons_tank } } 
+				add_relic = r_glaive_super_heavy_special_weapons_tank
+				set_country_flag = r_glaive_super_heavy_special_weapons_tank
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_hagen_pattern_narthecium } } 
+				add_relic = r_hagen_pattern_narthecium
+				set_country_flag = r_hagen_pattern_narthecium
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_relic_powerfist } } 
+				add_relic = r_relic_powerfist
+				set_country_flag = r_relic_powerfist
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_requiem_heavy_bolter } } 
+				add_relic = r_requiem_heavy_bolter
+				set_country_flag = r_requiem_heavy_bolter
+			}
+			else_if = { 
+				limit = { NOT = { has_country_flag = r_sternguard_bolter } } 
+				add_relic = r_sternguard_bolter
+				set_country_flag = r_sternguard_bolter
+			}
+			else = {
+				random_list = {
+					10 = { add_relic = r_astartes_konor_pattern_power_sword_final }
+					10 = { add_relic = r_axe_photos }
+					10 = { add_relic = r_cypher_armor }
+					10 = { add_relic = r_cypher_attack_bike }
+					10 = { add_relic = r_cypher_scapular }
+					10 = { add_relic = r_erasmus_pattern_plasmacannon_mki }
+					10 = { add_relic = r_gilded_bolter }
+					10 = { add_relic = r_glaive_super_heavy_special_weapons_tank }
+					10 = { add_relic = r_hagen_pattern_narthecium }
+					10 = { add_relic = r_relic_powerfist }
+					10 = { add_relic = r_requiem_heavy_bolter }
+					10 = { add_relic = r_sternguard_bolter }
+				}
+			}
+		}
+		large_artifact_reward = yes
+	}
+}
+
+#####################################################
