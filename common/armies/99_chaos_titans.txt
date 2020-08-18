@@ -39,7 +39,6 @@ chaos_imperial_knight = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -111,7 +110,6 @@ chaos_warhound_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -183,7 +181,6 @@ chaos_reaver_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -255,7 +252,6 @@ chaos_warlord_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -327,7 +323,6 @@ chaos_emperor_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {

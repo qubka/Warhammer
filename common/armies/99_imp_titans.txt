@@ -39,7 +39,6 @@ imperial_knight = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -111,7 +110,6 @@ warhound_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -183,7 +181,6 @@ reaver_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -326,7 +323,6 @@ emperor_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {

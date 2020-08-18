@@ -3,56 +3,7 @@
 @triumph_duration_short = 1800
 @triumph_duration_veryshort = 900
 
-ork_warbuggy = {
-	activation_duration = @triumph_duration
-	portrait = "GFX_ORK_Warbuggy"
-	sound = "relic_activation_ork_warbuggy_trophy"
-	
-	resources = {
-		category = relics
-		# Activation cost
-		cost = {
-			influence = @activation_cost
-		}
-	}
-	
-	ai_weight = {
-		weight = 100
-	}
-	
-	triggered_country_modifier = {
-		potential = {
-			always = yes
-		}
-		#
-	}
-	
-	score = 1000
-	
-	active_effect = {
-		add_modifier = {
-			modifier = "ether_drake_triumph"
-			days = @triumph_duration
-		}
-		custom_tooltip = relic_triumph_cooldown
-		hidden_effect = {
-			add_modifier = {
-				modifier = "relic_activation_cooldown"
-				days = @triumph_duration
-			}
-		}
-	}
-	
-	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
-}
-
-ast_astartes_konor_pattern_power_sword_final = {
+r_astartes_konor_pattern_power_sword_final = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Astartes_Konor_Pattern_Power_Sword_Final"
 	sound = "relic_activation_ast_astartes_konor_pattern_power_sword_final_trophy"
@@ -67,20 +18,24 @@ ast_astartes_konor_pattern_power_sword_final = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "astartes_konor_pattern_power_sword_final"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -95,13 +50,17 @@ ast_astartes_konor_pattern_power_sword_final = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_axe_photos = {
+r_axe_photos = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Axe_Photos"
 	sound = "relic_activation_ast_axe_photos_trophy"
@@ -116,20 +75,24 @@ ast_axe_photos = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "axe_photos"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -144,13 +107,17 @@ ast_axe_photos = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_cypher_armor = {
+r_cypher_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Cypher_Armor"
 	sound = "relic_activation_ast_cypher_armor_trophy"
@@ -165,20 +132,24 @@ ast_cypher_armor = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "cypher_armor"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -193,13 +164,17 @@ ast_cypher_armor = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_cypher_attack_bike = {
+r_cypher_attack_bike = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Cypher_Attack_Bike"
 	sound = "relic_activation_ast_cypher_attack_bike_trophy"
@@ -214,20 +189,24 @@ ast_cypher_attack_bike = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		country_engineering_tech_research_speed = 0.05
 	}
 	
-	score = 1000
+	score = 1500
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "cypher_attack_bike"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -242,13 +221,17 @@ ast_cypher_attack_bike = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_cypher_scapular = {
+r_cypher_scapular = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Cypher_Scapular"
 	sound = "relic_activation_ast_cypher_scapular_trophy"
@@ -263,20 +246,24 @@ ast_cypher_scapular = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "cypher_scapular"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -291,13 +278,17 @@ ast_cypher_scapular = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_erasmus_pattern_plasmacannon_mki = {
+r_erasmus_pattern_plasmacannon_mki = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Erasmus_Pattern_PlasmaCannon_MKI"
 	sound = "relic_activation_ast_erasmus_pattern_plasmacannon_mki_trophy"
@@ -312,20 +303,24 @@ ast_erasmus_pattern_plasmacannon_mki = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "erasmus_pattern_plasmacannon_mki"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -340,13 +335,17 @@ ast_erasmus_pattern_plasmacannon_mki = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_gilded_bolter = {
+r_gilded_bolter = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Gilded_Bolter"
 	sound = "relic_activation_ast_gilded_bolter_trophy"
@@ -361,20 +360,24 @@ ast_gilded_bolter = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "gilded_bolter"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -389,13 +392,17 @@ ast_gilded_bolter = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_glaive_super_heavy_special_weapons_tank = {
+r_glaive_super_heavy_special_weapons_tank = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Glaive_Super_Heavy_Special_Weapons_Tank"
 	sound = "relic_activation_ast_glaive_super_heavy_special_weapons_tank_trophy"
@@ -410,20 +417,24 @@ ast_glaive_super_heavy_special_weapons_tank = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		country_engineering_tech_research_speed = 0.05
 	}
 	
-	score = 1000
+	score = 1500
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "glaive_super_heavy_special_weapons_tank"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -438,13 +449,17 @@ ast_glaive_super_heavy_special_weapons_tank = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_hagen_pattern_narthecium = {
+r_hagen_pattern_narthecium = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Hagen_Pattern_Narthecium"
 	sound = "relic_activation_ast_hagen_pattern_narthecium_trophy"
@@ -459,20 +474,24 @@ ast_hagen_pattern_narthecium = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "hagen_pattern_narthecium"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -487,13 +506,17 @@ ast_hagen_pattern_narthecium = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_relic_powerfist = {
+r_relic_powerfist = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Relic_Powerfist"
 	sound = "relic_activation_ast_relic_powerfist_trophy"
@@ -508,20 +531,24 @@ ast_relic_powerfist = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "relic_powerfist"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -536,13 +563,17 @@ ast_relic_powerfist = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_requiem_heavy_bolter = {
+r_requiem_heavy_bolter = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Requiem_Heavy_Bolter"
 	sound = "relic_activation_ast_requiem_heavy_bolter_trophy"
@@ -557,20 +588,24 @@ ast_requiem_heavy_bolter = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "requiem_heavy_bolter"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -585,13 +620,17 @@ ast_requiem_heavy_bolter = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ast_sternguard_bolter = {
+r_sternguard_bolter = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_AST_Sternguard_Bolter"
 	sound = "relic_activation_ast_sternguard_bolter_trophy"
@@ -606,20 +645,24 @@ ast_sternguard_bolter = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = human_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "sternguard_bolter"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -634,54 +677,9 @@ ast_sternguard_bolter = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
 		}
-	}
-}
-
-csm_murder_sword = {
-	activation_duration = @triumph_duration
-	portrait = "GFX_CSM_Murder_Sword"
-	sound = "relic_activation_csm_murder_sword_trophy"
-	
-	resources = {
-		category = relics
-		# Activation cost
-		cost = {
-			influence = @activation_cost
-		}
-	}
-	
-	ai_weight = {
-		weight = 100
-	}
-	
-	triggered_country_modifier = {
-		potential = {
-			always = yes
-		}
-		#
-	}
-	
-	score = 1000
-	
-	active_effect = {
-		add_modifier = {
-			modifier = "ether_drake_triumph"
-			days = @triumph_duration
-		}
-		custom_tooltip = relic_triumph_cooldown
-		hidden_effect = {
-			add_modifier = {
-				modifier = "relic_activation_cooldown"
-				days = @triumph_duration
-			}
-		}
-	}
-	
-	# Possible check for activation
-	possible = {
 		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
@@ -689,7 +687,7 @@ csm_murder_sword = {
 	}
 }
 
-csm_abaddons_grace = {
+r_abaddons_grace = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Abaddons_Grace"
 	sound = "relic_activation_csm_abaddons_grace_trophy"
@@ -704,20 +702,24 @@ csm_abaddons_grace = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "abaddons_grace"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -732,13 +734,17 @@ csm_abaddons_grace = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_apollo_pattern_plasma_gun = {
+r_apollo_pattern_plasma_gun = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Apollo_Pattern_Plasma_Gun"
 	sound = "relic_activation_csm_apollo_pattern_plasma_gun_trophy"
@@ -753,20 +759,24 @@ csm_apollo_pattern_plasma_gun = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "apollo_pattern_plasma_gun"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -781,13 +791,17 @@ csm_apollo_pattern_plasma_gun = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_deathlock_cestus_powerfist_skin = {
+r_deathlock_cestus_powerfist_skin = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Deathlock_Cestus_Powerfist_Skin"
 	sound = "relic_activation_csm_deathlock_cestus_powerfist_skin_trophy"
@@ -802,20 +816,24 @@ csm_deathlock_cestus_powerfist_skin = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "deathlock_cestus_powerfist_skin"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -830,13 +848,17 @@ csm_deathlock_cestus_powerfist_skin = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_fleshmetal_shell = {
+r_fleshmetal_shell = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Fleshmetal_Shell"
 	sound = "relic_activation_csm_fleshmetal_shell_trophy"
@@ -851,20 +873,24 @@ csm_fleshmetal_shell = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "fleshmetal_shell"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -879,13 +905,17 @@ csm_fleshmetal_shell = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_hell_breach_plasmacannon_2 = {
+r_hell_breach_plasmacannon = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Hell_Breach_PlasmaCannon_2"
 	sound = "relic_activation_csm_hell_breach_plasmacannon_2_trophy"
@@ -900,20 +930,24 @@ csm_hell_breach_plasmacannon_2 = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "hell_breach_plasmacannon"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -928,13 +962,17 @@ csm_hell_breach_plasmacannon_2 = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_hell_warbike = {
+r_hell_warbike = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Hell_Warbike"
 	sound = "relic_activation_csm_hell_warbike_trophy"
@@ -949,20 +987,24 @@ csm_hell_warbike = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		country_engineering_tech_research_speed = 0.05
 	}
 	
-	score = 1000
+	score = 1500
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "hell_warbike"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -977,13 +1019,17 @@ csm_hell_warbike = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_hellkiss_meltagun = {
+r_hellkiss_meltagun = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Hellkiss_Meltagun"
 	sound = "relic_activation_csm_hellkiss_meltagun_trophy"
@@ -998,20 +1044,24 @@ csm_hellkiss_meltagun = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "hellkiss_meltagun"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1026,13 +1076,17 @@ csm_hellkiss_meltagun = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_maelstromcleaver = {
+r_maelstromcleaver = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_MaelstromCleaver"
 	sound = "relic_activation_csm_maelstromcleaver_trophy"
@@ -1047,20 +1101,24 @@ csm_maelstromcleaver = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "maelstromcleaver"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1075,13 +1133,74 @@ csm_maelstromcleaver = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_rage_spitter = {
+r_murder_sword = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Murder_Sword"
+	sound = "relic_activation_csm_murder_sword_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "murder_sword"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_rage_spitter = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Rage_Spitter"
 	sound = "relic_activation_csm_rage_spitter_trophy"
@@ -1096,20 +1215,24 @@ csm_rage_spitter = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "rage_spitter"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1124,13 +1247,17 @@ csm_rage_spitter = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_shrieking_souls_armor = {
+r_shrieking_souls_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Shrieking_Souls_Armor"
 	sound = "relic_activation_csm_shrieking_souls_armor_trophy"
@@ -1145,20 +1272,24 @@ csm_shrieking_souls_armor = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "shrieking_souls_armor"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1173,13 +1304,17 @@ csm_shrieking_souls_armor = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-csm_widowmaker_bolter = {
+r_widowmaker_bolter = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_CSM_Widowmaker_Bolter"
 	sound = "relic_activation_csm_widowmaker_bolter_trophy"
@@ -1194,20 +1329,24 @@ csm_widowmaker_bolter = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = chaos_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "widowmaker_bolter"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1222,54 +1361,9 @@ csm_widowmaker_bolter = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
 		}
-	}
-}
-
-eld_firesabre = {
-	activation_duration = @triumph_duration
-	portrait = "GFX_ELD_Firesabre"
-	sound = "relic_activation_eld_firesabre_trophy"
-	
-	resources = {
-		category = relics
-		# Activation cost
-		cost = {
-			influence = @activation_cost
-		}
-	}
-	
-	ai_weight = {
-		weight = 100
-	}
-	
-	triggered_country_modifier = {
-		potential = {
-			always = yes
-		}
-		#
-	}
-	
-	score = 1000
-	
-	active_effect = {
-		add_modifier = {
-			modifier = "ether_drake_triumph"
-			days = @triumph_duration
-		}
-		custom_tooltip = relic_triumph_cooldown
-		hidden_effect = {
-			add_modifier = {
-				modifier = "relic_activation_cooldown"
-				days = @triumph_duration
-			}
-		}
-	}
-	
-	# Possible check for activation
-	possible = {
 		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
@@ -1277,10 +1371,10 @@ eld_firesabre = {
 	}
 }
 
-eld_fire_dragon_fusion_gun = {
+r_fire_dragon_fusion_gun = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Fire_Dragon_Fusion_Gun"
-	sound = "relic_activation_eld_fire_dragon_fusion_gun_trophy"
+	sound = "relic_activation_eldar_fire_dragon_fusion_gun_trophy"
 	
 	resources = {
 		category = relics
@@ -1292,20 +1386,24 @@ eld_fire_dragon_fusion_gun = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "fire_dragon_fusion_gun"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1320,16 +1418,77 @@ eld_fire_dragon_fusion_gun = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_gatekeepers_bastion = {
+r_firesabre = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Firesabre"
+	sound = "relic_activation_eldar_firesabre_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "firesabre"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_gatekeepers_bastion = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Gatekeepers_Bastion"
-	sound = "relic_activation_eld_gatekeepers_bastion_trophy"
+	sound = "relic_activation_eldar_gatekeepers_bastion_trophy"
 	
 	resources = {
 		category = relics
@@ -1341,20 +1500,24 @@ eld_gatekeepers_bastion = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "gatekeepers_bastion"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1369,16 +1532,20 @@ eld_gatekeepers_bastion = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_gorhu_armor = {
+r_gorhu_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Gorhu_Armor"
-	sound = "relic_activation_eld_gorhu_armor_trophy"
+	sound = "relic_activation_eldar_gorhu_armor_trophy"
 	
 	resources = {
 		category = relics
@@ -1390,20 +1557,24 @@ eld_gorhu_armor = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "gorhu_armor"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1418,16 +1589,20 @@ eld_gorhu_armor = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_ice_hawk_cannon = {
+r_ice_hawk_cannon = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Ice_Hawk_Cannon"
-	sound = "relic_activation_eld_ice_hawk_cannon_trophy"
+	sound = "relic_activation_eldar_ice_hawk_cannon_trophy"
 	
 	resources = {
 		category = relics
@@ -1439,20 +1614,24 @@ eld_ice_hawk_cannon = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "ice_hawk_cannon"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1467,16 +1646,20 @@ eld_ice_hawk_cannon = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_laelshanwitchblade = {
+r_laelshanwitchblade = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_LaelshanWitchblade"
-	sound = "relic_activation_eld_laelshanwitchblade_trophy"
+	sound = "relic_activation_eldar_laelshanwitchblade_trophy"
 	
 	resources = {
 		category = relics
@@ -1488,20 +1671,24 @@ eld_laelshanwitchblade = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "laelshanwitchblade"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1516,16 +1703,20 @@ eld_laelshanwitchblade = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_last_runes_armor = {
+r_last_runes_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Last_Runes_Armor"
-	sound = "relic_activation_eld_last_runes_armor_trophy"
+	sound = "relic_activation_eldar_last_runes_armor_trophy"
 	
 	resources = {
 		category = relics
@@ -1537,20 +1728,24 @@ eld_last_runes_armor = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "last_runes_armor"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1565,16 +1760,20 @@ eld_last_runes_armor = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_maeldannan_diresword = {
+r_maeldannan_diresword = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_MaelDannan_DireSword"
-	sound = "relic_activation_eld_maeldannan_diresword_trophy"
+	sound = "relic_activation_eldar_maeldannan_diresword_trophy"
 	
 	resources = {
 		category = relics
@@ -1586,20 +1785,24 @@ eld_maeldannan_diresword = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "maeldannan_diresword"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1614,16 +1817,20 @@ eld_maeldannan_diresword = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_swoopinghawk_lasblaster = {
+r_swoopinghawk_lasblaster = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_SwoopingHawk_Lasblaster"
-	sound = "relic_activation_eld_swoopinghawk_lasblaster_trophy"
+	sound = "relic_activation_eldar_swoopinghawk_lasblaster_trophy"
 	
 	resources = {
 		category = relics
@@ -1635,20 +1842,24 @@ eld_swoopinghawk_lasblaster = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "swoopinghawk_lasblaster"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1663,16 +1874,20 @@ eld_swoopinghawk_lasblaster = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_torrent_reaper_launcher = {
+r_torrent_reaper_launcher = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Torrent_Reaper_Launcher"
-	sound = "relic_activation_eld_torrent_reaper_launcher_trophy"
+	sound = "relic_activation_eldar_torrent_reaper_launcher_trophy"
 	
 	resources = {
 		category = relics
@@ -1684,20 +1899,24 @@ eld_torrent_reaper_launcher = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "torrent_reaper_launcher"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1712,16 +1931,20 @@ eld_torrent_reaper_launcher = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-eld_vyper = {
+r_vyper = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Vyper"
-	sound = "relic_activation_eld_vyper_trophy"
+	sound = "relic_activation_eldar_vyper_trophy"
 	
 	resources = {
 		category = relics
@@ -1733,20 +1956,24 @@ eld_vyper = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = eldar_empire
 		}
-		#
+		country_engineering_tech_research_speed = 0.05
 	}
 	
-	score = 1000
+	score = 1500
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "vyper"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1761,13 +1988,17 @@ eld_vyper = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_boss_choppa = {
+r_boss_choppa = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Boss_Choppa"
 	sound = "relic_activation_ork_boss_choppa_trophy"
@@ -1782,20 +2013,24 @@ ork_boss_choppa = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "boss_choppa"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1810,13 +2045,17 @@ ork_boss_choppa = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_da_heart_stoppa = {
+r_da_heart_stoppa = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Da_Heart_Stoppa"
 	sound = "relic_activation_ork_da_heart_stoppa_trophy"
@@ -1831,20 +2070,24 @@ ork_da_heart_stoppa = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "da_heart_stoppa"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1859,13 +2102,17 @@ ork_da_heart_stoppa = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_daneedleuvlif = {
+r_daneedleuvlif = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_DaNeedleUvLif"
 	sound = "relic_activation_ork_daneedleuvlif_trophy"
@@ -1880,20 +2127,24 @@ ork_daneedleuvlif = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "daneedleuvlif"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1908,13 +2159,17 @@ ork_daneedleuvlif = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_heresy_limited_edition_looted_umie_bolter = {
+r_heresy_limited_edition_looted_umie_bolter = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_Ork_Heresy_Limited_Edition_Looted_Umie_Bolter"
 	sound = "relic_activation_ork_heresy_limited_edition_looted_umie_bolter_trophy"
@@ -1929,20 +2184,24 @@ ork_heresy_limited_edition_looted_umie_bolter = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "heresy_limited_edition_looted_umie_bolter"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -1957,13 +2216,17 @@ ork_heresy_limited_edition_looted_umie_bolter = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_iron_sight_shoota = {
+r_iron_sight_shoota = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Iron_Sight_Shoota"
 	sound = "relic_activation_ork_iron_sight_shoota_trophy"
@@ -1978,20 +2241,24 @@ ork_iron_sight_shoota = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "iron_sight_shoota"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2006,13 +2273,17 @@ ork_iron_sight_shoota = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_looted_power_armor = {
+r_looted_power_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Looted_Power_Armor"
 	sound = "relic_activation_ork_looted_power_armor_trophy"
@@ -2027,20 +2298,24 @@ ork_looted_power_armor = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "looted_power_armor"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2055,13 +2330,17 @@ ork_looted_power_armor = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_plasma_chompa_02 = {
+r_plasma_chompa = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Plasma_Chompa_02"
 	sound = "relic_activation_ork_plasma_chompa_02_trophy"
@@ -2076,20 +2355,24 @@ ork_plasma_chompa_02 = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "plasma_chompa"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2104,13 +2387,17 @@ ork_plasma_chompa_02 = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_powerrippa = {
+r_powerrippa = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_PowerRippa"
 	sound = "relic_activation_ork_powerrippa_trophy"
@@ -2125,20 +2412,24 @@ ork_powerrippa = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "powerrippa"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2153,13 +2444,17 @@ ork_powerrippa = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_sparekeys_combishoota = {
+r_sparekeys_combishoota = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_SpareKeys_CombiShoota"
 	sound = "relic_activation_ork_sparekeys_combishoota_trophy"
@@ -2174,20 +2469,24 @@ ork_sparekeys_combishoota = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "sparekeys_combishoota"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2202,13 +2501,17 @@ ork_sparekeys_combishoota = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_splash_burna = {
+r_splash_burna = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Splash_Burna"
 	sound = "relic_activation_ork_splash_burna_trophy"
@@ -2223,20 +2526,24 @@ ork_splash_burna = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_weapon_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "splash_burna"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2251,13 +2558,17 @@ ork_splash_burna = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-ork_squig_armor = {
+r_squig_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ORK_Squig_Armor"
 	sound = "relic_activation_ork_squig_armor_trophy"
@@ -2272,20 +2583,24 @@ ork_squig_armor = {
 	
 	ai_weight = {
 		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
 	}
 	
 	triggered_country_modifier = {
 		potential = {
-			always = yes
+			has_country_flag = ork_empire
 		}
-		#
+		category_armor_research_speed_mult = 0.05
 	}
 	
 	score = 1000
 	
 	active_effect = {
 		add_modifier = {
-			modifier = "ether_drake_triumph"
+			modifier = "squig_armor"
 			days = @triumph_duration
 		}
 		custom_tooltip = relic_triumph_cooldown
@@ -2300,10 +2615,69 @@ ork_squig_armor = {
 	# Possible check for activation
 	possible = {
 		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
 			fail_text = "requires_relic_no_cooldown"
 			NOT = { has_modifier = relic_activation_cooldown }
 		}
 	}
 }
 
-
+r_warbuggy = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Warbuggy"
+	sound = "relic_activation_ork_warbuggy_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		country_engineering_tech_research_speed = 0.05
+	}
+	
+	score = 1500
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "warbuggy"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}

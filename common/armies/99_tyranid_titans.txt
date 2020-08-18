@@ -35,7 +35,6 @@ harridan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -95,7 +94,6 @@ hierodule = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -153,7 +151,6 @@ dominatrix = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -211,7 +208,6 @@ hierophant = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -269,7 +265,6 @@ viciator = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {

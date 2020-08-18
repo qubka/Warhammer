@@ -196,7 +196,6 @@ chaos_dreadnaught = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {

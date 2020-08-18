@@ -72,7 +72,6 @@ dreadnought = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -338,7 +337,6 @@ librarian = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -401,7 +399,6 @@ apothecary = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -464,7 +461,6 @@ techmarines = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
