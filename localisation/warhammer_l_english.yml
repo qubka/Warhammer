@@ -4844,8 +4844,8 @@
  planets.22.desc:0 "After several months of analyzing the planet's terrain, he failed miserably.\n\nWe need to explore other planets in this sector."
  planets.23.name:0 "§HPromethium Mine§!: [Root.GetName] Dug"
  planets.23.desc:0 "This form of mining differs from extractive methods that require tunneling into the earth, such as longwall mining. Open-pit mines are used when deposits of commercially useful ore or rocks are found near the surface. It is applied to ore or rocks found at the surface because the overburden is relatively thin or the material of interest is structurally unsuitable for tunneling (as would be the case for sand, cinder, and gravel). In contrast, minerals that have been found underground but are difficult to retrieve due to hard rock can be reached using a form of underground mining."
- planets.25.name:0 "§HTomb World§!: [Root.GetName] Encased"
- planets.25.desc:0 "Layers upon layers of tomb sprawl eclipse the globe's crust, and it is done.\n\nScant few years have passed since the start of this grand project, but it is already difficult to recall what the surface of [Root.GetName] was like. It is all steel now, miles in every direction.\n\nA place once molded by chance and the unthinking laws of nature, now a design wrought from indomitable purpose."
+ planets.24.name:0 "§HTomb World§!: [Root.GetName] Encased"
+ planets.24.desc:0 "Layers upon layers of tomb sprawl eclipse the globe's crust, and it is done.\n\nScant few years have passed since the start of this grand project, but it is already difficult to recall what the surface of [Root.GetName] was like. It is all steel now, miles in every direction.\n\nA place once molded by chance and the unthinking laws of nature, now a design wrought from indomitable purpose."
  #
  #spacehulk.1.desc:0 "Space Hulk just came out of warp near one of our planet!"
  #spacehulk.2.desc:0 "Space Hulk that came out of warp are attacking nearby stations and ships! It's firepower are huge!"

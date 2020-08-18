@@ -48,7 +48,7 @@ decision_tomb_project = {
 				graphical_culture = owner
 			}
 			add_modifier = { modifier = "tomb_planet" days = -1 }
-			planet_event = { id = planets.25 }
+			planet_event = { id = planets.24 }
 		}
 	}
 

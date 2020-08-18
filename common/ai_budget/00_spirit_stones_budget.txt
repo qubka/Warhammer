@@ -1,0 +1,135 @@
+## Categories used in this file must have use_for_ai_budget = yes defined in economic_categories ##
+## It is possible to have multiple entries with the same category and resource ##
+
+#################
+## Expenditure ##
+#################
+
+spirit_stones_expenditure_edicts = {
+	resource = spirit_stones 
+	type = expenditure
+	category = edicts
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.5
+	}
+}
+
+
+spirit_stones_expenditure_planets = {
+	resource = spirit_stones 
+	type = expenditure
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.2
+	}	
+}
+
+spirit_stones_expenditure_ships = {
+	resource = spirit_stones
+	type = expenditure
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+spirit_stones_expenditure_upgrade = {
+	resource = spirit_stones 
+	type = expenditure
+	category = ship_upgrades
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.1
+	}
+}
+
+spirit_stones_expenditure_trade = {
+	resource = spirit_stones 
+	type = expenditure
+	category = trade
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+spirit_stones_expenditure_armies = {
+	resource = spirit_stones
+	type = expenditure
+	category = armies
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.01
+	}
+}
+
+spirit_stones_expenditure_armies_threatened = {
+	resource = spirit_stones
+	type = expenditure
+	category = armies
+
+	potential = {
+		highest_threat > 20
+	}
+
+	fraction = {
+		weight = 0.10
+	}
+}
+
+# Upkeep ----------------------------------------------------------
+
+spirit_stones_upkeep_planets = {
+	resource = spirit_stones 
+	type = upkeep
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.9
+	}	
+}
+
+spirit_stones_upkeep_ships = {
+	resource = spirit_stones 
+	type = upkeep
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}

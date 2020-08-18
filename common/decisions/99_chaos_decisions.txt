@@ -6,7 +6,8 @@ decision_corrupting_project = {
 		category = decisions
 		cost = {
 			unity = 100
-			energy = 5000
+			energy = 10000
+			gods_favor = 5000
 		}
 	}
 	
