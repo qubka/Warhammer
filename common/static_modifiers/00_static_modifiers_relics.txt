@@ -3,7 +3,7 @@ astartes_konor_pattern_power_sword_final = {
 }
 
 axe_photos = {
-	army_damage = 0.25
+	army_damage_mult = 0.25
 }
 
 cypher_armor = {
@@ -53,7 +53,7 @@ abaddons_grace = {
 }
 
 apollo_pattern_plasma_gun = {
-	army_damage = 0.25
+	army_damage_mult = 0.25
 }
 
 deathlock_cestus_powerfist_skin = {
@@ -103,7 +103,7 @@ fire_dragon_fusion_gun = {
 }
 
 firesabre = {
-	army_damage = 0.25
+	army_damage_mult = 0.25
 }
 
 gatekeepers_bastion = {
@@ -149,7 +149,7 @@ boss_choppa = {
 }
 
 da_heart_stoppa = {
-	army_damage = 0.25
+	army_damage_mult = 0.25
 }
 
 daneedleuvlif = {

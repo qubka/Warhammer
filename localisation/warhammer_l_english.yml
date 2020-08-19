@@ -3279,6 +3279,84 @@
  planet_no_sculpting_tooltip:0 "§RNo Slaves Growth on Planet§!"
  
  ####################################
+ # Preferences
+ ####################################
+ trait_pc_daemon_preference:0 "$pc_daemon$ Preference"
+ trait_pc_daemon_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_daemonn_preference:0 "$pc_daemonn$ Preference"
+ trait_pc_daemonn_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_daemont_preference:0 "$pc_daemont$ Preference"
+ trait_pc_daemont_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_daemons_preference:0 "$pc_daemons$ Preference"
+ trait_pc_daemons_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_tomb_preference:0 "$pc_tomb$ Preference"
+ trait_pc_tomb_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_craftworld_preference:0 "$pc_craftworld$ Preference"
+ trait_pc_craftworld_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_hive_industrial_preference:0 "$pc_hive_industrial$ Preference"
+ trait_pc_hive_industrial_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_fortress_preference:0 "$pc_fortress$ Preference"
+ trait_pc_fortress_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_mega_hive_preference:0 "$pc_mega_hive$ Preference"
+ trait_pc_mega_hive_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_webway_preference:0 "$pc_webway$ Preference"
+ trait_pc_webway_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_advancecity_preference:0 "$pc_advancecity$ Preference"
+ trait_pc_advancecity_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_advancexenocity_preference:0 "$pc_advancexenocity$ Preference"
+ trait_pc_advancexenocity_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_advancexenocityy_preference:0 "$pc_advancexenocityy$ Preference"
+ trait_pc_advancexenocityy_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_advancexenocityyy_preference:0 "$pc_advancexenocityyy$ Preference"
+ trait_pc_advancexenocityyy_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_forge_preference:0 "$pc_forge$ Preference"
+ trait_pc_forge_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_forgee_preference:0 "$pc_forgee$ Preference"
+ trait_pc_forgee_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_forgeee_preference:0 "$pc_forgeee$ Preference"
+ trait_pc_forgeee_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_industrial_preference:0 "$pc_industrial$ Preference"
+ trait_pc_industrial_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_agri_preference:0 "$pc_agri$ Preference"
+ trait_pc_agri_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_shrine_preference:0 "$pc_shrine$ Preference"
+ trait_pc_shrine_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_hive_medium_preference:0 "$pc_hive_medium$ Preference"
+ trait_pc_hive_medium_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_penal_preference:0 "$pc_penal$ Preference"
+ trait_pc_penal_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_hive_arid_preference:0 "$pc_hive_arid$ Preference"
+ trait_pc_hive_arid_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_hive_continental_01_preference:0 "$pc_hive_continental_01$ Preference"
+ trait_pc_hive_continental_01_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_hive_continental_02_preference:0 "$pc_hive_continental_02$ Preference"
+ trait_pc_hive_continental_02_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_hive_ocean_preference:0 "$pc_hive_ocean$ Preference"
+ trait_pc_hive_ocean_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_hive_tundra_preference:0 "$pc_hive_tundra$ Preference"
+ trait_pc_hive_tundra_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_super_hive_preference:0 "$pc_super_hive$ Preference"
+ trait_pc_super_hive_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_forge_ring_preference:0 "$pc_forge_ring$ Preference"
+ trait_pc_forge_ring_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_forge_ring2_preference:0 "$pc_forge_ring2$ Preference"
+ trait_pc_forge_ring2_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_forge_ring3_preference:0 "$pc_forge_ring3$ Preference"
+ trait_pc_forge_ring3_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"	
+ trait_pc_spacehulk_preference:0 "$pc_spacehulk$ Preference"
+ trait_pc_spacehulk_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_phalanx_preference:0 "$pc_phalanx$ Preference"
+ trait_pc_phalanx_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_blackstonefortress_preference:0 "$pc_blackstonefortress$ Preference"
+ trait_pc_blackstonefortress_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_eternalcrusader_preference:0 "$pc_eternalcrusader$ Preference"
+ trait_pc_eternalcrusader_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_orkworld_preference:0 "$pc_orkworld$ Preference"
+ trait_pc_orkworld_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ trait_pc_armoury_preference:0 "$pc_armoury$ Preference"
+ trait_pc_armoury_preference_desc: "§LClimate preference is determined by eons of evolution, design, or skillful genetic manipulation.§!"
+ 
+ ####################################
  # Colony Types
  ####################################
  
@@ -4801,38 +4879,49 @@
  # Relics
  ####################################
  
+ # Weapon Relics
+ 
  # IMP
  site_abandoned_stronghold:0 "Abandoned Stronghold"
- site_abandoned_stronghold_intro:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centures ago."
+ site_abandoned_stronghold_intro:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centuries ago."
  relics.10.name:0 "Fossils abandoned fortifications on [Root.GetName]"
- relics.10.desc:0 ""
+ relics.10.desc:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centuries ago."
  relics.11.name:0 "The Imperium Stronghold"
- relics.11.desc:0 "This structure looks like a stronghold of the Adeptus Astartes, abandoned several centures ago because of some incident. There are no obvious signs of previous looters. The main entrance of the structure is accessible, but it blocked by the collapsed gates."
- relics.12.name:0 "West Section"
- relics.12.desc:0 ""
- relics.13.name:0 "East Section"
- relics.13.desc:0 ""
- relics.14.name:0 "North Section"
- relics.14.desc:0 ""
- relics.15.name:0 "South Section"
- relics.15.desc:0 ""
- relics.16.name:0 "Center Section"
- relics.16.desc:0 ""
- 
+ relics.11.desc:0 "This structure looks like a stronghold of the Adeptus Astartes, abandoned several centuries ago because of some incident. There are no obvious signs of previous looters. The main entrance of the structure is accessible, but it blocked by the collapsed gates."
  # ORK
  site_abandoned_settlement:0 "Abandoned Settlement"
- site_abandoned_settlement_intro:0 ""
- 
+ site_abandoned_settlement_intro:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centuries ago."
+ relics.20.name:0 "Fossils abandoned settlement on [Root.GetName]"
+ relics.20.desc:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centuries ago."
+ relics.21.name:0 "The Ork Settlement"
+ relics.21.desc:0 "This settlement looks like a clanbase of some Ork clan, abandoned several centuries ago because of some incident. There are no obvious signs of previous looters. The main entrance of the structure is accessible, but it blocked by the collapsed gates."
  # ELD
  site_abandoned_farpost:0 "Abandoned Farpost"
- site_abandoned_farpost_intro:0 ""
- 
+ site_abandoned_farpost_intro:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few millennials ago."
+ relics.30.name:0 "Fossils abandoned farpost on [Root.GetName]"
+ relics.30.desc:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few millennials ago."
+ relics.31.name:0 "The Aeldari Farpost"
+ relics.31.desc:0 "This structure looks like a farpost of the ancient Eldars, abandoned several millennials ago because of some incident. There are no obvious signs of previous looters. The main entrance of the structure is accessible, but it blocked by the collapsed gates."
  # CHA
  site_abandoned_base:0 "Abandoned Base"
- site_abandoned_base_intro:0 ""
- 
+ site_abandoned_base_intro:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centuries ago."
+ relics.40.name:0 "Fossils abandoned fortifications on [Root.GetName]"
+ relics.40.desc:0 "Rotten remains of several different species that apparently were killed during the siege of §H[Root.GetName]§! were found in a large and secluded valley on [Root.GetPlanetMoon]. All of them date from approximately the same time period, within a few centuries ago."
+ relics.41.name:0 "The Chaos Stronghold"
+ relics.41.desc:0 "This structure looks like a stronghold of the Traitor Astartes, abandoned several centuries ago because of some incident. There are no obvious signs of previous looters. The main entrance of the structure is accessible, but it blocked by the collapsed gates."
  #
- 
+ # 
+ relics.02.name:0 "West Section"
+ relics.02.desc:0 "After combing through the West Section for anything of interest, archaeologists discovered a tiny concealed wall panel. When pressed, the ancient door rumbled open. The East Section can now be accessed."
+ relics.03.name:0 "East Section"
+ relics.03.desc:0 "The East Section is unremarkable, aside from another set of old ammunition. No secret wall panel has yet been found that would provide access to the energy system which will allow to access North Section."
+ relics.04.name:0 "North Section"
+ relics.04.desc:0 "After a long and tiring search, a secret lever hidden under the floor was found which provided access to the South Section. As before, a section not has any interesting."
+ relics.05.name:0 "South Section"
+ relics.05.desc:0 "The South Section should most likely have access to the Central weapons storage, so our archaeologists were able to sort out the blockage and fully restore power to the armored gates, now we can try to get inside."
+ relics.06.name:0 "Armoury Section"
+ relics.06.desc:0 "After the team of archaeologists got to the weapons section, a terrible picture was discovered, the entire section was littered with the corpses of our fallen comrades, among which we managed to find very ancient weapons relics of past centuries. We were very lucky.\n\nBut what happened here ???"
+
  ####################################
  # Events
  ####################################

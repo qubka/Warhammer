@@ -4,7 +4,7 @@
 # war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
 
 genestealer = {
-	damage = 2.00
+	damage = 0.3
 	health = 10.00
 	morale = 2.00
 	collateral_damage = 1.00

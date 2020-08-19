@@ -1374,7 +1374,7 @@ r_widowmaker_bolter = {
 r_fire_dragon_fusion_gun = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Fire_Dragon_Fusion_Gun"
-	sound = "relic_activation_eldar_fire_dragon_fusion_gun_trophy"
+	sound = "relic_activation_eld_fire_dragon_fusion_gun_trophy"
 	
 	resources = {
 		category = relics
@@ -1431,7 +1431,7 @@ r_fire_dragon_fusion_gun = {
 r_firesabre = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Firesabre"
-	sound = "relic_activation_eldar_firesabre_trophy"
+	sound = "relic_activation_eld_firesabre_trophy"
 	
 	resources = {
 		category = relics
@@ -1488,7 +1488,7 @@ r_firesabre = {
 r_gatekeepers_bastion = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Gatekeepers_Bastion"
-	sound = "relic_activation_eldar_gatekeepers_bastion_trophy"
+	sound = "relic_activation_eld_gatekeepers_bastion_trophy"
 	
 	resources = {
 		category = relics
@@ -1545,7 +1545,7 @@ r_gatekeepers_bastion = {
 r_gorhu_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Gorhu_Armor"
-	sound = "relic_activation_eldar_gorhu_armor_trophy"
+	sound = "relic_activation_eld_gorhu_armor_trophy"
 	
 	resources = {
 		category = relics
@@ -1602,7 +1602,7 @@ r_gorhu_armor = {
 r_ice_hawk_cannon = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Ice_Hawk_Cannon"
-	sound = "relic_activation_eldar_ice_hawk_cannon_trophy"
+	sound = "relic_activation_eld_ice_hawk_cannon_trophy"
 	
 	resources = {
 		category = relics
@@ -1659,7 +1659,7 @@ r_ice_hawk_cannon = {
 r_laelshanwitchblade = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_LaelshanWitchblade"
-	sound = "relic_activation_eldar_laelshanwitchblade_trophy"
+	sound = "relic_activation_eld_laelshanwitchblade_trophy"
 	
 	resources = {
 		category = relics
@@ -1716,7 +1716,7 @@ r_laelshanwitchblade = {
 r_last_runes_armor = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Last_Runes_Armor"
-	sound = "relic_activation_eldar_last_runes_armor_trophy"
+	sound = "relic_activation_eld_last_runes_armor_trophy"
 	
 	resources = {
 		category = relics
@@ -1773,7 +1773,7 @@ r_last_runes_armor = {
 r_maeldannan_diresword = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_MaelDannan_DireSword"
-	sound = "relic_activation_eldar_maeldannan_diresword_trophy"
+	sound = "relic_activation_eld_maeldannan_diresword_trophy"
 	
 	resources = {
 		category = relics
@@ -1830,7 +1830,7 @@ r_maeldannan_diresword = {
 r_swoopinghawk_lasblaster = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_SwoopingHawk_Lasblaster"
-	sound = "relic_activation_eldar_swoopinghawk_lasblaster_trophy"
+	sound = "relic_activation_eld_swoopinghawk_lasblaster_trophy"
 	
 	resources = {
 		category = relics
@@ -1887,7 +1887,7 @@ r_swoopinghawk_lasblaster = {
 r_torrent_reaper_launcher = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Torrent_Reaper_Launcher"
-	sound = "relic_activation_eldar_torrent_reaper_launcher_trophy"
+	sound = "relic_activation_eld_torrent_reaper_launcher_trophy"
 	
 	resources = {
 		category = relics
@@ -1944,7 +1944,7 @@ r_torrent_reaper_launcher = {
 r_vyper = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_ELD_Vyper"
-	sound = "relic_activation_eldar_vyper_trophy"
+	sound = "relic_activation_eld_vyper_trophy"
 	
 	resources = {
 		category = relics

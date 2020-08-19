@@ -39,6 +39,5 @@ event = {
 				add_trait = leader_trait_scientist_cyborg
 			}
 		}
-		
 	}
 }

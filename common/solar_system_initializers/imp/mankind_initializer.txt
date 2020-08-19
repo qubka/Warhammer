@@ -95,6 +95,16 @@ mankind_homeworld = {
 			
 			generate_start_pops = yes
 			prevent_anomaly = yes
+			
+			while = {
+				count = 30
+				create_army = {
+					name = "Legio Custodes"
+					owner = event_target:the_mankind
+					species = owner_main_species
+					type = "legio_custodes_defense"
+				}
+			}
 		}
 		
 		moon = {

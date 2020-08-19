@@ -1,6 +1,27 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_evt_discovered_base"
+		texturefile = "gfx/event_pictures/discovered_base.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_farpost"
+		texturefile = "gfx/event_pictures/discovered_farpost.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_settlement"
+		texturefile = "gfx/event_pictures/discovered_settlement.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
 		name = "GFX_evt_south_section"
 		texturefile = "gfx/event_pictures/south_section.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"

@@ -2,9 +2,12 @@
 on_game_start = {
 	events = {
 		start.1
+		armies.1
+		relics.1
 		leaders.1
 		leaders.2
 		planets.1
+		buildings.1
 		marauder.999
 	}
 }
