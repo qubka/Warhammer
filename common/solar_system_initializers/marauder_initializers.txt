@@ -62,7 +62,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -103,7 +102,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -144,7 +142,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -185,7 +182,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -226,7 +222,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -267,7 +262,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -308,7 +302,6 @@ marauder_1_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1363,7 +1356,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1404,7 +1396,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1445,7 +1436,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1486,7 +1476,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1527,7 +1516,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1568,7 +1556,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -1609,7 +1596,6 @@ marauder_2_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2602,7 +2588,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2643,7 +2628,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2684,7 +2668,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2725,7 +2708,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2766,7 +2748,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2807,7 +2788,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe
@@ -2848,7 +2828,6 @@ marauder_3_1 = {
 							civic = civic_barbaric_despoilers
 						}
 						origin = "origin_corsair"
-						#room = "corsair_room"
 						ethos = {
 							ethic = ethic_fanatic_militarist
 							ethic = ethic_xenophobe

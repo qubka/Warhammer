@@ -45,6 +45,7 @@ agripinaa_homeworld = {
 				civics = {
 					civic = civic_machine_cult
 					civic = civic_technocracy
+					civic = civic_fanatic_purifiers
 				}
 				origin = "origin_mechanicus"
 				#room = "mechanicus_room"

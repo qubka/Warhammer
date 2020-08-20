@@ -43,6 +43,7 @@ fularis_homeworld = {
 				authority = "auth_imp"
 				civics = {
 					civic = civic_warrior_culture
+					civic = civic_nationalistic_zeal
 					civic = civic_fanatic_purifiers
 				}
 				origin = "origin_dominion"

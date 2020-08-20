@@ -4,7 +4,8 @@ country_event = {
 	id = relations.1
 	hide_window = yes
 	is_triggered_only = yes
-
+	fire_only_once = yes
+	
 	immediate = {
 		save_event_target_as = relation_add
 		every_country = {

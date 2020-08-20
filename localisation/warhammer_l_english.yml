@@ -222,32 +222,7 @@
  requires_auth_or_merchant:1 "§RRequires you to be either a §Y$gov_authoritarian_federation$§! or to have the §Y$civic_merchant_guilds$§! civic.§!"
  requires_actor_barbaric_despoilers:1 "§RRequires you to have the §Y$civic_barbaric_despoilers$§! civic.§!"
  requires_theocracy_or_meritocracy:1 "§RRequires you to be either a §Y$gov_theocratic_confederation$§! or §Y$gov_meritocratic_tetrarchy$§!"
- #
- ASK_TO_LEAVE_CONFEDERATION:0 "Ask to Leave Confederation"
- POPUP_ASK_TO_LEAVE_CONFEDERATION_DESC:0 "Do you want to send a request to the Leaders of the $FEDERATION|H$ to leave the Confederation?"
- ACTION_ASK_TO_LEAVE_CONFEDERATION_TITLE:0 "Ask to Leave Confederation"
- ACTION_ASK_TO_LEAVE_CONFEDERATION_DESC:0 "$FEDERATION_VIEW_ASK_TO_LEAVE_CONFEDERATION_BUTTON_DESC$"
- ACTION_ASK_TO_LEAVE_CONFEDERATION_OFFER_DESC:0 "If the request is granted, the §H[Actor.GetName]§! will leave the §H[Actor.GetAllianceName]§!. If the request is refused, they will gain the §YBetrayal§! Casus Belli against us."
- ACTION_ASK_TO_LEAVE_CONFEDERATION_ACCEPTED:0 "We have left the §H[Recipient.GetAllianceName]§!."
- ACTION_ASK_TO_LEAVE_CONFEDERATION_DECLINED:0 "We can now use the §YBetrayal§! Casus Belli against the §H[Recipient.GetName]§! for the next §Y10§! years."
- ACTION_ASK_TO_LEAVE_CONFEDERATION_PROPOSAL_FAILED_ACTOR:0 "Our request to leave the §H[Actor.GetAllianceName]§! was declined."
- ACTION_ASK_TO_LEAVE_CONFEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "The request from §H[Actor.GetName]§! to leave the §H[Actor.GetAllianceName]§! timed out and was auto-declined."
- MESSAGE_ASK_TO_LEAVE_CONFEDERATION_TITLE:0 "Leave Confederation Request"
- FEDERATION_VIEW_ASK_TO_LEAVE_CONFEDERATION_BUTTON_DESC:0 "We will ask the Leaders of our Confederation for permission to leave. If this request is refused, we will be granted the §YBetrayal§! Casus Belli against the Leaders.\n\n"
- DIPLO_ACTION_ASK_TO_LEAVE_CONFEDERATION_DESC:0 "The $COUNTRY|Y$ was permitted to leave the $ALLIANCE|Y$"
  
- ####################################
- # Casus Belli
- ####################################
- casus_belli_cb_betrayal:0 "Betrayal"
- war_goal_wg_leave_confederation:0 "Leave Confederation"
- war_goal_wg_leave_confederation_desc:0 "War is waged to secede from the Confederation. Other federation members who share this war goal can be invited as attackers."
- war_goal_wg_assert_confederation:0 "Assert Confederation"
- war_goal_wg_assert_confederation_desc:0 "War is waged to prevent a member of the Confederation from seceding."
- wg_leave_confederation_accept:0 "§Y[Root.GetName]§! secedes from the §Y[From.GetAllianceName]§!\n§Y[From.GetName]§! revokes all claims on §Y[Root.GetAdj]§! systems."
- wg_leave_confederation_status_quo:0 "§Y[Root.GetName]§! secedes from the §Y[From.GetAllianceName]§!"
- wg_assert_confederation_accept:0 "§Y[From.GetName]§! remains a member of the §Y[Root.GetAllianceName]§!"
-
  ####################################
  # Origins
  ####################################

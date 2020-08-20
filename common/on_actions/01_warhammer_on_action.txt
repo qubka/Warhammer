@@ -25,11 +25,3 @@ on_planet_zero_pops = {
 		bombardments.10
 	}
 }
-
-# This = empire trying to leave federation
-# From = empire who declined (federation leader)
-on_ask_to_leave_confederation_declined = {
-	events = {
-		actions.1
-	}
-}

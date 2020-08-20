@@ -1110,10 +1110,10 @@ hegemony_federation = {
 		host_has_dlc = Federations
 	}
 	allow = {
-		#custom_tooltip = {
-		#	fail_text = requires_actor_barbaric_despoilers
-		#	has_civic = civic_barbaric_despoilers
-		#}
+		custom_tooltip = {
+			fail_text = requires_actor_barbaric_despoilers
+			has_civic = civic_barbaric_despoilers
+		}
 	}
 	levels = {
 		level_1 = { # Starting rank
@@ -1370,13 +1370,13 @@ theocratic_confederation = {
 		host_has_dlc = Federations
 	}
 	allow = {
-		#custom_tooltip = {
-		#	fail_text = requires_theocracy_or_meritocracy
-		#	OR = {
-		#		has_government = gov_theocratic_confederation
-		#		has_government = gov_meritocratic_tetrarchy
-		#	}
-		#}
+		custom_tooltip = {
+			fail_text = requires_theocracy_or_meritocracy
+			OR = {
+				has_government = gov_theocratic_confederation
+				has_government = gov_meritocratic_tetrarchy
+			}
+		}
 	}
 	levels = {
 		level_1 = { # Starting rank
