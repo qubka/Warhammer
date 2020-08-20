@@ -32,7 +32,7 @@ empire_name_format = {
 			has_country_flag = the_ultra_marines 
 		}
 	}
-	format = "Ultra Marines"
+	format = "Ultramar"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "T U"
 }

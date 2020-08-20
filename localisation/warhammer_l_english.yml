@@ -30,14 +30,21 @@
  gov_confederal_chiefdom_desc:0 "A confederal chiefdom is a form of hierarchical political organization in the craftworld societies usually based on kinship, and in which formal leadership is monopolized by the legitimate senior members of select families which called Autarchs. These elites form a political-ideological aristocracy relative to the of the military aspects of Eldar society."
  gov_libertarian_meritocracy:0 "Libertarian Meritocracy"
  gov_libertarian_meritocracy_desc:0 "A government holds on a political system in which economic goods and political power are vested in individual people on the basis of talent, effort, and achievement, rather than wealth or social class."
+ gov_confederated_oligarchy:0 "Confederated Oligarchy"
+ gov_confederated_oligarchy_desc:0 "A government with a form of the power structure in which power rests with a small number of people. These people may be distinguished by nobility, wealth, education, corporate, religious, political, or military control. Such states are often controlled by families who pass their influence from one generation to the next, but inheritance is not a necessary condition of oligarchy."
  gov_theocratic_confederation:0 "Semi-Theocratic Confederation"
  gov_theocratic_confederation_desc:0 "Theocracy is a form of government in which a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day-to-day affairs of the government."
+ gov_authoritarian_meritocracy:0 "Authoritarian Meritocracy"
+ gov_authoritarian_meritocracy_desc: "A government holds on a political system in which economic goods and political power are vested in individual people on the basis of talent, effort, and achievement, rather than wealth or social class."
  gov_meritocratic_tetrarchy:0 "Meritocratic Tetrarchy"
  gov_meritocratic_tetrarchy_desc:0 "A government where power is divided among four individuals, but in modern usage usually refers to the system instituted by Roman Emperor Diocletian in 293, marking the end of the Crisis of the Third Century and the recovery of the Roman Empire. This Tetrarchy lasted until c. 313, when internecine conflict eliminated most of the claimants to power, leaving Constantine in the West and Licinius in the East."
  gov_anarcho_tribalism:0 "Anarcho-Tribalism"
  gov_anarcho_tribalism_desc:0 "A type of anarchist ideology and social system where there is little or no central government and the individuals form voluntary associations with each other so as to form self-governign tribes."
  gov_absolute_monarchy:0 "Totalitarian Absolute Monarchy"
  gov_absolute_monarchy_desc:0 "An absolute monarchy is one form of monarchical rule in which the one person holds all the power in the faction. As will all monarchies, the ruler inherits their position from a family member. It was once believed that the monarch deserved their position due to a divine right to rule over the сitizens."
+ #
+ SUBJECT_chapter:0 "Legion Chapter"
+ SUBJECT_DESC_chapter:0 "A Chapter is a completely autonomous military unit made up of one thousand of the superhuman warriors known as Space Marines or Astartes and their related vehicles, starships and support personnel. Each Chapter serves collectively with the others of its kind as part of the Imperium of Man's Adeptus Astartes. Every Chapter is entirely autonomous from every other Adepta of the Imperium, including the Inquisition, and takes its orders only from the High Lords of Terra themselves."
  
  ####################################
  # Civics
@@ -200,7 +207,47 @@
  civic_radioactive_imbued_desc:0 "This Dynasty imbues its technoly and weaponty with an unknown type of radiation, that provides extra power generation and proves lethal for organic life"
  #
  civic_tooltip_fanatic_purifiers_effects_2:14 "Cannot engage in §YDiplomacy§! with other species!\nCannot access the §YGalactic Market§!\nHas the §Y'Purification'§! casus belli on other species\n§YXeno Pops§! will always be purged\nGains £unity£ §YUnity§! from purging Xeno £pop£ Pops\nMay use §Y$bombardment_exterminatus_1$§! bombardment stance\n"
+
+ ####################################
+ # Federations
+ ####################################
+ theocratic_confederation:0 "Semi-Theocratic Confederation"
+ theocratic_confederation_desc:0 "The Imperium of Man is a galaxy-spanning interstellar Human empire, the ultimate authority for the majority of the human race in the Milky Way Galaxy."
+ theocratic_confederation_passive:0 "$theocratic_confederation$"
+ theocratic_confederation_passive_desc:0 "A confederation is a union of sovereign groups or states united for purposes of common action. Usually created by a treaty, confederations of states tend to be established for dealing with critical issues, such as defense, foreign relations, internal trade or currency, with the general government being required to provide support for all its members."
+ theocratic_confederation_passive_effect:1 "Members cannot freely leave the imperium without the High Lords of Terra's approval. If the Senatorum Imperialis refuses, the member gets the §YBetrayal§! Casus Belli to leave the Imperium of Mankind."
+ confederation_acceptance_imp:0 "$personality_imp$"
+ confederation_acceptance_other:0 "$opinion_fanatic_purifiers_vs_xeno$"
+ #
+ requires_auth_or_merchant:1 "§RRequires you to be either a §Y$gov_authoritarian_federation$§! or to have the §Y$civic_merchant_guilds$§! civic.§!"
+ requires_actor_barbaric_despoilers:1 "§RRequires you to have the §Y$civic_barbaric_despoilers$§! civic.§!"
+ requires_theocracy_or_meritocracy:1 "§RRequires you to be either a §Y$gov_theocratic_confederation$§! or §Y$gov_meritocratic_tetrarchy$§!"
+ #
+ ASK_TO_LEAVE_CONFEDERATION:0 "Ask to Leave Confederation"
+ POPUP_ASK_TO_LEAVE_CONFEDERATION_DESC:0 "Do you want to send a request to the Leaders of the $FEDERATION|H$ to leave the Confederation?"
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_TITLE:0 "Ask to Leave Confederation"
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_DESC:0 "$FEDERATION_VIEW_ASK_TO_LEAVE_CONFEDERATION_BUTTON_DESC$"
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_OFFER_DESC:0 "If the request is granted, the §H[Actor.GetName]§! will leave the §H[Actor.GetAllianceName]§!. If the request is refused, they will gain the §YBetrayal§! Casus Belli against us."
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_ACCEPTED:0 "We have left the §H[Recipient.GetAllianceName]§!."
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_DECLINED:0 "We can now use the §YBetrayal§! Casus Belli against the §H[Recipient.GetName]§! for the next §Y10§! years."
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_PROPOSAL_FAILED_ACTOR:0 "Our request to leave the §H[Actor.GetAllianceName]§! was declined."
+ ACTION_ASK_TO_LEAVE_CONFEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "The request from §H[Actor.GetName]§! to leave the §H[Actor.GetAllianceName]§! timed out and was auto-declined."
+ MESSAGE_ASK_TO_LEAVE_CONFEDERATION_TITLE:0 "Leave Confederation Request"
+ FEDERATION_VIEW_ASK_TO_LEAVE_CONFEDERATION_BUTTON_DESC:0 "We will ask the Leaders of our Confederation for permission to leave. If this request is refused, we will be granted the §YBetrayal§! Casus Belli against the Leaders.\n\n"
+ DIPLO_ACTION_ASK_TO_LEAVE_CONFEDERATION_DESC:0 "The $COUNTRY|Y$ was permitted to leave the $ALLIANCE|Y$"
  
+ ####################################
+ # Casus Belli
+ ####################################
+ casus_belli_cb_betrayal:0 "Betrayal"
+ war_goal_wg_leave_confederation:0 "Leave Confederation"
+ war_goal_wg_leave_confederation_desc:0 "War is waged to secede from the Confederation. Other federation members who share this war goal can be invited as attackers."
+ war_goal_wg_assert_confederation:0 "Assert Confederation"
+ war_goal_wg_assert_confederation_desc:0 "War is waged to prevent a member of the Confederation from seceding."
+ wg_leave_confederation_accept:0 "§Y[Root.GetName]§! secedes from the §Y[From.GetAllianceName]§!\n§Y[From.GetName]§! revokes all claims on §Y[Root.GetAdj]§! systems."
+ wg_leave_confederation_status_quo:0 "§Y[Root.GetName]§! secedes from the §Y[From.GetAllianceName]§!"
+ wg_assert_confederation_accept:0 "§Y[From.GetName]§! remains a member of the §Y[Root.GetAllianceName]§!"
+
  ####################################
  # Origins
  ####################################
@@ -356,6 +403,8 @@
  RT_WARMASTER:0 "War Master"
  RT_PHAERON:0 "Phaeron"
  RT_PHAERAKH:0 "Phaerakh"
+ RT_LORDDEFENDER:0 "Lord Defender"
+ RT_LADYDEFENDER:0 "Lady Defender"
  
  ####################################
  # Buildings
@@ -647,13 +696,40 @@
  # Personalities
  ####################################
  personality_ork:0 "Greenskins"
+ personality_ork_desc:0 "An Ork Empire, also called an Ork Domain, is a region of the Milky Way Galaxy that is controlled by the xenos menace known as the Orks. Living on innumerable worlds, on some, the Orks dominate completely, on others they live in a state of perpetual war, and on others still they act as slavemasters, bullying the local populations into doing their bidding."
  personality_chaos:0 "Chaos Cultists"
+ personality_chaos_desc:0 "Chaos Space Marines, also sometimes called Traitor Marines, Renegade Marines, or Heretic Astartes, are former Loyalist Space Marines of the Imperium of Man who have chosen to abandon the service of the Emperor of Mankind and dedicate themselves to the service of Chaos to achieve their own ends."
  personality_eldar:0 "Children of Asuryan"
+ personality_eldar_desc:0 "Eldar are an ancient race of elf-like humanoids. Once they dominated the Galaxy but are currently a dying race. After the Fall of the Eldar they lost their main homeworlds and are currently scattered among the stars and webway in different factions and allegiences. "
  personality_darkeldar:0 "Dark Ones"
+ personality_darkeldar_desc:0 "The Dark Eldar, referred to as the Drukhari in the Aeldari Lexicon, are the forsaken and corrupt kindred of the Aeldari, an ancient and highly advanced alien race of fey humanoids. Their armies, like their Craftworld Aeldari counterparts, usually have the advantages of mobility and advanced technology, though they are often lacking in resilience and numbers."
  personality_imp:0 "Guardians of Humanity"
+ personality_imp_desc:0 "The Imperium of Man is the galactic empire under which the majority of humanity is united. The founder and nominal ruler of the Imperium is the god-like Emperor of Mankind, the most powerful human psyker ever known."
  personality_necron:0 "Soulless Machines"
+ personality_necron_desc:0 "The Necrons are a mysterious xenos species of humanoid, robotic skeletal warriors that have lain dormant in their stasis-tombs for more than 60 million Terran years, though they have begun to awaken at last. They are the soulless creations and former servants of the ancient C'tan, the terrible Star Gods of Aeldari myth."
  personality_tau:0 "Followers of Greater Good"
+ personality_tau_desc:0 "Tau Empire is a rapidly expanding xenos stellar empire situated within the Imperium of Man's Ultima Segmentum, near the Eastern Fringes of the Milky Way Galaxy. The T'au Empire was founded by the T'au caste called the Ethereals, who lead the T'au Empire in the name of the philosophy they have named the Greater Good."
  personality_tyranid:0 "Devourer Swarm"
+ personality_tyranid_desc:0 "The Tyranids, also known as The Great Devourer are an extragalactic alien race, whose sole purpose is the consumption of all forms of genetic and biological material in order to evolve and reproduce. Tyranid technology is based entirely on biological engineering."
+ 
+ ####################################
+ # Opinions
+ ####################################
+
+ opinion_both_human:0 "Both Humans"
+ opinion_traitor_human:0 "Chaos Traitor"
+ opinion_traitor_chaos:0 "Human Traitor"
+ opinion_both_eldar:0 "Both Eldars"
+ opinion_both_ork:0 "Both Orks"
+ opinion_both_necron:0 "Both Necrons"
+ opinion_both_darkeldar:0 "Both Darkeldars"
+ opinion_both_xenos:0 "Both Xenos"
+ opinion_human_kill_xenos:0 "Xeno Creature"
+ opinion_chaos_kill_xenos:0 "Xeno Creature"
+ opinion_chaos_kill_chaos:0 "Chaos Renegade"
+ opinion_chaos_kill_rival:0 "Chaos Rival"
+ opinion_necron_kill_flesh:0 "Flesh Creature"
+ opinion_senatorum:0 "Senatorum Imperialis"
  
  ####################################
  # Technologies

@@ -100,9 +100,35 @@ gov_libertarian_meritocracy = {
 	}
 }
 
+gov_confederated_oligarchy = {
+	ruler_title = RT_EMPEROR
+	ruler_title_female = RT_EMPRESS
+	
+	possible = {
+		has_authority = auth_imp
+	}
+
+	weight = {
+		base = 1
+	}
+}
+
 gov_theocratic_confederation = {
 	ruler_title = RT_EMPEROR
 	ruler_title_female = RT_EMPRESS
+	
+	possible = {
+		has_authority = auth_imp
+	}
+
+	weight = {
+		base = 1
+	}
+}
+
+gov_authoritarian_meritocracy = {
+	ruler_title = RT_LORDDEFENDER
+	ruler_title_female = RT_LADYDEFENDER
 	
 	possible = {
 		has_authority = auth_imp

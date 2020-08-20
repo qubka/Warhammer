@@ -1,0 +1,16 @@
+namespace = contacts
+
+event = {
+	id = contacts.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_country = {
+			save_event_target_as = root_faction
+			every_country = {
+				establish_contact = { who = event_target:root_faction }
+			}
+		}
+	}
+}

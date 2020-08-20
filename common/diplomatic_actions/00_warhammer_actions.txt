@@ -1,0 +1,29 @@
+
+action_ask_to_leave_confederation = {
+	icon = "GFX_diplomacy_status_federation"
+	auto_accepted = no
+	requires_actor_peace = yes
+	show_to_alliance_members = yes
+	should_notify_all_communications = yes
+	action_type = negative
+
+	potential = {
+		hidden_trigger = {
+			has_federation = yes
+			federation = {
+				has_federation_type = theocratic_confederation
+			}
+		}
+	}
+
+	proposable = {
+		custom_tooltip = {
+			fail_text = "requires_actor_not_already_asked"
+			NOT = { has_country_flag = asked_to_leave_confederation }
+		}
+		custom_tooltip = {
+			fail_text = "requires_actor_not_rebelled"
+			NOT = { has_country_flag = failed_confederation_rebellion }
+		}
+	}
+}

@@ -1,0 +1,216 @@
+# See wg_example.txt for an explanation
+
+wg_leave_confederation = {
+	casus_belli = cb_betrayal
+
+	hide_if_no_cb = yes
+	set_defender_wargoal = wg_assert_confederation
+
+	allowed_peace_offers = {
+		status_quo
+		surrender
+		demand_surrender
+	}
+
+	potential = {
+		always = yes
+	}
+	possible = {
+		always = yes
+	}
+
+	on_status_quo = {
+		custom_tooltip = wg_leave_confederation_status_quo
+		hidden_effect = {
+			leave_alliance = { override_requirements = yes }
+			if = {
+				limit = {
+					from = {
+						federation = {
+							check_variable = {
+								which = federation_secession_war
+								value > 0
+							}
+						}
+					}
+				}
+				from = {
+					federation = {
+						change_variable = {
+							which = federation_secession_war
+							value = -1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_accept = {
+		custom_tooltip = wg_leave_confederation_accept
+		hidden_effect = {
+			leave_alliance = { override_requirements = yes }
+			every_system_within_border = {
+				limit = {
+					from = { has_claim = prev }
+				}
+				remove_claims = { who = from }
+			}
+			if = {
+				limit = {
+					from = {
+						federation = {
+							check_variable = {
+								which = federation_secession_war
+								value > 0
+							}
+						}
+					}
+				}
+				from = {
+					federation = {
+						change_variable = {
+							which = federation_secession_war
+							value = -1
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_wargoal_set = {
+		every_system_within_border = {
+			limit = {
+				NOT = { from = { has_claim = prev } }
+			}
+			add_claims = { who = from }
+		}
+		from = {
+			federation = {
+				change_variable = {
+					which = federation_secession_war
+					value = 1
+				}
+			}
+		}
+		remove_country_flag = asked_to_leave_confederation
+		leave_alliance = { override_requirements = yes } # Temporary leave federation during war
+		if = {
+			limit = {
+				has_opinion_modifier = {
+					who = from
+					modifier = opinion_denied_to_leave_confederation
+				}
+			}
+			remove_opinion_modifier = {
+				who = from
+				modifier = opinion_denied_to_leave_confederation
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					has_opinion_modifier = {
+						who = root
+						modifier = opinion_wanted_to_leave_confederation
+					}
+				}
+			}
+			from = { 
+				remove_opinion_modifier = {
+					who = root
+					modifier = opinion_wanted_to_leave_confederation 
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+wg_assert_confederation = {
+	casus_belli = cb_event
+	
+	cede_claims = occupied_only
+
+	allowed_peace_offers = {
+		status_quo
+		surrender
+		demand_surrender
+	}
+	
+	potential = {
+		always = no # event only
+	}
+	possible = {
+		always = yes
+	}
+	
+	on_accept = {
+		custom_tooltip = wg_assert_confederation_accept
+		hidden_effect = {
+			from = {
+				every_system_within_border = {
+					limit = {
+						root = { has_claim = prev }
+					}
+					remove_claims = { who = root }
+				}
+				join_alliance = { who = root override_requirements = yes }
+			}
+			if = {
+				limit = {
+					has_opinion_modifier = {
+						who = from
+						modifier = opinion_broke_federation
+					}
+				}
+				remove_opinion_modifier = {
+					who = from
+					modifier = opinion_broke_federation
+				}
+			}
+			if = {
+				limit = {
+					from = {
+						federation = {
+							check_variable = {
+								which = federation_secession_war
+								value > 0
+							}
+						}
+					}
+				}
+				from = {
+					federation = {
+						change_variable = {
+							which = federation_secession_war
+							value = -1
+						}
+					}
+				}
+			}
+			add_opinion_modifier = {
+				who = from
+				modifier = opinion_tried_to_secede
+			}
+			from = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_forced_to_remain
+				}
+				set_timed_country_flag = {
+					flag = failed_confederation_rebellion
+					days = 7200
+				}
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+	}
+}

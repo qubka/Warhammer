@@ -1,0 +1,427 @@
+namespace = relations
+
+country_event = {
+	id = relations.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			if = {
+				limit = {
+					has_country_flag = human_empire
+				}
+				add_opinion_modifier = {
+					who = event_target:relation_add
+					modifier = opinion_both_human
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = chaos_empire
+				}
+				add_opinion_modifier = {
+					who = event_target:relation_add
+					modifier = opinion_traitor_human
+				}
+			}
+			else = {
+				add_opinion_modifier = {
+					who = event_target:relation_add
+					modifier = opinion_human_kill_xenos
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = relations.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		if = {
+			limit = {
+				has_country_flag = khorne
+			}
+			every_country = {
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = slaanesh
+							has_country_flag = tzeentch
+						}
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_rival
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = malice
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = chaos_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_both_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = human_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_traitor_chaos
+					}
+				}
+				else = {
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_xenos
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = slaanesh
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = khorne
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_rival
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = malice
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = chaos_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_both_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = human_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_traitor_chaos
+					}
+				}
+				else = {
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_xenos
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = nurgle
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = tzeentch
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_rival
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = malice
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = chaos_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_both_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = human_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_traitor_chaos
+					}
+				}
+				else = {
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_xenos
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = tzeentch
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = nurgle
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_rival
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = malice
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = chaos_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_both_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = human_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_traitor_chaos
+					}
+				}
+				else = {
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_xenos
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = malice
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = chaos_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = human_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_traitor_chaos
+					}
+				}
+				else = {
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_xenos
+					}
+				}
+			}
+		}
+		else = {
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = chaos_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_both_chaos
+					}
+				}
+				else_if = {
+					limit = {
+						has_country_flag = human_empire
+					}
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_traitor_chaos
+					}
+				}
+				else = {
+					add_opinion_modifier = {
+						who = event_target:relation_add
+						modifier = opinion_chaos_kill_xenos
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = relations.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			if = {
+				limit = {
+					has_country_flag = necron_empire
+				}
+				add_opinion_modifier = {
+					who = event_target:relation_add
+					modifier = opinion_both_necron
+				}
+			}
+			else = {
+				add_opinion_modifier = {
+					who = event_target:relation_add
+					modifier = opinion_necron_kill_flesh
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = relations.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			limit = {
+				has_country_flag = tau_empire
+			}
+			add_opinion_modifier = {
+				who = event_target:relation_add
+				modifier = opinion_both_xenos
+			}
+		}
+	}
+}
+
+country_event = {
+	id = relations.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			limit = {
+				has_country_flag = eldar_empire
+			}
+			add_opinion_modifier = {
+				who = event_target:relation_add
+				modifier = opinion_both_eldar
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = relations.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			limit = {
+				has_country_flag = darkeldar_empire
+			}
+			add_opinion_modifier = {
+				who = event_target:relation_add
+				modifier = opinion_both_darkeldar
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = relations.7
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			limit = {
+				has_country_flag = ork_empire
+			}
+			add_opinion_modifier = {
+				who = event_target:relation_add
+				modifier = opinion_both_ork
+			}
+		}
+	}
+}
+
+country_event = {
+	id = relations.8
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = relation_add
+		every_country = {
+			limit = {
+				has_country_flag = tyranid_empire
+			}
+			add_opinion_modifier = {
+				who = event_target:relation_add
+				modifier = opinion_both_tyranid
+			}
+		}
+	}
+}

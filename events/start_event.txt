@@ -1,0 +1,61 @@
+namespace = start
+
+event = {
+	id = start.1
+	hide_window = yes
+	fire_only_once = yes
+
+	immediate = {
+		every_country = {
+			if = {
+				limit = { has_country_flag = human_empire }
+				country_event = { id = relations.1 }
+				country_event = { id = buildings.1 }
+				country_event = { id = alliances.1 }
+				country_event = { id = armies.1 }
+			}
+			else_if = {
+				limit = { has_country_flag = chaos_empire }
+				country_event = { id = relations.2 }
+				country_event = { id = buildings.2 }
+				country_event = { id = armies.2 }
+			}
+			else_if = {
+				limit = { has_country_flag = necron_empire }
+				country_event = { id = relations.3 }
+				country_event = { id = buildings.3 }
+				country_event = { id = armies.3 }
+			}
+			else_if = {
+				limit = { has_country_flag = tau_empire }
+				country_event = { id = relations.4 }
+				country_event = { id = buildings.4 }
+				country_event = { id = armies.4 }
+			}
+			else_if = {
+				limit = { has_country_flag = eldar_empire }
+				country_event = { id = relations.5 }
+				country_event = { id = buildings.5 }
+				country_event = { id = armies.5 }
+			}
+			else_if = {
+				limit = { has_country_flag = darkeldar_empire }
+				country_event = { id = relations.6 }
+				country_event = { id = buildings.6 }
+				country_event = { id = armies.6 }
+			}
+			else_if = {
+				limit = { has_country_flag = ork_empire }
+				country_event = { id = relations.7 }
+				country_event = { id = buildings.7 }
+				country_event = { id = armies.7 }
+			}
+			else_if = {
+				limit = { has_country_flag = tyranid_empire }
+				country_event = { id = relations.8 }
+				country_event = { id = buildings.8 }
+				country_event = { id = armies.8 }
+			}
+		}	
+	}
+}

@@ -1,50 +1,7 @@
 namespace = buildings
 
-event = {
-    id = buildings.1
-    hide_window = yes
-    fire_only_once = yes
-	
-	immediate = {
-		every_country = {
-			if = {
-				limit = { has_country_flag = human_empire }
-				country_event = { id = buildings.2 }
-			}
-			else_if = {
-				limit = { has_country_flag = chaos_empire }
-				country_event = { id = buildings.3 }
-			}
-			else_if = {
-				limit = { has_country_flag = necron_empire }
-				country_event = { id = buildings.4 }
-			}
-			else_if = {
-				limit = { has_country_flag = tau_empire }
-				country_event = { id = buildings.5 }
-			}
-			else_if = {
-				limit = { has_country_flag = eldar_empire }
-				country_event = { id = buildings.6 }
-			}
-			else_if = {
-				limit = { has_country_flag = darkeldar_empire }
-				country_event = { id = buildings.7 }
-			}
-			else_if = {
-				limit = { has_country_flag = ork_empire }
-				country_event = { id = buildings.8 }
-			}
-			else_if = {
-				limit = { has_country_flag = tyranid_empire }
-				country_event = { id = buildings.9 }
-			}
-		}
-	}
-}
-
 country_event = {
-	id = buildings.2
+	id = buildings.1
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -182,7 +139,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.3
+	id = buildings.2
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -259,7 +216,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.4
+	id = buildings.3
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -284,7 +241,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.5
+	id = buildings.4
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -302,7 +259,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.6
+	id = buildings.5
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -321,7 +278,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.7
+	id = buildings.6
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -345,7 +302,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.8
+	id = buildings.7
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -375,7 +332,7 @@ country_event = {
 }
 
 country_event = {
-	id = buildings.9
+	id = buildings.8
 	hide_window = yes
 	is_triggered_only = yes
 
