@@ -1,0 +1,210 @@
+@distance = 30
+@base_moon_distance = 10
+
+mordian_homeworld = {
+	class = "rl_starting_stars"
+	
+	usage = misc_system_init
+	
+	flags = { empire_home_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+
+		root = { set_country_flag = the_mordian }
+		generate_home_system_resources = yes
+	}
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+
+	change_orbit = 35
+
+	planet = {
+		name = "Senor's Fall"
+		class = "pc_continental"
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+	}
+
+	planet = {
+		name = "Dawn"
+		class = "pc_agri"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 14 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mordian
+				}
+				save_event_target_as = the_mordian
+			}
+
+			set_owner = event_target:the_mordian
+			set_controller = event_target:the_mordian
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Luminaria"
+		class = "pc_shrine"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 16 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mordian
+				}
+				save_event_target_as = the_mordian
+			}
+
+			set_owner = event_target:the_mordian
+			set_controller = event_target:the_mordian
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Mordian"
+		class = "pc_hive_continental_02"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 16 max = 20 }
+		has_ring = no
+		home_planet = yes
+		starting_planet = yes
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mordian
+				}
+				save_event_target_as = the_mordian
+			}
+
+			set_owner = event_target:the_mordian
+			set_controller = event_target:the_mordian
+			set_capital = yes
+			set_planet_flag = mordian_planet
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Obfuscane"
+		class = "pc_industrial"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 16 max = 20 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mordian
+				}
+				save_event_target_as = the_mordian
+			}
+
+			set_owner = event_target:the_mordian
+			set_controller = event_target:the_mordian
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Nigrellum"
+		class = "pc_fortress"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 16 max = 20 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mordian
+				}
+				save_event_target_as = the_mordian
+			}
+
+			set_owner = event_target:the_mordian
+			set_controller = event_target:the_mordian
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Rho-Delpha"
+		class = "pc_forgee"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 16 max = 20 }
+		has_ring = no
+		deposit_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_mordian
+				}
+				save_event_target_as = the_mordian
+			}
+
+			set_owner = event_target:the_mordian
+			set_controller = event_target:the_mordian
+
+			generate_start_pops = yes
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Vander's Landing"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 10
+		size = 15
+		has_ring = no
+	}
+}

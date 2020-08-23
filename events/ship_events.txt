@@ -1,0 +1,81 @@
+namespace = ships
+
+country_event = {
+	id = ships.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.2
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.3
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.4
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.5
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.6
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.7
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}
+
+country_event = {
+	id = ships.8
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+	}
+}

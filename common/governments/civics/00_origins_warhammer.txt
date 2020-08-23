@@ -14,34 +14,6 @@ origin_mankind = {
 	advanced_start = yes
 }
 
-origin_mechanicus = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_imp.dds"
-	picture = GFX_evt_metropolis
-	
-	playable = {
-	}
-	
-	possible = {
-	}
-	
-	advanced_start = yes
-}
-
-origin_dominion = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_imp.dds"
-	picture = GFX_evt_metropolis
-	
-	playable = {
-	}
-	
-	possible = {
-	}
-	
-	advanced_start = yes
-}
-
 origin_white_scars = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_imp.dds"
@@ -155,6 +127,174 @@ origin_dark_angels = {
 }
 
 origin_blood_angels = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_agripinaa = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_graia = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_lucius = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_metalica = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_ryza = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_stygies = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_bakka = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_mordian = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_cadia = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_catachan = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_krieg = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_imp.dds"
+	picture = GFX_evt_metropolis
+	
+	playable = {
+	}
+	
+	possible = {
+	}
+	
+	advanced_start = yes
+}
+
+origin_armageddon = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_imp.dds"
 	picture = GFX_evt_metropolis

@@ -272,7 +272,7 @@ mankind_homeworld = {
 			
 			init_effect = {
 				every_country = {
-				limit = {
+					limit = {
 						has_country_flag = the_mankind
 					}
 					save_event_target_as = the_mankind
