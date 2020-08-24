@@ -88,18 +88,33 @@ tyranid = {
 	counts_for_victory = yes
 	pop_growth = yes
 	playable = yes
+	has_pulse_events = yes
+	#piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	#diplomatic_wars = yes
 	ship_disengagement = yes
 	army_disengagement = yes
+	relations = yes
 	observable = yes
 	can_use_invalid_technology = no
-	can_receive_envoys = no
-
+	can_receive_envoys = yes
+	#custom_starbase = starbase_swarm
+	
 	ai = {
 		enabled = yes
 		declare_war = yes
 		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
 		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
 		construction = yes
+		follow = yes
+		can_use_market = yes
 		modules = {
 			military_minister_module
 			foreign_minister_module
@@ -107,7 +122,87 @@ tyranid = {
 		}
 
 		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
 
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 0
+				max = 0
+			}
+
+			titan = {
+				min = 0
+				max = 0
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
 		}
 
 		army_data = {
@@ -197,22 +292,26 @@ tyranid = {
 		}
 	}
 
-	modules = {
-		standard_event_module = {}
-		standard_technology_module = {}
-		standard_expansion_module = {}
-		standard_leader_module = {}
-	}
-	
-	faction = {
-		hostile = yes
-		needs_border_access = no
+	trade_routes_available = {
+		is_gestalt = no
 	}
 
-	resources = {
-		category = country_base
-		produces = {
-			energy = 20
-		}
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
 	}
+
+	#resources = {
+	#	category = country_base
+	#	produces = {
+	#		energy = 20
+	#	}
+	#}
 }

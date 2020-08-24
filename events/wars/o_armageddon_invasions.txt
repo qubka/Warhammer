@@ -1,0 +1,1123 @@
+#namespace = armageddonevents
+#
+#country_event = {
+#	id = armageddonevents.1
+#	title = "1st War for Armageddon"
+#	desc = arg1.1.desc
+#	picture = GFX_report_event_Armageddon_Attack_Chaos_Jeden
+#	fire_only_once = yes
+#
+#	trigger = {
+#		years_passed > 40
+#		has_country_flag = mankind_star_empire
+#	}
+#	
+#	immediate = {
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = armageddonwar1planet
+#			}
+#			planet_event = { id = armageddonevents.2 }
+#		}
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = Armageddonplanet
+#			}
+#			planet_event = { id = armageddonevents.3 }
+#		}
+#		country_event = { id = armageddonevents.10 days = 1200 }
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#planet_event = {
+#	id = armageddonevents.2
+#	title = "Chaos forces"
+#	desc = arg1.3.desc
+#	is_triggered_only = yes
+#	location = ROOT
+#	trigger = {
+#		has_planet_flag = armageddonwar1planet
+#	}
+#	
+#	immediate = {
+#			every_country = {
+#				limit = {
+#					has_country_flag = eyechaos_empire
+#				}
+#				save_event_target_as = eyechaos_empire
+#			}
+#				while = {
+#					count = 1									#was 2
+#					create_army = {
+#						name = "Chaos Space Marine"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Black_Legion"
+#					}					
+#				}
+#				while = {
+#					count = 2									#was 2
+#					create_army = {
+#						name = "Chaos Space Marine"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "World_Eaters"
+#					}					
+#				}
+#				while = {
+#					count = 2									#was 2
+#					create_army = {
+#						name = "Chaos Space Marine"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Word_Bearers"
+#					}					
+#				}
+#				while = {
+#					count = 5									#was 10
+#					create_army = {
+#						name = "Chaos army"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Traitor_Guardsmen"
+#					}					
+#				}
+#				while = {
+#					count = 10									#was 10
+#					create_army = {
+#						name = "Chaos army"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Chaos_Spawn"
+#					}					
+#				}
+#				while = {
+#					count = 5									#was 10
+#					create_army = {
+#						name = "Chaos army"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Chaos_Predators"
+#					}					
+#				}	
+#				create_fleet = { name = "Warp Chaos fleet" }	
+#					
+#						last_created_fleet = {
+#							set_owner = event_target:eyechaos_empire
+#							
+#							create_ship = {
+#								name = random
+#								design = "NAME_CCCABC"
+#								graphical_culture = "chaoss_01"
+#							}
+#							while = {
+#								count = 15
+#								create_ship = {
+#									name = random
+#									design = "NAME_CCCABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_CBABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_CBABCD"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_CCABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_CCABCD"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 8
+#								create_ship = {
+#									name = random
+#									design = "NAME_CDABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#								queue_actions = {
+#									repeat = {
+#										find_closest_planet = {
+#											trigger = {
+#												id = "chaosar.60.trigger.1"
+#												exists = owner
+#												#NOT = {
+#												#	has_planet_flag = dontattackitagainxd
+#												#}
+#											}
+#											found_planet = {
+#												orbit_planet = THIS
+#												wait = 20
+#												#planet_event = { id = hivefleetcoming.10 }
+#											}
+#										}
+#									}
+#								}
+#						}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#planet_event = {
+#	id = armageddonevents.3
+#	title = "Chaos forces"
+#	desc = arg1.2.desc
+#	picture = GFX_report_event_Armageddon_Attack_Chaos_Dwa
+#	is_triggered_only = yes
+#	location = ROOT
+#	trigger = {
+#		has_planet_flag = Armageddonplanet
+#	}
+#	
+#	immediate = {
+#			every_country = {
+#				limit = {
+#					has_country_flag = eyechaos_empire
+#				}
+#				save_event_target_as = eyechaos_empire
+#			}
+#			every_country = {
+#				limit = {
+#					has_country_flag = mankind_star_empire
+#				}
+#				save_event_target_as = mankind_star_empire
+#			}
+#				while = {
+#					count = 7								#was 10
+#					create_army = {
+#						name = "Chaos Space Marine"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "World_Eaters"
+#					}					
+#				}
+#				while = {
+#					count = 10									#was 15
+#					create_army = {
+#						name = "Chaos army"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Chaos_Spawn"
+#					}					
+#				}
+#				while = {
+#					count = 10									#was 15
+#					create_army = {
+#						name = "Chaos army"
+#						owner = event_target:eyechaos_empire
+#						species = owner_main_species
+#						type = "Chaos_Predators"
+#					}					
+#				}	
+#				
+#				create_army = {
+#					name = "Space Wolves"
+#					owner = event_target:mankind_star_empire
+#					species = owner_main_species
+#					type = "Space_Wolves"
+#				}
+#				create_army = {
+#					name = "Space Wolves"
+#					owner = event_target:mankind_star_empire
+#					species = owner_main_species
+#					type = "Grey_Knights"
+#				}
+#				create_army = {
+#					name = "Space Wolves"
+#					owner = event_target:mankind_star_empire
+#					species = owner_main_species
+#					type = "Grey_Knights"
+#				}
+#				
+#				create_fleet = { 
+#					name = "Chaos Space Hulk" 
+#					set_fleet_stance = aggressive
+#					set_aggro_range_measure_from = self
+#					set_aggro_range = 20000
+#				}	
+#				last_created_fleet = {
+#					set_owner = event_target:eyechaos_empire
+#					create_ship = {
+#						name = random
+#						design = "Space_Hulk_Ship"
+#						graphical_culture = "chaoss_01"
+#					}
+#					set_location = {
+#						target = ROOT
+#						distance = 40
+#						angle = random
+#					}
+#				}
+#				
+#				create_fleet = { name = "Warp Chaos fleet" }	
+#					
+#						last_created_fleet = {
+#							set_owner = event_target:eyechaos_empire
+#							
+#							create_ship = {
+#								name = random
+#								design = "NAME_CCCABC"
+#								graphical_culture = "chaoss_01"
+#							}
+#							while = {
+#								count = 20
+#								create_ship = {
+#									name = random
+#									design = "NAME_CCCABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_CBABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_CBABCD"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_CCABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_CCABCD"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							while = {
+#								count = 12
+#								create_ship = {
+#									name = random
+#									design = "NAME_CDABC"
+#									graphical_culture = "chaoss_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#								queue_actions = {
+#									repeat = {
+#										find_closest_planet = {
+#											trigger = {
+#												id = "chaosarm.60.trigger.1"
+#												exists = owner
+#												#NOT = {
+#												#	has_planet_flag = dontattackitagainxd
+#												#}
+#											}
+#											found_planet = {
+#												orbit_planet = THIS
+#												wait = 20
+#												#planet_event = { id = hivefleetcoming.10 }
+#											}
+#										}
+#									}
+#								}
+#						}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#
+#
+########################
+#
+#
+#
+#
+#country_event = {
+#	id = armageddonevents.10
+#	title = "2nd War for Armageddon"
+#	desc = arg2.1.desc
+#	picture = GFX_report_event_Armageddon_Attack_Orks_Jeden
+#	fire_only_once = yes
+#	is_triggered_only = yes
+#	trigger = {
+#		is_ai = no
+#		has_country_flag = mankind_star_empire
+#	}
+#	
+#	immediate = {
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = armageddonwar2planet
+#			}
+#			planet_event = { id = armageddonevents.11 }
+#		}
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = Armageddonplanet
+#			}
+#			planet_event = { id = armageddonevents.12 }
+#		}
+#		country_event = { id = armageddonevents.20 days = 1200 }
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#planet_event = {
+#	id = armageddonevents.11
+#	title = "Orks"
+#	desc = arg2.2.desc
+#	is_triggered_only = yes
+#	location = ROOT
+#	trigger = {
+#		has_planet_flag = armageddonwar2planet
+#	}
+#	
+#	immediate = {
+#		every_country = {
+#			limit = {
+#				has_country_flag = ghazgkull_empire
+#			}
+#			save_event_target_as = ghazgkull_empire
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Nobz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stormboyz"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Boyz"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gretchin"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Kommandoz"
+#			}					
+#		}
+#		while = {
+#			count = 1
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gargant"
+#			}					
+#		}
+#		#while = {
+#		#	count = 1
+#		#	create_army = {
+#		#		name = "Orks"
+#		#		owner = event_target:ghazgkull_empire
+#		#		species = owner_main_species
+#		#		type = "Stompa"
+#		#	}					
+#		#}
+#		create_fleet = { name = "Ork fleet" }	
+#				last_created_fleet = {
+#					set_owner = event_target:ghazgkull_empire
+#							create_ship = {
+#								name = random
+#								design = "NAME_OCCABC"
+#								graphical_culture = "orc_01"
+#							}	
+#							while = {
+#								count = 15
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 8
+#								create_ship = {
+#									name = random
+#									design = "NAME_ODABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#							queue_actions = {
+#								repeat = {
+#									find_closest_planet = {
+#										trigger = {
+#											id = "orkswagharmag.60.trigger.1"
+#											exists = owner
+#											#NOT = {
+#											#	has_planet_flag = dontattackitagainxd
+#											#}
+#										}
+#										found_planet = {
+#											orbit_planet = THIS
+#											wait = 20
+#											#planet_event = { id = hivefleetcoming.10 }
+#										}
+#									}
+#								}
+#							}
+#				}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#
+#planet_event = {
+#	id = armageddonevents.12
+#	title = "Orks"
+#	desc = arg2.3.desc
+#	picture = GFX_report_event_Armageddon_Attack_Orks_Dwa
+#	is_triggered_only = yes
+#	location = ROOT
+#	trigger = {
+#		has_planet_flag = Armageddonplanet
+#	}
+#	
+#	immediate = {
+#			every_country = {
+#			limit = {
+#				has_country_flag = ghazgkull_empire
+#			}
+#			save_event_target_as = ghazgkull_empire
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Nobz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stormboyz"
+#			}					
+#		}
+#		while = {
+#			count = 10									#was 20
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Boyz"
+#			}					
+#		}
+#		while = {
+#			count = 10									#was 20
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gretchin"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Kommandoz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gargant"
+#			}					
+#		}
+#		while = {
+#			count = 1									#was 3
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stompa"
+#			}					
+#		}
+#		
+#		create_fleet = { name = "Ork fleet" }	
+#				last_created_fleet = {
+#					set_owner = event_target:ghazgkull_empire
+#							create_ship = {
+#								name = random
+#								design = "NAME_OCCABC"
+#								graphical_culture = "orc_01"
+#							}	
+#							while = {
+#								count = 47
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 6
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 6
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 24
+#								create_ship = {
+#									name = random
+#									design = "NAME_ODABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#							queue_actions = {
+#								repeat = {
+#									find_closest_planet = {
+#										trigger = {
+#											id = "orkswagh.60.trigger.1"
+#											exists = owner
+#											#NOT = {
+#											#	has_planet_flag = dontattackitagainxd
+#											#}
+#										}
+#										found_planet = {
+#											orbit_planet = THIS
+#											wait = 20
+#											#planet_event = { id = hivefleetcoming.10 }
+#										}
+#									}
+#								}
+#							}
+#				}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#
+#
+########################
+#
+#
+#
+#
+#country_event = {
+#	id = armageddonevents.20
+#	title = "3rd War for Armageddon"
+#	desc = arg3.1.desc
+#	picture = GFX_report_event_Armageddon_Attack_Orks_Trzy
+#	fire_only_once = yes
+#	is_triggered_only = yes
+#	trigger = {
+#		is_ai = no
+#		has_country_flag = mankind_star_empire
+#	}
+#	
+#	immediate = {
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = armageddonwar3planet
+#			}
+#			planet_event = { id = armageddonevents.21 }
+#		}
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = Armageddonplanet
+#			}
+#			planet_event = { id = armageddonevents.22 }
+#		}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#planet_event = {
+#	id = armageddonevents.21
+#	title = "Orks"
+#	desc = arg3.2.desc
+#	is_triggered_only = yes
+#	location = ROOT
+#	trigger = {
+#		has_planet_flag = armageddonwar3planet
+#	}
+#	
+#	immediate = {
+#			every_country = {
+#			limit = {
+#				has_country_flag = ghazgkull_empire
+#			}
+#			save_event_target_as = ghazgkull_empire
+#		}
+#		while = {
+#			count = 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Nobz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stormboyz"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Boyz"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gretchin"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Kommandoz"
+#			}					
+#		}
+#		while = {
+#			count = 1
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gargant"
+#			}					
+#		}
+#		#while = {
+#		#	count = 1
+#		#	create_army = {
+#		#		name = "Orks"
+#		#		owner = event_target:ghazgkull_empire
+#		#		species = owner_main_species
+#		#		type = "Stompa"
+#		#	}					
+#		#}
+#		create_fleet = { name = "Ork fleet" }	
+#				last_created_fleet = {
+#					set_owner = event_target:ghazgkull_empire
+#							create_ship = {
+#								name = random
+#								design = "NAME_OCCABC"
+#								graphical_culture = "orc_01"
+#							}	
+#							while = {
+#								count = 15
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 1
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 2
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 8
+#								create_ship = {
+#									name = random
+#									design = "NAME_ODABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#							queue_actions = {
+#								repeat = {
+#									find_closest_planet = {
+#										trigger = {
+#											id = "orkswagh.60.trigger.1"
+#											exists = owner
+#											#NOT = {
+#											#	has_planet_flag = dontattackitagainxd
+#											#}
+#										}
+#										found_planet = {
+#											orbit_planet = THIS
+#											wait = 20
+#											#planet_event = { id = hivefleetcoming.10 }
+#										}
+#									}
+#								}
+#							}
+#				}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#planet_event = {
+#	id = armageddonevents.22
+#	title = "Orks"
+#	desc = arg3.3.desc
+#	picture = GFX_report_event_Armageddon_Attack_Orks_Cztery
+#	is_triggered_only = yes
+#	location = ROOT
+#	trigger = {
+#		has_planet_flag = Armageddonplanet
+#	}
+#	
+#	immediate = {
+#			every_country = {
+#			limit = {
+#				has_country_flag = ghazgkull_empire
+#			}
+#			save_event_target_as = ghazgkull_empire
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Nobz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stormboyz"
+#			}					
+#		}
+#		while = {
+#			count = 10									#was 20
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Boyz"
+#			}					
+#		}
+#		while = {
+#			count = 10									#was 20
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gretchin"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Kommandoz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gargant"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stompa"
+#			}					
+#		}
+#		
+#		create_fleet = { name = "Ork fleet" }	
+#				last_created_fleet = {
+#					set_owner = event_target:ghazgkull_empire
+#							create_ship = {
+#								name = random
+#								design = "NAME_OCCABC"
+#								graphical_culture = "orc_01"
+#							}	
+#							while = {
+#								count = 63
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 8
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 8
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 32
+#								create_ship = {
+#									name = random
+#									design = "NAME_ODABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#							queue_actions = {
+#								repeat = {
+#									find_closest_planet = {
+#										trigger = {
+#											id = "orkswagh.60.trigger.1"
+#											exists = owner
+#											#NOT = {
+#											#	has_planet_flag = dontattackitagainxd
+#											#}
+#										}
+#										found_planet = {
+#											orbit_planet = THIS
+#											wait = 20
+#											#planet_event = { id = hivefleetcoming.10 }
+#										}
+#									}
+#								}
+#							}
+#				}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}

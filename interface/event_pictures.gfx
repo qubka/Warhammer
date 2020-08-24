@@ -1,5 +1,78 @@
-spriteTypes = {	
+spriteTypes = {
 
+	spriteType = {
+		name = "GFX_evt_dark_eldar_raid"
+		texturefile = "gfx/event_pictures/dark_eldar_raid.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_chaos_suspected"
+		texturefile = "gfx/event_pictures/chaos_suspected.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_chaos_rising"
+		texturefile = "gfx/event_pictures/chaos_rising.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_inquisitor_and_reutine"
+		texturefile = "gfx/event_pictures/inquisitor_and_reutine.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ig_rebellion"
+		texturefile = "gfx/event_pictures/ig_rebellion.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_exterminatus_dwa"
+		texturefile = "gfx/event_pictures/exterminatus_dwa.dds"
+		allwaystransparent = no		
+	}
+
+	spriteType = {
+		name = "GFX_evt_ork_fleet"
+		texturefile = "gfx/event_pictures/ork_fleet.dds"
+		allwaystransparent = no		
+	}
+
+	spriteType = {
+		name = "GFX_evt_orks_attack_planet"
+		texturefile = "gfx/event_pictures/orks_attack_planet.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_trzecia_black_crusade"
+		texturefile = "gfx/event_pictures/trzecia_black_crusade.dds"
+		allwaystransparent = no		
+	}
+
+	spriteType = {
+		name = "GFX_evt_genestealer_cultists_rise"
+		texturefile = "gfx/event_pictures/genestealer_cultists_rise.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_genestealer_cultists_rebelion"
+		texturefile = "gfx/event_pictures/genestealer_cultists_rebelion.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_badab_wars"
+		texturefile = "gfx/event_pictures/badab_wars.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
 	spriteType = {
 		name = "GFX_evt_discovered_base"
 		texturefile = "gfx/event_pictures/discovered_base.dds"

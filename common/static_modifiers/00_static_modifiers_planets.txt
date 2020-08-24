@@ -359,3 +359,21 @@ planet_no_sculpting = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_sculpting.dds"
 	icon_frame = 3
 }
+
+planet_rebelion_small = {
+	planet_jobs_energy_produces_mult = -0.33
+	planet_army_build_speed_mult = -0.33
+	building_time_mult = 0.50
+	pop_happiness = -0.2
+	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
+	icon_frame = 2
+}
+
+planet_rebelion_big = {
+	planet_jobs_energy_produces_mult = -0.63
+	planet_army_build_speed_mult = -0.63
+	building_time_mult = 0.50
+	pop_happiness = -0.3
+	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
+	icon_frame = 2
+}

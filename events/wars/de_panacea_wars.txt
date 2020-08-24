@@ -1,0 +1,251 @@
+#namespace = darkeldarpanawar
+
+#planet_event = {
+#	id = darkeldarpanawar.1
+#	title = "Great Discovery!"
+#	desc = depw.1.desc
+#	picture = GFX_report_event_STC_STC
+#	fire_only_once = yes
+#
+#	trigger = {
+#		years_passed > 15
+#		has_planet_flag = Areadnnilplanet
+#		owner = {
+#			has_country_flag = mankind_star_empire
+#		}
+#	}
+#	
+#	immediate = {	
+#		planet_event = { id = darkeldarpanawar.2 days = 10 }
+#		planet_event = { id = darkeldarpanawar.3 days = 30 }
+#	}
+#	
+#	option = {
+#		name = "Amazing!"
+#	}
+#}
+#
+#planet_event = {
+#	id = darkeldarpanawar.2
+#	title = "Orks!"
+#	desc = depw.2.desc
+#	picture = GFX_report_event_Orks_Attack_Forge
+#	is_triggered_only = yes
+#	location = ROOT
+#	
+#	immediate = {
+#		every_country = {
+#			limit = {
+#				has_country_flag = ghazgkull_empire
+#			}
+#			save_event_target_as = ghazgkull_empire
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Nobz"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Stormboyz"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Ork_Boyz"
+#			}					
+#		}
+#		while = {
+#			count = 5									#was 10
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gretchin"
+#			}					
+#		}
+#		while = {
+#			count = 2									#was 5
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Kommandoz"
+#			}					
+#		}
+#		while = {
+#			count = 1									#was 2
+#			create_army = {
+#				name = "Orks"
+#				owner = event_target:ghazgkull_empire
+#				species = owner_main_species
+#				type = "Gargant"
+#			}					
+#		}
+#		#while = {
+#		#	count = 1
+#		#	create_army = {
+#		#		name = "Orks"
+#		#		owner = event_target:ghazgkull_empire
+#		#		species = owner_main_species
+#		#		type = "Stompa"
+#		#	}					
+#		#}
+#		
+#		every_country = {
+#			limit = {
+#				has_country_flag = mankind_star_empire
+#			}
+#			save_event_target_as = mankind_star_empire
+#		}
+#		
+#		while = {
+#			count = 1
+#			create_army = {
+#				name = "Titan army"
+#				owner = event_target:mankind_star_empire
+#				species = owner_main_species
+#				type = "warhound_titan"
+#			}					
+#		}
+#		
+#		while = {
+#			count = 1
+#			create_army = {
+#				name = "Titan army"
+#				owner = event_target:mankind_star_empire
+#				species = owner_main_species
+#				type = "reaver_titan"
+#			}					
+#		}
+#		
+#		while = {
+#			count = 1
+#			create_army = {
+#				name = "Titan army"
+#				owner = event_target:mankind_star_empire
+#				species = owner_main_species
+#				type = "warlord_titan"
+#			}					
+#		}
+#
+#				create_fleet = { name = "Ork fleet" }	
+#				last_created_fleet = {
+#					set_owner = event_target:ghazgkull_empire
+#							create_ship = {
+#								name = random
+#								design = "NAME_OCCABC"
+#								graphical_culture = "orc_01"
+#							}	
+#							while = {
+#								count = 41
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 3
+#								create_ship = {
+#									name = random
+#									design = "NAME_OBABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 6
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 6
+#								create_ship = {
+#									name = random
+#									design = "NAME_OCABCD"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							while = {
+#								count = 20
+#								create_ship = {
+#									name = random
+#									design = "NAME_ODABC"
+#									graphical_culture = "orc_01"
+#								}
+#							}
+#							set_location = {
+#								target = ROOT
+#								distance = 0
+#								angle = random
+#							}
+#							queue_actions = {
+#								repeat = {
+#									find_closest_planet = {
+#										trigger = {
+#											id = "orkswagh.60.trigger.1"
+#											exists = owner
+#											#NOT = {
+#											#	has_planet_flag = dontattackitagainxd
+#											#}
+#										}
+#										found_planet = {
+#											orbit_planet = THIS
+#											wait = 20
+#											#planet_event = { id = hivefleetcoming.10 }
+#										}
+#									}
+#								}
+#							}
+#				}
+#	}
+#	option = {
+#		name = "Ok"
+#	}
+#}
+#
+#planet_event = {
+#	id = darkeldarpanawar.3
+#	title = "Truth..."
+#	desc = depw.3.desc
+#	picture = GFX_report_event_Dark_Eldar_Info
+#	fire_only_once = yes
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		
+#	}
+#	
+#	immediate = {	
+#
+#	}
+#	
+#	option = {
+#		name = "Ok..."
+#	}
+#}
+#
+#

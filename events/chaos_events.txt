@@ -1,0 +1,604 @@
+namespace = chaos
+
+country_event = {
+	id = chaos.1
+	hide_window = yes
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = human_empire
+		years_passed > 4
+	}
+	
+	immediate = {
+		set_global_flag = chaosrising_start
+	}
+}
+
+country_event = {
+	id = chaos.2
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		OR = {
+			has_country_flag = eldar_empire
+			has_country_flag = darkeldar_empire
+			has_country_flag = ork_empire
+			has_country_flag = tau_empire
+			has_country_flag = human_empire
+		}
+		NOT = {
+			has_global_flag = chaos_rising 
+		}
+		has_global_flag = chaosrising_start
+	}
+	
+	immediate = {
+		set_global_flag = chaos_rising
+		random_owned_planet = {
+			limit = {
+				num_pops > 9
+				has_ground_combat = no  
+				NOT = { has_planet_flag = chaos_dont_attack }
+			}
+			planet_event = { id = chaos.3 }
+			set_planet_flag = chaos_dont_attack
+		}
+	}
+}
+
+planet_event = {
+	id = chaos.3
+	title = chaos.3.name
+	desc = chaos.3.desc
+	picture = GFX_evt_chaos_suspected
+	is_triggered_only = yes
+	location = ROOT
+	
+	option = {
+		name = SEND_INQUISITION
+		planet_event = { id = chaos.4 }
+	}
+	
+	option = {
+		name = IGNORE
+		planet_event = { id = chaos.5 }
+	}
+}	
+
+planet_event = {
+	id = chaos.4
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			20 = { planet_event = { id = chaos.11 } }
+			20 = { planet_event = { id = chaos.12 } }
+			50 = { planet_event = { id = chaos.13 } }
+			20 = { planet_event = { id = chaos.14 } }
+			20 = { planet_event = { id = chaos.15 } }
+			20 = { planet_event = { id = chaos.5 } }
+		}
+	}
+}
+
+planet_event = {
+	id = chaos.5
+	title = chaos.5.name
+	desc = chaos.5.desc
+	picture = GFX_evt_chaos_rising
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 20
+	}
+	
+	immediate = {
+		random_country = {
+			limit = {
+				has_country_flag = chaos_empire
+			}
+			save_event_target_as = chaos_warp_fleet
+			species = { save_event_target_as = chaos_warp_species }
+		}
+		remove_planet_flag = chaos_dont_attack
+		create_army = {
+			name = "Chaos Titan"
+			owner = event_target:chaos_warp_fleet
+			species = event_target:chaos_warp_species
+			type = "chaos_imperial_knight"
+		}
+		create_army = {
+			name = "Chaos Titan"
+			owner = event_target:chaos_warp_fleet
+			species = event_target:chaos_warp_species
+			type = "chaos_warhound_titan"
+		}
+		while = {
+			count = 10
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "havocs"
+			}					
+		}
+		while = {
+			count = 5
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "chaos_spawn"
+			}					
+		}
+		while = {
+			count = 5
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "chaos_predator"
+			}					
+		}
+		create_leader = {
+			type = admiral
+			species = event_target:chaos_warp_species
+			name = random
+			skill = 5000
+			set_age = 50
+			traits = {
+				trait = leader_trait_void_swimmer
+			}
+		}
+		create_fleet = {
+			name = "Warp Chaos Fleet"
+			effect = {
+				set_owner = event_target:chaos_warp_fleet
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "gothic_01"
+				}
+				assign_leader = last_created_leader
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 6
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "gothic_01"
+					}
+				}
+				set_location = {
+					target = ROOT
+					distance = 0
+					angle = random
+				}
+				set_aggro_range = 500
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+			}
+		}
+	}
+	
+	option = {
+		name = OOPS
+	}
+}
+
+country_event = {
+	id = chaos.6
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		has_global_flag = chaos_rising
+	}
+		
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	immediate = {
+		remove_global_flag = chaos_rising
+	}
+}
+
+planet_event = {
+	id = chaos.7
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		destroy_colony = { keep_buildings = yes }
+		change_pc = pc_nuked
+	}
+}
+
+planet_event = {
+	id = chaos.11
+	title = chaos.11.name
+	desc = chaos.11.desc
+	picture = GFX_evt_chaos_suspected
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		random_pop = { kill_pop = yes }
+		planet_event = { id = chaos.5 days = 60 }
+		remove_planet_flag = chaos_dont_attack
+	}
+	
+	option = {
+		name = OK
+	}
+}
+	
+planet_event = {
+	id = chaos.12
+	title = chaos.12.name
+	desc = chaos.12.desc
+	picture = GFX_evt_inquisitor_and_reutine
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		random_pop = { kill_pop = yes }
+		planet_event = { id = chaos.5 days = 1 }
+		remove_planet_flag = chaos_dont_attack
+	}
+	option = {
+		name = NO
+	}
+}
+
+planet_event = {
+	id = chaos.13
+	title = chaos.13.name
+	desc = chaos.13.desc
+	picture = GFX_evt_ig_rebellion
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		random_pop = { kill_pop = yes }
+		remove_planet_flag = chaos_dont_attack
+	}
+	
+	option = {
+		name = EXCELLENT
+	}
+}	
+
+planet_event = {
+	id = chaos.14
+	title = chaos.14.name
+	desc = chaos.14.desc
+	picture = GFX_evt_exterminatus_dwa
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		remove_planet_flag = chaos_dont_attack
+	}
+	option = {
+		name = CANT
+		planet_event = { id = chaos.16 days = 1 }
+	}
+	option = {
+		name = ONLY_SOLUTION
+		planet_event = { id = chaos.7 }
+	}
+}
+
+planet_event = {
+	id = chaos.15
+	title = chaos.15.name
+	desc = chaos.15.desc
+	picture = GFX_evt_ig_rebellion
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		remove_planet_flag = chaos_dont_attack
+	}
+	
+	option = {
+		name = EXCELLENT
+		planet_event = { id = chaos.17 days = 100 }
+	}
+}
+
+planet_event = {
+	id = chaos.16
+	title = chaos.16.name
+	desc = chaos.16.desc
+	picture = GFX_evt_chaos_rising
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 13
+	}
+	
+	immediate = {
+		remove_planet_flag = chaos_dont_attack
+		random_country = {
+			limit = {
+				has_country_flag = chaos_empire
+			}
+			save_event_target_as = chaos_warp_fleet
+			species = { save_event_target_as = chaos_warp_species }
+		}
+		while = {
+			count = 2
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "noise_marines"
+			}					
+		}					
+		while = {
+			count = 4
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "plague_marines"
+			}					
+		}				
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "havocs"
+			}					
+		}
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "chaos_spawn"
+			}					
+		}
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "chaos_predator"
+			}					
+		}
+		create_leader = {
+			type = admiral
+			species = event_target:chaos_warp_species
+			name = random
+			skill = 5000
+			set_age = 50
+			traits = {
+				trait = leader_trait_void_swimmer
+			}
+		}
+		create_fleet = {
+			name = "Warp Chaos Fleet"
+			effect = {
+				set_owner = event_target:chaos_warp_fleet
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "gothic_01"
+				}
+				assign_leader = last_created_leader
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 6
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "gothic_01"
+					}
+				}
+				set_location = {
+					target = ROOT
+					distance = 0
+					angle = random
+				}
+				set_aggro_range = 500
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+			}
+		}
+	}
+	
+	option = {
+		name = TO_ARMS
+	}
+}
+
+planet_event = {
+	id = chaos.17
+	title = chaos.17.name
+	desc = chaos.17.desc
+	picture = GFX_evt_chaos_rising
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	
+	immediate = {
+		remove_planet_flag = chaos_dont_attack
+		random_country = {
+			limit = {
+				has_country_flag = chaos_empire
+			}
+			save_event_target_as = chaos_warp_fleet
+			species = { save_event_target_as = chaos_warp_species }
+		}
+		while = {
+			count = 2
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "noise_marines"
+			}					
+		}					
+		while = {
+			count = 4
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "plague_marines"
+			}					
+		}				
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "havocs"
+			}					
+		}
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "havocs"
+			}					
+		}
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "chaos_spawn"
+			}					
+		}
+		while = {
+			count = 7
+			create_army = {
+				name = "Chaos Army"
+				owner = event_target:chaos_warp_fleet
+				species = event_target:chaos_warp_species
+				type = "chaos_predator"
+			}					
+		}
+		create_fleet = {
+			name = "Warp Chaos Fleet"
+			effect = {
+				set_owner = event_target:chaos_warp_fleet
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "gothic_01"
+				}
+				assign_leader = last_created_leader
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 6
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "gothic_01"
+					}
+				}
+				set_location = {
+					target = ROOT
+					distance = 0
+					angle = random
+				}
+				set_aggro_range = 500
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+			}
+		}
+	}
+	
+	option = {
+		name = TO_ARMS
+	}
+}

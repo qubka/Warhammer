@@ -1,0 +1,317 @@
+#namespace = badabwars
+#
+#country_event = {
+#	id = badabwars.1
+#	title = badabwars.1.name
+#	desc = badabwars.1.desc
+#	fire_only_once = yes
+#	picture = GFX_evt_trzecia_black_crusade
+#	
+#	trigger = {
+#		years_passed > 15
+#		has_country_flag = human_empire
+#	}
+#	
+#	immediate = {
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = badabwars_easy
+#			}
+#			planet_event = { id = badabwars.2 days = 1 }
+#			planet_event = { id = badabwars.4 }
+#		}
+#		every_owned_planet = {
+#			limit = {
+#				has_ground_combat = no 
+#				has_planet_flag = badabwars_hard
+#			}
+#			planet_event = { id = badabwars.3 days = 1 }
+#			planet_event = { id = badabwars.4 }
+#		}
+#	}
+#	
+#	option = {
+#		name = OK
+#	}
+#}
+#
+#planet_event = {
+#	id = badabwars.2
+#	title = badabwars.2.name
+#	desc = badabwars.2.desc
+#	picture = GFX_evt_badab_wars
+#	is_triggered_only = yes
+#	location = ROOT
+#
+#	immediate = {
+#		random_country = {
+#			limit = {
+#				has_country_flag = chaos_empire
+#			}
+#			save_event_target_as = chaos_warp_fleet
+#			species = { save_event_target_as = chaos_warp_species }
+#		}
+#		create_army = {
+#			name = "Chaos Titan"
+#			owner = event_target:chaos_warp_fleet
+#			species = event_target:chaos_warp_species
+#			type = "chaos_warhound_titan"
+#		}
+#		while = {
+#			count = 5
+#			create_army = {
+#				name = "Chaos Army"
+#				owner = event_target:chaos_warp_fleet
+#				species = event_target:chaos_warp_species
+#				type = "havocs"
+#			}					
+#		}
+#		while = {
+#			count = 5
+#			create_army = {
+#				name = "Chaos Army"
+#				owner = event_target:chaos_warp_fleet
+#				species = event_target:chaos_warp_species
+#				type = "chaos_spawn"
+#			}					
+#		}
+#		while = {
+#			count = 5
+#			create_army = {
+#				name = "Chaos Army"
+#				owner = event_target:chaos_warp_fleet
+#				species = event_target:chaos_warp_species
+#				type = "chaos_predator"
+#			}					
+#		}
+#		create_leader = {
+#			type = admiral
+#			species = event_target:chaos_warp_species
+#			name = random
+#			skill = 5000
+#			set_age = 60
+#			traits = {
+#				trait = leader_trait_void_swimmer
+#			}
+#		}
+#		create_fleet = {
+#			name = "Warp Chaos Fleet"
+#			effect = {
+#				set_owner = event_target:chaos_warp_fleet
+#				create_ship = {
+#					name = random
+#					design = "NAME_Blade"
+#					graphical_culture = "gothic_01"
+#				}
+#				assign_leader = last_created_leader
+#				while = {
+#					count = 2
+#					create_ship = {
+#						name = random
+#						design = "NAME_Spearhead"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				while = {
+#					count = 3
+#					create_ship = {
+#						name = random
+#						design = "NAME_Deaths_Head"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				while = {
+#					count = 3
+#					create_ship = {
+#						name = random
+#						design = "NAME_Bug_Crusher"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				while = {
+#					count = 6
+#					create_ship = {
+#						name = random
+#						design = "NAME_Blade"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				set_location = {
+#					target = ROOT
+#					distance = 0
+#					angle = random
+#				}
+#				set_aggro_range = 500
+#				set_fleet_stance = passive
+#				set_aggro_range_measure_from = self
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = OK
+#	}
+#}
+#
+#planet_event = {
+#	id = badabwars.3
+#	title = badabwars.3.name
+#	desc = badabwars.3.desc
+#	picture = GFX_evt_badab_wars
+#	is_triggered_only = yes
+#	location = ROOT
+#	
+#	immediate = {
+#		random_country = {
+#			limit = {
+#				has_country_flag = chaos_empire
+#			}
+#			save_event_target_as = chaos_warp_fleet
+#			species = { save_event_target_as = chaos_warp_species }
+#		}
+#		create_army = {
+#			name = "Chaos Titan"
+#			owner = event_target:chaos_warp_fleet
+#			species = event_target:chaos_warp_species
+#			type = "chaos_imperial_knight"
+#		}
+#		create_army = {
+#			name = "Chaos Titan"
+#			owner = event_target:chaos_warp_fleet
+#			species = event_target:chaos_warp_species
+#			type = "chaos_warhound_titan"
+#		}
+#		while = {
+#			count = 10
+#			create_army = {
+#				name = "Chaos Army"
+#				owner = event_target:chaos_warp_fleet
+#				species = event_target:chaos_warp_species
+#				type = "havocs"
+#			}					
+#		}
+#		while = {
+#			count = 5
+#			create_army = {
+#				name = "Chaos Army"
+#				owner = event_target:chaos_warp_fleet
+#				species = event_target:chaos_warp_species
+#				type = "chaos_spawn"
+#			}					
+#		}
+#		while = {
+#			count = 5
+#			create_army = {
+#				name = "Chaos Army"
+#				owner = event_target:chaos_warp_fleet
+#				species = event_target:chaos_warp_species
+#				type = "chaos_predator"
+#			}					
+#		}
+#		create_leader = {
+#			type = admiral
+#			species = event_target:chaos_warp_species
+#			name = random
+#			skill = 5000
+#			set_age = 50
+#			traits = {
+#				trait = leader_trait_void_swimmer
+#			}
+#		}
+#		create_fleet = {
+#			name = "Warp Chaos Fleet"
+#			effect = {
+#				set_owner = event_target:chaos_warp_fleet
+#				create_ship = {
+#					name = random
+#					design = "NAME_Blade"
+#					graphical_culture = "gothic_01"
+#				}
+#				assign_leader = last_created_leader
+#				while = {
+#					count = 2
+#					create_ship = {
+#						name = random
+#						design = "NAME_Spearhead"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				while = {
+#					count = 3
+#					create_ship = {
+#						name = random
+#						design = "NAME_Deaths_Head"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				while = {
+#					count = 3
+#					create_ship = {
+#						name = random
+#						design = "NAME_Bug_Crusher"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				while = {
+#					count = 6
+#					create_ship = {
+#						name = random
+#						design = "NAME_Blade"
+#						graphical_culture = "gothic_01"
+#					}
+#				}
+#				set_location = {
+#					target = ROOT
+#					distance = 0
+#					angle = random
+#				}
+#				set_aggro_range = 500
+#				set_fleet_stance = passive
+#				set_aggro_range_measure_from = self
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = OK
+#	}
+#}
+#
+#planet_event = {
+#	id = badabwars.4
+#	hide_window = yes
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		every_planet_army = {
+#			while = {
+#				limit = { 
+#					OR = {
+#						army_type = penal_legion
+#						army_type = death_korps
+#						army_type = death_planet_imperial_guard
+#						army_type = imperial_guard_big
+#						army_type = imperial_guard_medium
+#						army_type = imperial_guard_small
+#						army_type = conscripts
+#					}
+#				}
+#				random_army = {
+#					limit = { 
+#						OR = {
+#							army_type = penal_legion
+#							army_type = death_korps
+#							army_type = death_planet_imperial_guard
+#							army_type = imperial_guard_big
+#							army_type = imperial_guard_medium
+#							army_type = imperial_guard_small
+#							army_type = conscripts
+#						}
+#					}
+#					remove_army = yes 
+#				}
+#			} 
+#		}
+#	}
+#}								
