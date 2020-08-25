@@ -1,6 +1,9 @@
 tech_gargantuan_evolution = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	cost = @tier3cost1
@@ -22,7 +25,10 @@ tech_gargantuan_evolution = {
 
 tech_lgate_activation = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		NOT = { has_global_flag = l_cluster_opened }
 	}
 
@@ -47,7 +53,10 @@ tech_lgate_activation = {
 
 tech_repeatable_lcluster_clue = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		has_country_flag = encountered_first_lgate
 		NOT = { has_country_flag = completed_lcluster_chain }
 		NOT = { has_global_flag = l_cluster_opened }
@@ -83,7 +92,10 @@ tech_repeatable_lcluster_clue = {
 
 tech_experimental_subspace_navigation = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = physics
@@ -138,7 +150,10 @@ tech_experimental_subspace_navigation = {
 #Neural Tissue Engineering
 tech_neuroregeneration = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	cost = @tier4cost2
@@ -166,7 +181,10 @@ tech_neuroregeneration = {
 #Auto-Repair Module
 tech_nanite_repair_system = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = engineering

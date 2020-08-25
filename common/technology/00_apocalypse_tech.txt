@@ -56,7 +56,7 @@
 # UNLOCKED BY ASCENSION PERK PROJECT
 tech_colossus = {
 	potential = {
-		has_country_flag = unknown 
+		has_country_flag = humanoid
 		host_has_dlc = "Apocalypse"
 	}
 
@@ -99,7 +99,7 @@ tech_colossus = {
 # World Cracker
 tech_pk_cracker = {
 	potential = {
-		has_country_flag = unknown 
+		has_country_flag = eldaroid
 		host_has_dlc = "Apocalypse"
 		has_country_flag = colossus_project
 		is_pacifist = no
@@ -164,7 +164,7 @@ tech_pk_cracker = {
 # Global Pacifier
 tech_pk_shielder = {
 	potential = {
-		has_country_flag = unknown 
+		has_country_flag = eldaroid
 		host_has_dlc = "Apocalypse"
 		has_country_flag = colossus_project
 	}
@@ -232,7 +232,7 @@ tech_pk_shielder = {
 # Neutron Sweep
 tech_pk_neutron = {
 	potential = {
-		has_country_flag = unknown 
+		has_country_flag = eldaroid
 		host_has_dlc = "Apocalypse"
 		has_country_flag = colossus_project
 		is_spiritualist = no
@@ -302,7 +302,7 @@ tech_pk_neutron = {
 # God Ray
 tech_pk_godray = {
 	potential = {
-		has_country_flag = unknown
+		has_country_flag = eldaroid
 		host_has_dlc = "Apocalypse"
 		has_country_flag = colossus_project
 		is_spiritualist = yes
@@ -377,7 +377,7 @@ tech_pk_godray = {
 # Nanobots
 tech_pk_nanobots = {
 	potential = {
-		has_country_flag = unknown 
+		has_country_flag = eldaroid
 		host_has_dlc = "Apocalypse"
 		has_country_flag = colossus_project
 		has_valid_civic = civic_machine_assimilator

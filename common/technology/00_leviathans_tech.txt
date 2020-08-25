@@ -1,7 +1,10 @@
 # Dragon Scale Armor
 tech_dragon_armor = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = engineering
@@ -20,7 +23,10 @@ tech_dragon_armor = {
 #Enigmatic Encoder
 tech_enigmatic_encoder = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	cost = @guardiantechcost
@@ -39,7 +45,10 @@ tech_enigmatic_encoder = {
 #Enigmatic Encoder
 tech_enigmatic_decoder = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	cost = @guardiantechcost

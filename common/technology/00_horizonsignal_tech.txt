@@ -1,6 +1,9 @@
 tech_akx_worm_1 = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = physics
@@ -33,7 +36,10 @@ tech_akx_worm_1 = {
 
 tech_akx_worm_2 = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = society
@@ -66,7 +72,10 @@ tech_akx_worm_2 = {
 
 tech_akx_worm_3 = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = physics

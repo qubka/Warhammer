@@ -1,6 +1,9 @@
 tech_mega_engineering = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	area = engineering
@@ -185,7 +188,10 @@ tech_mega_engineering = {
 
 tech_science_nexus = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Utopia"
 	}
 
@@ -253,7 +259,10 @@ tech_science_nexus = {
 
 tech_sentry_array = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Utopia"
 	}
 
@@ -325,7 +334,10 @@ tech_sentry_array = {
 
 tech_strategic_coordination = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Megacorp"
 	}
 
@@ -405,7 +417,10 @@ tech_strategic_coordination = {
 
 tech_interstellar_assembly = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Megacorp"
 	}
 
@@ -481,7 +496,10 @@ tech_interstellar_assembly = {
 
 tech_mega_art = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Megacorp"
 	}
 
@@ -561,7 +579,10 @@ tech_mega_art = {
 
 tech_gateway_activation = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	cost = @tier4cost3
@@ -658,7 +679,10 @@ tech_gateway_activation = {
 
 tech_gateway_construction = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 	}
 
 	cost = @tier5cost3
@@ -742,7 +766,10 @@ tech_gateway_construction = {
 
 tech_dyson_sphere = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Utopia"
 	}
 
@@ -773,7 +800,10 @@ tech_dyson_sphere = {
 
 tech_matter_decompressor = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Megacorp"
 	}
 
@@ -805,7 +835,10 @@ tech_matter_decompressor = {
 
 tech_ring_world = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Utopia"
 	}
 
@@ -836,7 +869,10 @@ tech_ring_world = {
 
 tech_mega_shipyard = {
 	potential = {
-		has_country_flag = unknown 
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
 		host_has_dlc = "Federations"
 	}
 
