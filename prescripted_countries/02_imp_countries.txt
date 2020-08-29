@@ -54,7 +54,7 @@ agripinaa = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_agripinaa"
+		name = random# = "PRESCRIPTED_ruler_name_agripinaa"
 		gender = male
 		portrait = "IMP_Mechanicus_ruler3"
 		texture = 0
@@ -120,7 +120,7 @@ graia = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_graia"
+		name = random# = "PRESCRIPTED_ruler_name_graia"
 		gender = male
 		portrait = "IMP_Mechanicus_ruler2"
 		texture = 0
@@ -186,7 +186,7 @@ lucius = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_lucius"
+		name = random# = "PRESCRIPTED_ruler_name_lucius"
 		gender = male
 		portrait = "IMP_Mechanicus_ruler1"
 		texture = 0
@@ -252,7 +252,7 @@ metalica = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_metalica"
+		name = random# = "PRESCRIPTED_ruler_name_metalica"
 		gender = male
 		portrait = "IMP_Mechanicus_ruler4"
 		texture = 0
@@ -318,7 +318,7 @@ ryza = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_ryza"
+		name = random# = "PRESCRIPTED_ruler_name_ryza"
 		gender = male
 		portrait = "IMP_Mechanicus_ruler5"
 		texture = 0
@@ -384,7 +384,7 @@ stygies = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_stygies"
+		name = random# = "PRESCRIPTED_ruler_name_stygies"
 		gender = male
 		portrait = "IMP_Mechanicus_ruler6"
 		texture = 0
@@ -449,7 +449,7 @@ bakka = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_bakka"
+		name = random# = "PRESCRIPTED_ruler_name_bakka"
 		gender = male
 		portrait = "IMP_Navy_ruler1"
 		texture = 0
@@ -514,7 +514,7 @@ catachan = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_catachan"
+		name = random# = "PRESCRIPTED_ruler_name_catachan"
 		gender = male
 		portrait = "IMP_Navy_ruler2"
 		texture = 0
@@ -579,7 +579,7 @@ cadia = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_cadia"
+		name = random# = "PRESCRIPTED_ruler_name_cadia"
 		gender = male
 		portrait = "IMP_Navy_ruler3"
 		texture = 0
@@ -644,7 +644,7 @@ mordian = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_mordian"
+		name = random# = "PRESCRIPTED_ruler_name_mordian"
 		gender = male
 		portrait = "IMP_Navy_ruler6"
 		texture = 0
@@ -709,7 +709,7 @@ krieg = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_krieg"
+		name = random# = "PRESCRIPTED_ruler_name_krieg"
 		gender = male
 		portrait = "IMP_Navy_ruler5"
 		texture = 0
@@ -774,7 +774,7 @@ armageddon = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_armageddon"
+		name = random# = "PRESCRIPTED_ruler_name_armageddon"
 		gender = male
 		portrait = "IMP_Navy_ruler4"
 		texture = 0
