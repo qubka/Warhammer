@@ -17,10 +17,10 @@ goff = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_combat_specialists" "civic_great_waaagh" }
+	civics = { "civic_combat_specialists" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_goff"
 
@@ -31,7 +31,7 @@ goff = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_goff"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
@@ -81,10 +81,10 @@ evil_sunz = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_vehicles_lovers" "civic_great_waaagh" }
+	civics = { "civic_vehicles_lovers" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_evil_sunz"
 
@@ -95,7 +95,7 @@ evil_sunz = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_evil_sunz"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
@@ -145,10 +145,10 @@ death_skullz = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_scavengers_mobz" "civic_great_waaagh" }
+	civics = { "civic_scavengers_mobz" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_death_skullz"
 
@@ -159,7 +159,7 @@ death_skullz = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_death_skullz"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
@@ -209,10 +209,10 @@ blood_axe = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_camouflage_boyz" "civic_great_waaagh" }
+	civics = { "civic_camouflage_boyz" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_blood_axe"
 
@@ -223,7 +223,7 @@ blood_axe = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_blood_axe"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
@@ -273,10 +273,10 @@ big_mek = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_oddboyz_culture" "civic_great_waaagh" }
+	civics = { "civic_oddboyz_culture" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_big_mek"
 
@@ -287,7 +287,7 @@ big_mek = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_big_mek"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
@@ -337,10 +337,10 @@ big_boss = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_clever_nobz" "civic_great_waaagh" }
+	civics = { "civic_clever_nobz" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_big_boss"
 
@@ -351,7 +351,7 @@ big_boss = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_big_boss"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {
@@ -401,10 +401,10 @@ bad_moons = {
 		trait = "trait_adaptive"
 	}
 
-	room = "extradimensional_green_room"
+	room = "ork_room"
 
 	authority = "auth_ork"
-	civics = { "civic_teeth_growers" "civic_great_waaagh" }
+	civics = { "civic_teeth_growers" "civic_great_waaagh" "civic_barbaric_despoilers" }
 	government = "gov_kratocratic_dictatorship"
 	origin = "origin_bad_moons"
 
@@ -415,7 +415,7 @@ bad_moons = {
 	planet_class = "pc_orkworld"
 	system_name = "PRESCRIPTED_system_name_bad_moons"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "fungoid_01"
 	city_graphical_culture = "preindustrial_01"
 
 	empire_flag = {

@@ -1,0 +1,59 @@
+# Daemon Planet
+col_daemon = {
+	icon = 34
+
+	potential = {
+		is_planet_class = pc_daemon
+	}
+
+	weight_modifier = {
+		modifier = {
+			add = 1000
+		}
+	}
+}
+
+# Daemon Planet
+col_daemons = {
+	icon = 35
+
+	potential = {
+		is_planet_class = pc_daemons
+	}
+
+	weight_modifier = {
+		modifier = {
+			add = 1000
+		}
+	}
+}
+
+# Daemon Planet
+col_daemonn = {
+	icon = 36
+
+	potential = {
+		is_planet_class = pc_daemonn
+	}
+
+	weight_modifier = {
+		modifier = {
+			add = 1000
+		}
+	}
+}
+
+# Daemon Planet
+col_daemont = {
+	icon = 37
+
+	potential = {
+		is_planet_class = pc_daemont
+	}
+
+	weight_modifier = {
+		modifier = {
+			add = 1000
+		}
+	}
+}

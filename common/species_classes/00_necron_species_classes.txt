@@ -20,7 +20,6 @@ NEC = {
         "necron_overlord"
     }   
 	
-	graphical_culture = ai_01
-	
+	graphical_culture = necron_01
 	move_pop_sound_effect = "robot_pops_move"
 }

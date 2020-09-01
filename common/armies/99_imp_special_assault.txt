@@ -17,7 +17,7 @@ catachan_fighters = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -25,13 +25,15 @@ catachan_fighters = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = catachanplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = catachan_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -49,7 +51,7 @@ cadian_shock_troops = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -57,13 +59,15 @@ cadian_shock_troops = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = cadiaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = cadia_planet }
+		owner = { has_country_flag = human_empire }
 	}
 	
 }
@@ -82,7 +86,7 @@ armageddon_steel_legion = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -90,13 +94,15 @@ armageddon_steel_legion = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = armageddonplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = armageddon_planet }
+		owner = { has_country_flag = human_empire }
 	}
 	
 }
@@ -115,7 +121,7 @@ death_korps_of_krieg = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -123,15 +129,16 @@ death_korps_of_krieg = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
 		planet = { has_planet_flag = kriegplanett }
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
-	
 }
 
 mordian_iron_guard = {
@@ -148,7 +155,7 @@ mordian_iron_guard = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -156,13 +163,15 @@ mordian_iron_guard = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = mordianplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = mordian_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -180,7 +189,7 @@ scintillan_fusiliers = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -188,13 +197,15 @@ scintillan_fusiliers = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = scintillaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = scintilla_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -212,7 +223,7 @@ praetorian_guard = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -220,13 +231,15 @@ praetorian_guard = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = praetoriaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = praetoria_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -244,7 +257,7 @@ valhallan_ice_warriors = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -252,13 +265,15 @@ valhallan_ice_warriors = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = valhallaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = valhalla_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -276,7 +291,7 @@ tallarn_desert_raiders = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -284,13 +299,15 @@ tallarn_desert_raiders = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = tallarnplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = tallarn_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -308,7 +325,7 @@ vostroyan_firstborn = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -316,13 +333,15 @@ vostroyan_firstborn = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = vostroyaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = vostroya_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -340,7 +359,7 @@ elysian_drop_troops = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -348,12 +367,14 @@ elysian_drop_troops = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_special_recruits" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 	
 	potential = {
-		planet = { has_planet_flag = elysiaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = elysia_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }

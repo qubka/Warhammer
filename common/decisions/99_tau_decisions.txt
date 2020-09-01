@@ -1,4 +1,3 @@
-
 decision_advance_city_project = {
 	owned_planets_only = yes
 
@@ -11,6 +10,8 @@ decision_advance_city_project = {
 			alloys = 500
 		}
 	}
+
+	prerequisites = { "tech_advanced_city_project" }
 
 	potential = {
 		OR = {
@@ -77,6 +78,6 @@ decision_advance_city_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 1
 	}
 }

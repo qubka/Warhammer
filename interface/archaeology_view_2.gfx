@@ -1,0 +1,101 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_archaeology_runes_I1"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_I_01.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_I2"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_I_02.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_I3"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_I_03.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_I4"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_I_04.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_I5"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_I_05.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_I6"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_I_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_archaeology_runes_X1"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_X_01.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_X2"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_X_02.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_X3"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_X_03.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_X4"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_X_04.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_X5"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_X_05.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_X6"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_X_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_archaeology_runes_Y1"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Y_01.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Y2"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Y_02.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Y3"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Y_03.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Y4"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Y_04.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Y5"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Y_05.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Y6"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Y_06.dds"
+	}
+
+	spriteType = {
+		name = "GFX_archaeology_runes_Z1"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Z_01.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Z2"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Z_02.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Z3"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Z_03.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Z4"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Z_04.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Z5"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Z_05.dds"
+	}	
+	spriteType = {
+		name = "GFX_archaeology_runes_Z6"
+		textureFile = "gfx/interface/archaeology/runes/archaeology_runes_Z_06.dds"
+	}
+}

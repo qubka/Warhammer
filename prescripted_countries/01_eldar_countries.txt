@@ -12,13 +12,14 @@ ynnari = {
 		plural = "PRESCRIPTED_species_plural_ynnari"
 		adjective = "PRESCRIPTED_species_adjective_ynnari"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_reborn_followers" "civic_children_of_stars" }
@@ -28,12 +29,12 @@ ynnari = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_ynnari }
+	flags = { eldarian eldar_empire the_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_ynnari"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ynnari"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -78,13 +79,14 @@ ulthwe = {
 		plural = "PRESCRIPTED_species_plural_ulthwe"
 		adjective = "PRESCRIPTED_species_adjective_ulthwe"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_seers_way" "civic_children_of_stars" }
@@ -94,12 +96,12 @@ ulthwe = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_ulthwe }
+	flags = { eldarian eldar_empire the_ulthwe }
 	planet_name = "PRESCRIPTED_planet_name_ulthwe"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ulthwe"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -144,13 +146,14 @@ saim_hann = {
 		plural = "PRESCRIPTED_species_plural_saim_hann"
 		adjective = "PRESCRIPTED_species_adjective_saim_hann"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_enjoyed_of_simple" "civic_children_of_stars" }
@@ -160,12 +163,12 @@ saim_hann = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_saim_hann }
+	flags = { eldarian eldar_empire the_saim_hann }
 	planet_name = "PRESCRIPTED_planet_name_saim_hann"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_saim_hann"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -210,13 +213,14 @@ ostara = {
 		plural = "PRESCRIPTED_species_plural_ostara"
 		adjective = "PRESCRIPTED_species_adjective_ostara"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_paranoid_isolationism" "civic_children_of_stars" }
@@ -226,12 +230,12 @@ ostara = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_ostara }
+	flags = { eldarian eldar_empire the_ostara }
 	planet_name = "PRESCRIPTED_planet_name_ostara"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_ostara"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -276,13 +280,14 @@ iyanden = {
 		plural = "PRESCRIPTED_species_plural_iyanden"
 		adjective = "PRESCRIPTED_species_adjective_iyanden"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_damaged_craftworld" "civic_children_of_stars" }
@@ -292,12 +297,12 @@ iyanden = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_iyanden }
+	flags = { eldarian eldar_empire the_iyanden }
 	planet_name = "PRESCRIPTED_planet_name_iyanden"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_iyanden"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -342,13 +347,14 @@ biel_tan = {
 		plural = "PRESCRIPTED_species_plural_biel_tan"
 		adjective = "PRESCRIPTED_species_adjective_biel_tan"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_warrior_culture" "civic_children_of_stars" }
@@ -358,12 +364,12 @@ biel_tan = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_biel_tan }
+	flags = { eldarian eldar_empire the_biel_tan }
 	planet_name = "PRESCRIPTED_planet_name_biel_tan"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_biel_tan"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {
@@ -408,13 +414,14 @@ alaitoc = {
 		plural = "PRESCRIPTED_species_plural_alaitoc"
 		adjective = "PRESCRIPTED_species_adjective_alaitoc"
 		name_list = "ELDAR1"
+		trait = "trait_psionic"
 		trait = "trait_solitary"
 		trait = "trait_venerable"
 		trait = "trait_sedentary"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "personality_spiritual_seekers_room"
+	room = "craftworld_room"
 
 	authority = "auth_eldar"
 	civics = { "civic_over_racism" "civic_children_of_stars" }
@@ -424,12 +431,12 @@ alaitoc = {
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { eldar_empire the_alaitoc }
+	flags = { eldarian eldar_empire the_alaitoc }
 	planet_name = "PRESCRIPTED_planet_name_alaitoc"
 	planet_class = "pc_craftworld"
 	system_name = "PRESCRIPTED_system_name_alaitoc"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "avian_01"
 	city_graphical_culture = "fallen_empire_01"
 
 	empire_flag = {

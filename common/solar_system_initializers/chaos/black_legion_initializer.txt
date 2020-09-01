@@ -45,33 +45,46 @@ black_legion_homeworld = {
 	change_orbit = 50
 	
 	planet = {
-		name = "Harmony"
-		class = "pc_daemon"
-		orbit_angle = { min = 90 max = 270 }
-		orbit_distance = 5
-		size = 6
-		home_planet = yes
-		starting_planet = yes
+		count = 1
+		class = rl_chaos_planets	 
+		orbit_distance = 60
+		orbit_angle = 60
+		size = 30
 		has_ring = no
-		deposit_blockers = none
-		modifiers = none
+		
+		change_orbit = @base_moon_distance
 
-		init_effect = {
-			every_country = {
-				limit = {
-					has_country_flag = the_black_legion
+		moon = {
+			name = "Harmony"
+			class = "pc_blackstonefortress"	 
+			orbit_distance = 10
+			orbit_angle = 0
+			size = 10
+			has_ring = no
+			home_planet = yes
+			starting_planet = yes
+			deposit_blockers = none			
+			modifiers = none
+			flags = { megastructure habitat energy_habitat }
+
+			init_effect = {
+				every_country = {
+					limit = {
+						has_country_flag = the_black_legion
+					}
+					save_event_target_as = the_black_legion
 				}
-				save_event_target_as = the_black_legion
+
+				set_owner = event_target:the_black_legion
+				set_controller = event_target:the_black_legion
+				set_capital = yes
+				set_planet_flag = harmony_planet
+				set_planet_flag = spacemarine_homeworld
+				set_planet_flag = daemon_homeworld
+
+				generate_start_pops = yes
+				prevent_anomaly = yes
 			}
-
-			set_owner = event_target:the_black_legion
-			set_controller = event_target:the_black_legion
-			set_capital = yes
-			set_planet_flag = spacemarine_homeworld
-			set_planet_flag = daemon_homeworld
-
-			generate_start_pops = yes
-			prevent_anomaly = yes
 		}
 	}
 	

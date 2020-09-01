@@ -1,4 +1,5 @@
 #morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
 
 # collateral_damage was not part of old file so set to vanilla values
 # war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
@@ -16,21 +17,18 @@ dark_angels = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			has_planet_flag = calibanplanet
-			#has_building = "building_dark_angels_fortress_monastery"
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -38,9 +36,6 @@ dark_angels = {
 					value = 6
 				}
 			}
-		}
-		owner = {
-			has_country_flag = human_empire
 		}
 	}
 	
@@ -58,6 +53,16 @@ dark_angels = {
 			change_variable = {
 				which = "dark_angels_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_dark_angels }
+			AND = {
+				planet = { has_planet_flag = caliban_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -76,21 +81,18 @@ white_scars = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			#has_building = "building_white_scars_fortress_monastery"
-			has_planet_flag = chogorisplanet
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -99,11 +101,8 @@ white_scars = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -118,6 +117,16 @@ white_scars = {
 			change_variable = {
 				which = "white_scars_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_white_scars }
+			AND = {
+				planet = { has_planet_flag = chogoris_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -136,17 +145,17 @@ space_wolves = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 560
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3.1
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
+
+	allow = {
+		has_building = building_chapel_barracks
 		
 		owner = {
 			NOT = { 
@@ -156,15 +165,8 @@ space_wolves = {
 				}
 			}
 		}
-		planet = {
-			has_planet_flag = fenrisplanet
-			#has_building = "building_space_wolves_fortress_monastery"
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -179,6 +181,16 @@ space_wolves = {
 			change_variable = {
 				which = "space_wolves_count" 
 				value = -1
+			}
+		}
+	}
+
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_space_wolves }
+			AND = {
+				planet = { has_planet_flag = fenris_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -197,21 +209,18 @@ imperial_fists = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			#has_building = "building_imperial_fists_fortress_monastery"
-		has_planet_flag = terraplanet
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -220,11 +229,8 @@ imperial_fists = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -239,6 +245,21 @@ imperial_fists = {
 			change_variable = {
 				which = "imperial_fists_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_imperial_fist }
+			AND = {
+				planet = {
+					OR = {
+						has_planet_flag = terra_planet
+						has_planet_flag = phalanx_planet
+					}
+				}
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -257,17 +278,18 @@ blood_angels = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -276,15 +298,8 @@ blood_angels = {
 				}
 			}
 		}
-		planet = {
-			has_planet_flag = baalplanet
-			#has_building = "building_blood_angels_fortress_monastery"
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -299,6 +314,16 @@ blood_angels = {
 			change_variable = {
 				which = "blood_angels_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_blood_angels }
+			AND = {
+				planet = { has_planet_flag = baal_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -317,20 +342,18 @@ iron_hands  = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			#has_building = "building_iron_hands_fortress_monastery"
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -339,11 +362,8 @@ iron_hands  = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -358,6 +378,16 @@ iron_hands  = {
 			change_variable = {
 				which = "iron_hands_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_iron_hand }
+			AND = {
+				planet = { has_planet_flag = medusa_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -376,17 +406,18 @@ ultramarines = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -395,15 +426,8 @@ ultramarines = {
 				}
 			}
 		}
-		planet = {
-			#has_planet_flag = macraggeplanet
-			#has_building = "building_ultramarines_fortress_monastery"
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -418,6 +442,16 @@ ultramarines = {
 			change_variable = {
 				which = "ultramarines_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_ultra_marines }
+			AND = {
+				planet = { has_planet_flag = macragge_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -436,20 +470,18 @@ salamanders = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet= {
-				#has_building = "building_salamanders_fortress_monastery"
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -458,11 +490,8 @@ salamanders = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -477,6 +506,16 @@ salamanders = {
 			change_variable = {
 				which = "salamanders_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_salamanders }
+			AND = {
+				planet = { has_planet_flag = nocturne_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -495,20 +534,17 @@ raven_guard = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 10
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			#has_building = "building_raven_guard_fortress_monastery"
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
 		
 		owner = {
 			NOT = { 
@@ -518,11 +554,8 @@ raven_guard = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -537,6 +570,16 @@ raven_guard = {
 			change_variable = {
 				which = "raven_guard_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_raven_guard }
+			AND = {
+				planet = { has_planet_flag = deliverance_planet }
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -555,17 +598,18 @@ grey_knights = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			military_goods = 50
+			gene_seed = 15
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -574,15 +618,8 @@ grey_knights = {
 				}
 			}
 		}
-		planet = {
-			has_planet_flag = titanplanet
-			#has_building = "building_grey_knights_fortress_monastery"
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -599,6 +636,11 @@ grey_knights = {
 				value = -1
 			}
 		}
+	}
+	
+	potential = {
+		planet = { has_planet_flag = titan_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -615,20 +657,17 @@ black_templars = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			military_goods = 50
+			gene_seed = 15
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			#has_building = "building_black_templars_fortress_monastery"
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
 		
 		owner = {
 			NOT = { 
@@ -638,11 +677,8 @@ black_templars = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -657,6 +693,21 @@ black_templars = {
 			change_variable = {
 				which = "black_templars_count" 
 				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		OR = {
+			owner = { has_country_flag = the_imperial_fist }
+			AND = {
+				planet = {
+					OR = {
+						has_planet_flag = terra_planet
+						has_planet_flag = phalanx_planet
+					}
+				}
+				owner = { has_country_flag = human_empire }
 			}
 		}
 	}
@@ -675,20 +726,18 @@ blood_ravens = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			military_goods = 50
+			gene_seed = 15
 		}
 
 		upkeep = {
 			energy = 3
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
-		planet = {
-			#has_building = "building_blood_ravens_fortress_monastery"
-		}
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -697,11 +746,8 @@ blood_ravens = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -718,6 +764,11 @@ blood_ravens = {
 				value = -1
 			}
 		}
+	}
+	
+	potential = {
+		planet = { has_planet_flag = aurelia_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -735,17 +786,18 @@ legio_custodes = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 20
 		}
 
 		upkeep = {
 			energy = 2
 		}
 	}
-	
-	#prerequisites = { "tech_gene_seed_purification" }
-	
-	potential = {
+
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -754,14 +806,8 @@ legio_custodes = {
 				}
 			}
 		}
-		planet = {
-			#has_building = "building_legio_custodes_fortress_monastery"
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -778,6 +824,11 @@ legio_custodes = {
 				value = -1
 			}
 		}
+	}
+	
+	potential = {
+		planet = { has_planet_flag = terra_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -794,7 +845,8 @@ deathwatch = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 40
+			gene_seed = 10
 		}
 
 		upkeep = {
@@ -802,9 +854,11 @@ deathwatch = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_deathwatch" }
 	
-	potential = {
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -813,14 +867,8 @@ deathwatch = {
 				}
 			}
 		}
-		planet = {
-			#has_building = "building_deathwatch_fortress_monastery"
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -838,11 +886,15 @@ deathwatch = {
 			}
 		}
 	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
+	}
 }
 
 sisters_of_battle = {
 	damage = 4.0
-	health = 7.0
+	health = 5.0
 	morale = 3.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
@@ -853,7 +905,8 @@ sisters_of_battle = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 360
+			military_goods = 35
+			gene_seed = 5
 		}
 
 		upkeep = {
@@ -861,12 +914,11 @@ sisters_of_battle = {
 		}
 	}
 	
-	#prerequisites = { "tech_gene_seed_purification" }
+	prerequisites = { "tech_sisters_of_battle" }
 	
-	potential = {
-		planet = {
-			#has_building = "building_sisters_of_battle_fortress_monastery"
-		}
+	allow = {
+		has_building = building_chapel_barracks
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -875,11 +927,8 @@ sisters_of_battle = {
 				}
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
 	}
-	
+
 	on_queued = {
 		owner = {
 			change_variable = {
@@ -896,5 +945,9 @@ sisters_of_battle = {
 				value = -1
 			}
 		}
+	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
 	}
 }

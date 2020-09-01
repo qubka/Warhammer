@@ -1,0 +1,443 @@
+@corvette_scale = 6.0
+@destroyer_scale = 7.0
+@cruiser_scale = 10.0
+@battleship_scale = 12.0
+@Battlecruiser_scale = 13.0
+@LightCarrier_scale = 15.0
+@Carrier_scale = 17.0
+@military_station_large = 20.0
+@Dreadnought_scale = 20.0
+@Superdreadnought_scale = 25.0
+@Flagship_scale = 30.0
+
+
+##################         	 DREADNOUGHT           ########################
+
+# FRAME
+entity = {
+	name = "gothic_01_Dreadnought_entity"
+	pdxmesh = "mammalian_01_dreadnought_frame_mesh"
+
+	locator = { name = "part1"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "part2"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "part3"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "part4"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "part5"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle" animation_blend_time = 4.0 
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }
+	}
+	state = { name = "moving"	animation = "idle" animation_blend_time = 4.0 
+		event = { trigger_once = yes sound = { soundeffect = "moving_out_battleship" } }
+	}
+	state = { name = "death" animation = "death" animation_blend_time = 0.0 animation_speed = 0.6 looping = no
+	
+		event = { time = 0.0 node = "explosion_locator1" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 0.2 node = "explosion_locator2" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 0.4 node = "explosion_locator3" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 0.6 node = "explosion_locator4" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 0.8 node = "explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 1.0 node = "explosion_locator6" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }		
+		event = { time = 1.2 node = "explosion_locator7" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 1.4 node = "explosion_locator8" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 1.6 node = "explosion_locator9" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }		
+		
+		event = { time = 0.1 node = "explosion_locator1" particle = "ship_burn_particle" }
+		event = { time = 0.3 node = "explosion_locator2" particle = "ship_burn_particle" }
+		event = { time = 0.5 node = "explosion_locator3" particle = "ship_burn_particle" }
+		event = { time = 0.7 node = "explosion_locator4" particle = "ship_burn_particle" }
+		event = { time = 0.9 node = "explosion_locator5" particle = "ship_burn_particle" }
+		event = { time = 1.1 node = "explosion_locator6" particle = "ship_burn_particle" }	
+		event = { time = 1.3 node = "explosion_locator7" particle = "ship_burn_particle" }
+		event = { time = 1.5 node = "explosion_locator8" particle = "ship_burn_particle" }
+		event = { time = 1.7 node = "explosion_locator9" particle = "ship_burn_particle" }			
+
+		event = { time = 2.0 node = "explosion_locator1" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 2.2 node = "explosion_locator2" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 2.4 node = "explosion_locator3" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 2.6 node = "explosion_locator4" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 2.8 node = "explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 3.0 node = "explosion_locator6" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }		
+		event = { time = 3.2 node = "explosion_locator7" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 3.4 node = "explosion_locator8" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 3.6 node = "explosion_locator9" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }				
+
+		event = { time = 2.1 node = "explosion_locator1" particle = "ship_burn_particle" }
+		event = { time = 2.3 node = "explosion_locator2" particle = "ship_burn_particle" }
+		event = { time = 2.5 node = "explosion_locator3" particle = "ship_burn_particle" }
+		event = { time = 2.7 node = "explosion_locator4" particle = "ship_burn_particle" }
+		event = { time = 2.9 node = "explosion_locator5" particle = "ship_burn_particle" }
+		event = { time = 3.1 node = "explosion_locator6" particle = "ship_burn_particle" }	
+		event = { time = 3.3 node = "explosion_locator7" particle = "ship_burn_particle" }
+		event = { time = 3.5 node = "explosion_locator8" particle = "ship_burn_particle" }
+		event = { time = 3.7 node = "explosion_locator9" particle = "ship_burn_particle" }	
+
+		event = { time = 4.0 node = "explosion_locator1" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 4.2 node = "explosion_locator2" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 4.4 node = "explosion_locator3" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 4.6 node = "explosion_locator4" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 4.8 node = "explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 5.0 node = "explosion_locator6" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }		
+		event = { time = 5.2 node = "explosion_locator7" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 5.4 node = "explosion_locator8" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 5.6 node = "explosion_locator9" particle = "large_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }		
+
+		event = { time = 4.1 node = "explosion_locator1" particle = "ship_burn_particle" }
+		event = { time = 4.3 node = "explosion_locator2" particle = "ship_burn_particle" }
+		event = { time = 4.5 node = "explosion_locator3" particle = "ship_burn_particle" }
+		event = { time = 4.7 node = "explosion_locator4" particle = "ship_burn_particle" }
+		event = { time = 4.9 node = "explosion_locator5" particle = "ship_burn_particle" }
+		event = { time = 5.1 node = "explosion_locator6" particle = "ship_burn_particle" }	
+		event = { time = 5.3 node = "explosion_locator7" particle = "ship_burn_particle" }
+		event = { time = 5.5 node = "explosion_locator8" particle = "ship_burn_particle" }
+		event = { time = 5.7 node = "explosion_locator9" particle = "ship_burn_particle" }		
+							
+		event = { time = 1.8 particle = "nsc_superdread_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 3.8 particle = "nsc_superdread_explosion_particle" sound = { soundeffect = ship_destroyed } }		
+	}
+	
+	
+	attach = { part1 = "gothic_01_dn2_NSC_mesh_entity" }
+	attach = { part2 = "gothic_01_dn_NSC_mesh_entity" }		
+	attach = { part3 = "gothic_01_dn_lights_NSC_mesh_entity" }	
+	attach = { part4 = "gothic_01_dn3_NSC_mesh_entity" }		
+	
+	scale = 1.07
+	
+	game_data = {
+		size = @Dreadnought_scale
+	}
+}
+
+
+
+# BOW
+entity = {
+	name = "gothic_01_Dreadnought_bow_L1M1S2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_bow_L1S4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_bow_L2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_bow_M1S2SHB_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_bow_M2S4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_bow_M3S2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_bow_XL1_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"	
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+
+
+#MID1
+entity = {
+	name = "gothic_01_Dreadnought_mid1_L2S4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+	
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid1_L1M4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+		
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid1_L2M2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+	
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid1_L3_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+		
+}
+entity = {
+	name = "gothic_01_Dreadnought_mid1_M4SHB_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+		
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid1_S4LHB_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_large_01" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "gothic_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+		
+}
+
+
+#MID2
+entity = {
+	name = "gothic_01_Dreadnought_mid2_L2S4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid2_L1M4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid2_L2M2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid2_L3_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid2_M4SHB_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_mid2_S4LHB_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }	
+}
+
+
+
+# STERN
+
+entity = {
+	name = "gothic_01_Dreadnought_stern_L1_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_stern_M1S2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_stern_M2_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_Dreadnought_stern_S4_entity"
+	pdxmesh = "gothic_01_dn_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "gothic_01_dn2_NSC_mesh_entity"
+	pdxmesh = "gothic_01_dn2_NSC_mesh"
+	
+}
+
+entity = {
+	name = "gothic_01_dn3_NSC_mesh_entity"
+	pdxmesh = "gothic_01_dn3_NSC_mesh"
+	
+}
+
+entity = {
+	name = "gothic_01_dn_lights_NSC_mesh_entity"
+	pdxmesh = "gothic_01_dn_lights_NSC_mesh"
+	
+}
+
+entity = {
+	name = "gothic_01_dn_NSC_mesh_entity"
+	pdxmesh = "gothic_01_dn_NSC_mesh"
+	
+}

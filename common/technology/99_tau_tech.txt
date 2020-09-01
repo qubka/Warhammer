@@ -1,0 +1,2140 @@
+tech_workers_exoskeletons = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_accelerated_photon_grenade = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_disengage_chance_mult = 0.15
+		army_defense_health_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_add_equipment = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_additional_shields = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_shield_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_adv_engines = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_interstellar_speed_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_adv_lens = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { materials }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.3
+		ship_anomaly_research_speed_mult = 0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_adv_processing = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_electronics_manufacturers_produces_mult = 0.30
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_advanced_alloys = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { materials }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_armor_mult = 0.1
+		country_ship_upgrade_cost_mult = -0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_advanced_city_project = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_advanced_cpu = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { computing }
+	weight = @tier1weight3
+	
+	modifier = {
+		all_technology_research_speed = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_advanced_jetpacks = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { propulsion }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_landing_time_mult = -0.3
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_advanced_maintense = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_orbit_upkeep_mult = -0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_advanced_sensors = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_evasion_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_air_caste_bombardment = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_orbital_bombardment_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_anti_grav_bikes = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { voidcraft }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_armor_alloys = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { materials }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_armor_mult = 0.15
+		army_attack_health_mult = 0.05
+		army_defense_health_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_blacksun_filter_sensors = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_hull_damage_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_celectial_mining = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		station_gatherers_produces_mult = 0.30
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_edict_expansions = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_edict_cap_add = 1
+		edicts_cost_mult = -0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_emp_grenade = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.01
+		army_defense_damage_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_energy_revolution = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_engine_limitors_unclock = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_emergency_ftl_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_farming_subsidies = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_farmers_food_produces_mult = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fast_sailing = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_base_speed_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fight_strategy = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.05
+		army_attack_health_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fire_spread = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_disengage_chance_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_galaxy_explorers = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_command_limit_add = 100
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_grav_inhibitor_field = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.025
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_habitability_modifications = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { biology }
+	weight = @tier1weight3
+	
+	modifier = {
+		pop_growth_speed = 0.05
+		pop_environment_tolerance = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_high_powered_incinerator = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.05
+		army_defense_damage_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_holographic_projection = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_evasion_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_imperium_archives = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		all_technology_research_speed = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_improved_metallurgy = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_metallurgists_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_klestak_explosives = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.05
+		army_defense_damage_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_krootox_domestication = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_farmers_food_produces_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_marker_light = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.01
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_med_gun = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_health_mult = 0.05
+		army_attack_health_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_merchant_subsidies = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_trade_attractiveness = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_migration_popularization = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		pop_growth_from_immigration = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_mount_racing = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		biological_pop_happiness = 0.20
+		planet_amenities_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_new_expansion = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { new_worlds }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_admin_cap_add = 150
+		country_megastructure_build_cap_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_onager_gauntlet = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_damage_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_phosphor_flare = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.05
+		army_disengage_chance_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_photon_grenade = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_damage_mult = 0.05
+		army_disengage_chance_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_planetary_shields = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_orbital_bombardment_damage = -0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_pulse_weapons = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		category_particles_research_speed_mult = 0.25
+		planet_army_build_speed_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_rapid_building = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_building_build_speed_mult = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_research_subsidies = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_researchers_produces_mult = 0.05
+		num_tech_alternatives_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_sense_of_the_greater_good = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_crime_mult = -0.15
+		planet_amenities_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_shield_drones = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_shield_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_signals_spying = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_tracking_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_smart_achitecture = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_building_build_speed_mult = 0.25
+		starbase_buildings_cost_mult = -0.1
+		starbase_modules_cost_mult = -0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_snare_traps = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_damage_mult = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_solar_panels = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_sonic_pulse = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_weapon_damage = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_stimulant_injector = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { biology }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_health_mult = 0.1
+		army_attack_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_targeting_optics = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_tracking_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_water_bureaucracy = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_admin_cap_add = 150
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_water_generation = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		pop_growth_speed = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+

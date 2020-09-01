@@ -23,6 +23,7 @@ salamanders_homeworld = {
 			name = "Gherash"
 			type = "strategic_coordination_center_ruined"
 			location = event_target:coordination_location
+			graphical_culture = gothic_01
 		}
 	}
 	
@@ -89,6 +90,7 @@ salamanders_homeworld = {
 			set_owner = event_target:the_salamanders
 			set_controller = event_target:the_salamanders
 			set_capital = yes
+			set_planet_flag = nocturne_planet
 			set_planet_flag = spacemarine_homeworld
 
 			add_modifier = { modifier = "unstable_tectonics" days = -1 }
@@ -100,7 +102,7 @@ salamanders_homeworld = {
 		moon = {
 			name = "Prometheus"
 			class = "pc_fortress"
-			orbit_distance = 8
+			orbit_distance = 15
 			orbit_angle = { min = 90 max = 270 }
 			size = 10
 			has_ring = no

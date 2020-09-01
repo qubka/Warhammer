@@ -12,14 +12,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -28,14 +44,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -140,14 +172,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -156,14 +204,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -258,26 +322,42 @@ portrait_groups = {
 		}
 	}
 
-	imp_space_wolfes = {
+	imp_space_wolves = {
 		
 		default = IMP_N_IronPriestFiremaw
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = IMP_SpaceWolfes_ruler
+			default = IMP_SpaceWolves_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -286,14 +366,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -385,7 +481,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_SpaceWolfes_ruler
+					IMP_SpaceWolves_ruler
 				}
 			}
 		}
@@ -403,8 +499,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_05		
-					human_female_05
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -413,8 +531,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {	
-					human_male_05		
-					human_female_05
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -515,14 +655,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -531,14 +687,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -645,14 +817,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -661,14 +849,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -775,14 +979,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -791,14 +1011,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -896,26 +1132,42 @@ portrait_groups = {
 		}
 	}
 	
-	imp_dark_angles = {
+	imp_dark_angels = {
 		
 		default = IMP_N_MasterofthefleetKorahael
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = IMP_DarkAngles_ruler
+			default = IMP_DarkAngels_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -924,14 +1176,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -1017,32 +1285,48 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_DarkAngles_ruler
+					IMP_DarkAngels_ruler
 				}
 			}
 		}
 	}
 	
-	imp_blood_angles = {
+	imp_blood_angels = {
 		
 		default = IMP_N_CaptainDonatosAphael
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = IMP_BloodAngles_ruler
+			default = IMP_BloodAngels_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -1051,14 +1335,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -1144,7 +1444,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					IMP_BloodAngles_ruler
+					IMP_BloodAngels_ruler
 				}
 			}
 		}
@@ -1162,14 +1462,30 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}		
@@ -1178,14 +1494,30 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_GovernorSorven
+					IMP_N_AdmiralSpire
+					IMP_N_AdmiralMalicor
+					IMP_N_CaptainSeverin
+					IMP_N_CaptainVoskamp
+					IMP_N_CaptainTrevius
+					IMP_N_CaptainAbridal
+					IMP_N_CommodoreKage
+					IMP_N_CommodoreLiang
+					IMP_N_CommodoreTrevaux
+					IMP_N_CommodoreTyralean
+					IMP_N_CommissarDuncan
+					IMP_N_ColonelMaxson
+					IMP_N_MajorRazim
+					IMP_NAVY_01
+					IMP_NAVY_02
+					IMP_NAVY_03
+					IMP_NAVY_04
+					IMP_NAVY_05
+					IMP_NAVY_06
+					IMP_N_ColonelMaxson
+					IMP_N_VenescaCatallia
+					IMP_INQ_01
+					IMP_INQ_02
 				}
 			}
 		}
@@ -1212,6 +1544,7 @@ portrait_groups = {
 					IMP_NAVY_06
 					IMP_N_VenescaCatallia
 					IMP_NAVY_Celestine
+					IMP_INQ_01
 					IMP_INQ_02
 					
 				}
@@ -1319,14 +1652,16 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_MagosCrawn
+					IMP_N_MagosCrestin
+					IMP_N_MagosKelen
+					IMP_N_MagosKlarn
+					IMP_N_MagosNumerian
+					IMP_N_MagosTellemark
+					IMP_N_MagosVaryn
+					IMP_N_FabricatorCambrius
+					IMP_N_MagosBiblios
+					IMP_N_BelisariusCawl
 				}
 			}
 		}		
@@ -1335,14 +1670,16 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					human_male_01
-					human_male_02
-					human_male_03					
-					human_male_04
-					human_female_01
-					human_female_02
-					human_female_03				
-					human_female_04
+					IMP_N_MagosCrawn
+					IMP_N_MagosCrestin
+					IMP_N_MagosKelen
+					IMP_N_MagosKlarn
+					IMP_N_MagosNumerian
+					IMP_N_MagosTellemark
+					IMP_N_MagosVaryn
+					IMP_N_FabricatorCambrius
+					IMP_N_MagosBiblios
+					IMP_N_BelisariusCawl
 				}
 			}
 		}

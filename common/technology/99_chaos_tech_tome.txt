@@ -1,0 +1,676 @@
+tech_khorne_gifts_1 = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { chaos }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_army_build_speed_mult = 0.025
+		army_damage_mult = 0.01
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_khorne_gifts_2 = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_khorne_gifts_1" }
+	
+	modifier = {
+		planet_army_build_speed_mult = 0.05
+		army_damage_mult = 0.03
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_khorne_gifts_3 = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_khorne_gifts_2" }
+	
+	modifier = {
+		planet_army_build_speed_mult = 0.075
+		army_damage_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_nurgle_gifts_1 = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { chaos }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_pops_food_upkeep_mult = -0.025
+		country_resource_max_add = 5000
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_nurgle_gifts_2 = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_nurgle_gifts_1" }
+	
+	modifier = {
+		planet_pops_food_upkeep_mult = -0.05
+		country_resource_max_add = 7500
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_nurgle_gifts_3 = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_nurgle_gifts_2" }
+	
+	modifier = {
+		planet_pops_food_upkeep_mult = -0.075
+		country_resource_max_add = 10000
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_slaanesh_gifts_1 = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { chaos }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_amenities_mult = 0.025
+		biological_pop_happiness = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_slaanesh_gifts_2 = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_slaanesh_gifts_1" }
+	
+	modifier = {
+		planet_amenities_mult = 0.05
+		biological_pop_happiness = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_slaanesh_gifts_3 = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_slaanesh_gifts_2" }
+	
+	modifier = {
+		planet_amenities_mult = 0.075
+		biological_pop_happiness = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tzeentch_gifts_1 = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { chaos }
+	weight = @tier1weight3
+	
+	modifier = {
+		all_technology_research_speed = 0.025
+		num_tech_alternatives_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tzeentch_gifts_2 = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_tzeentch_gifts_1" }
+	
+	modifier = {
+		all_technology_research_speed = 0.05
+		num_tech_alternatives_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tzeentch_gifts_3 = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { chaos }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_tzeentch_gifts_2" }
+	
+	modifier = {
+		all_technology_research_speed = 0.075
+		num_tech_alternatives_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_chaos"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tome_of_chains = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_weapon_range_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tome_of_daemons = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_tracking_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tome_of_darkflame = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_evasion_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tome_of_darkness = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_disengage_chance_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tome_of_hunger = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_hull_damage_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+
+tech_tome_of_subjugation = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_weapon_damage = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = chaos_empire 
+	}
+}
+

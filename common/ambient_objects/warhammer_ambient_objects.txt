@@ -1,0 +1,55 @@
+ambient_object = {
+	name = "exterminatus_explosion"
+	entity = "exterminatus_explosion_entity"
+	selectable = no
+	show_name = no	
+}
+
+#ambient_object = {
+#	name = "blackstonefortress_laser"
+#	entity = "blackstonefortress_laser_entity"
+#	selectable = no
+#	show_name = no	
+#}
+#
+#ambient_object = {
+#	name = "blackstonefortress_dwa"
+#	entity = "blackstonefotresss_01_entity_dwa"
+#	selectable = no
+#	show_name = no	
+#}
+#
+#ambient_object = {
+#	name = "spacehulk"
+#	entity = "spacehulk_planet_01_entity"
+#	selectable = no
+#	show_name = no	
+#}
+#
+#ambient_object = {
+#	name = "blackstonefortress"
+#	entity = "blackstonefotresss_01_entity"
+#	selectable = no
+#	show_name = no	
+#}
+#
+#ambient_object = {
+#	name = "planetkiller"
+#	entity = "planetkiller_01_entity"
+#	selectable = no
+#	show_name = no	
+#}
+#
+#ambient_object = {
+#	name = "planetkiller_laser"
+#	entity = "planetkiller_laser_entity"
+#	selectable = no
+#	show_name = no	
+#}
+
+ambient_object = {
+	name = "portalxd"
+	entity = "webwayportal_entity"
+	selectable = no
+	show_name = no	
+}

@@ -15,9 +15,7 @@ ripper_swarm_defense = {
 	icon_frame = 157
 	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }
 
@@ -32,9 +30,9 @@ spore_mines_defense = {
 	
 	icon_frame = 159
 	
+	prerequisites = { "tech_spore_detonation" }
+	
 	potential = {
-		owner = {
-			has_country_flag = tyranid_empire
-		}
+		owner = { has_country_flag = tyranid_empire }
 	}
 }

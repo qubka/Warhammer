@@ -18,22 +18,22 @@ mankind = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "palace_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_senatorum_imperialis" "civic_imperialcult_fanatics" }
-	government = "gov_theocratic_confederation"
+	civics = { "civic_senatorum_imperialis" "civic_imperialcult_fanatics" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
 	origin = "origin_mankind"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_mankind }
+	flags = { humanoid human_empire ai_no_leave_fed the_mankind }
 	planet_name = "PRESCRIPTED_planet_name_mankind"
 	planet_class = "pc_hive_medium"
 	system_name = "PRESCRIPTED_system_name_mankind"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -84,22 +84,22 @@ white_scars = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "chogoris_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_v" "civic_horde_traditions" }
+	civics = { "civic_v" "civic_horde_traditions" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_white_scars"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_white_scars }
+	flags = { humanoid human_empire ai_no_leave_fed the_white_scars }
 	planet_name = "PRESCRIPTED_planet_name_white_scars"
 	planet_class = "pc_arid"
 	system_name = "PRESCRIPTED_system_name_white_scars"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -150,22 +150,22 @@ ultra_marines = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "macragge_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_xiii" "civic_imperium_secundus" }
-	government = "gov_meritocratic_tetrarchy"
+	civics = { "civic_xiii" "civic_imperium_secundus" "civic_fanatic_purifiers" }
+	government = "gov_authoritarian_meritocracy"
 	origin = "origin_ultra_marines"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_ultra_marines }
+	flags = { humanoid human_empire ai_no_leave_fed the_ultra_marines }
 	planet_name = "PRESCRIPTED_planet_name_ultra_marines"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_ultra_marines"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -186,29 +186,29 @@ ultra_marines = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_mankind"
+		name = "PRESCRIPTED_ruler_name_ultra_marines"
 		gender = male
 		portrait = "IMP_Ultramarines_ruler"
 		texture = 0
 		clothes = 0
 		leader_class = ruler
-		ruler_title = "PRESCRIPTED_ruler_title_mankind"
+		ruler_title = "PRESCRIPTED_ruler_title_ultra_marines"
 	}
 }
 
-space_wolfes = {
-	name = "Space Wolfes"
-	adjective = "PRESCRIPTED_adjective_space_wolfes"
+space_wolves = {
+	name = "Space Wolves"
+	adjective = "PRESCRIPTED_adjective_space_wolves"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes	
-	ship_prefix = "PRESCRIPTED_ship_prefix_space_wolfes"
+	ship_prefix = "PRESCRIPTED_ship_prefix_space_wolves"
 	
 	species = {
 		class = "IMP"
-		portrait = "imp_space_wolfes"
-		name = "PRESCRIPTED_species_name_space_wolfes"
-		plural = "PRESCRIPTED_species_plural_space_wolfes"
-		adjective = "PRESCRIPTED_species_adjective_space_wolfes"
+		portrait = "imp_space_wolves"
+		name = "PRESCRIPTED_species_name_space_wolves"
+		plural = "PRESCRIPTED_species_plural_space_wolves"
+		adjective = "PRESCRIPTED_species_adjective_space_wolves"
 		name_list = "IMPERIUM1"
 		trait = "trait_industrious"
 		trait = "trait_rapid_breeders"
@@ -216,28 +216,28 @@ space_wolfes = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "fenris_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_vi" "civic_barbarian_culture" }
+	civics = { "civic_vi" "civic_barbarian_culture" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_space_wolfes"
+	origin = "origin_space_wolves"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_space_wolfes }
-	planet_name = "PRESCRIPTED_planet_name_space_wolfes"
+	flags = { humanoid human_empire ai_no_leave_fed the_space_wolves }
+	planet_name = "PRESCRIPTED_planet_name_space_wolves"
 	planet_class = "pc_arctic"
-	system_name = "PRESCRIPTED_system_name_space_wolfes"
+	system_name = "PRESCRIPTED_system_name_space_wolves"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
 		icon = {
 			category = "armada"
-			file = "TX_UI_Logo_SubFaction_SM_SpaceWolfes.dds"
+			file = "TX_UI_Logo_SubFaction_SM_SpaceWolves.dds"
 		}
 		background = {
 			category = "backgrounds"
@@ -252,13 +252,13 @@ space_wolfes = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_space_wolfes"
+		name = "PRESCRIPTED_ruler_name_space_wolves"
 		gender = male
-		portrait = "IMP_SpaceWolfes_ruler"
+		portrait = "IMP_SpaceWolves_ruler"
 		texture = 0
 		clothes = 0
 		leader_class = ruler
-		ruler_title = "PRESCRIPTED_ruler_title_space_wolfes"
+		ruler_title = "PRESCRIPTED_ruler_title_space_wolves"
 	}
 }
 
@@ -282,22 +282,22 @@ salamanders = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "nocturne_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_xviii" "civic_blacksmith_culture" }
+	civics = { "civic_xviii" "civic_blacksmith_culture" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_salamanders"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_salamanders }
+	flags = { humanoid human_empire ai_no_leave_fed the_salamanders }
 	planet_name = "PRESCRIPTED_planet_name_salamanders"
 	planet_class = "pc_desert"
 	system_name = "PRESCRIPTED_system_name_salamanders"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -348,22 +348,22 @@ raven_guard = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "deliverance_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_xix" "civic_production_guilds" }
+	civics = { "civic_xix" "civic_production_guilds" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_raven_guard"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_raven_guard }
+	flags = { humanoid human_empire ai_no_leave_fed the_raven_guard }
 	planet_name = "PRESCRIPTED_planet_name_raven_guard"
 	planet_class = "pc_fortress"
 	system_name = "PRESCRIPTED_system_name_raven_guard"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -414,22 +414,22 @@ iron_hand = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "medusa_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_x" "civic_interclans_rivalry" }
+	civics = { "civic_x" "civic_interclans_rivalry" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_iron_hand"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_iron_hand }
+	flags = { humanoid human_empire ai_no_leave_fed the_iron_hand }
 	planet_name = "PRESCRIPTED_planet_name_iron_hand"
 	planet_class = "pc_forge_ring"
 	system_name = "PRESCRIPTED_system_name_iron_hand"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -480,22 +480,22 @@ imperial_fist = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "phalanx_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_vii" "civic_chosen_by_the_emperor" }
+	civics = { "civic_vii" "civic_chosen_by_the_emperor" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
 	origin = "origin_imperial_fist"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_imperial_fist }
+	flags = { humanoid human_empire ai_no_leave_fed the_imperial_fist }
 	planet_name = "PRESCRIPTED_planet_name_imperial_fist"
-	planet_class = "pc_habitat"
+	planet_class = "pc_phalanx"
 	system_name = "PRESCRIPTED_system_name_imperial_fist"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -526,19 +526,19 @@ imperial_fist = {
 	}
 }
 
-dark_angles = {
-	name = "Dark Angles"
-	adjective = "PRESCRIPTED_adjective_dark_angles"
+dark_angels = {
+	name = "Dark Angels"
+	adjective = "PRESCRIPTED_adjective_dark_angels"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes	
-	ship_prefix = "PRESCRIPTED_ship_prefix_dark_angles"
+	ship_prefix = "PRESCRIPTED_ship_prefix_dark_angels"
 	
 	species = {
 		class = "IMP"
-		portrait = "imp_dark_angles"
-		name = "PRESCRIPTED_species_name_dark_angles"
-		plural = "PRESCRIPTED_species_plural_dark_angles"
-		adjective = "PRESCRIPTED_species_adjective_dark_angles"
+		portrait = "imp_dark_angels"
+		name = "PRESCRIPTED_species_name_dark_angels"
+		plural = "PRESCRIPTED_species_plural_dark_angels"
+		adjective = "PRESCRIPTED_species_adjective_dark_angels"
 		name_list = "IMPERIUM1"
 		trait = "trait_industrious"
 		trait = "trait_rapid_breeders"
@@ -546,22 +546,22 @@ dark_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "rock_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_i" "civic_chivalric_traditions" }
+	civics = { "civic_i" "civic_chivalric_traditions" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_dark_angles"
+	origin = "origin_dark_angels"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_dark_angles }
-	planet_name = "PRESCRIPTED_planet_name_dark_angles"
-	planet_class = "pc_habitat"
-	system_name = "PRESCRIPTED_system_name_dark_angles"
+	flags = { humanoid human_empire ai_no_leave_fed the_dark_angels }
+	planet_name = "PRESCRIPTED_planet_name_dark_angels"
+	planet_class = "pc_eternalcrusader"
+	system_name = "PRESCRIPTED_system_name_dark_angels"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -582,29 +582,29 @@ dark_angles = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_dark_angles"
+		name = "PRESCRIPTED_ruler_name_dark_angels"
 		gender = male
-		portrait = "IMP_DarkAngles_ruler"
+		portrait = "IMP_DarkAngels_ruler"
 		texture = 0
 		clothes = 0
 		leader_class = ruler
-		ruler_title = "PRESCRIPTED_ruler_title_dark_angles"
+		ruler_title = "PRESCRIPTED_ruler_title_dark_angels"
 	}
 }
 
-blood_angles = {
-	name = "Blood Angles"
-	adjective = "PRESCRIPTED_adjective_blood_angles"
+blood_angels = {
+	name = "Blood Angels"
+	adjective = "PRESCRIPTED_adjective_blood_angels"
 	spawn_enabled = always # yes / no / always
 	ignore_portrait_duplication = yes	
-	ship_prefix = "PRESCRIPTED_ship_prefix_blood_angles"
+	ship_prefix = "PRESCRIPTED_ship_prefix_blood_angels"
 	
 	species = {
 		class = "IMP"
-		portrait = "imp_blood_angles"
-		name = "PRESCRIPTED_species_name_blood_angles"
-		plural = "PRESCRIPTED_species_plural_blood_angles"
-		adjective = "PRESCRIPTED_species_adjective_blood_angles"
+		portrait = "imp_blood_angels"
+		name = "PRESCRIPTED_species_name_blood_angels"
+		plural = "PRESCRIPTED_species_plural_blood_angels"
+		adjective = "PRESCRIPTED_species_adjective_blood_angels"
 		name_list = "IMPERIUM1"
 		trait = "trait_industrious"
 		trait = "trait_rapid_breeders"
@@ -612,22 +612,22 @@ blood_angles = {
 		trait = "trait_fleeting"
 	}
 	
-	room = "personality_evangelizing_zealots_room"
+	room = "baal_room"
 	
 	authority = "auth_imp"
-	civics = { "civic_ix" "civic_tribal_culture" }
+	civics = { "civic_ix" "civic_tribal_culture" "civic_fanatic_purifiers" }
 	government = "gov_meritocratic_tetrarchy"
-	origin = "origin_blood_angles"
+	origin = "origin_blood_angels"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { human_empire the_blood_angles }
-	planet_name = "PRESCRIPTED_planet_name_blood_angles"
+	flags = { humanoid human_empire ai_no_leave_fed the_blood_angels }
+	planet_name = "PRESCRIPTED_planet_name_blood_angels"
 	planet_class = "pc_fortress"
-	system_name = "PRESCRIPTED_system_name_blood_angles"
+	system_name = "PRESCRIPTED_system_name_blood_angels"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -648,12 +648,12 @@ blood_angles = {
 	}
 	
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_blood_angles"
+		name = "PRESCRIPTED_ruler_name_blood_angels"
 		gender = male
-		portrait = "IMP_BloodAngles_ruler"
+		portrait = "IMP_BloodAngels_ruler"
 		texture = 0
 		clothes = 0
 		leader_class = ruler
-		ruler_title = "PRESCRIPTED_ruler_title_blood_angles"
+		ruler_title = "PRESCRIPTED_ruler_title_blood_angels"
 	}
 }

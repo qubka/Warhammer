@@ -40,10 +40,10 @@ marauder_1_1 = {
 			random_list = {
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_ynnari"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -57,7 +57,10 @@ marauder_1_1 = {
 						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = { 
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -66,9 +69,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_cor_ynnari
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -76,10 +80,10 @@ marauder_1_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_twilight_swords"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -93,7 +97,10 @@ marauder_1_1 = {
 						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -102,9 +109,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_twilight_swords
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -112,10 +120,10 @@ marauder_1_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_void_dragons"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -129,7 +137,10 @@ marauder_1_1 = {
 						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -138,9 +149,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_void_dragons
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -148,10 +160,10 @@ marauder_1_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_sky_raiders"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -165,7 +177,10 @@ marauder_1_1 = {
 						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -174,9 +189,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_sky_raiders
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -184,10 +200,10 @@ marauder_1_1 = {
 				} 
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_steeleye_reavers"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -201,7 +217,10 @@ marauder_1_1 = {
 						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -210,9 +229,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_steeleye_reavers
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -220,10 +240,10 @@ marauder_1_1 = {
 				}
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_sun_blitz"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -237,7 +257,10 @@ marauder_1_1 = {
 						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -246,9 +269,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_sun_blitz
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -256,10 +280,10 @@ marauder_1_1 = {
 				}
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_eldritch_raiders"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -273,7 +297,10 @@ marauder_1_1 = {
 						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -282,9 +309,10 @@ marauder_1_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_eldritch_raiders
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -297,7 +325,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -312,7 +340,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -327,7 +355,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -342,7 +370,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -357,7 +385,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -372,7 +400,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -387,7 +415,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -402,7 +430,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -418,7 +446,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -459,7 +487,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -484,7 +512,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -524,7 +552,7 @@ marauder_1_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -550,7 +578,7 @@ marauder_1_1 = {
 							create_ship = {
 								name = random
 								design = "NAME_Outrider"
-								graphical_culture = "pirate_01"
+								graphical_culture = "avian_01"
 							}
 						}
 						while = {
@@ -558,7 +586,7 @@ marauder_1_1 = {
 							create_ship = {
 								name = random
 								design = "NAME_Lancer"
-								graphical_culture = "pirate_01"
+								graphical_culture = "avian_01"
 							}
 						}
 						while = {
@@ -566,7 +594,7 @@ marauder_1_1 = {
 							create_ship = {
 								name = random
 								design = "NAME_Void_Champion"
-								graphical_culture = "pirate_01"
+								graphical_culture = "avian_01"
 							}
 						}
 						set_formation_scale = 2
@@ -615,7 +643,7 @@ marauder_1_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -641,7 +669,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -690,7 +718,7 @@ marauder_1_1 = {
 							create_ship = {
 								name = random
 								design = "NAME_Outrider"
-								graphical_culture = "pirate_01"
+								graphical_culture = "avian_01"
 							}
 						}
 						while = {
@@ -698,7 +726,7 @@ marauder_1_1 = {
 							create_ship = {
 								name = random
 								design = "NAME_Lancer"
-								graphical_culture = "pirate_01"
+								graphical_culture = "avian_01"
 							}
 						}
 						while = {
@@ -706,7 +734,7 @@ marauder_1_1 = {
 							create_ship = {
 								name = random
 								design = "NAME_Void_Champion"
-								graphical_culture = "pirate_01"
+								graphical_culture = "avian_01"
 							}
 						}
 						set_formation_scale = 2
@@ -816,7 +844,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -841,7 +869,7 @@ marauder_1_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -885,7 +913,7 @@ marauder_1_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Ancestral_Glory"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_formation_scale = 2
 						set_fleet_stance = aggressive
@@ -940,7 +968,7 @@ marauder_1_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -955,7 +983,7 @@ marauder_1_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -970,7 +998,7 @@ marauder_1_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -994,7 +1022,7 @@ marauder_1_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -1002,7 +1030,7 @@ marauder_1_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -1010,7 +1038,7 @@ marauder_1_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -1078,7 +1106,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1093,7 +1121,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1108,7 +1136,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1123,7 +1151,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1138,7 +1166,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1153,7 +1181,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1168,7 +1196,7 @@ marauder_1_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -1192,7 +1220,7 @@ marauder_1_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -1200,7 +1228,7 @@ marauder_1_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -1208,7 +1236,7 @@ marauder_1_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -1306,10 +1334,10 @@ marauder_2_1 = {
 			random_list = {
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_ynnari"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1323,7 +1351,10 @@ marauder_2_1 = {
 						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1332,9 +1363,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_cor_ynnari
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1342,10 +1374,10 @@ marauder_2_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_twilight_swords"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1359,7 +1391,10 @@ marauder_2_1 = {
 						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1368,9 +1403,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_twilight_swords
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1378,10 +1414,10 @@ marauder_2_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_void_dragons"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1395,7 +1431,10 @@ marauder_2_1 = {
 						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1404,9 +1443,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_void_dragons
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1414,10 +1454,10 @@ marauder_2_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_sky_raiders"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1431,7 +1471,10 @@ marauder_2_1 = {
 						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1440,9 +1483,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_sky_raiders
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1450,10 +1494,10 @@ marauder_2_1 = {
 				} 
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_steeleye_reavers"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1467,7 +1511,10 @@ marauder_2_1 = {
 						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1476,9 +1523,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_steeleye_reavers
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1486,10 +1534,10 @@ marauder_2_1 = {
 				}
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_sun_blitz"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1503,7 +1551,10 @@ marauder_2_1 = {
 						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1512,9 +1563,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_sun_blitz
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1522,10 +1574,10 @@ marauder_2_1 = {
 				}
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_eldritch_raiders"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -1539,7 +1591,10 @@ marauder_2_1 = {
 						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -1548,9 +1603,10 @@ marauder_2_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_eldritch_raiders
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -1563,7 +1619,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1578,7 +1634,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1593,7 +1649,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1608,7 +1664,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1623,7 +1679,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1638,7 +1694,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1653,7 +1709,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1668,7 +1724,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1684,7 +1740,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1699,7 +1755,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1714,7 +1770,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1729,7 +1785,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1744,7 +1800,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1759,7 +1815,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -1849,7 +1905,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -1924,7 +1980,7 @@ marauder_2_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -1932,7 +1988,7 @@ marauder_2_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -1940,7 +1996,7 @@ marauder_2_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -2012,7 +2068,7 @@ marauder_2_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2020,7 +2076,7 @@ marauder_2_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2028,7 +2084,7 @@ marauder_2_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -2061,7 +2117,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -2093,7 +2149,7 @@ marauder_2_1 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -2147,7 +2203,7 @@ marauder_2_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2162,7 +2218,7 @@ marauder_2_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2177,7 +2233,7 @@ marauder_2_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -2201,7 +2257,7 @@ marauder_2_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2209,7 +2265,7 @@ marauder_2_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2217,7 +2273,7 @@ marauder_2_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -2286,7 +2342,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2301,7 +2357,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2316,7 +2372,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2331,7 +2387,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2346,7 +2402,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2361,7 +2417,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -2376,7 +2432,7 @@ marauder_2_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -2400,7 +2456,7 @@ marauder_2_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2408,7 +2464,7 @@ marauder_2_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2416,7 +2472,7 @@ marauder_2_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -2510,10 +2566,10 @@ marauder_3_1 = {
 			random_list = {
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_ynnari"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2527,7 +2583,10 @@ marauder_3_1 = {
 						name = "Ynnari Corsairs"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2536,9 +2595,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_cor_ynnari
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2546,10 +2606,10 @@ marauder_3_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_twilight_swords"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2563,7 +2623,10 @@ marauder_3_1 = {
 						name = "Twilight Swords"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2572,9 +2635,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_twilight_swords
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2582,10 +2646,10 @@ marauder_3_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_void_dragons"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2599,7 +2663,10 @@ marauder_3_1 = {
 						name = "Void Dragons" 
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2608,9 +2675,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_void_dragons
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2618,10 +2686,10 @@ marauder_3_1 = {
 				} 
 				30 = {
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_sky_raiders"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2635,7 +2703,10 @@ marauder_3_1 = {
 						name = "Sky Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2644,9 +2715,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_sky_raiders
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2654,10 +2726,10 @@ marauder_3_1 = {
 				} 
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_steeleye_reavers"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2671,7 +2743,10 @@ marauder_3_1 = {
 						name = "Steeleye Reavers"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2680,9 +2755,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_steeleye_reavers
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2690,10 +2766,10 @@ marauder_3_1 = {
 				}
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_sun_blitz"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2707,7 +2783,10 @@ marauder_3_1 = {
 						name = "Sun Blitz"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2716,9 +2795,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_sun_blitz
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2726,10 +2806,10 @@ marauder_3_1 = {
 				}
 				30 = { 
 					create_species = {
-						name= "Eldar Corsair"
+						name = "Eldar Corsair"
 						class = "ELD"
 						portrait = "eldar_cor_eldritch_raiders"
-						name_list = "ELDAR1"
+						name_list = random
 						traits = {
 							trait = "trait_pc_habitat_preference"
 							trait = "trait_extremely_adaptive"
@@ -2743,7 +2823,10 @@ marauder_3_1 = {
 						name = "Eldritch Raiders"
 						species = last_created
 						type = dormant_marauders
-						civics = { civic = civic_anarcho_tribalism }
+						civics = {
+							civic = civic_anarcho_tribalism
+							civic = civic_barbaric_despoilers
+						}
 						origin = "origin_corsair"
 						ethos = {
 							ethic = ethic_fanatic_militarist
@@ -2752,9 +2835,10 @@ marauder_3_1 = {
 						ignore_initial_colony_error = yes
 					}
 					last_created_country = {
-						set_graphical_culture = pirate_01
+						set_graphical_culture = avian_01
 						save_global_event_target_as = marauder_country_1
 						set_country_flag = marauder_1
+						set_country_flag = eldar_empire
 						set_country_flag = the_eldritch_raiders
 						create_ship_design = { design = "NAME_Marauder_Starbase" }
 						add_ship_design = last_created_design
@@ -2769,7 +2853,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2777,7 +2861,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2785,7 +2869,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -2811,7 +2895,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2819,7 +2903,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -2827,7 +2911,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -2882,7 +2966,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Ancestral_Glory"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_formation_scale = 2
 						set_fleet_stance = aggressive
@@ -2919,7 +3003,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -2949,7 +3033,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -3000,7 +3084,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -3024,7 +3108,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -3048,7 +3132,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Ancestral_Glory"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_formation_scale = 2
 						set_fleet_stance = aggressive
@@ -3112,7 +3196,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -3142,7 +3226,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Ancestral_Glory"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_formation_scale = 2
 						set_fleet_stance = aggressive
@@ -3173,7 +3257,7 @@ marauder_3_1 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Dwelling"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 						set_location = {
 							target = prev
@@ -3221,7 +3305,7 @@ marauder_3_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3236,7 +3320,7 @@ marauder_3_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3251,7 +3335,7 @@ marauder_3_2 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -3275,7 +3359,7 @@ marauder_3_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -3283,7 +3367,7 @@ marauder_3_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -3291,7 +3375,7 @@ marauder_3_2 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2
@@ -3360,7 +3444,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3375,7 +3459,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Void_Dwelling"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3390,7 +3474,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3405,7 +3489,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3420,7 +3504,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3435,7 +3519,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Warrior_Freehold"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_location = {
 						target = prev
@@ -3450,7 +3534,7 @@ marauder_3_3 = {
 					create_ship = {
 						name = random
 						design = "NAME_Ancestral_Glory"
-						graphical_culture = "pirate_01"
+						graphical_culture = "avian_01"
 					}
 					set_formation_scale = 2
 					set_fleet_stance = aggressive
@@ -3474,7 +3558,7 @@ marauder_3_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -3482,7 +3566,7 @@ marauder_3_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					while = {
@@ -3490,7 +3574,7 @@ marauder_3_3 = {
 						create_ship = {
 							name = random
 							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
+							graphical_culture = "avian_01"
 						}
 					}
 					set_formation_scale = 2

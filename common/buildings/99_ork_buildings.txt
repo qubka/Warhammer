@@ -1,0 +1,832 @@
+building_irontoff_bastion = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	convert_to = {
+		building_tyranid_hive
+		building_hall_of_blood
+		building_paradisaic_complex
+		building_auditorium
+		building_ancient_monolith
+		building_cadre_headquarters
+		building_chaos_tower
+	}
+
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 20
+		job_ork_nob_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_ork_nob_effect_desc
+	}
+		
+	ai_weight = {
+		weight = 1
+	}
+}
+
+building_kustom_workshop = {
+	base_buildtime = 240
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+
+	planet_modifier = {
+		job_mekboy_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_mekboy_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 25
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		consumer_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_smack_bar = {
+	base_buildtime = 240
+
+	category = amenity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	prerequisites = { "tech_smack_swill" }
+
+	planet_modifier = {
+		job_brewboy_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_brewboy_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value > 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			has_building = building_smack_bar
+		}
+	}
+}
+
+building_minelayer_craft = {
+	base_buildtime = 240
+	
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	planet_modifier = {
+		job_smithboy_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_smithboy_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 25
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		alloys = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_dakka_bunker = {
+	base_buildtime = 240
+
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	planet_modifier = {
+		job_techboy_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		produces = {
+			energy = 100
+		}
+	}
+	
+	triggered_desc = {
+		text = job_techboy_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value < 100
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		energy = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_ork_quarters = {
+	base_buildtime = 240
+
+	category = amenity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	country_modifier = {
+		country_resource_max_add = 2000
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 50
+	}
+	
+	army_modifier = {
+		army_defense_health_mult = 0.1
+		army_defense_damage_mult = 0.1
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 750
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100 #High weight to gurantee that if the below is true then the AI should build it
+			free_housing < 3 #Prevents the AI from running out of residences when nearly out of tiles
+			OR = {
+				free_jobs > 0 #prevents spamming of residence buildings when no jobs are open
+				AND = {
+					free_housing < 0 #Prevents the AI from running out of residences when nearly out of tiles
+					NOT = { any_owned_pop = { is_unemployed = yes } }
+				}
+			}
+			free_district_slots = 0 #Do not build when city districts can still be built
+		}
+		modifier = {
+			factor = 0
+			has_building = building_ork_quarters
+		}
+	}
+}
+
+building_eavy_metal_stage = {
+	base_buildtime = 360
+
+	category = amenity
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+
+	planet_modifier = {
+		job_muzboy_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_muzboy_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 50
+			free_amenities < 5
+			OR = {
+				free_jobs < 3 #makes it come before any free_jobs = 0 building checks. This makes the build a high priority building.
+				NOT = { has_building = building_eavy_metal_stage }
+				NOT = { has_building = building_smack_bar }
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				free_amenities > 20
+
+				# we shouldn't be building more than one of these
+				has_building = building_eavy_metal_stage
+				has_building = building_smack_bar
+
+				# don't build in consumer goods deficit ( if we care about goods )
+				AND = {
+					owner = {
+						has_monthly_income = {
+							resource = consumer_goods
+							value < 0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+building_ork_barrack = {
+	base_buildtime = 240
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 10
+		planet_amenities_add = 10
+	}
+	
+	army_modifier = {
+		army_starting_experience_add = 200
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}	
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100 #High weight to gurantee that if the below is true then the AI should build it
+			free_housing < 3 #Prevents the AI from running out of residences when nearly out of tiles
+			OR = {
+				free_jobs > 0 #prevents spamming of residence buildings when no jobs are open
+				AND = {
+					free_housing < 0 #Prevents the AI from running out of residences when nearly out of tiles
+					NOT = { any_owned_pop = { is_unemployed = yes } }
+				}
+			}
+			free_district_slots = 0 #Do not build when city districts can still be built
+		}
+		modifier = {
+			factor = 0
+			has_building = building_ork_barrack
+		}
+	}
+}
+
+building_troop_transmitta = {
+	base_buildtime = 240
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	planet_modifier = {
+		planet_army_build_speed_mult = -0.15
+		armies_cost_mult = -0.1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}	
+		upkeep = {
+			energy = 50
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			has_building = building_troop_transmitta
+		}
+	}
+}
+
+building_sentry_post = {
+	base_buildtime = 240
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+
+	planet_modifier = {
+		job_ork_nob_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+	
+	triggered_desc = {
+		text = job_ork_nob_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			free_jobs < 1
+			free_building_slots > 1
+			owner = { used_naval_capacity_percent > 0.9	}
+		}
+		modifier = {
+			weight = 100
+			is_planet_class = pc_orkworld
+			owner = { used_naval_capacity_percent > 0.8	}
+		}
+		modifier = {
+			weight = 25
+			num_pops > 39
+			NOT = {	has_building = building_sentry_post }
+		}
+	}
+}
+
+building_skull_trophy_rack = {
+	base_buildtime = 120
+	base_cap_amount = 1
+	
+	category = unity
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	prerequisites = { "tech_trophy_rack" }
+
+	planet_modifier = {
+		job_yeller_add = 1
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+
+	triggered_desc = {
+		text = job_yeller_effect_desc
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+	
+	ai_resource_production = {
+		unity = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_mechboss_site_totem = {
+	base_buildtime = 120
+	base_cap_amount = 1
+	
+	category = manufacturing
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	prerequisites = { "tech_kult_of_speed" }
+	
+	country_modifier = {
+		ships_upkeep_mult = -0.1
+	}
+	
+	planet_modifier = {
+		planet_buildings_cost_mult = -0.15
+		planet_districts_cost_mult = -0.1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_boss_skull_tower = {
+	base_buildtime = 120
+	base_cap_amount = 1
+	
+	category = resource
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	prerequisites = { "tech_towers" }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+		planet_jobs_minerals_produces_mult = 0.25
+		planet_jobs_food_produces_mult = 0.25
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_dedard_dakka_tower = {
+	base_buildtime = 120
+	base_cap_amount = 1
+	
+	category = army
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	prerequisites = { "tech_towers" }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+
+	planet_modifier = {
+		biological_pop_happiness = 0.15
+	}
+	
+	army_modifier = {
+		army_attack_health_mult = 0.1
+		army_attack_damage_mult = 0.1
+		army_attack_morale_mult = 0.5
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+building_freak_tower = {
+	base_buildtime = 120
+	base_cap_amount = 1
+
+	category = government
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+	
+	prerequisites = { "tech_towers" }
+
+	planet_modifier = {
+		planet_jobs_slave_produces_mult = 0.05
+		pop_cat_slave_political_power = -0.25
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+			NOT = { any_owned_pop = { is_enslaved = yes } }
+		}
+	}
+}
+
+building_watch_tower = {
+	base_buildtime = 120
+	base_cap_amount = 3
+	
+	category = army
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+
+	prerequisites = { "tech_towers" }
+	
+	planet_modifier = {
+		job_ork_boy_add = 5
+		planet_crime_add = -20
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 300
+		}
+	}
+	
+	triggered_desc = {
+		text = job_ork_boy_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			planet_crime > 15
+			NOT = { 
+				num_buildings = { type = building_watch_tower value = 3 } 
+			}
+		}
+	}
+}
+
+building_dakka_platform = {
+	base_buildtime = 240
+	
+	category = government
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = ork_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = ork_empire } }
+	}
+
+	planet_modifier = {
+		job_sumboy_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+	}
+
+	triggered_desc = {
+		text = job_sumboy_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 20
+			owner = { empire_sprawl_over_cap > 0 }
+		}
+		modifier = {
+			weight = 50
+			owner = { empire_sprawl_over_cap > 10 }
+		}
+		modifier = {
+			weight = 100
+			owner = { empire_sprawl_over_cap > 20 }
+		}
+		modifier = {
+			weight = 500
+			owner = { empire_sprawl_over_cap > 40 }
+		}
+	}
+}

@@ -730,7 +730,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:marauder_species
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -1050,7 +1050,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:encountered_marauder
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -1135,7 +1135,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = from
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -1322,7 +1322,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -1645,7 +1645,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -1842,7 +1842,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -2052,7 +2052,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -2331,7 +2331,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -2763,7 +2763,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -2838,7 +2838,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -2901,7 +2901,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:current_marauder_diplomacy
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -4174,7 +4174,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:encountered_marauder
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -4211,7 +4211,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:encountered_marauder
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -4248,7 +4248,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:encountered_marauder
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -4367,7 +4367,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raiding_marauder
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -4956,7 +4956,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = from
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -5858,7 +5858,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raid_parent
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -5895,7 +5895,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = from
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -6353,7 +6353,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raiding_marauder
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -7493,7 +7493,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raider_khanate
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -7777,7 +7777,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raider_khanate
-		room = "ethic_spaceship_room"
+		room = "corsair_room"
 	}
 
 	is_triggered_only = yes
@@ -8423,7 +8423,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raider_khanate
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -8539,7 +8539,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raider_khanate
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes
@@ -8734,7 +8734,7 @@ country_event = {
 
 	picture_event_data = {
 		portrait = event_target:raider_khanate
-		room = ethic_spaceship_room
+		room = corsair_room
 	}
 
 	is_triggered_only = yes

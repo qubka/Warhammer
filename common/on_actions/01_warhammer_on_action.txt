@@ -1,8 +1,9 @@
 # Triggers when the game starts
 on_game_start = {
 	events = {
+		start.1
+		relics.1
 		leaders.1
-		leaders.2
 		planets.1
 		marauder.999
 	}
@@ -12,5 +13,15 @@ on_game_start = {
 on_yearly_pulse = {
 	events = {
 		leaders.2
+	}
+}
+
+# Planet has reached 0 pops from orbital bombardment
+# This = Planet
+# From = Bombarder
+on_planet_zero_pops = {
+	events = {
+		bombardments.1
+		bombardments.10
 	}
 }

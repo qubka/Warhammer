@@ -919,7 +919,7 @@ building_clone_vats = {
 	}
 
 	planet_modifier = {
-		pop_growth_speed = 0.33
+		bio_pop_growth_speed = 0.33
 	}
 
 	resources = {

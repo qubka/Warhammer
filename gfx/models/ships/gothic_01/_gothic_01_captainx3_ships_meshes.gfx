@@ -1,0 +1,185 @@
+objectTypes = {
+
+	######################
+	### NEW NSC MESHES ###
+	######################
+
+		#######  frigate sections  #######	
+		
+		pdxmesh = {
+		name = "gothic_01_frigate_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/corvette/gothic_01_frigate_NSC.mesh"
+		scale = 2
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		#######  LightCarrier sections  #######	
+		
+		pdxmesh = {
+		name = "gothic_01_ec_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/battlecruiser/gothic_01_ec_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "gothic_01_ec_frame_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/battlecruiser/gothic_01_ec_frame_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+		#######  StrikeCruiser sections  #######	
+		
+		pdxmesh = {
+		name = "gothic_01_sc_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/cruiser/gothic_01_cruiser_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "gothic_01_sc_frame_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/cruiser/gothic_01_cruiser_frame_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+
+	
+		#######  Battlecruiser sections  #######	
+		
+		pdxmesh = {
+		name = "gothic_01_battlecruiser_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/battlecruiser/gothic_01_overlord_bc_nsc.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+		pdxmesh = {
+		name = "gothic_01_battlecruiser_NSC_frame_mesh"
+		file = "gfx/models/ships/gothic_01/battlecruiser/gothic_01_overlord_frame.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+		#######  Dreadnought sections  #######	
+
+		pdxmesh = {
+		name = "gothic_01_dn_frame_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_dn_NSC_frame.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "gothic_01_dn_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_dn_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "gothic_01_dn2_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_dn2_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+		pdxmesh = {
+		name = "gothic_01_dn3_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_dn3_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+		pdxmesh = {
+		name = "gothic_01_dn_lights_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_dn_lights_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}		
+
+		#######  Carrier sections  #######	
+		
+		pdxmesh = {
+		name = "gothic_01_ca_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_ca_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+		pdxmesh = {
+		name = "gothic_01_ca_frame_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/dreadnought/gothic_01_ca_frame_NSC.mesh"
+		scale = 2.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+		#######  Flag sections  #######	
+		
+		pdxmesh = {
+		name = "gothic_01_flag_NSC_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_flag_NSC.mesh"
+		scale = 8.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "gothic_01_dreadnought_frame_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_dreadnought_frame.mesh"
+				animation = { id = "idle"			type = "gothic_01_dreadnought_frame_idle_animation" }
+				animation = { id = "death"			type = "gothic_01_dreadnought_frame_death_animation" }
+				animation = { id = "attack"			type = "gothic_01_dreadnought_frame_idle_animation" }	
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_flagship_frame_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_flagship_frame.mesh"
+				animation = { id = "idle"			type = "gothic_01_flagship_frame_idle_animation" }
+				animation = { id = "death"			type = "gothic_01_flagship_frame_death_animation" }
+				animation = { id = "attack"			type = "gothic_01_flagship_frame_idle_animation" }	
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "gothic_01_battlecruiser_frame_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_battlecruiser_frame.mesh"
+				animation = { id = "idle"			type = "gothic_01_battlecruiser_frame_idle_animation" }
+				animation = { id = "death"			type = "gothic_01_battlecruiser_frame_death_animation" }
+				animation = { id = "attack"			type = "gothic_01_battlecruiser_frame_idle_animation" }	
+		scale = 1.0
+	}
+
+}

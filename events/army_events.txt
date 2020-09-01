@@ -1,0 +1,595 @@
+namespace = armies
+
+country_event = {
+	id = armies.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			if = {
+				limit = {
+					has_planet_flag = spacemarine_homeworld
+				}
+				while = {
+					count = 15
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "scouts_space_marines"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "landraider"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "dreadnought"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "razorback"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "predator"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "terminator"
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "tactical_space_marines"
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "assault_space_marines"
+					}
+				}
+				create_army = {
+					name = "Adeptus Astartes"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "librarian"
+				}
+				create_army = {
+					name = "Adeptus Astartes"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "apothecary"
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Adeptus Astartes"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "scouts_space_marines_defense"
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						is_planet_class = pc_industrial
+						is_planet_class = pc_armoury
+						is_planet_class = pc_shrine
+						is_planet_class = pc_fortress
+						is_planet_class = pc_hive_medium
+						is_planet_class = pc_hive_arid
+						is_planet_class = pc_hive_continental_01
+						is_planet_class = pc_hive_continental_02
+						is_planet_class = pc_hive_ocean
+						is_planet_class = pc_hive_tundra
+						is_planet_class = pc_super_hive
+						is_planet_class = pc_mega_hive
+						is_planet_class = pc_hive_industrial
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "imperial_guard_big"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "sentinel"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "manticore"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "chimera"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "banewolf"
+					}
+				}
+				while = {
+					count = 2
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "baneblade"
+					}
+				}
+				create_army = {
+					name = "Imperial Guard"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "leman_russ"
+				}
+				create_army = {
+					name = "Imperial Guard"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "heavy_weapon_squad"
+				}
+				create_army = {
+					name = "Imperial Guard"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "stormtroopers"
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "imperial_guard_big_defense"
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						is_planet_class = pc_forge
+						is_planet_class = pc_forgee
+						is_planet_class = pc_forgeee
+						is_planet_class = pc_forge_ring
+						is_planet_class = pc_forge_ring2
+						is_planet_class = pc_forge_ring3
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Skittari Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "skitarii"
+					}
+				}
+				create_army = {
+					name = "Skittari Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "warhound_titan"
+				}
+				create_army = {
+					name = "Skittari Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "reaver_titan"
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Skittari Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "skitarii_defense"
+					}
+				}
+				create_army = {
+					name = "Skittari Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "collegia_titanica_defense"
+				}
+			}
+			else_if = {
+				limit = {
+					is_capital = yes
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "imperial_guard_small"
+					}
+				}
+				while = {
+					count = 3
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "ogryn_squad"
+					}
+				}
+				while = {
+					count = 2
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "heavy_weapon_squad"
+					}
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Imperial Guard"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "imperial_guard_small_defense"
+					}
+				}
+			}
+		}		
+	}
+}
+
+country_event = {
+	id = armies.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			if = {
+				limit = {
+					OR = {
+						is_planet_class = pc_daemon
+						is_planet_class = pc_daemonn
+						is_planet_class = pc_daemont
+						is_planet_class = pc_daemons
+					}
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Chaos Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "bloodletters"
+					}
+				}
+				create_army = {
+					name = "Chaos Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "chaos_spawn"
+				}
+			}
+			while = {
+				count = 10
+				create_army = {
+					name = "Chaos Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "cultists_defense"
+				}
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = armies.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			if = {
+				limit = {
+					is_planet_class = pc_tomb
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Necron Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "necron_warriors"
+					}
+				}
+			}
+			while = {
+				count = 10
+				create_army = {
+					name = "Necron Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "lychguard_defense"
+				}
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = armies.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			if = {
+				limit = {
+					OR = {
+						is_planet_class = pc_advancexenocity
+						is_planet_class = pc_advancexenocityy
+						is_planet_class = pc_advancexenocityyy
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Tau Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "fire_warriors"
+					}
+				}
+			}
+			while = {
+				count = 10
+				create_army = {
+					name = "Tau Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "fire_warriors_defense"
+				}
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = armies.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			if = {
+				limit = {
+					is_planet_class = pc_craftworld
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Eldar Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "wraithknight"
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Eldar Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "ranger_squad"
+					}
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Eldar Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "guardian_squad_defense"
+					}
+			}
+			}
+			while = {
+				count = 10
+				create_army = {
+					name = "Eldar Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "ranger_squad_defense"
+				}
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = armies.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			if = {
+				limit = {
+					is_planet_class = pc_webway
+				}
+				while = {
+					count = 5
+					create_army = {
+						name = "Dark Eldar Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "wyches"
+					}
+				}
+				while = {
+					count = 10
+					create_army = {
+						name = "Dark Eldar Army"
+						owner = event_target:army_owner
+						species = owner_main_species
+						type = "kabalite_warriors_defense"
+					}
+				}
+			}
+			while = {
+				count = 10
+				create_army = {
+					name = "Dark Eldar Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "ravager_defense"
+				}
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = armies.7
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			while = {
+				count = 10
+				create_army = {
+					name = "Ork Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "ork_nobz"
+				}
+			}
+			while = {
+				count = 5
+				create_army = {
+					name = "Ork Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "ork_nobz_defense"
+				}
+			}
+			while = {
+				count = 5
+				create_army = {
+					name = "Ork Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "stormboyz_defense"
+				}
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = armies.8
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = army_owner }
+			while = {
+				count = 10
+				create_army = {
+					name = "Tyranid Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "genestealer"
+				}
+			}
+			while = {
+				count = 5
+				create_army = {
+					name = "Tyranid Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "ripper_swarm_defense"
+				}
+			}
+			while = {
+				count = 5
+				create_army = {
+					name = "Tyranid Army"
+					owner = event_target:army_owner
+					species = owner_main_species
+					type = "spore_mines_defense"
+				}
+			}
+		}	
+	}
+}

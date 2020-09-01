@@ -1,5 +1,3 @@
-Line 1090:  = {
-
 decision_spore_settleming_project = {
 	owned_planets_only = yes
 
@@ -11,6 +9,8 @@ decision_spore_settleming_project = {
 			energy = 2500
 		}
 	}
+
+	prerequisites = { "tech_spore_settle" }
 
 	potential = {
 		OR = {
@@ -45,7 +45,7 @@ decision_spore_settleming_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 100
 	}
 }
 
@@ -89,6 +89,6 @@ decision_spore_cleaning_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 500
 	}
 }

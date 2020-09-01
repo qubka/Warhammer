@@ -17,7 +17,7 @@ cultists = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 50
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -25,13 +25,38 @@ cultists = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_blighted_corrupt_bolter" }
 
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-			#is_country_type = "chaos"
+		owner = { has_country_flag = chaos_empire }
+	}
+}
+
+plague_zombies = {
+	damage = 0.5
+	health = 6.7
+	morale = 10.0
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 110
+	
+	icon_frame = 101
+	
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 5
 		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	prerequisites = { "tech_plague_zombies" }
+	
+	potential = {
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -48,7 +73,7 @@ bloodcrusher = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 70
+			gods_favor = 10
 		}
 
 		upkeep = {
@@ -56,19 +81,20 @@ bloodcrusher = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_daemon_army" "tech_war_beasts" }
 
-	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+	allow = {
+		has_building = building_daemon_pit
 	}
 	
+	potential = {
+		owner = { has_country_flag = chaos_empire }
+	}
 }
 
 chaos_spawn = {
 	damage = 1.55
-	health = 3.55
+	health = 7.55
 	morale = 1.55
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
@@ -79,7 +105,7 @@ chaos_spawn = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			gods_favor = 5
 		}
 
 		upkeep = {
@@ -87,51 +113,21 @@ chaos_spawn = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_chaos_spawn" "tech_battle_mutations" }
+	
+	allow = {
+		has_building = building_daemon_pit
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
-	
-}
-
-plague_zombies = {
-	damage = 0.5
-	health = 6.7
-	morale = 10.0
-	collateral_damage = 1.00												
-	war_exhaustion = 0.0											
-	time = 110
-	
-	icon_frame = 101
-	
-	resources = {
-		category = armies
-		cost = {
-			minerals = 100
-		}
-
-		upkeep = {
-			energy = 3.5
-		}
-	}
-	
-	#prerequisites = { "tech_basic_army" }
-	
-	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
-	}
-	
 }
 
 defilers = {
-	damage = 1.80
-	health = 3.80
-	morale = 1.80
+	damage = 5.0
+	health = 4.5
+	morale = 3.0
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
 	time = 150
@@ -141,26 +137,26 @@ defilers = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			alloys = 350
+			electronics = 150
+			military_goods = 200
+			gods_favor = 10
 		}
 
 		upkeep = {
-			energy = 3.8
+			energy = 3.5
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_defilers_visage" "tech_lord_iron_halo" "tech_turret_lascannons" }
 	
 	allow = {
-		#has_building = "defilers_recruitment"
+		has_building = building_daemon_pit
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
-	
 }
 
 chaos_dreadnaught = {
@@ -176,7 +172,10 @@ chaos_dreadnaught = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 500
+			alloys = 350
+			electronics = 150
+			military_goods = 200
+			gene_seed = 1
 		}
 
 		upkeep = {
@@ -184,10 +183,10 @@ chaos_dreadnaught = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_dreadnought_double_claw" "tech_dread_missile_launcher" "tech_turret_lascannons" }
 
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		has_building = building_machine_pit
 	
 		owner = {
 			NOT = { 
@@ -197,7 +196,6 @@ chaos_dreadnaught = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -219,15 +217,13 @@ chaos_dreadnaught = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
 chaos_predator = {
 	damage = 5
-	health = 3
+	health = 4
 	morale = 2
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
@@ -238,7 +234,10 @@ chaos_predator = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 750
+			alloys = 750
+			electronics = 150
+			military_goods = 100
+			gene_seed = 5
 		}
 
 		upkeep = {
@@ -246,18 +245,15 @@ chaos_predator = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_predator_lascannons" "tech_predator_mark_of_khorne" "tech_predator_mark_of_nurgle" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_machine_pit
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
-	
 }
 
 bloodletters = {
@@ -273,7 +269,7 @@ bloodletters = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 400
+			gods_favor = 5
 		}
 
 		upkeep = {
@@ -281,39 +277,32 @@ bloodletters = {
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_daemon_army" "tech_sword_of_flame" "tech_daemon_commander" }
 		
 	allow = {
-		planet = {
-			OR = {
-				is_planet_class = pc_daemon
-				is_planet_class = pc_daemont
-				is_planet_class = pc_daemons
-				is_planet_class = pc_daemonn
+		OR = {
+			has_building = building_daemon_pit
+			
+			planet = {
+				OR = {
+					is_planet_class = pc_daemon
+					is_planet_class = pc_daemont
+					is_planet_class = pc_daemons
+					is_planet_class = pc_daemonn
+				}
 			}
 		}
 	}
 	
 	potential = {
-		planet = {
-			OR = {
-				is_planet_class = pc_daemon
-				is_planet_class = pc_daemont
-				is_planet_class = pc_daemons
-				is_planet_class = pc_daemonn
-			}
-		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
-	
 }
 
 nurglings = {
-	damage = 1.65
-	health = 3.65
-	morale = 1.65
+	damage = 1.0
+	health = 3.5
+	morale = 1.0
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
 	time = 110
@@ -323,7 +312,7 @@ nurglings = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 90
+			food = 10
 		}
 
 		upkeep = {
@@ -331,15 +320,20 @@ nurglings = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_nurglings" "tech_swarm_of_flies" "tech_vomit" }
+	
+	allow = {
+		OR = {
+			has_building = building_daemon_pit
+			
+			planet = {
+				is_planet_class = pc_daemonn
+			}
+		}
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
-		planet = {
-			is_planet_class = pc_daemonn
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -349,14 +343,15 @@ havocs = {
 	morale = 1.65
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0
-	time = 200
+	time = 400
 	
 	icon_frame = 107
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
+			gene_seed = 5
 		}
 
 		upkeep = {
@@ -364,15 +359,14 @@ havocs = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_inferno_armor" "tech_lascannon" "tech_autocannon" "tech_grenade_launchers" }
+	
+	allow = {
+		has_building = building_chaos_temple
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
-		planet = {
-			is_planet_class = pc_daemon
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -382,14 +376,15 @@ noise_marines = {
 	morale = 5.65
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0
-	time = 250
+	time = 450
 	
 	icon_frame = 108
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			military_goods = 20
+			gene_seed = 10
 		}
 
 		upkeep = {
@@ -397,15 +392,14 @@ noise_marines = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_robes_of_torment" "tech_blastmaster" "tech_combi_flamer" "tech_traitor_sidearm" }
+	
+	allow = {
+		has_building = building_chaos_temple
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
-		planet = {
-			is_planet_class = pc_daemons
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -415,14 +409,15 @@ plague_marines = {
 	morale = 5.65
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0
-	time = 300
+	time = 500
 	
 	icon_frame = 135
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 300
+			military_goods = 30
+			gene_seed = 20
 		}
 
 		upkeep = {
@@ -430,15 +425,14 @@ plague_marines = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_plaguemarine_armor" "tech_plaguemarine_plague_sword" "tech_pestilent_spewer" "tech_power_fist_nurgle" }
+	
+	allow = {
+		has_building = building_chaos_temple
+	}
 	
 	potential = {
-		planet = {
-			is_planet_class = pc_daemonn
-		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -448,35 +442,43 @@ great_unclear_one = {
 	morale = 10.0
 	collateral_damage = 1.00												
 	war_exhaustion = 0.0											
-	time = 500
+	time = 600
 	
 	icon_frame = 109
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 2000
+			gods_favor = 200
 		}
 
 		upkeep = {
-			energy = 10
+			gods_favor = 1
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_daemon_army" "tech_swarm_of_flies" "tech_vomit" "tech_great_summoning" }
 	
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		OR = {
+			has_building = building_daemon_pit
+			
+			AND = {
+				has_building = building_nurgle_castle
+				planet = {
+					is_planet_class = pc_daemonn
+				}
+			}
+		}
 	
 		owner = {
 			NOT = { 
 				check_variable = {
 					which = "great_unclear_one_count" 
-					value = 3
+					value = 1
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -496,13 +498,8 @@ great_unclear_one = {
 			}
 		}
 	}
-	
+
 	potential = {
-		planet = {
-			is_planet_class = pc_daemonn
-		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }

@@ -1,0 +1,512 @@
+building_cadre_headquarters = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}	
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+
+	convert_to = {
+		building_tyranid_hive
+		building_hall_of_blood
+		building_paradisaic_complex
+		building_auditorium
+		building_irontoff_bastion
+		building_ancient_monolith
+		building_chaos_tower
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 20
+		job_noble_add = 1
+		job_executive_add = 2
+	}
+
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_noble_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_executive_effect_desc
+	}
+		
+	ai_weight = {
+		weight = 1
+	}
+}
+
+building_civilian_factory = {
+	base_buildtime = 240
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		job_artisan_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_artisan_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 25
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		consumer_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_vehicle_beacon = {
+	base_buildtime = 240
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		job_military_artisan_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_military_artisan_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = military_goods
+					value < 5
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		military_goods = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_shaping_center = {
+	base_buildtime = 240
+
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		job_electronics_manufacturer_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+
+	triggered_desc = {
+		text = job_electronics_manufacturer_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = electronics
+					value < 5
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		electronics = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_plasma_chamber = {
+	base_buildtime = 240
+
+	category = resource
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		job_technician_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		produces = {
+			energy = 100
+		}
+	}
+	
+	triggered_desc = {
+		text = job_technician_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value < 100
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		energy = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_thermo_plasma_chamber = {
+	base_buildtime = 240
+	
+	category = manufacturing
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		job_foundry_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = {
+				exists = owner
+				owner = { NAND = { has_deficit = minerals has_deficit = energy } }
+			}
+			alloys = 10
+		}
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			minerals = 20
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_technician_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 10
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		alloys = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+building_path_to_enlightenment = {
+	base_buildtime = 240
+	base_cap_amount = 1
+	
+	category = government
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		job_bureaucrat_add = 10
+		job_enforcer_add = 2
+		bio_pop_growth_speed = 0.25
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	triggered_desc = {
+		text = job_bureaucrat_effect_desc
+	}
+	
+	triggered_desc = {
+		text = job_enforcer_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 20
+			owner = { empire_sprawl_over_cap > 0 }
+		}
+		modifier = {
+			weight = 50
+			owner = { empire_sprawl_over_cap > 10 }
+		}
+		modifier = {
+			weight = 100
+			owner = { empire_sprawl_over_cap > 20 }
+		}
+		modifier = {
+			weight = 500
+			owner = { empire_sprawl_over_cap > 40 }
+		}
+		modifier = {
+			weight = 1000
+			planet_crime > 15
+		}
+	}
+}
+
+building_coalition_center = {
+	base_buildtime = 240
+
+	category = amenity
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 20
+		planet_amenities_add = 20
+		job_merchant_add = 5
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	triggered_desc = {
+		text = job_merchant_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 100 #High weight to gurantee that if the below is true then the AI should build it
+			free_housing < 3 #Prevents the AI from running out of residences when nearly out of tiles
+			OR = {
+				free_jobs > 0 #prevents spamming of residence buildings when no jobs are open
+				AND = {
+					free_housing < 0 #Prevents the AI from running out of residences when nearly out of tiles
+					NOT = { any_owned_pop = { is_unemployed = yes } }
+				}
+			}
+			free_district_slots = 0 #Do not build when city districts can still be built
+		}
+		modifier = {
+			factor = 0
+			has_building = building_coalition_center
+		}
+	}
+}
+
+building_listening_post = {
+	base_buildtime = 240
+
+	category = army
+	
+	potential = {
+		exists = owner
+		owner = { has_country_flag = tau_empire }
+	}
+	
+	destroy_trigger = {
+		exists = owner
+		owner = { NOT = { has_country_flag = tau_empire } }
+	}
+
+	planet_modifier = {
+		job_soldier_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	triggered_desc = {
+		text = job_soldier_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 1
+			free_jobs < 1
+			free_building_slots > 1
+			owner = { used_naval_capacity_percent > 0.9	}
+		}
+		modifier = {
+			weight = 100
+			OR = {
+				is_planet_class = pc_advancexenocity
+				is_planet_class = pc_advancexenocityy
+				is_planet_class = pc_advancexenocityyy
+			}
+			owner = { used_naval_capacity_percent > 0.8	}
+		}
+		modifier = {
+			weight = 25
+			num_pops > 39
+			NOT = {	has_building = building_listening_post }
+		}
+	}
+}

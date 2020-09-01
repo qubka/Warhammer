@@ -1,0 +1,193 @@
+# Ecumenpolis
+col_ecu_mix = {
+	icon = 1
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_advancecity
+			is_planet_class = pc_advancexenocity
+			is_planet_class = pc_advancexenocityy 
+			is_planet_class = pc_advancexenocityyy
+		}
+	}
+
+	planet_modifier = {
+		planet_districts_cost_mult = -0.05
+	}
+
+	weight_modifier = {
+		base = 10
+	}
+}
+
+# Ecumenpolis Foundry
+col_ecu_foundry = {
+	icon = 5
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_advancecity
+			is_planet_class = pc_advancexenocity
+			is_planet_class = pc_advancexenocityy 
+			is_planet_class = pc_advancexenocityyy
+		}
+	}
+	
+	planet_modifier = {
+		planet_district_arcology_arms_industry_build_speed_mult = 0.25
+		planet_metallurgists_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = alloys value < 100 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_ecu_foundry
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_arcology_arms_industry value >= 2 }
+		}
+		modifier = {
+			add = 5
+			num_districts = { type = district_arcology_arms_industry value >= 3 }
+		}
+		modifier = {
+			add = 10
+			num_districts = { type = district_arcology_arms_industry value >= 4 }
+		}
+	}
+}
+
+# Ecumenpolis Factory
+col_ecu_factory = {
+	icon = 6
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_advancecity
+			is_planet_class = pc_advancexenocity
+			is_planet_class = pc_advancexenocityy 
+			is_planet_class = pc_advancexenocityyy
+		}
+	}
+
+	planet_modifier = {
+		planet_district_arcology_civilian_industry_build_speed_mult = 0.25
+		planet_artisans_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = consumer_goods value < 5 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_ecu_factory
+		}
+		modifier = {
+			add = 2
+			num_districts = { type = district_arcology_civilian_industry value >= 2 }
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_arcology_civilian_industry value >= 3 }
+		}
+		modifier = {
+			add = 6
+			num_districts = { type = district_arcology_civilian_industry value >= 4 }
+		}
+	}
+}
+
+# Ecumenpolis Leisure
+col_ecu_leisure = {
+	icon = 14
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_advancecity
+			is_planet_class = pc_advancexenocity
+			is_planet_class = pc_advancexenocityy 
+			is_planet_class = pc_advancexenocityyy
+		}
+	}
+
+	planet_modifier = {
+		planet_amenities_mult = 0.5
+		pop_citizen_happiness = 0.05
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			has_designation = col_ecu_leisure
+		}
+		modifier = {
+			add = 2
+			num_districts = { type = district_arcology_leisure value >= 2 }
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_arcology_leisure value >= 3 }
+		}
+		modifier = {
+			add = 6
+			num_districts = { type = district_arcology_leisure value >= 4 }
+		}
+	}
+}
+
+# Ecumenpolis Research
+col_ecu_research = {
+	icon = 8
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_city
+			is_planet_class = pc_advancecity
+			is_planet_class = pc_advancexenocity
+			is_planet_class = pc_advancexenocityy 
+			is_planet_class = pc_advancexenocityyy
+		}
+	}
+
+	planet_modifier = {
+		planet_researchers_upkeep_mult = -0.5
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = physics_research value < 200 } }
+			owner = { has_monthly_income = { resource = society_research value < 200 } }
+			owner = { has_monthly_income = { resource = engineering_research value < 200 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_ecu_research
+		}
+	}
+}

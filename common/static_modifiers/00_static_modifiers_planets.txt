@@ -1,0 +1,379 @@
+# FORGE
+
+industrial_planet = {
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_alloys_produces_mult = 0.1
+	planet_jobs_consumer_goods_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.1
+	planet_pops_consumer_goods_upkeep_mult = 0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_factory.dds"
+	icon_frame = 2
+}
+
+forge_planet = {
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_alloys_produces_mult = 0.25
+	planet_jobs_consumer_goods_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.2
+	planet_pops_consumer_goods_upkeep_mult = 0.15
+	icon = "gfx/interface/icons/planet_modifiers/pm_forge.dds"
+	icon_frame = 2
+}
+
+forgee_planet = {
+	planet_jobs_energy_produces_mult = 0.25
+	planet_jobs_alloys_produces_mult = 0.1
+	planet_jobs_consumer_goods_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.2
+	planet_pops_consumer_goods_upkeep_mult = 0.2
+	icon = "gfx/interface/icons/planet_modifiers/pm_forge.dds"
+	icon_frame = 2
+}
+
+forgeee_planet = {
+	planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_alloys_produces_mult = 0.1
+	planet_jobs_consumer_goods_produces_mult = 0.25
+	planet_jobs_food_produces_mult = -0.2
+	planet_pops_consumer_goods_upkeep_mult = 0.2
+	icon = "gfx/interface/icons/planet_modifiers/pm_forge.dds"
+	icon_frame = 2
+}
+
+forge_ring_planet = {
+	planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_alloys_produces_mult = 0.5
+	planet_jobs_consumer_goods_produces_mult = 0.2
+	planet_jobs_food_produces_mult = -0.5
+	planet_jobs_engineering_research_produces_mult = 0.5
+	planet_pops_consumer_goods_upkeep_mult = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_forge.dds"
+	icon_frame = 2
+}
+
+forge_ring2_planet = {
+	planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_alloys_produces_mult = 0.2
+	planet_jobs_consumer_goods_produces_mult = 0.2
+	planet_jobs_food_produces_mult = -0.5
+	planet_jobs_engineering_research_produces_mult = 0.5
+	planet_pops_consumer_goods_upkeep_mult = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_forge.dds"
+	icon_frame = 2
+}
+
+forge_ring3_planet = {
+	planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_alloys_produces_mult = 0.2
+	planet_jobs_consumer_goods_produces_mult = 0.5
+	planet_jobs_food_produces_mult = -0.5
+	planet_jobs_engineering_research_produces_mult = 0.5
+	planet_pops_consumer_goods_upkeep_mult = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_forge.dds"
+	icon_frame = 2
+}
+
+# HIVE
+
+hive_small_planet = {
+	planet_jobs_consumer_goods_produces_mult = 0.1
+	planet_jobs_unity_produces_mult = 0.3
+	planet_jobs_food_produces_mult = -0.1
+	planet_pops_consumer_goods_upkeep_mult = -0.1
+	planet_army_build_speed_mult = 0.05
+	icon = "gfx/interface/icons/planet_modifiers/pm_hive.dds"
+	icon_frame = 2
+}
+
+hive_medium_planet = {
+	planet_jobs_consumer_goods_produces_mult = 0.3
+	planet_jobs_unity_produces_mult = 0.5
+	planet_jobs_food_produces_mult = -0.2
+	planet_pops_consumer_goods_upkeep_mult = -0.2
+	planet_army_build_speed_mult = 0.1
+	planet_districts_cost_mult = 0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_hive.dds"
+	icon_frame = 2
+}
+
+hive_industrial_planet = {
+	planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_alloys_produces_mult = 0.5
+	planet_jobs_food_produces_mult = -0.2
+	planet_pops_consumer_goods_upkeep_mult = -0.2
+	planet_army_build_speed_mult = 0.1
+	planet_districts_cost_mult = 0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_hive.dds"
+	icon_frame = 2
+}
+
+super_hive_planet = {
+	planet_jobs_energy_produces_mult = 0.3
+	planet_jobs_alloys_produces_mult = 0.5
+	planet_jobs_consumer_goods_produces_mult = 0.4
+	planet_jobs_unity_produces_mult = 0.7
+	planet_jobs_food_produces_mult = -0.3
+	planet_pops_consumer_goods_upkeep_mult = -0.4
+	planet_army_build_speed_mult = 0.15
+	planet_districts_cost_mult = 0.2
+	icon = "gfx/interface/icons/planet_modifiers/pm_hive.dds"
+	icon_frame = 2
+}
+
+mega_hive_planet = {
+	planet_jobs_energy_produces_mult = 0.4
+	planet_jobs_alloys_produces_mult = 0.5
+	planet_jobs_consumer_goods_produces_mult = 0.5
+	planet_jobs_unity_produces_mult = 0.4
+	planet_jobs_food_produces_mult = -0.4
+	planet_jobs_physics_research_produces_mult = 0.5
+	planet_jobs_society_research_produces_mult = 0.5
+	planet_pops_consumer_goods_upkeep_mult = -0.5
+	planet_army_build_speed_mult = 0.2
+	planet_districts_cost_mult = 0.3
+	icon = "gfx/interface/icons/planet_modifiers/pm_hive.dds"
+	icon_frame = 2
+}
+
+# DAEMON
+
+daemon_planet = {
+	planet_jobs_energy_produces_mult = -0.1
+	planet_jobs_minerals_produces_mult = -0.1
+	planet_jobs_food_produces_mult = -0.2
+	planet_orbital_bombardment_damage = -0.15
+	icon = "gfx/interface/icons/planet_modifiers/pm_daemon.dds"
+	icon_frame = 2
+}
+
+daemonn_planet = {
+	planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_food_produces_mult = 0.5
+	planet_pops_organics_upkeep_mult = -0.3
+	icon = "gfx/interface/icons/planet_modifiers/pm_daemon.dds"
+	icon_frame = 2
+}
+
+daemont_planet = {
+	planet_jobs_physics_research_produces_mult = 0.25
+	planet_jobs_society_research_produces_mult = 0.25
+	planet_jobs_engineering_research_produces_mult = 0.25
+	planet_buildings_cost_mult = -0.5
+	icon = "gfx/interface/icons/planet_modifiers/pm_daemon.dds"
+	icon_frame = 2
+}
+
+daemons_planet = {
+	planet_jobs_energy_produces_mult = -0.1
+	planet_jobs_minerals_produces_mult = -0.1
+	planet_jobs_food_produces_mult = -0.1
+	planet_amenities_mult = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_daemon.dds"
+	icon_frame = 2
+}
+
+# XENO
+
+advancexenocity_planet = {
+    planet_jobs_energy_produces_mult = 0.4
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
+	icon_frame = 2
+}
+
+advancexenocityy_planet = {
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_food_produces_mult = 0.3
+	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
+	icon_frame = 2
+}
+
+advancexenocityyy_planet = {
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_minerals_produces_mult = 0.4
+	planet_jobs_food_produces_mult = 0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
+	icon_frame = 2
+}
+
+advancecity_planet = {
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = -0.3
+	planet_jobs_food_produces_mult = 0.2
+	icon = "gfx/interface/icons/planet_modifiers/pm_advancexenocity.dds"
+	icon_frame = 2
+}
+
+orkworld_planet = {
+    planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_minerals_produces_mult = -0.1
+	planet_jobs_food_produces_mult = 0.5
+	planet_buildings_cost_mult = -0.25
+	bio_pop_growth_speed = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_ork.dds"
+	icon_frame = 2
+}
+
+# OTHER
+
+agri_planet = {
+    planet_jobs_energy_produces_mult = -0.5
+	planet_jobs_minerals_produces_mult = -0.5
+	planet_jobs_food_produces_mult = 1.0
+	planet_buildings_cost_mult = 0.25
+	bio_pop_growth_speed = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_agri.dds"
+	icon_frame = 2
+}
+
+shrine_planet = {
+	planet_jobs_unity_produces_mult = 0.5
+	planet_jobs_society_research_produces_mult = 0.5
+	planet_stability_add = 20
+	icon = "gfx/interface/icons/planet_modifiers/pm_shrine.dds"
+	icon_frame = 2
+}
+
+penal_planet = {
+	planet_crime_mult = 1
+	planet_immigration_pull_mult = 0.33
+	planet_buildings_cost_mult = 0.5
+	custom_tooltip = penal_colony_empire_effects
+	apply_modifier_to_other_planets = penal_colony_other_planets
+	icon = "gfx/interface/icons/planet_modifiers/pm_penal_colony.dds"
+	icon_frame = 2
+}	
+
+fortress_planet = {
+	planet_jobs_military_goods_produces_mult = 0.25
+	planet_stability_add = 10
+	planet_army_build_speed_mult = 0.15
+	icon = "gfx/interface/icons/planet_modifiers/pm_fortress.dds"
+	icon_frame = 2
+}
+
+armoury_planet = {
+	planet_buildings_cost_mult = -0.3
+	icon = "gfx/interface/icons/planet_modifiers/pm_armoury.dds"
+	icon_frame = 2
+}
+
+tomb_planet = {
+	planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = 0.5
+	planet_pop_assembly_mult = 0.2
+	planet_army_build_speed_mult = 0.5
+	icon = "gfx/interface/icons/planet_modifiers/pm_tomb.dds"
+	icon_frame = 2
+}
+
+craftworld_planet = {
+    planet_jobs_energy_produces_mult = 0.2
+	planet_jobs_minerals_produces_mult = 0.5
+	planet_jobs_unity_produces_mult = 0.7
+	planet_army_build_speed_mult = -0.1
+	planet_sensor_range_add = 2
+	icon = "gfx/interface/icons/planet_modifiers/pm_craftworld.dds"
+	icon_frame = 2
+}
+
+eternalcrusader_planet = {
+	planet_buildings_cost_mult = 0.4
+    planet_jobs_energy_produces_mult = -0.2
+	planet_jobs_minerals_produces_mult = -0.3
+	planet_jobs_food_produces_mult = -0.9
+	icon = "gfx/interface/icons/planet_modifiers/pm_eternalcrusader.dds"
+	icon_frame = 2
+}
+
+blackstonefortress_planet = {
+	planet_buildings_cost_mult = 0.1
+    planet_jobs_energy_produces_mult = -0.3
+	planet_jobs_minerals_produces_mult = -0.1
+	planet_jobs_food_produces_mult = -0.6
+	icon = "gfx/interface/icons/planet_modifiers/pm_blackstonefortress.dds"
+	icon_frame = 2
+}
+
+spacehulk_planet = {
+	planet_buildings_cost_mult = 0.5
+    planet_jobs_energy_produces_mult = -0.2
+	planet_jobs_minerals_produces_mult = -0.2
+	planet_jobs_food_produces_mult = -0.5
+	icon = "gfx/interface/icons/planet_modifiers/pm_spacehulk.dds"
+	icon_frame = 2
+}
+
+phalanx_planet = {
+	planet_buildings_cost_mult = 0.3
+    planet_jobs_energy_produces_mult = -0.1
+	planet_jobs_minerals_produces_mult = -0.4
+	planet_jobs_food_produces_mult = -0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_phalanx.dds"
+	icon_frame = 2
+}
+
+webway_planet = {
+	planet_buildings_cost_mult = 0.2
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = 0.3
+	planet_jobs_food_produces_mult = -0.5
+	icon = "gfx/interface/icons/planet_modifiers/pm_webway.dds"
+	icon_frame = 2
+}
+
+spacemarine_planet = {
+	planet_buildings_cost_mult = -0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_spacemarine.dds"
+	icon_frame = 2
+}
+
+mechanicus_planet = {
+	planet_buildings_cost_mult = -0.5
+	planet_jobs_minerals_produces_mult = 0.1
+	planet_jobs_energy_produces_mult = 0.1
+	planet_jobs_alloys_produces_mult = 0.1
+	planet_jobs_food_produces_mult = -0.2
+	icon = "gfx/interface/icons/planet_modifiers/pm_mechanicus.dds"
+	icon_frame = 2
+}
+
+# OTHER
+planet_burn_promethium = {
+	custom_tooltip = planet_burn_promethium_tooltip
+	icon = "gfx/interface/icons/planet_modifiers/pm_promethium.dds"
+	icon_frame = 1
+}
+
+planet_no_awakening = {
+	custom_tooltip = planet_no_awakening_tooltip
+	icon = "gfx/interface/icons/planet_modifiers/pm_awakening.dds"
+	icon_frame = 3
+}
+
+planet_no_sculpting = {
+	custom_tooltip = planet_no_sculpting_tooltip
+	icon = "gfx/interface/icons/planet_modifiers/pm_sculpting.dds"
+	icon_frame = 3
+}
+
+planet_rebelion_small = {
+	planet_jobs_energy_produces_mult = -0.33
+	planet_army_build_speed_mult = -0.33
+	building_time_mult = 0.50
+	pop_happiness = -0.2
+	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
+	icon_frame = 2
+}
+
+planet_rebelion_big = {
+	planet_jobs_energy_produces_mult = -0.63
+	planet_army_build_speed_mult = -0.63
+	building_time_mult = 0.50
+	pop_happiness = -0.3
+	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
+	icon_frame = 2
+}

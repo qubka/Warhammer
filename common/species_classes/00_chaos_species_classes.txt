@@ -20,8 +20,9 @@ CHA = {
 		"chaos_thousand_sons"
 		"chaos_word_bearer"
 		"chaos_world_eater"
+		"chaos_sons_of_malice"
     }
 	
-    graphical_culture = humanoid_01
+    graphical_culture = gothic_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

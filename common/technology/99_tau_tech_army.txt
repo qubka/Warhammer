@@ -1,0 +1,1449 @@
+tech_vespid_strain_leader = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VESPID_TITLE"
+			desc = "TECH_UNLOCK_VESPID_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_airbursting_fragmentation_projector = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_annihilation_warhead = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_cluster_rocket_system = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_combat_uniform = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FIRE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_FIRE_WARRIORS_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_communion_helm = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VESPID_TITLE"
+			desc = "TECH_UNLOCK_VESPID_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_demiurg_armor = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEMIURG_TITLE"
+			desc = "TECH_UNLOCK_DEMIURG_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_demiurg_gun = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEMIURG_TITLE"
+			desc = "TECH_UNLOCK_DEMIURG_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_dual_anti_grav_jet_propulsion_motive_system = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_TITLE"
+			desc = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_energy_drill = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DEMIURG_TITLE"
+			desc = "TECH_UNLOCK_DEMIURG_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_blue_flamer = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_TITLE"
+			desc = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fragmentation_cluster_shell_launcher = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fusion_blaster = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_TITLE"
+			desc = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fusion_cascade = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV25_STEALTHSUIT_TITLE"
+			desc = "TECH_UNLOCK_XV25_STEALTHSUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_fusion_eradicator = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_guevesa_armor = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUEVESA_TITLE"
+			desc = "TECH_UNLOCK_GUEVESA_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_heavy_burst_cannon = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_TITLE"
+			desc = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_heavy_rail_cannon = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_infiltrationing = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV25_STEALTHSUIT_TITLE"
+			desc = "TECH_UNLOCK_XV25_STEALTHSUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_ion_accelerator = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_jeap_jump = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KROOT_TITLE"
+			desc = "TECH_UNLOCK_KROOT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_kroot_gun = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KROOT_TITLE"
+			desc = "TECH_UNLOCK_KROOT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_kroot_rifle = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KROOT_TITLE"
+			desc = "TECH_UNLOCK_KROOT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_misslepod = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_TITLE"
+			desc = "TECH_UNLOCK_XV8_CRISIS_BATTLESUITS_DESC"
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_neutron_blaster = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_VESPID_TITLE"
+			desc = "TECH_UNLOCK_VESPID_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_nova_reactor = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_particle_accelerator = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_plasma_rifle = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV88_BROADSIDE_BATTLESUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_pulse_carbine = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUEVESA_TITLE"
+			desc = "TECH_UNLOCK_GUEVESA_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_pulse_ordnance_multi_driver = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_TITLE"
+			desc = "TECH_UNLOCK_KX139_TAUNAR_SUPREMACY_SUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_pulse_rifle = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FIRE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_FIRE_WARRIORS_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_rail_rifle = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_TITLE"
+			desc = "TECH_UNLOCK_HAMMERHEAD_GUNSHIP_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_riptide_shield_generators = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_TITLE"
+			desc = "TECH_UNLOCK_XV104_RIPTIDE_BATTLESUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_shas_ui = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_FIRE_WARRIORS_TITLE"
+			desc = "TECH_UNLOCK_FIRE_WARRIORS_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_shas_vesa = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_GUEVESA_TITLE"
+			desc = "TECH_UNLOCK_GUEVESA_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_shas_vre = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_XV25_STEALTHSUIT_TITLE"
+			desc = "TECH_UNLOCK_XV25_STEALTHSUIT_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}
+
+tech_smart_misstle_system = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_KV128_STORMSURGE_TITLE"
+			desc = "TECH_UNLOCK_KV128_STORMSURGE_DESC"
+		}
+	}
+
+	potential = {
+		has_country_flag = tau_empire 
+	}
+}

@@ -1,0 +1,157 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+@categorybonus = 0.15
+
+leader_trait_expertise_chaos = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_chaos.dds"
+	leader_potential_add = {
+		from = { has_authority = "auth_chaos" }
+	}
+	modifier = {
+		category_chaos_research_speed_mult = @categorybonus
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_expertise_propulsion"
+		"leader_trait_expertise_voidcraft"
+		"leader_trait_expertise_industry"
+		"leader_trait_expertise_field_manipulation"
+		"leader_trait_expertise_particles"
+		"leader_trait_expertise_psionics"
+		"leader_trait_expertise_computing"
+		"leader_trait_expertise_biology"
+		"leader_trait_expertise_statecraft"
+		"leader_trait_expertise_military_theory"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
+	}
+	# higher chance to generate techs in category lost_knowledges (done in tech-script)
+	
+	ai_categories = {
+		society
+	}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+leader_trait_expertise_lost_knowledge = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_lost_knowledge.dds"
+	leader_potential_add = {
+		from = { has_authority = "auth_imp" }
+	}
+	modifier = {
+		category_chaos_research_speed_mult = @categorybonus
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_expertise_propulsion"
+		"leader_trait_expertise_voidcraft"
+		"leader_trait_expertise_industry"
+		"leader_trait_expertise_field_manipulation"
+		"leader_trait_expertise_particles"
+		"leader_trait_expertise_psionics"
+		"leader_trait_expertise_computing"
+		"leader_trait_expertise_biology"
+		"leader_trait_expertise_statecraft"
+		"leader_trait_expertise_military_theory"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
+	}
+	# higher chance to generate techs in category lost_knowledges (done in tech-script)
+	
+	ai_categories = {
+		society
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+leader_trait_expertise_weapon = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_weapon.dds"
+	modifier = {
+		category_weapon_research_speed_mult = @categorybonus
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_expertise_propulsion"
+		"leader_trait_expertise_voidcraft"
+		"leader_trait_expertise_industry"
+		"leader_trait_expertise_field_manipulation"
+		"leader_trait_expertise_particles"
+		"leader_trait_expertise_psionics"
+		"leader_trait_expertise_computing"
+		"leader_trait_expertise_biology"
+		"leader_trait_expertise_statecraft"
+		"leader_trait_expertise_military_theory"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
+		"leader_trait_expertise_lost_knowledge"
+		"leader_trait_expertise_armor"
+	}
+	# higher chance to generate techs in category weapons (done in tech-script)
+
+	ai_categories = {
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+leader_trait_expertise_armor = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_armor.dds"
+	modifier = {
+		category_armor_research_speed_mult = @categorybonus
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_expertise_propulsion"
+		"leader_trait_expertise_voidcraft"
+		"leader_trait_expertise_industry"
+		"leader_trait_expertise_field_manipulation"
+		"leader_trait_expertise_particles"
+		"leader_trait_expertise_psionics"
+		"leader_trait_expertise_computing"
+		"leader_trait_expertise_biology"
+		"leader_trait_expertise_statecraft"
+		"leader_trait_expertise_military_theory"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_materials"
+		"leader_trait_expertise_lost_knowledge"
+		"leader_trait_expertise_weapon"
+	}
+	# higher chance to generate techs in category armors (done in tech-script)
+
+	ai_categories = {
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}

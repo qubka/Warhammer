@@ -1,0 +1,377 @@
+# Armoury World
+col_armoury = {
+	icon = 29
+
+	potential = {
+		is_planet_class = pc_armoury
+	}
+
+	weight_modifier = {
+		base = 1000
+	}
+}
+
+# Shrine World
+col_shrine = {
+	icon = 39
+
+	potential = {
+		is_planet_class = pc_shrine
+	}
+
+	weight_modifier = {
+		base = 1000
+	}
+}
+
+# Hive World
+col_hive_mix = {
+	icon = 1
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_hive_industrial
+			is_planet_class = pc_hive_medium
+			is_planet_class = pc_hive_arid
+			is_planet_class = pc_hive_continental_01
+			is_planet_class = pc_hive_continental_02
+			is_planet_class = pc_hive_ocean
+			is_planet_class = pc_hive_tundra
+			is_planet_class = pc_super_hive
+			is_planet_class = pc_mega_hive
+		}
+	}
+
+	planet_modifier = {
+		bio_pop_growth_speed = 0.05
+	}
+
+	weight_modifier = {
+		base = 10
+	}
+}
+
+# Hive Military Factory
+col_hive_military_factory = {
+	icon = 32
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_hive_industrial
+			is_planet_class = pc_hive_medium
+			is_planet_class = pc_hive_arid
+			is_planet_class = pc_hive_continental_01
+			is_planet_class = pc_hive_continental_02
+			is_planet_class = pc_hive_ocean
+			is_planet_class = pc_hive_tundra
+			is_planet_class = pc_super_hive
+			is_planet_class = pc_mega_hive
+		}
+	}
+	
+	planet_modifier = {
+		planet_district_military_manufactoria_build_speed_mult = 0.25
+		planet_military_artisans_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = military_goods value < 100 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_hive_military_factory
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_military_manufactoria value >= 2 }
+		}
+		modifier = {
+			add = 5
+			num_districts = { type = district_military_manufactoria value >= 3 }
+		}
+		modifier = {
+			add = 10
+			num_districts = { type = district_military_manufactoria value >= 4 }
+		}
+	}
+}
+
+# Hive Civilian Factory
+col_hive_civilian_factory = {
+	icon = 6
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_hive_industrial
+			is_planet_class = pc_hive_medium
+			is_planet_class = pc_hive_arid
+			is_planet_class = pc_hive_continental_01
+			is_planet_class = pc_hive_continental_02
+			is_planet_class = pc_hive_ocean
+			is_planet_class = pc_hive_tundra
+			is_planet_class = pc_super_hive
+			is_planet_class = pc_mega_hive
+		}
+	}
+
+	planet_modifier = {
+		planet_building_factorum_build_speed_mult = 0.25
+		planet_artisans_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = consumer_goods value < 5 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_hive_civilian_factory
+		}
+		modifier = {
+			add = 2
+			num_districts = { type = district_civilian_manufactoria value >= 2 }
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_civilian_manufactoria value >= 3 }
+		}
+		modifier = {
+			add = 6
+			num_districts = { type = district_civilian_manufactoria value >= 4 }
+		}
+	}
+}
+
+# Hive Technical Factory
+col_hive_technical_factory = {
+	icon = 31
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_hive_industrial
+			is_planet_class = pc_hive_medium
+			is_planet_class = pc_hive_arid
+			is_planet_class = pc_hive_continental_01
+			is_planet_class = pc_hive_continental_02
+			is_planet_class = pc_hive_ocean
+			is_planet_class = pc_hive_tundra
+			is_planet_class = pc_super_hive
+			is_planet_class = pc_mega_hive
+		}
+	}
+	
+	planet_modifier = {
+		planet_district_technical_manufactoria_build_speed_mult = 0.25
+		planet_electronics_manufacturers_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = electronics value < 100 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_hive_technical_factory
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_technical_manufactoria value >= 2 }
+		}
+		modifier = {
+			add = 5
+			num_districts = { type = district_technical_manufactoria value >= 3 }
+		}
+		modifier = {
+			add = 10
+			num_districts = { type = district_technical_manufactoria value >= 4 }
+		}
+	}
+}
+
+# Forge World
+col_forge_mix = {
+	icon = 33
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+			is_planet_class = pc_industrial
+			is_planet_class = pc_forge_ring
+			is_planet_class = pc_forge_ring2
+			is_planet_class = pc_forge_ring3
+		}
+	}
+
+	planet_modifier = {
+		planet_districts_cost_mult = -0.05
+	}
+
+	weight_modifier = {
+		base = 10
+	}
+}
+
+# Forge Foundry Factory
+col_forge_fondry_factory = {
+	icon = 5
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+			is_planet_class = pc_industrial
+			is_planet_class = pc_forge_ring
+			is_planet_class = pc_forge_ring2
+			is_planet_class = pc_forge_ring3
+		}
+	}
+
+	planet_modifier = {
+		planet_district_fondry_manufactoria_build_speed_mult = 0.25
+		planet_metallurgists_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = alloys value < 100 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_forge_fondry_factory
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_fondry_manufactoria value >= 2 }
+		}
+		modifier = {
+			add = 5
+			num_districts = { type = district_fondry_manufactoria value >= 3 }
+		}
+		modifier = {
+			add = 10
+			num_districts = { type = district_fondry_manufactoria value >= 4 }
+		}
+	}
+}
+
+# Forge Generatorum Factory
+col_forge_generatorum_factory = {
+	icon = 30
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+			is_planet_class = pc_industrial
+			is_planet_class = pc_forge_ring
+			is_planet_class = pc_forge_ring2
+			is_planet_class = pc_forge_ring3
+		}
+	}
+
+	planet_modifier = {
+		planet_district_generatorum_line_build_speed_mult = 0.25
+		planet_technician_produces_mult = -0.1
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = energy value < 100 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_forge_generatorum_factory
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_generatorum_line value >= 2 }
+		}
+		modifier = {
+			add = 5
+			num_districts = { type = district_generatorum_line value >= 3 }
+		}
+		modifier = {
+			add = 10
+			num_districts = { type = district_generatorum_line value >= 4 }
+		}
+	}
+}
+
+# Forge Research Center
+col_forge_research_center = {
+	icon = 8
+
+	potential = {
+		exists = owner
+		owner = { has_country_flag = humanoid }
+		OR = {
+			is_planet_class = pc_forge
+			is_planet_class = pc_forgee
+			is_planet_class = pc_forgeee
+			is_planet_class = pc_industrial
+			is_planet_class = pc_forge_ring
+			is_planet_class = pc_forge_ring2
+			is_planet_class = pc_forge_ring3
+		}
+	}
+
+	planet_modifier = {
+		planet_district_research_center_build_speed_mult = 0.25
+		planet_researchers_upkeep_mult = -0.2
+	}
+
+	weight_modifier = {
+		base = 10
+		modifier = {
+			add = 5
+			owner = { has_monthly_income = { resource = physics_research value < 200 } }
+			owner = { has_monthly_income = { resource = society_research value < 200 } }
+			owner = { has_monthly_income = { resource = engineering_research value < 200 } }
+		}
+		modifier = {
+			add = 5
+			has_designation = col_forge_generatorum_factory
+		}
+		modifier = {
+			add = 3
+			num_districts = { type = district_research_center value >= 2 }
+		}
+		modifier = {
+			add = 5
+			num_districts = { type = district_research_center value >= 3 }
+		}
+		modifier = {
+			add = 10
+			num_districts = { type = district_research_center value >= 4 }
+		}
+	}
+}

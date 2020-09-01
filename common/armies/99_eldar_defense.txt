@@ -18,9 +18,7 @@ guardian_squad_defense = {
 		planet = {
 			is_planet_class = pc_craftworld
 		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -37,8 +35,6 @@ ranger_squad_defense = {
 	
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }

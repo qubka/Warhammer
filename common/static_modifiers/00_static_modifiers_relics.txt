@@ -1,0 +1,194 @@
+astartes_konor_pattern_power_sword_final = {
+	army_morale = 0.75
+}
+
+axe_photos = {
+	army_damage_mult = 0.25
+}
+
+cypher_armor = {
+	army_health = 0.5
+}
+
+cypher_attack_bike = {
+	ship_landing_time_mult = -0.75
+}
+
+cypher_scapular = {
+	ship_hull_damage_mult = 0.3
+}
+
+erasmus_pattern_plasmacannon_mki = {
+	ship_tracking_mult = 0.5
+}
+
+gilded_bolter = {
+	ship_weapon_range_mult = 0.25
+}
+
+glaive_super_heavy_special_weapons_tank = {
+	ship_piracy_suppression_mult = 0.5
+}
+
+hagen_pattern_narthecium = {
+	ship_evasion_add = 0.5
+}
+
+relic_powerfist = {
+	ship_experience_gain_mult = 0.75
+}
+
+requiem_heavy_bolter = {
+	ship_orbital_bombardment_mult = 0.5
+}
+
+sternguard_bolter = {
+	ship_fire_rate_mult = 0.3
+}
+
+#
+
+abaddons_grace = {
+	army_morale = 0.75
+}
+
+apollo_pattern_plasma_gun = {
+	army_damage_mult = 0.25
+}
+
+deathlock_cestus_powerfist_skin = {
+	army_health = 0.5
+}
+
+fleshmetal_shell = {
+	ship_hull_damage_mult = 0.3
+}
+
+hell_breach_plasmacannon = {
+	ship_tracking_mult = 0.5
+}
+
+hell_warbike = {
+	ship_landing_time_mult = -0.75
+}
+
+hellkiss_meltagun = {
+	ship_weapon_range_mult = 0.25
+}
+
+maelstromcleaver = {
+	ship_piracy_suppression_mult = 0.5
+}
+
+murder_sword = {
+	ship_evasion_add = 0.5
+}
+
+rage_spitter = {
+	ship_experience_gain_mult = 0.75
+}
+
+shrieking_souls_armor = {
+	ship_orbital_bombardment_mult = 0.5
+}
+
+widowmaker_bolter = {
+	ship_fire_rate_mult = 0.3
+}
+
+#
+
+fire_dragon_fusion_gun = {
+	army_morale = 0.75
+}
+
+firesabre = {
+	army_damage_mult = 0.25
+}
+
+gatekeepers_bastion = {
+	ship_weapon_range_mult = 0.25
+}
+
+gorhu_armor = {
+	army_health = 0.5
+}
+
+ice_hawk_cannon = {
+	ship_piracy_suppression_mult = 0.5
+}
+
+laelshanwitchblade = {
+	ship_evasion_add = 0.5
+}
+
+last_runes_armor = {
+	ship_hull_damage_mult = 0.3
+}
+
+maeldannan_diresword = {
+	ship_tracking_mult = 0.5
+}
+
+swoopinghawk_lasblaster = {
+	ship_experience_gain_mult = 0.75
+}
+
+torrent_reaper_launcher = {
+	ship_orbital_bombardment_mult = 0.5
+}
+
+vyper = {
+	ship_landing_time_mult = -0.75
+}
+
+#
+
+boss_choppa = {
+	army_morale = 0.75
+}
+
+da_heart_stoppa = {
+	army_damage_mult = 0.25
+}
+
+daneedleuvlif = {
+	ship_fire_rate_mult = 0.3
+}
+
+heresy_limited_edition_looted_umie_bolter = {
+	ship_tracking_mult = 0.5
+}
+
+iron_sight_shoota = {
+	ship_weapon_range_mult = 0.25
+}
+
+looted_power_armor = {
+	army_health = 0.5
+}
+
+plasma_chompa = {
+	ship_piracy_suppression_mult = 0.5
+}
+
+powerrippa = {
+	ship_evasion_add = 0.5
+}
+
+sparekeys_combishoota = {
+	ship_experience_gain_mult = 0.75
+}
+
+splash_burna = {
+	ship_orbital_bombardment_mult = 0.5
+}
+
+squig_armor = {
+	ship_hull_damage_mult = 0.3
+}
+
+warbuggy = {
+	ship_landing_time_mult = -0.75
+}
+					

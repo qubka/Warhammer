@@ -917,7 +917,7 @@
 		DIPLOMACY_WEIGHT_NAVAL_FACTOR			= 0.025		# Factors Naval Power before it is added to diplo weight
 		DIPLOMACY_WEIGHT_GESTALT_WEIGHT			= 1.0		# Gestalts gets a flat base value
 		DIPLOMACY_WEIGHT_POP_BASE				= 1.0		# Base diplomacy weight for each pop
-		DIPLOMACY_WEIGHT_POP_HAPPINESS			= 2.0		# as in formula: DIPLOMACY_WEIGHT_POP_BASE + (DIPLOMACY_WEIGHT_POP_HAPPINESS * Happiness)
+		DIPLOMACY_WEIGHT_biological_pop_happiness			= 2.0		# as in formula: DIPLOMACY_WEIGHT_POP_BASE + (DIPLOMACY_WEIGHT_biological_pop_happiness * Happiness)
 		DIPLOMACY_WEIGHT_ECONOMY_FACTOR			= 0.15		# Factors Economic Power before it is added to diplo weight
 		DIPLOMACY_WEIGHT_TECHNOLOGY_FACTOR		= 0.1		# Factors Technology Level before it is added to diplo weight
 

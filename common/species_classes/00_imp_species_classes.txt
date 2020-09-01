@@ -14,15 +14,15 @@ IMP = {
 		"imp_mechanicus"
 		"imp_white_scars"
 		"imp_ultra_marines"
-		"imp_space_wolfes"
+		"imp_space_wolves"
 		"imp_salamanders"
 		"imp_raven_guard"
 		"imp_iron_hand"
 		"imp_imperial_fist"
-		"imp_dark_angles"
-		"imp_blood_angles"
+		"imp_dark_angels"
+		"imp_blood_angels"
     }   
 	
-    graphical_culture = humanoid_01
+    graphical_culture = gothic_01
     move_pop_sound_effect = "moving_pop_confirmation"
 }

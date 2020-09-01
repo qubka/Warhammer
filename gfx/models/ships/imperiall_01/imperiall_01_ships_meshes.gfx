@@ -1,0 +1,1070 @@
+objectTypes = {
+	
+	#### the biggest ship ever
+	
+	pdxmesh = {
+		name = "imperial_battleship_dark"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_dark.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "MetalTexture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_guns_one"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_guns_one.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "gunsGalvanizedHulxture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_white"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_white.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "whitetexture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_yellow_two"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_yellow_two.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "goldHulxture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_yellow_one"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_yellow_one.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "goldHulxture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_green_three"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_green_three.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "MetalTexture3green.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_green_two"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_green_two.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "MetalTexture3green.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_green_one"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_green_one.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "MetalTexture3green.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_battleship_blue"
+		file = "gfx/models/ships/imperiall_01/imperial_battleship_blue.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+	
+	###########
+	###########
+	###########
+	###########
+	###########
+	###########
+	###########
+	###########
+	
+	pdxmesh = {
+		name = "imperial_corvette_hull_dark"
+		file = "gfx/models/ships/imperiall_01/imperial_corvette_hull_dark.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "MetalTexture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_corvette_hull_white"
+		file = "gfx/models/ships/imperiall_01/imperial_corvette_hull_white.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "whitetexture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_corvette_hull_yellow"
+		file = "gfx/models/ships/imperiall_01/imperial_corvette_hull_yellow.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "goldHulxture.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_corvette_hull_green"
+		file = "gfx/models/ships/imperiall_01/imperial_corvette_hull_green.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "MetalTexture3green.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperial_corvette_blue"
+		file = "gfx/models/ships/imperiall_01/imperial_corvette_blue.mesh"
+		scale = 1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+	# Test New Battleship
+
+	
+	pdxmesh = {
+		name = "blackBlack2"
+		file = "gfx/models/ships/imperiall_01/blackBlack.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "MetalTexture3.dds"
+            texture_normal = "MetalTexture3_normal.dds"
+			texture_specular = "MetalTexture3_specular.dds"	
+            shader = "PdxMeshPlanet"
+        }
+	}
+	
+	pdxmesh = {
+		name = "redShiny2"
+		file = "gfx/models/ships/imperiall_01/redShiny.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshPlanet"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "gatesEagleTexture2"
+		file = "gfx/models/ships/imperiall_01/gatesEagleTexture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "gatesEagleTexture.dds"
+            texture_normal = "gatesEagleTexture_normal.dds"
+            texture_specular = "gatesEagleTexture_specular.dds"
+            shader = "PdxMeshPlanet"
+        }
+	}
+	
+	pdxmesh = {
+		name = "gunsGalvanizedHulxture2"
+		file = "gfx/models/ships/imperiall_01/gunsGalvanizedHulxture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "gunsGalvanizedHulxture.dds"
+            texture_normal = "gunsGalvanizedHulxture_normal.dds"
+            texture_specular = "gunsGalvanizedHulxture_specular.dds"
+            shader = "PdxMeshPlanet"
+        }
+	}
+	
+	pdxmesh = {
+		name = "goldHulxture2"
+		file = "gfx/models/ships/imperiall_01/goldHulxture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "goldHulxture.dds"
+            texture_normal = "goldHulxture_normal.dds"
+            texture_specular = "goldHulxture_specular.dds"
+            shader = "PdxMeshPlanet"
+        }
+	}
+	
+	pdxmesh = {
+		name = "whitetexture2"
+		file = "gfx/models/ships/imperiall_01/whitetexture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "whitetexture.dds"
+            texture_normal = "whitetexture_normal.dds"
+            texture_specular = "whitetexture_specular.dds"
+            shader = "PdxMeshPlanet"
+        }
+	}
+
+	pdxmesh = {
+		name = "blackHulxture2"
+		file = "gfx/models/ships/imperiall_01/blackHulxture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "MetalTexture3.dds"
+            texture_normal = "MetalTexture3_normal.dds"
+            texture_specular = "MetalTexture3_specular.dds"
+            shader = "PdxMeshPlanet"
+        }
+	}
+	
+	
+	
+	
+	pdxmesh = {
+		name = "blackBlack"
+		file = "gfx/models/ships/imperiall_01/blackBlack.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "MetalTexture3.dds"
+            texture_normal = "MetalTexture3_normal.dds"
+			texture_specular = "MetalTexture3_specular.dds"	
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "redShiny"
+		file = "gfx/models/ships/imperiall_01/redShiny.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshAlphaAdditiveAnimateUV"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "gatesEagleTexture"
+		file = "gfx/models/ships/imperiall_01/gatesEagleTexture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "gatesEagleTexture.dds"
+            texture_normal = "gatesEagleTexture_normal.dds"
+            texture_specular = "gatesEagleTexture_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "gunsGalvanizedHulxture"
+		file = "gfx/models/ships/imperiall_01/gunsGalvanizedHulxture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "gunsGalvanizedHulxture.dds"
+            texture_normal = "gunsGalvanizedHulxture_normal.dds"
+            texture_specular = "gunsGalvanizedHulxture_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "goldHulxture"
+		file = "gfx/models/ships/imperiall_01/goldHulxture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "goldHulxture.dds"
+            texture_normal = "goldHulxture_normal.dds"
+            texture_specular = "goldHulxture_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "whitetexture"
+		file = "gfx/models/ships/imperiall_01/whitetexture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "whitetexture.dds"
+            texture_normal = "whitetexture_normal.dds"
+            texture_specular = "whitetexture_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+
+	pdxmesh = {
+		name = "blackHulxture"
+		file = "gfx/models/ships/imperiall_01/blackHulxture.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "MetalTexture3.dds"
+            texture_normal = "MetalTexture3_normal.dds"
+            texture_specular = "MetalTexture3_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+
+	# Corvette
+	pdxmesh = {
+		name = "imperiall_01_corvette_frame_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_corvette_frame.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_corvette_M1S1.mesh"
+		scale = 0.6
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "imperiall_01_corvette_diffuse.dds"
+            texture_normal = "imperiall_01_corvette_normal.dds"
+            texture_specular = "imperiall_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_corvette_S3_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_corvette_S3.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			#name = "imperiall_01_corvette_S3"
+			index = 0
+            texture_diffuse = "imperiall_02_corvette_diffuse.dds"
+            texture_normal = "imperiall_02_corvette_normal.dds"
+            texture_specular = "imperiall_02_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_corvette_S1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_corvette_M1S1.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			#name = "imperiall_01_corvette_S1"
+			index = 0
+	        texture_diffuse = "imperiall_01_corvette_diffuse.dds"
+            texture_normal = "imperiall_01_corvette_normal.dds"
+            texture_specular = "imperiall_01_corvette_specular.dds"			
+			shader = "PdxMeshShip"
+		}
+	}
+	#######  destroyer #######
+	
+	pdxmesh = {
+		name = "imperiall_01_destroyer_frame_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_corvette_frame.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+	        texture_diffuse = "imperiall_01_destroyer_diffuse.dds"
+            texture_normal = "imperiall_01_destroyer_normal.dds"
+            texture_specular = "imperiall_01_destroyer_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "imperiall_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_bow_M1S2.mesh"
+		
+		scale = 0.65
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_destroyer_diffuse.dds"
+            texture_normal = "imperiall_02_destroyer_normal.dds"
+            texture_specular = "imperiall_02_destroyer_specular.dds"
+
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.65
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_01_destroyer_diffuse.dds"
+            texture_normal = "imperiall_01_destroyer_normal.dds"
+            texture_specular = "imperiall_01_destroyer_specular.dds"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+		
+	pdxmesh = {
+		name = "imperiall_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_cruiser_frame.mesh"
+	
+		scale = 1.0
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_cruiser_bow_L1.mesh"
+		
+		scale = 0.8
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_cruiser_diffuse.dds"
+            texture_normal = "imperiall_02_cruiser_normal.dds"
+            texture_specular = "imperiall_02_cruiser_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_cruiser_bow_M1S2.mesh"
+		
+		scale = 0.9
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_01_cruiser_diffuse.dds"
+            texture_normal = "imperiall_01_cruiser_normal.dds"
+            texture_specular = "imperiall_01_cruiser_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_cruiser_bow_M2.mesh"
+		scale = 0.7
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_03_cruiser_diffuse.dds"
+            texture_normal = "imperiall_03_cruiser_normal.dds"
+            texture_specular = "imperiall_03_cruiser_specular.dds"
+		}
+	}
+		
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+				
+	pdxmesh = {
+		name = "imperiall_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}		
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "imperiall_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "imperiall_01_battleship_frame_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_frame.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 0.9
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_01_battleship_diffuse.dds"
+            texture_normal = "imperiall_01_battleship_normal.dds"
+            texture_specular = "imperiall_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_01_battleship_diffuse.dds"
+            texture_normal = "imperiall_01_battleship_normal.dds"
+            texture_specular = "imperiall_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_L2.mesh"
+		
+		scale = 0.9
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_M1S2SHB.mesh"
+		
+		scale = 1
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_04_battleship_diffuse.dds"
+            texture_normal = "imperiall_04_battleship_normal.dds"
+            texture_specular = "imperiall_04_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_01_battleship_diffuse.dds"
+            texture_normal = "imperiall_01_battleship_normal.dds"
+            texture_specular = "imperiall_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.1
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_01_battleship_diffuse.dds"
+            texture_normal = "imperiall_01_battleship_normal.dds"
+            texture_specular = "imperiall_01_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_XL1.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_03_battleship_diffuse.dds"
+            texture_normal = "imperiall_03_battleship_normal.dds"
+            texture_specular = "imperiall_03_battleship_specular.dds"
+		}
+	}	
+	
+	
+	
+	#######  Battleship mid sections  #######			
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_02_battleship_diffuse.dds"
+            texture_normal = "imperiall_02_battleship_normal.dds"
+            texture_specular = "imperiall_02_battleship_specular.dds"
+		}
+	}
+		
+		
+	#######  Battleship stern sections  #######	
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_03_battleship_diffuse.dds"
+            texture_normal = "imperiall_03_battleship_normal.dds"
+            texture_specular = "imperiall_03_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_03_battleship_diffuse.dds"
+            texture_normal = "imperiall_03_battleship_normal.dds"
+            texture_specular = "imperiall_03_battleship_specular.dds"
+		}
+	}		
+		
+	pdxmesh = {
+		name = "imperiall_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_03_battleship_diffuse.dds"
+            texture_normal = "imperiall_03_battleship_normal.dds"
+            texture_specular = "imperiall_03_battleship_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "imperiall_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "imperiall_03_battleship_diffuse.dds"
+            texture_normal = "imperiall_03_battleship_normal.dds"
+            texture_specular = "imperiall_03_battleship_specular.dds"
+		}
+	}	
+	
+		################ Space port ############################
+	
+	pdxmesh = {
+		name = "imperiall_01_orbital_station_frame_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_orbital_station_frame.mesh"
+		scale = 2.5
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "imperiall_01_orbital_station_diffuse.dds"
+			texture_normal = "imperiall_01_orbital_station_normal.dds"
+			texture_specular = "imperiall_01_orbital_station_specular.dds"			
+			
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_03_orbital_station_mesh"
+		file = "gfx/models/ships/imperiall_01/lights_red_space_port.mesh"
+		scale = 2.0
+
+		meshsettings = {
+			shader = "PdxMeshAlphaAdditiveAnimateUV"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"			
+			index = 0
+		}
+	}
+	
+	
+	
+	pdxmesh = {
+		name = "imperiall_01_orbital_station_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_orbital_station.mesh"
+		scale = 2.0
+
+		meshsettings = {
+			texture_diffuse = "imperiall_01_orbital_station_diffuse.dds"
+			texture_normal = "imperiall_01_orbital_station_normal.dds"
+			texture_specular = "imperiall_01_orbital_station_specular.dds"
+            index = 0			
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_02_orbital_station_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_02_orbital_station.mesh"
+		scale = 2.0
+
+		meshsettings = {
+			texture_diffuse = "imperiall_01_orbital_station_diffuse.dds"
+			texture_normal = "imperiall_01_orbital_station_normal.dds"
+			texture_specular = "imperiall_01_orbital_station_specular.dds"
+            index = 0			
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_science_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_corvette_M1S1.mesh"
+		scale = 1.2
+        meshsettings = {
+            #name = "imperiall_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "imperiall_01_corvette_diffuse.dds"
+            texture_normal = "imperiall_01_corvette_normal.dds"
+            texture_specular = "imperiall_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_transport_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_transport.mesh"
+		scale = 1.8
+		meshsettings = {
+			#name = "imperiall_01_corvette_S3"
+			index = 0
+            texture_diffuse = "imperiall_01_transport_diffuse.dds"
+            texture_normal = "imperiall_01_transport_normal.dds"
+            texture_specular = "imperiall_01_transport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "imperiall_01_construction_mesh"
+		file = "gfx/models/ships/imperiall_01/imperiall_01_construction.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"						type = "mammalian_01_construction_idle_animation" }
+		animation = { id = "working"					type = "mammalian_01_construction_working_animation" }
+		animation = { id = "working_looping"			type = "mammalian_01_construction_working_looping_animation" }
+		
+		meshsettings = {
+			#name = "imperiall_01_corvette_S3"
+			index = 0
+            texture_diffuse = "imperiall_01_construction_diffuse.dds"
+            texture_normal = "imperiall_01_construction_normal.dds"
+            texture_specular = "imperiall_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+}

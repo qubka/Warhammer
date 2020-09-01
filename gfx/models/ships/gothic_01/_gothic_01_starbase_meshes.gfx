@@ -1,0 +1,21 @@
+objectTypes = {
+####### stations #######
+	pdxmesh = {
+		name = "gothic_01_station_mesh"
+		file = "gfx/models/ships/gothic_01/stations/gothic_01_civilian_station.mesh"
+		scale = 2.5
+    }
+
+	pdxmesh = {
+		name = "gothic_01_station_medium_mesh"
+		file = "gfx/models/ships/gothic_01/stations/gothic_01_spaceport.mesh"
+		scale = 2.5
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_ion_cannon_mesh"
+		file = "gfx/models/ships/gothic_01/stations/wain_01_ion_cannon.mesh"
+		scale = 1
+	}	
+}
+	

@@ -36,8 +36,7 @@ civic_senatorum_imperialis = {
 		starbase_module_capacity_add = 10
 		country_leader_pool_size = 5
 		country_starbase_influence_cost_mult = -0.5
-		piracy_growth_mult = 3
-	
+		piracy_growth_mult = -3
 	}
 }
 
@@ -47,7 +46,6 @@ civic_imperialcult_fanatics = {
 		pop_ethic_xenophobe_attraction_mult = 2
 		pop_ethic_militarist_attraction_mult = 4
 		pop_ethic_spiritualist_attraction_mult = 2
-
 	}
 }
 
@@ -76,7 +74,7 @@ civic_horde_traditions = {
 		planet_army_build_time_mult = -0.5
 		bio_pop_growth_from_immigration = 2
 		planet_colony_development_speed_mult = 3
-		pop_resettlement_cost_mult = --0.46
+		pop_resettlement_cost_mult = -0.46
 		ship_base_speed_mult = 0.3
 	}
 }
@@ -98,7 +96,6 @@ civic_barbarian_culture = {
 	modifier = {
 		army_attack_damage_mult = 0.5
 		army_attack_morale_mult = 0.5
-		army_starting_experience_mult = 2
 		country_insult_efficiency = 5
 	}
 }
@@ -147,7 +144,7 @@ civic_tribal_culture = {
 		bio_pop_growth_speed = 0.2
 		country_admin_cap_mult = -0.2
 		country_war_exhaustion_mult = -0.3
-		}
+	}
 }
 
 civic_chivalric_traditions = {
@@ -267,6 +264,19 @@ civic_slaanesh_cult = {
 		army_morale_damage_mult = 1.5
 		pop_government_ethic_attraction = 0.8
 		pop_ethic_authoritarian_attraction_mult = 1	
+	}
+}
+
+civic_malice_cult = {
+	possible = { authority = { value = auth_chaos } }
+	modifier = {
+		country_admin_cap_mult = 0.5
+		country_base_influence_produces_add = 0.25
+		ship_base_speed_mult = 0.25
+		ship_tracking_mult = 0.5
+		ship_fire_rate_mult = -0.3
+		country_border_friction_mult = 1.5
+		pop_ethic_militarist_attraction_mult = 3
 	}
 }
 
@@ -398,7 +408,7 @@ civic_keepers_of_secrets = {
 	possible = { authority = { value = auth_darkeldar } }
 	modifier = {
 		ship_orbital_bombardment_mult = 0.5
-		country_base_ minor_artifacts_produces_add = 0.0125
+		country_base_minor_artifacts_produces_add = 0.0125
 	}
 }
 
@@ -439,7 +449,6 @@ civic_anarchy_terrorism = {
 	modifier = {
 		slave_market_cost_mult = -0.33
 		country_war_exhaustion_mult = -0.4
-	
 	}
 }
 
@@ -529,7 +538,7 @@ civic_teeth_growers = {
 	possible = { authority = { value = auth_ork } }
 	modifier = {
 		planet_jobs_worker_energy_produces_mult = 0.2
-		planet_jobs_worker_ consumer_goods_produces_mult = 0.4
+		planet_jobs_worker_consumer_goods_produces_mult = 0.4
 	}
 }
 
@@ -555,7 +564,6 @@ civic_oddboyz_culture = {
 		armies_upkeep_mult = 0.25
 		army_damage_mult = 0.4
 		army_collateral_damage_mult = 0.5
-		
 	}
 }
 
@@ -591,7 +599,7 @@ civic_farsight_enclaves = {
 civic_trader_friendly = {
 	possible = { authority = { value = auth_tau } }
 	modifier = {
-		starbase_trade_x_range_add = 3
+		starbase_trade_protection_range_add = 3
 		starbase_trade_protection_add = 30
 	}
 }

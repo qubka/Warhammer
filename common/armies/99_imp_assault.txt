@@ -19,7 +19,8 @@ scouts_space_marines = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			military_goods = 10
+			gene_seed = 5
 		}
 
 		upkeep = {
@@ -27,12 +28,10 @@ scouts_space_marines = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_scout_armor" "tech_scout_equipment" "tech_scout_sergeant" }
 
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -49,7 +48,10 @@ dreadnought = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			alloys = 350
+			electronics = 150
+			military_goods = 200
+			gene_seed = 1
 		}
 
 		upkeep = {
@@ -57,10 +59,10 @@ dreadnought = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_dreadnought_claws" "tech_advanced_dreadnought_armor" "tech_assault_cannon_dread" "tech_multimelta" }
 	
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		has_building = building_machine_cult
 	
 		owner = {
 			NOT = { 
@@ -70,7 +72,6 @@ dreadnought = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -92,9 +93,7 @@ dreadnought = {
 	}
 
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -111,7 +110,10 @@ venerable_dreadnought = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1000
+			alloys = 1000
+			electronics = 350
+			military_goods = 200
+			gene_seed = 1
 		}
 
 		upkeep = {
@@ -119,10 +121,10 @@ venerable_dreadnought = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_dark_age_dreadnought" "tech_dreadnaught_charge_drives" }
 	
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		has_building = building_machine_cult
 	
 		owner = {
 			NOT = { 
@@ -132,7 +134,6 @@ venerable_dreadnought = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -154,9 +155,7 @@ venerable_dreadnought = {
 	}
 
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -173,7 +172,10 @@ landraider = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 350
+			alloys = 100
+			electronics = 50
+			military_goods = 50
+			gene_seed = 1
 		}
 
 		upkeep = {
@@ -181,16 +183,14 @@ landraider = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_armoured_ceramite_plating" "tech_heavy_flamer" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_machine_cult
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -207,7 +207,10 @@ razorback = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 350
+			alloys = 350
+			electronics = 50
+			military_goods = 10
+			gene_seed = 5
 		}
 
 		upkeep = {
@@ -215,16 +218,14 @@ razorback = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_armoured_ceramite_plating" "tech_storm_bolter" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_machine_cult
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -241,7 +242,10 @@ predator = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 750
+			alloys = 750
+			electronics = 150
+			military_goods = 100
+			gene_seed = 5
 		}
 
 		upkeep = {
@@ -249,16 +253,14 @@ predator = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_reinforced_armor_plating" "tech_predator_lascannon" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_machine_cult
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -275,7 +277,10 @@ terminator = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 500
+			alloys = 250
+			electronics = 100
+			military_goods = 50
+			gene_seed = 1
 		}
 
 		upkeep = {
@@ -283,80 +288,15 @@ terminator = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_terminator_armor" "tech_terminator_teleporter" "tech_storm_shield" "tech_thunder_hammer" "tech_cyclone_missile_launcher" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_machine_cult
+		has_building = building_orbital_relay
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
-	}
-}
-
-apothecary = {
-	damage = 1
-	health = 1
-	morale = 10
-	collateral_damage = 1.00												
-	war_exhaustion = 0.0											
-	time = 70
-	
-	icon_frame = 118
-	
-	resources = {
-		category = armies
-		cost = {
-			minerals = 50
-		}
-		produces = {
-			physics_research = 100
-		}
-		upkeep = {
-			energy = 2.5
-		}
-	}
-	
-	#prerequisites = { "tech_medium_army" }
-	
-	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
-	
-		owner = {
-			NOT = { 
-				check_variable = {
-					which = "apothecary_count" 
-					value = 3
-				}
-			}
-		}
-		
-	}
-	
-	on_queued = {
-		owner = {
-			change_variable = {
-				which = "apothecary_count" 
-				value = 1
-			}
-		}
-	}
-	
-	on_unqueued = {
-		owner = {
-			change_variable = {
-				which = "apothecary_count" 
-				value = -1
-			}
-		}
-	}
-	
-	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -373,7 +313,8 @@ librarian = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			military_goods = 20
+			gene_seed = 1
 		}
 		produces = {
 			society_research = 100
@@ -383,10 +324,10 @@ librarian = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_librarian_armor" "tech_librarian_force_staff" "tech_spell_librarian" "tech_force_sword" "tech_psychic_hood" }
 	
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		has_building = building_sacred_artifact
 	
 		owner = {
 			NOT = { 
@@ -396,7 +337,6 @@ librarian = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -418,9 +358,69 @@ librarian = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
+		owner = { has_country_flag = human_empire }
+	}
+}
+
+apothecary = {
+	damage = 1
+	health = 1
+	morale = 10
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 70
+	
+	icon_frame = 118
+	
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 5
+			gene_seed = 1
 		}
+		produces = {
+			physics_research = 100
+		}
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	prerequisites = { "tech_apothecary_armor" "tech_chainsword" "tech_bolt_pistol" "tech_iron_halo" }
+	
+	allow = {
+		has_building = building_sacred_artifact
+	
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "apothecary_count" 
+					value = 3
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "apothecary_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "apothecary_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -437,7 +437,8 @@ techmarines = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
+			military_goods = 25
+			gene_seed = 10
 		}
 		produces = {
 			engineering_research = 100
@@ -447,10 +448,10 @@ techmarines = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_mk8_armor" "tech_bolter" "tech_plasma_pistol" "tech_power_axe" }
 	
 	allow = {
-		##has_building = "chaos_building_imperial_knight_base_1"
+		has_building = building_chapel_barracks
 	
 		owner = {
 			NOT = { 
@@ -460,7 +461,6 @@ techmarines = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -482,9 +482,7 @@ techmarines = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -501,7 +499,8 @@ tactical_space_marines = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
+			gene_seed = 10
 		}
 
 		upkeep = {
@@ -509,16 +508,14 @@ tactical_space_marines = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_mk8_armor" "tech_tactical_sergeant" "tech_power_sword" "tech_heavy_assault_cannon" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_chapel_barracks
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -535,7 +532,8 @@ assault_space_marines = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 350
+			military_goods = 35
+			gene_seed = 15
 		}
 
 		upkeep = {
@@ -543,16 +541,52 @@ assault_space_marines = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_mk8_armor" "tech_sergeant_assault_squad" "tech_lightning_claw" "tech_wings_of_shrike" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_chapel_barracks
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
+		owner = { has_country_flag = human_empire 
+			NOR = { 
+				has_technology = tech_lightning_claws_upgrade 
+				has_technology = tech_gravis_armor 
+			}
 		}
+	}
+}
+
+inceptor_space_marines = {
+	damage = 5.0
+	health = 5.0
+	morale = 2.0
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 300
+	
+	icon_frame = 119
+	
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 35
+			gene_seed = 20
+		}
+
+		upkeep = {
+			energy = 5.0
+		}
+	}
+	
+	prerequisites = { "tech_gravis_armor" "tech_sergeant_assault_squad" "tech_lightning_claws_upgrade" "tech_wings_of_shrike" }
+	
+	allow = {
+		has_building = building_chapel_barracks
+	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -569,7 +603,8 @@ devastator_space_marines = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
+			military_goods = 25
+			gene_seed = 15
 		}
 
 		upkeep = {
@@ -577,16 +612,119 @@ devastator_space_marines = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_mk8_armor" "tech_power_fist" "tech_plasma_cannon" "tech_heavy_bolter" }
 	
 	allow = {
-		#has_building = "chaos_predators_recruitment"
+		has_building = building_chapel_barracks
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
+		owner = { has_country_flag = human_empire 
+			NOR = { 
+				has_technology = tech_power_fist_upgrade 
+				has_technology = tech_tacticus_armor 
+				has_technology = tech_omnis_armor
+			}
 		}
+	}
+}
+
+hellblaster_space_marines = {
+	damage = 4.0
+	health = 4.65
+	morale = 1.65
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 250
+	
+	icon_frame = 126
+	
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 25
+			gene_seed = 20
+		}
+
+		upkeep = {
+			energy = 4.5
+		}
+	}
+	
+	prerequisites = { "tech_tacticus_armor" "tech_power_fist_upgrade" "tech_plasma_cannon" "tech_heavy_bolter" }
+	
+	allow = {
+		has_building = building_chapel_barracks
+	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
+	}
+}
+
+suppressor_space_marines = {
+	damage = 4.5
+	health = 3.5
+	morale = 2.0
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 300
+	
+	icon_frame = 161
+	
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 30
+			gene_seed = 20
+		}
+
+		upkeep = {
+			energy = 5.0
+		}
+	}
+	
+	prerequisites = { "tech_omnis_armor" "tech_power_fist_upgrade" "tech_assault_cannon" "tech_heavy_bolter" }
+	
+	allow = {
+		has_building = building_chapel_barracks
+	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
+	}
+}
+
+reiver_space_marines = {
+	damage = 3.8
+	health = 3.0
+	morale = 2.0
+	collateral_damage = 1.00												
+	war_exhaustion = 0.0											
+	time = 250
+	
+	icon_frame = 160
+	
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 25
+			gene_seed = 20
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	prerequisites = { "tech_phobos_armor" "tech_bolt_pistol" "tech_power_sword" "tech_antitank_grenades" }
+	
+	allow = {
+		has_building = building_chapel_barracks
+	}
+	
+	potential = {
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -605,20 +743,24 @@ sentinel = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 550
+			alloys = 500
+			electronics = 50
+			military_goods = 10
 		}
 
 		upkeep = {
 			energy = 2.0
 		}
 	}
-
-	#prerequisites = { "tech_titans_army" }
+	
+	prerequisites = { "tech_sentinel_missile" }
+	
+	allow = {
+		has_building = building_navy_recruitment
+	}
 
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -635,7 +777,9 @@ manticore = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 600
+			alloys = 600
+			electronics = 50
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -643,12 +787,14 @@ manticore = {
 		}
 	}
 
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_manticore_shot" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -665,7 +811,9 @@ chimera = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 650
+			alloys = 650
+			electronics = 50
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -673,12 +821,14 @@ chimera = {
 		}
 	}
 
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_executioner" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -695,7 +845,9 @@ banewolf = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 750
+			alloys = 750
+			electronics = 50
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -703,12 +855,14 @@ banewolf = {
 		}
 	}
 
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_tank_armor" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -725,7 +879,9 @@ baneblade = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 950
+			alloys = 950
+			electronics = 100
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -733,12 +889,14 @@ baneblade = {
 		}
 	}
 
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_tank_armor" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -755,7 +913,9 @@ leman_russ = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 950
+			alloys = 950
+			electronics = 100
+			military_goods = 30
 		}
 
 		upkeep = {
@@ -763,12 +923,14 @@ leman_russ = {
 		}
 	}
 
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_vanquisher" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -788,7 +950,7 @@ ogryn_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -796,12 +958,14 @@ ogryn_squad = {
 		}
 	}
 
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_ogryn_army" "tech_ogryn_squad_leader" "tech_power_fist_common" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -819,7 +983,7 @@ imperial_guard_big = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			military_goods = 15
 		}
 
 		upkeep = {
@@ -827,8 +991,12 @@ imperial_guard_big = {
 		}
 	}
 
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_guardsmen_squad_commissar" "tech_plasma_gun" "tech_flamer" "tech_lasgun" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			OR = {
@@ -837,9 +1005,7 @@ imperial_guard_big = {
 				is_planet_class = pc_mega_hive
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -857,7 +1023,7 @@ imperial_guard_medium = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -865,8 +1031,12 @@ imperial_guard_medium = {
 		}
 	}
 
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_guardsmen_squad_commissar" "tech_plasma_gun" "tech_flamer" "tech_lasgun" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			OR = {
@@ -882,9 +1052,7 @@ imperial_guard_medium = {
 				is_planet_class = pc_mega_hive
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -902,7 +1070,7 @@ imperial_guard_small = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 70
+			military_goods = 7
 		}
 
 		upkeep = {
@@ -910,8 +1078,12 @@ imperial_guard_small = {
 		}
 	}
 
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_guardsmen_squad_commissar" "tech_plasma_gun" "tech_flamer" "tech_lasgun" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			NOR = {
@@ -921,9 +1093,7 @@ imperial_guard_small = {
 				is_planet_class = pc_asteroid
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -941,7 +1111,7 @@ death_korps = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -949,8 +1119,12 @@ death_korps = {
 		}
 	}
 
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_lasgun" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			OR = {
@@ -960,9 +1134,7 @@ death_korps = {
 				is_planet_class = pc_asteroid
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -980,7 +1152,7 @@ conscripts = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 40
+			military_goods = 4
 		}
 
 		upkeep = {
@@ -988,8 +1160,12 @@ conscripts = {
 		}
 	}
 
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_lasgun" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			OR = {
@@ -1005,9 +1181,7 @@ conscripts = {
 				is_planet_class = pc_mega_hive
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -1025,7 +1199,7 @@ heavy_weapon_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 180
+			military_goods = 18
 		}
 
 		upkeep = {
@@ -1033,8 +1207,12 @@ heavy_weapon_squad = {
 		}
 	}
 
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_heavy_bolter_turret_common" "tech_heavy_weapon_squad_lascannon" "tech_heavy_weapon_squad_autocannon" "tech_missile_launcher" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			OR = {
@@ -1042,46 +1220,7 @@ heavy_weapon_squad = {
 				is_planet_class = pc_fortress
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
-	}
-}
-
-grenadiers = {
-	damage = 4.0
-	health = 3.0
-	morale = 2.0
-	collateral_damage = 1.00
-	war_exhaustion = 0.0
-	has_species = yes
-	time = 200
-
-	icon_frame = 129
-
-	resources = {
-		category = armies
-		cost = {
-			minerals = 200
-		}
-
-		upkeep = {
-			energy = 2.0
-		}
-	}
-
-	#prerequisites = { "tech_advance_army" }
-
-	potential = {
-		planet = {
-			OR = {
-				is_planet_class = pc_armoury
-				is_planet_class = pc_fortress
-			}
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -1099,7 +1238,7 @@ stormtroopers = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			military_goods = 20
 		}
 
 		upkeep = {
@@ -1107,8 +1246,12 @@ stormtroopers = {
 		}
 	}
 
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_cadian_trooper" "tech_melta_gun" "tech_assault_kit" "tech_grenade_launcher" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
 		planet = {
 			OR = {
@@ -1116,9 +1259,46 @@ stormtroopers = {
 				is_planet_class = pc_fortress
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
+		owner = { has_country_flag = human_empire }
+	}
+}
+
+grenadiers = {
+	damage = 4.0
+	health = 3.0
+	morale = 2.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	has_species = yes
+	time = 200
+
+	icon_frame = 129
+
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 30
 		}
+
+		upkeep = {
+			energy = 2.0
+		}
+	}
+
+	prerequisites = { "tech_carapace_armor" "tech_lasgun" "tech_demoman" "tech_demolition_charge" }
+
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
+	potential = {
+		planet = {
+			OR = {
+				is_planet_class = pc_armoury
+				is_planet_class = pc_fortress
+			}
+		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -1135,7 +1315,7 @@ vindicare_assassin = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			military_goods = 10
 		}
 
 		upkeep = {
@@ -1143,20 +1323,54 @@ vindicare_assassin = {
 		}
 	}
 
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_officio_assassinorum" "tech_infiltrate" "tech_sniper_rifle" "tech_sniper_squad_targeted_grenades" }
 
+	allow = {
+		has_building = building_navy_recruitment
+	}
+	
 	potential = {
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }
 
 # OTHER
 
+penal_legion = {
+	damage = 1.15
+	health = 2.50
+	morale = 1.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	has_species = yes
+	time = 60
+
+	icon_frame = 125
+
+	resources = {
+		category = armies
+		cost = {
+			military_goods = 5
+		}
+
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { "tech_shotgun" }
+
+	potential = {
+		planet = {
+			is_planet_class = pc_penal
+		}
+		owner = { has_country_flag = human_empire }
+	}
+}
+
 skitarii = {
 	damage = 2.5
-	health = 4.5
+	health = 2.5
 	morale = 2.5
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
@@ -1168,15 +1382,13 @@ skitarii = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
+			military_goods = 25
 		}
 
 		upkeep = {
 			energy = 2
 		}
 	}
-
-	#prerequisites = { "tech_medium_army" }
 
 	potential = {
 		planet = {
@@ -1189,42 +1401,6 @@ skitarii = {
 				is_planet_class = pc_forge_ring3
 			}
 		}
-		owner = {
-			has_country_flag = human_empire
-		}
-	}
-}
-
-penal_legion = {
-	damage = 1.15
-	health = 3.50
-	morale = 1.15
-	collateral_damage = 1.00
-	war_exhaustion = 0.0
-	has_species = yes
-	time = 60
-
-	icon_frame = 125
-
-	resources = {
-		category = armies
-		cost = {
-			minerals = 50
-		}
-
-		upkeep = {
-			energy = 1
-		}
-	}
-
-	#prerequisites = { "tech_medium_army" }
-
-	potential = {
-		planet = {
-			is_planet_class = pc_penal
-		}
-		owner = {
-			has_country_flag = human_empire
-		}
+		owner = { has_country_flag = human_empire }
 	}
 }

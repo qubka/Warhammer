@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_leave_confederation"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_integrating.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_assert_confederation"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_isvassal.dds"
+	}
+}

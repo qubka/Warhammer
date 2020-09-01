@@ -86,13 +86,7 @@ entity = {
 
 }
 
-
-
-
-
 ########################################################################
-
-
 
 entity = {
 	name = "spacehulk_connected_entity"
@@ -136,20 +130,20 @@ entity = {
 	pdxmesh = "blackstone_fotress_planet_01_mesh"
 	
 	default_state = "idle"
-	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
-		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
-		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
-	}
+	state = { name = "idle" animation = "idle" }
 	scale = 0.3
 }
 
 entity = {
 	name = "blackstonefortress_planet_01_entity"
 
-	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 -65 0 }}
+	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 0 0 }}
 	
 	default_state = "idle"
-	state = { name = "idle" animation = "idle" }
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
 	attach = { "loc1" = "blackstonefortress_entity"}
 	
 	scale = 4.5
@@ -158,11 +152,29 @@ entity = {
 entity = {
 	name = "eternalcrusader_planet_01_entity"
 
-	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 -65 0 }}
+	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 0 0 }}
 	
 	default_state = "idle"
-	state = { name = "idle" animation = "idle" }
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
 	attach = { "loc1" = "NewEternalCrusader2"}
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "phalanx_planet_01_entity"
+
+	locator = { name = "loc1" position = { 0 0 0 } rotation = { 0 0 0 }}
+	
+	default_state = "idle"
+	state = { name = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_hum_idle_02" } }
+	}
+	attach = { "loc1" = "gothic_01_phalanx_entity" }
 	
 	scale = 1.0
 }

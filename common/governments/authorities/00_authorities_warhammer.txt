@@ -32,7 +32,7 @@ auth_imp = {
 	country_modifier = {
 		country_megastructure_build_cap_add = 2
 		country_edict_cap_add = 2
-		pop_growth_speed = 0.25
+		bio_pop_growth_speed = 0.25
 		empire_size_penalty_mult = -5.0
 	}
 }
@@ -47,7 +47,7 @@ auth_chaos = {
 	
 	country_modifier = {
 		country_edict_cap_add = 3
-		pop_growth_speed_reduction = 0.5
+		bio_pop_growth_speed_reduction = 0.5
 	}
 }
 
@@ -62,7 +62,7 @@ auth_eldar = {
 	country_modifier = {
 		country_megastructure_build_cap_add = 1
 		country_edict_cap_add = 3
-		pop_growth_speed_reduction = 0.25
+		bio_pop_growth_speed_reduction = 0.25
 		empire_size_penalty_mult = -5.0
 	}
 }
@@ -77,7 +77,7 @@ auth_darkeldar = {
 	
 	country_modifier = {
 		country_megastructure_build_cap_add = 2
-		pop_growth_speed_reduction = 0.5
+		bio_pop_growth_speed_reduction = 0.5
 		empire_size_penalty_mult = -2.5
 	}
 }
@@ -91,7 +91,7 @@ auth_ork = {
 	uses_mandates = no
 	
 	country_modifier = {
-		pop_growth_speed = 0.5
+		bio_pop_growth_speed = 0.5
 		empire_size_penalty_mult = 2.0
 	}
 }

@@ -15,9 +15,7 @@ fire_warriors_defense = {
 	icon_frame = 36
 	
 	potential = {
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }
 
@@ -40,8 +38,6 @@ kroot_defense = {
 				is_planet_class = pc_advancexenocityyy
 			}
 		}
-		owner = {
-			has_country_flag = tau_empire
-		}
+		owner = { has_country_flag = tau_empire }
 	}
 }

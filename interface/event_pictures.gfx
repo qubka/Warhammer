@@ -1,0 +1,327 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_evt_dark_eldar_raid"
+		texturefile = "gfx/event_pictures/dark_eldar_raid.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_chaos_suspected"
+		texturefile = "gfx/event_pictures/chaos_suspected.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_chaos_rising"
+		texturefile = "gfx/event_pictures/chaos_rising.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_inquisitor_and_reutine"
+		texturefile = "gfx/event_pictures/inquisitor_and_reutine.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ig_rebellion"
+		texturefile = "gfx/event_pictures/ig_rebellion.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_exterminatus_dwa"
+		texturefile = "gfx/event_pictures/exterminatus_dwa.dds"
+		allwaystransparent = no		
+	}
+
+	spriteType = {
+		name = "GFX_evt_ork_fleet"
+		texturefile = "gfx/event_pictures/ork_fleet.dds"
+		allwaystransparent = no		
+	}
+
+	spriteType = {
+		name = "GFX_evt_orks_attack_planet"
+		texturefile = "gfx/event_pictures/orks_attack_planet.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_trzecia_black_crusade"
+		texturefile = "gfx/event_pictures/trzecia_black_crusade.dds"
+		allwaystransparent = no		
+	}
+
+	spriteType = {
+		name = "GFX_evt_genestealer_cultists_rise"
+		texturefile = "gfx/event_pictures/genestealer_cultists_rise.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_genestealer_cultists_rebelion"
+		texturefile = "gfx/event_pictures/genestealer_cultists_rebelion.dds"
+		allwaystransparent = no		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_badab_wars"
+		texturefile = "gfx/event_pictures/badab_wars.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_base"
+		texturefile = "gfx/event_pictures/discovered_base.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_farpost"
+		texturefile = "gfx/event_pictures/discovered_farpost.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_settlement"
+		texturefile = "gfx/event_pictures/discovered_settlement.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_south_section"
+		texturefile = "gfx/event_pictures/south_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_east_section"
+		texturefile = "gfx/event_pictures/east_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_discovered_stronghold"
+		texturefile = "gfx/event_pictures/discovered_stronghold.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_center_section"
+		texturefile = "gfx/event_pictures/center_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_west_section"
+		texturefile = "gfx/event_pictures/west_section.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_base"
+		texturefile = "gfx/event_pictures/abandoned_base.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_farpost"
+		texturefile = "gfx/event_pictures/abandoned_farpost.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_settlement"
+		texturefile = "gfx/event_pictures/abandoned_settlement.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_abandoned_stronghold"
+		texturefile = "gfx/event_pictures/abandoned_stronghold.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_tomb_world"
+		texturefile = "gfx/event_pictures/tomb_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_unork_project"
+		texturefile = "gfx/event_pictures/unork_project.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_agri_world"
+		texturefile = "gfx/event_pictures/agri_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_armoury_world"
+		texturefile = "gfx/event_pictures/armoury_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_daemon_world"
+		texturefile = "gfx/event_pictures/daemon_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_forge_ring_world"
+		texturefile = "gfx/event_pictures/forge_ring_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_forge_world"
+		texturefile = "gfx/event_pictures/forge_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_fortress_world"
+		texturefile = "gfx/event_pictures/fortress_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_hive_industrial_world"
+		texturefile = "gfx/event_pictures/hive_industrial_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_hive_medium_world"
+		texturefile = "gfx/event_pictures/hive_medium_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_hive_world"
+		texturefile = "gfx/event_pictures/hive_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_industrial_world"
+		texturefile = "gfx/event_pictures/industrial_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_mega_hive_world"
+		texturefile = "gfx/event_pictures/mega_hive_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_ork_world"
+		texturefile = "gfx/event_pictures/ork_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_penal_world"
+		texturefile = "gfx/event_pictures/penal_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_prospecting_fail"
+		texturefile = "gfx/event_pictures/prospecting_fail.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_prospecting_mine"
+		texturefile = "gfx/event_pictures/prospecting_mine.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_prospecting_success"
+		texturefile = "gfx/event_pictures/prospecting_success.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_shrine_world"
+		texturefile = "gfx/event_pictures/shrine_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_super_hive_world"
+		texturefile = "gfx/event_pictures/super_hive_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_tau_world"
+		texturefile = "gfx/event_pictures/tau_world.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_undaemon_project"
+		texturefile = "gfx/event_pictures/undaemon_project.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_exterminatus"
+		texturefile = "gfx/event_pictures/exterminatus.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_exterminatus_2"
+		texturefile = "gfx/event_pictures/exterminatus_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}

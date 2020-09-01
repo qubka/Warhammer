@@ -1,0 +1,39 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "gothic_01_apocalypse_hull_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_apocalypse_hull.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_apocalypse_parts_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_apocalypse_parts.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "gothic_01_apocalypse_parts_2_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_apocalypse_parts_2.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "gothic_01_apocalypse_frame_mesh"
+		file = "gfx/models/ships/gothic_01/gothic_01_apocalypse_frame.mesh"
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+
+}

@@ -11,8 +11,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Dalyth_Admiral_01
+					TAU_Dalyth_Admiral_02
+					TAU_Dalyth_Admiral_03
+					TAU_Dalyth_Admiral_04
 				}
 			}
 		}		
@@ -21,8 +23,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Dalyth_Admiral_01
+					TAU_Dalyth_Admiral_02
+					TAU_Dalyth_Admiral_03
+					TAU_Dalyth_Admiral_04
 				}
 			}
 		}
@@ -109,8 +113,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Farsight_Admiral_01
+					TAU_Farsight_Admiral_02
+					TAU_Farsight_Admiral_03
+					TAU_Farsight_Admiral_04
 				}
 			}
 		}		
@@ -119,8 +125,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Farsight_Admiral_01
+					TAU_Farsight_Admiral_02
+					TAU_Farsight_Admiral_03
+					TAU_Farsight_Admiral_04
 				}
 			}
 		}
@@ -207,8 +215,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Sacea_Admiral_01
+					TAU_Sacea_Admiral_02
+					TAU_Sacea_Admiral_03
+					TAU_Sacea_Admiral_04
 				}
 			}
 		}		
@@ -217,8 +227,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Sacea_Admiral_01
+					TAU_Sacea_Admiral_02
+					TAU_Sacea_Admiral_03
+					TAU_Sacea_Admiral_04
 				}
 			}
 		}
@@ -305,8 +317,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Tau_Admiral_01
+					TAU_Tau_Admiral_02
+					TAU_Tau_Admiral_03
+					TAU_Tau_Admiral_04
 				}
 			}
 		}		
@@ -315,8 +329,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Tau_Admiral_01
+					TAU_Tau_Admiral_02
+					TAU_Tau_Admiral_03
+					TAU_Tau_Admiral_04
 				}
 			}
 		}
@@ -403,8 +419,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Taun_Admiral_01
+					TAU_Taun_Admiral_02
+					TAU_Taun_Admiral_03
+					TAU_Taun_Admiral_04
 				}
 			}
 		}		
@@ -413,8 +431,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Taun_Admiral_01
+					TAU_Taun_Admiral_02
+					TAU_Taun_Admiral_03
+					TAU_Taun_Admiral_04
 				}
 			}
 		}
@@ -501,8 +521,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Dyanoi_Admiral_01
+					TAU_Dyanoi_Admiral_02
+					TAU_Dyanoi_Admiral_03
+					TAU_Dyanoi_Admiral_04
 				}
 			}
 		}		
@@ -511,8 +533,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					humanoid_03_female_01
-					humanoid_03_male_01
+					TAU_Dyanoi_Admiral_01
+					TAU_Dyanoi_Admiral_02
+					TAU_Dyanoi_Admiral_03
+					TAU_Dyanoi_Admiral_04
 				}
 			}
 		}

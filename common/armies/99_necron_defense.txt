@@ -18,9 +18,7 @@ tombspyder_defense = {
 		planet = {
 			is_planet_class = pc_tomb
 		}
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 }
 
@@ -36,9 +34,7 @@ lychguard_defense = {
 	icon_frame = 58
 	
 	potential = {
-		owner = {
-			has_country_flag = necron_empire
-		}
+		owner = { has_country_flag = necron_empire }
 	}
 	
 }

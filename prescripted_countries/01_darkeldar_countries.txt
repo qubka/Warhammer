@@ -12,28 +12,29 @@ dark_ynnari = {
 		plural = "PRESCRIPTED_species_plural_dark_ynnari"
 		adjective = "PRESCRIPTED_species_adjective_dark_ynnari"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_anarchy_terrorism" "civic_terrible_depravity" }
+	civics = { "civic_anarchy_terrorism" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_dark_ynnari"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_dark_ynnari }
+	flags = { eldarian darkeldar_empire the_dark_ynnari }
 	planet_name = "PRESCRIPTED_planet_name_dark_ynnari"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dark_ynnari"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -78,28 +79,29 @@ the_severed = {
 		plural = "PRESCRIPTED_species_plural_the_severed"
 		adjective = "PRESCRIPTED_species_adjective_the_severed"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_master_pirates" "civic_terrible_depravity" }
+	civics = { "civic_master_pirates" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_severed"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_severed }
+	flags = { eldarian darkeldar_empire the_severed }
 	planet_name = "PRESCRIPTED_planet_name_the_severed"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_the_severed"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -144,28 +146,29 @@ last_hatred = {
 		plural = "PRESCRIPTED_species_plural_last_hatred"
 		adjective = "PRESCRIPTED_species_adjective_last_hatred"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_forbidden_arts" "civic_terrible_depravity" }
+	civics = { "civic_forbidden_arts" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_last_hatred"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_last_hatred }
+	flags = { eldarian darkeldar_empire the_last_hatred }
 	planet_name = "PRESCRIPTED_planet_name_last_hatred"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_last_hatred"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -210,28 +213,29 @@ iron_thorn = {
 		plural = "PRESCRIPTED_species_plural_iron_thorn"
 		adjective = "PRESCRIPTED_species_adjective_iron_thorn"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_arm_developers" "civic_terrible_depravity" }
+	civics = { "civic_arm_developers" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_iron_thorn"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_iron_thorn }
+	flags = { eldarian darkeldar_empire the_iron_thorn }
 	planet_name = "PRESCRIPTED_planet_name_iron_thorn"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_iron_thorn"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -276,28 +280,29 @@ flayed_skull = {
 		plural = "PRESCRIPTED_species_plural_flayed_skull"
 		adjective = "PRESCRIPTED_species_adjective_flayed_skull"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_professional_reavers" "civic_terrible_depravity" }
+	civics = { "civic_professional_reavers" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_flayed_skull"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_flayed_skull }
+	flags = { eldarian darkeldar_empire the_flayed_skull }
 	planet_name = "PRESCRIPTED_planet_name_flayed_skull"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_flayed_skull"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -342,28 +347,29 @@ dying_sun = {
 		plural = "PRESCRIPTED_species_plural_dying_sun"
 		adjective = "PRESCRIPTED_species_adjective_dying_sun"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_keepers_of_secrets" "civic_terrible_depravity" }
+	civics = { "civic_keepers_of_secrets" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_dying_sun"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_dying_sun }
+	flags = { eldarian darkeldar_empire the_dying_sun }
 	planet_name = "PRESCRIPTED_planet_name_dying_sun"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_dying_sun"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -408,28 +414,29 @@ broken_sigil = {
 		plural = "PRESCRIPTED_species_plural_broken_sigil"
 		adjective = "PRESCRIPTED_species_adjective_broken_sigil"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_scariest_kabal" "civic_terrible_depravity" }
+	civics = { "civic_scariest_kabal" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_broken_sigil"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_broken_sigil }
+	flags = { eldarian darkeldar_empire the_broken_sigil }
 	planet_name = "PRESCRIPTED_planet_name_broken_sigil"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_broken_sigil"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {
@@ -474,28 +481,29 @@ black_heart = {
 		plural = "PRESCRIPTED_species_plural_black_heart"
 		adjective = "PRESCRIPTED_species_adjective_black_heart"
 		name_list = "DARKELDAR1"
+		trait = "trait_latent_psionic"
 		trait = "trait_solitary"
 		trait = "trait_charismatic"
 		trait = "trait_intelligent"
 		trait = "trait_slow_breeders"
 	}
 
-	room = "extradimensional_room"
+	room = "commorragh_room"
 
 	authority = "auth_darkeldar"
-	civics = { "civic_witches_of_discord" "civic_terrible_depravity" }
+	civics = { "civic_witches_of_discord" "civic_terrible_depravity" "civic_barbaric_despoilers" }
 	government = "gov_libertarian_meritocracy"
 	origin = "origin_black_heart"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { darkeldar_empire the_black_heart }
+	flags = { eldarian darkeldar_empire the_black_heart }
 	planet_name = "PRESCRIPTED_planet_name_black_heart"
 	planet_class = "pc_webway"
 	system_name = "PRESCRIPTED_system_name_black_heart"
 
-	graphical_culture = "humanoid_01"
+	graphical_culture = "reptilian_01"
 	city_graphical_culture = "fallen_empire_02"
 
 	empire_flag = {

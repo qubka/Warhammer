@@ -18,22 +18,22 @@ alpha_legion = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xx" "civic_extremly_secretive" }
+	civics = { "civic_xx" "civic_extremly_secretive" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_alpha_legion"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_alpha_legion chaos_undivided }
+	flags = { humanoid chaos_empire the_alpha_legion chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_alpha_legion"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_alpha_legion"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -84,22 +84,22 @@ black_legion = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xvi" "civic_chaos_undivided" }
+	civics = { "civic_xvi" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_black_legion"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_black_legion chaos_undivided }
+	flags = { humanoid chaos_empire the_black_legion chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_black_legion"
-	planet_class = "pc_daemon"
+	planet_class = "pc_blackstonefortress"
 	system_name = "PRESCRIPTED_system_name_black_legion"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -150,22 +150,22 @@ death_guard = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "nurgle_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xiv" "civic_nurgle_cult" }
+	civics = { "civic_xiv" "civic_nurgle_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_death_guard"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_death_guard nurgle }
+	flags = { humanoid chaos_empire the_death_guard nurgle }
 	planet_name = "PRESCRIPTED_planet_name_death_guard"
 	planet_class = "pc_daemonn"
 	system_name = "PRESCRIPTED_system_name_death_guard"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -216,22 +216,22 @@ emperor_children = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "slaanesh_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_iii" "civic_slaanesh_cult" }
+	civics = { "civic_iii" "civic_slaanesh_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_emperor_children"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_emperor_children slaanesh }
+	flags = { humanoid chaos_empire the_emperor_children slaanesh }
 	planet_name = "PRESCRIPTED_planet_name_emperor_children"
 	planet_class = "pc_daemons"
 	system_name = "PRESCRIPTED_system_name_emperor_children"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -282,22 +282,22 @@ iron_warrior = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_iv" "civic_chaos_undivided" }
+	civics = { "civic_iv" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_iron_warrior"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_iron_warrior chaos_undivided }
+	flags = { humanoid chaos_empire the_iron_warrior chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_iron_warrior"
 	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_iron_warrior"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -348,22 +348,22 @@ night_lords = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_viii" "civic_chaos_undivided" }
+	civics = { "civic_viii" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_night_lords"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_night_lords chaos_undivided }
+	flags = { humanoid chaos_empire the_night_lords chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_night_lords"
 	planet_class = "pc_forge_ring3"
 	system_name = "PRESCRIPTED_system_name_night_lords"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -414,22 +414,22 @@ red_corsairs = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_chaos_corsairs" "civic_warrior_culture" }
+	civics = { "civic_chaos_corsairs" "civic_warrior_culture" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_red_corsairs"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_red_corsairs chaos_undivided }
+	flags = { humanoid chaos_empire the_red_corsairs chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_red_corsairs"
 	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_red_corsairs"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -480,22 +480,22 @@ thousand_sons = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "tzeentch_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xv" "civic_tzeentch_cult" }
+	civics = { "civic_xv" "civic_tzeentch_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_thousand_sons"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_thousand_sons tzeentch }
+	flags = { humanoid chaos_empire the_thousand_sons tzeentch }
 	planet_name = "PRESCRIPTED_planet_name_thousand_sons"
 	planet_class = "pc_daemont"
 	system_name = "PRESCRIPTED_system_name_thousand_sons"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -546,22 +546,22 @@ word_bearer = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "chaos_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xvii" "civic_chaos_undivided" }
+	civics = { "civic_xvii" "civic_chaos_undivided" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_word_bearer"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_word_bearer chaos_undivided }
+	flags = { humanoid chaos_empire the_word_bearer chaos_undivided }
 	planet_name = "PRESCRIPTED_planet_name_word_bearer"
-	planet_class = "pc_daemons"
+	planet_class = "pc_daemon"
 	system_name = "PRESCRIPTED_system_name_word_bearer"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -612,22 +612,22 @@ world_eater = {
 		trait = "trait_slow_breeders"
 	}
 	
-	room = "extradimensional_orange_room"
+	room = "khorne_room"
 	
 	authority = "auth_chaos"
-	civics = { "civic_xii" "civic_khorne_cult" }
+	civics = { "civic_xii" "civic_khorne_cult" "civic_barbaric_despoilers" }
 	government = "gov_anarcho_tribalism"
 	origin = "origin_world_eater"
 
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_militarist"
 	ethic = "ethic_spiritualist"
-	flags = { chaos_empire the_world_eater khorne }
+	flags = { humanoid chaos_empire the_world_eater khorne }
 	planet_name = "PRESCRIPTED_planet_name_world_eater"
 	planet_class = "pc_forge_ring3"
 	system_name = "PRESCRIPTED_system_name_world_eater"
 	
-	graphical_culture = "humanoid_01"
+	graphical_culture = "gothic_01"
 	city_graphical_culture = "humanoid_01"
 	
 	empire_flag = {
@@ -655,5 +655,71 @@ world_eater = {
 		clothes = 0
 		leader_class = ruler
 		ruler_title = "PRESCRIPTED_ruler_title_world_eater"
+	}
+}
+
+sons_of_malice = {
+	name = "Sons of Malice"
+	adjective = "PRESCRIPTED_adjective_sons_of_malice"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_sons_of_malice"
+	
+	species = {
+		class = "CHA"
+		portrait = "chaos_sons_of_malice"
+		name = "PRESCRIPTED_species_name_sons_of_malice"
+		plural = "PRESCRIPTED_species_plural_sons_of_malice"
+		adjective = "PRESCRIPTED_species_adjective_sons_of_malice"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "chaos_room"
+	
+	authority = "auth_chaos"
+	civics = { "civic_malice_cult" "civic_warrior_culture" "civic_barbaric_despoilers" }
+	government = "gov_anarcho_tribalism"
+	origin = "origin_sons_of_malice"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	flags = { humanoid chaos_empire the_sons_of_malice malice }
+	planet_name = "PRESCRIPTED_planet_name_sons_of_malice"
+	planet_class = "pc_spacehulk"
+	system_name = "PRESCRIPTED_system_name_sons_of_malice"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_SMC_SonsOfMalice.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_sons_of_malice"
+		gender = male
+		portrait = "CHAOS_SonsOfMalice_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_sons_of_malice"
 	}
 }

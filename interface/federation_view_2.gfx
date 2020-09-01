@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_theocratic_confederation"
+		textureFile = "gfx/interface/icons/federation/federation_types/theocratic_confederation.dds"
+	}
+}
