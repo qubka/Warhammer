@@ -15,9 +15,7 @@ cultists_defense = {
 	icon_frame = 98
 
 	potential = {
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -41,8 +39,6 @@ bloodletters_defense = {
 				is_planet_class = pc_daemons
 			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }

@@ -1,0 +1,328 @@
+sound = 
+{
+	name = "relic_activation_ast_astartes_konor_pattern_power_sword_final_trophy"
+	file = "vo/relics/relic_activation_ast_astartes_konor_pattern_power_sword_final_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_axe_photos_trophy"
+	file = "vo/relics/relic_activation_ast_axe_photos_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_cypher_armor_trophy"
+	file = "vo/relics/relic_activation_ast_cypher_armor_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_cypher_attack_bike_trophy"
+	file = "vo/relics/relic_activation_ast_cypher_attack_bike_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_cypher_scapular_trophy"
+	file = "vo/relics/relic_activation_ast_cypher_scapular_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_erasmus_pattern_plasmacannon_mki_trophy"
+	file = "vo/relics/relic_activation_ast_erasmus_pattern_plasmacannon_mki_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_gilded_bolter_trophy"
+	file = "vo/relics/relic_activation_ast_gilded_bolter_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_glaive_super_heavy_special_weapons_tank_trophy"
+	file = "vo/relics/relic_activation_ast_glaive_super_heavy_special_weapons_tank_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_hagen_pattern_narthecium_trophy"
+	file = "vo/relics/relic_activation_ast_hagen_pattern_narthecium_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_relic_powerfist_trophy"
+	file = "vo/relics/relic_activation_ast_relic_powerfist_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_requiem_heavy_bolter_trophy"
+	file = "vo/relics/relic_activation_ast_requiem_heavy_bolter_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ast_sternguard_bolter_trophy"
+	file = "vo/relics/relic_activation_ast_sternguard_bolter_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_murder_sword_trophy"
+	file = "vo/relics/relic_activation_csm_murder_sword_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_abaddons_grace_trophy"
+	file = "vo/relics/relic_activation_csm_abaddons_grace_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_apollo_pattern_plasma_gun_trophy"
+	file = "vo/relics/relic_activation_csm_apollo_pattern_plasma_gun_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_deathlock_cestus_powerfist_skin_trophy"
+	file = "vo/relics/relic_activation_csm_deathlock_cestus_powerfist_skin_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_fleshmetal_shell_trophy"
+	file = "vo/relics/relic_activation_csm_fleshmetal_shell_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_hell_breach_plasmacannon_2_trophy"
+	file = "vo/relics/relic_activation_csm_hell_breach_plasmacannon_2_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_hell_warbike_trophy"
+	file = "vo/relics/relic_activation_csm_hell_warbike_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_hellkiss_meltagun_trophy"
+	file = "vo/relics/relic_activation_csm_hellkiss_meltagun_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_maelstromcleaver_trophy"
+	file = "vo/relics/relic_activation_csm_maelstromcleaver_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_rage_spitter_trophy"
+	file = "vo/relics/relic_activation_csm_rage_spitter_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_shrieking_souls_armor_trophy"
+	file = "vo/relics/relic_activation_csm_shrieking_souls_armor_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_csm_widowmaker_bolter_trophy"
+	file = "vo/relics/relic_activation_csm_widowmaker_bolter_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_firesabre_trophy"
+	file = "vo/relics/relic_activation_eld_firesabre_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_fire_dragon_fusion_gun_trophy"
+	file = "vo/relics/relic_activation_eld_fire_dragon_fusion_gun_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_gatekeepers_bastion_trophy"
+	file = "vo/relics/relic_activation_eld_gatekeepers_bastion_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_gorhu_armor_trophy"
+	file = "vo/relics/relic_activation_eld_gorhu_armor_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_ice_hawk_cannon_trophy"
+	file = "vo/relics/relic_activation_eld_ice_hawk_cannon_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_laelshanwitchblade_trophy"
+	file = "vo/relics/relic_activation_eld_laelshanwitchblade_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_last_runes_armor_trophy"
+	file = "vo/relics/relic_activation_eld_last_runes_armor_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_maeldannan_diresword_trophy"
+	file = "vo/relics/relic_activation_eld_maeldannan_diresword_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_swoopinghawk_lasblaster_trophy"
+	file = "vo/relics/relic_activation_eld_swoopinghawk_lasblaster_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_torrent_reaper_launcher_trophy"
+	file = "vo/relics/relic_activation_eld_torrent_reaper_launcher_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_eld_vyper_trophy"
+	file = "vo/relics/relic_activation_eld_vyper_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_boss_choppa_trophy"
+	file = "vo/relics/relic_activation_ork_boss_choppa_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_da_heart_stoppa_trophy"
+	file = "vo/relics/relic_activation_ork_da_heart_stoppa_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_daneedleuvlif_trophy"
+	file = "vo/relics/relic_activation_ork_daneedleuvlif_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_heresy_limited_edition_looted_umie_bolter_trophy"
+	file = "vo/relics/relic_activation_ork_heresy_limited_edition_looted_umie_bolter_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_iron_sight_shoota_trophy"
+	file = "vo/relics/relic_activation_ork_iron_sight_shoota_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_looted_power_armor_trophy"
+	file = "vo/relics/relic_activation_ork_looted_power_armor_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_plasma_chompa_02_trophy"
+	file = "vo/relics/relic_activation_ork_plasma_chompa_02_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_powerrippa_trophy"
+	file = "vo/relics/relic_activation_ork_powerrippa_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_sparekeys_combishoota_trophy"
+	file = "vo/relics/relic_activation_ork_sparekeys_combishoota_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_splash_burna_trophy"
+	file = "vo/relics/relic_activation_ork_splash_burna_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_squig_armor_trophy"
+	file = "vo/relics/relic_activation_ork_squig_armor_trophy.wav"
+	volume = 1
+}
+
+sound = 
+{
+	name = "relic_activation_ork_warbuggy_trophy"
+	file = "vo/relics/relic_activation_ork_warbuggy_trophy.wav"
+	volume = 1
+}

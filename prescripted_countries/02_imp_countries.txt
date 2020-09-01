@@ -1,0 +1,785 @@
+agripinaa = {
+	name = "Agripinaa"
+	adjective = "PRESCRIPTED_adjective_agripinaa"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_agripinaa"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mechanicus"
+		name = "PRESCRIPTED_species_name_agripinaa"
+		plural = "PRESCRIPTED_species_plural_agripinaa"
+		adjective = "PRESCRIPTED_species_adjective_agripinaa"
+		name_list = "IMPERIUM1"
+		trait = "trait_cybernetic"
+		trait = "trait_adaptive"
+		trait = "trait_quick_learners"
+		trait = "trait_quarrelsome"
+		trait = "trait_wasteful"
+	}
+	
+	room = "mechanicus_room"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_machine_cult" "civic_technocracy" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
+	origin = "origin_agripinaa"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophobe"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_agripinaa }
+	planet_name = "PRESCRIPTED_planet_name_agripinaa"
+	planet_class = "pc_forgeee"
+	system_name = "PRESCRIPTED_system_name_agripinaa"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_AM_Agripinaa.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_agripinaa"
+		gender = male
+		portrait = "IMP_Mechanicus_ruler3"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_agripinaa"
+	}
+}
+
+graia = {
+	name = "Graia"
+	adjective = "PRESCRIPTED_adjective_graia"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_graia"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mechanicus"
+		name = "PRESCRIPTED_species_name_graia"
+		plural = "PRESCRIPTED_species_plural_graia"
+		adjective = "PRESCRIPTED_species_adjective_graia"
+		name_list = "IMPERIUM1"
+		trait = "trait_cybernetic"
+		trait = "trait_adaptive"
+		trait = "trait_quick_learners"
+		trait = "trait_quarrelsome"
+		trait = "trait_wasteful"
+	}
+	
+	room = "mechanicus_room"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_machine_cult" "civic_technocracy" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
+	origin = "origin_graia"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophobe"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_graia }
+	planet_name = "PRESCRIPTED_planet_name_graia"
+	planet_class = "pc_forge"
+	system_name = "PRESCRIPTED_system_name_graia"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_AM_Graia.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_graia"
+		gender = male
+		portrait = "IMP_Mechanicus_ruler2"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_graia"
+	}
+}
+
+lucius = {
+	name = "Lucius"
+	adjective = "PRESCRIPTED_adjective_lucius"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_lucius"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mechanicus"
+		name = "PRESCRIPTED_species_name_lucius"
+		plural = "PRESCRIPTED_species_plural_lucius"
+		adjective = "PRESCRIPTED_species_adjective_lucius"
+		name_list = "IMPERIUM1"
+		trait = "trait_cybernetic"
+		trait = "trait_adaptive"
+		trait = "trait_quick_learners"
+		trait = "trait_quarrelsome"
+		trait = "trait_wasteful"
+	}
+	
+	room = "mechanicus_room"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_machine_cult" "civic_technocracy" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
+	origin = "origin_lucius"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophobe"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_lucius }
+	planet_name = "PRESCRIPTED_planet_name_lucius"
+	planet_class = "pc_forgee"
+	system_name = "PRESCRIPTED_system_name_lucius"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_AM_Lucius.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_lucius"
+		gender = male
+		portrait = "IMP_Mechanicus_ruler1"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_lucius"
+	}
+}
+
+metalica = {
+	name = "Metalica"
+	adjective = "PRESCRIPTED_adjective_metalica"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_metalica"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mechanicus"
+		name = "PRESCRIPTED_species_name_metalica"
+		plural = "PRESCRIPTED_species_plural_metalica"
+		adjective = "PRESCRIPTED_species_adjective_metalica"
+		name_list = "IMPERIUM1"
+		trait = "trait_cybernetic"
+		trait = "trait_adaptive"
+		trait = "trait_quick_learners"
+		trait = "trait_quarrelsome"
+		trait = "trait_wasteful"
+	}
+	
+	room = "mechanicus_room"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_machine_cult" "civic_technocracy" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
+	origin = "origin_metalica"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophobe"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_metalica }
+	planet_name = "PRESCRIPTED_planet_name_metalica"
+	planet_class = "pc_forgeee"
+	system_name = "PRESCRIPTED_system_name_metalica"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_AM_Metalica.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_metalica"
+		gender = male
+		portrait = "IMP_Mechanicus_ruler4"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_metalica"
+	}
+}
+
+ryza = {
+	name = "Ryza"
+	adjective = "PRESCRIPTED_adjective_ryza"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_ryza"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mechanicus"
+		name = "PRESCRIPTED_species_name_ryza"
+		plural = "PRESCRIPTED_species_plural_ryza"
+		adjective = "PRESCRIPTED_species_adjective_ryza"
+		name_list = "IMPERIUM1"
+		trait = "trait_cybernetic"
+		trait = "trait_adaptive"
+		trait = "trait_quick_learners"
+		trait = "trait_quarrelsome"
+		trait = "trait_wasteful"
+	}
+	
+	room = "mechanicus_room"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_machine_cult" "civic_technocracy" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
+	origin = "origin_ryza"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophobe"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_ryza }
+	planet_name = "PRESCRIPTED_planet_name_ryza"
+	planet_class = "pc_forgee"
+	system_name = "PRESCRIPTED_system_name_ryza"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_AM_Ryza.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_ryza"
+		gender = male
+		portrait = "IMP_Mechanicus_ruler5"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_ryza"
+	}
+}
+
+stygies = {
+	name = "Stygies"
+	adjective = "PRESCRIPTED_adjective_stygies"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_stygies"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_mechanicus"
+		name = "PRESCRIPTED_species_name_stygies"
+		plural = "PRESCRIPTED_species_plural_stygies"
+		adjective = "PRESCRIPTED_species_adjective_stygies"
+		name_list = "IMPERIUM1"
+		trait = "trait_cybernetic"
+		trait = "trait_adaptive"
+		trait = "trait_quick_learners"
+		trait = "trait_quarrelsome"
+		trait = "trait_wasteful"
+	}
+	
+	room = "mechanicus_room"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_machine_cult" "civic_technocracy" "civic_fanatic_purifiers" }
+	government = "gov_confederated_oligarchy"
+	origin = "origin_stygies"
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophobe"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_stygies }
+	planet_name = "PRESCRIPTED_planet_name_stygies"
+	planet_class = "pc_forgee"
+	system_name = "PRESCRIPTED_system_name_stygies"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_AM_StygiesIII.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_stygies"
+		gender = male
+		portrait = "IMP_Mechanicus_ruler6"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_stygies"
+	}
+}
+
+bakka = {
+	name = "Bakka"
+	adjective = "PRESCRIPTED_adjective_bakka"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_bakka"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_navy"
+		name = "PRESCRIPTED_species_name_bakka"
+		plural = "PRESCRIPTED_species_plural_bakka"
+		adjective = "PRESCRIPTED_species_adjective_bakka"
+		name_list = "IMPERIUM1"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_quarrelsome"
+		trait = "trait_solitary"
+	}
+	
+	room = "navy_room"
+	
+	authority = "auth_imp"
+	civics = { "civic_warrior_culture" "civic_nationalistic_zeal" "civic_fanatic_purifiers" }
+	government = "gov_meritocratic_tetrarchy"
+	origin = "origin_bakka"
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_bakka }
+	planet_name = "PRESCRIPTED_planet_name_bakka"
+	planet_class = "pc_hive_tundra"
+	system_name = "PRESCRIPTED_system_name_bakka"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_IMP_Bakka.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_bakka"
+		gender = male
+		portrait = "IMP_Navy_ruler1"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_bakka"
+	}
+}
+
+catachan = {
+	name = "Catachan"
+	adjective = "PRESCRIPTED_adjective_catachan"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_catachan"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_navy"
+		name = "PRESCRIPTED_species_name_catachan"
+		plural = "PRESCRIPTED_species_plural_catachan"
+		adjective = "PRESCRIPTED_species_adjective_catachan"
+		name_list = "IMPERIUM1"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_quarrelsome"
+		trait = "trait_solitary"
+	}
+	
+	room = "navy_room"
+	
+	authority = "auth_imp"
+	civics = { "civic_warrior_culture" "civic_nationalistic_zeal" "civic_fanatic_purifiers" }
+	government = "gov_meritocratic_tetrarchy"
+	origin = "origin_catachan"
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_catachan }
+	planet_name = "PRESCRIPTED_planet_name_catachan"
+	planet_class = "pc_tropical"
+	system_name = "PRESCRIPTED_system_name_catachan"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_IMP_Catachan.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_catachan"
+		gender = male
+		portrait = "IMP_Navy_ruler2"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_catachan"
+	}
+}
+
+cadia = {
+	name = "Cadia"
+	adjective = "PRESCRIPTED_adjective_cadia"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_cadia"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_navy"
+		name = "PRESCRIPTED_species_name_cadia"
+		plural = "PRESCRIPTED_species_plural_cadia"
+		adjective = "PRESCRIPTED_species_adjective_cadia"
+		name_list = "IMPERIUM1"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_quarrelsome"
+		trait = "trait_solitary"
+	}
+	
+	room = "navy_room"
+	
+	authority = "auth_imp"
+	civics = { "civic_warrior_culture" "civic_nationalistic_zeal" "civic_fanatic_purifiers" }
+	government = "gov_meritocratic_tetrarchy"
+	origin = "origin_cadia"
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_cadia }
+	planet_name = "PRESCRIPTED_planet_name_cadia"
+	planet_class = "pc_fortress"
+	system_name = "PRESCRIPTED_system_name_cadia"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_IMP_Cadia.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_cadia"
+		gender = male
+		portrait = "IMP_Navy_ruler3"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_cadia"
+	}
+}
+
+mordian = {
+	name = "Mordian"
+	adjective = "PRESCRIPTED_adjective_mordian"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_mordian"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_navy"
+		name = "PRESCRIPTED_species_name_mordian"
+		plural = "PRESCRIPTED_species_plural_mordian"
+		adjective = "PRESCRIPTED_species_adjective_mordian"
+		name_list = "IMPERIUM1"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_quarrelsome"
+		trait = "trait_solitary"
+	}
+	
+	room = "navy_room"
+	
+	authority = "auth_imp"
+	civics = { "civic_warrior_culture" "civic_nationalistic_zeal" "civic_fanatic_purifiers" }
+	government = "gov_meritocratic_tetrarchy"
+	origin = "origin_mordian"
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_mordian }
+	planet_name = "PRESCRIPTED_planet_name_mordian"
+	planet_class = "pc_hive_continental_02"
+	system_name = "PRESCRIPTED_system_name_mordian"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_IMP_Mordian.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_mordian"
+		gender = male
+		portrait = "IMP_Navy_ruler6"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_mordian"
+	}
+}
+
+krieg = {
+	name = "Krieg"
+	adjective = "PRESCRIPTED_adjective_krieg"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_krieg"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_navy"
+		name = "PRESCRIPTED_species_name_krieg"
+		plural = "PRESCRIPTED_species_plural_krieg"
+		adjective = "PRESCRIPTED_species_adjective_krieg"
+		name_list = "IMPERIUM1"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_quarrelsome"
+		trait = "trait_solitary"
+	}
+	
+	room = "navy_room"
+	
+	authority = "auth_imp"
+	civics = { "civic_warrior_culture" "civic_nationalistic_zeal" "civic_fanatic_purifiers" }
+	government = "gov_meritocratic_tetrarchy"
+	origin = "origin_krieg"
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_krieg }
+	planet_name = "PRESCRIPTED_planet_name_krieg"
+	planet_class = "pc_hive_medium"
+	system_name = "PRESCRIPTED_system_name_krieg"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_IMP_Krieg.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_krieg"
+		gender = male
+		portrait = "IMP_Navy_ruler5"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_krieg"
+	}
+}
+
+armageddon = {
+	name = "Armageddon"
+	adjective = "PRESCRIPTED_adjective_armageddon"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes	
+	ship_prefix = "PRESCRIPTED_ship_prefix_armageddon"
+	
+	species = {
+		class = "IMP"
+		portrait = "imp_navy"
+		name = "PRESCRIPTED_species_name_armageddon"
+		plural = "PRESCRIPTED_species_plural_armageddon"
+		adjective = "PRESCRIPTED_species_adjective_armageddon"
+		name_list = "IMPERIUM1"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_quarrelsome"
+		trait = "trait_solitary"
+	}
+	
+	room = "navy_room"
+	
+	authority = "auth_imp"
+	civics = { "civic_warrior_culture" "civic_nationalistic_zeal" "civic_fanatic_purifiers" }
+	government = "gov_meritocratic_tetrarchy"
+	origin = "origin_armageddon"
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_militarist"
+	flags = { humanoid human_empire human_colony ai_no_leave_fed the_armageddon }
+	planet_name = "PRESCRIPTED_planet_name_armageddon"
+	planet_class = "pc_hive_industrial"
+	system_name = "PRESCRIPTED_system_name_armageddon"
+	
+	graphical_culture = "gothic_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_IMP_Armagedon.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = random# = "PRESCRIPTED_ruler_name_armageddon"
+		gender = male
+		portrait = "IMP_Navy_ruler4"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_armageddon"
+	}
+}

@@ -16,7 +16,8 @@ wraithguard = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 2000
+			alloys = 1200
+			spirit_stones = 200
 		}
 
 		upkeep = {
@@ -24,10 +25,10 @@ wraithguard = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_wraithbone_wraithguard" "tech_shuriken_cannon_wraithguard" "tech_farse_witchblade_doombringer" }
 	
 	allow = {
-		#has_building = "wraithguard_recruitment"
+		has_building = building_spiritspire_dharquese
 		
 		owner = {
 			NOT = { 
@@ -58,46 +59,43 @@ wraithguard = {
 	}
 	
 	potential = {
-		planet = {
-			is_planet_class = pc_craftworld 
-		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		planet = { is_planet_class = pc_craftworld }
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
 wraithlord = {
-	damage = 7.0
-	health = 7.0
-	morale = 6.0
+	damage = 8.0
+	health = 10.0
+	morale = 10.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
-	time = 500
+	time = 550
 	
 	icon_frame = 77
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1050
+			alloys = 1100
+			spirit_stones = 150
 		}
 
 		upkeep = {
-			energy = 6.5
+			energy = 9
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_wraithbone" "tech_brightlance_wraithlord" "tech_wraithsword_common" }
 	
 	allow = {
-		#has_building = "wraithlord_recruitment"
+		has_building = building_spiritspire_dharquese
 		
 		owner = {
 			NOT = { 
 				check_variable = {
 					which = "wraithlord_count" 
-					value = 15
+					value = 5
 				}
 			}
 		}
@@ -122,37 +120,36 @@ wraithlord = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
 wraithknight = {
-	damage = 8.0
-	health = 10.0
-	morale = 10.0
+	damage = 7.0
+	health = 7.0
+	morale = 6.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
-	time = 550
+	time = 500
 	
 	icon_frame = 133
 	
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1150
+			alloys = 1000
+			spirit_stones = 100
 		}
 
 		upkeep = {
-			energy = 8.5
+			energy = 8
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
+	prerequisites = { "tech_brightlance_wraithlord" "tech_shuriken_cannon_wraithguard" }
 	
 	allow = {
-		#has_building = "wraithlord_recruitment"
+		has_building = building_spiritspire_dharquese
 		
 		owner = {
 			NOT = { 
@@ -183,16 +180,14 @@ wraithknight = {
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
 avatar = {
-	damage = 10.0
-	health = 10.0
-	morale = 7.0
+	damage = 12.0
+	health = 15.0
+	morale = 10.0
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
 	time = 600
@@ -202,18 +197,18 @@ avatar = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1250
+			energy = 5000
 		}
 
 		upkeep = {
-			energy = 10
+			energy = 20
 		}
 	}
 	
-	#prerequisites = { "tech_advance_army" }
-	
+	prerequisites = { "tech_avatar" }
+
 	allow = {
-		#has_building = "wraithknight_recruitment"
+		has_building = building_spiritspire_dharquese
 		
 		owner = {
 			NOT = { 
@@ -244,12 +239,8 @@ avatar = {
 	}
 	
 	potential = {
-		planet = {
-			is_planet_class = pc_craftworld 
-		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		planet = { is_planet_class = pc_craftworld }
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -266,7 +257,7 @@ cobra = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
+			alloys = 150
 		}
 
 		upkeep = {
@@ -274,55 +265,14 @@ cobra = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_wargear_eld_improved_targeters" "tech_destructor_rare" "tech_thunder_and_lightning" }
 	
 	allow = {
-		#has_building = "cobra_recruitment"
+		has_building = building_spiritspire_dharquese
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
-	}
-}
-
-warp_spiders = {
-	damage = 2.50
-	health = 3.10
-	morale = 2.00
-	collateral_damage = 1.00
-	war_exhaustion = 0.0
-	time = 130
-	
-	icon_frame = 80
-	
-	resources = {
-		category = armies
-		cost = {
-			minerals = 160
-		}
-
-		upkeep = {
-			energy = 3.9
-		}
-	}
-	
-	#prerequisites = { "tech_medium_army" }
-	
-	allow = {
-		planet = {
-			is_planet_class = pc_craftworld 
-		}
-	}
-	
-	potential = {
-		planet = {
-			is_planet_class = pc_craftworld 
-		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -339,7 +289,7 @@ falcon = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 200
+			alloys = 200
 		}
 
 		upkeep = {
@@ -347,16 +297,48 @@ falcon = {
 		}
 	}
 	
-	#prerequisites = { "tech_medium_army" }
+	prerequisites = { "tech_twin_death_spinner_common" "tech_energy_field" "tech_wargear_eld_entangling_web" }
 	
 	allow = {
-		#has_building = "falcon_recruitment"
+		has_building = building_spiritspire_dharquese
 	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
+		owner = { has_country_flag = eldar_empire }
+	}
+}
+
+warp_spiders = {
+	damage = 2.50
+	health = 3.10
+	morale = 2.00
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	has_species = yes
+	time = 130
+	
+	icon_frame = 80
+	
+	resources = {
+		category = armies
+		cost = {
+			alloys = 160
 		}
+
+		upkeep = {
+			energy = 3.9
+		}
+	}
+	
+	prerequisites = { "tech_warp_spiders" "tech_aspect_of_warp_spider" "tech_death_spinner_common" "tech_wp_farse_witchblade_singing_spear" }
+	
+	allow = {
+		has_building = building_spiritspire_dharquese
+	}
+	
+	potential = {
+		planet = { is_planet_class = pc_craftworld }
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -366,6 +348,7 @@ guardian_squad = {
 	morale = 1.35
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 82
@@ -373,7 +356,7 @@ guardian_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 70
+			alloys = 70
 		}
 
 		upkeep = {
@@ -381,12 +364,14 @@ guardian_squad = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_long_rifle_common" "tech_battle_equipment" "tech_shuriken_pistol_common" "tech_witchblade_rare" }
+	
+	allow = {
+		has_building = building_spiritspire_dharquese
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -396,6 +381,7 @@ ranger_squad = {
 	morale = 1.15
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 90
 	
 	icon_frame = 83
@@ -403,7 +389,7 @@ ranger_squad = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 50
+			alloys = 50
 		}
 
 		upkeep = {
@@ -411,12 +397,14 @@ ranger_squad = {
 		}
 	}
 	
-	#prerequisites = { "tech_assault_armies" }
+	prerequisites = { "tech_pathfinder_gear" "tech_shuriken_catapult_common" "tech_power_sword_common" "tech_farse_ghosthelm" }
+	
+	allow = {
+		has_building = building_spiritspire_dharquese
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -426,6 +414,7 @@ howling_banshee = {
 	morale = 1.55
 	collateral_damage = 1.00
 	war_exhaustion = 0.0
+	has_species = yes
 	time = 110
 	
 	icon_frame = 84
@@ -433,7 +422,7 @@ howling_banshee = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			alloys = 100
 		}
 
 		upkeep = {
@@ -441,12 +430,14 @@ howling_banshee = {
 		}
 	}
 	
-	#prerequisites = { "tech_basic_army" }
+	prerequisites = { "tech_aspect_of_banshee" "tech_banshee_exarch" "tech_wargear_eld_powerblades" "tech_farse_witchblade_sky_gauntlets" }
+	
+	allow = {
+		has_building = building_spiritspire_dharquese
+	}
 	
 	potential = {
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }
 
@@ -463,17 +454,21 @@ warlock = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 100
+			alloys = 100
 		}
-
+		produces = {
+			unity = 1
+		}
 		upkeep = {
 			energy = 5
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
-	
+	prerequisites = { "tech_warlock" "tech_executioner_legendary" "tech_fusion_gun_legendary" "tech_champions_robe" }
+
 	allow = {
+		has_building = building_spiritspire_dharquese
+		
 		owner = {
 			NOT = { 
 				check_variable = {
@@ -503,11 +498,6 @@ warlock = {
 	}
 	
 	potential = {
-		planet = {
-			has_planet_flag = ulthwecraftworld
-		}
-		owner = {
-			has_country_flag = eldar_empire
-		}
+		owner = { has_country_flag = eldar_empire }
 	}
 }

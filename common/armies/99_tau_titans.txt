@@ -1,0 +1,135 @@
+kv128_stormsurge = {
+	damage = 7.0
+	health = 10.0
+	morale = 7.0
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 800
+	
+	icon_frame = 42
+	
+	resources = {
+		category = armies
+		cost = {
+			alloys = 1650
+			electronics = 200
+			military_goods = 150
+		}
+
+		upkeep = {
+			energy = 8.5
+		}
+	}
+	
+	prerequisites = { "tech_annihilation_warhead" "tech_cluster_rocket_system" "tech_airbursting_fragmentation_projector" "tech_smart_misstle_system" }
+	
+	allow = {
+		has_building = building_vehicle_beacon
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "kv128_stormsurge_count" 
+					value = 8
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "kv128_stormsurge_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "kv128_stormsurge_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			OR = {
+				is_planet_class = pc_advancexenocity
+				is_planet_class = pc_advancexenocityy
+				is_planet_class = pc_advancexenocityyy
+			}
+		}
+		owner = { has_country_flag = tau_empire }
+	}
+}
+
+kx139_taunar_supremacy_suit = {
+	damage = 9
+	health = 10
+	morale = 10
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+	time = 1000
+	
+	icon_frame = 42
+	
+	resources = {
+		category = armies
+		cost = {
+			alloys = 2000
+			electronics = 300
+			military_goods = 250
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	prerequisites = { "tech_heavy_rail_cannon" "tech_fusion_eradicator" "tech_fragmentation_cluster_shell_launcher" "tech_pulse_ordnance_multi_driver" }
+	
+	allow = {
+		has_building = building_vehicle_beacon
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "kx139_taunar_supremacy_suit_count" 
+					value = 5
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "kx139_taunar_supremacy_suit_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "kx139_taunar_supremacy_suit_count" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		planet = {
+			OR = {
+				is_planet_class = pc_advancexenocity
+				is_planet_class = pc_advancexenocityy
+				is_planet_class = pc_advancexenocityyy
+			}
+		}
+		owner = { has_country_flag = tau_empire }
+	}
+}

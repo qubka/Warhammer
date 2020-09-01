@@ -1,0 +1,83 @@
+###################################################
+################ORBITAL HABITATS###################
+###################################################
+
+entity = {
+	name = "gothic_01_orbital_station_habitat_section_entity"  
+	pdxmesh = "gothic_01_habitat_core_mesh"
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	scale = 1	
+}
+
+entity = {
+	name = "gothic_01_habitat_phase_01_entity"
+	pdxmesh = "gothic_01_habitat_core_mesh"	
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	scale = 2	
+	
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+}
+
+
+entity = {
+	name = 	"gothic_01_habitat_phase_02_entity"
+	pdxmesh = "gothic_01_habitat_core_mesh"
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	scale = 3
+	
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+}
+
+
+entity = {
+	name = "gothic_01_habitat_phase_03_entity"
+	pdxmesh = "gothic_01_habitat_core_mesh"
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	scale = 4	
+	
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+}
+
+entity = {
+	name = "gothic_01_phalanx_entity"
+	pdxmesh = "gothic_01_phalanx_mesh"
+
+	scale = 4	
+
+	locator = { name = "medium_gun_01"	position = { 0 0 0 } }
+	locator = { name = "medium_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_01"	position = { 0 0 0 } }
+	locator = { name = "small_gun_02"	position = { 0 0 0 } }
+	locator = { name = "small_gun_03"	position = { 0 0 0 } }
+	locator = { name = "small_gun_04"	position = { 0 0 0 } }
+}
+
+
+

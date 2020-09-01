@@ -7,148 +7,158 @@ event = {
     
 	immediate = {
 		every_planet = {
-			limit = { is_planet_class = pc_forge }
-			add_modifier = { modifier = "forge_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_forgee }
-			add_modifier = { modifier = "forgee_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_forgeee }
-			add_modifier = { modifier = "forgeee_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_industrial }
-			add_modifier = { modifier = "industrial_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_agri }
-			add_modifier = { modifier = "agri_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_shrine }
-			add_modifier = { modifier = "shrine_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_hive_medium }
-			add_modifier = { modifier = "hive_medium_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_penal }
-			add_modifier = { modifier = "penal_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_fortress }
-			add_modifier = { modifier = "fortress_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_tomb }
-			add_modifier = { modifier = "tomb_planet" days = -1 }
-		}
-		every_planet = {
-			limit = {
-				OR = {
-					is_planet_class = pc_hive_arid
-					is_planet_class = pc_hive_continental_01
-					is_planet_class = pc_hive_continental_02
-					is_planet_class = pc_hive_ocean
-					is_planet_class = pc_hive_tundra
-				}
+			limit = { exists = owner }
+			# Add modifiers by planet class
+			if = {
+				limit = { is_planet_class = pc_forge }
+				add_modifier = { modifier = "forge_planet" days = -1 }
 			}
-			add_modifier = { modifier = "hive_small_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_forge_ring }
-			add_modifier = { modifier = "forge_ring_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_forge_ring2 }
-			add_modifier = { modifier = "forge_ring2_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_forge_ring3 }
-			add_modifier = { modifier = "forge_ring3_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_super_hive }
-			add_modifier = { modifier = "super_hive_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_mega_hive }
-			add_modifier = { modifier = "mega_hive_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_hive_industrial }
-			add_modifier = { modifier = "hive_industrial_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_craftworld }
-			add_modifier = { modifier = "craftworld_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_advancecity }
-			add_modifier = { modifier = "advancecity_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_daemon }
-			add_modifier = { modifier = "daemon_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_daemonn }
-			add_modifier = { modifier = "daemonn_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_daemont }
-			add_modifier = { modifier = "daemont_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_daemons }
-			add_modifier = { modifier = "daemons_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_advancexenocity }
-			add_modifier = { modifier = "advancexenocity_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_advancexenocityy }
-			add_modifier = { modifier = "advancexenocityy_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_advancexenocityyy }
-			add_modifier = { modifier = "advancexenocityyy_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_orkworld }
-			add_modifier = { modifier = "orkworld_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_armoury }
-			add_modifier = { modifier = "armoury_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_eternalcrusader }
-			add_modifier = { modifier = "eternalcrusader_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_blackstonefortress }
-			add_modifier = { modifier = "blackstonefortress_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_spacehulk }
-			add_modifier = { modifier = "spacehulk_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { is_planet_class = pc_webway }
-			add_modifier = { modifier = "webway_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { has_planet_flag = spacemarine_homeworld }
-			add_modifier = { modifier = "spacemarine_planet" days = -1 }
-		}
-		every_planet = {
-			limit = { has_planet_flag = mechanicus_homeworld }
-			add_modifier = { modifier = "mechanicus_planet" days = -1 }
+			else_if = {
+				limit = { is_planet_class = pc_forgee }
+				add_modifier = { modifier = "forgee_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_forgeee }
+				add_modifier = { modifier = "forgeee_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_industrial }
+				add_modifier = { modifier = "industrial_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_agri }
+				add_modifier = { modifier = "agri_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_shrine }
+				add_modifier = { modifier = "shrine_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_hive_medium }
+				add_modifier = { modifier = "hive_medium_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_penal }
+				add_modifier = { modifier = "penal_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_fortress }
+				add_modifier = { modifier = "fortress_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_tomb }
+				add_modifier = { modifier = "tomb_planet" days = -1 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						is_planet_class = pc_hive_arid
+						is_planet_class = pc_hive_continental_01
+						is_planet_class = pc_hive_continental_02
+						is_planet_class = pc_hive_ocean
+						is_planet_class = pc_hive_tundra
+					}
+				}
+				add_modifier = { modifier = "hive_small_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_forge_ring }
+				add_modifier = { modifier = "forge_ring_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_forge_ring2 }
+				add_modifier = { modifier = "forge_ring2_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_forge_ring3 }
+				add_modifier = { modifier = "forge_ring3_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_super_hive }
+				add_modifier = { modifier = "super_hive_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_mega_hive }
+				add_modifier = { modifier = "mega_hive_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_hive_industrial }
+				add_modifier = { modifier = "hive_industrial_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_craftworld }
+				add_modifier = { modifier = "craftworld_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_advancecity }
+				add_modifier = { modifier = "advancecity_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_daemon }
+				add_modifier = { modifier = "daemon_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_daemonn }
+				add_modifier = { modifier = "daemonn_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_daemont }
+				add_modifier = { modifier = "daemont_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_daemons }
+				add_modifier = { modifier = "daemons_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_advancexenocity }
+				add_modifier = { modifier = "advancexenocity_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_advancexenocityy }
+				add_modifier = { modifier = "advancexenocityy_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_advancexenocityyy }
+				add_modifier = { modifier = "advancexenocityyy_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_orkworld }
+				add_modifier = { modifier = "orkworld_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_armoury }
+				add_modifier = { modifier = "armoury_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_eternalcrusader }
+				add_modifier = { modifier = "eternalcrusader_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_blackstonefortress }
+				add_modifier = { modifier = "blackstonefortress_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_spacehulk }
+				add_modifier = { modifier = "spacehulk_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_phalanx }
+				add_modifier = { modifier = "phalanx_planet" days = -1 }
+			}
+			else_if = {
+				limit = { is_planet_class = pc_webway }
+				add_modifier = { modifier = "webway_planet" days = -1 }
+			}
+			
+			# Add modifiers by flags
+			if = {
+				limit = { has_planet_flag = spacemarine_homeworld }
+				add_modifier = { modifier = "spacemarine_planet" days = -1 }
+			}
+			else_if = {
+				limit = { has_planet_flag = mechanicus_homeworld }
+				add_modifier = { modifier = "mechanicus_planet" days = -1 }
+			}
 		}
 	}
 }
@@ -545,6 +555,169 @@ planet_event = {
 		name = UNFORTUNATE
 		tooltip = { 
 			remove_deposit = d_tiamet_beacon
+		}
+	}
+}
+
+planet_event = {
+	id = planets.21
+	title = planets.21.name
+	desc = planets.21.desc
+	picture = GFX_evt_prospecting_success
+	show_sound = event_scanner
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+	}
+
+	option = {
+		name = INTERESTING
+	}
+}
+
+planet_event = {
+	id = planets.22
+	title = planets.22.name
+	desc = planets.22.desc
+	picture = GFX_evt_prospecting_fail
+	show_sound = event_scanner
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+	}
+
+	option = {
+		name = OOPS
+	}
+}
+
+planet_event = {
+	id = planets.23
+	title = planets.23.name
+	desc = planets.23.desc
+	picture = GFX_evt_prospecting_mine
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			is_planet_class = pc_desert
+			is_planet_class = pc_tropical
+			is_planet_class = pc_arid
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_continental
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+			is_planet_class = pc_penal
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+	}
+}
+
+planet_event = {
+	id = planets.24
+	title = planets.24.name
+	desc = planets.24.desc
+	picture = GFX_evt_tomb_world
+	show_sound = event_cityscape
+	location = root
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_tomb
+	}
+
+	option = {
+		name = EXCELLENT
+	}
+}
+
+country_event = {
+	id = planets.25
+    hide_window = yes
+
+	trigger = {
+		has_country_flag = darkeldar_empire
+		NOT = { has_deficit = slaves }
+		has_technology = tech_flesh_constructing
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		# tech_gnarlskin
+		create_species = {
+			name = random
+			class = "PRE_ART"
+			portrait = random
+			traits = {
+				trait = random_presapient_trait
+			}
+			sapient = no
+		}
+		
+		every_owned_planet = {
+			limit = { NOT = { has_modifier = planet_no_sculpting } }
+			every_owned_pop = {
+				limit = { has_job = haemonculus }
+				random_list = {
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = {}
+					10 = { 
+						planet = { 
+							create_pop = { species = last_created } 
+						}
+					}
+				}
+			}
 		}
 	}
 }

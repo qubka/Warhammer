@@ -18,7 +18,7 @@ dalyth = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_migrating_flock_room"
+	room = "tau_room"
 
 	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_trader_friendly" "civic_greater_good" }
@@ -28,7 +28,7 @@ dalyth = {
 	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
-	flags = { tau_empire the_dalyth }
+	flags = { humanoid tau_empire the_dalyth }
 	planet_name = "PRESCRIPTED_planet_name_dalyth"
 	planet_class = "pc_advancexenocityy"
 	system_name = "PRESCRIPTED_system_name_dalyth"
@@ -84,7 +84,7 @@ farsight = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_migrating_flock_room"
+	room = "tau_room"
 
 	authority = "auth_tau"
 	civics = { "civic_farsight_enclaves" "civic_warrior_culture" "civic_greater_good" }
@@ -94,7 +94,7 @@ farsight = {
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
 	ethic = "ethic_militarist"
-	flags = { tau_empire the_farsight }
+	flags = { humanoid tau_empire the_farsight }
 	planet_name = "PRESCRIPTED_planet_name_farsight"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_farsight"
@@ -150,7 +150,7 @@ sacea = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_migrating_flock_room"
+	room = "tau_room"
 
 	authority = "auth_tau"
 	civics = { "civic_distinguished_admiralty" "civic_warrior_culture" "civic_greater_good" }
@@ -160,7 +160,7 @@ sacea = {
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
 	ethic = "ethic_militarist"
-	flags = { tau_empire the_sacea }
+	flags = { humanoid tau_empire the_sacea }
 	planet_name = "PRESCRIPTED_planet_name_sacea"
 	planet_class = "pc_advancexenocityy"
 	system_name = "PRESCRIPTED_system_name_sacea"
@@ -216,7 +216,7 @@ tau = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_migrating_flock_room"
+	room = "tau_room"
 
 	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_high_education" "civic_greater_good" }
@@ -226,7 +226,7 @@ tau = {
 	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
-	flags = { tau_empire the_tau }
+	flags = { humanoid tau_empire the_tau }
 	planet_name = "PRESCRIPTED_planet_name_tau"
 	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_tau"
@@ -282,7 +282,7 @@ taun = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_migrating_flock_room"
+	room = "tau_room"
 
 	authority = "auth_tau"
 	civics = { "civic_free_haven" "civic_idealistic_foundation" "civic_greater_good" }
@@ -292,7 +292,7 @@ taun = {
 	ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
-	flags = { tau_empire the_taun }
+	flags = { humanoid tau_empire the_taun }
 	planet_name = "PRESCRIPTED_planet_name_taun"
 	planet_class = "pc_advancexenocityyy"
 	system_name = "PRESCRIPTED_system_name_taun"
@@ -348,7 +348,7 @@ dyanoi = {
 		trait = "trait_unruly"
 	}
 
-	room = "personality_migrating_flock_room"
+	room = "tau_room"
 
 	authority = "auth_tau"
 	civics = { "civic_rustic_population" "civic_warrior_culture" "civic_greater_good" }
@@ -358,7 +358,7 @@ dyanoi = {
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
 	ethic = "ethic_militarist"
-	flags = { tau_empire the_dyanoi }
+	flags = { humanoid tau_empire the_dyanoi }
 	planet_name = "PRESCRIPTED_planet_name_dyanoi"
 	planet_class = "pc_advancexenocity"
 	system_name = "PRESCRIPTED_system_name_dyanoi"

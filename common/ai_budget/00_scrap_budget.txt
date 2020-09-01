@@ -1,0 +1,135 @@
+## Categories used in this file must have use_for_ai_budget = yes defined in economic_categories ##
+## It is possible to have multiple entries with the same category and resource ##
+
+#################
+## Expenditure ##
+#################
+
+scrap_expenditure_edicts = {
+	resource = scrap 
+	type = expenditure
+	category = edicts
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.5
+	}
+}
+
+
+scrap_expenditure_planets = {
+	resource = scrap 
+	type = expenditure
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.2
+	}	
+}
+
+scrap_expenditure_ships = {
+	resource = scrap
+	type = expenditure
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+scrap_expenditure_upgrade = {
+	resource = scrap 
+	type = expenditure
+	category = ship_upgrades
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.1
+	}
+}
+
+scrap_expenditure_trade = {
+	resource = scrap 
+	type = expenditure
+	category = trade
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+scrap_expenditure_armies = {
+	resource = scrap
+	type = expenditure
+	category = armies
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.01
+	}
+}
+
+scrap_expenditure_armies_threatened = {
+	resource = scrap
+	type = expenditure
+	category = armies
+
+	potential = {
+		highest_threat > 20
+	}
+
+	fraction = {
+		weight = 0.10
+	}
+}
+
+# Upkeep ----------------------------------------------------------
+
+scrap_upkeep_planets = {
+	resource = scrap 
+	type = upkeep
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.9
+	}	
+}
+
+scrap_upkeep_ships = {
+	resource = scrap 
+	type = upkeep
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}

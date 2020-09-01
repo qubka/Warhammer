@@ -18,9 +18,7 @@ kabalite_warriors_defense = {
 		planet = {
 			is_planet_class = pc_webway
 		}
-		owner = {
-			has_country_flag = eldardark_empire
-		}
+		owner = { has_country_flag = eldardark_empire }
 	}
 }
 
@@ -36,8 +34,6 @@ ravager_defense = {
 	icon_frame = 99
 	
 	potential = {
-		owner = {
-			has_country_flag = eldardark_empire
-		}
+		owner = { has_country_flag = eldardark_empire }
 	}
 }

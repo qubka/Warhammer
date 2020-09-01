@@ -1,0 +1,465 @@
+namespace = ships
+
+country_event = {
+	id = ships.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Imperium Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "gothic_01"
+				}
+				while = {
+					count = 5
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "gothic_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Chaos Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "gothic_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "gothic_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "gothic_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.3
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Necron Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "necron_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "necron_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "necron_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "necron_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "necron_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.4
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Tau Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "humanoid_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "humanoid_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "humanoid_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "humanoid_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "humanoid_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.5
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Eldar Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "avian_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "avian_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "avian_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "avian_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "avian_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.6
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Dark Eldar Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "reptilian_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.7
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Ork Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "fungoid_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = ships.8
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			save_event_target_as = ship_pos
+			owner = {
+				save_event_target_as = ship_owner
+			}
+			create_fleet = { name = "Tyranid Hive Fleet" }
+			last_created_fleet = {
+				set_owner = event_target:ship_owner
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "tyranid_01"
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				while = {
+					count = 1
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				set_location = {
+					target = event_target:ship_pos
+				}
+			}	
+		}
+	}
+}

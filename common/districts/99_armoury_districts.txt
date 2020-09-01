@@ -1,0 +1,52 @@
+
+district_armoury_storage = {
+	base_buildtime = 600
+	is_capped_by_modifier = no
+	
+	show_on_uncolonized = {
+		uses_district_set = armoury_world
+	}
+
+	potential = {
+		uses_district_set = armoury_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+	
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 2000
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	# FIND SOLUTION !
+	#country_modifier = {
+	#	country_resource_max_add = 10000
+	#}
+	
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.15
+		planet_housing_add = 2
+		job_clerk_add = 2
+	}
+
+	triggered_desc = {
+		text = job_clerk_effect_desc
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			weight = 50
+			is_active_resolution = "resolution_greatergood_balance_in_the_middle"
+		}
+		modifier = {
+			weight = 500
+			is_active_resolution = "resolution_greatergood_universal_prosperity_mandate"
+		}
+	}
+}

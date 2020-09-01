@@ -1,0 +1,65 @@
+# Dragon Scale Armor
+tech_dragon_armor = {
+	potential = {
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
+	}
+
+	area = engineering
+	cost = @guardiantechcost
+	tier = @guardiantechtier
+	is_rare = yes
+	category = { materials }
+	ai_update_type = all
+	weight = 0
+
+	weight_modifier = {
+		factor = 0
+	}
+}
+
+#Enigmatic Encoder
+tech_enigmatic_encoder = {
+	potential = {
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
+	}
+
+	cost = @guardiantechcost
+	area = physics
+	tier = @guardiantechtier
+	category = { computing }
+	ai_update_type = all
+	weight = 0
+	is_rare = yes
+
+	weight_modifier = {
+		factor = 0
+	}
+}
+
+#Enigmatic Encoder
+tech_enigmatic_decoder = {
+	potential = {
+		OR = {
+			has_country_flag = humanoid
+			has_country_flag = eldaroid
+		}
+	}
+
+	cost = @guardiantechcost
+	area = physics
+	tier = @guardiantechtier
+	category = { computing }
+	ai_update_type = all
+	weight = 0
+	is_rare = yes
+	
+	weight_modifier = {
+		factor = 0
+	}
+}

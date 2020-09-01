@@ -1,0 +1,46 @@
+### RESOURCE DEFICITS
+
+military_goods_deficit = {
+	army_attack_damage_mult = -0.25
+	army_attack_health_mult = -0.25
+	army_attack_morale_mult = -0.5
+	army_defense_damage_mult = -0.25
+	army_defense_health_mult = -0.25
+	army_defense_morale_mult = -0.5
+}
+
+promethium_deficit = {
+	army_attack_damage_mult = -0.15
+	planet_jobs_produces_mult = -0.25
+}
+
+electronics_deficit = {
+	custom_tooltip = electronics_deficit_tooltip
+}
+
+gene_seed_deficit = {
+	custom_tooltip = gene_seed_deficit_tooltip
+}
+
+scrap_deficit = {
+	army_attack_health_mult = -0.3
+	army_defense_health_mult = -0.3
+}
+
+slaves_deficit = {
+	biological_pop_happiness = -1.0
+	pop_decline_speed = 0.15
+}
+
+living_metal_deficit = {
+	custom_tooltip = living_metal_deficit_tooltip
+}
+
+spirit_stones_deficit = {
+	custom_tooltip = spirit_stones_deficit_tooltip
+}
+
+gods_favor_deficit = {
+	biological_pop_happiness = -0.5
+	bio_pop_growth_from_immigration = -0.25
+}

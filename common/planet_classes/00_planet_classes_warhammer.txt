@@ -3,7 +3,7 @@ pc_forge = {
 	picture = pc_forge 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 37
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -27,7 +27,7 @@ pc_forge = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = forge_world
 }
 
 pc_forgee = {
@@ -35,7 +35,7 @@ pc_forgee = {
 	picture = pc_forgee 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 37
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -59,7 +59,7 @@ pc_forgee = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = forge_world
 }
 
 pc_forgeee = {
@@ -67,7 +67,7 @@ pc_forgeee = {
 	picture = pc_forgeee 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 37
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -91,7 +91,7 @@ pc_forgeee = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = forge_world
 }
 
 pc_industrial = {
@@ -99,7 +99,7 @@ pc_industrial = {
 	picture = pc_industrial # there's no unique gaia_planet picture
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 35
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -123,7 +123,7 @@ pc_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = forge_world
 }
 
 pc_agri = {
@@ -131,7 +131,7 @@ pc_agri = {
 	picture = pc_agri
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 33
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -155,7 +155,7 @@ pc_agri = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = agri_world
 }
 
 pc_shrine = {
@@ -163,7 +163,7 @@ pc_shrine = {
 	picture = pc_shrine
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 41
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -187,7 +187,7 @@ pc_shrine = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = shrine_world
 }
 
 pc_hive_medium = {
@@ -195,7 +195,7 @@ pc_hive_medium = {
 	picture = pc_hive_medium
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 39
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -217,7 +217,7 @@ pc_hive_medium = {
 	
 	colonizable = yes
 	ideal = yes
-	district_set = city_world
+	district_set = hivecity_world
 	starting_planet = no
 	show_city = no
 }
@@ -227,7 +227,7 @@ pc_penal = {
 	picture = pc_penal
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 38
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -259,7 +259,7 @@ pc_fortress = {
 	picture = pc_fortress
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 42
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -283,7 +283,7 @@ pc_fortress = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = standard
+	district_set = fortress_world
 }
 
 pc_tomb = {
@@ -291,7 +291,7 @@ pc_tomb = {
 	picture = pc_tomb
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 52
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -315,7 +315,7 @@ pc_tomb = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = machine_world
+	district_set = tomb_world
 }
 
 pc_hive_arid = {
@@ -323,7 +323,7 @@ pc_hive_arid = {
 	picture = pc_hive_arid
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 48
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -347,7 +347,7 @@ pc_hive_arid = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_hive_continental_01 = {
@@ -355,7 +355,7 @@ pc_hive_continental_01 = {
 	picture = pc_hive_continental_01
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 46
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -379,7 +379,7 @@ pc_hive_continental_01 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_hive_continental_02 = {
@@ -387,7 +387,7 @@ pc_hive_continental_02 = {
 	picture = pc_hive_continental_02
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 43
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -411,7 +411,7 @@ pc_hive_continental_02 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_hive_ocean = {
@@ -419,7 +419,7 @@ pc_hive_ocean = {
 	picture = pc_hive_ocean
 	tile_set = pc_ocean
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 53
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -443,7 +443,7 @@ pc_hive_ocean = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_hive_tundra = {
@@ -451,7 +451,7 @@ pc_hive_tundra = {
 	picture = pc_hive_tundra
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 44
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -475,7 +475,7 @@ pc_hive_tundra = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_super_hive = {
@@ -483,7 +483,7 @@ pc_super_hive = {
 	picture = pc_super_hive 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 49
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -507,7 +507,7 @@ pc_super_hive = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_mega_hive = {
@@ -515,7 +515,7 @@ pc_mega_hive = {
 	picture = pc_mega_hive 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 36
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -539,7 +539,7 @@ pc_mega_hive = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_forge_ring = {
@@ -547,7 +547,7 @@ pc_forge_ring = {
 	picture = pc_forge
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 47
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -571,7 +571,7 @@ pc_forge_ring = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = ring_world
+	district_set = forge_world
 }
 
 pc_forge_ring2 = {
@@ -579,7 +579,7 @@ pc_forge_ring2 = {
 	picture = pc_forgee
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 47
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -603,7 +603,7 @@ pc_forge_ring2 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = ring_world
+	district_set = forge_world
 }
 
 pc_forge_ring3 = {
@@ -611,7 +611,7 @@ pc_forge_ring3 = {
 	picture = pc_forgeee
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 47
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -635,7 +635,7 @@ pc_forge_ring3 = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = ring_world
+	district_set = forge_world
 }
 
 pc_craftworld = {
@@ -643,7 +643,7 @@ pc_craftworld = {
 	picture = pc_craftworld
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 50
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -667,7 +667,7 @@ pc_craftworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = habitat
+	district_set = craft_world
 }
 
 pc_hive_industrial = {
@@ -675,7 +675,7 @@ pc_hive_industrial = {
 	picture = pc_hive_arid
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 40
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -699,7 +699,7 @@ pc_hive_industrial = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = city_world
+	district_set = hivecity_world
 }
 
 pc_advancecity = {
@@ -707,7 +707,7 @@ pc_advancecity = {
 	picture = pc_advancecity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -739,7 +739,7 @@ pc_webway = {
 	picture = pc_webway 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 32
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -763,7 +763,7 @@ pc_webway = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = habitat
+	district_set = webway_world
 }
 
 pc_spacehulk = {
@@ -771,7 +771,7 @@ pc_spacehulk = {
 	picture = pc_spacehulk 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 18
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -803,7 +803,7 @@ pc_blackstonefortress = {
 	picture = pc_blackstonefortress 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 54
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -828,6 +828,7 @@ pc_blackstonefortress = {
 	starting_planet = no
 	show_city = no
 	orbit_lines = no
+	enable_tilt = no
 	district_set = habitat
 }
 
@@ -836,7 +837,7 @@ pc_eternalcrusader = {
 	picture = pc_eternalcrusader 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 55
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -863,12 +864,45 @@ pc_eternalcrusader = {
 	district_set = habitat
 }
 
+pc_phalanx = {
+	entity = "phalanx_planet"
+	picture = pc_phalanx 
+	tile_set = pc_continental
+	entity_scale = @planet_standard_scale
+	icon_frame = 55
+
+	atmosphere_color = hsv { 0.89 0.89 0.56 }		
+	atmosphere_intensity = 0.5
+	atmosphere_width = 0.5
+	
+	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
+
+	min_distance_from_sun = 60
+	max_distance_from_sun = 95
+	spawn_odds = 0
+	
+	extra_orbit_size = 0
+	extra_planet_count = 0
+	
+	chance_of_ring = 0
+	
+	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
+	
+	colonizable = yes
+	ideal = yes
+	starting_planet = no
+	show_city = no
+	enable_tilt = no
+	district_set = habitat
+}
+
 pc_daemon = {
 	entity = "daemon_planet"
 	picture = pc_daemon
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -892,7 +926,7 @@ pc_daemon = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
-	district_set = default
+	district_set = daemon_world
 }
 
 pc_daemonn = {
@@ -900,7 +934,7 @@ pc_daemonn = {
 	picture = pc_daemonn
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -924,7 +958,7 @@ pc_daemonn = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
-	district_set = default
+	district_set = daemon_world
 }
 
 pc_daemont = {
@@ -932,7 +966,7 @@ pc_daemont = {
 	picture = pc_daemont
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -956,7 +990,7 @@ pc_daemont = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
-	district_set = default
+	district_set = daemon_world
 }
 
 pc_daemons = {
@@ -964,7 +998,7 @@ pc_daemons = {
 	picture = pc_daemons
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 4
+	icon_frame = 34
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity 	= 1.0
@@ -988,7 +1022,7 @@ pc_daemons = {
 	ideal = yes
 	show_city = no
 	starting_planet = no
-	district_set = default
+	district_set = daemon_world
 }
 
 pc_advancexenocity = {
@@ -996,7 +1030,7 @@ pc_advancexenocity = {
 	picture = pc_advancexenocity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1020,7 +1054,7 @@ pc_advancexenocity = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = default
+	district_set = city_world
 }
 
 pc_advancexenocityy = {
@@ -1028,7 +1062,7 @@ pc_advancexenocityy = {
 	picture = pc_advancexenocity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1052,7 +1086,7 @@ pc_advancexenocityy = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = default
+	district_set = city_world
 }
 
 pc_advancexenocityyy = {
@@ -1060,7 +1094,7 @@ pc_advancexenocityyy = {
 	picture = pc_advancexenocity
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 45
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1084,7 +1118,7 @@ pc_advancexenocityyy = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = default
+	district_set = city_world
 }
 
 pc_orkworld = {
@@ -1092,7 +1126,7 @@ pc_orkworld = {
 	picture = pc_orkworld
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 56
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1116,7 +1150,7 @@ pc_orkworld = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = default
+	district_set = ork_world
 }
 
 pc_armoury = {
@@ -1124,7 +1158,7 @@ pc_armoury = {
 	picture = pc_armoury 
 	tile_set = pc_continental
 	entity_scale = @planet_standard_scale
-	icon_frame = 8
+	icon_frame = 51
 	
 	atmosphere_color = hsv { 0.89 0.89 0.56 }		
 	atmosphere_intensity = 0.5
@@ -1148,7 +1182,7 @@ pc_armoury = {
 	ideal = yes
 	starting_planet = no
 	show_city = no
-	district_set = default
+	district_set = armoury_world
 }
 
 random_list = {

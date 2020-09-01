@@ -1,0 +1,17 @@
+sectors_others_group = {
+	resources = {
+		military_goods
+		promethium
+		electronics
+		gene_seed
+		scrap
+		slaves
+		living_metal
+		spirit_stones
+		gods_favor
+	}
+	localization = {
+		"RESOURCE_GROUP_BALANCE_ONLY" = default
+		"RESOURCE_GROUP_BALANCE_ONLY_NEG" = { balance < 0 }
+	}
+}

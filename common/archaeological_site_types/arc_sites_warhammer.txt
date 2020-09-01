@@ -1,0 +1,290 @@
+#r_astartes_konor_pattern_power_sword_final
+#r_axe_photos
+#r_cypher_armor
+#r_cypher_attack_bike
+#r_cypher_scapular
+#r_erasmus_pattern_plasmacannon_mki
+#r_gilded_bolter
+#r_glaive_super_heavy_special_weapons_tank
+#r_hagen_pattern_narthecium
+#r_relic_powerfist
+#r_requiem_heavy_bolter
+#r_sternguard_bolter
+
+site_abandoned_stronghold = {
+	desc = "site_abandoned_stronghold_intro"
+	picture = GFX_evt_abandoned_stronghold
+	stages = 6
+	weight = 0
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}
+
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_I1
+		event = relics.11
+	}
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_I2
+		event = relics.12
+	}
+
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_I3
+		event = relics.13
+	}
+
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_I3
+		event = relics.14
+	}
+
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_I3
+		event = relics.15
+	}
+	
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_I3
+		event = relics.16
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+#r_boss_choppa
+#r_da_heart_stoppa
+#r_daneedleuvlif
+#r_heresy_limited_edition_looted_umie_bolter
+#r_iron_sight_shoota
+#r_looted_power_armor
+#r_plasma_chompa
+#r_powerrippa
+#r_sparekeys_combishoota
+#r_splash_burna
+#r_squig_armor
+#r_warbuggy
+
+site_abandoned_settlement = {
+	desc = "site_abandoned_settlement_intro"
+	picture = GFX_evt_abandoned_settlement
+	stages = 6
+	weight = 0
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}
+
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_Y1
+		event = relics.21
+	}
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_Y2
+		event = relics.22
+	}
+
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_Y3
+		event = relics.23
+	}
+
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_Y3
+		event = relics.24
+	}
+
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_Y3
+		event = relics.25
+	}
+	
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_Y3
+		event = relics.26
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+#r_fire_dragon_fusion_gun
+#r_firesabre
+#r_gatekeepers_bastion
+#r_gorhu_armor
+#r_ice_hawk_cannon
+#r_laelshanwitchblade
+#r_last_runes_armor
+#r_maeldannan_diresword
+#r_swoopinghawk_lasblaster
+#r_torrent_reaper_launcher
+#r_vyper
+
+site_abandoned_farpost = {
+	desc = "site_abandoned_farpost_intro"
+	picture = GFX_evt_abandoned_farpost
+	stages = 6
+	weight = 0
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}
+
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_Z1
+		event = relics.31
+	}
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_Z2
+		event = relics.32
+	}
+
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_Z3
+		event = relics.33
+	}
+
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_Z3
+		event = relics.34
+	}
+
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_Z3
+		event = relics.35
+	}
+	
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_Z3
+		event = relics.36
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+#r_abaddons_grace
+#r_apollo_pattern_plasma_gun
+#r_deathlock_cestus_powerfist_skin
+#r_fleshmetal_shell
+#r_hell_breach_plasmacannon
+#r_hell_warbike
+#r_hellkiss_meltagun
+#r_maelstromcleaver
+#r_murder_sword
+#r_rage_spitter
+#r_shrieking_souls_armor
+#r_widowmaker_bolter
+
+site_abandoned_base = {
+	desc = "site_abandoned_base_intro"
+	picture = GFX_evt_abandoned_base
+	stages = 6
+	weight = 0
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}
+
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_X1
+		event = relics.41
+	}
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_X2
+		event = relics.42
+	}
+
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_X3
+		event = relics.43
+	}
+
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_X3
+		event = relics.44
+	}
+
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_X3
+		event = relics.45
+	}
+	
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_X3
+		event = relics.46
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}

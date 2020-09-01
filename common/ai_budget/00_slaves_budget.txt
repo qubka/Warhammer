@@ -1,0 +1,107 @@
+## Categories used in this file must have use_for_ai_budget = yes defined in economic_categories ##
+## It is possible to have multiple entries with the same category and resource ##
+
+#################
+## Expenditure ##
+#################
+
+slaves_expenditure_edicts = {
+	resource = slaves 
+	type = expenditure
+	category = edicts
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.5
+	}
+}
+
+
+slaves_expenditure_planets = {
+	resource = slaves 
+	type = expenditure
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.2
+	}	
+}
+
+slaves_expenditure_ships = {
+	resource = slaves
+	type = expenditure
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+slaves_expenditure_upgrade = {
+	resource = slaves 
+	type = expenditure
+	category = ship_upgrades
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.1
+	}
+}
+
+slaves_expenditure_trade = {
+	resource = slaves 
+	type = expenditure
+	category = trade
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+# Upkeep --------------------------------------------------------
+
+slaves_upkeep_planets = {
+	resource = slaves 
+	type = upkeep
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.9
+	}	
+}
+
+slaves_upkeep_ships = {
+	resource = slaves 
+	type = upkeep
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}

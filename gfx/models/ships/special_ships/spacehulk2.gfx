@@ -84,6 +84,34 @@ objectTypes = {
 	}
 	
 	pdxmesh = {
+		name = "blackstone_fotress_01_mesh"
+		file = "gfx/models/ships/special_ships/blackstone_fortress.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "blackstone_fortress_diffuse.dds"
+			texture_normal = "blackstone_fortress_normal.dds"
+			texture_specular = "blackstone_fortress_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "blackstone_fotress_planet_01_mesh"
+		file = "gfx/models/ships/special_ships/blackstone_fortress.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshPlanet"
+			texture_diffuse = "blackstone_fortress_diffuse2.dds"
+			texture_normal = "blackstone_fortress_normal.dds"
+			texture_specular = "blackstone_fortress_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
 		name = "eternalcrusaderplanetmesh"
 		file = "gfx/models/ships/imperiall_01/imperiall_01_battleship_bow_M1S2SHB.mesh"
 		

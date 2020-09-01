@@ -5,23 +5,47 @@ portrait_groups = {
 		default = CHAOS_N_Arban_Talas
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_AlphaLegion_ruler
+			default = CHAOS_AlphaLegion_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -30,16 +54,40 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -120,7 +168,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_AlphaLegion_ruler
+					CHAOS_AlphaLegion_ruler
 				}
 			}
 		}
@@ -131,23 +179,47 @@ portrait_groups = {
 		default = CHAOS_N_Abaddon
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_BlackLegion_ruler
+			default = CHAOS_BlackLegion_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -156,16 +228,40 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -272,7 +368,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_BlackLegion_ruler
+					CHAOS_BlackLegion_ruler
 				}
 			}
 		}
@@ -283,23 +379,19 @@ portrait_groups = {
 		default = CHAOS_N_Maltrius
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_DeathGuard_ruler
+			default = CHAOS_DeathGuard_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
 				}
 			}
 		}		
@@ -308,16 +400,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
 				}
 			}
 		}
@@ -412,7 +500,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_DeathGuard_ruler
+					CHAOS_DeathGuard_ruler
 				}
 			}
 		}
@@ -423,23 +511,19 @@ portrait_groups = {
 		default = CHAOS_N_Demaroz
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_EmperorChildren_ruler
+			default = CHAOS_EmperorChildren_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
 				}
 			}
 		}		
@@ -448,16 +532,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
 				}
 			}
 		}
@@ -552,7 +632,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_EmperorChildren_ruler
+					CHAOS_EmperorChildren_ruler
 				}
 			}
 		}
@@ -563,23 +643,47 @@ portrait_groups = {
 		default = CHAOS_IronWarrior_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_IronWarrior_ruler
+			default = CHAOS_IronWarrior_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -588,16 +692,40 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -671,7 +799,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_IronWarrior_ruler
+					CHAOS_IronWarrior_ruler
 				}
 			}
 		}
@@ -682,23 +810,47 @@ portrait_groups = {
 		default = CHAOS_NightLords_01
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_NightLords_ruler
+			default = CHAOS_NightLords_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -707,16 +859,40 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -790,7 +966,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_NightLords_ruler
+					CHAOS_NightLords_ruler
 				}
 			}
 		}
@@ -801,23 +977,47 @@ portrait_groups = {
 		default = CHAOS_N_HuronBlackheart
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_RedCorsairs_ruler
+			default = CHAOS_RedCorsairs_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -826,16 +1026,40 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -927,7 +1151,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_RedCorsairs_ruler
+					CHAOS_RedCorsairs_ruler
 				}
 			}
 		}
@@ -938,23 +1162,19 @@ portrait_groups = {
 		default = CHAOS_N_SorcererAntharek
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_ThousandSons_ruler
+			default = CHAOS_ThousandSons_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -963,16 +1183,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -1067,7 +1283,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_ThousandSons_ruler
+					CHAOS_ThousandSons_ruler
 				}
 			}
 		}
@@ -1078,23 +1294,47 @@ portrait_groups = {
 		default = CHAOS_N_Arkrist_Vane
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_WordBearer_ruler
+			default = CHAOS_WordBearer_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}		
@@ -1103,16 +1343,40 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
 				}
 			}
 		}
@@ -1192,7 +1456,7 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_WordBearer_ruler
+					CHAOS_WordBearer_ruler
 				}
 			}
 		}
@@ -1203,23 +1467,19 @@ portrait_groups = {
 		default = CHAOS_N__Jasul_Barass
 		
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			default = CHA_WorldEaters_ruler
+			default = CHAOS_WorldEaters_ruler
 		}
 		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
 				}
 			}
 		}		
@@ -1228,16 +1488,12 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					CHAOS_Renegade_01_nobg
-					CHAOS_Renegade_02_nobg
-					CHAOS_Renegade_03_nobg
-					CHAOS_Renegade_04_nobg
-					CHAOS_Renegade_05_nobg
-					CHAOS_Renegade_06_nobg
-					CHAOS_Renegade_07_nobg
-					CHAOS_Renegade_08_nobg
-					CHAOS_Renegade_09_nobg
-					CHAOS_Renegade_10_nobg
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
 				}
 			}
 		}
@@ -1329,7 +1585,170 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					CHA_WorldEaters_ruler
+					CHAOS_WorldEaters_ruler
+				}
+			}
+		}
+	}
+	
+	chaos_sons_of_malice = {
+		
+		default = CHAOS_SonsOfMalice_01
+		
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			default = CHAOS_SonsOfMalice_ruler
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+					CHAOS_Renegade_Khorn_01
+					CHAOS_Renegade_Khorn_02
+					CHAOS_Renegade_Khorn_03
+					CHAOS_Renegade_Khorn_05
+					CHAOS_Renegade_Khorn_07
+					CHAOS_Renegade_Khorn_08
+					CHAOS_Renegade_Nurgle_01
+					CHAOS_Renegade_Nurgle_02
+					CHAOS_Renegade_Nurgle_03
+					CHAOS_Renegade_Nurgle_05
+					CHAOS_Renegade_Nurgle_06
+					CHAOS_Renegade_Nurgle_08
+					CHAOS_Renegade_Slaanesh_01
+					CHAOS_Renegade_Slaanesh_02
+					CHAOS_Renegade_Slaanesh_05
+					CHAOS_Renegade_Slaanesh_06
+					CHAOS_Renegade_Slaanesh_07
+					CHAOS_Renegade_Slaanesh_08
+					CHAOS_Renegade_Tzeentch_01
+					CHAOS_Renegade_Tzeentch_02
+					CHAOS_Renegade_Tzeentch_03
+					CHAOS_Renegade_Tzeentch_04
+					CHAOS_Renegade_Tzeentch_05
+					CHAOS_Renegade_Tzeentch_07
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				
+				portraits = {
+					CHAOS_SonsOfMalice_01
+					CHAOS_SonsOfMalice_02
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				
+				portraits = {
+					CHAOS_Heretek_01
+					CHAOS_N_MagosKalock
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				
+				portraits = {
+					CHAOS_N__Defector_Admiral_Malicor
+					CHAOS_Renegade_01
+					CHAOS_Renegade_02
+					CHAOS_Renegade_03
+					CHAOS_Renegade_04
+					CHAOS_Renegade_05
+					CHAOS_Renegade_06
+					CHAOS_Renegade_07
+					CHAOS_Renegade_08
+					CHAOS_Renegade_09
+					CHAOS_Renegade_10
+				}
+			}
+
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				
+				portraits = {
+					CHAOS_SonsOfMalice_01
+					CHAOS_SonsOfMalice_02
+				}
+			}
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				
+				portraits = {
+					CHAOS_SonsOfMalice_ruler
 				}
 			}
 		}

@@ -1,4 +1,3 @@
-
 decision_corrupting_project = {
 	owned_planets_only = yes
 
@@ -7,9 +6,12 @@ decision_corrupting_project = {
 		category = decisions
 		cost = {
 			unity = 100
-			energy = 5000
+			energy = 10000
+			gods_favor = 5000
 		}
 	}
+	
+	prerequisites = { "tech_corrupting_project" }
 
 	potential = {
 		OR = {
@@ -34,7 +36,7 @@ decision_corrupting_project = {
 		hidden_effect = {
 			clear_planet_modifiers = yes
 			if = { 
-				limit = { has_country_flag = khorne }  
+				limit = { owner = { has_country_flag = khorne } } 
 				change_pc = pc_daemon
 				set_planet_entity = {
 					entity = "daemon_planet"
@@ -43,7 +45,7 @@ decision_corrupting_project = {
 				add_modifier = { modifier = "daemon_planet" days = -1 }
 			}
 			else_if = { 
-				limit = { has_country_flag = nurgle }  
+				limit = { owner = { has_country_flag = nurgle } }  
 				change_pc = pc_daemonn
 				set_planet_entity = {
 					entity = "daemonn_planet"
@@ -52,7 +54,7 @@ decision_corrupting_project = {
 				add_modifier = { modifier = "daemonn_planet" days = -1 }
 			}
 			else_if = { 
-				limit = { has_country_flag = tzeentch }  
+				limit = { owner = { has_country_flag = tzeentch } }  
 				change_pc = pc_daemont
 				set_planet_entity = {
 					entity = "daemont_planet"
@@ -61,7 +63,7 @@ decision_corrupting_project = {
 				add_modifier = { modifier = "daemont_planet" days = -1 }
 			}
 			else_if = { 
-				limit = { has_country_flag = slaanesh }  
+				limit = { owner = { has_country_flag = slaanesh } }  
 				change_pc = pc_daemons
 				set_planet_entity = {
 					entity = "daemons_planet"
@@ -110,7 +112,7 @@ decision_corrupting_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 100
 	}
 }
 
@@ -253,6 +255,6 @@ decision_uncorrupting_project = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 500
 	}
 }

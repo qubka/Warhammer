@@ -1,0 +1,67 @@
+namespace = alliances
+
+country_event = {
+	id = alliances.1
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		if = {
+			limit = { has_country_flag = the_mankind }
+			save_event_target_as = mankind_master
+			every_country = {
+				limit = {
+					has_country_flag = human_empire
+					NOT = { has_country_flag = the_mankind }
+				}
+				establish_communications_no_message = event_target:mankind_master
+				set_subject_of = {
+					who = event_target:mankind_master
+					subject_type = chapter
+				}
+				add_opinion_modifier = {
+					who = event_target:mankind_master
+					modifier = opinion_senatorum
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = alliances.10
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		every_country = {
+			if = {
+				limit = { has_country_flag = the_mankind }
+				save_event_target_as = mankind_master
+				every_country = {
+					limit = {
+						has_country_flag = human_empire
+						NOT = { has_country_flag = the_mankind }
+					}
+					join_alliance = {
+						who = event_target:mankind_master
+						name = "Imperium of Man"
+						override_requirements = yes
+					}
+					add_opinion_modifier = {
+						who = event_target:mankind_master
+						modifier = opinion_senatorum
+					}
+				}
+				set_federation_leader = event_target:mankind_master
+				federation = {
+					set_federation_type = theocratic_confederation
+					set_name = "Imperium of Man"
+					set_federation_law = succession_term_status_change
+				}
+			}
+		}
+	}
+}

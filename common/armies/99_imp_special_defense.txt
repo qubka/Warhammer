@@ -15,29 +15,8 @@ scouts_space_marines_defense = {
 	icon_frame = 132
 
 	potential = {
-		planet = { has_planet_flag = spacemarinehomeworld }
-		owner = {
-			has_country_flag = human_empire
-		}
-	}
-}
-
-legio_custodes_defense = {
-	defensive = yes
-	is_pop_spawned = yes
-	damage = 5
-	health = 10
-	morale = 5	
-	collateral_damage = 1.00
-	war_exhaustion = 0.0
-
-	icon_frame = 22
-
-	potential = {
-		planet = { has_planet_flag = terraplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = spacemarine_homeworld }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -53,10 +32,25 @@ collegia_titanica_defense = {
 	icon_frame = 35
 		
 	potential = {
-		planet = { has_planet_flag = marsplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = mechanicus_homeworld }
+		owner = { has_country_flag = human_empire }
+	}
+}
+
+legio_custodes_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 5
+	health = 10
+	morale = 5	
+	collateral_damage = 1.00
+	war_exhaustion = 0.0
+
+	icon_frame = 22
+
+	potential = {
+		planet = { has_planet_flag = terra_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -72,10 +66,8 @@ catachan_fighters_defense = {
 	icon_frame = 66
 	
 	potential = {
-		planet = { has_planet_flag = catachanplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = catachan_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -91,10 +83,8 @@ cadian_shock_troops_defense = {
 	icon_frame = 67
 		
 	potential = {
-		planet = { has_planet_flag = cadiaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = cadia_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -110,10 +100,8 @@ armageddon_steel_legion_defense = {
 	icon_frame = 68
 	
 	potential = {
-		planet = { has_planet_flag = armageddonplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = armageddon_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -129,10 +117,8 @@ death_korps_of_krieg_defense = {
 	icon_frame = 69
 	
 	potential = {
-		planet = { has_planet_flag = kriegplanett }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = krieg_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -148,10 +134,8 @@ mordian_iron_guard_defense = {
 	icon_frame = 70
 	
 	potential = {
-		planet = { has_planet_flag = mordianplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = mordian_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -167,10 +151,8 @@ scintillan_fusiliers_defense = {
 	icon_frame = 71
 	
 	potential = {
-		planet = { has_planet_flag = scintillaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = scintilla_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -186,10 +168,8 @@ praetorian_guard_defense = {
 	icon_frame = 72
 	
 	potential = {
-		planet = { has_planet_flag = praetoriaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = praetoria_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -205,10 +185,8 @@ valhallan_ice_warriors_defense = {
 	icon_frame = 73
 	
 	potential = {
-		planet = { has_planet_flag = valhallaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = valhalla_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -224,10 +202,8 @@ tallarn_desert_raiders_defense = {
 	icon_frame = 74
 	
 	potential = {
-		planet = { has_planet_flag = tallarnplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = tallarn_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }
 
@@ -243,9 +219,7 @@ vostroyan_firstborn_defense = {
 	icon_frame = 75
 	
 	potential = {
-		planet = { has_planet_flag = vostroyaplanet }
-		owner = {
-			has_country_flag = human_empire
-		}
+		planet = { has_planet_flag = vostroya_planet }
+		owner = { has_country_flag = human_empire }
 	}
 }

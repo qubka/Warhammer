@@ -1,0 +1,1937 @@
+tech_additional_equipment = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_advance_scan = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { computing }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.3
+		ship_anomaly_research_speed_mult = 0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_advanced_strikes = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_fire_rate_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_ancient_bureaucracy = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_admin_cap_add = 150
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_ancient_knowledge_1 = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		all_technology_research_speed = 0.05
+		num_tech_alternatives_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_ancient_knowledge_2 = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_ancient_knowledge_1" }
+	
+	modifier = {
+		all_technology_research_speed = 0.05
+		num_tech_alternatives_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_ancient_runes = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_building_build_speed_mult = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_arm_farse_aegis_of_ages = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { armor }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_arm_farse_armour_of_fortune = {
+	cost = @tier2cost1
+	area = engineering
+	tier = 2
+	category = { armor }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_arm_farse_aegis_of_ages" }
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_arm_farse_rune_armour = {
+	cost = @tier3cost1
+	area = engineering
+	tier = 3
+	category = { armor }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_arm_farse_armour_of_fortune" }
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_assail_strategy = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_damage_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_asuryan_doctrine = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_morale_mult = 0.05
+		army_defense_morale_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_bio_simulation = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_farmers_food_produces_mult = 0.3
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_channeling = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_damage_mult = 0.05
+		army_disengage_chance_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_craftworld_hide_shield = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_orbital_bombardment_damage = -0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_eldar_grace = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_evasion_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_eldritch_storm = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_disengage_chance_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_embolden = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		pop_growth_speed = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_enlightenment = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_crime_mult = -0.15
+		planet_amenities_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_escalate_engagement_research = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_piracy_suppression_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_farse_spirit_stones = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_seers_produces_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_fast_interception = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_base_speed_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_focus_fire = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_morale_damage_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_foresight = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_tracking_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_fortune = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		leader_skill_levels = 2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_holo_field = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_collateral_damage_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_khaine_wrath = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_hull_damage_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_longevity_elixir = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { biology }
+	weight = @tier1weight3
+	
+	modifier = {
+		leader_age = 1000
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_mind_war = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_edict_cap_add = 1
+		edicts_cost_mult = -0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_mineral_extration = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		station_gatherers_produces_mult = 0.30
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_mysticism = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		all_technology_research_speed = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_powergrid = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { particles }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_windup_mult = -0.1
+		ship_sensor_range_add = 2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_practical_fights = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_army_build_speed_mult = 0.3
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_psychic_storm = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_shield_penetration_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_relocation_matrix = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_orbit_upkeep_mult = -0.25
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_shimmer_orb = {
+	cost = @tier2cost1
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_wargear_eld_shimmer_orb" }
+	
+	modifier = {
+		ship_shield_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_ship_reflection = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_shield_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_special_training = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_starting_experience_add = 200
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_spiritual_rites = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { psionics }
+	weight = @tier1weight3
+	
+	modifier = {
+		biological_pop_happiness = 0.20
+		planet_amenities_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_teleportations = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_landing_time_mult = -0.3
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_time_field = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_evasion_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_total_control = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_command_limit_add = 100
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wailing_doom = {
+	cost = @tier1cost1
+	area = physics
+	tier = 1
+	category = { field_manipulation }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_interstellar_speed_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wargear_eld_anti-grav_grenade = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_damage_mult = 0.05
+		army_disengage_chance_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wargear_eld_heavy_gauge_ds = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_disengage_chance_mult = 0.15
+		army_defense_health_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wargear_eld_improved_warp_generator = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { armor }
+	weight = @tier1weight3
+	
+	prerequisites = { "tech_arm_farse_rune_armour" }
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_armor"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wargear_eld_shimmer_orb = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { weapon }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_attack_health_mult = 0.1
+		army_defense_health_mult = 0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_weapon"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_warlock_state = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		pop_factions_influence_produces_add = 1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_webway_gate = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { statecraft }
+	weight = @tier1weight3
+	
+	modifier = {
+		country_trade_attractiveness = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_webway_map = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_home_territory_fire_rate_mult = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wraith_doctrine = {
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier1weight3
+	
+	modifier = {
+		army_defense_damage_mult = 0.2
+		army_defense_health_mult = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wraithbone_armor = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { materials }
+	weight = @tier1weight3
+	
+	modifier = {
+		ship_armor_mult = 0.15
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+
+tech_wraithtomb = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	category = { industry }
+	weight = @tier1weight3
+	
+	modifier = {
+		starbase_buildings_cost_mult = -0.1
+		starbase_modules_cost_mult = -0.1
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = eldar_empire 
+	}
+}
+

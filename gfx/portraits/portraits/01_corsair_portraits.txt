@@ -12,12 +12,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Ynnari_01
+					AEL_COR_Ynnari_02
+					AEL_COR_Ynnari_03
+					AEL_COR_Ynnari_04
+					AEL_COR_Ynnari_05
+					AEL_COR_Ynnari_06
+					AEL_COR_Ynnari_07
+					AEL_COR_Ynnari_08
 				}
 			}
 		}		
@@ -26,12 +28,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Ynnari_01
+					AEL_COR_Ynnari_02
+					AEL_COR_Ynnari_03
+					AEL_COR_Ynnari_04
+					AEL_COR_Ynnari_05
+					AEL_COR_Ynnari_06
+					AEL_COR_Ynnari_07
+					AEL_COR_Ynnari_08
 				}
 			}
 		}
@@ -45,14 +49,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					AEL_CRA_Ynnari_01
-					AEL_CRA_Ynnari_02
-					AEL_CRA_Ynnari_03
-					AEL_CRA_Ynnari_04
-					AEL_CRA_Ynnari_05
-					AEL_CRA_Ynnari_06
-					AEL_CRA_Ynnari_07
-					AEL_CRA_Ynnari_08
+					AEL_COR_Ynnari_01
+					AEL_COR_Ynnari_02
+					AEL_COR_Ynnari_03
+					AEL_COR_Ynnari_04
+					AEL_COR_Ynnari_05
+					AEL_COR_Ynnari_06
+					AEL_COR_Ynnari_07
+					AEL_COR_Ynnari_08
 				}
 			}
 			
@@ -82,14 +86,14 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					AEL_CRA_Ynnari_01
-					AEL_CRA_Ynnari_02
-					AEL_CRA_Ynnari_03
-					AEL_CRA_Ynnari_04
-					AEL_CRA_Ynnari_05
-					AEL_CRA_Ynnari_06
-					AEL_CRA_Ynnari_07
-					AEL_CRA_Ynnari_08
+					AEL_COR_Ynnari_01
+					AEL_COR_Ynnari_02
+					AEL_COR_Ynnari_03
+					AEL_COR_Ynnari_04
+					AEL_COR_Ynnari_05
+					AEL_COR_Ynnari_06
+					AEL_COR_Ynnari_07
+					AEL_COR_Ynnari_08
 				}
 			}
 		}
@@ -102,9 +106,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -113,9 +121,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}
@@ -133,12 +146,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_TwilightSwords_01
+					AEL_COR_TwilightSwords_02
+					AEL_COR_TwilightSwords_03
+					AEL_COR_TwilightSwords_04
 				}
 			}
 		}		
@@ -147,12 +158,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_TwilightSwords_01
+					AEL_COR_TwilightSwords_02
+					AEL_COR_TwilightSwords_03
+					AEL_COR_TwilightSwords_04
 				}
 			}
 		}
@@ -215,9 +224,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -226,9 +239,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}
@@ -246,12 +264,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_VoidDragons_01
+					AEL_COR_VoidDragons_02
+					AEL_COR_VoidDragons_03
+					AEL_COR_VoidDragons_04
 				}
 			}
 		}		
@@ -260,12 +276,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_VoidDragons_01
+					AEL_COR_VoidDragons_02
+					AEL_COR_VoidDragons_03
+					AEL_COR_VoidDragons_04
 				}
 			}
 		}
@@ -328,9 +342,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -339,9 +357,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}
@@ -359,12 +382,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_SkyRaiders_01
+					AEL_COR_SkyRaiders_02
+					AEL_COR_SkyRaiders_03
+					AEL_COR_SkyRaiders_04
 				}
 			}
 		}		
@@ -373,12 +394,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_SkyRaiders_01
+					AEL_COR_SkyRaiders_02
+					AEL_COR_SkyRaiders_03
+					AEL_COR_SkyRaiders_04
 				}
 			}
 		}
@@ -441,9 +460,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -452,9 +475,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}
@@ -472,12 +500,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_SteeleyeReavers_01
+					AEL_COR_SteeleyeReavers_02
+					AEL_COR_SteeleyeReavers_03
+					AEL_COR_SteeleyeReavers_04
 				}
 			}
 		}		
@@ -486,12 +512,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_SteeleyeReavers_01
+					AEL_COR_SteeleyeReavers_02
+					AEL_COR_SteeleyeReavers_03
+					AEL_COR_SteeleyeReavers_04
 				}
 			}
 		}
@@ -554,9 +578,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -565,9 +593,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}
@@ -585,12 +618,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_SunBlitz_01
+					AEL_COR_SunBlitz_02
+					AEL_COR_SunBlitz_03
+					AEL_COR_SunBlitz_04
 				}
 			}
 		}		
@@ -599,12 +630,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_SunBlitz_01
+					AEL_COR_SunBlitz_02
+					AEL_COR_SunBlitz_03
+					AEL_COR_SunBlitz_04
 				}
 			}
 		}
@@ -667,9 +696,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -678,9 +711,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}
@@ -698,12 +736,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_EldritchRaiders_01
+					AEL_COR_EldritchRaiders_02
+					AEL_COR_EldritchRaiders_03
+					AEL_COR_EldritchRaiders_04
 				}
 			}
 		}		
@@ -712,12 +748,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_EldritchRaiders_01
+					AEL_COR_EldritchRaiders_02
+					AEL_COR_EldritchRaiders_03
+					AEL_COR_EldritchRaiders_04
 				}
 			}
 		}
@@ -780,9 +814,13 @@ portrait_groups = {
 				}
 				
 				portraits = {
-					eldar_male_01				
-					eldar_male_02			
-					eldar_male_03
+					AEL_COR_Corsair_ruler1
+					AEL_COR_Corsair_ruler2
+					AEL_COR_Corsair_ruler3
+					AEL_COR_Corsair_ruler4
+					AEL_COR_Corsair_ruler5
+					AEL_COR_Corsair_ruler6
+					AEL_COR_Corsair_ruler7
 				}
 			}
 			add = {
@@ -791,9 +829,14 @@ portrait_groups = {
 				}
 			
 				portraits = {
-					eldar_female_01			
-					eldar_female_02		
-					eldar_female_03
+					AEL_COR_Corsair_ruler7
+					AEL_COR_Corsair_ruler8
+					AEL_COR_Corsair_ruler9
+					AEL_COR_Corsair_ruler10
+					AEL_COR_Corsair_ruler11
+					AEL_COR_Corsair_ruler12
+					AEL_COR_Corsair_ruler13
+					AEL_COR_Corsair_ruler14
 				}
 			}
 		}

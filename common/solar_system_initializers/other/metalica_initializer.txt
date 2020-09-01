@@ -9,9 +9,15 @@ metalica_homeworld = {
 	flags = { empire_home_system }
 
 	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+
 		root = { set_country_flag = the_metalica }
 		generate_home_system_resources = yes
-		create_fe_citadel = yes
 	}
 		
 	planet = {
@@ -21,110 +27,6 @@ metalica_homeworld = {
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
 		has_ring = no
-		
-		init_effect = {
-			create_species = {
-				name = "Mechanicus"
-				class = "IMP"
-				portrait = "imp_mechanicus"
-				name_list = "IMPERIUM1"
-				traits = {
-					trait = "trait_cybernetic"
-					trait = "trait_self_modified"
-					trait = "trait_extremely_adaptive"
-					trait = "trait_quick_learners"
-					trait = "trait_nomadic"
-					trait = "trait_quarrelsome"
-					trait = "trait_wasteful"
-				}
-			}
-			create_country = {
-				name = "Metalica"
-				species = last_created
-				authority = "auth_oligarchic"
-				civics = {
-					civic = civic_machine_cult
-					civic = civic_technocracy
-				}
-				origin = "origin_mechanicus"
-				ethos = {
-					ethic = ethic_fanatic_materialist
-					ethic = ethic_xenophobe
-				}
-				flag = {
-					icon = {
-						category = "armada"
-						file = "TX_UI_Logo_SubFaction_AM_Metalica.dds"
-					}
-					background = {
-						category = "backgrounds"
-						file = "00_solid.dds"
-					}
-					colors = {
-						"grey"
-						"black"
-						"null"
-						"null"
-					}
-				}
-			}
-			last_created_country = {
-				set_graphical_culture = humanoid_01
-				save_global_event_target_as = the_metalica
-				set_country_flag = human_colony
-				set_country_flag = the_metalica
-				create_leader = {
-					class = ruler
-					species = prev
-					name = random
-					skill = 5
-					immortal = yes
-				}
-				set_leader = last_created_leader
-				add_modifier = { modifier = "dominion_colony" days = -1 }
-			}
-			create_fleet = {
-				effect = {
-					set_owner = event_target:the_metalica
-					while = {
-						count = 25
-						create_ship = {
-							name = random
-							design = "NAME_Outrider"
-							graphical_culture = "pirate_01"
-						}
-					}
-					while = {
-						count = 25
-						create_ship = {
-							name = random
-							design = "NAME_Lancer"
-							graphical_culture = "pirate_01"
-						}
-					}
-					while = {
-						count = 50
-						create_ship = {
-							name = random
-							design = "NAME_Void_Champion"
-							graphical_culture = "pirate_01"
-						}
-					}
-					set_formation_scale = 2
-					set_fleet_stance = aggressive
-					set_aggro_range_measure_from = self
-					set_aggro_range = 250
-					set_location = {
-						target = prev
-						distance = 20
-						angle = 120
-					}
-				}
-				settings = {
-					garrison = yes
-				}
-			}
-		}
 	}
 	
 	change_orbit = 35
@@ -149,9 +51,17 @@ metalica_homeworld = {
 		modifiers = none
 		
 		init_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = the_metalica
+				}
+				save_event_target_as = the_metalica
+			}
+
 			set_owner = event_target:the_metalica
 			set_controller = event_target:the_metalica
 			set_capital = yes
+			set_planet_flag = metalica_planet
 			set_planet_flag = mechanicus_homeworld
 
 			generate_start_pops = yes

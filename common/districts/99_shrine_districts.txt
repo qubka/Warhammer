@@ -1,0 +1,85 @@
+district_shrine_complex = {
+	base_buildtime = 240
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = shrine_world
+	}
+
+	potential = {
+		uses_district_set = shrine_world
+		exists = owner
+		owner = { has_country_flag = humanoid }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 10
+		pop_ethic_spiritualist_attraction_mult = 0.05
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = human_empire }
+		}
+		modifier = {
+			job_priest_add = 10
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_country_flag = chaos_empire }
+		}
+		modifier = {
+			job_chaos_priest_add = 10
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_country_flag = human_empire }
+		}
+		text = job_priest_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_country_flag = chaos_empire }
+		}
+		text = job_chaos_priest_effect_desc
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 20
+				}
+			}
+		}
+	}
+	
+	ai_resource_production = {
+		gods_favor = 1
+		trigger = {
+			always = yes
+		}
+	}
+}

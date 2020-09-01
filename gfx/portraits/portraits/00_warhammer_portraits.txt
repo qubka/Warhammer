@@ -7,20 +7,22 @@ portraits = {
 	# IMP
 	IMP_WhiteScars_ruler = { texturefile = "gfx/portraits/warhammer/IMP_WhiteScars_ruler.dds" }
 	IMP_Ultramarines_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Ultramarines_ruler.dds" }
-	IMP_SpaceWolfes_ruler = { texturefile = "gfx/portraits/warhammer/IMP_SpaceWolfes_ruler.dds" }
+	IMP_SpaceWolves_ruler = { texturefile = "gfx/portraits/warhammer/IMP_SpaceWolves_ruler.dds" }
 	IMP_Salamanders_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Salamanders_ruler.dds" }
 	IMP_RavenGuard_ruler = { texturefile = "gfx/portraits/warhammer/IMP_RavenGuard_ruler.dds" }
 	IMP_IronHand_ruler = { texturefile = "gfx/portraits/warhammer/IMP_IronHand_ruler.dds" }
 	IMP_ImperialFist_ruler = { texturefile = "gfx/portraits/warhammer/IMP_ImperialFist_ruler.dds" }
-	IMP_DarkAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_DarkAngles_ruler.dds" }
-	IMP_BloodAngles_ruler = { texturefile = "gfx/portraits/warhammer/IMP_BloodAngles_ruler.dds" }
+	IMP_DarkAngels_ruler = { texturefile = "gfx/portraits/warhammer/IMP_DarkAngels_ruler.dds" }
+	IMP_BloodAngels_ruler = { texturefile = "gfx/portraits/warhammer/IMP_BloodAngels_ruler.dds" }
 	IMP_Emperor_ruler = { texturefile = "gfx/portraits/warhammer/IMP_Emperor_ruler.dds" }
+	#
 	IMP_Navy_ruler1 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler1.dds" }
 	IMP_Navy_ruler2 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler2.dds" }
 	IMP_Navy_ruler3 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler3.dds" }
 	IMP_Navy_ruler4 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler4.dds" }
 	IMP_Navy_ruler5 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler5.dds" }
 	IMP_Navy_ruler6 = { texturefile = "gfx/portraits/warhammer/IMP_Navy_ruler6.dds" }
+	#
 	IMP_Mechanicus_ruler1 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler1.dds" }
 	IMP_Mechanicus_ruler2 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler2.dds" }
 	IMP_Mechanicus_ruler3 = { texturefile = "gfx/portraits/warhammer/IMP_Mechanicus_ruler3.dds" }
@@ -39,6 +41,7 @@ portraits = {
 	CHAOS_ThousandSons_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_ThousandSons_ruler.dds" }
 	CHAOS_WordBearer_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_WordBearer_ruler.dds" }
 	CHAOS_WorldEater_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_WorldEater_ruler.dds" }
+	CHAOS_SonsOfMalice_ruler = { texturefile = "gfx/portraits/warhammer/CHAOS_SonsOfMalice_ruler.dds" }
 	
 	# TAU
 	TAU_Dalyth_ruler = { texturefile = "gfx/portraits/warhammer/TAU_Dalyth_ruler.dds" }
@@ -65,6 +68,22 @@ portraits = {
 	AEL_CRA_Iyanden_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Iyanden_ruler.dds" }
 	AEL_CRA_BielTan_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_BielTan_ruler.dds" }
 	AEL_CRA_Alaitoc_ruler = { texturefile = "gfx/portraits/warhammer/AEL_CRA_Alaitoc_ruler.dds" }
+	
+	# COR
+	AEL_COR_Corsair_ruler1 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler1.dds" }
+	AEL_COR_Corsair_ruler2 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler2.dds" }
+	AEL_COR_Corsair_ruler3 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler3.dds" }
+	AEL_COR_Corsair_ruler4 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler4.dds" }
+	AEL_COR_Corsair_ruler5 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler5.dds" }
+	AEL_COR_Corsair_ruler6 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler6.dds" }
+	AEL_COR_Corsair_ruler7 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler7.dds" }
+	AEL_COR_Corsair_ruler8 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler8.dds" }
+	AEL_COR_Corsair_ruler9 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler9.dds" }
+	AEL_COR_Corsair_ruler10 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler10.dds" }
+	AEL_COR_Corsair_ruler11 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler11.dds" }
+	AEL_COR_Corsair_ruler12 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler12.dds" }
+	AEL_COR_Corsair_ruler13 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler13.dds" }
+	AEL_COR_Corsair_ruler14 = { texturefile = "gfx/portraits/warhammer/AEL_COR_Corsair_ruler14.dds" }
 	
 	# DEL
 	AEL_DRU_Ynnari_ruler = { texturefile = "gfx/portraits/warhammer/AEL_DRU_Ynnari_ruler.dds" }
@@ -96,17 +115,7 @@ portraits = {
 	NECRON_Sautekh_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Sautekh_ruler.dds" }
 	NECRON_Temeryn_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Temeryn_ruler.dds" }
 	NECRON_Thokt_ruler = { texturefile = "gfx/portraits/warhammer/NECRON_Thokt_ruler.dds" }
-	
-	####################################
-	# Pop Arts
-	####################################
-	
-	# ORK
-	#ORC_Pop1 = { texturefile = "gfx/portraits/warhammer/pop/ork1.dds" }
-	#ORC_Pop2 = { texturefile = "gfx/portraits/warhammer/pop/ork2.dds" }
-	#ORC_Pop3 = { texturefile = "gfx/portraits/warhammer/pop/ork3.dds" }
-	#ORC_Pop4 = { texturefile = "gfx/portraits/warhammer/pop/ork4.dds" }
-	
+
 	####################################
 	# Battlefleet gothic: Armada 2 Arts
 	####################################
@@ -283,16 +292,6 @@ portraits = {
 	CHAOS_Renegade_08 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_08.dds" }
 	CHAOS_Renegade_09 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_09.dds" }
 	CHAOS_Renegade_10 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_10.dds" }
-	CHAOS_Renegade_01_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_01_nobg.dds" }
-	CHAOS_Renegade_02_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_02_nobg.dds" }
-	CHAOS_Renegade_03_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_03_nobg.dds" }
-	CHAOS_Renegade_04_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_04_nobg.dds" }
-	CHAOS_Renegade_05_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_05_nobg.dds" }
-	CHAOS_Renegade_06_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_06_nobg.dds" }
-	CHAOS_Renegade_07_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_07_nobg.dds" }
-	CHAOS_Renegade_08_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_08_nobg.dds" }
-	CHAOS_Renegade_09_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_09_nobg.dds" }
-	CHAOS_Renegade_10_nobg = { texturefile = "gfx/portraits/armada/nobg/CHAOS_Renegade_10_nobg.dds" }
 	CHAOS_Renegade_Khorn_01 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_Khorn_01.dds" }
 	CHAOS_Renegade_Khorn_02 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_Khorn_02.dds" }
 	CHAOS_Renegade_Khorn_03 = { texturefile = "gfx/portraits/armada/CHAOS_Renegade_Khorn_03.dds" }
@@ -455,12 +454,6 @@ portraits = {
 	NECRON_Overlord_08 = { texturefile = "gfx/portraits/armada/NECRON_Overlord_08.dds" }
 	NECRON_Overlord_09 = { texturefile = "gfx/portraits/armada/NECRON_Overlord_09.dds" }
 	NECRON_Overlord_10 = { texturefile = "gfx/portraits/armada/NECRON_Overlord_10.dds" }
-	NECRON_Overlord_01_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_01_nobg.dds" }
-	NECRON_Overlord_02_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_02_nobg.dds" }
-	NECRON_Overlord_03_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_03_nobg.dds" }
-	NECRON_Overlord_05_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_05_nobg.dds" }
-	NECRON_Overlord_08_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_08_nobg.dds" }
-	NECRON_Overlord_09_nobg = { texturefile = "gfx/portraits/armada/nobg/NECRON_Overlord_09_nobg.dds" }
 	ORK_BadMoonz_BigBoss_01 = { texturefile = "gfx/portraits/armada/ORK_BadMoonz_BigBoss_01.dds" }
 	ORK_BadMoonz_BigBoss_02 = { texturefile = "gfx/portraits/armada/ORK_BadMoonz_BigBoss_02.dds" }
 	ORK_BadMoonz_BigBoss_03 = { texturefile = "gfx/portraits/armada/ORK_BadMoonz_BigBoss_03.dds" }
@@ -560,44 +553,4 @@ portraits = {
 	TYR_Tiamet_02 = { texturefile = "gfx/portraits/armada/TYR_Tiamet_02.dds" }
 	TYR_Tiamet_03 = { texturefile = "gfx/portraits/armada/TYR_Tiamet_03.dds" }
 	TYR_Tiamet_04 = { texturefile = "gfx/portraits/armada/TYR_Tiamet_04.dds" }
-}
-
-# Selectors
-portraits = {
-	eldar_female_01 = {	entity = "portrait_eldar_female_01_entity"	clothes_selector = "eldar_female_clothes_01"	hair_selector = "eldar_female_hair_01"	greeting_sound = "human_female_greetings_03"
-		character_textures = { 
-			"gfx/models/portraits/eldar/eldar_female_body_01a.dds" 
-			"gfx/models/portraits/eldar/eldar_female_body_01b.dds"
-		}
-	}
-	eldar_female_02 = {	entity = "portrait_eldar_female_02_entity"	clothes_selector = "eldar_female_clothes_01"	hair_selector = "eldar_female_hair_01"	greeting_sound = "human_female_greetings_01"
-		character_textures = { 
-			"gfx/models/portraits/eldar/eldar_female_body_02a.dds"
-			"gfx/models/portraits/eldar/eldar_female_body_02b.dds" 
-		}
-	}
-	eldar_female_03 = {	entity = "portrait_eldar_female_02_entity"	clothes_selector = "eldar_female_clothes_01"	hair_selector = "eldar_female_hair_01"	greeting_sound = "human_female_greetings_01"
-		character_textures = { 
-			"gfx/models/portraits/eldar/eldar_female_body_03a.dds"
-			"gfx/models/portraits/eldar/eldar_female_body_03b.dds" 
-		}
-	}	
-	eldar_male_01 = {	entity = "portrait_eldar_male_01_entity"	clothes_selector = "eldar_male_clothes_01"	hair_selector = "eldar_male_hair_01"	greeting_sound = "human_male_greetings_03" 
-		character_textures = { 
-			"gfx/models/portraits/eldar/eldar_male_body_01a.dds" 
-			"gfx/models/portraits/eldar/eldar_male_body_01b.dds"
-		}
-	}			
-	eldar_male_02 = {	entity = "portrait_eldar_male_02_entity"	clothes_selector = "eldar_male_clothes_01"	hair_selector = "eldar_male_hair_01"	greeting_sound = "human_male_greetings_01" 
-		character_textures = { 
-			"gfx/models/portraits/eldar/eldar_male_body_02a.dds" 
-			"gfx/models/portraits/eldar/eldar_male_body_02b.dds"
-		}
-	} 
-	eldar_male_03 = {	entity = "portrait_eldar_male_02_entity"	clothes_selector = "eldar_male_clothes_01"	hair_selector = "eldar_male_hair_01"	greeting_sound = "human_male_greetings_01" 
-		character_textures = { 
-			"gfx/models/portraits/eldar/eldar_male_body_03a.dds" 
-			"gfx/models/portraits/eldar/eldar_male_body_03b.dds"
-		}
-	} 	
 }

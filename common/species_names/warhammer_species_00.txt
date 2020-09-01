@@ -11,8 +11,8 @@ IMP = {
 		name_list = "IMPERIUM1"
 	}
 
-	space_wolfes = {
-		name = "Space Wolfes"
+	space_wolves = {
+		name = "Space Wolves"
 		plural = "Spacemarines"
 		name_list = "IMPERIUM1"
 	}
@@ -41,14 +41,14 @@ IMP = {
 		name_list = "IMPERIUM1"
 	}
 
-	dark_angles = {
-		name = "Dark Angles"
+	dark_angels = {
+		name = "Dark Angels"
 		plural = "Spacemarines"
 		name_list = "IMPERIUM1"
 	}
 
-	blood_angles = {
-		name = "Blood Angles"
+	blood_angels = {
+		name = "Blood Angels"
 		plural = "Spacemarines"
 		name_list = "IMPERIUM1"
 	}

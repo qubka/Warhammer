@@ -37,7 +37,7 @@
 ##### Diplomacy:
 # advanced_start_chance -> Likelyhood of this empire being an advanced start (higher = better chance of being one of empires selected for advanced start)
 
-ork_personality = { 
+ork = { 
 	aggressiveness = 6.0
 	trade_willingness = 0.5
 	bravery = 10.0
@@ -84,7 +84,7 @@ ork_personality = {
 	weight_modifier = { weight = 100000 }
 }
 
-chaos_personality = { 
+chaos = { 
 	aggressiveness = 6.0
 	trade_willingness = 0.0
 	bravery = 10.0
@@ -131,7 +131,7 @@ chaos_personality = {
 	weight_modifier = { weight = 100000 }
 }
 
-eldar_personality = { 
+eldar = { 
 	aggressiveness = 2.0
 	trade_willingness = 0.9
 	bravery = 10.0
@@ -177,7 +177,7 @@ eldar_personality = {
 	weight_modifier = { weight = 100000 }
 }
 
-darkeldar_personality = { 
+darkeldar = { 
 	aggressiveness = 3.0
 	trade_willingness = 0.9
 	bravery = 10.0
@@ -223,7 +223,7 @@ darkeldar_personality = {
 	weight_modifier = { weight = 100000 }
 }
 
-imp_personality = { 
+imp = { 
 	aggressiveness = 6.0
 	trade_willingness = 0.8
 	bravery = 10.0
@@ -269,7 +269,7 @@ imp_personality = {
 	weight_modifier = { weight = 100000 }
 }
 
-necron_personality = { 
+necron = { 
 	aggressiveness = 5.5
 	trade_willingness = 0.1
 	bravery = 13.0
@@ -316,7 +316,7 @@ necron_personality = {
 	weight_modifier = { weight = 100000 }
 }
 
-tau_personality = { 
+tau = { 
 	aggressiveness = 1.0
 	trade_willingness = 1.1
 	bravery = 10.5
@@ -360,4 +360,57 @@ tau_personality = {
 	
 	allow = { has_country_flag = tau_empire }	
 	weight_modifier = { weight = 100000 }
+}
+
+tyranid = {
+	aggressiveness = 100.0
+	trade_willingness = 0.0
+	bravery = 100.0
+	combat_bravery = 100.0
+
+	military_spending = 1.2
+	colony_spending = 1.2
+
+	federation_acceptance = -1000
+	nap_acceptance = -1000
+	commercial_pact_acceptance = -1000
+	research_agreement_acceptance = -1000
+	defensive_pact_acceptance = -1000
+	migration_pact_acceptance = -1000
+
+	advanced_start_chance = 0
+
+	weapon_preferences = weapon_type_strike_craft
+	armor_ratio = 0.2
+	shields_ratio = 0.4
+	hull_ratio = 0.4
+
+	threat_modifier = 0
+	threat_others_modifier = 0
+	friction_modifier = 0
+	claims_modifier = 0
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		slaver = no
+		uplifter = no
+		purger = yes
+		displacer = no
+		dominator = yes
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		crisis_fighter = no
+		attack_neutrals = yes
+	}
+
+	allow = { has_country_flag = tyranid_empire }
+	weight_modifier = {
+		weight = 100000
+	}
 }

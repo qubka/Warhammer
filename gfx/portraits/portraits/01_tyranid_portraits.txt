@@ -11,7 +11,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Behemoth_01
+					TYR_Behemoth_02
+					TYR_Behemoth_03
+					TYR_Behemoth_04
 				}
 			}
 		}		
@@ -20,7 +23,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Behemoth_01
+					TYR_Behemoth_02
+					TYR_Behemoth_03
+					TYR_Behemoth_04
 				}
 			}
 		}
@@ -109,7 +115,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Gorgon_01
+					TYR_Gorgon_02
+					TYR_Gorgon_03
+					TYR_Gorgon_04
 				}	
 			}
 		}		
@@ -118,7 +127,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Gorgon_01
+					TYR_Gorgon_02
+					TYR_Gorgon_03
+					TYR_Gorgon_04
 				}
 			}
 		}
@@ -207,7 +219,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Hydra_01
+					TYR_Hydra_02
+					TYR_Hydra_03
+					TYR_Hydra_04
 				}
 			}
 		}		
@@ -216,7 +231,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Hydra_01
+					TYR_Hydra_02
+					TYR_Hydra_03
+					TYR_Hydra_04
 				}
 			}
 		}
@@ -305,7 +323,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Jormungandr_01
+					TYR_Jormungandr_02
+					TYR_Jormungandr_03
+					TYR_Jormungandr_04
 				}
 			}
 		}		
@@ -314,7 +335,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Jormungandr_01
+					TYR_Jormungandr_02
+					TYR_Jormungandr_03
+					TYR_Jormungandr_04
 				}
 			}
 		}
@@ -403,7 +427,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Kraken_01
+					TYR_Kraken_02
+					TYR_Kraken_03
+					TYR_Kraken_04
 				}
 			}
 		}		
@@ -412,7 +439,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Kraken_01
+					TYR_Kraken_02
+					TYR_Kraken_03
+					TYR_Kraken_04
 				}
 			}
 		}
@@ -501,7 +531,14 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Leviathan_01
+					TYR_Leviathan_02
+					TYR_Leviathan_03
+					TYR_Leviathan_04
+					TYR_Leviathan_05
+					TYR_Leviathan_06
+					TYR_Leviathan_07
+					TYR_Leviathan_08
 				}
 			}
 		}		
@@ -510,7 +547,14 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Leviathan_01
+					TYR_Leviathan_02
+					TYR_Leviathan_03
+					TYR_Leviathan_04
+					TYR_Leviathan_05
+					TYR_Leviathan_06
+					TYR_Leviathan_07
+					TYR_Leviathan_08
 				}
 			}
 		}
@@ -615,7 +659,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Ouroboris_01
+					TYR_Ouroboris_02
+					TYR_Ouroboris_03
+					TYR_Ouroboris_04
 				}
 			}
 		}		
@@ -624,7 +671,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Ouroboris_01
+					TYR_Ouroboris_02
+					TYR_Ouroboris_03
+					TYR_Ouroboris_04
 				}
 			}
 		}
@@ -713,7 +763,10 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					art14
+					TYR_Tiamet_01
+					TYR_Tiamet_02
+					TYR_Tiamet_03
+					TYR_Tiamet_04
 				}
 			}
 		}		
@@ -722,7 +775,10 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					art14
+					TYR_Tiamet_01
+					TYR_Tiamet_02
+					TYR_Tiamet_03
+					TYR_Tiamet_04
 				}
 			}
 		}

@@ -1,0 +1,135 @@
+## Categories used in this file must have use_for_ai_budget = yes defined in economic_categories ##
+## It is possible to have multiple entries with the same category and resource ##
+
+#################
+## Expenditure ##
+#################
+
+gods_favor_expenditure_edicts = {
+	resource = gods_favor 
+	type = expenditure
+	category = edicts
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.5
+	}
+}
+
+
+gods_favor_expenditure_planets = {
+	resource = gods_favor 
+	type = expenditure
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.2
+	}	
+}
+
+gods_favor_expenditure_ships = {
+	resource = gods_favor
+	type = expenditure
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+gods_favor_expenditure_upgrade = {
+	resource = gods_favor 
+	type = expenditure
+	category = ship_upgrades
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		base = 0.1
+	}
+}
+
+gods_favor_expenditure_trade = {
+	resource = gods_favor 
+	type = expenditure
+	category = trade
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}
+
+gods_favor_expenditure_armies = {
+	resource = gods_favor
+	type = expenditure
+	category = armies
+
+	potential = {
+		always = yes
+	}
+
+	fraction = {
+		weight = 0.01
+	}
+}
+
+gods_favor_expenditure_armies_threatened = {
+	resource = gods_favor
+	type = expenditure
+	category = armies
+
+	potential = {
+		highest_threat > 20
+	}
+
+	fraction = {
+		weight = 0.10
+	}
+}
+
+# Upkeep ----------------------------------------------------------
+
+gods_favor_upkeep_planets = {
+	resource = gods_favor 
+	type = upkeep
+	category = planets
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.9
+	}	
+}
+
+gods_favor_upkeep_ships = {
+	resource = gods_favor 
+	type = upkeep
+	category = ships
+	
+	potential = {
+		always = yes
+	}
+	
+	fraction = {
+		weight = 0.1
+	}	
+}

@@ -1,0 +1,215 @@
+namespace = raids
+
+country_event = {
+	id = raids.1
+	hide_window = yes
+	fire_only_once = yes
+	
+	trigger = {
+		is_ai = no
+		years_passed > 15
+	}
+	
+	immediate = {
+		set_global_flag = raids_start
+	}
+}
+
+country_event = {
+	id = raids.2
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		NOT = {
+			has_global_flag = darkeldar_raid 
+		}
+		has_global_flag = raids_start
+		OR = {
+			has_country_flag = chaos_empire
+			has_country_flag = ork_empire
+			has_country_flag = tau_empire
+			has_country_flag = human_empire
+		}	
+	}
+	
+	immediate = {
+		random_pop = { kill_pop = yes }
+		random_owned_planet = {
+			limit = {
+				has_ground_combat = no 
+				NOT = { has_planet_flag = darkeldar_dont_attack }
+			}
+			planet_event = { id = raids.3 }
+			set_planet_flag = darkeldar_dont_attack
+		}	
+		set_global_flag = darkeldar_raid
+	}
+}
+
+planet_event = {
+	id = raids.3
+	title = raids.3.name
+	desc = raids.3.desc
+	picture = GFX_evt_dark_eldar_raid
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		remove_planet_flag = darkeldar_dont_attack
+		random_country = {
+			limit = {
+				has_country_flag = darkeldar_empire
+			}
+			save_event_target_as = dark_raid_fleet
+			species = { save_event_target_as = dark_raid_species }
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "wyches"
+			}					
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "kabalite_warriors"
+			}					
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "raven"
+			}					
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "ravager"
+			}					
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "scourge_squad"
+			}					
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "hellion_squad"
+			}					
+		}
+		while = {
+			count = 3
+			create_army = {
+				name = "Dark Eldars"
+				owner = event_target:dark_raid_fleet
+				species = event_target:dark_raid_species
+				type = "incubi"
+			}					
+		}
+		create_leader = {
+			type = admiral
+			species = event_target:dark_raid_species
+			name = random
+			skill = 5000
+			set_age = 50
+			traits = {
+				trait = leader_trait_void_swimmer
+			}
+		}
+		create_fleet = {
+			name = "Dark Eldar Fleet"
+			effect = {
+				set_owner = event_target:dark_raid_fleet
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "reptilian_01"
+				}
+				assign_leader = last_created_leader
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				while = {
+					count = 5
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				while = {
+					count = 15
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "reptilian_01"
+					}
+				}
+				set_location = {
+					target = ROOT
+					distance = 0
+					angle = random
+				}
+				set_aggro_range = 500
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+country_event = {
+	id = raids.5
+	hide_window = yes
+
+	trigger = {
+		is_ai = no
+		has_global_flag = darkeldar_raid 
+	}
+		
+	mean_time_to_happen = {
+		months = 30
+	}
+	
+	immediate = {
+		remove_global_flag = darkeldar_raid 
+	}
+}

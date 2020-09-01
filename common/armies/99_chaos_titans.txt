@@ -16,7 +16,9 @@ chaos_imperial_knight = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1050
+			alloys = 1050
+			electronics = 100
+			military_goods = 50
 		}
 
 		upkeep = {
@@ -24,10 +26,10 @@ chaos_imperial_knight = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_corrupting_titans" }
 	
 	allow = {
-		#has_building = "chaos_building_imperial_knight_base_1"
+		has_building = building_machine_pit
 	
 		owner = {
 			NOT = { 
@@ -37,7 +39,6 @@ chaos_imperial_knight = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -60,11 +61,16 @@ chaos_imperial_knight = {
 
 	potential = {
 		planet = {
-			#has_building = "chaos_building_imperial_knight_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -81,7 +87,9 @@ chaos_warhound_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1250
+			alloys = 1250
+			electronics = 150
+			military_goods = 50
 		}
 
 		upkeep = {
@@ -89,10 +97,10 @@ chaos_warhound_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_corrupting_titans" }
 	
 	allow = {
-		#has_building = "chaos_building_warhound_titan_base_1"
+		has_building = building_machine_pit
 		
 		owner = {
 			NOT = { 
@@ -102,7 +110,6 @@ chaos_warhound_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -125,11 +132,16 @@ chaos_warhound_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_warhound_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -146,7 +158,9 @@ chaos_reaver_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1450
+			alloys = 1450
+			electronics = 150
+			military_goods = 100
 		}
 
 		upkeep = {
@@ -154,10 +168,10 @@ chaos_reaver_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_corrupting_titans" }
 	
 	allow = {
-		#has_building = "chaos_building_reaver_titan_base_1"
+		has_building = building_machine_pit
 		
 		owner = {
 			NOT = { 
@@ -167,7 +181,6 @@ chaos_reaver_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -190,11 +203,16 @@ chaos_reaver_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_reaver_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -211,7 +229,9 @@ chaos_warlord_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 1650
+			alloys = 1650
+			electronics = 200
+			military_goods = 150
 		}
 
 		upkeep = {
@@ -219,10 +239,10 @@ chaos_warlord_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_corrupting_titans" }
 	
 	allow = {
-		#has_building = "chaos_building_warlord_titan_base_1"
+		has_building = building_machine_pit
 		
 		owner = {
 			NOT = { 
@@ -232,7 +252,6 @@ chaos_warlord_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -255,11 +274,16 @@ chaos_warlord_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_warlord_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }
 
@@ -276,7 +300,9 @@ chaos_emperor_titan = {
 	resources = {
 		category = armies
 		cost = {
-			minerals = 2000
+			alloys = 2000
+			electronics = 300
+			military_goods = 250
 		}
 
 		upkeep = {
@@ -284,10 +310,10 @@ chaos_emperor_titan = {
 		}
 	}
 	
-	#prerequisites = { "tech_titans_army" }
+	prerequisites = { "tech_corrupting_titans" }
 	
 	allow = {
-		#has_building = "chaos_building_emperor_titan_base_1"
+		has_building = building_machine_pit
 		
 		owner = {
 			NOT = { 
@@ -297,7 +323,6 @@ chaos_emperor_titan = {
 				}
 			}
 		}
-		
 	}
 	
 	on_queued = {
@@ -320,10 +345,15 @@ chaos_emperor_titan = {
 	
 	potential = {
 		planet = {
-			#has_building = "chaos_building_emperor_titan_base_1"
+			OR = {
+				is_planet_class = pc_forge
+				is_planet_class = pc_forgee
+				is_planet_class = pc_forgeee
+				is_planet_class = pc_forge_ring
+				is_planet_class = pc_forge_ring2
+				is_planet_class = pc_forge_ring3
+			}
 		}
-		owner = {
-			has_country_flag = chaos_empire
-		}
+		owner = { has_country_flag = chaos_empire }
 	}
 }

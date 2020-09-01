@@ -24,7 +24,6 @@ event = {
 event = {
     id = leaders.2
 	hide_window = yes
-    fire_only_once = yes
 
 	immediate = {
 		every_country = { 
@@ -39,6 +38,5 @@ event = {
 				add_trait = leader_trait_scientist_cyborg
 			}
 		}
-		
 	}
 }

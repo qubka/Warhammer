@@ -1,0 +1,37 @@
+chapter = {
+	can_expand = yes
+	can_be_integrated = no
+	research_sharing = yes
+	joins_overlord_wars = yes
+	calls_overlord_to_war = yes
+	can_do_diplomacy = no
+	overlord_becomes_warleader = yes
+	gets_access = yes
+	gets_sensor = yes
+	
+	diplo_threat = 1.5
+	
+	subject_tax_rate = {
+		energy = 0.1
+		food = 0.2
+	}
+	
+	potential = {
+		is_country_type = default
+		from = { has_country_flag = the_mankind }
+	}
+	
+	effect = {
+		if = {
+			limit = {
+				from = { 
+					NOT = { has_government = gov_confederated_oligarchy }
+				}
+			}
+			set_subject_of = {
+				who = none
+			}
+			break = yes
+		}
+	}
+}

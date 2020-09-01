@@ -1,0 +1,547 @@
+
+#########
+# TOMES #
+#########
+
+tech_tome_of_displacement = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_orbit_upkeep_mult = -0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_force = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_weapon_range_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_might = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_tracking_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_time = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_base_speed_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_vortex = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_evasion_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_wrath = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_weapon_damage = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_mist = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_disengage_chance_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_barriers = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_shield_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_earth = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_piracy_suppression_mult = 0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+
+tech_tome_of_fire = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_orbital_bombardment_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tome_of_power = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_hull_damage_mult = 0.1
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+#
+
+tech_parable_of_the_lion = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier3weight1
+	
+	modifier = {
+		ship_fire_rate_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_gift_of_the_artificers = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_shield_penetration_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_tactical_advance = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_home_territory_fire_rate_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}
+
+tech_retreat_point_enabled = {
+	cost = @tier3cost1
+	area = society
+	tier = 1
+	category = { military_theory }
+	weight = @tier3weight1
+
+	modifier = {
+		ship_emergency_ftl_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	potential = {
+		has_country_flag = human_empire 
+	}
+}

@@ -3,8 +3,8 @@ static_galaxy_scenario = {
 	priority = 0
 	default = yes
 	colonizable_planet_odds = 1.0
-	num_empires = { min = 25 max = 65 }
-	num_empire_default = 34
+	num_empires = { min = 66 max = 78 }
+	num_empire_default = 78
 	advanced_empire_default = 0
 	fallen_empire_default = 0
 	fallen_empire_max = 0
@@ -351,6 +351,7 @@ static_galaxy_scenario = {
 			x = 270
 			y = 126
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_graia } }
 	}
 
 	system = {
@@ -1407,6 +1408,7 @@ static_galaxy_scenario = {
 			x = -76
 			y = 63
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_metalica } }
 	}
 
 	system = {
@@ -1495,12 +1497,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Baal"
 		id = "161"
-		initializer = blood_angles_homeworld
+		initializer = blood_angels_homeworld
 		position = {
 			x = -57
 			y = -78
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_blood_angles } }
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_blood_angels } }
 	}
 
 	system = {
@@ -2009,6 +2011,7 @@ static_galaxy_scenario = {
 			x = 78
 			y = 255
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_bakka } }
 	}
 
 	system = {
@@ -2113,10 +2116,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Catachan"
 		id = "224"
+		initializer = catachan_homeworld
 		position = {
 			x = 110
 			y = 3
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_catachan } }
 	}
 
 	system = {
@@ -2322,10 +2327,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Mordian"
 		id = "247"
+		initializer = mordian_homeworld
 		position = {
 			x = 138
 			y = -200
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_mordian } }
 	}
 	
 	system = {
@@ -2426,6 +2433,7 @@ static_galaxy_scenario = {
 			x = 145
 			y = 5
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_ryza } }
 	}
 
 	system = {
@@ -2496,12 +2504,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Fenris"
 		id = "261"
-		initializer = space_wolfes_homeworld
+		initializer = space_wolves_homeworld
 		position = {
 			x = 161
 			y = -112
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_space_wolfes } }
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_space_wolves } }
 	}
 
 	system = {
@@ -2755,6 +2763,7 @@ static_galaxy_scenario = {
 			x = 195.3979
 			y = -85.18843
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_armageddon } }
 	}
 
 	system = {
@@ -2877,6 +2886,7 @@ static_galaxy_scenario = {
 			x = 213
 			y = -101
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_stygies } }
 	}
 
 	system = {
@@ -3053,6 +3063,7 @@ static_galaxy_scenario = {
 			x = 270.5031
 			y = -132.0547
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_cadia } }
 	}
 
 	system = {
@@ -3105,10 +3116,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Krieg"
 		id = "323"
+		initializer = krieg_homeworld
 		position = {
 			x = 260
 			y = 113
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_krieg } }
 	}
 
 	system = {
@@ -3123,12 +3136,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "Caliban"
 		id = "325"
-		initializer = dark_angles_homeworld
+		initializer = dark_angels_homeworld
 		position = {
 			x = 264
 			y = -217
 		}
-		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dark_angles } }
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_dark_angels } }
 	}
 
 	system = {
@@ -4196,6 +4209,7 @@ static_galaxy_scenario = {
 			x = 366.343
 			y = 120.9194
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_lucius } }
 	}
 
 	system = {
@@ -6973,6 +6987,7 @@ static_galaxy_scenario = {
 			x = 257.6546
 			y = -103.3058
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_agripinaa } }
 	}
 
 	system = {
@@ -7700,7 +7715,6 @@ static_galaxy_scenario = {
 	system = {
 		name = "Bastion"
 		id = "832"
-		initializer = bastion_homeworld
 		position = {
 			x = 332.3573
 			y = -327.6661
@@ -8341,11 +8355,12 @@ static_galaxy_scenario = {
 	system = {
 		name = "World of Immortal Sorrows"
 		id = "901"
-		initializer = chaos_init_03
+		initializer = sons_of_malice_homeworld
 		position = {
 			x = 292.3195
 			y = -158.1989
 		}
+		spawn_weight = { base = 0 modifier = { add = 9999 has_country_flag = the_sons_of_malice } }
 	}
 
 	system = {
@@ -10915,7 +10930,6 @@ static_galaxy_scenario = {
 	system = {
 		name = "Fularis"
 		id = "1602"
-		initializer = fularis_homeworld
 		position = {
 			x = 50.39803
 			y = -250.2943

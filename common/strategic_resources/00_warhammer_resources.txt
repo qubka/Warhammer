@@ -1,0 +1,122 @@
+###########################
+### Warhammer Resources ###
+###########################
+
+# Military Goods
+military_goods = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = military_goods_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Promethium
+promethium = {
+	tradable = no
+	max = 15000
+
+	prerequisites = { "tech_promethium_mining" }
+	
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = promethium_deficit
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Electronics
+electronics = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = electronics_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Gene-Seed
+gene_seed = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = gene_seed_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Scrap
+scrap = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = scrap_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Slaves
+slaves = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = slaves_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Living metal
+living_metal = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = living_metal_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Spirit stones
+spirit_stones = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = spirit_stones_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# Gods Favor
+gods_favor = {
+	tradable = no
+	max = 15000
+
+	visibility_prerequisite = { always = yes }
+	deficit_modifier = gods_favor_deficit
+	
+	ai_weight = {
+		weight = 100
+	}
+}

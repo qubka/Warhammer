@@ -1,0 +1,322 @@
+namespace = genestelars
+
+country_event = {
+	id = genestelars.1
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		is_ai = no
+		years_passed > 14
+	}
+	
+	immediate = {
+		set_global_flag = genestelars_begin
+	}
+}
+
+country_event = {
+	id = genestelars.999
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		has_global_flag = genestelars_ongoing 
+	}
+		
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		remove_global_flag = genestelars_ongoing 
+	}
+}
+
+country_event = {
+	id = genestelars.2
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		OR = {
+			has_country_flag = chaos_empire
+			has_country_flag = ork_empire
+			has_country_flag = tau_empire
+			has_country_flag = human_empire
+		}
+		has_global_flag = genestelars_begin
+		NOT = {
+			has_global_flag = genestelars_ongoing 
+		}
+	}
+	
+	immediate = {
+		set_global_flag = genestelars_ongoing 
+		random_rim_system = {
+			closest_system = {
+				limit = {
+					any_planet = {
+						exists = owner
+						has_ground_combat = no
+						owner = {
+							has_country_flag = human_empire
+						}
+						OR = {
+							is_planet_class = pc_hive_arid
+							is_planet_class = pc_hive_continental_01
+							is_planet_class = pc_hive_continental_02
+							is_planet_class = pc_hive_ocean
+							is_planet_class = pc_hive_tundra
+							is_planet_class = pc_advancecity
+							is_planet_class = pc_advancexenocity
+							is_planet_class = pc_advancexenocityy
+							is_planet_class = pc_advancexenocityyy
+							is_planet_class = pc_hive_medium
+							is_planet_class = pc_super_hive
+							is_planet_class = pc_mega_hive
+							is_planet_class = pc_hive_industrial
+						}
+					}
+				}
+				random_system_planet = {
+					limit = {
+						owner = {
+							has_country_flag = human_empire
+						}
+					}
+					planet_event = { id = genestelars.3 }
+				}
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = genestelars.3
+	title = genestelars.3.name
+	desc = genestelars.3.desc
+	picture = GFX_evt_genestealer_cultists_rise
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		add_modifier = { modifier = "planet_rebelion_small" days = 400 }
+		planet_event = { id = genestelars.4 days = 400 }
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+planet_event = {
+	id = genestelars.4
+	title = genestelars.4.name
+	desc = genestelars.4.desc
+	picture = GFX_evt_genestealer_cultists_rise
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		add_modifier = { modifier = "planet_rebelion_big" days = 100 }
+		planet_event = { id = genestelars.5 days = 100 }
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+planet_event = {
+	id = genestelars.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_country_flag = chaos_empire
+						has_country_flag = ork_empire
+						has_country_flag = tau_empire
+						has_country_flag = human_empire
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_ground_combat = no
+				}
+				planet_event = { id = genestelars.6 }
+				else = {
+					planet_event = { id = genestelars.5 days = 100 }
+				}
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = genestelars.6
+	title = genestelars.6.name
+	desc = genestelars.6.desc
+	picture = GFX_evt_genestealer_cultists_rebelion
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		remove_modifier = "planet_rebelion_small"
+		remove_modifier = "planet_rebelion_big"
+		random_country = {
+			limit = {
+				has_country_flag = tyranid_empire
+			}
+			save_event_target_as = tyranid_hive_fleet
+			species = { save_event_target_as = tyranid_hive_species }
+		}
+		while = {
+			limit = {
+				num_pops > 1
+			}
+			random_pop = { kill_pop = yes }
+		}
+		create_leader = {
+			type = admiral
+			species = event_target:tyranid_hive_species
+			name = random
+			skill = 5000
+			set_age = 10
+			traits = {
+				trait = leader_trait_void_swimmer
+			}
+		}	
+		create_fleet = {
+			name = "Tyranid Five Fleet"
+			effect = {
+				set_owner = event_target:tyranid_hive_fleet
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "tyranid_01"
+				}
+				assign_leader = last_created_leader
+				while = {
+					count = 5
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				while = {
+					count = 10
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				while = {
+					count = 20
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				while = {
+					count = 40
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "tyranid_01"
+					}
+				}
+				set_location = {
+					target = root
+					distance = 0
+					angle = random
+				}
+				set_aggro_range = 500
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self		
+			}
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "hierophant"
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "dominatrix"
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "hierodule"
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "harridan"
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "hive_tyrant"
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "swarmlord"
+		}
+		create_army = {
+			name = "Tyranid Army"
+			owner = event_target:tyranid_hive_fleet
+			species = event_target:tyranid_hive_species
+			type = "lictor"
+		}
+		while = {
+			count = 5
+			create_army = {
+				name = "Tyranid Army"
+				owner = event_target:tyranid_hive_fleet
+				species = event_target:tyranid_hive_species
+				type = "termagant"
+			}
+		}
+		while = {
+			count = 5
+			create_army = {
+				name = "Tyranid Army"
+				owner = event_target:tyranid_hive_fleet
+				species = event_target:tyranid_hive_species
+				type = "hormagaunt"
+			}
+		}
+		while = {
+			count = 5
+			create_army = {
+				name = "Tyranid Army"
+				owner = event_target:tyranid_hive_fleet
+				species = event_target:tyranid_hive_species
+				type = "tyranid_warrior"
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}

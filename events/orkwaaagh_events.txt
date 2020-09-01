@@ -1,0 +1,212 @@
+namespace = orks
+
+country_event = {
+	id = orks.1
+	hide_window = yes
+	fire_only_once = yes
+	
+	trigger = {
+		is_ai = no
+		years_passed > 31
+	}
+	
+	immediate = {
+		set_global_flag = orks_attack_start
+	}
+}
+
+country_event = {
+	id = orks.2
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		NOT = {
+			has_global_flag = orks_attack 
+		}
+		has_global_flag = orks_attack_start
+		OR = {
+			has_country_flag = chaos_empire
+			has_country_flag = eldar_empire
+			has_country_flag = darkeldar_empire
+			has_country_flag = tau_empire
+			has_country_flag = human_empire
+		}
+	}
+	
+	immediate = {
+		random_owned_planet = {
+			limit = {
+				has_ground_combat = yes 
+				NOT = { has_planet_flag = orks_dont_attack }
+			}
+			planet_event = { id = orks.3 }
+			set_planet_flag = orks_dont_attack
+		}	
+		set_global_flag = orks_attack
+	}
+}
+
+planet_event = {
+	id = orks.3
+	title = orks.3.name
+	desc = orks.3.desc
+	picture = GFX_evt_ork_fleet
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		planet_event = { id = orks.4 days = 50 }
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+planet_event = {
+	id = orks.4
+	title = orks.4.name
+	desc = orks.4.desc
+	picture = GFX_evt_orks_attack_planet
+	is_triggered_only = yes
+	location = ROOT
+	
+	immediate = {
+		remove_planet_flag = orks_dont_attack
+		random_country = {
+			limit = {
+				has_country_flag = ork_empire
+			}
+			save_event_target_as = ork_waaagh_fleet
+			species = { save_event_target_as = ork_waaagh_species }
+		}
+		while = {
+			count = 2
+			create_army = {
+				name = "Orks"
+				owner = event_target:ork_waaagh_fleet
+				species = event_target:ork_waaagh_species
+				type = "ork_nobz"
+			}					
+		}
+		while = {
+			count = 2
+			create_army = {
+				name = "Orks"
+				owner = event_target:ork_waaagh_fleet
+				species = event_target:ork_waaagh_species
+				type = "storm_boyz"
+			}					
+		}
+		while = {
+			count = 6
+			create_army = {
+				name = "Orks"
+				owner = event_target:ork_waaagh_fleet
+				species = event_target:ork_waaagh_species
+				type = "ork_shoota_boyz"
+			}					
+		}
+		while = {
+			count = 6
+			create_army = {
+				name = "Orks"
+				owner = event_target:ork_waaagh_fleet
+				species = event_target:ork_waaagh_species
+				type = "grotz"
+			}					
+		}
+		while = {
+			count = 2
+			create_army = {
+				name = "Orks"
+				owner = event_target:ork_waaagh_fleet
+				species = event_target:ork_waaagh_species
+				type = "kommandoz"
+			}					
+		}
+		create_fleet = {
+			name = "Ork Waaagh Fleet"
+			effect = {
+				set_owner = event_target:ork_waaagh_fleet
+				create_ship = {
+					name = random
+					design = "NAME_Blade"
+					graphical_culture = "fungoid_01"
+				}
+				assign_leader = last_created_leader
+				while = {
+					count = 15
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 2
+					create_ship = {
+						name = random
+						design = "NAME_Spearhead"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 3
+					create_ship = {
+						name = random
+						design = "NAME_Deaths_Head"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 4
+					create_ship = {
+						name = random
+						design = "NAME_Bug_Crusher"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				while = {
+					count = 8
+					create_ship = {
+						name = random
+						design = "NAME_Blade"
+						graphical_culture = "fungoid_01"
+					}
+				}
+				set_location = {
+					target = ROOT
+					distance = 0
+					angle = random
+				}
+				set_aggro_range = 500
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+			}
+		}		
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+country_event = {
+	id = orks.5
+	hide_window = yes
+	
+	trigger = {
+		is_ai = no
+		has_global_flag = orks_attack 
+	}
+		
+	mean_time_to_happen = {
+		months = 20
+	}
+	
+	immediate = {
+		remove_global_flag = orks_attack 
+	}
+}

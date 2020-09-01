@@ -1,0 +1,2683 @@
+@activation_cost = 150
+@triumph_duration = 3600
+@triumph_duration_short = 1800
+@triumph_duration_veryshort = 900
+
+r_astartes_konor_pattern_power_sword_final = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Astartes_Konor_Pattern_Power_Sword_Final"
+	sound = "relic_activation_ast_astartes_konor_pattern_power_sword_final_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "astartes_konor_pattern_power_sword_final"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_axe_photos = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Axe_Photos"
+	sound = "relic_activation_ast_axe_photos_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "axe_photos"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_cypher_armor = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Cypher_Armor"
+	sound = "relic_activation_ast_cypher_armor_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "cypher_armor"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_cypher_attack_bike = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Cypher_Attack_Bike"
+	sound = "relic_activation_ast_cypher_attack_bike_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		country_engineering_tech_research_speed = 0.05
+	}
+	
+	score = 1500
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "cypher_attack_bike"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_cypher_scapular = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Cypher_Scapular"
+	sound = "relic_activation_ast_cypher_scapular_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "cypher_scapular"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_erasmus_pattern_plasmacannon_mki = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Erasmus_Pattern_PlasmaCannon_MKI"
+	sound = "relic_activation_ast_erasmus_pattern_plasmacannon_mki_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "erasmus_pattern_plasmacannon_mki"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_gilded_bolter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Gilded_Bolter"
+	sound = "relic_activation_ast_gilded_bolter_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "gilded_bolter"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_glaive_super_heavy_special_weapons_tank = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Glaive_Super_Heavy_Special_Weapons_Tank"
+	sound = "relic_activation_ast_glaive_super_heavy_special_weapons_tank_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		country_engineering_tech_research_speed = 0.05
+	}
+	
+	score = 1500
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "glaive_super_heavy_special_weapons_tank"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_hagen_pattern_narthecium = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Hagen_Pattern_Narthecium"
+	sound = "relic_activation_ast_hagen_pattern_narthecium_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "hagen_pattern_narthecium"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_relic_powerfist = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Relic_Powerfist"
+	sound = "relic_activation_ast_relic_powerfist_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "relic_powerfist"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_requiem_heavy_bolter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Requiem_Heavy_Bolter"
+	sound = "relic_activation_ast_requiem_heavy_bolter_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "requiem_heavy_bolter"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_sternguard_bolter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_AST_Sternguard_Bolter"
+	sound = "relic_activation_ast_sternguard_bolter_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = human_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "sternguard_bolter"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_human_country_flag"
+			has_country_flag = human_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_abaddons_grace = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Abaddons_Grace"
+	sound = "relic_activation_csm_abaddons_grace_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "abaddons_grace"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_apollo_pattern_plasma_gun = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Apollo_Pattern_Plasma_Gun"
+	sound = "relic_activation_csm_apollo_pattern_plasma_gun_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "apollo_pattern_plasma_gun"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_deathlock_cestus_powerfist_skin = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Deathlock_Cestus_Powerfist_Skin"
+	sound = "relic_activation_csm_deathlock_cestus_powerfist_skin_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "deathlock_cestus_powerfist_skin"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_fleshmetal_shell = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Fleshmetal_Shell"
+	sound = "relic_activation_csm_fleshmetal_shell_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "fleshmetal_shell"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_hell_breach_plasmacannon = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Hell_Breach_PlasmaCannon_2"
+	sound = "relic_activation_csm_hell_breach_plasmacannon_2_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "hell_breach_plasmacannon"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_hell_warbike = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Hell_Warbike"
+	sound = "relic_activation_csm_hell_warbike_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		country_engineering_tech_research_speed = 0.05
+	}
+	
+	score = 1500
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "hell_warbike"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_hellkiss_meltagun = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Hellkiss_Meltagun"
+	sound = "relic_activation_csm_hellkiss_meltagun_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "hellkiss_meltagun"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_maelstromcleaver = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_MaelstromCleaver"
+	sound = "relic_activation_csm_maelstromcleaver_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "maelstromcleaver"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_murder_sword = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Murder_Sword"
+	sound = "relic_activation_csm_murder_sword_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "murder_sword"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_rage_spitter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Rage_Spitter"
+	sound = "relic_activation_csm_rage_spitter_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "rage_spitter"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_shrieking_souls_armor = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Shrieking_Souls_Armor"
+	sound = "relic_activation_csm_shrieking_souls_armor_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "shrieking_souls_armor"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_widowmaker_bolter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_CSM_Widowmaker_Bolter"
+	sound = "relic_activation_csm_widowmaker_bolter_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = chaos_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "widowmaker_bolter"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_chaos_country_flag"
+			has_country_flag = chaos_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_fire_dragon_fusion_gun = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Fire_Dragon_Fusion_Gun"
+	sound = "relic_activation_eld_fire_dragon_fusion_gun_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "fire_dragon_fusion_gun"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_firesabre = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Firesabre"
+	sound = "relic_activation_eld_firesabre_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "firesabre"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_gatekeepers_bastion = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Gatekeepers_Bastion"
+	sound = "relic_activation_eld_gatekeepers_bastion_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "gatekeepers_bastion"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_gorhu_armor = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Gorhu_Armor"
+	sound = "relic_activation_eld_gorhu_armor_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "gorhu_armor"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_ice_hawk_cannon = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Ice_Hawk_Cannon"
+	sound = "relic_activation_eld_ice_hawk_cannon_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "ice_hawk_cannon"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_laelshanwitchblade = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_LaelshanWitchblade"
+	sound = "relic_activation_eld_laelshanwitchblade_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "laelshanwitchblade"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_last_runes_armor = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Last_Runes_Armor"
+	sound = "relic_activation_eld_last_runes_armor_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "last_runes_armor"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_maeldannan_diresword = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_MaelDannan_DireSword"
+	sound = "relic_activation_eld_maeldannan_diresword_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "maeldannan_diresword"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_swoopinghawk_lasblaster = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_SwoopingHawk_Lasblaster"
+	sound = "relic_activation_eld_swoopinghawk_lasblaster_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "swoopinghawk_lasblaster"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_torrent_reaper_launcher = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Torrent_Reaper_Launcher"
+	sound = "relic_activation_eld_torrent_reaper_launcher_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "torrent_reaper_launcher"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_vyper = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ELD_Vyper"
+	sound = "relic_activation_eld_vyper_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = eldar_empire
+		}
+		country_engineering_tech_research_speed = 0.05
+	}
+	
+	score = 1500
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "vyper"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_eldar_country_flag"
+			has_country_flag = eldar_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_boss_choppa = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Boss_Choppa"
+	sound = "relic_activation_ork_boss_choppa_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "boss_choppa"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_da_heart_stoppa = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Da_Heart_Stoppa"
+	sound = "relic_activation_ork_da_heart_stoppa_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "da_heart_stoppa"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_daneedleuvlif = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_DaNeedleUvLif"
+	sound = "relic_activation_ork_daneedleuvlif_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "daneedleuvlif"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_heresy_limited_edition_looted_umie_bolter = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_Ork_Heresy_Limited_Edition_Looted_Umie_Bolter"
+	sound = "relic_activation_ork_heresy_limited_edition_looted_umie_bolter_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "heresy_limited_edition_looted_umie_bolter"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_iron_sight_shoota = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Iron_Sight_Shoota"
+	sound = "relic_activation_ork_iron_sight_shoota_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "iron_sight_shoota"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_looted_power_armor = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Looted_Power_Armor"
+	sound = "relic_activation_ork_looted_power_armor_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "looted_power_armor"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_plasma_chompa = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Plasma_Chompa_02"
+	sound = "relic_activation_ork_plasma_chompa_02_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "plasma_chompa"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_powerrippa = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_PowerRippa"
+	sound = "relic_activation_ork_powerrippa_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "powerrippa"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_sparekeys_combishoota = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_SpareKeys_CombiShoota"
+	sound = "relic_activation_ork_sparekeys_combishoota_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "sparekeys_combishoota"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_splash_burna = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Splash_Burna"
+	sound = "relic_activation_ork_splash_burna_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_weapon_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "splash_burna"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_squig_armor = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Squig_Armor"
+	sound = "relic_activation_ork_squig_armor_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		category_armor_research_speed_mult = 0.05
+	}
+	
+	score = 1000
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "squig_armor"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}
+
+r_warbuggy = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_ORK_Warbuggy"
+	sound = "relic_activation_ork_warbuggy_trophy"
+	
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			has_country_flag = ork_empire
+		}
+		country_engineering_tech_research_speed = 0.05
+	}
+	
+	score = 1500
+	
+	active_effect = {
+		add_modifier = {
+			modifier = "warbuggy"
+			days = @triumph_duration
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+	
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ork_country_flag"
+			has_country_flag = ork_empire
+		}
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}

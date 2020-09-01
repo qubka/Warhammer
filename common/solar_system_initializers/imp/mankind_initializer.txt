@@ -31,6 +31,7 @@ mankind_homeworld = {
 			name = "Imperial Dock"
 			type = "mega_shipyard_ruined"
 			location = event_target:shipyard_location
+			graphical_culture = gothic_01
 		}
 	}
 	
@@ -89,9 +90,21 @@ mankind_homeworld = {
 			set_owner = event_target:the_mankind
 			set_controller = event_target:the_mankind
 			set_capital = yes
-
+			set_planet_flag = terra_planet
+			set_planet_flag = spacemarine_homeworld
+			
 			generate_start_pops = yes
 			prevent_anomaly = yes
+			
+			while = {
+				count = 30
+				create_army = {
+					name = "Legio Custodes"
+					owner = event_target:the_mankind
+					species = owner_main_species
+					type = "legio_custodes_defense"
+				}
+			}
 		}
 		
 		moon = {
@@ -141,6 +154,7 @@ mankind_homeworld = {
 
 			set_owner = event_target:the_mankind
 			set_controller = event_target:the_mankind
+			set_planet_flag = mars_planet
 			set_planet_flag = mechanicus_homeworld
 
 			generate_start_pops = yes
@@ -258,7 +272,7 @@ mankind_homeworld = {
 			
 			init_effect = {
 				every_country = {
-				limit = {
+					limit = {
 						has_country_flag = the_mankind
 					}
 					save_event_target_as = the_mankind
@@ -266,6 +280,7 @@ mankind_homeworld = {
 
 				set_owner = event_target:the_mankind
 				set_controller = event_target:the_mankind
+				set_planet_flag = titan_planet
 				set_planet_flag = spacemarine_homeworld
 
 				generate_start_pops = yes
