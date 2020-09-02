@@ -32,8 +32,6 @@ civic_senatorum_imperialis = {
 	modifier = {
 		country_admin_cap_mult = 3
 		country_naval_cap_mult = 1
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		starbases_upkeep_mult = -0.8
 		starbase_module_capacity_add = 10
 		country_leader_pool_size = 5
@@ -64,7 +62,6 @@ civic_machine_cult = {
 		pop_ethic_spiritualist_attraction_mult = 2
 		pop_ethic_materialist_attraction_mult = 3
 		pop_ethic_militarist_attraction_mult = 1
-		ship_armor_mult = 2
 		ship_science_alloys_cost_mult = -0.8
 		species_leader_exp_gain = 1.5
 		all_technology_research_speed = 0.5
@@ -164,9 +161,6 @@ civic_chivalric_traditions = {
 civic_i = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -174,9 +168,6 @@ civic_i = {
 civic_xiii = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -184,9 +175,6 @@ civic_xiii = {
 civic_ix = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -194,9 +182,6 @@ civic_ix = {
 civic_x = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -204,9 +189,6 @@ civic_x = {
 civic_vii = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -214,9 +196,6 @@ civic_vii = {
 civic_xviii = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -224,9 +203,6 @@ civic_xviii = {
 civic_xix = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -234,9 +210,6 @@ civic_xix = {
 civic_v = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -244,9 +217,6 @@ civic_v = {
 civic_vi = {
 	possible = { authority = { value = auth_imp } }
 	modifier = {
-		ship_armor_mult = 4
-		ship_base_speed_mult = -0.4
-		ship_evasion_mult = -0.5
 		pop_ethic_militarist_attraction_mult = 4
 	}
 }
@@ -259,9 +229,6 @@ civic_khorne_cult = {
 		army_damage_mult = 1.5
 		army_collateral_damage_mult = 1
 		all_technology_research_speed = -0.1
-		ship_weapon_range_mult = -0.5
-		ship_fire_rate_mult = 0.2
-		ship_disengage_chance_mult = -1
 		pop_ethic_militarist_attraction_mult = 9
 		pop_ethic_authoritarian_attraction_mult = 1
 	}
@@ -328,8 +295,6 @@ civic_chaos_undivided = {
 civic_iii = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		army_collateral_damage_mult = 0.5		
 	}
 }
@@ -337,8 +302,6 @@ civic_iii = {
 civic_iv = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		country_occupation_armies_add = 2		
 	}
 }
@@ -346,8 +309,6 @@ civic_iv = {
 civic_xv = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		country_base_sr_zro_produces_add = 3
 	}
 }
@@ -355,8 +316,6 @@ civic_xv = {
 civic_xiv = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		armies_upkeep_mult = -0.5
 	}	
 }
@@ -364,8 +323,6 @@ civic_xiv = {
 civic_xvii = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		army_attack_morale_mult = 0.6
 		army_defense_morale_mult = 0.6	
 		
@@ -375,8 +332,6 @@ civic_xvii = {
 civic_xii = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		army_attack_damage_mult = 0.5
 		army_attack_morale_mult = 0.5
 	
@@ -386,8 +341,6 @@ civic_xii = {
 civic_xvi = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		country_naval_cap_mult = 0.3
 	}
 }
@@ -395,8 +348,6 @@ civic_xvi = {
 civic_xx = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		ship_tracking_add = 0.1
 	}
 }
@@ -404,8 +355,6 @@ civic_xx = {
 civic_viii = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		planet_stability_add = 0.3
 	}
 }
@@ -413,8 +362,6 @@ civic_viii = {
 civic_chaos_corsairs = {
 	possible = { authority = { value = auth_chaos } }
 	modifier = {
-		ship_base_speed_mult = -0.2
-		ship_armor_mult = 2
 		country_border_friction_mult = 0.5
 		ship_base_speed_mult = 0.2
 	}
@@ -435,13 +382,6 @@ civic_extremly_secretive = {
 civic_terrible_depravity = {
 	possible = { authority = { value = auth_darkeldar } }
 	modifier = {
-		ship_evasion_mult = 1
-		ship_armor_mult = -0.4
-		ship_shield_mult = -1
-		ship_base_speed_mult = 2
-		ship_interstellar_speed_mult = 2
-		ship_emergency_ftl_mult = 0.5
-		ship_armor_regen_add_perc = 1
 		army_morale_damage_mult = 1
 		pop_ethic_authoritarian_attraction_mult = 4
 		pop_ethic_militarist_attraction_mult = 1.5		
@@ -517,13 +457,6 @@ civic_anarchy_terrorism = {
 civic_children_of_stars = {
 	possible = { authority = { value = auth_eldar } }
 	modifier = {
-		ship_evasion_mult = 1
-		ship_armor_mult = -0.4
-		ship_shield_mult = -1
-		ship_base_speed_mult = 2
-		ship_interstellar_speed_mult = 2
-		ship_emergency_ftl_mult = 0.5
-		ship_armor_regen_add_perc = 1
 		army_defense_morale_mult = 2
 		army_defense_health_mult = 1.5
 		pop_ethic_xenophobe_attraction_mult = 2
@@ -587,12 +520,8 @@ civic_reborn_followers = {
 civic_great_waaagh = {
 	possible = { authority = { value = auth_ork } }
 	modifier = {
-		ship_armor_mult = -0.5
-		ship_shield_mult = -0.5
-		ship_base_speed_mult = 0.5
-		ship_tracking_mult = -0.3
-		ship_fire_rate_mult = 0.3
 		country_border_friction_mult = 1.5
+		country_war_exhaustion_mult = -0.35
 	}
 }
 
@@ -696,9 +625,8 @@ civic_high_education = {
 civic_greater_good = {
 	possible = { authority = { value = auth_tau } }
 	modifier = {
-		ship_shield_mult = 2
-		ship_armor_mult = -0.2
-		ship_weapon_range_mult = 0.6
+		pop_ethic_fanatic_pacifist_attraction_mult = 2
+		pop_ethic_xenophile_attraction_mult = 1.5
 	}
 }
 
@@ -707,12 +635,8 @@ civic_greater_good = {
 civic_hive_fleet  = {
 	possible = { authority = { value = auth_hive_mind } }
 	modifier = {
-		ship_shield_mult = -1
-		ship_armor_mult = -0.5
-		ship_base_speed_mult = 0.2
-		ship_evasion_mult = 0.4
-		ship_hull_regen_add_perc = 5
-		ship_armor_regen_add_perc = 10
+		scountry_border_friction_mult = 4
+		country_war_exhaustion_mult = -0.9
 	}
 }
 
@@ -721,11 +645,6 @@ civic_hive_fleet  = {
 civic_advanced_necron_warships  = {
 	possible = { authority = { value = auth_machine_intelligence } }
 	modifier = {
-		ship_armor_mult = 3
-		ship_shield_mult = 3
-		ship_hull_mult = 2
-		ship_weapon_damage = 1
-		ship_tracking_add = 20
 		country_naval_cap_mult = 0.5
 		country_command_limit_mult = 0.75
 		army_damage_mult = 0.2
