@@ -1146,5 +1146,212 @@ trait_living_metal_chasis = {
 #Ogryn Traits (Abhuman species)
 
 #trait_very_strong, line 271
-#trait_nerve_stapled, line 616
-	
+
+trait_stupidly_loyal = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_intelligent" "trait_erudite" "trait_natural_engineers" "trait_natural_physicists" "trait_natural_sociologists" "trait_communal" "trait_solitary" "trait_talented" }
+	forced_happiness = yes
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+		leader_skill_levels = -2
+	}
+	custom_tooltip = TRAIT_NERVE_STAPLED_EFFECT
+	slave_cost = {
+		energy = 250
+	}
+}
+
+#Ratiling Traits (Abhuman species)
+
+trait_featherweight = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.10
+		planet_jobs_worker_produces_mult = -0.025
+	}
+	slave_cost = {
+		energy = -50
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_gregarious = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_solitary" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		pop_housing_usage_mult = -0.3
+	}
+}
+
+trait_hedonists = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_slow_breeders" "trait_fertile" "trait_rapid_breeders_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed = 0.20
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+trait_waywards = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_conservational" "trait_hive_mind" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_pops_consumer_goods_upkeep_mult = 0.20
+	}
+}
+
+#Gretching Traits (Ork subespecies) 
+
+trait_weak_cowards = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.4
+		planet_jobs_worker_produces_mult = -0.1
+	}
+	slave_cost = {
+		energy = -250
+	}
+}
+
+#trait_internal_disputes, line 930
+
+trait_born_mechanics = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+#Snotling Traits (enslaved Ork subespecies)
+
+trait_weakest_cowards = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.6
+		planet_jobs_worker_produces_mult = -0.3
+	}
+	slave_cost = {
+		energy = -400
+	}
+}
+
+#trait_internal_disputes, line 930
+
+trait_livestock_and_live_ammunition = {
+	cost = 0
+	opposites = { "trait_intelligent" "trait_erudite" "trait_natural_engineers" "trait_natural_physicists" "trait_natural_sociologists" }
+	forced_happiness = yes
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
+	modifier = {
+		pop_growth_speed = 0.3
+		planet_livestock_food_produces_add = 2
+		planet_jobs_energy_produces_mult = -0.5
+		planet_jobs_physics_research_produces_mult = -0.75
+		planet_jobs_engineering_research_produces_mult = -0.75
+		planet_jobs_society_research_produces_mult = -0.75
+	}
+}
+
+#Kroot Traits (TAU empire citizens)
+
+#trait_strong, line 285
+
+trait_genetic_asimilation = { 
+	cost = 0
+	potential_crossbreeding_chance = 0.33
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		pop_environment_tolerance = 0.25
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+#trait_repugnant, line 378
+
+trait_unicivilized = {
+	cost = 2
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = -0.8
+		planet_jobs_physics_research_produces_mult = -0.8
+		planet_jobs_society_research_produces_mult = -0.8
+	}
+}
+
+#Tyrannids TRAITS
+
+trait_genstealer = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_nonadaptive" "trait_adaptive" "trait_extremely_adaptive" "trait_adaptive_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_environment_tolerance = 0.40
+		planet_jobs_produces_mult = 0.05
+	}
+	}
+}
+
+trait_recycled_biomass = {
+	cost = 4
+	potential_crossbreeding_chance = 0.5
+	initial = no
+	randomized = no
+	advanced_trait = yes
+	opposites = { "trait_slow_breeders" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed = 0.5
+		pop_housing_usage_mult = -0.25
+	}
+	}
+}
+
+trait_short_lived = {
+	cost = -1
+	potential_crossbreeding_chance = 1.0
+	modifier = { leader_age = -15 }
+	opposites = { "trait_venerable" "trait_enduring" "trait_fleeting_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_berserk_wwhile_unlinked = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	unemployment_resources_energy_upkeep_add = 1
+	}
+}
