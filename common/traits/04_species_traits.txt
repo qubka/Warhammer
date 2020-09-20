@@ -885,3 +885,556 @@ trait_void_dweller_2 = {
 		weight = 0
 	}
 }
+
+
+#HERE START MODDED TRAITS
+#Human Traits
+
+trait_hive_cities_dwellers = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_solitary" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		pop_housing_usage_mult = -0.25
+		pop_environment_tolerance = 0.05
+		slave_cost = {
+		energy = 10
+	}
+}
+
+trait_age_of_strife_wariness = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_researchers_produces_mult = -0.2	
+	}
+}
+
+#Chaos Traits
+
+trait_bloodlust = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_weak" "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = 0.25
+	}
+	slave_cost = {
+		energy = 50
+	}
+}
+
+trait_internal_disputes = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_docile" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		species_empire_size_mult = 0.15
+	}
+}
+
+trait_slavists = {
+	cost = -1
+	potential_crossbreeding_chance = 1.0
+
+	opposites = { "trait_hive_mind" }
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		pop_cat_worker_happiness = -0.1
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#Eldar traits
+
+trait_ancient_psykers = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	initial = no
+	randomized = no
+	improves_leaders = yes
+	importal_leaders = yes
+	advanced_trait = yes
+	opposites = { "trait_nerve_stapled" "trait_intelligent" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_researchers_produces_mult = 0.25
+		leader_skill_levels = 2
+		
+	}
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_ecologist = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_adaptive" "trait_extremely_adaptive" "trait_robust" "trait_adaptive_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_environment_tolerance = -0.15
+	}
+	slave_cost = {
+		energy = -50
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_very_slow_breeders = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_rapid_breeders" "trait_fertile" "trait_rapid_breeders_lithoid" "trait_slow_breeders"}
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed = -0.30
+	}
+	slave_cost = {
+		energy = -100
+	}
+}
+
+#Dark Eldar traits
+#trait_ancient_psykers, line 958
+#trait_very_slow_breeders, line 993
+#trait_slavists, line 940
+
+
+#Ork Traits
+
+trait_spore_reproduction = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	initial = no
+	randomized = no
+	advanced_trait = yes
+	opposites = { "trait_slow_breeders" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed = 0.6
+	}
+	slave_cost = {
+		energy = 150
+	}
+}
+
+#trait_bloodlust, line 917
+
+trait_simple_minded = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_researchers_produces_mult = -0.3	
+	}
+	slave_cost = {
+		energy = -100
+	}
+}
+
+#trait_internal_disputes, line 930
+
+#TAU Traits
+
+trait_meritocracy = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	improves_leaders = yes
+	advanced_trait = yes
+	opposites = { "trait_nerve_stapled" "trait_intelligent" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_researchers_produces_mult = 0.15
+		leader_skill_levels = 1
+	}
+	slave_cost = {
+		energy = 200
+	}
+}
+
+trait_the_greater_good = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	modifier = { pop_government_ethic_attraction = 0.50 }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	opposites = { "trait_deviants" "trait_hive_mind" "trait_machine_unit" }
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_consumer_society = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_conservational" "trait_hive_mind" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_pops_consumer_goods_upkeep_mult = 0.15
+	}
+	ai_weight = {
+		weight = 0	
+	}
+	slave_cost = {
+		energy = -50
+	}
+}
+
+trait_caste_system = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	modifier = { pop_amenities_usage_mult = 0.15 }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	opposites = { "trait_deviants" "trait_hive_mind" "trait_machine_unit" }
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#Necron Traits
+
+trait_stapled_emotions = {
+	cost = 0
+	opposites = { "trait_robot_high_bandwidth" }
+	allowed_archetypes = { ROBOT MACHINE }
+	modifier = {
+		species_empire_size_mult = -0.15
+	}
+}
+
+trait_ancient_dominators = {
+	cost = 0
+	allowed_archetypes = { ROBOT MACHINE }
+	modifier = {
+		leader_skill_levels = 3
+	}
+	ai_weight = {
+		factor = 0
+	}
+}
+
+trait_clipped_to_the _past = {
+	cost = 0
+	opposites = { "trait_robot_learning_algorithms" }
+	allowed_archetypes = { ROBOT MACHINE }
+	modifier = {
+		species_leader_exp_gain = -0.35
+	}
+}
+
+trait_living_metal_chasis = {
+	cost = 0
+	opposites = { "trait_robot_recycled" }
+
+	allowed_archetypes = { ROBOT MACHINE }
+
+	#assembling_modifier, declining_modifier, growing_modifier are applied to planet when pop is the one assembling/declining/growing
+	assembling_modifier = {
+		planet_pop_assemblers_upkeep_mult = 0.30
+	}
+}
+
+#Ogryn Traits (Abhuman species)
+
+#trait_very_strong, line 271
+
+trait_stupidly_loyal = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_intelligent" "trait_erudite" "trait_natural_engineers" "trait_natural_physicists" "trait_natural_sociologists" "trait_communal" "trait_solitary" "trait_talented" }
+	forced_happiness = yes
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+		leader_skill_levels = -2
+	}
+	custom_tooltip = TRAIT_NERVE_STAPLED_EFFECT
+	slave_cost = {
+		energy = 250
+	}
+}
+
+#Ratiling Traits (Abhuman species)
+
+trait_featherweight = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.10
+		planet_jobs_worker_produces_mult = -0.025
+	}
+	slave_cost = {
+		energy = -50
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_gregarious = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_solitary" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		pop_housing_usage_mult = -0.3
+	}
+}
+
+trait_hedonists = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_slow_breeders" "trait_fertile" "trait_rapid_breeders_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed = 0.20
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+trait_waywards = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_conservational" "trait_hive_mind" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_pops_consumer_goods_upkeep_mult = 0.20
+	}
+}
+
+#Gretching Traits (Ork subespecies) 
+
+trait_weak_cowards = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.4
+		planet_jobs_worker_produces_mult = -0.1
+	}
+	slave_cost = {
+		energy = -250
+	}
+}
+
+#trait_internal_disputes, line 930
+
+trait_born_mechanics = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+#Snotling Traits (enslaved Ork subespecies)
+
+trait_weakest_cowards = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.6
+		planet_jobs_worker_produces_mult = -0.3
+	}
+	slave_cost = {
+		energy = -400
+	}
+}
+
+#trait_internal_disputes, line 930
+
+trait_livestock_and_live_ammunition = {
+	cost = 0
+	opposites = { "trait_intelligent" "trait_erudite" "trait_natural_engineers" "trait_natural_physicists" "trait_natural_sociologists" }
+	forced_happiness = yes
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
+	modifier = {
+		pop_growth_speed = 0.3
+		planet_livestock_food_produces_add = 2
+		planet_jobs_energy_produces_mult = -0.5
+		planet_jobs_physics_research_produces_mult = -0.75
+		planet_jobs_engineering_research_produces_mult = -0.75
+		planet_jobs_society_research_produces_mult = -0.75
+	}
+}
+
+#Kroot Traits (TAU empire citizens)
+
+#trait_strong, line 285
+
+trait_genetic_asimilation = { 
+	cost = 0
+	potential_crossbreeding_chance = 0.33
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		pop_environment_tolerance = 0.25
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+#trait_repugnant, line 378
+
+trait_unicivilized = {
+	cost = 2
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = -0.8
+		planet_jobs_physics_research_produces_mult = -0.8
+		planet_jobs_society_research_produces_mult = -0.8
+	}
+}
+
+#Tyrannids TRAITS
+
+trait_genstealer = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_nonadaptive" "trait_adaptive" "trait_extremely_adaptive" "trait_adaptive_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_environment_tolerance = 0.40
+		planet_jobs_produces_mult = 0.05
+	}
+	}
+}
+
+trait_recycled_biomass = {
+	cost = 4
+	potential_crossbreeding_chance = 0.5
+	initial = no
+	randomized = no
+	advanced_trait = yes
+	opposites = { "trait_slow_breeders" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed = 0.5
+		pop_housing_usage_mult = -0.25
+	}
+	}
+}
+
+trait_short_lived = {
+	cost = -1
+	potential_crossbreeding_chance = 1.0
+	modifier = { leader_age = -15 }
+	opposites = { "trait_venerable" "trait_enduring" "trait_fleeting_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	ai_weight = {
+		weight = 0
+	}
+}
+
+trait_berserk_wwhile_unlinked = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	unemployment_resources_energy_upkeep_add = 1
+	}
+}
+
+#Dark Eldar Slaves Random Traits list
+
+trait_hopes_neutered = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_solitary" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		pop_housing_usage_mult = -0.3
+		species_empire_size_mult = -0.10
+	}
+}
+
+trait_subdued = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_intelligent" "trait_erudite" "trait_natural_engineers" "trait_natural_physicists" "trait_natural_sociologists" "trait_communal" "trait_solitary" "trait_talented" }
+	forced_happiness = yes
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+	custom_tooltip = TRAIT_NERVE_STAPLED_EFFECT
+	slave_cost = {
+		energy = 250
+	}
+}
+
+trait_bioengineered_warbeast = {
+	cost = 1
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_defense_damage_mult = 0.5
+	}
+}
+
+trait_pain_nerves_bolsted = {
+	cost = 2
+	potential_crossbreeding_chance = 1.0
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.15
+	}
+}
+
+trait_timeless_agony = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_adaptive" "trait_extremely_adaptive" "trait_robust" "trait_adaptive_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_environment_tolerance = -0.3
+	}
+	slave_cost = {
+		energy = -250
+	}
+}
+
+trait_failed_experimentation = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.20
+		planet_jobs_worker_produces_mult = -0.025
+	}
+	slave_cost = {
+		energy = -50
+	}
+}
+
+trait_organic_malfunctions = {
+	cost = -1
+	potential_crossbreeding_chance = 1.0
+	modifier = { leader_age = -30 }
+	opposites = { "trait_venerable" "trait_enduring" "trait_fleeting_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	ai_weight = {
+		weight = 0
+	}
+}
