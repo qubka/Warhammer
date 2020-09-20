@@ -1355,3 +1355,86 @@ trait_berserk_wwhile_unlinked = {
 	unemployment_resources_energy_upkeep_add = 1
 	}
 }
+
+#Dark Eldar Slaves Random Traits list
+
+trait_hopes_neutered = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_solitary" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		pop_housing_usage_mult = -0.3
+		species_empire_size_mult = -0.10
+	}
+}
+
+trait_subdued = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_intelligent" "trait_erudite" "trait_natural_engineers" "trait_natural_physicists" "trait_natural_sociologists" "trait_communal" "trait_solitary" "trait_talented" }
+	forced_happiness = yes
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+	custom_tooltip = TRAIT_NERVE_STAPLED_EFFECT
+	slave_cost = {
+		energy = 250
+	}
+}
+
+trait_bioengineered_warbeast = {
+	cost = 1
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_defense_damage_mult = 0.5
+	}
+}
+
+trait_pain_nerves_bolsted = {
+	cost = 2
+	potential_crossbreeding_chance = 1.0
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.15
+	}
+}
+
+trait_timeless_agony = {
+	cost = 0
+	potential_crossbreeding_chance = 0.5
+	opposites = { "trait_adaptive" "trait_extremely_adaptive" "trait_robust" "trait_adaptive_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_environment_tolerance = -0.3
+	}
+	slave_cost = {
+		energy = -250
+	}
+}
+
+trait_failed_experimentation = {
+	cost = 0
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_strong" "trait_very_strong" }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	modifier = {
+		army_damage_mult = -0.20
+		planet_jobs_worker_produces_mult = -0.025
+	}
+	slave_cost = {
+		energy = -50
+	}
+}
+
+trait_organic_malfunctions = {
+	cost = -1
+	potential_crossbreeding_chance = 1.0
+	modifier = { leader_age = -30 }
+	opposites = { "trait_venerable" "trait_enduring" "trait_fleeting_lithoid" }
+	allowed_archetypes = { BIOLOGICAL }
+	ai_weight = {
+		weight = 0
+	}
+}
