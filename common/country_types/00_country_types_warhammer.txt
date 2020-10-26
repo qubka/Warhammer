@@ -83,6 +83,1842 @@
 #	}
 #}
 
+human = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+			scouts_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			dreadnought= {
+				fraction = {
+					factor = 15
+				}
+			}
+			venerable_dreadnought= {
+				fraction = {
+					factor = 15
+				}
+			}
+			landraider= {
+				fraction = {
+					factor = 15
+				}
+			}
+			razorback= {
+				fraction = {
+					factor = 15
+				}
+			}
+			predator= {
+				fraction = {
+					factor = 15
+				}
+			}
+			terminator= {
+				fraction = {
+					factor = 15
+				}
+			}
+			librarian= {
+				fraction = {
+					factor = 15
+				}
+			}
+			apothecary= {
+				fraction = {
+					factor = 15
+				}
+			}
+			techmarines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			tactical_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			assault_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			inceptor_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			devastator_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			hellblaster_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			suppressor_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			reiver_space_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			sentinel= {
+				fraction = {
+					factor = 15
+				}
+			}
+			manticore= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chimera= {
+				fraction = {
+					factor = 15
+				}
+			}
+			banewolf= {
+				fraction = {
+					factor = 15
+				}
+			}
+			baneblade= {
+				fraction = {
+					factor = 15
+				}
+			}
+			leman_russ= {
+				fraction = {
+					factor = 15
+				}
+			}
+			ogryn_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			imperial_guard_big= {
+				fraction = {
+					factor = 15
+				}
+			}
+			imperial_guard_medium= {
+				fraction = {
+					factor = 15
+				}
+			}
+			imperial_guard_small= {
+				fraction = {
+					factor = 15
+				}
+			}
+			death_korps= {
+				fraction = {
+					factor = 15
+				}
+			}
+			conscripts= {
+				fraction = {
+					factor = 15
+				}
+			}
+			heavy_weapon_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			stormtroopers= {
+				fraction = {
+					factor = 15
+				}
+			}
+			grenadiers= {
+				fraction = {
+					factor = 15
+				}
+			}
+			vindicare_assassin= {
+				fraction = {
+					factor = 15
+				}
+			}
+			penal_legion= {
+				fraction = {
+					factor = 15
+				}
+			}
+			skitarii= {
+				fraction = {
+					factor = 15
+				}
+			}
+			dark_angels= {
+				fraction = {
+					factor = 15
+				}
+			}
+			white_scars= {
+				fraction = {
+					factor = 15
+				}
+			}
+			space_wolves= {
+				fraction = {
+					factor = 15
+				}
+			}
+			imperial_fists= {
+				fraction = {
+					factor = 15
+				}
+			}
+			blood_angels= {
+				fraction = {
+					factor = 15
+				}
+			}
+			iron_hands = {
+				fraction = {
+					factor = 15
+				}
+			}
+			ultramarines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			salamanders= {
+				fraction = {
+					factor = 15
+				}
+			}
+			raven_guard= {
+				fraction = {
+					factor = 15
+				}
+			}
+			grey_knights= {
+				fraction = {
+					factor = 15
+				}
+			}
+			black_templars= {
+				fraction = {
+					factor = 15
+				}
+			}
+			blood_ravens= {
+				fraction = {
+					factor = 15
+				}
+			}
+			legio_custodes= {
+				fraction = {
+					factor = 15
+				}
+			}
+			deathwatch= {
+				fraction = {
+					factor = 15
+				}
+			}
+			sisters_of_battle= {
+				fraction = {
+					factor = 15
+				}
+			}
+			catachan_fighters= {
+				fraction = {
+					factor = 15
+				}
+			}
+			cadian_shock_troops= {
+				fraction = {
+					factor = 15
+				}
+			}
+			armageddon_steel_legion= {
+				fraction = {
+					factor = 15
+				}
+			}
+			death_korps_of_krieg= {
+				fraction = {
+					factor = 15
+				}
+			}
+			mordian_iron_guard= {
+				fraction = {
+					factor = 15
+				}
+			}
+			scintillan_fusiliers= {
+				fraction = {
+					factor = 15
+				}
+			}
+			praetorian_guard= {
+				fraction = {
+					factor = 15
+				}
+			}
+			valhallan_ice_warriors= {
+				fraction = {
+					factor = 15
+				}
+			}
+			tallarn_desert_raiders= {
+				fraction = {
+					factor = 15
+				}
+			}
+			vostroyan_firstborn= {
+				fraction = {
+					factor = 15
+				}
+			}
+			elysian_drop_troops= {
+				fraction = {
+					factor = 15
+				}
+			}
+			imperial_knight= {
+				fraction = {
+					factor = 15
+				}
+			}
+			warhound_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+			reaver_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+			warlord_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+			emperor_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+			minerals = 200
+			gene_seed = 10
+		}
+	}
+}
+
+chaos = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+			cultists= {
+				fraction = {
+					factor = 15
+				}
+			}
+			plague_zombies= {
+				fraction = {
+					factor = 15
+				}
+			}
+			bloodcrusher= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_spawn= {
+				fraction = {
+					factor = 15
+				}
+			}
+			defilers= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_dreadnaught= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_predator= {
+				fraction = {
+					factor = 15
+				}
+			}
+			bloodletters= {
+				fraction = {
+					factor = 15
+				}
+			}
+			nurglings= {
+				fraction = {
+					factor = 15
+				}
+			}
+			havocs= {
+				fraction = {
+					factor = 15
+				}
+			}
+			noise_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			plague_marines= {
+				fraction = {
+					factor = 15
+				}
+			}
+			great_unclear_one= {
+				fraction = {
+					factor = 15
+				}
+			}
+			emperors_children= {
+				fraction = {
+					factor = 15
+				}
+			}
+			iron_warriors= {
+				fraction = {
+					factor = 15
+				}
+			}
+			night_lords= {
+				fraction = {
+					factor = 15
+				}
+			}
+			world_eaters= {
+				fraction = {
+					factor = 15
+				}
+			}
+			death_guard= {
+				fraction = {
+					factor = 15
+				}
+			}
+			thousand_sons= {
+				fraction = {
+					factor = 15
+				}
+			}
+			black_legion= {
+				fraction = {
+					factor = 15
+				}
+			}
+			word_bearers= {
+				fraction = {
+					factor = 15
+				}
+			}
+			alpha_legion= {
+				fraction = {
+					factor = 15
+				}
+			}
+			red_corsairs= {
+				fraction = {
+					factor = 15
+				}
+			}
+			sons_of_malice= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_imperial_knight= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_warhound_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_reaver_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_warlord_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+			chaos_emperor_titan= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+			gods_favor = 25
+			gene_seed = 5
+		}
+	}
+}
+
+necron = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+			attack_scarabs= {
+				fraction = {
+					factor = 15
+				}
+			}
+			lychguard= {
+				fraction = {
+					factor = 15
+				}
+			}
+			necron_warriors= {
+				fraction = {
+					factor = 15
+				}
+			}
+			destroyer= {
+				fraction = {
+					factor = 15
+				}
+			}
+			pariahs= {
+				fraction = {
+					factor = 15
+				}
+			}
+			immortal= {
+				fraction = {
+					factor = 15
+				}
+			}
+			wraith= {
+				fraction = {
+					factor = 15
+				}
+			}
+			flayed_ones= {
+				fraction = {
+					factor = 15
+				}
+			}
+			monolith= {
+				fraction = {
+					factor = 15
+				}
+			}
+			deceiver= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+		}
+	}
+}
+
+tau = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+			fire_warriors= {
+				fraction = {
+					factor = 15
+				}
+			}
+			guevesa= {
+				fraction = {
+					factor = 15
+				}
+			}
+			demiurg= {
+				fraction = {
+					factor = 15
+				}
+			}
+			vespid= {
+				fraction = {
+					factor = 15
+				}
+			}
+			kroot= {
+				fraction = {
+					factor = 15
+				}
+			}
+			xv8_crisis_battlesuits= {
+				fraction = {
+					factor = 15
+				}
+			}
+			xv25_stealthsuit= {
+				fraction = {
+					factor = 15
+				}
+			}
+			xv88_broadside_battlesuit= {
+				fraction = {
+					factor = 15
+				}
+			}
+			xv104_riptide_battlesuit= {
+				fraction = {
+					factor = 15
+				}
+			}
+			hammerhead_gunship= {
+				fraction = {
+					factor = 15
+				}
+			}
+			kv128_stormsurge= {
+				fraction = {
+					factor = 15
+				}
+			}
+			kx139_taunar_supremacy_suit= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+		}
+	}
+}
+
+eldar = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+			wraithguard= {
+				fraction = {
+					factor = 15
+				}
+			}
+			wraithlord= {
+				fraction = {
+					factor = 15
+				}
+			}
+			wraithknight= {
+				fraction = {
+					factor = 15
+				}
+			}
+			avatar= {
+				fraction = {
+					factor = 15
+				}
+			}
+			cobra= {
+				fraction = {
+					factor = 15
+				}
+			}
+			falcon= {
+				fraction = {
+					factor = 15
+				}
+			}
+			warp_spiders= {
+				fraction = {
+					factor = 15
+				}
+			}
+			guardian_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			ranger_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			howling_banshee= {
+				fraction = {
+					factor = 15
+				}
+			}
+			warlock= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+		}
+	}
+}
+
+darkeldar = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+						wyches= {
+				fraction = {
+					factor = 15
+				}
+			}
+			kabalite_warriors= {
+				fraction = {
+					factor = 15
+				}
+			}
+			warp_beast_pack= {
+				fraction = {
+					factor = 15
+				}
+			}
+			hellion_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			scourge_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			mandrake_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			reaver_jetbike= {
+				fraction = {
+					factor = 15
+				}
+			}
+			raven= {
+				fraction = {
+					factor = 15
+				}
+			}
+			talos= {
+				fraction = {
+					factor = 15
+				}
+			}
+			ravager= {
+				fraction = {
+					factor = 15
+				}
+			}
+			dais= {
+				fraction = {
+					factor = 15
+				}
+			}
+			haemonculus= {
+				fraction = {
+					factor = 15
+				}
+			}
+			incubi= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+			slaves = 5
+		}
+	}
+}
+
+ork = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	pop_growth = yes
+	playable = yes
+	has_pulse_events = yes
+	piracy_risk = yes
+	randomize_ethos = yes
+	shuffle_pop_ethos = yes
+	needs_survey = yes
+	diplomatic_wars = yes
+	ship_disengagement = yes
+	army_disengagement = yes
+	relations = yes
+	observable = yes
+	can_use_invalid_technology = no
+	can_receive_envoys = yes
+
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		min_assault_armies_for_wars = 6
+		colonizer = yes
+		internal_policies = yes
+		modification = yes
+		government = yes
+		traditions = yes
+		construction = yes
+		follow = yes
+		can_use_market = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+
+		ship_data = {
+			constructor = {
+				min = 3
+				max = 3
+			}
+
+			science	= {
+				min = 3
+				max = 3
+			}
+
+			colonizer = {
+				min = 1
+				max = 1
+			}
+
+			colossus = {
+				min = 1
+				max = 1
+			}
+
+			titan = {
+				min = 1
+				max = 2
+			}
+
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -15
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_battleships
+					}
+				}
+			}
+
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_destroyers
+					}
+					modifier = {
+						add = -45
+						has_technology = tech_cruisers
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_battleships
+					}
+				}
+			}
+		}
+
+		army_data = {
+			ork_nobz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			storm_boyz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			tankbustas= {
+				fraction = {
+					factor = 15
+				}
+			}
+			ork_shoota_boyz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			ork_slugga_boyz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			mek_boyz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			grotz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			lootas= {
+				fraction = {
+					factor = 15
+				}
+			}
+			stikkbommaz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			weird_boyz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			kommando_squad= {
+				fraction = {
+					factor = 15
+				}
+			}
+			kommandoz= {
+				fraction = {
+					factor = 15
+				}
+			}
+			wartrukk= {
+				fraction = {
+					factor = 15
+				}
+			}
+			battlewagon= {
+				fraction = {
+					factor = 15
+				}
+			}
+			deff_dread= {
+				fraction = {
+					factor = 15
+				}
+			}
+			looted_tank= {
+				fraction = {
+					factor = 15
+				}
+			}
+			stompa= {
+				fraction = {
+					factor = 15
+				}
+			}
+			gargant= {
+				fraction = {
+					factor = 15
+				}
+			}
+		}
+	}
+
+	trade_routes_available = {
+		is_gestalt = no
+	}
+
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_trade_routes_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+		standard_species_rights_module = {}
+	}
+
+	resources = {
+		category = country_base
+		produces = {
+		}
+	}
+}
+
 tyranid = {
 	has_difficulty_bonuses = yes
 	counts_for_victory = yes
@@ -308,10 +2144,9 @@ tyranid = {
 		standard_species_rights_module = {}
 	}
 
-	#resources = {
-	#	category = country_base
-	#	produces = {
-	#		energy = 20
-	#	}
-	#}
+	resources = {
+		category = country_base
+		produces = {
+		}
+	}
 }

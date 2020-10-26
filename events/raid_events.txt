@@ -128,7 +128,7 @@ planet_event = {
 			}					
 		}
 		create_leader = {
-			type = admiral
+			class = admiral
 			species = event_target:dark_raid_species
 			name = random
 			skill = 5000
