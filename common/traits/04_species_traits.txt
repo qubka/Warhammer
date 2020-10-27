@@ -898,7 +898,8 @@ trait_hive_cities_dwellers = {
 	modifier = {
 		pop_housing_usage_mult = -0.25
 		pop_environment_tolerance = 0.05
-		slave_cost = {
+	}
+	slave_cost = {
 		energy = 10
 	}
 }
