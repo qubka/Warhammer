@@ -557,7 +557,10 @@ human = {
 	resources = {
 		category = country_base
 		produces = {
-			minerals = 200
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
 			gene_seed = 10
 		}
 	}
@@ -852,6 +855,10 @@ chaos = {
 	resources = {
 		category = country_base
 		produces = {
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
 			gods_favor = 25
 			gene_seed = 5
 		}
@@ -1260,6 +1267,10 @@ tau = {
 	resources = {
 		category = country_base
 		produces = {
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
 		}
 	}
 }
@@ -1463,6 +1474,10 @@ eldar = {
 	resources = {
 		category = country_base
 		produces = {
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
 		}
 	}
 }
@@ -1676,7 +1691,11 @@ darkeldar = {
 	resources = {
 		category = country_base
 		produces = {
-			slaves = 5
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
+			slaves = 10
 		}
 	}
 }
@@ -1915,6 +1934,10 @@ ork = {
 	resources = {
 		category = country_base
 		produces = {
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
 		}
 	}
 }
@@ -2147,6 +2170,10 @@ tyranid = {
 	resources = {
 		category = country_base
 		produces = {
+			energy = 200
+			minerals = 150
+			alloys = 100
+			food = 50
 		}
 	}
 }
