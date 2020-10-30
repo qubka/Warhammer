@@ -1029,7 +1029,10 @@ building_censorium = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	planet_modifier = {
@@ -1080,7 +1083,10 @@ building_arbitratorum = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1129,7 +1135,10 @@ building_chapel = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	upgrades = {
@@ -1194,7 +1203,10 @@ building_cathedral = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	planet_modifier = {
@@ -1252,7 +1264,10 @@ building_confession_machine = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	upgrades = {
@@ -1314,7 +1329,10 @@ building_confessorum = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	country_modifier = {
@@ -1370,7 +1388,10 @@ building_execution_site = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1458,7 +1479,8 @@ building_generatorum = {
 		}
 		produces = {
 			trigger = {
-				exists = owner
+				exists = owner
+
 				owner = { NOT = { has_deficit = promethium } }
 				planet = { has_modifier = planet_burn_promethium }
 			}
@@ -1514,7 +1536,10 @@ building_plasma_generatorum = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	prerequisites = { "tech_power_gen" }
@@ -1589,7 +1614,10 @@ building_cellarion = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	planet_modifier = {
@@ -1654,7 +1682,10 @@ building_penance_station = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1691,7 +1722,10 @@ building_propaganda_post = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1737,7 +1771,10 @@ building_residence = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	planet_modifier = {
@@ -1793,7 +1830,10 @@ building_ventilation_shaft = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1830,7 +1870,10 @@ building_street_clock = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1867,7 +1910,10 @@ building_triumphal_arch = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {
@@ -1913,7 +1959,10 @@ building_saint_statue = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	prerequisites = { "tech_imperium_statues" }
@@ -1952,7 +2001,10 @@ building_grim_reaper_statue = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	prerequisites = { "tech_imperium_statues" }
@@ -1994,7 +2046,10 @@ building_angel_statue = {
 	prerequisites = { "tech_imperium_statues" }
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	country_modifier = {
@@ -2031,7 +2086,10 @@ building_legionary_statue = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	prerequisites = { "tech_imperium_statues" }
@@ -2071,7 +2129,10 @@ building_memorial_bundle = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	prerequisites = { "tech_imperium_statues" }
@@ -2110,7 +2171,10 @@ building_water_towers = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	upgrades = {
@@ -2150,7 +2214,10 @@ building_fountain = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	upgrades = {
@@ -2191,7 +2258,10 @@ building_grand_fountain = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 	
 	upgrades = {
@@ -2233,7 +2303,10 @@ building_fountain_of_saints = {
 	}
 	
 	allow = {
-		has_upgraded_capital = yes
+		OR = {
+			has_building = building_administratum
+			has_building = building_strong_hold
+		}
 	}
 
 	planet_modifier = {

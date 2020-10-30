@@ -15,6 +15,14 @@ diplomatic_stance = {
 	potential = {
 		OR = {
 			is_country_type = default
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
 			is_country_type = fallen_empire
 			is_country_type = awakened_fallen_empire
 			is_country_type = primitive
@@ -33,6 +41,14 @@ diplomatic_stance = {
 		potential = {
 			OR = {
 				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
 				is_country_type = awakened_fallen_empire
 			}
 
@@ -141,6 +157,14 @@ diplomatic_stance = {
 		potential = {
 			OR = {
 				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
 				is_country_type = awakened_fallen_empire
 			}
 			is_unfriendly = no # Not homicidal or barbaric despoilers
@@ -237,6 +261,14 @@ diplomatic_stance = {
 		potential = {
 			OR = {
 				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
 				is_country_type = awakened_fallen_empire
 			}
 			is_homicidal = no # Homicidal variants below
@@ -301,6 +333,14 @@ diplomatic_stance = {
 		potential = {
 			OR = {
 				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
 				is_country_type = awakened_fallen_empire
 			}
 			is_homicidal = no
@@ -333,6 +373,14 @@ diplomatic_stance = {
 		potential = {
 			OR = {
 				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
 				is_country_type = awakened_fallen_empire
 			}
 			OR = {
@@ -384,6 +432,14 @@ diplomatic_stance = {
 				is_country_type = awakened_fallen_empire
 				is_country_type = awakened_marauders
 				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
 			}
 			NOT = { has_valid_civic = civic_inwards_perfection }
 		}
@@ -393,7 +449,17 @@ diplomatic_stance = {
 
 			OR = {
 				has_tradition = tr_supremacy_finish
-				NOT = { is_country_type = default }
+				NOR = { 
+					is_country_type = default
+					is_country_type = human
+					is_country_type = chaos
+					is_country_type = necron
+					is_country_type = tau
+					is_country_type = eldar
+					is_country_type = darkeldar
+					is_country_type = ork
+					is_country_type = tyranid
+				}
 			}
 			is_subject = no
 		}
@@ -482,7 +548,17 @@ diplomatic_stance = {
 				any_relation = {
 					has_communications = root
 					has_policy_flag = diplo_stance_supremacist
-					is_country_type = default
+					OR = {
+						is_country_type = default
+						is_country_type = human
+						is_country_type = chaos
+						is_country_type = necron
+						is_country_type = tau
+						is_country_type = eldar
+						is_country_type = darkeldar
+						is_country_type = ork
+						is_country_type = tyranid
+					}
 					is_subject = no
 					relative_power = {
 						who = root
@@ -495,7 +571,17 @@ diplomatic_stance = {
 				factor = 0.25
 				any_neighbor_country = {
 					has_communications = root
-					is_country_type = default
+					OR = {
+						is_country_type = default
+						is_country_type = human
+						is_country_type = chaos
+						is_country_type = necron
+						is_country_type = tau
+						is_country_type = eldar
+						is_country_type = darkeldar
+						is_country_type = ork
+						is_country_type = tyranid
+					}
 					is_subject = no
 					relative_power = {
 						who = root
@@ -614,6 +700,14 @@ war_philosophy = {
 	potential = {
 		OR = {
 			is_country_type = default
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
 			is_country_type = fallen_empire
 			is_country_type = awakened_fallen_empire
 		}
@@ -773,7 +867,17 @@ war_philosophy = {
 
 war_doctrine = {
 	potential = {
-		is_country_type = default
+		OR = {
+			is_country_type = default
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
+		}
 		has_tradition = tr_supremacy_finish
 	}
 
@@ -866,6 +970,14 @@ orbital_bombardment = {
 	potential = {
 		OR = {
 			is_country_type = default
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
 			is_country_type = vol
 		}
 	}
@@ -1458,7 +1570,17 @@ border_policy = {
 		}
 
 		valid = {
-			is_country_type = default
+			OR = {
+				is_country_type = default
+				is_country_type = human
+				is_country_type = chaos
+				is_country_type = necron
+				is_country_type = tau
+				is_country_type = eldar
+				is_country_type = darkeldar
+				is_country_type = ork
+				is_country_type = tyranid
+			}
 			NOR = {
 				has_valid_civic = civic_machine_terminator
 				has_valid_civic = civic_hive_devouring_swarm
@@ -2118,7 +2240,17 @@ pre_sapients = {
 			factor = 5
 			modifier = {
 				factor = 0
-				is_country_type = default
+				OR = {
+					is_country_type = default
+					is_country_type = human
+					is_country_type = chaos
+					is_country_type = necron
+					is_country_type = tau
+					is_country_type = eldar
+					is_country_type = darkeldar
+					is_country_type = ork
+					is_country_type = tyranid
+				}
 				NOR = {
 					has_ethic = "ethic_xenophobe"
 					has_ethic = "ethic_fanatic_xenophobe"
@@ -2138,7 +2270,17 @@ pre_sapients = {
 refugees = {
 	potential = {
 		has_encountered_other_species = yes
-		is_country_type = default
+		OR = {
+			is_country_type = default
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
+		}
 		OR = {
 			NOT = { has_ethic = "ethic_gestalt_consciousness" }
 			has_valid_civic = civic_machine_servitor

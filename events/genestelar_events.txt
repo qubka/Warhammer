@@ -184,7 +184,7 @@ planet_event = {
 			random_pop = { kill_pop = yes }
 		}
 		create_leader = {
-			type = admiral
+			class = admiral
 			species = event_target:tyranid_hive_species
 			name = random
 			skill = 5000

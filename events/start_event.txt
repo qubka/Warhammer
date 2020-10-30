@@ -9,6 +9,7 @@ event = {
 		every_country = {
 			if = {
 				limit = { has_country_flag = human_empire }
+				set_country_type = human
 				country_event = { id = relations.1 }
 				country_event = { id = buildings.1 }
 				country_event = { id = alliances.1 }
@@ -17,6 +18,7 @@ event = {
 			}
 			else_if = {
 				limit = { has_country_flag = chaos_empire }
+				set_country_type = chaos
 				country_event = { id = relations.2 }
 				country_event = { id = buildings.2 }
 				country_event = { id = armies.2 }
@@ -24,6 +26,7 @@ event = {
 			}
 			else_if = {
 				limit = { has_country_flag = necron_empire }
+				set_country_type = necron
 				country_event = { id = relations.3 }
 				country_event = { id = buildings.3 }
 				country_event = { id = armies.3 }
@@ -31,6 +34,7 @@ event = {
 			}
 			else_if = {
 				limit = { has_country_flag = tau_empire }
+				set_country_type = tau
 				country_event = { id = relations.4 }
 				country_event = { id = buildings.4 }
 				country_event = { id = armies.4 }
@@ -38,6 +42,7 @@ event = {
 			}
 			else_if = {
 				limit = { has_country_flag = eldar_empire }
+				set_country_type = eldar
 				country_event = { id = relations.5 }
 				country_event = { id = buildings.5 }
 				country_event = { id = armies.5 }
@@ -45,6 +50,7 @@ event = {
 			}
 			else_if = {
 				limit = { has_country_flag = darkeldar_empire }
+				set_country_type = darkeldar
 				country_event = { id = relations.6 }
 				country_event = { id = buildings.6 }
 				country_event = { id = armies.6 }
@@ -52,6 +58,7 @@ event = {
 			}
 			else_if = {
 				limit = { has_country_flag = ork_empire }
+				set_country_type = ork
 				country_event = { id = relations.7 }
 				country_event = { id = buildings.7 }
 				country_event = { id = armies.7 }

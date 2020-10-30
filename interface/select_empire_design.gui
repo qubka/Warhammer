@@ -120,7 +120,7 @@ guiTypes = {
 			font = "malgun_goth_24"
 			text = "BACK_TO_MENU_GAMEPAD_INDICATOR"
 		}
-
+		
 		instantTextBoxType = {
 			name = "next_button_gamepad_indicator"
 			format = right
@@ -256,10 +256,144 @@ guiTypes = {
 	containerWindowType = {
 		name = "user_empire_design_entry"
 		size = { width = 0 height = 0 }
+
+		background = {
+			name = "bg"
+			spriteType = "GFX_tiles_user_created"
+			clicksound = select_click
+		}
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			background = {
+				name = "selected_bg"
+				spriteType = "GFX_glow_tile_orange"
+				alwaysTransparent = yes
+			}
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 0
+			maxHeight = 0
+			fixedsize = yes
+			text =	 "NAME"
+			format = left
+			alwaysTransparent = yes
+			text_color_code = "H"
+		}
+		instantTextBoxType = {
+			name = "government"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 0
+			maxHeight = 0
+			fixedsize = yes
+			text =	 "GOVERNMENT"
+			format = left
+			alwaysTransparent = yes
+			#text_color_code = "H"
+		}
+		instantTextBoxType = {
+			name = "species_class"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 0
+			maxHeight = 0
+			fixedsize = yes
+			text =	 "SPECIES_CLASS"
+			format = left
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+		iconType = {
+			name = "portrait"
+			quadTextureSprite = "GFX_portrait_character"
+			position = { x =0 y = 0 }
+			scale = 0
+			alwaysTransparent = yes
+		}
+		buttonType={
+			name = "spawn_setting"
+			spriteType = "GFX_button_empire_spawn_setting"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+			tooltip_mode_enabled = yes
+		}
 	}
 
 	containerWindowType = {
 		name = "user_empire_design_entry_narrow"
 		size = { width = 0 height = 0 }
+
+		background = {
+			name = "bg"
+			spriteType = "GFX_tiles_user_created"
+		}
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			background = {
+				name = "selected_bg"
+				spriteType = "GFX_glow_tile_orange"
+				alwaysTransparent = yes
+			}
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 0
+			maxHeight = 0
+			fixedsize = yes
+			text =	 "NAME"
+			format = left
+			alwaysTransparent = yes
+			text_color_code = "H"
+		}
+		instantTextBoxType = {
+			name = "government"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 0
+			maxHeight = 0
+			fixedsize = yes
+			text =	 "GOVERNMENT"
+			format = left
+			alwaysTransparent = yes
+			#text_color_code = "H"
+		}
+		instantTextBoxType = {
+			name = "species_class"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 0
+			maxHeight = 0
+			fixedsize = yes
+			text =	 "SPECIES_CLASS"
+			format = left
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+		iconType = {
+			name = "portrait"
+			quadTextureSprite = "GFX_portrait_character"
+			position = { x = 0 y = 0 }
+			scale = 0
+			alwaysTransparent = yes
+		}
+		buttonType={
+			name = "spawn_setting"
+			spriteType = "GFX_button_empire_spawn_setting"
+			orientation = upper_left
+			position = { x = 0 y = 0 }
+			scale = 0
+			tooltip_mode_enabled = yes
+		}
 	}
 }

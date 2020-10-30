@@ -5,6 +5,7 @@ on_game_start = {
 		relics.1
 		leaders.1
 		planets.1
+		contacts.1
 		marauder.999
 	}
 }

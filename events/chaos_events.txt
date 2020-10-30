@@ -144,7 +144,7 @@ planet_event = {
 			}					
 		}
 		create_leader = {
-			type = admiral
+			class = admiral
 			species = event_target:chaos_warp_species
 			name = random
 			skill = 5000
@@ -237,8 +237,8 @@ planet_event = {
 	location = ROOT
 	
 	immediate = {
-		destroy_colony = { keep_buildings = yes }
 		change_pc = pc_nuked
+		destroy_colony = yes
 	}
 }
 
@@ -402,7 +402,7 @@ planet_event = {
 			}					
 		}
 		create_leader = {
-			type = admiral
+			class = admiral
 			species = event_target:chaos_warp_species
 			name = random
 			skill = 5000

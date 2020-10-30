@@ -1780,7 +1780,7 @@
  tech_warpath_desc:0 ""
  tech_zzap:0 "Zzap"
  tech_zzap_desc:0 ""
- tech_frenzy:0 "Frenzy
+ tech_frenzy:0 "Frenzy"
  tech_frenzy_desc:0 ""
  
  # TYR
@@ -4826,8 +4826,8 @@
  r_abaddons_grace_desc:0 "Adorned with the skulls of the vanquished, this weapon automatically enhances its ammunition to flaming 'tracer' rounds when used in sustained fire. Calling a weapon 'Abaddon’s Grace', is asking for one of two possible outcomes—one, you have crafted an incredibly fearsome and powerful weapon that will be adopted across the universe as an implement of terror and destruction."
  r_apollo_pattern_plasma_gun:0 "Apollo Pattern Plasma Gun"
  r_apollo_pattern_plasma_gun_desc:0 "Plasma gun is a generic term for a two-handed, rifle-like, plasma based weapon used by the forces of the Imperium as well as Chaos in a support role. An uncommon weapon, even in the ranks of the Imperial Guard or Adeptus Astartes, most extant plasma guns are hundreds if not thousands of years old."
- r_deathlock_cestus_powerfist skin:0 "Deathlock Cestus Powerfist Skin"
- r_deathlock_cestus_powerfist skin_desc:0 "The Power fist is a standard Chaos Space Marine armament that is as devastating in combat as it is impressive to behold. Able to rend and tear through armour, vehicles, and walls alike, the only disadvantage to the weapon (if it can be considered one) is the comparative speed, next to other power weapons (blades, axes, etc). Anyone, or anything, caught in the grasp of this particular variation will find the not only the razor sharp fingers, but the wicked spikes that line the palm for extra injury."
+ r_deathlock_cestus_powerfist_skin:0 "Deathlock Cestus Powerfist Skin"
+ r_deathlock_cestus_powerfist_skin_desc:0 "The Power fist is a standard Chaos Space Marine armament that is as devastating in combat as it is impressive to behold. Able to rend and tear through armour, vehicles, and walls alike, the only disadvantage to the weapon (if it can be considered one) is the comparative speed, next to other power weapons (blades, axes, etc). Anyone, or anything, caught in the grasp of this particular variation will find the not only the razor sharp fingers, but the wicked spikes that line the palm for extra injury."
  r_fleshmetal_shell:0 "Fleshmetal Shell"
  r_fleshmetal_shell_desc:0 "The gifted favoured armor is empowered by Khorne, fusing it with their flesh."
  r_hell_breach_plasmacannon:0 "Hell Breach Plasmacannon"

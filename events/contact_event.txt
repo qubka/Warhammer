@@ -3,13 +3,13 @@ namespace = contacts
 event = {
 	id = contacts.1
 	hide_window = yes
-	is_triggered_only = yes
+	fire_only_once = yes
 	
 	immediate = {
 		every_country = {
 			save_event_target_as = root_faction
 			every_country = {
-				establish_contact = { who = event_target:root_faction }
+				establish_communications_no_message = event_target:root_faction
 			}
 		}
 	}
