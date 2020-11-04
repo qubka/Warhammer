@@ -5101,3 +5101,21 @@
  IGNORE:0 "Ignore!"
  CANT:0 "We can't do this!"
  ONLY_SOLUTION:0 "Only solution"
+ 
+ ####################################
+ # Casus Belli & War Goals
+ ####################################
+ casus_belli_cb_there_is_only_war:0 "There is only War"
+ war_goal_wg_there_is_only_war:0 "Victory or Death!"
+ war_goal_wg_there_is_only_war_desc:0 "This targed must be destroyed with maximun forcefulness. On this grim future, there is only War!"
+ war_goal_wg_there_is_only_war_defender:0 "Victory or Death!"
+ war_goal_wg_there_is_only_war_defender_desc:0 "They're triying to annihilate us! They won't mind if we annihilate them first"
+ casus_belli_cb_conquest:0 "Conquest"
+ war_goal_wg_conquest_warhammer:0 "Take our claims"
+ war_goal_wg_conquest_warhammer_desc:0 "We will take whatever rightfully belong to us!"
+ casus_belli_cb_border_friction:0 "Border Friction"
+ war_goal_wg_border_friction:0 "Unprovoked Assault" 
+ war_goal_wg_border_friction_desc:0 "We can push these border 'incidents' to take some land, but our people won't see it rightful"
+ war_goal_wg_border_friction_defender:0 "Push'em back!" 
+ war_goal_wg_border_friction_defender_desc:0 "We won't let them take our land, we will counterattack and punish them!"
+ 
