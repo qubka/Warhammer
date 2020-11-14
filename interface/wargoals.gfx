@@ -1,0 +1,35 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_there_is_only_war"
+		texturefile = "gfx/wargoals/imperial_wargoal.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_there_is_only_war_defender"
+		texturefile = "gfx/wargoals/imperial_wargoal.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_conquest_warhammer"
+		texturefile = "gfx/wargoals/imperial_wargoal.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_border_friction"
+		texturefile = "gfx/wargoals/imperial_wargoal.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_border_friction_defender"
+		texturefile = "gfx/wargoals/imperial_wargoal.dds"
+	}
+}
+

@@ -1,0 +1,77 @@
+cb_conquest = {
+	show_in_diplomacy = yes
+	show_notification = no
+	potential = {
+		OR = {
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron			
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
+
+		}
+		NOT = { is_in_federation_with = from }
+	}
+	is_valid = {
+		has_claim = FROM
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+	}
+}
+
+cb_border_friction = {
+	show_in_diplomacy = yes
+	show_notification = no
+	potential = {
+		OR = {
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron			
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
+			
+		}
+		NOT = { is_in_federation_with = from }
+	}
+	is_valid = {
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+	}
+}
+
+cb_there_is_only_war = {
+	show_in_diplomacy = no
+	show_notification = no
+	potential = {
+		OR = {
+			is_country_type = human
+			is_country_type = chaos
+			is_country_type = necron			
+			is_country_type = tau
+			is_country_type = eldar
+			is_country_type = darkeldar
+			is_country_type = ork
+			is_country_type = tyranid
+
+		}
+	}
+	is_valid = {
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+	}
+}
