@@ -1350,7 +1350,7 @@ trait_short_lived = {
 	}
 }
 
-trait_berserk_wwhile_unlinked = {
+trait_berserk_while_unlinked = {
 	cost = 0
 	potential_crossbreeding_chance = 1.0
 	unemployment_resources_energy_upkeep_add = 1
